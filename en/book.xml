@@ -42,9 +42,18 @@
         </legalnotice>
     </bookinfo>
 
-    <chapter id="introduction">
-        <title>Introduction</title>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/introduction.xml" />
+    <chapter id="upgrade-to-otrs-business-solution">
+        <title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
         <para>
+            How to upgrade, update, and downgrade...
         </para>
     </chapter>
+    <chapter id="otrs-business-solution-features">
+        <title>Features of <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
+    </chapter>
+
+
 </book>

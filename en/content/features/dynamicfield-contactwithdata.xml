@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="dynamic-field-contact-with-data">
+    <title>DynamicField "Contact With Data"</title>
+
+    <para>
+        This feature allows to add contacts with data to tickets.
+    </para>
+
+    <section>
+        <title>Description</title>
+        <section>
+            <title>Definition of data sources</title>
+            <para>
+                Using a new DynamicField type any number of DynamicFields can be created, each of which is an individual data source for contacts with data.
+            </para>
+            <para>
+                Within any data source a number of available fields with key and value can be defined and a sort order, required fields and searchable fields can be configured.
+            </para>
+        </section>
+        <section>
+            <title>Contact management</title>
+            <para>
+                Via a new menu module any number of contacts can be created and managed for every data source.
+            </para>
+            <para>
+                For these contacts the configured attributes within the respective data source can be used.
+            </para>
+        </section>
+        <section>
+            <title>Adding contacts to tickets</title>
+            <para>
+                For every configured DynamicField one of the created contacts can be selected and assigned to a ticket.
+            </para>
+            <para>
+                The contact attributes will be shown in the ticket zoom.
+            </para>
+        </section>
+        <section>
+            <title>Usage of contacts in search and statistics</title>
+            <para>
+                Tickets can be confined in search and statistics via the required attribute 'Name'.
+            </para>
+            <para>
+                The name can also be returned as a field.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Configuration</title>
+        <para>
+            The following list of configuration options can be changed for this feature.
+        </para>
+        <section>
+            <title><literal>AdminContactWithData::RunInitialWildcardSearch</literal></title>
+            <para>Group: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData</para>
+            <para>
+                Defines if a search with placeholder should be executed when initially calling the contact management.
+            </para>
+        </section>
+        <section>
+            <title><literal>Frontend::Module###AdminContactWithData</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration</para>
+            <para>
+                Allows to distribute contact and contact detail management permissions via group definition.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Usage</title>
+        <para>
+            An exemplary usage of contacts with data is as follows:
+        </para>
+        <para>
+            <itemizedlist mark="round">
+                <listitem>
+                    <para>
+                        Creating a dynamic field of type 'Contact with data' and configuring the field for desired ticket modules.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Setting possible contact attributes for the new field as well as noting which fields should be required, which fields should be usable for searching of contacts and the display order of the fields. The attributes 'Name' and 'ValidID' are always necessary.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Adding and if necessary modifying contacs of the new field via 'Tickets' -> 'Edit contacts with data'
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Calling a ticket mask which is configured for the new field.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Selecting an existing contact using autocomplete and choosing a contact.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        The assigned contact and its attributes will be shown in the ticket zoom.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Should contact attributes be modified, the link below the attributes can be used (if permissions are set).
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        If necessary, a different contact can be assigned to the ticket via ticket masks.
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </para>
+    </section>
+
+    <!-- for internal use, don't generate
+    <chapter>
+        <title>Technical Implementation Details</title>
+        <para>
+            Via a new DynamicField admin module the configuration of contacts will be managed and stored in the DynamicField configuration.
+        </para>
+        <para>
+            The configured contact are read from the DynamicField configuration via an admin module and changes are stored there as well.
+        </para>
+        <para>
+            Within the ticket only the internal contact id as well as the content of the field 'Name' will be stored.
+        </para>
+        <para>
+            Autocomplete functionality for setting the contact and display of contact attributes is provided by an output filter in order to prevent changes to framework files.
+        </para>
+    </chapter>
+    -->
+
+</section>
