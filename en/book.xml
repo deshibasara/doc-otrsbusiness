@@ -51,6 +51,9 @@
     </chapter>
     <chapter id="otrs-business-solution-features">
         <title>Features of <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-timeline-view.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
     </chapter>

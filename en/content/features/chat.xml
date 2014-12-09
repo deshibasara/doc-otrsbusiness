@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="dynamic-field-contact-with-data">
+    <title>Chat</title>
+
+    <para>
+        ...
+    </para>
+
+    <section>
+        <title>Description</title>
+        <para>
+            ...
+        </para>
+    </section>
+
+    <section>
+        <title>Configuration</title>
+        <para>
+            ...
+        </para>
+    </section>
+
+    <section>
+        <title>Usage</title>
+        <para>
+            ...
+        </para>
+    </section>
+
+    <!-- for internal use, don't generate
+    <chapter>
+        <title>Technical Implementation Details</title>
+        <para>
+            ...
+        </para>
+    </chapter>
+    -->
+
+</section>
