@@ -209,7 +209,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/AdminOverview.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/AdminOverview.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -315,7 +315,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/SearchFieldEmpty.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -326,7 +326,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/SearchFieldAutoCompletion.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -336,7 +336,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/SearchFieldSelected.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/SearchFieldSelected.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -357,7 +357,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/DetailedSearchMask.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/DetailedSearchMask.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -373,7 +373,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/DetailedSearchResult.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/DetailedSearchResult.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
@@ -390,7 +390,7 @@
 
                 <mediaobject>
                     <imageobject>
-                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="../../screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png" format="PNG"/>
+                        <imagedata scalefit="1" width="100%" contentdepth="100%" fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png" format="PNG"/>
                     </imageobject>
                 </mediaobject>
             </para>
