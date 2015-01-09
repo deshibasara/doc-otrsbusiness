@@ -5,29 +5,83 @@
 <section id="chat">
     <title>Chat</title>
 
-    <para>
-        ...
-    </para>
-
     <section>
         <title>Description</title>
         <para>
-            ...
+            The chat feature of <emphasis role="bold">OTRS Business Solution</emphasis>™ allows for chats between agents and customers using the OTRS frontend. Once enabled, customers (or public users) can start chats with agents and vice versa. Finished chats can be archived and attached to tickets.
         </para>
     </section>
 
     <section>
         <title>Configuration</title>
         <para>
-            ...
+            The following configuration options are relevant for this feature. Please note that you can also define a list of fixed texts which are being displayed to public users and customers in the chat module. For more information on which texts can be changed, please have a look at the module configuration (OTRSBusiness &gt; Core::Chat).
         </para>
+        <section>
+            <title><literal>ChatEngine::Active</literal></title>
+            <para>Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Controls whether or not the chat feature is enabled.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::PublicToAgent</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Controls whether or not public users should be able to start chats (please note that the frontend module configuration for the public chat frontend in <literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, too).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::CustomerToAgent</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Controls whether or not customers should be able to start chats (please note that the frontend module configuration for the customer chat frontend in <literal>CustomerFrontend::Module###CustomerChat</literal> has to be enabled, too).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::AgentToCustomer</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Controls whether or not agents should be able to start chats with customers directly.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::AgentToAgent</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Controls whether or not agents should be able chat with eachother.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which do receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::DefaultAgentName</literal></title>
+            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
+            <para>
+                A default name which should be displayed to customers and public users instead of the real name of the chatting agents. If empty or disabled, the real agent name will be shown.
+            </para>
+        </section>
     </section>
 
     <section>
         <title>Usage</title>
-        <para>
-            ...
-        </para>
+        <section>
+            <title>The chat manager</title>
+            <para>
+                <screenshot>
+                    <screeninfo>DynamicField Database Admin screen</screeninfo>
+                    <graphic srccredit="Chat manager - screenshot" scale="40" fileref="screenshots/chat/ChatManager.png"></graphic>
+                </screenshot>                
+            </para>
+            <para>
+                The chat manager is the central point of the chat feature. As an agent, here you can manage your chats, see and accept open requests and change your chat availability status.
+            </para>
+        </section>
     </section>
 
     <!-- for internal use, don't generate
