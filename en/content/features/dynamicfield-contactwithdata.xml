@@ -14,37 +14,70 @@
         <section>
             <title>Definition of data sources</title>
             <para>
-                Using a new DynamicField type any number of DynamicFields can be created, each of which is an individual data source for contacts with data.
+                The data sources for this feature reside on the Dynamic Fields of the new 'Contact
+                with data' type, this mean that each Dynamic Field of this type is a new data
+                source. The name of the dynamic field will become the name of the data source, as
+                they are both the same.
             </para>
             <para>
-                Within any data source a number of available fields with key and value can be defined and a sort order, required fields and searchable fields can be configured.
+                For each data source (Dynamic Field) a list of contact attributes can be defined
+                (each attribute can contain only one text based value), the contact attributes can
+                be set as mandatory  and searchable if needed, The sort order of the attributes can
+                be also defined.
             </para>
+            <para>
+                Contact attributes for each data source could contain any information about the
+                contact as needed as different addresses, telephone, birthday, anniversaries,
+                favorite food, hobbies, etc.
+            </para>
+            <note>
+                <para>
+                    The attributes 'Name' and 'ValidID' are always mandatory and they are not
+                    automatically added, so for each new data source this attributes must be added
+                    manually.
+                </para>
+                <para>
+                    Within the data source definition (or Dynamic Field configuration) they must be
+                    represented by the keys 'Name' and 'ValidID' respectively while the values could
+                    be 'Name' and 'Validity' for example.
+                </para>
+            </note>
         </section>
         <section>
             <title>Contact management</title>
             <para>
-                Via a new menu module any number of contacts can be created and managed for every data source.
+                After having at least one data source (Contact with data Dynamic Field) defined,
+                contacts information can be added to the source to populate it.
             </para>
             <para>
-                For these contacts the configured attributes within the respective data source can be used.
+                Apart from the Name and the ValidID, each data source could contain different
+                contact information as defined by the data source (e.g. a data source could have an
+                E-mail field while another could contain Telephone and/or Mobile fields).
+            </para>
+            <para>
+                The management (adding or updating) contact for the data sources is done by an
+                special screen that can be called form the Ticket menu (Edit contacts with data) in
+                the main navigation bar.
             </para>
         </section>
         <section>
             <title>Adding contacts to tickets</title>
             <para>
-                For every configured DynamicField one of the created contacts can be selected and assigned to a ticket.
+                For each configured contact with data dynamic field, a contact created specifically
+                for this dynamic  field (or data source) can be chosen from any ticket create or
+                ticket action screen where the dynamic filed has been previously configured.
             </para>
             <para>
-                The contact attributes will be shown in the ticket zoom.
+                The contact attributes will be shown in the ticket zoom screen.
             </para>
         </section>
         <section>
             <title>Usage of contacts in search and statistics</title>
             <para>
-                Tickets can be confined in search and statistics via the required attribute 'Name'.
+                Tickets can be found in search and statistics via the required attribute 'Name'.
             </para>
             <para>
-                The name can also be returned as a field.
+                The 'Name' can also be returned as a field value.
             </para>
         </section>
     </section>
@@ -75,50 +108,99 @@
         <para>
             An exemplary usage of contacts with data is as follows:
         </para>
-        <para>
-            <itemizedlist mark="round">
-                <listitem>
-                    <para>
-                        Creating a dynamic field of type 'Contact with data' and configuring the field for desired ticket modules.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Setting possible contact attributes for the new field as well as noting which fields should be required, which fields should be usable for searching of contacts and the display order of the fields. The attributes 'Name' and 'ValidID' are always necessary.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Adding and if necessary modifying contacs of the new field via 'Tickets' -> 'Edit contacts with data'
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Calling a ticket mask which is configured for the new field.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Selecting an existing contact using autocomplete and choosing a contact.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        The assigned contact and its attributes will be shown in the ticket zoom.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Should contact attributes be modified, the link below the attributes can be used (if permissions are set).
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        If necessary, a different contact can be assigned to the ticket via ticket masks.
-                    </para>
-                </listitem>
-            </itemizedlist>
-        </para>
+        <orderedlist>
+            <listitem>
+                <para>
+                    Create a new dynamic field of type 'Contact with data'.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Set the possible contact attributes (possible values). Name and ValidID are
+                    required for any Contact with data Dynamic Field
+                </para>
+                <itemizedlist mark="round">
+                    <listitem>
+                        <para>
+                            Add 'Name' attribute (Key: Name, Value: 'Name').
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Add 'ValidID' attribute (Key: Name, Value: 'Validity').
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Add any other attribute such as 'Telphone' attribute (Key:
+                            Telephone, Value: 'Phone').
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>
+                    Add the list of mandatory attribute keys comma separated (Name and ValidID
+                    are not needed).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Set the attribute key order list comma separated as: Name,Telephone,ValidID.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Add the list of searchable attribute keys comma separated (Name is not
+                    needed).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Populated the data source by adding at least one contact in the new created
+                    data source 'Tickets' -> 'Edit contacts with data' from the main navigation
+                    bar.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Add the new dynamic field to the screens configuration where it should be
+                    shown for example in New Phone Ticket screen by updating the SysConfig
+                    setting: Ticket::Frontend::AgentTicketPhone###DynamicField and do the same
+                    for Ticket::Frontend::AgentTicketZoom###DynamicField.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Go to New phone ticket screen, and notice that the new field is there,
+                    add all ticket needed information.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Select an existing contact using autocomplete and choosing a contact.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    The assigned contact and its attributes will be shown in the ticket zoom.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    It is possible to update the attributes of the contact by clicking the 'Edit
+                    contact data' button that appears in the right side of the title of the
+                    contact data box (if the current user is a member of the groups defined
+                    in SysConfig setting Frontend::Module###AdminDynamicFieldContactWithData).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    If is necessary to change the contact for this ticket, it can be done via
+                    any other ticket action where the dynamic field is configured for display.
+                </para>
+            </listitem>
+        </orderedlist>
     </section>
 
     <!-- for internal use, don't generate
