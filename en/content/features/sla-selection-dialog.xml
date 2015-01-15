@@ -8,22 +8,43 @@
     <section>
         <title>Description</title>
         <para>
-            ...
+            The field selection dialog enables you to configure popup messages customers should see when they select specific SLAs on ticket creation on the customer frontend. These popup messages could contain information about the SLA the customer is about to select and to give them the possibility to re-think their decision.
         </para>
     </section>
 
     <section>
         <title>Configuration</title>
         <para>
-            ...
+            No further configuration needed.
         </para>
     </section>
 
     <section>
         <title>Usage</title>
-        <para>
-            ...
-        </para>
+        <section>
+            <title>Configuring the SLA message</title>
+            <para>
+                <screenshot>
+                    <screeninfo>SLA configuration</screeninfo>
+                    <graphic srccredit="SLA configuration - screenshot" scale="160" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
+                You can configure the message on each SLA by using the SLA administration screen.
+            </para>
+        </section>
+        <section>
+            <title>How the message looks in the customer frontend</title>
+            <para>
+                <screenshot>
+                    <screeninfo>SLA message</screeninfo>
+                    <graphic srccredit="SLA selection - screenshot" scale="160" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
+                This is what the customer will see once he selects the SLA this message is configured for. He can either confirm or deny his selection, the latter one will reset the SLA selection afterwards.
+            </para>
+        </section>
     </section>
 
 </section>
