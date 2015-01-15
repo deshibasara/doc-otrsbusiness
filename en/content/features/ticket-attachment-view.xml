@@ -3,40 +3,42 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="ticket-attachment-view">
-    <title>Attachment View for Tickets</title>
-
-    <para>
-        ...
-    </para>
+    <title>The Article Attachment Overview</title>
 
     <section>
         <title>Description</title>
         <para>
-            ...
+            The article attachment overview enables you to view a list of all attachments of a ticket. Attachments will be listed by attributes such as file name, file type, file size, date of addition and which article they belong to. From the overview screen, you can download certain attachments or create an archive file which contains multiple or all attachments of the ticket you're viewing.
         </para>
     </section>
 
     <section>
         <title>Configuration</title>
         <para>
-            ...
+            No further configuration needed.
         </para>
     </section>
 
     <section>
         <title>Usage</title>
-        <para>
-            ...
-        </para>
+        <section>
+            <title>Accessing the article attachment overview</title>
+            <para>
+                <screenshot>
+                    <screeninfo>Switching to the article attachment overview</screeninfo>
+                    <graphic srccredit="Article attachment navigation item - screenshot" scale="40" fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic>
+                </screenshot>
+            </para>
+            <para>
+                Once a ticket has at least one attachment, the "Attachments" menu item will be displayed in AgentTicketZoom. Clicking it will open a popup which contains a list of all attachments.
+            </para>
+            <para>
+                <screenshot>
+                    <screeninfo>Using the article attachment overview</screeninfo>
+                    <graphic srccredit="Article attachment overview - screenshot - screenshot" scale="160" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
+                </screenshot>
+            </para>
+        </section>
     </section>
-
-    <!-- for internal use, don't generate
-    <chapter>
-        <title>Technical Implementation Details</title>
-        <para>
-            ...
-        </para>
-    </chapter>
-    -->
 
 </section>

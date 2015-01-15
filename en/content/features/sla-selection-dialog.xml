@@ -3,11 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="sla-selection-dialog">
-    <title>SLA Selection Dialog</title>
-
-    <para>
-        ...
-    </para>
+    <title>Field Selection Dialog</title>
 
     <section>
         <title>Description</title>
@@ -29,14 +25,5 @@
             ...
         </para>
     </section>
-
-    <!-- for internal use, don't generate
-    <chapter>
-        <title>Technical Implementation Details</title>
-        <para>
-            ...
-        </para>
-    </chapter>
-    -->
 
 </section>
