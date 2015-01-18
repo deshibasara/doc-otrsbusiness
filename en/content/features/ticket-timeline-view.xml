@@ -42,7 +42,7 @@
             <para>
                 <screenshot>
                     <screeninfo>Using the ticket timeline view</screeninfo>
-                    <graphic srccredit="Timeline view zoom - screenshot" scale="160" fileref="screenshots/timeline-view/TimelineViewZoom.png"></graphic>
+                    <graphic srccredit="Timeline view zoom - screenshot" scale="40" fileref="screenshots/timeline-view/TimelineViewZoom.png"></graphic>
                 </screenshot>
             </para>
         </section>

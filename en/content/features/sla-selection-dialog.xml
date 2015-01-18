@@ -26,7 +26,7 @@
             <para>
                 <screenshot>
                     <screeninfo>SLA configuration</screeninfo>
-                    <graphic srccredit="SLA configuration - screenshot" scale="160" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
+                    <graphic srccredit="SLA configuration - screenshot" scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
                 </screenshot>
             </para>
             <para>
@@ -38,7 +38,7 @@
             <para>
                 <screenshot>
                     <screeninfo>SLA message</screeninfo>
-                    <graphic srccredit="SLA selection - screenshot" scale="160" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
+                    <graphic srccredit="SLA selection - screenshot" scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
                 </screenshot>
             </para>
             <para>

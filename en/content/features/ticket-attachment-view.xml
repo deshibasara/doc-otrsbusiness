@@ -35,7 +35,7 @@
             <para>
                 <screenshot>
                     <screeninfo>Using the article attachment overview</screeninfo>
-                    <graphic srccredit="Article attachment overview - screenshot - screenshot" scale="160" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
+                    <graphic srccredit="Article attachment overview - screenshot - screenshot" scale="40" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
                 </screenshot>
             </para>
         </section>
