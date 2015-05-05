@@ -1,19 +1,19 @@
-# German translations for PACKAGE package
-# Copyright (C) 2014 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Automatically generated, 2014.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2014-12-19 09:29+0100\n"
-"PO-Revision-Date: 2014-12-19 09:29+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: de\n"
+"PO-Revision-Date: 2015-05-05 08:52+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Attribute 'lang' of: <book>
@@ -27,7 +27,7 @@ msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ Manual"
 msgstr ""
 
 #.         <edition>
-#. Cancún Beach (México)</edition> 
+#. Cancún Beach (México)</edition>
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:9
 msgid ""
@@ -52,12 +52,12 @@ msgid ""
 "Other trademarks and registered trademarks are: SUSE and YaST of SUSE Linux "
 "GmbH, Red Hat and Fedora are registered trademarks of Red Hat, Inc.  "
 "Mandrake is a registered trademark of MandrakeSoft, SA.  Debian is a "
-"registered trademark of Software in the Public Interest, Inc.  MySQL and the "
-"MySQL Logo are registered trademarks of Oracle Corporation and/or its "
+"registered trademark of Software in the Public Interest, Inc.  MySQL and the"
+" MySQL Logo are registered trademarks of Oracle Corporation and/or its "
 "affiliates.  All trade names are used without the guarantee for their free "
 "use and are possibly registered trade marks.  OTRS AG essentially follows "
-"the notations of the manufacturers.  Other products mentioned in this manual "
-"may be trademarks of the respective manufacturer."
+"the notations of the manufacturers.  Other products mentioned in this manual"
+" may be trademarks of the respective manufacturer."
 msgstr ""
 
 #. type: Content of: <book><chapter><title>
@@ -83,8 +83,8 @@ msgstr ""
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:9
 msgid ""
-"General information about <emphasis role=\"bold\">OTRS Business Solution</"
-"emphasis>™..."
+"General information about <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™..."
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -294,8 +294,8 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:87
 msgid ""
 "Setting possible contact attributes for the new field as well as noting "
-"which fields should be required, which fields should be usable for searching "
-"of contacts and the display order of the fields. The attributes 'Name' and "
+"which fields should be required, which fields should be usable for searching"
+" of contacts and the display order of the fields. The attributes 'Name' and "
 "'ValidID' are always necessary."
 msgstr ""
 
@@ -351,8 +351,8 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:18
 msgid ""
 "This feature implements a generic dynamic fieldtype, which offers the "
-"possibility to gather data from external databases.  Such connected datasets "
-"can be searched and filtered using additional masks."
+"possibility to gather data from external databases.  Such connected datasets"
+" can be searched and filtered using additional masks."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -365,8 +365,8 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:25
 msgid ""
-"'Database' dynamic fields can be created the same way default dynamic fields "
-"are created."
+"'Database' dynamic fields can be created the same way default dynamic fields"
+" are created."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -390,8 +390,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:43
 msgid ""
-"'Database' dynamic fields can be created the same way default dynamic fields "
-"are created. For this switch to the ADMIN -> Ticket Settings -> Dynamic "
+"'Database' dynamic fields can be created the same way default dynamic fields"
+" are created. For this switch to the ADMIN -> Ticket Settings -> Dynamic "
 "Fields view. In this mask you can select the 'Database' field from the "
 "ticket drop down box on the left side. Currently it's not possible to use "
 "the 'Database' dynamic field in the article context."
@@ -400,17 +400,17 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:47
 msgid ""
-"Configuration \"General - Name\": Dynamic fields of the type 'Database' need "
-"a unique name just like other dynamic fields, too. This name has to contain "
-"only alphanumeric values. This name will be used for internal handling of "
+"Configuration \"General - Name\": Dynamic fields of the type 'Database' need"
+" a unique name just like other dynamic fields, too. This name has to contain"
+" only alphanumeric values. This name will be used for internal handling of "
 "the field but will not be displayed."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:51
 msgid ""
-"Configuration \"General - Label\": The label can be individually set and can "
-"contain white spaces etc. It will be used as the field label in the "
+"Configuration \"General - Label\": The label can be individually set and can"
+" contain white spaces etc. It will be used as the field label in the "
 "different views."
 msgstr ""
 
@@ -419,8 +419,8 @@ msgstr ""
 msgid ""
 "Configuration \"General - Field order\": The field order allows a "
 "administrator to change the order of created dynamic fields. If this "
-"configuration get changed the general field order will be adjusted and other "
-"dynamic fields will be moved one position back."
+"configuration get changed the general field order will be adjusted and other"
+" dynamic fields will be moved one position back."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -445,9 +445,9 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:71
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/AdminOverview.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-database/AdminOverview.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -455,8 +455,8 @@ msgstr ""
 msgid ""
 "Before an external database can be searched and the results be saved at the "
 "ticket through the dynamic field, the credentials have to be stored in the "
-"configuration of the dynamic field.  <placeholder type=\"screenshot\" id="
-"\"0\"/>"
+"configuration of the dynamic field.  <placeholder type=\"screenshot\" "
+"id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -477,9 +477,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:84
 msgid ""
-"Driver: This option is only available for ODBC connections and will be shown "
-"or hidden automatically.  Within this option you enter the previously in the "
-"hostsystem configured ODBC driver to connect to the desired MSSQL database."
+"Driver: This option is only available for ODBC connections and will be shown"
+" or hidden automatically.  Within this option you enter the previously in "
+"the hostsystem configured ODBC driver to connect to the desired MSSQL "
+"database."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -533,16 +534,16 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:115
 msgid ""
-"CacheTTL: This value defines the period of validity of the database cache in "
-"seconds. Equal queries to the database will be answered through the cache "
+"CacheTTL: This value defines the period of validity of the database cache in"
+" seconds. Equal queries to the database will be answered through the cache "
 "(local filesystem) within this period instead of asking the database again."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:119
 msgid ""
-"Searchprefix: This value will be put in the front of every search term while "
-"using the autocompletion to search the database. Wildcard characters are "
+"Searchprefix: This value will be put in the front of every search term while"
+" using the autocompletion to search the database. Wildcard characters are "
 "supported as well. The searchprefix will be ignored during the detailed "
 "search, but it is still possible to use wilcard characters in those masks."
 msgstr ""
@@ -567,8 +568,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:133
 msgid ""
-"Case Sensitive: If this field is selected, case-sensitivity will take effect "
-"on searches."
+"Case Sensitive: If this field is selected, case-sensitivity will take effect"
+" on searches."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -637,8 +638,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:170
 msgid ""
-"Dynamic fields of type 'Database' have to be activated for the several masks "
-"in which they should be displayed like the other types of dynamic fields."
+"Dynamic fields of type 'Database' have to be activated for the several masks"
+" in which they should be displayed like the other types of dynamic fields."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -674,12 +675,12 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:191
 msgid ""
-"In each of these view configurations is a entry called \"Ticket::Frontend::"
-"AgentTicket*###DynamicField\".  This configuration defines which dynamic "
-"field(s) should get displayed in this view. To add a dynamic field the "
-"internal name of the field has to be filled in the 'Key' field. The field "
-"'Value' can take the values 0 (deactivated), 1 (active) and 2 (active and "
-"mandatory)."
+"In each of these view configurations is a entry called "
+"\"Ticket::Frontend::AgentTicket*###DynamicField\".  This configuration "
+"defines which dynamic field(s) should get displayed in this view. To add a "
+"dynamic field the internal name of the field has to be filled in the 'Key' "
+"field. The field 'Value' can take the values 0 (deactivated), 1 (active) and"
+" 2 (active and mandatory)."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -695,17 +696,18 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:205
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/SysConfigStoreHistoricalData.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/SysConfigStoreHistoricalData.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:201
 msgid ""
 "This feature offers a functionality to store historical data. For this to "
-"work it´s necessary to activate and set SysConfig options, as visibly in the "
-"following screenshot: <placeholder type=\"screenshot\" id=\"0\"/>"
+"work it´s necessary to activate and set SysConfig options, as visibly in the"
+" following screenshot: <placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -714,8 +716,8 @@ msgid ""
 "In the configuration option for the \"SourceDynamicField\" it´s needed to "
 "fill in the already created dynamic (Database) field name, which will be "
 "used to gather the historical data. In the related option "
-"\"TargetDynamicField\" the field(s) \"Key\" have to be filled with the table "
-"columns of the connected external database, which will be readout.  For "
+"\"TargetDynamicField\" the field(s) \"Key\" have to be filled with the table"
+" columns of the connected external database, which will be readout.  For "
 "every column the related target dynamic field has to be configured in the "
 "field \"content\". The gathered data will be saved in these dynamic fields."
 msgstr ""
@@ -823,16 +825,17 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:289
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/SearchFieldEmpty.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/SearchFieldEmpty.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:282
 msgid ""
-"After the created dynamic fields are activated in the well known masks (like "
-"ViewPhoneNew, ViewEmailNew) a new textfield appears with the name, the "
+"After the created dynamic fields are activated in the well known masks (like"
+" ViewPhoneNew, ViewEmailNew) a new textfield appears with the name, the "
 "dynamic field got in the configuration.  In this field it is possible to "
 "input searchterms and therefore execute a search over all configured "
 "database fields or otherwise do a click on the link 'Detailed search' and "
@@ -848,9 +851,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:299
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/SearchFieldAutoCompletion.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/SearchFieldAutoCompletion.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -859,8 +863,8 @@ msgid ""
 "Since search terms are typed in into the textfield, a database search will "
 "be started over the configured columns and the result will displayed via an "
 "autocompletion below the textfield. The more exact the search term is, the "
-"more exact will be the result (less result entries).  <placeholder type="
-"\"screenshot\" id=\"0\"/>"
+"more exact will be the result (less result entries).  <placeholder "
+"type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><screenshot><screeninfo>
@@ -871,16 +875,17 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:308
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/SearchFieldSelected.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/SearchFieldSelected.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:304
 msgid ""
-"If the wished value will be displayed in the results, it can be selected via "
-"a mouse click or via the keyboard and therefore be added to the dynamic "
+"If the wished value will be displayed in the results, it can be selected via"
+" a mouse click or via the keyboard and therefore be added to the dynamic "
 "field results.  <placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
@@ -911,9 +916,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:328
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/DetailedSearchMask.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/DetailedSearchMask.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -927,10 +933,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:333
 msgid ""
-"By default the first available field is activated, but it´s also possible to "
-"remove available fields or add additional ones. Only activated and filled "
-"fields are considered for the search. Wildcard characters '*' are allowed in "
-"every single field."
+"By default the first available field is activated, but it´s also possible to"
+" remove available fields or add additional ones. Only activated and filled "
+"fields are considered for the search. Wildcard characters '*' are allowed in"
+" every single field."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><screenshot><screeninfo>
@@ -941,16 +947,17 @@ msgstr ""
 #. type: Content of: <section><section><section><para><screenshot>
 #: en/content/features/dynamicfield-database.xml:343
 msgid ""
-"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit="
-"\"DynamicField Database - screenshot\" scale=\"40\" fileref=\"screenshots/"
-"dynamicfield-database/DetailedSearchResult.png\"></graphic>"
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
+"srccredit=\"DynamicField Database - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/dynamicfield-"
+"database/DetailedSearchResult.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:338
 msgid ""
-"The database search will be executed via the button \"Start search\" and the "
-"results will be tabular displayed.  If the search was successful, the "
+"The database search will be executed via the button \"Start search\" and the"
+" results will be tabular displayed.  If the search was successful, the "
 "results will be listed and one of the entries can be selected via a mouse "
 "click. The value will be added to the list of saved values afterwards.  "
 "<placeholder type=\"screenshot\" id=\"0\"/>"
