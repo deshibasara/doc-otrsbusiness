@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-19 09:29+0100\n"
+"POT-Creation-Date: 2015-05-11 09:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,11 +67,27 @@ msgstr ""
 
 #. type: Content of: <book><chapter><para>
 #: en/book.xml:49
-msgid "How to upgrade, update, and downgrade..."
+msgid ""
+"In order to upgrade to <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™, you need a valid contract with the OTRS group. If you "
+"already have a contract, you can upgrade to <emphasis role=\"bold\">OTRS "
+"Business Solution</emphasis>™ by visiting the AdminOTRSBusiness screen in "
+"your OTRS instance. If you're entitled to upgrade, you will (as an admin "
+"user) also see a notification bar which guides you to the upgrade "
+"screen. The upgrade itself is done automatically by just pressing the "
+"upgrade button."
+msgstr ""
+
+#. type: Content of: <book><chapter><para>
+#: en/book.xml:52
+msgid ""
+"If you have any questions regarding your entitlement for the <emphasis "
+"role=\"bold\">OTRS Business Solution</emphasis>™ or technical questions, "
+"please contact sales@otrs.com."
 msgstr ""
 
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:53
+#: en/book.xml:56
 msgid "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgstr ""
 
@@ -81,55 +97,551 @@ msgid "Introduction"
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/content/introduction.xml:9
+#: en/content/introduction.xml:8
 msgid ""
-"General information about <emphasis role=\"bold\">OTRS Business "
-"Solution</emphasis>™..."
+"With the <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ you can "
+"enjoy all benefits of professional services and exclusive Business Features "
+"offered by the OTRS Group. Optimize your internal &amp; external "
+"communication for more service quality – flexibly adjustable to your "
+"operating scenario."
+msgstr ""
+
+#. type: Content of: <chapter><para>
+#: en/content/introduction.xml:11
+msgid ""
+"The sleek and fast framework of OTRS 4 is the base for the <ulink "
+"url=\"https://www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
+"role=\"bold\">OTRS Business Solution</emphasis>™</ulink>. On top are "
+"available for you additionally an exclusive set of features. These include "
+"the <ulink "
+"url=\"https://www.otrs.com/otrs-business-solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services\">integrated "
+"Cloud Services</ulink> of the <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™ that you can flexibly activate or deactivate according "
+"to your deployment scenarios. Additionally you have the choice between 3, 7 "
+"or an unlimited number of various <ulink "
+"url=\"https://www.otrs.com/otrs-business-solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services\">freely "
+"selectable <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ "
+"Features</ulink> - depending on you contract level. Profit also from "
+"regular, free updates, the best OTRS security and support as well as "
+"installation and configuration carried out by our consultants."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/ticket-timeline-view.xml:6
-msgid "Time Line View for Tickets"
-msgstr ""
-
-#. type: Content of: <section><section><para>
-#: en/content/features/ticket-timeline-view.xml:9 en/content/features/ticket-timeline-view.xml:15 en/content/features/ticket-timeline-view.xml:22 en/content/features/ticket-timeline-view.xml:29 en/content/features/ticket-attachment-view.xml:9 en/content/features/ticket-attachment-view.xml:15 en/content/features/ticket-attachment-view.xml:22 en/content/features/ticket-attachment-view.xml:29 en/content/features/chat.xml:9 en/content/features/chat.xml:15 en/content/features/chat.xml:22 en/content/features/chat.xml:29 en/content/features/sla-selection-dialog.xml:9 en/content/features/sla-selection-dialog.xml:15 en/content/features/sla-selection-dialog.xml:22 en/content/features/sla-selection-dialog.xml:29
-msgid "..."
+msgid "The Ticket Timeline View"
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/features/ticket-timeline-view.xml:13 en/content/features/ticket-attachment-view.xml:13 en/content/features/chat.xml:13 en/content/features/sla-selection-dialog.xml:13 en/content/features/dynamicfield-contactwithdata.xml:13 en/content/features/dynamicfield-database.xml:16
+#: en/content/features/ticket-timeline-view.xml:9 en/content/features/ticket-attachment-view.xml:9 en/content/features/chat.xml:9 en/content/features/sla-selection-dialog.xml:9 en/content/features/dynamicfield-contactwithdata.xml:13 en/content/features/dynamicfield-database.xml:16
 msgid "Description"
 msgstr ""
 
-#. type: Content of: <section><section><title>
-#: en/content/features/ticket-timeline-view.xml:20 en/content/features/ticket-attachment-view.xml:20 en/content/features/chat.xml:20 en/content/features/sla-selection-dialog.xml:20 en/content/features/dynamicfield-contactwithdata.xml:53 en/content/features/dynamicfield-database.xml:33
-msgid "Configuration"
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-timeline-view.xml:11
+msgid ""
+"The ticket timeline view provides a chronological view of all actions which "
+"happened on a ticket (which includes articles, owner changes, incoming "
+"mails, etc.). With the ticket timeline view, agents are able to get a good "
+"overview of a ticket in less time."
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/features/ticket-timeline-view.xml:27 en/content/features/ticket-attachment-view.xml:27 en/content/features/chat.xml:27 en/content/features/sla-selection-dialog.xml:27 en/content/features/dynamicfield-contactwithdata.xml:74 en/content/features/dynamicfield-database.xml:274
+#: en/content/features/ticket-timeline-view.xml:16 en/content/features/ticket-attachment-view.xml:16 en/content/features/chat.xml:16 en/content/features/sla-selection-dialog.xml:16 en/content/features/dynamicfield-contactwithdata.xml:86 en/content/features/dynamicfield-database.xml:33
+msgid "Configuration"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/ticket-timeline-view.xml:18
+msgid "<literal>ChronicalViewEnabled</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-timeline-view.xml:19
+msgid "Group: OTRSBusiness, Subgroup: Frontend::Agent"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-timeline-view.xml:21
+msgid "Controls whether or not the ticket timeline view is enabled."
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/ticket-timeline-view.xml:27 en/content/features/ticket-attachment-view.xml:23 en/content/features/chat.xml:72 en/content/features/sla-selection-dialog.xml:23 en/content/features/dynamicfield-contactwithdata.xml:107 en/content/features/dynamicfield-database.xml:274
 msgid "Usage"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/ticket-timeline-view.xml:29
+msgid "Accessing the ticket timeline view"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/ticket-timeline-view.xml:32
+msgid "Switching to the ticket timeline view"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/ticket-timeline-view.xml:32
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Timeline "
+"view switch - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-timeline-view.xml:31 en/content/features/ticket-timeline-view.xml:43 en/content/features/ticket-attachment-view.xml:27 en/content/features/ticket-attachment-view.xml:36 en/content/features/chat.xml:76 en/content/features/chat.xml:92 en/content/features/chat.xml:105 en/content/features/chat.xml:127 en/content/features/sla-selection-dialog.xml:27 en/content/features/sla-selection-dialog.xml:39
+msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-timeline-view.xml:37
+msgid ""
+"To access the ticket timeline view, use the clock icon on the top right "
+"corner of the article widget in AgentTicketZoom. You will be redirected to "
+"the timeline view and this view will be kept as preference until you change "
+"back to another view."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-timeline-view.xml:40
+msgid ""
+"In the ticket timeline view, you can work on the ticket as you're used "
+"to. You can inspect the time of each event in the timeline by hovering the "
+"little square next to each event with your mouse cursor. You can view the "
+"full content of articles by using the zoom icon on top of the certains "
+"articles box, where you will find all common article actions such as reply, "
+"split, forward, etc."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/ticket-timeline-view.xml:44
+msgid "Using the ticket timeline view"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/ticket-timeline-view.xml:44
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Timeline "
+"view zoom - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/timeline-view/TimelineViewZoom.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/ticket-attachment-view.xml:6
-msgid "Attachment View for Tickets"
+msgid "The Article Attachment Overview"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-attachment-view.xml:11
+msgid ""
+"The article attachment overview enables you to view a list of all "
+"attachments of a ticket. Attachments will be listed by attributes such as "
+"file name, file type, file size, date of addition and which article they "
+"belong to. From the overview screen, you can download certain attachments or "
+"create an archive file which contains multiple or all attachments of the "
+"ticket you're viewing."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-attachment-view.xml:18 en/content/features/sla-selection-dialog.xml:18
+msgid "No further configuration needed."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/ticket-attachment-view.xml:25
+msgid "Accessing the article attachment overview"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/ticket-attachment-view.xml:28
+msgid "Switching to the article attachment overview"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/ticket-attachment-view.xml:28
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Article "
+"attachment navigation item - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/attachment-view/AttachmentsNavigation.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/ticket-attachment-view.xml:33
+msgid ""
+"Once a ticket has at least one attachment, the \"Attachments\" menu item "
+"will be displayed in AgentTicketZoom. Clicking it will open a popup which "
+"contains a list of all attachments."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/ticket-attachment-view.xml:37
+msgid "Using the article attachment overview"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/ticket-attachment-view.xml:37
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Article "
+"attachment overview - screenshot - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/attachment-view/AttachmentsScreen.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/chat.xml:6
-msgid "Chat"
+msgid "The Chat"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/chat.xml:11
+msgid ""
+"The chat feature of <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™ allows for chats between agents and customers using the "
+"OTRS frontend. Once enabled, customers (or public users) can start chats "
+"with agents and vice versa. Finished chats can be archived and attached to "
+"tickets."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/chat.xml:18
+msgid ""
+"The following configuration options are relevant for this feature. Please "
+"note that you can also define a list of fixed texts which are being "
+"displayed to public users and customers in the chat module. For more "
+"information on which texts can be changed, please have a look at the module "
+"configuration (OTRSBusiness &gt; Core::Chat)."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:21
+msgid "<literal>ChatEngine::Active</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:22 en/content/features/chat.xml:29 en/content/features/chat.xml:36 en/content/features/chat.xml:43 en/content/features/chat.xml:50 en/content/features/chat.xml:57 en/content/features/chat.xml:64
+msgid "Group: OTRSBusiness, Subgroup: Core::Chat"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:24
+msgid "Controls whether or not the chat feature is enabled."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:28
+msgid "<literal>ChatEngine::ChatDirection::PublicToAgent</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:31
+msgid ""
+"Controls whether or not public users should be able to start chats (please "
+"note that the frontend module configuration for the public chat frontend in "
+"<literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, "
+"too)."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:35
+msgid "<literal>ChatEngine::ChatDirection::CustomerToAgent</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:38
+msgid ""
+"Controls whether or not customers should be able to start chats (please note "
+"that the frontend module configuration for the customer chat frontend in "
+"<literal>CustomerFrontend::Module###CustomerChat</literal> has to be "
+"enabled, too)."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:42
+msgid "<literal>ChatEngine::ChatDirection::AgentToCustomer</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:45
+msgid ""
+"Controls whether or not agents should be able to start chats with customers "
+"directly."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:49
+msgid "<literal>ChatEngine::ChatDirection::AgentToAgent</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:52
+msgid "Controls whether or not agents should be able chat with eachother."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:56
+msgid ""
+"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents, "
+"ChatEngine::PermissionGroup::ChatNotificationAgents, "
+"ChatEngine::PermissionGroup::ChatStartingAgents</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:59
+msgid ""
+"Defines groups for the certain features. Receiving: Groups which can receive "
+"and accept chat requests. Notification: Groups which do receive "
+"notifications about new/pending chat requests. Starting: Groups which are "
+"allowed to start new chats at all."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:63
+msgid "<literal>ChatEngine::DefaultAgentName</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:66
+msgid ""
+"A default name which should be displayed to customers and public users "
+"instead of the real name of the chatting agents. If empty or disabled, the "
+"real agent name will be shown."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:74
+msgid "The chat manager"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/chat.xml:77
+msgid "The chat managing screen"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/chat.xml:77
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Chat "
+"manager - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/chat/ChatManager.jpeg\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:82
+msgid ""
+"The chat manager is the central point of the chat feature. As an agent, here "
+"you can manage your chats, see and accept open requests and change your chat "
+"availability status. The chat manager provides a list of chat requests from "
+"customers, public users and other agents, as well as an overview over all "
+"active chats. Open the chat manager by using \"Chat\" in the main navigation "
+"of OTRS."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:85
+msgid ""
+"You can set your general availability for the chat by using the checkbox in "
+"the left sidebar of the chat manager. Once disabled, you'll no longer get "
+"notified for incoming chat requests."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:90
+msgid "Using the chat widget"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/chat.xml:93
+msgid "The chat widget"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/chat.xml:93
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Chat widget "
+"- screenshot\" scale=\"40\" "
+"fileref=\"screenshots/chat/ChatWidget.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:98
+msgid ""
+"To send messages, you can use the text field in the chat widget in your list "
+"of active chats. Once you are done with typing your message, submit it by "
+"either clicking the send icon next to the text field, or using tab and enter "
+"(consecutively). When the message has been sent, the cursor will jump back "
+"to the text field to allow for easily continuing to type."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:103
+msgid "Starting new chats and dealing with chat requests"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/chat.xml:106
+msgid "Start a chat"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/chat.xml:106
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Chat start "
+"- screenshot\" scale=\"40\" "
+"fileref=\"screenshots/chat/ChatStartWidget.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:111
+msgid ""
+"As an agent, there are multiple ways to start a chat. First of all, you can "
+"use the user online widget on the dashboard to chat with agents or customers "
+"who are currently logged in to OTRS. Just click the little chat icon behind "
+"the name of the agent or customer. A small overlay will appear and allow for "
+"entering the first chat message you would like to send to the other "
+"user. Afterwards, the new chat is being added to the chat manager."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:114
+msgid ""
+"You can also use ticket zoom to start a chat with a certain customer. In the "
+"sidebar, you'll find a chat link in the customer information widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:117
+msgid ""
+"If new chat requests arrive and you're logged in to OTRS, you'll get "
+"notified by a chat icon in the toolbar on top of the screen. The icon also "
+"holds information about how many open chat requests are available at the "
+"moment. Just click the icon to open the chat manager. You'll also receive a "
+"browser notification (popup) in case of new chat requests."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:120
+msgid ""
+"All agents with the needed permissions will be able to deal with open chat "
+"requests. A request can only be accepted by one agent at the same time, "
+"which means that the request will disappear from the other agents lists once "
+"if has been accepted by an agent. Once accepted, the newly created chat will "
+"be appended to the list of active chats for the agent who has accepted "
+"it. Other users in the chat will see a notification about the user who just "
+"entered the chat."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:125
+msgid "Ending and archiving chats"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/chat.xml:128
+msgid "The chat actions"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/chat.xml:128
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"Chat "
+"actions - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/chat/ChatIcons.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:133
+msgid ""
+"As an agent, you have several possiblities to end a chat. First of all, you "
+"can just discard a chat by using the \"x\" icon on the right top side of the "
+"chat widget in the chat manager. The chat then just will be closed without "
+"archiving it. Other users in the chat will just see a message telling them "
+"the chat was ended."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:136
+msgid ""
+"You can also append the chat to an existing ticket. Click the \"+\" icon on "
+"the right top of the chat widget in the chat manager. A new window will open "
+"which allows for selecting a ticket which the chat should be appended to."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:139
+msgid ""
+"If you don't have any appropriate ticket to append the chat to, you can also "
+"create a new one by using the phone icon on the top right side of the chat "
+"widget in the chat manager."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/sla-selection-dialog.xml:6
-msgid "SLA Selection Dialog"
+msgid "Field Selection Dialog"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sla-selection-dialog.xml:11
+msgid ""
+"The field selection dialog enables you to configure popup messages customers "
+"should see when they select specific SLAs on ticket creation on the customer "
+"frontend. These popup messages could contain information about the SLA the "
+"customer is about to select and to give them the possibility to re-think "
+"their decision."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sla-selection-dialog.xml:25
+msgid "Configuring the SLA message"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/sla-selection-dialog.xml:28
+msgid "SLA configuration"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/sla-selection-dialog.xml:28
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"SLA "
+"configuration - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/fieldselection-dialog/FieldSelectionConfiguration.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sla-selection-dialog.xml:33
+msgid ""
+"You can configure the message on each SLA by using the SLA administration "
+"screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sla-selection-dialog.xml:37
+msgid "How the message looks in the customer frontend"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot><screeninfo>
+#: en/content/features/sla-selection-dialog.xml:40
+msgid "SLA message"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><screenshot>
+#: en/content/features/sla-selection-dialog.xml:40
+msgid ""
+"<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"SLA "
+"selection - screenshot\" scale=\"40\" "
+"fileref=\"screenshots/fieldselection-dialog/FieldSelectionMessage.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sla-selection-dialog.xml:45
+msgid ""
+"This is what the customer will see once he selects the SLA this message is "
+"configured for. He can either confirm or deny his selection, the latter one "
+"will reset the SLA selection afterwards."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
-msgid "DynamicField \"Contact With Data\""
+msgid "Contact with Data"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -145,170 +657,255 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:17
 msgid ""
-"Using a new DynamicField type any number of DynamicFields can be created, "
-"each of which is an individual data source for contacts with data."
+"The data sources for this feature reside on the Dynamic Fields of the new "
+"'Contact with data' type, this mean that each Dynamic Field of this type is "
+"a new data source. The name of the dynamic field will become the name of the "
+"data source, as they are both the same."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:20
+#: en/content/features/dynamicfield-contactwithdata.xml:23
 msgid ""
-"Within any data source a number of available fields with key and value can "
-"be defined and a sort order, required fields and searchable fields can be "
-"configured."
-msgstr ""
-
-#. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-contactwithdata.xml:24
-msgid "Contact management"
-msgstr ""
-
-#. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:26
-msgid ""
-"Via a new menu module any number of contacts can be created and managed for "
-"every data source."
+"For each data source (Dynamic Field) a list of contact attributes can be "
+"defined (each attribute can contain only one text based value), the contact "
+"attributes can be set as mandatory and searchable if needed, The sort order "
+"of the attributes can be also defined."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:29
 msgid ""
-"For these contacts the configured attributes within the respective data "
-"source can be used."
+"Contact attributes for each data source could contain any information about "
+"the contact as needed as different addresses, telephone, birthday, "
+"anniversaries, favorite food, hobbies, etc."
+msgstr ""
+
+#. type: Content of: <section><section><section><note><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:35
+msgid ""
+"The attributes 'Name' and 'ValidID' are always mandatory and they are not "
+"automatically added, so for each new data source this attributes must be "
+"added manually."
+msgstr ""
+
+#. type: Content of: <section><section><section><note><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:40
+msgid ""
+"Within the data source definition (or Dynamic Field configuration) they must "
+"be represented by the keys 'Name' and 'ValidID' respectively while the "
+"values could be 'Name' and 'Validity' for example."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-contactwithdata.xml:33
+#: en/content/features/dynamicfield-contactwithdata.xml:47
+msgid "Contact management"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:49
+msgid ""
+"After having at least one data source (Contact with data Dynamic Field) "
+"defined, contacts information can be added to the source to populate it."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:53
+msgid ""
+"Apart from the Name and the ValidID, each data source could contain "
+"different contact information as defined by the data source (e.g. a data "
+"source could have an E-mail field while another could contain Telephone "
+"and/or Mobile fields)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:58
+msgid ""
+"The management (adding or updating) contact for the data sources is done by "
+"an special screen that can be called form the Ticket menu (Edit contacts "
+"with data) in the main navigation bar."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/dynamicfield-contactwithdata.xml:64
 msgid "Adding contacts to tickets"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:35
+#: en/content/features/dynamicfield-contactwithdata.xml:66
 msgid ""
-"For every configured DynamicField one of the created contacts can be "
-"selected and assigned to a ticket."
+"For each configured contact with data dynamic field, a contact created "
+"specifically for this dynamic field (or data source) can be chosen from any "
+"ticket create or ticket action screen where the dynamic filed has been "
+"previously configured."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:38
-msgid "The contact attributes will be shown in the ticket zoom."
+#: en/content/features/dynamicfield-contactwithdata.xml:71
+msgid "The contact attributes will be shown in the ticket zoom screen."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-contactwithdata.xml:42
+#: en/content/features/dynamicfield-contactwithdata.xml:75
 msgid "Usage of contacts in search and statistics"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:44
+#: en/content/features/dynamicfield-contactwithdata.xml:77
 msgid ""
-"Tickets can be confined in search and statistics via the required attribute "
+"Tickets can be found in search and statistics via the required attribute "
 "'Name'."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:47
-msgid "The name can also be returned as a field."
+#: en/content/features/dynamicfield-contactwithdata.xml:80
+msgid "The 'Name' can also be returned as a field value."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:55
+#: en/content/features/dynamicfield-contactwithdata.xml:88
 msgid "The following list of configuration options can be changed for this feature."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-contactwithdata.xml:58
+#: en/content/features/dynamicfield-contactwithdata.xml:91
 msgid "<literal>AdminContactWithData::RunInitialWildcardSearch</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:59
+#: en/content/features/dynamicfield-contactwithdata.xml:92
 msgid "Group: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:61
+#: en/content/features/dynamicfield-contactwithdata.xml:94
 msgid ""
 "Defines if a search with placeholder should be executed when initially "
 "calling the contact management."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-contactwithdata.xml:65
+#: en/content/features/dynamicfield-contactwithdata.xml:98
 msgid "<literal>Frontend::Module###AdminContactWithData</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:66
+#: en/content/features/dynamicfield-contactwithdata.xml:99
 msgid "Group: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:68
+#: en/content/features/dynamicfield-contactwithdata.xml:101
 msgid ""
 "Allows to distribute contact and contact detail management permissions via "
 "group definition."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:76
+#: en/content/features/dynamicfield-contactwithdata.xml:109
 msgid "An exemplary usage of contacts with data is as follows:"
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:82
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:114
+msgid "Create a new dynamic field of type 'Contact with data'."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:119
 msgid ""
-"Creating a dynamic field of type 'Contact with data' and configuring the "
-"field for desired ticket modules."
+"Set the possible contact attributes (possible values). Name and ValidID are "
+"required for any Contact with data Dynamic Field"
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:87
+#. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:125
+msgid "Add 'Name' attribute (Key: Name, Value: 'Name')."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:130
+msgid "Add 'ValidID' attribute (Key: Name, Value: 'Validity')."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:135
 msgid ""
-"Setting possible contact attributes for the new field as well as noting "
-"which fields should be required, which fields should be usable for searching "
-"of contacts and the display order of the fields. The attributes 'Name' and "
-"'ValidID' are always necessary."
+"Add any other attribute such as 'Telphone' attribute (Key: Telephone, Value: "
+"'Phone')."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:92
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:143
 msgid ""
-"Adding and if necessary modifying contacs of the new field via 'Tickets' -> "
-"'Edit contacts with data'"
+"Add the list of mandatory attribute keys comma separated (Name and ValidID "
+"are not needed)."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:97
-msgid "Calling a ticket mask which is configured for the new field."
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:149
+msgid "Set the attribute key order list comma separated as: Name,Telephone,ValidID."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:102
-msgid "Selecting an existing contact using autocomplete and choosing a contact."
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:154
+msgid ""
+"Add the list of searchable attribute keys comma separated (Name is not "
+"needed)."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:107
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:160
+msgid ""
+"Populated the data source by adding at least one contact in the new created "
+"data source 'Tickets' -> 'Edit contacts with data' from the main navigation "
+"bar."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:167
+msgid ""
+"Add the new dynamic field to the screens configuration where it should be "
+"shown for example in New Phone Ticket screen by updating the SysConfig "
+"setting: Ticket::Frontend::AgentTicketPhone###DynamicField and do the same "
+"for Ticket::Frontend::AgentTicketZoom###DynamicField."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:175
+msgid ""
+"Go to New phone ticket screen, and notice that the new field is there, add "
+"all ticket needed information."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:181
+msgid "Select an existing contact using autocomplete and choosing a contact."
+msgstr ""
+
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:186
 msgid "The assigned contact and its attributes will be shown in the ticket zoom."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:112
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:191
 msgid ""
-"Should contact attributes be modified, the link below the attributes can be "
-"used (if permissions are set)."
+"It is possible to update the attributes of the contact by clicking the 'Edit "
+"contact data' button that appears in the right side of the title of the "
+"contact data box (if the current user is a member of the groups defined in "
+"SysConfig setting Frontend::Module###AdminDynamicFieldContactWithData)."
 msgstr ""
 
-#. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-contactwithdata.xml:117
+#. type: Content of: <section><section><orderedlist><listitem><para>
+#: en/content/features/dynamicfield-contactwithdata.xml:199
 msgid ""
-"If necessary, a different contact can be assigned to the ticket via ticket "
-"masks."
+"If is necessary to change the contact for this ticket, it can be done via "
+"any other ticket action where the dynamic field is configured for display."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-database.xml:6
-msgid "DynamicField \"Database\""
+msgid "Dynamic Field Database"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -457,7 +1054,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:92
-msgid "Port: The port of the database server"
+msgid "Port: The port of the database server."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>

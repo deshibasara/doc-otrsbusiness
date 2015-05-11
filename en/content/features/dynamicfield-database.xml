@@ -89,7 +89,7 @@
                 Server: The database host (hostname or IP-Address).
             </para>
             <para>
-                Port: The port of the database server
+                Port: The port of the database server.
             </para>
             <para>
                 Database: Defines the desired target database of the DBMS. This database will be used for queries.
