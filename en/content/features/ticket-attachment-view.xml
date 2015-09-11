@@ -24,19 +24,23 @@
         <section>
             <title>Accessing the article attachment overview</title>
             <para>
-                <screenshot>
-                    <screeninfo>Switching to the article attachment overview</screeninfo>
-                    <graphic srccredit="Article attachment navigation item - screenshot" scale="40" fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>Switching to the article attachment overview</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Once a ticket has at least one attachment, the "Attachments" menu item will be displayed in AgentTicketZoom. Clicking it will open a popup which contains a list of all attachments.
             </para>
             <para>
-                <screenshot>
-                    <screeninfo>Using the article attachment overview</screeninfo>
-                    <graphic srccredit="Article attachment overview - screenshot - screenshot" scale="40" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>Using the article attachment overview</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
         </section>
     </section>

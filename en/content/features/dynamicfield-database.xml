@@ -67,10 +67,12 @@
                 Before an external database can be searched and the results be saved at the ticket through the dynamic field,
                 the credentials have to be stored in the configuration of the dynamic field.
 
-                <screenshot>
-                    <screeninfo>DynamicField Database Admin screen</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/AdminOverview.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database Admin screen</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/AdminOverview.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Type: The type of the desired database can be selected here. The field supports the default OTRS database
@@ -201,10 +203,12 @@
                 This feature offers a functionality to store historical data. For this to work it´s necessary to activate and set SysConfig options,
                 as visibly in the following screenshot:
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Historical data settings</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Historical data settings</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 In the configuration option for the "SourceDynamicField" it´s needed to fill in the already created dynamic (Database) field name, which will
@@ -285,29 +289,35 @@
                 otherwise do a click on the link 'Detailed search' and start a detailled search in which the fields to search in are selected
                 explicitly.
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Test field</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Test field</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Since search terms are typed in into the textfield, a database search will be started over the configured columns and the
                 result will displayed via an autocompletion below the textfield. The more exact the search term is, the more exact will be
                 the result (less result entries).
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Autocomplete feature</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Autocomplete feature</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 If the wished value will be displayed in the results, it can be selected via a mouse click or via the keyboard and
                 therefore be added to the dynamic field results.
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Selected items</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/SearchFieldSelected.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Selected items</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldSelected.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Via the link 'Details' a pop can be accessed, which offers detailed information about the whole result row. This information
@@ -324,10 +334,12 @@
                 The link 'Detailed search' opens a new modal dialog to start a new database search. In this mask it is possible
                 to select the fields to search on explicitly.
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Detailed search</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Detailed search</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 By default the first available field is activated, but it´s also possible to remove available fields or add
@@ -339,10 +351,12 @@
                 If the search was successful, the results will be listed and one of the entries can be selected via a mouse click. The
                 value will be added to the list of saved values afterwards.
 
-                <screenshot>
-                    <screeninfo>DynamicField Database - Detailed search result</screeninfo>
-                    <graphic srccredit="DynamicField Database - screenshot" scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchResult.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>DynamicField Database - Detailed search result</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchResult.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 Independent of using the autocompletion or the detailled search, every single result can just selected ones. It an agent

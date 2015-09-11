@@ -24,10 +24,12 @@
         <section>
             <title>Configuring the SLA message</title>
             <para>
-                <screenshot>
-                    <screeninfo>SLA configuration</screeninfo>
-                    <graphic srccredit="SLA configuration - screenshot" scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>SLA configuration</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 You can configure the message on each SLA by using the SLA administration screen.
@@ -36,10 +38,12 @@
         <section>
             <title>How the message looks in the customer frontend</title>
             <para>
-                <screenshot>
-                    <screeninfo>SLA message</screeninfo>
-                    <graphic srccredit="SLA selection - screenshot" scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>SLA message</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 This is what the customer will see once he selects the SLA this message is configured for. He can either confirm or deny his selection, the latter one will reset the SLA selection afterwards.

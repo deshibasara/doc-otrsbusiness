@@ -73,10 +73,12 @@
         <section>
             <title>The chat manager</title>
             <para>
-                <screenshot>
-                    <screeninfo>The chat managing screen</screeninfo>
-                    <graphic srccredit="Chat manager - screenshot" scale="40" fileref="screenshots/chat/ChatManager.jpeg"></graphic>
-                </screenshot>
+                <figure>
+                    <title>The chat managing screen</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/chat/ChatManager.jpeg"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 The chat manager is the central point of the chat feature. As an agent, here you can manage your chats, see and accept open requests and change your chat availability status. The chat manager provides a list of chat requests from customers, public users and other agents, as well as an overview over all active chats. Open the chat manager by using "Chat" in the main navigation of OTRS.
@@ -89,10 +91,12 @@
         <section>
             <title>Using the chat widget</title>
             <para>
-                <screenshot>
-                    <screeninfo>The chat widget</screeninfo>
-                    <graphic srccredit="Chat widget - screenshot" scale="40" fileref="screenshots/chat/ChatWidget.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>The chat widget</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/chat/ChatWidget.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 To send messages, you can use the text field in the chat widget in your list of active chats. Once you are done with typing your message, submit it by either clicking the send icon next to the text field, or using tab and enter (consecutively). When the message has been sent, the cursor will jump back to the text field to allow for easily continuing to type.
@@ -102,10 +106,12 @@
         <section>
             <title>Starting new chats and dealing with chat requests</title>
             <para>
-                <screenshot>
-                    <screeninfo>Start a chat</screeninfo>
-                    <graphic srccredit="Chat start - screenshot" scale="40" fileref="screenshots/chat/ChatStartWidget.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>Start a chat</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/chat/ChatStartWidget.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 As an agent, there are multiple ways to start a chat. First of all, you can use the user online widget on the dashboard to chat with agents or customers who are currently logged in to OTRS. Just click the little chat icon behind the name of the agent or customer. A small overlay will appear and allow for entering the first chat message you would like to send to the other user. Afterwards, the new chat is being added to the chat manager.
@@ -124,10 +130,12 @@
         <section>
             <title>Ending and archiving chats</title>
             <para>
-                <screenshot>
-                    <screeninfo>The chat actions</screeninfo>
-                    <graphic srccredit="Chat actions - screenshot" scale="40" fileref="screenshots/chat/ChatIcons.png"></graphic>
-                </screenshot>
+                <figure>
+                    <title>The chat actions</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/chat/ChatIcons.png"></graphic>
+                    </screenshot>
+                </figure>
             </para>
             <para>
                 As an agent, you have several possiblities to end a chat. First of all, you can just discard a chat by using the "x" icon on the right top side of the chat widget in the chat manager. The chat then just will be closed without archiving it. Other users in the chat will just see a message telling them the chat was ended.
