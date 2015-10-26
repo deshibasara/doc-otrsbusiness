@@ -127,7 +127,7 @@
             <para>
                 If new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
             </para>
-        </section> 
+        </section>
     </section>
 
     <section>
@@ -247,7 +247,7 @@
                 <listitem>
                     <emphasis>Customer to agent</emphasis>
                     <para>
-                        Customers are not able to start a chat directly with a certain agent, but only to create generic chat requests. To do this, customers can use the item Chats -&gt; Create new chat from the customer interface main navigation. 
+                        Customers are not able to start a chat directly with a certain agent, but only to create generic chat requests. To do this, customers can use the item Chats -&gt; Create new chat from the customer interface main navigation.
                     </para>
                     <para>
                         <figure>
@@ -389,7 +389,7 @@
                 <listitem id="chat-action-participant">
                     <emphasis>Action: Participant</emphasis>
                     <para>
-                        If you want to contribute something to the chat you have been invited to, you can join it as a participant. Customers/public users and agents will receive a message that you have entered the chat. As a participant, you can become an observer anytime by using the advanced action toolbar in your chat widget. 
+                        If you want to contribute something to the chat you have been invited to, you can join it as a participant. Customers/public users and agents will receive a message that you have entered the chat. As a participant, you can become an observer anytime by using the advanced action toolbar in your chat widget.
                     </para>
                 </listitem>
             </itemizedlist>
