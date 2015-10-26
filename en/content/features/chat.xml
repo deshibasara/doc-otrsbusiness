@@ -8,7 +8,10 @@
     <section>
         <title>Description</title>
         <para>
-            The chat feature of <emphasis role="bold">OTRS Business Solution</emphasis>™ allows for chats between agents and customers using the OTRS frontend. Once enabled, customers (or public users) can start chats with agents and vice versa. Finished chats can be archived and attached to tickets.
+            The chat feature of <emphasis role="bold">OTRS Business Solution</emphasis>™ allows for chats between agents and customers using the OTRS frontend. Once enabled, customers (or public users) can start chats with agents and vice versa. Finished chats can be archived and attached to tickets. Chats can be attached to tickets or downloaded as PDF by agents, customers and public users.
+        </para>
+        <para>
+            Each chat is assigned to a chat channel. Chat channels are like chat rooms. Each chat channel is assigned to a certain group which controls the permissions for this channel. If no chat channel is selected when a chat is created, this chat will be created in a default channel (which is automatically created if it doesn't exist).
         </para>
     </section>
 
@@ -19,133 +22,377 @@
         </para>
         <section>
             <title><literal>ChatEngine::Active</literal></title>
-            <para>Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Controls whether or not the chat feature is enabled.
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::ChatDirection::PublicToAgent</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Controls whether or not public users should be able to start chats (please note that the frontend module configuration for the public chat frontend in <literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, too).
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::ChatDirection::CustomerToAgent</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Controls whether or not customers should be able to start chats (please note that the frontend module configuration for the customer chat frontend in <literal>CustomerFrontend::Module###CustomerChat</literal> has to be enabled, too).
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::ChatDirection::AgentToCustomer</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Controls whether or not agents should be able to start chats with customers directly.
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::ChatDirection::AgentToAgent</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Controls whether or not agents should be able chat with eachother.
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which do receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::DefaultAgentName</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
                 A default name which should be displayed to customers and public users instead of the real name of the chatting agents. If empty or disabled, the real agent name will be shown.
             </para>
         </section>
+        <section>
+            <title><literal>ChatEngine::DefaultAgentNameNumbers</literal></title>
+            <para>
+                Controls whether or not numbers should be added to the agents default name in case more than one agent is in a chat to allow customers/public users to distinguish between the different agents (e.g. "Support Agent 1", "Support Agent 2" etc.).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::PublicInterface::AllowChatChannels</literal></title>
+            <para>
+                If chat channel selection should be enabled for public users. If set to "no", chats from public users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::PublicInterface::AvailabilityCheck</literal></title>
+            <para>
+                If chat channels should only be selectable in the public interface if at least one agent with sufficient permissions is available in this channel.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::CustomerInterface::AllowChatChannels</literal></title>
+            <para>
+                If chat channel selection should be enabled for customer users. If set to "no", chats from customer users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal></title>
+            <para>
+                If chat channels should only be selectable in the customer interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::CustomerThreshold</literal></title>
+            <para>
+                Amount of minutes which need to pass before a "no agent is available" message is being displayed to the customer/public user who started the chat request. The message can be configured using ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket or  ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting (customer interface) and ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (public interface).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::AgentOnlineThreshold</literal></title>
+            <para>
+                If an agent is not active in OTRS within this treshold, they will be automatically set to "unavailable for chat" (see <link linkend="chat-setup-availability">"Agents: Set up availability"</link>).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::DefaultChatChannel</literal></title>
+            <para>
+                Name of the default chat channel. This channel must not be created manually and can't be deleted. This channel is taken as target chat channel in case chat channel selection is disabled for any interface.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatTTL</literal></title>
+            <para>
+                After how many hours a closed chat should be deleted from the database. Closed chats can still be viewed and downloaded by customers. After a chat has been deleted from the database, it will no longer be possible for customers to view or download it.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDecayTime</literal></title>
+            <para>
+                After how many days chats which are not closed should be deleted from the database automatically in order to keep the database clean. Please note that this setting can possibly delete chats which are still in use if they are older than the configured amount of days.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatOrder</literal></title>
+            <para>
+                If new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
+            </para>
+        </section> 
     </section>
 
     <section>
-        <title>Usage</title>
+        <title>Setup</title>
+        <para>
+            In order to be able to create your first chat, you need to setup certain things in your OTRS instance.
+        </para>
+        <section id="chat-permissions">
+            <title>Admin: Create chat channels and assign permissions</title>
+            <para>
+                In the admin area in OTRS, you'll find a new entry "Chat Channel" (AdminChatChannel). Use this screen to add new channels. You'll need to assign an existing agent group to each channel you'll create. You can use the screens "Agents &lt;-&gt; Groups" or "Agents &lt;-&gt; Roles" to assign permissions. There are new chat-specific permissions which are described below.
+            </para>
+            <itemizedlist>
+                <para>
+                    You can assign these chat permissions:
+                </para>
+                <listitem>
+                    <para>
+                        CHAT_OBSERVER: Users with this permission type will only be able to observe chats in this channel after they have been invited to them. They will not be able to accept or observe chats in this channel on their own and if they are the only agent currently available in this channel, customers/public users will not be able to create a new chat in this channel. Observers can still invite other agents to a chat they currently observe.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        CHAT_PARTICIPANT: Users with this permission type will be able to take part in a chat, but only after they get invited to it. After they're in a chat, they can change the chat channel, discard the chat etc. They will not be able to accept a customer/public chat request on their own.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        CHAT_OWNER: Users with this permission type will be able to accept chat customer/public requests and do all kinds of observer and participant actions on a chat.
+                    </para>
+                </listitem>
+            </itemizedlist>
+            <note>
+                <para>
+                    To use the chat in general, agents still need to have at least ro permissions to the groups set up in ChatEngine::PermissionGroup::ChatReceivingAgents and ChatEngine::PermissionGroup::ChatStartingAgents.
+                </para>
+            </note>
+        </section>
+        <section>
+            <title>Agents: Select active chat channels</title>
+            <para>
+                <figure>
+                    <title>Setting up preferred chat channels</title>
+                    <screenshot>
+                         <graphic scale="50" fileref="screenshots/chat/ChatAgentPrefChatChannels.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                As an agent, you'll need to select in which chat channels you want to be available. Customers will only be able to create a new chat request on a certain channel if at least one agent with owner permissions has selected this channel in their preferences and is set as available for external chats (see next section).
+            </para>
+        </section>
+        <section id="chat-setup-availability">
+            <title>Agents: Set up availability</title>
+            <para>
+                <figure>
+                    <title>Setting up chat availability</title>
+                    <screenshot>
+                         <graphic scale="40" fileref="screenshots/chat/ChatAgentToggleAvailability.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                To be available for any chats, you'll need to use the chat toolbar switch. It's a three-way switch with these states: Unavailable for chats (empty circle), available for internal (agent-to-agent) chats (empty circle with tick sign), available for internal and external (customer-to-agent, public-to-agent) chats (filled circle with tick sign). Just click the toggle in order to change your availability.
+            </para>
+            <note>
+                <para>
+                    Your availablity will be reset to "internal chats only" each time you log in to OTRS again.
+                </para>
+            </note>
+        </section>
+    </section>
+
+    <section>
+        <title>General usage</title>
         <section>
             <title>The chat manager</title>
             <para>
                 <figure>
                     <title>The chat managing screen</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatManager.jpeg"></graphic>
+                         <graphic scale="50" fileref="screenshots/chat/ChatManager.png"></graphic>
                     </screenshot>
                 </figure>
             </para>
             <para>
-                The chat manager is the central point of the chat feature. As an agent, here you can manage your chats, see and accept open requests and change your chat availability status. The chat manager provides a list of chat requests from customers, public users and other agents, as well as an overview over all active chats. Open the chat manager by using "Chat" in the main navigation of OTRS.
-            </para>
-            <para>
-                You can set your general availability for the chat by using the checkbox in the left sidebar of the chat manager. Once disabled, you'll no longer get notified for incoming chat requests.
+                The chat manager is the central point of the chat feature. As an agent, here you can manage your chats and see and accept open requests. The chat manager provides a list of chat requests from customers, public users and other agents, as well as an overview over all active chats. Open the chat manager by using "Chat" in the main navigation of OTRS.
             </para>
         </section>
 
         <section>
-            <title>Using the chat widget</title>
+            <title>Starting new chats</title>
+            <itemizedlist>
+                <listitem>
+                    <emphasis>Agent to agent</emphasis>
+                    <para>
+                        To start a chat with another agent, you can use the user online widget from the dashboard. Agents who are able to use the chat, will have a chat icon next to their name which you can click on. Once clicked, a chat form will open which you can use to enter your first chat message to this agent. After the chat request has been sent to the other agent, you can watch the chat in the chat manager.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Agent to customer</emphasis>
+                    <para>
+                        To start a chat with a customer, you can use the customer user widget from the customer information center when viewing a certain customer. Online customers will have a chat icon next to their name which you can click on. Once clicked, a chat form will open which you can use to enter your first chat message to this customer user. After the chat request has been sent to the customer, you can watch the chat in the chat manager.
+                    </para>
+                    <para>
+                        Another possibility is to create a chat from the ticket zoom. If the customer user who is selected in this ticket is currently online, you'll be able to use a chat start link (see figure below).
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Starting a A2C chat from ticket zoom.</title>
+                            <screenshot>
+                                 <graphic scale="40" fileref="screenshots/chat/ChatTicketZoomStart.png"></graphic>
+                            </screenshot>
+                        </figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Customer to agent</emphasis>
+                    <para>
+                        Customers are not able to start a chat directly with a certain agent, but only to create generic chat requests. To do this, customers can use the item Chats -&gt; Create new chat from the customer interface main navigation. 
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Starting a C2A chat.</title>
+                            <screenshot>
+                                 <graphic scale="40" fileref="screenshots/chat/ChatCustomerNewRequest.png"></graphic>
+                            </screenshot>
+                        </figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Public to agent</emphasis>
+                    <para>
+                        Users of the public interface are also not able to start a chat directly with a certain agent, but only to create generic chat requests using the public chat module (public.pl?Action=PublicChat). If you would like to integrate the public chat module into your website, you can use the IsIframe parameter. The OTRS header and footer will then be removed from the view (public.pl?Action=PublicChat;IsIframe=1).
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>
+
+        <section>
+            <title>Handling chat requests</title>
+            <para>
+                If there is a new chat request in one of the channels you (as an agent) have permissions for, you'll receive a browser notification which allows you to go directly to the chat manager. After you've opened the chat manager, you can see a list of open requests of all types (see figure below).
+            </para>
+            <para>
+                <figure>
+                    <title>An open chat request</title>
+                    <screenshot>
+                         <graphic scale="60" fileref="screenshots/chat/ChatNewRequest.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                Use the "open chat" button from the list to see the details of the request. Clicking the button will open an overlay which provides several actions on this request. Given that you've got sufficient permissions, you can accept the request or change the channel for this request. Changing the channel will follow the same rules as creating new request: You can only move the request to a channel which has active agents in it.
+            </para>
+            <para>
+                Changing the chat channel without accepting the request could be used to dispatch chats to the right department for example.
+            </para>
+            <para>
+                <figure>
+                    <title>Open chat request details</title>
+                    <screenshot>
+                         <graphic scale="60" fileref="screenshots/chat/ChatNewRequestDetail.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                I you want to enter a chat, you can use the "Accept" button from the chat detail overlay box. The chat will then be removed from the list of requests, added to the list of your active chats and the customer/public user will receive a message that you've entered the chat.
+            </para>
+        </section>
+
+        <section>
+            <title>The chat widget</title>
             <para>
                 <figure>
                     <title>The chat widget</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatWidget.png"></graphic>
+                         <graphic scale="60" fileref="screenshots/chat/ChatWidget.png"></graphic>
                     </screenshot>
                 </figure>
+            </para>
+            <para>
+                The chat widget is the main component you'll use when chatting with other people. It provides a history of all messages in the chat as well as list of possible actions (depending on your permission level).
             </para>
             <para>
                 To send messages, you can use the text field in the chat widget in your list of active chats. Once you are done with typing your message, submit it by either clicking the send icon next to the text field, or using tab and enter (consecutively). When the message has been sent, the cursor will jump back to the text field to allow for easily continuing to type.
             </para>
-        </section>
-
-        <section>
-            <title>Starting new chats and dealing with chat requests</title>
             <para>
-                <figure>
-                    <title>Start a chat</title>
-                    <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatStartWidget.png"></graphic>
-                    </screenshot>
-                </figure>
+                Following you'll find a list of possible actions in the chat widget.
             </para>
-            <para>
-                As an agent, there are multiple ways to start a chat. First of all, you can use the user online widget on the dashboard to chat with agents or customers who are currently logged in to OTRS. Just click the little chat icon behind the name of the agent or customer. A small overlay will appear and allow for entering the first chat message you would like to send to the other user. Afterwards, the new chat is being added to the chat manager.
-            </para>
-            <para>
-                You can also use ticket zoom to start a chat with a certain customer. In the sidebar, you'll find a chat link in the customer information widget.
-            </para>
-            <para>
-                If new chat requests arrive and you're logged in to OTRS, you'll get notified by a chat icon in the toolbar on top of the screen. The icon also holds information about how many open chat requests are available at the moment. Just click the icon to open the chat manager. You'll also receive a browser notification (popup) in case of new chat requests.
-            </para>
-            <para>
-                All agents with the needed permissions will be able to deal with open chat requests. A request can only be accepted by one agent at the same time, which means that the request will disappear from the other agents lists once if has been accepted by an agent. Once accepted, the newly created chat will be appended to the list of active chats for the agent who has accepted it. Other users in the chat will see a notification about the user who just entered the chat.
-            </para>
-        </section>
-
-        <section>
-            <title>Ending and archiving chats</title>
-            <para>
-                <figure>
-                    <title>The chat actions</title>
-                    <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatIcons.png"></graphic>
-                    </screenshot>
-                </figure>
-            </para>
-            <para>
-                As an agent, you have several possiblities to end a chat. First of all, you can just discard a chat by using the "x" icon on the right top side of the chat widget in the chat manager. The chat then just will be closed without archiving it. Other users in the chat will just see a message telling them the chat was ended.
-            </para>
-            <para>
-                You can also append the chat to an existing ticket. Click the "+" icon on the right top of the chat widget in the chat manager. A new window will open which allows for selecting a ticket which the chat should be appended to.
-            </para>
-            <para>
-                If you don't have any appropriate ticket to append the chat to, you can also create a new one by using the phone icon on the top right side of the chat widget in the chat manager.
-            </para>
+            <itemizedlist>
+                <listitem>
+                    <emphasis>Action: Monitor &amp; close</emphasis>
+                    <para>
+                        From the chat widget head top right hand side, you can close the chat by clicking the "x" icon. Clicking the circle icon right next to the close icon, allows you to set up a personal monitoring for this chat, which is again a three-way switch (no monitoring = empty circle, only monitor customer activity = empty circle with tick icon, monitor all actions = filled circle with tick icon). When monitoring a chat, browser notifications will show up each time there is a new action in this chat.
+                    </para>
+                    <para>
+                        Also from the header, you can expand a toolbar of advanced chat actions for this chat using the triangle icon. The toolbar also shows you the channel this chat takes place in and which role you have in this chat (e.g. Owner).
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Monitor a chat.</title>
+                            <screenshot>
+                                 <graphic scale="20" fileref="screenshots/chat/ChatMonitorAndClose.png"></graphic>
+                            </screenshot>
+                        </figure>
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Advanced chat actions.</title>
+                            <screenshot>
+                                 <graphic scale="60" fileref="screenshots/chat/ChatAdvancedActions.png"></graphic>
+                            </screenshot>
+                        </figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: Phone ticket</emphasis>
+                    <para>
+                        Using the "Phone ticket" link from the advanced toolbar, allows you to create a phone ticket to which the current chat will be appended to as an article. After you've successfully created the ticket, the chat will get closed automatically.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: Append</emphasis>
+                    <para>
+                        Allows you to append this chat as an article to a selected ticket. After the article has been created, the chat will get closed automatically.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: Invite</emphasis>
+                    <para>
+                        Allows you to invite another agent to this chat. You can select from a list of available agents who you want to invite. Once you've invited the agent, a new agent-to-agent chat request will be sent to this agent. After they have accepted the request, a new internal chat will be established between you and the invited agent. In this internal chat, the invited agent has two more actions available in the advanced actions toolbar: <link linkend="chat-action-observer">"Observer"</link> and <link linkend="chat-action-participant">"Participant"</link>.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: Channel change</emphasis>
+                    <para>
+                        Using this link, you can change the channel for this chat. For the selection of the target channel the same rules apply as for initially selecting a chat channel.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: Download</emphasis>
+                    <para>
+                        Lets you download the complete history of this chat as PDF.
+                    </para>
+                </listitem>
+                <listitem>
+                    <emphasis>Action: New window</emphasis>
+                    <para>
+                        Opens this chat in a separate popup window. You can use this window in the same way as the chat widget and both the widget and the popup can be used at the same time.
+                    </para>
+                </listitem>
+                <listitem id="chat-action-observer">
+                    <emphasis>Action: Observer</emphasis>
+                    <para>
+                        When you have been invited to a chat by another agent, you can decide if you want to join the chat as observer or participant (depending on your permission level). Once you click the action from your toolbar, a new chat widget will be added to the list of your active chats which is the chat you have been invited to. If you join the chat as observer, you will only be able to read what others are contributing to the chat and you will be invisible to customers or public users. Agents will still receive a message that you joined the chat as observer. As an observer, you have the possibility to become a participant anytime by using the advanced action toolbar in your chat widget (depending on your permission level).
+                    </para>
+                </listitem>
+                <listitem id="chat-action-participant">
+                    <emphasis>Action: Participant</emphasis>
+                    <para>
+                        If you want to contribute something to the chat you have been invited to, you can join it as a participant. Customers/public users and agents will receive a message that you have entered the chat. As a participant, you can become an observer anytime by using the advanced action toolbar in your chat widget. 
+                    </para>
+                </listitem>
+            </itemizedlist>
         </section>
     </section>
 
