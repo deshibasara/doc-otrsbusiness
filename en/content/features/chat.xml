@@ -222,13 +222,13 @@
             <title>Starting new chats</title>
             <itemizedlist>
                 <listitem>
-                    <emphasis>Agent to agent</emphasis>
+                    <para><emphasis>Agent to agent</emphasis></para>
                     <para>
                         To start a chat with another agent, you can use the user online widget from the dashboard. Agents who are able to use the chat, will have a chat icon next to their name which you can click on. Once clicked, a chat form will open which you can use to enter your first chat message to this agent. After the chat request has been sent to the other agent, you can watch the chat in the chat manager.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Agent to customer</emphasis>
+                    <para><emphasis>Agent to customer</emphasis></para>
                     <para>
                         To start a chat with a customer, you can use the customer user widget from the customer information center when viewing a certain customer. Online customers will have a chat icon next to their name which you can click on. Once clicked, a chat form will open which you can use to enter your first chat message to this customer user. After the chat request has been sent to the customer, you can watch the chat in the chat manager.
                     </para>
@@ -245,7 +245,7 @@
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Customer to agent</emphasis>
+                    <para><emphasis>Customer to agent</emphasis></para>
                     <para>
                         Customers are not able to start a chat directly with a certain agent, but only to create generic chat requests. To do this, customers can use the item Chats -&gt; Create new chat from the customer interface main navigation.
                     </para>
@@ -259,7 +259,7 @@
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Public to agent</emphasis>
+                    <para><emphasis>Public to agent</emphasis></para>
                     <para>
                         Users of the public interface are also not able to start a chat directly with a certain agent, but only to create generic chat requests using the public chat module (public.pl?Action=PublicChat). If you would like to integrate the public chat module into your website, you can use the IsIframe parameter. The OTRS header and footer will then be removed from the view (public.pl?Action=PublicChat;IsIframe=1).
                     </para>
@@ -320,7 +320,7 @@
             </para>
             <itemizedlist>
                 <listitem>
-                    <emphasis>Action: Monitor &amp; close</emphasis>
+                    <para><emphasis>Action: Monitor &amp; close</emphasis></para>
                     <para>
                         From the chat widget head top right hand side, you can close the chat by clicking the "x" icon. Clicking the circle icon right next to the close icon, allows you to set up a personal monitoring for this chat, which is again a three-way switch (no monitoring = empty circle, only monitor customer activity = empty circle with tick icon, monitor all actions = filled circle with tick icon). When monitoring a chat, browser notifications will show up each time there is a new action in this chat.
                     </para>
@@ -345,49 +345,49 @@
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: Phone ticket</emphasis>
+                    <para><emphasis>Action: Phone ticket</emphasis></para>
                     <para>
                         Using the "Phone ticket" link from the advanced toolbar, allows you to create a phone ticket to which the current chat will be appended to as an article. After you've successfully created the ticket, the chat will get closed automatically.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: Append</emphasis>
+                    <para><emphasis>Action: Append</emphasis></para>
                     <para>
                         Allows you to append this chat as an article to a selected ticket. After the article has been created, the chat will get closed automatically.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: Invite</emphasis>
+                    <para><emphasis>Action: Invite</emphasis></para>
                     <para>
                         Allows you to invite another agent to this chat. You can select from a list of available agents who you want to invite. Once you've invited the agent, a new agent-to-agent chat request will be sent to this agent. After they have accepted the request, a new internal chat will be established between you and the invited agent. In this internal chat, the invited agent has two more actions available in the advanced actions toolbar: <link linkend="chat-action-observer">"Observer"</link> and <link linkend="chat-action-participant">"Participant"</link>.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: Channel change</emphasis>
+                    <para><emphasis>Action: Channel change</emphasis></para>
                     <para>
                         Using this link, you can change the channel for this chat. For the selection of the target channel the same rules apply as for initially selecting a chat channel.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: Download</emphasis>
+                    <para><emphasis>Action: Download</emphasis></para>
                     <para>
                         Lets you download the complete history of this chat as PDF.
                     </para>
                 </listitem>
                 <listitem>
-                    <emphasis>Action: New window</emphasis>
+                    <para><emphasis>Action: New window</emphasis></para>
                     <para>
                         Opens this chat in a separate popup window. You can use this window in the same way as the chat widget and both the widget and the popup can be used at the same time.
                     </para>
                 </listitem>
                 <listitem id="chat-action-observer">
-                    <emphasis>Action: Observer</emphasis>
+                    <para><emphasis>Action: Observer</emphasis></para>
                     <para>
                         When you have been invited to a chat by another agent, you can decide if you want to join the chat as observer or participant (depending on your permission level). Once you click the action from your toolbar, a new chat widget will be added to the list of your active chats which is the chat you have been invited to. If you join the chat as observer, you will only be able to read what others are contributing to the chat and you will be invisible to customers or public users. Agents will still receive a message that you joined the chat as observer. As an observer, you have the possibility to become a participant anytime by using the advanced action toolbar in your chat widget (depending on your permission level).
                     </para>
                 </listitem>
                 <listitem id="chat-action-participant">
-                    <emphasis>Action: Participant</emphasis>
+                    <para><emphasis>Action: Participant</emphasis></para>
                     <para>
                         If you want to contribute something to the chat you have been invited to, you can join it as a participant. Customers/public users and agents will receive a message that you have entered the chat. As a participant, you can become an observer anytime by using the advanced action toolbar in your chat widget.
                     </para>
