@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="report-generator">
+    <title>Report Generator</title>
+
+    <section>
+        <title>Description</title>
+        <para>
+            The report generator allows to combine multiple statistics for sending/downloading. Reports can be configured to be sent automatically on specified times or run manually.
+        </para>
+    </section>
+
+    <section>
+        <title>Usage</title>
+        <section>
+            <title>Creating reports</title>
+            <para>
+                After you've entered title and description for your report in the first step, you'll be able to set up your report.
+            </para>
+            <section>
+                <title>General settings</title>
+                <para>
+                    Set up title, description and validity of the report. This information will not be visible in the report.
+                </para>
+                <para>
+                    <figure>
+                        <title>Automatic generation settings</title>
+                        <screenshot>
+                             <graphic scale="80" fileref="screenshots/report-generator/ReportGeneral.png"></graphic>
+                        </screenshot>
+                    </figure>
+                </para>
+            </section>
+            <section>
+                <title>Automatic generation settings</title>
+                <para>
+                    If the report should be generated automatically (e.g. once per day), you can set up subject, text and recipients for the email which is going to be sent and which will contain the report as an attachment. You'll also need to add information on how often the report should be sent. The data format is taken from the cron mechanism vom unix-based operating systems. For more information on which settings are possible, please refer to official cron documentation sources or <ulink url="https://en.wikipedia.org/wiki/Cron">wikipedia</ulink>.
+                </para>
+                <para>
+                    <figure>
+                        <title>Automatic generation settings</title>
+                        <screenshot>
+                             <graphic scale="80" fileref="screenshots/report-generator/ReportAutomaticGeneration.png"></graphic>
+                        </screenshot>
+                    </figure>
+                </para>
+            </section>
+            <section>
+                <title>Output settings</title>
+                <para>
+                    In this section, you can set up additional information which should be contained in the report (e.g. a preamble or epilogue). This could e.g. be used for adding copyright or data protection information.
+                </para>
+                <para>
+                    <figure>
+                        <title>Output settings</title>
+                        <screenshot>
+                             <graphic scale="80" fileref="screenshots/report-generator/ReportOutput.png"></graphic>
+                        </screenshot>
+                    </figure>
+                </para>
+            </section>
+        </section>
+        <section>
+            <title>Manually generating reports</title>
+            <para>
+                To generate a report, you can use the "Run now" button from the reports overview. You'll be asked for confirmation and afterwards the report will be created and sent immediately. Please find screenshots of a generated report below.
+            </para>
+            <para>
+                <figure>
+                    <title>Report: Front page</title>
+                    <screenshot>
+                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultFrontpage.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Report: Table of contents</title>
+                    <screenshot>
+                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultToC.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Report: Preamble</title>
+                    <screenshot>
+                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultPreamble.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Report: Statistics</title>
+                    <screenshot>
+                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultStats.png"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+        </section>
+    </section>
+
+</section>
