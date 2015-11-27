@@ -49,14 +49,14 @@
             <title><literal>ChatEngine::ChatDirection::AgentToAgent</literal></title>
             <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
-                Controls whether or not agents should be able chat with eachother.
+                Controls whether or not agents should be able chat with each other.
             </para>
         </section>
         <section>
             <title><literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents</literal></title>
             <para> Group: OTRSBusiness, Subgroup: Core::Chat</para>
             <para>
-                Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which do receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
+                Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which can receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
             </para>
         </section>
         <section>
