@@ -21,19 +21,19 @@
             </para>
             <para>
                 For each data source (Dynamic Field) a list of contact attributes can be defined
-                (each attribute can contain only one text based value), the contact attributes can
-                be set as mandatory  and searchable if needed, The sort order of the attributes can
+                (each attribute can contain only one text based value). The contact attributes can
+                be set as mandatory and searchable if needed. The sort order of the attributes can
                 be also defined.
             </para>
             <para>
                 Contact attributes for each data source could contain any information about the
-                contact as needed as different addresses, telephone, birthday, anniversaries,
+                contact as needed, such as different addresses, telephone, birthday, anniversaries,
                 favorite food, hobbies, etc.
             </para>
             <note>
                 <para>
                     The attributes 'Name' and 'ValidID' are always mandatory and they are not
-                    automatically added, so for each new data source this attributes must be added
+                    automatically added, so for each new data source these attributes must be added
                     manually.
                 </para>
                 <para>
@@ -50,7 +50,7 @@
                 contacts information can be added to the source to populate it.
             </para>
             <para>
-                Apart from the Name and the ValidID, each data source could contain different
+                Apart from the 'Name' and the 'ValidID', each data source could contain different
                 contact information as defined by the data source (e.g. a data source could have an
                 E-mail field while another could contain Telephone and/or Mobile fields).
             </para>
@@ -116,8 +116,8 @@
             </listitem>
             <listitem>
                 <para>
-                    Set the possible contact attributes (possible values). Name and ValidID are
-                    required for any Contact with data Dynamic Field
+                    Set the possible contact attributes (possible values). 'Name' and 'ValidID'
+                    are required for any Contact with data Dynamic Field.
                 </para>
                 <itemizedlist mark="round">
                     <listitem>
@@ -127,12 +127,12 @@
                     </listitem>
                     <listitem>
                         <para>
-                            Add 'ValidID' attribute (Key: Name, Value: 'Validity').
+                            Add 'ValidID' attribute (Key: ValidID, Value: 'Validity').
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Add any other attribute such as 'Telphone' attribute (Key:
+                            Add any other attribute such as 'Telephone' attribute (Key:
                             Telephone, Value: 'Phone').
                         </para>
                     </listitem>
@@ -140,7 +140,7 @@
             </listitem>
             <listitem>
                 <para>
-                    Add the list of mandatory attribute keys comma separated (Name and ValidID
+                    Add the list of mandatory attribute keys comma separated ('Name' and 'ValidID'
                     are not needed).
                 </para>
             </listitem>
@@ -151,29 +151,29 @@
             </listitem>
             <listitem>
                 <para>
-                    Add the list of searchable attribute keys comma separated (Name is not
+                    Add the list of searchable attribute keys comma separated ('Name' is not
                     needed).
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Populated the data source by adding at least one contact in the new created
-                    data source 'Tickets' -> 'Edit contacts with data' from the main navigation
-                    bar.
+                    Populate the data source by adding at least one contact in the newly created
+                    data source by using 'Tickets' -&gt; 'Edit contacts with data' screen from the
+                    main navigation bar.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Add the new dynamic field to the screens configuration where it should be
-                    shown for example in New Phone Ticket screen by updating the SysConfig
+                    Add the new dynamic field to the screen's configuration where it should be
+                    shown. For example in New Phone Ticket screen by updating the SysConfig
                     setting: Ticket::Frontend::AgentTicketPhone###DynamicField and do the same
                     for Ticket::Frontend::AgentTicketZoom###DynamicField.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Go to New phone ticket screen, and notice that the new field is there,
-                    add all ticket needed information.
+                    Go to New phone ticket screen, and notice that the new field is there.
+                    Add all ticket needed information.
                 </para>
             </listitem>
             <listitem>
@@ -183,7 +183,8 @@
             </listitem>
             <listitem>
                 <para>
-                    The assigned contact and its attributes will be shown in the ticket zoom.
+                    The assigned contact and its attributes will be shown in the ticket zoom
+                    screen.
                 </para>
             </listitem>
             <listitem>
