@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="dynamicfield-database">
+    <title>Dinamikus mező adatbázis</title>
+
+    <para>
+        Ez a funkció egy „adatbázis” típusú dinamikus mezőt valósít meg.
+    </para>
+
+
+
+
+    <!-- ************** -->
+<!-- 1. Description -->
+<!-- ************** -->
+<section>
+        <title>Leírás</title>
+        <para>
+            Ez a funkció egy olyan általános dinamikus mezőtípust valósít meg, amely
+lehetőséget nyújt adatok begyűjtésére külső adatbázisokból. Az ilyen
+csatlakoztatott adathalmazok további maszkok használatával kereshetők és
+szűrhetők.
+        </para>
+        <para>
+            A megtalált és megjelölt összefüggő adathalmazok elmenthetők bizonyos
+jegyekhez a dinamikus mezőn keresztül.
+        </para>
+        <para>
+            Az „adatbázis” dinamikus mezők ugyanolyan módon hozhatók létre, mint ahogy
+az alapértelmezett dinamikus mezők létrejönnek.
+        </para>
+    </section>
+
+
+
+
+    <!-- **************** -->
+<!-- 2. Configuration -->
+<!-- **************** -->
+<section>
+        <title>Beállítás</title>
+        <para>
+            A beállítási lehetőségek következő listája használható ennél a funkciónál.
+        </para>
+        <section>
+            <title>Egy „adatbázis” dinamikus mező hozzáadása</title>
+            <para>
+                Ez a funkció egy beállítási felületet valósít meg az „adatbázis” típusú
+dinamikus mezők létrehozásához.
+            </para>
+            <para>
+                Az „adatbázis” dinamikus mezők ugyanolyan módon hozhatók létre, mint ahogy
+az alapértelmezett dinamikus mezők létrejönnek. Ehhez váltson át az
+Adminisztráció -&gt; Jegybeállítások -&gt; Dinamikus mezők nézetre. Ezen a
+maszkon választhatja ki az „adatbázis” mezőt a jegy lenyíló dobozából a bal
+oldalon. Jelenleg nem lehetséges az „adatbázis” dinamikus mező használata a
+bejegyzés környezetben.
+            </para>
+            <para>
+                Az „Általános - Név” beállítás: az „adatbázis” típusú dinamikus mezők egyedi
+nevet igényelnek, mint ahogy a többi dinamikus mező is. Ez a név csak
+alfanumerikus értékeket tartalmazhat. Ez a név lesz használva a mező belső
+kezelésénél, de nem lesz megjelenítve.
+            </para>
+            <para>
+                Az „Általános - Címke” beállítás: a címke egyénileg állítható be, és
+tartalmazhat üres karaktereket, szóközöket, stb. A mező címkéjeként lesz
+használva a különböző nézetekben.
+            </para>
+            <para>
+                Az „Általános - Mezősorrend” beállítás: a mezősorrend lehetővé teszi az
+adminisztrátoroknak a létrehozott dinamikus mezők sorrendjének
+megváltoztatását. Ha ezt a beállítást megváltoztatják, akkor az általános
+mezősorrend hozzá lesz igazítva, és az egyéb dinamikus mezők át lesznek
+helyezve egy pozícióval vissza.
+            </para>
+            <para>
+                Az „Általános - Érvényes” beállítás: a dinamikus mezőnek a beállított OTRS
+„nézetekben” való használatához érvényesre kell állítani azt. Ha a mező
+„érvénytelen” értékre van állítva, akkor el fog tűnni az összes beállított
+nézetből, de nem fog adat elveszni.
+            </para>
+        </section>
+
+        <section>
+            <title>A külső forrás (adatbázis) beállítása</title>
+            <para>
+                Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők
+lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el
+kell tárolni a dinamikus mező beállításaiban. <figure>
+                    <title>A dinamikus mező adatbázis adminisztrációs képernyője</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/AdminOverview.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Típus: a kívánt adatbázis típusa választható ki itt. A mező az
+alapértelmezett OTRS adatbázistípusokat támogatja: MySQL, Oracle, PostgreSQL
+vagy MSSQL.
+            </para>
+            <para>
+                SID: ez a beállítás csak Oracle kapcsolatoknál érhető el, és automatikusan
+megjelenik vagy rejtett lesz. Ezen beállításon belül kell megadnia az Oracle
+kapcsolat SID-ját.
+            </para>
+            <para>
+                Illesztőprogram: ez a beállítás csak ODBC kapcsolatoknál érhető el, és
+automatikusan megjelenik vagy rejtett lesz. Ezen beállításon belül kell
+megadnia a gazdarendszeren korábban beállított ODBC-illesztőprogramot a
+kívánt MSSQL adatbázishoz történő csatlakozáshoz.
+            </para>
+            <para>
+                Kiszolgáló: az adatbázis gép (gépnév vagy IP-cím).
+            </para>
+            <para>
+                Port: az adatbázis-kiszolgáló portja.
+            </para>
+            <para>
+                Adatbázis: a DBMS kívánt céladatbázisát határozza meg. Ez az adatbázis lesz
+használva a lekérdezésekhez.
+            </para>
+            <para>
+                Tábla / nézet: ez a tábla vagy nézet lesz használva a lekérdezésekhez.
+            </para>
+            <para>
+                Felhasználó: a felhasználónév az adatbázis-kapcsolathoz.
+            </para>
+            <para>
+                Jelszó: a felhasználó jelszava az adatbázis-kapcsolathoz.
+            </para>
+            <para>
+                Azonosító: ez a választódoboz automatikusan ki lesz töltve a „Lehetséges
+értékek (leírás lent)” mezőn keresztül. Ez a mező jeleníti meg azt az
+értéket, amely a dinamikus mezőben lesz eltárolva.
+            </para>
+            <para>
+                Többválasztós: ha ez a mező ki van jelölve, akkor lehetséges lesz egynél
+több érték eltárolása a dinamikus mezőhöz. Azok az értékek vesszővel
+elválasztva lesznek eltárolva.
+            </para>
+            <para>
+                Gyorsítótár TTL: ez az érték határozza meg másodpercben az adatbázis
+gyorsítótárának érvényességi időtartamát. Az adatbázishoz intézett azonos
+lekérdezések a gyorsítótárból (helyi fájlrendszerről) lesznek megválaszolva
+ezen időtartamon belül ahelyett, hogy ismét az adatbázist kérdezné.
+            </para>
+            <para>
+                Keresési előtag: ez az érték lesz elhelyezve minden keresési kifejezés elé
+az automatikus kiegészítés használata közben az adatbázisban történő
+kereséshez. A helyettesítő karakterek is támogatva vannak. A keresési előtag
+figyelmen kívül lesz hagyva a részletes keresés közben, de még mindig
+lehetséges a helyettesítő karakterek használata azokban a maszkokban.
+            </para>
+            <para>
+                Keresési utótag: ez az érték lesz elhelyezve minden keresési kifejezés
+végére az automatikus kiegészítés használata közben az adatbázisban történő
+kereséshez. A helyettesítő karakterek is támogatva vannak. A keresési utótag
+figyelmen kívül lesz hagyva a részletes keresés közben, de még mindig
+lehetséges a helyettesítő karakterek használata azokban a maszkokban.
+            </para>
+            <para>
+                Találatkorlát: a beírt egész érték határozza meg a megengedett találatok
+legnagyobb mennyiségét az adatbázisban történő keresés közben. Ez magában
+foglalja az automatikus kiegészítéses keresést, valamint a részletes
+keresést is.
+            </para>
+            <para>
+                Kis- és nagybetű: ha ez a mező ki van jelölve, akkor a kis- és nagybetűk
+megkülönböztetése hatással lesz a keresésekre.
+            </para>
+            <para>
+                Lehetséges értékek: mint azt már elmagyaráztuk, a lehetséges értékek
+automatikusan ki fogják tölteni az azonosító mezőt, amely azt az értéket
+határozza meg, amely a dinamikus mezőben eltárolásra kerül. Annyi lehetséges
+érték hozható létre, amennyi csak szükséges (vagy legalább annyi, ahány
+táblaoszloppal az adatbázis rendelkezik). A lehetséges értékek határozzák
+meg azon adatbázis oszlopokat, amelyben keresni kell. Lehetőség van
+beállítani az oszlopnevet, egy leírást (címkét), amellyel a mezőnek
+rendelkeznie kell, a szükséges adattípust, és hogy a mezőnek keresési vagy
+listamezőnek kell-e lennie.
+            </para>
+            <para>
+                Név: annak az adatbázisoszlopnak a pontos neve, amelyet kérni fognak az
+adatbázis-lekérdezéseken keresztül.
+            </para>
+            <para>
+                Leírás: annak a mezőnek a címkéje, amely a részletes keresésnél lesz
+megjelenítve.
+            </para>
+            <para>
+                Adattípus: az adattípus, amely a dinamikus mezőben kerül
+eltárolásra. Lehetséges értékek: TEXT, INTEGER vagy DATE.
+            </para>
+            <para>
+                Szűrő: a szűrő mezővel lehetséges egy jegyattribútum vagy egy dinamikus mező
+kiválasztása szűrőként a kapcsolódó oszlophoz. Ha a dinamikus mező egy vele
+kapcsolatban álló jegyhez vagy kötve, akkor az attribútumok lesznek
+használva a szűrőmechanizmushoz, egyébként a szűrők figyelmen kívül lesznek
+hagyva. Ha szűrő lesz beállítva egy táblaoszlophoz, akkor csak a keresési
+kifejezésre illeszkedő keresési eredmények és pontosan a beállított
+oszlophoz kapcsolódó jegyattribútumok lesznek megjelenítve.
+            </para>
+            <para>
+                Keresési mező: azt jelzi, hogy egy mezőnek benne kell-e lennie a keresési
+kérésekben.
+            </para>
+            <para>
+                Listamező: azt jelzi, hogy egy mezőt meg kell-e jeleníteni a találatokban.
+            </para>
+        </section>
+
+        <section>
+            <title>Az „adatbázis” típusú dinamikus mezők beállítása az ügyintézői felületen
+való megjelenítéshez</title>
+            <para>
+                Az „adatbázis” típusú dinamikus mezőket az egyéb típusú dinamikus mezőkhöz
+hasonlóan be kell kapcsolni számos olyan maszknál, amelyben azokat meg kell
+jeleníteni.
+            </para>
+            <para>
+                Ez az Adminisztráció -&gt; Rendszer adminisztráció -&gt; Rendszerbeállítások
+hivatkozáson keresztül végezhető el, amelyben a „Ticket” beállítást kell
+kiválasztani a bal oldalon.
+            </para>
+            <para>
+                Minden felületi területnél (előtétprogramnál), amelyen az „adatbázis” típusú
+dinamikus mezőt meg kell jeleníteni, az adminisztrátornak be kell állítania
+azt az igényei kielégítéséhez. Példák:
+            </para>
+            <para>
+                A Frontend::Agent::Ticket::ViewZoom a jegynagyítás nézethez.
+            </para>
+            <para>
+                A Frontend::Agent::Ticket::ViewPhoneNew az új telefonos jegyekhez.
+            </para>
+            <para>
+                A Frontend::Agent::Ticket::ViewEmailNew az új e-mail jegyekhez.
+            </para>
+            <para>
+                Ezen nézetbeállítások mindegyikében van egy
+„Ticket::Frontend::AgentTicket*###DynamicField” elnevezésű bejegyzés. Ez a
+beállítás határozza meg, hogy mely dinamikus mezőket kell megjeleníteni
+ebben a nézetben. Egy dinamikus mező hozzáadásához a mező belső nevét kell
+kitölteni a „Kulcs” mezőben. Az „Érték” mező a 0 (kikapcsolva), az 1
+(bekapcsolva) és a 2 (bekapcsolva és kötelező) értékeket veheti fel.
+            </para>
+        </section>
+
+        <section>
+            <title>Történeti adatok tárolása</title>
+            <para>
+                Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek
+működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és
+beállítása, amint a következő képernyőképen látható: <figure>
+                    <title>Dinamikus mező adatbázis - történeti adatok beállításai</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                A „SourceDynamicField” beállítási lehetőségben annak a már létrehozott
+dinamikus (adatbázis) mezőnévnek a kitöltése szükséges, amely a történeti
+adatok begyűjtéséhez lesz használva. A kapcsolódó „TargetDynamicField”
+beállításban a „Kulcs” mezőket azon csatlakoztatott külső adatbázis
+táblaoszlopaival kell kitölteni, amely ki lesz olvasva. Minden egyes
+oszlopnál a vele kapcsolatban lévő cél dinamikus mezőt be kell állítani a
+„tartalom” mezőben. Az összegyűjtött adatok ezekben a dinamikus mezőkben
+lesznek elmentve.
+            </para>
+            <para>
+                Ha a beállítás készen van és aktív, akkor a beállított mezők ki lesznek
+olvasva a külső adatbázisból, mivel a forrásmező egy új értéket kap a
+beállított maszkokon keresztül. Az adatok a tárolt azonosítójuk szerint
+lesznek keresve egy eseménymodulon keresztül, és a megtalált értékek a cél
+dinamikus mezőkben lesznek eltárolva.
+            </para>
+        </section>
+
+        <section>
+            <title>Rendszerbeállítások beállításai</title>
+            <section>
+                <title><literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal></title>
+                <para>Csoport: Framework, alcsoport: Frontend::Agent</para>
+                <para>
+                    Meghatározza a beállítási lehetőségeket az automatikus kiegészítés
+funkcióhoz.
+                </para>
+            </section>
+            <section>
+                <title><literal>Ticket::EventModulePost###950-StoreHistoricalData</literal></title>
+                <para>Csoport: Ticket, alcsoport: Core::Ticket</para>
+                <para>
+                    Frissíti a dinamikus mezőket, ha a beállítottak frissítve lesznek.
+                </para>
+            </section>
+            <section>
+                <title><literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</literal></title>
+                <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                <para>
+                    Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához.
+                </para>
+            </section>
+            <section>
+                <title><literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</literal></title>
+                <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                <para>
+                    Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához.
+                </para>
+            </section>
+            <section>
+                <title><literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</literal></title>
+                <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                <para>
+                    Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához.
+                </para>
+            </section>
+            <section>
+                <title><literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</literal></title>
+                <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                <para>
+                    Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához.
+                </para>
+            </section>
+        </section>
+    </section>
+
+
+
+
+    <!-- ******** -->
+<!-- 3. Usage -->
+<!-- ******** -->
+<section>
+        <title>Használat</title>
+        <para>
+            A dinamikus mező adatbázis egy példaszerű használata a következőképpen
+lehet:
+        </para>
+
+        <section>
+            <title>Adathalmazok keresése és mentése - automatikus kiegészítés</title>
+            <para>
+                Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert
+maszkokban (úgymint ViewPhoneNew, ViewEmailNew), egy új szövegmező jelenik
+meg azzal a névvel, amelyet a dinamikus mező a beállításokban kapott. Ebben
+a mezőben lehetséges keresési kifejezések bevitele, és ebből adódóan egy
+keresés végrehajtása az összes beállított adatbázismezőn. Egyébként
+kattintson a „Részletes keresés” hivatkozásra, és indítson egy részletes
+keresést, amelyben közvetlenül ki vannak választva azok a mezők, amelyben
+keresni kell. <figure>
+                    <title>Dinamikus mező adatbázis - tesztmező</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Mivel keresési kifejezések lettek begépelve a szövegmezőbe, egy
+adatbázis-keresés lesz elindítva a beállított oszlopokon, és az eredmény egy
+automatikus kiegészítésen keresztül lesz megjelenítve a szövegmező
+alatt. Minél pontosabb a kereséséi kifejezés, annál pontosabb lesz az
+eredmény is (kevesebb találati bejegyzés). <figure>
+                    <title>Dinamikus mező adatbázis - automatikus kiegészítés funkció</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ha a kívánt érték megjelenik a találatokban, akkor az kiválasztható egy
+egérkattintással vagy a billentyűzeten keresztül, és ebből adódóan
+hozzáadódik a dinamikus mező találataihoz. <figure>
+                    <title>Dinamikus mező adatbázis - kiválasztott elemek</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/SearchFieldSelected.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                A „Részletek” hivatkozáson keresztül egy felugró képernyő érhető el, amely
+részletes információkat nyújt a teljes találati sorról. Ezek az információk
+a sor fejléceit és adatait tartalmazzák. Az információk arra használhatók,
+hogy áttekintést adjanak a többi (nem beállított) oszlopról, vagy adatok
+összehasonlításához használhatók.
+            </para>
+            <para>
+                A hozzáadott találati bejegyzések eltávolíthatók a mínusz gombbal.
+            </para>
+        </section>
+        <section>
+            <title>Adathalmazok keresése és mentése - részletes keresés</title>
+            <para>
+                A „Részletes keresés” hivatkozás egy új kizárólagos párbeszédablakot nyit
+meg egy új adatbázis-keresés indításához. Ezen a maszkon lehetőség van a
+mezők kiválasztására a kifejezetten azokban való kereséshez. <figure>
+                    <title>Dinamikus mező adatbázis - részletes keresés</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Alapértelmezetten az első elérhető mező be van kapcsolva, de lehetőség van
+az elérhető mezők eltávolítására vagy továbbiak hozzáadására. Csak a
+bekapcsolt és kitöltött mezők vannak figyelembe véve a keresésnél. A
+helyettesítő karakterek („*”) minden egyedülálló mezőben megengedettek.
+            </para>
+            <para>
+                Az adatbázis-keresés a „Keresés indítása” gombbal kerül végrehajtásra, és az
+eredmények táblázatos megjelenítésűek lesznek. Ha a keresés sikeres volt,
+akkor az eredmények fel lesznek sorolva, és a bejegyzések egyike
+kiválasztható egy egérkattintással. Azután az érték hozzá lesz adva az
+elmentett értékek listájához. <figure>
+                    <title>Dinamikus mező adatbázis - részletes keresési eredmény</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/dynamicfield-database/DetailedSearchResult.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Az automatikus kiegészítés vagy a részletes keresés használatától
+függetlenül minden egyes találat csak egyszer választható ki. Ha egy
+ügyintéző többször próbál meg kiválasztani egy értéket, akkor egy ezzel
+kapcsolatos figyelmeztető üzenet jelenik meg.
+            </para>
+        </section>
+    </section>
+
+
+
+
+
+
+
+<!-- ********************************** -->
+<!-- 4. Technical Implementation Detail -->
+<!-- ********************************** -->
+<!-- for internal use, don't generate
+    <chapter>
+        <title>Technical Implementation Details</title>
+        <para>
+            File: Kernel/Modules/AdminDynamicFieldDatabase.pm
+            Modification: The module file for the administration interface of the dynamic field.
+        </para>
+        <para>
+            File: Kernel/Modules/AgentDynamicFieldDatabaseDetailedSearch.pm
+            Modification: The module file for the detailed search.
+        </para>
+        <para>
+            File: Kernel/Modules/AgentDynamicFieldDatabaseSearch.pm
+            Modification: The module file for the AJAX-Requests of the autocompletion.
+        </para>
+        <para>
+            File: Kernel/Output/HTML/Standard/AdminDynamicFieldDatabase.tt
+            Modification: The template file for the administration interface of the dynamic field.
+        </para>
+        <para>
+            File: Kernel/Output/HTML/Standard/AgentDynamicFieldDatabaseDetailedSearch.tt
+            Modification: The template file for the detailed search.
+        </para>
+        <para>
+            File: Kernel/System/DynamicField/Driver/BaseDatabase.pm
+            Modification: The driver module for the dynamic field.
+        </para>
+        <para>
+            File: Kernel/System/DynamicField/Driver/Database.pm
+            Modification: The main module of the dynamic field.
+        </para>
+        <para>
+            File: Kernel/System/Database.pm
+            Modification: The backend module for the database queries.
+        </para>
+        <para>
+            File: var/httpd/htdocs/js/Core.Agent.Admin.DynamicFieldDatabase.js
+            Modification: Specific JavaScript for the dynamic fields.
+        </para>
+        <para>
+            File: var/httpd/htdocs/js/Core.Agent.DynamicFieldDatabaseSearch.js
+            Modification: Specific JavaScript for the search queries and their processing.
+        </para>
+        <para>
+            File: var/httpd/htdocs/skins/Agent/default/css/DynamicFieldDatabase.css
+            Modification: Design modifications for the search result illustration.
+        </para>
+    </chapter>
+    -->
+</section>

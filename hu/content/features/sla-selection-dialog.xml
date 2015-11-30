@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="sla-selection-dialog">
+    <title>Mezőkiválasztó párbeszédablak</title>
+
+    <section>
+        <title>Leírás</title>
+        <para>
+            A mezőkiválasztó párbeszédablak engedélyezi azon felugró üzenetek
+beállítását, amelyeket az ügyfeleknek akkor kell látniuk, amikor bizonyos
+SLA-kat választanak ki a jegy létrehozásakor az ügyintézői
+előtétprogramon. Ezek a felugró üzenetek információkat tartalmazhatnak arról
+az SLA-ról, amelyet az ügyfél kiválasztani készül, és megadja neki a
+lehetőséget a döntése átgondolásához.
+        </para>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <para>
+            További beállítás nem szükséges.
+        </para>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <section>
+            <title>Az SLA üzenet beállítása</title>
+            <para>
+                <figure>
+                    <title>SLA beállítás</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Minden egyes SLA-nál beállíthatja az üzenetet az SLA adminisztrációs
+képernyő használatával.
+            </para>
+        </section>
+        <section>
+            <title>Hogyan néz ki az üzenet az ügyfél előtétprogramon</title>
+            <para>
+                <figure>
+                    <title>SLA üzenet</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ez az, amit az ügyfél látni fog, miután kiválasztja az SLA-t, amelyhez az
+üzenet be lett állítva. Vagy megerősítheti, vagy elutasíthatja a
+választását. Az utóbbi azután vissza fogja állítani az SLA kiválasztását.
+            </para>
+        </section>
+    </section>
+
+</section>
