@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="ticket-attachment-view">
+    <title>A bejegyzés melléklet áttekintő</title>
+
+    <section>
+        <title>Leírás</title>
+        <para>
+            A bejegyzés melléklet áttekintő engedélyezi egy jegy összes melléklet
+listájának megtekintését. A mellékletek olyan attribútumok szerint lesznek
+felsorolva mint fájlnév, fájltípus, fájlméret, a hozzáadás dátuma, és hogy
+mely bejegyzéshez tartoznak. Az áttekintő képernyőről letölthet bizonyos
+mellékleteket, vagy létrehozhat egy olyan archívumfájlt, amely az éppen
+megtekintett jegy több mellékletét vagy az összeset tartalmazza.
+        </para>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <para>
+            További beállítás nem szükséges.
+        </para>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <section>
+            <title>A bejegyzés melléklet áttekintő elérése</title>
+            <para>
+                <figure>
+                    <title>Átváltás a bejegyzés melléklet áttekintőre</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Miután egy jegy legalább egy melléklettel rendelkezik, a „Mellékletek”
+menüpont kerül megjelenítésre az AgentTicketZoom képernyőn. Erre kattintva
+egy felugró ablakot fog megnyitni, amely az összes melléklet listáját
+tartalmazza.
+            </para>
+            <para>
+                <figure>
+                    <title>A bejegyzés melléklet áttekintő használata</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic></screenshot></figure>
+            </para>
+        </section>
+    </section>
+
+</section>

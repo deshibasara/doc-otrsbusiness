@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="chat">
+    <title>A csevegés</title>
+
+    <section>
+        <title>Leírás</title>
+        <para>
+            Az <emphasis role="bold">OTRS Business Solution</emphasis>™ csevegés
+funkciója csevegéseket tesz lehetővé az ügyintézők és az ügyfelek közt az
+OTRS előtétprogram használatával. Miután engedélyezve lett, az ügyfelek
+(vagy a nyilvános felhasználók) csevegéseket indíthatnak az ügyintézőkkel,
+és fordítva. A befejezett csevegések archiválhatók, és hozzácsatolhatók a
+jegyekhez.
+        </para>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <para>
+            A következő beállítási lehetőségek fontosak ennél a funkciónál. Felhívjuk a
+figyelmét, hogy meghatározhatja azon rögzített szövegek listáját is, amelyek
+megjelenítésre kerülnek a nyilvános felhasználóknak és az ügyfeleknek a
+csevegés modulban. További információkért azzal kapcsolatban, hogy mely
+szövegeket lehet megváltoztatni, nézze meg a modul beállításait
+(OTRSBusiness &gt; Core::Chat).
+        </para>
+        <section>
+            <title><literal>ChatEngine::Active</literal></title>
+            <para>Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Azt szabályozza, hogy a csevegés funkció engedélyezve legyen-e vagy sem.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::PublicToAgent</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Azt szabályozza, hogy a nyilvános felhasználóknak képesnek kell-e lenniük
+csevegéseket indítani vagy sem (felhívjuk a figyelmét, hogy az előtétprogram
+modul beállítását a nyilvános csevegés előtétprogramnál is engedélyezni kell
+a <literal>PublicFrontend::Module###PublicChat</literal> beállításban).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::CustomerToAgent</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Azt szabályozza, hogy az ügyfeleknek képesnek kell-e lenniük csevegéseket
+indítani vagy sem (felhívjuk a figyelmét, hogy az előtétprogram modul
+beállítását az ügyfél csevegés előtétprogramnál is engedélyezni kell a
+<literal>CustomerFrontend::Module###CustomerChat</literal> beállításban).
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::AgentToCustomer</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Azt szabályozza, hogy az ügyintézőknek képesnek kell-e lenniük csevegéseket
+indítani közvetlenül az ügyfelekkel, vagy sem.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::ChatDirection::AgentToAgent</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Azt szabályozza, hogy az ügyintézőknek képesnek kell-e lenniük egymással
+csevegni, vagy sem.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::PermissionGroup::ChatReceivingAgents,
+ChatEngine::PermissionGroup::ChatNotificationAgents,
+ChatEngine::PermissionGroup::ChatStartingAgents</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Csoportokat határoz meg bizonyos szolgáltatásokhoz. Fogadás: csoportok,
+amelyek kaphatnak és fogadhatnak csevegéskéréseket. Értesítés: csoportok,
+amelyek értesítéseket fogadhatnak az új vagy függőben lévő
+csevegéskérésekről. Kezdés: csoportok, amelyeknek egyáltalán megengedett az
+új csevegések indítása.
+            </para>
+        </section>
+        <section>
+            <title><literal>ChatEngine::DefaultAgentName</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Core::Chat</para>
+            <para>
+                Egy alapértelmezett név, amelyet az ügyfeleknek és a nyilvános
+felhasználóknak kell megjeleníteni a csevegő ügyintézők valódi neve
+helyett. Ha üres vagy le van tiltva, akkor a valódi ügyintézőnév lesz
+megjelenítve.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <section>
+            <title>A csevegéskezelő</title>
+            <para>
+                <figure>
+                    <title>A csevegéskezelő képernyő</title>
+<screenshot>
+<graphic scale="40" fileref="screenshots/chat/ChatManager.jpeg"></graphic></screenshot></figure>
+            </para>
+            <para>
+                A csevegéskezelő a csevegés funkció középpontja. Ügyintézőként itt kezelheti
+a csevegéseit, láthatja és elfogadhatja a nyitott kéréseket, és
+megváltoztathatja az elérhetőségi állapotát. A csevegéskezelő szolgáltatja a
+csevegéskérések listáját az ügyfelektől, a nyilvános felhasználóktól és más
+ügyintézőktől, valamint egy áttekintőt az összes aktív csevegésről. Nyissa
+meg a csevegéskezelőt az OTRS fő navigációján lévő „Csevegés” használatával.
+            </para>
+            <para>
+                Beállíthatja az általános elérhetőségét a csevegésnél a csevegéskezelő bal
+oldalsávján lévő jelölőnégyzet használatával. Miután le lett tiltva, többé
+nem fog értesülni a bejövő csevegéskérésekről.
+            </para>
+        </section>
+
+        <section>
+            <title>A csevegés felületi elem használata</title>
+            <para>
+                <figure>
+                    <title>A csevegés felületi elem</title>
+<screenshot>
+<graphic scale="40" fileref="screenshots/chat/ChatWidget.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Üzenetek küldéséhez használhatja a csevegés felületi elemen lévő szövegmezőt
+az aktív csevegések listájában. Miután elkészült az üzenet begépelésével,
+küldje el azt vagy a szövegmező melletti küldés ikonra kattintva, vagy a
+tabulátor és enter billentyűk használatával (egymás után). Amikor az üzenet
+elküldésre került, a kurzor vissza fog ugrani a szövegmezőbe, hogy
+egyszerűen lehetővé tegye a gépelés folytatását.
+            </para>
+        </section>
+
+        <section>
+            <title>Új csevegések indítása és foglalkozás a csevegéskérésekkel</title>
+            <para>
+                <figure>
+                    <title>Csevegés indítása</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/chat/ChatStartWidget.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ügyintézőként több módja is létezik egy csevegés indításának. Mindenek előtt
+használhatja az elérhető felhasználók felületi elemet a vezérlőpulton az
+olyan ügyintézőkkel vagy ügyfelekkel történő csevegéshez, akik jelenleg be
+vannak jelentkezve az OTRS-be. Egyszerűen kattintson az ügyintéző vagy
+ügyfél neve mögötti kicsi csevegés ikonra. Egy kis rátét ablak fog
+megjelenni, és lehetővé teszi az első csevegés üzenet beírását, amelyet a
+másik felhasználónak szeretne küldeni. Azután az új csevegés hozzáadásra
+kerül a csevegéskezelőhöz.
+            </para>
+            <para>
+                Használhatja a jegynagyítást is egy csevegés indításához egy bizonyos
+ügyféllel. Az oldalsávon találni fog egy csevegés hivatkozást az ügyfél
+információs felületi elemén.
+            </para>
+            <para>
+                Ha új csevegéskérések érkeznek, és be van jelentkezve az OTRS-be, akkor egy
+csevegés ikon fogja értesíteni a képernyő tetején lévő eszköztáron. Az ikon
+arról is tartalmaz információkat, hogy pillanatnyilag hány nyitott
+csevegéskérés érhető el. Egyszerűen kattintson az ikonra a csevegéskezelő
+megnyitásához. Kapni fog egy böngésző értesítést is (felugró ablak) az új
+csevegéskérések esetén.
+            </para>
+            <para>
+                A szükséges jogosultságokkal rendelkező összes ügyintéző képes lesz
+foglalkozni a nyitott csevegéskérésekkel. Egy kérést egyszerre csak egy
+ügyintéző fogadhat el, amely azt jelenti, hogy a kérés el fog tűnni a többi
+ügyintéző listáiból, miután azt egy ügyintéző elfogadta. Miután elfogadták,
+az újonnan létrejött csevegés hozzá lesz fűzve az aktív csevegések
+listájához annál az ügyintézőnél, aki azt elfogadta. A csevegésben lévő
+többi felhasználó egy értesítést fog látni arról a felhasználóról, aki éppen
+belépett a csevegésbe.
+            </para>
+        </section>
+
+        <section>
+            <title>Csevegések befejezése és archiválása</title>
+            <para>
+                <figure>
+                    <title>A csevegés műveletek</title>
+<screenshot>
+<graphic scale="40" fileref="screenshots/chat/ChatIcons.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ügyintézőként számos lehetősége van egy csevegés befejezésére. Mindenek
+előtt egyszerűen eldobhatja a csevegést a csevegés felületi elem jobb felső
+sarkában lévő „X” ikon használatával a csevegéskezelőben. A csevegés ezután
+egyszerűen be lesz zárva archiválás nélkül. A csevegésen lévő többi
+felhasználó egy olyan üzenetet fog látni, amely azt mondja, hogy a csevegés
+befejeződött.
+            </para>
+            <para>
+                Hozzáfűzheti a csevegést egy meglévő jegyhez is. Kattintson a csevegés
+felületi elem jobb felső sarkában lévő „+” ikonra a csevegéskezelőben. Egy
+új ablak fog megnyílni, amely lehetővé teszi egy olyan jegy kiválasztását,
+amelyhez a csevegést hozzá kell fűzni.
+            </para>
+            <para>
+                Ha nincsen semmilyen alkalmas jegye, amelyhez a csevegést hozzá lehetne
+fűzni, akkor létrehozhat egy újat is a csevegés felületi elem jobb felső
+sarkában lévő telefon ikon használatával a csevegéskezelőben.
+            </para>
+        </section>
+    </section>
+
+</section>

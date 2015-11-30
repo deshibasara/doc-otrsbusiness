@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="dynamicfield-contact-with-data">
+    <title>Partner adatokkal</title>
+
+    <para>
+        Ez a funkció lehetővé teszi partnerek hozzáadását adatokkal a jegyekhez.
+    </para>
+
+    <section>
+        <title>Leírás</title>
+        <section>
+            <title>Adatforrások meghatározása</title>
+            <para>
+                Az adatforrások ennél a funkciónál az új „Partner adatokkal” típus dinamikus
+mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a típusnak minden
+dinamikus mezője egy új adatforrás. A dinamikus mező neve lesz az adatforrás
+neve, mivel mindketten ugyanazok.
+            </para>
+            <para>
+                Minden egyes adatforrásnál (dinamikus mezőnél) meghatározható a partner
+attribútumainak listája (az egyes attribútumok csak egy szövegalapú értéket
+tartalmazhatnak). A partner attribútumai beállíthatók kötelezőként és
+kereshetőként, ha szükséges. Az attribútumok rendezési sorrendje is
+meghatározható.
+            </para>
+            <para>
+                A partner attribútumai az egyes adatforrásoknál szükség szerint bármilyen
+információt tartalmazhatnak a partnerről, mint például különböző címek,
+telefon, születésnap, évfordulók, kedvenc étel, szabadidős tevékenység, stb.
+            </para>
+            <note>
+                <para>
+                    A „Name” és „ValidID” attribútumok mindig kötelezők, és nincsenek
+automatikusan hozzáadva, így minden egyes új adatforrásnál ezeket az
+attribútumokat kézzel kell hozzáadni.
+                </para>
+                <para>
+                    Az adatforrás meghatározásán belül (vagy a dinamikus mező beállításaiban)
+ezeket a „Name” és „ValidID” kulcsokkal kell feltüntetni, míg az értékek
+„Név” és „Érvényesség” lehetnek például.
+                </para>
+            </note>
+        </section>
+        <section>
+            <title>Partnerkezelés</title>
+            <para>
+                Miután rendelkezik legalább egy meghatározott adatforrással (partner
+adatokkal dinamikus mező), a partnerek információi hozzáadhatók a forráshoz
+a kitöltésükhöz.
+            </para>
+            <para>
+                Eltekintve a „Name” és a „ValidID” kulcsoktól, az egyes adatforrások
+különböző partnerinformációkat tartalmazhatnak, ahogy az adatforrás
+meghatározza (például egy adatforrásnak lehet e-mail mezője, míg egy egy
+másik tartalmazhat telefon és/vagy mobiltelefon mezőket).
+            </para>
+            <para>
+                A partner kezelése (hozzáadás vagy frissítés) az adatforrásoknál egy
+speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni
+(Partnerek adatokkal szerkesztése) a fő navigációs sávon.
+            </para>
+        </section>
+        <section>
+            <title>Partnerek hozzáadása a jegyekhez</title>
+            <para>
+                Minden egyes beállított partner adatokkal dinamikus mezőnél a kifejezetten
+ehhez a dinamikus mezőhöz (vagy adatforráshoz) létrehozott partner bármely
+olyan jegylétrehozás vagy jegyművelet képernyőről kiválasztható, ahol a
+dinamikus mező előzőleg be lett állítva.
+            </para>
+            <para>
+                A partner attribútumai láthatóak lesznek a jegynagyítás képernyőn.
+            </para>
+        </section>
+        <section>
+            <title>Partnerek használata a keresésben és a statisztikákban</title>
+            <para>
+                A jegyek a kötelező „Name” attribútumon keresztül találhatók meg a
+keresésben és a statisztikákban.
+            </para>
+            <para>
+                A „Name” visszaadható egy mezőértékként is.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <para>
+            A beállítási lehetőségek következő listája változtatható meg ennél a
+funkciónál.
+        </para>
+        <section>
+            <title><literal>AdminContactWithData::RunInitialWildcardSearch</literal></title>
+            <para>Csoport: OTRSBusiness, alcsoport: Frontend::Admin::AdminContactWithData</para>
+            <para>
+                Meghatározza, hogy egy helykitöltővel rendelkező keresést végre kell-e
+hajtani a partnerkezelés kezdeti meghívásakor.
+            </para>
+        </section>
+        <section>
+            <title><literal>Frontend::Module###AdminContactWithData</literal></title>
+            <para> Csoport: OTRSBusiness, alcsoport: Frontend::Agent::ModuleRegistration</para>
+            <para>
+                Lehetővé tesz a partner és a partnerrészlet kezelési jogosultságok
+felosztását csoportmeghatározáson keresztül.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <para>
+            Az adatokkal rendelkező partnerek egy példaszerű használata a
+következőképpen lehet:
+        </para>
+        <orderedlist>
+            <listitem>
+                <para>
+                    Hozzon létre egy új „Partner adatokkal” típusú dinamikus mezőt.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Állítsa be a lehetséges partner attribútumokat (lehetséges értékeket). A
+„Name” és a „ValidID” kötelezők minden partner adatokkal dinamikus mezőnél.
+                </para>
+                <itemizedlist mark="round">
+                    <listitem>
+                        <para>
+                            Adja hozzá a „Name” attribútumot (kulcs: Name, érték: „Név”).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Adja hozzá a „ValidID” attribútumot (kulcs: ValidID, érték: „Érvényesség”).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Adjon hozzá bármilyen egyéb attribútumot, mint például a „Telephone”
+attribútum (kulcs: Telephone, érték: „Telefon”).
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>
+                    Adja hozzá a kötelező attribútumkulcsok listáját vesszővel elválasztva (a
+„Name” és a „ValidID” nem szükséges).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Állítsa be az attribútumkulcsok sorrendjének listáját vesszővel elválasztva,
+úgymint: Name,Telephone,ValidID.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Adja hozzá a kereshető attribútumkulcsok listáját vesszővel elválasztva (a
+„Name” nem szükséges).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan
+létrehozott adatforrásban a „Jegyek” -&gt; „Partnerek adatokkal
+szerkesztése” képernyő használatával a fő navigációs sávról.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Adja hozzá az új dinamikus mezőt azon képernyők beállításaihoz, ahol azt meg
+kell jeleníteni. Például az új telefonos jegy képernyőn a
+Ticket::Frontend::AgentTicketPhone###DynamicField rendszerbeállítás
+frissítésével, és ugyanezt elvégezve a
+Ticket::Frontend::AgentTicketZoom###DynamicField rendszerbeállításnál.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Menjen az új telefonos jegy képernyőre, és figyelje meg, hogy az új mező ott
+van-e. Adja hozzá a jegyhez szükséges összes információt.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Jelöljön ki egy meglévő partnert az automatikus kiegészítés használatával,
+és válasszon ki egy partnert.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    A hozzárendelt partner és annak attribútumai láthatóak lesznek a
+jegynagyítás képernyőn.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Lehetőség van a partner attribútumainak frissítésére a „Partneradatok
+szerkesztése” gombra kattintva, amely a partneradat doboz címének jobb
+oldalán jelenik meg (ha a jelenlegi felhasználó a
+Frontend::Module###AdminDynamicFieldContactWithData rendszerbeállításban
+meghatározott csoportok tagja).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Ha a partner megváltoztatása szükséges ennél a jegynél, akkor az bármely
+olyan egyéb jegyműveleten keresztül elvégezhető, ahol a dinamikus mező be
+van állítva a megjelenítéshez.
+                </para>
+            </listitem>
+        </orderedlist>
+    </section>
+
+
+
+<!-- for internal use, don't generate
+    <chapter>
+        <title>Technical Implementation Details</title>
+        <para>
+            Via a new DynamicField admin module the configuration of contacts will be managed and stored in the DynamicField configuration.
+        </para>
+        <para>
+            The configured contact are read from the DynamicField configuration via an admin module and changes are stored there as well.
+        </para>
+        <para>
+            Within the ticket only the internal contact id as well as the content of the field 'Name' will be stored.
+        </para>
+
+        <para>
+            Autocomplete functionality for setting the contact and display of contact attributes is provided by an output filter in order to prevent changes to framework files.
+        </para>
+    </chapter>
+    -->
+</section>

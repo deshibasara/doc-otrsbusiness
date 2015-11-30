@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<chapter id="introduction">
+    <title>Bevezetés</title>
+    <para>
+        Az <emphasis role="bold">OTRS Business Solution</emphasis>™ megoldással az
+OTRS csoport által nyújtott professzionális szolgáltatások és kizárólagos
+üzleti funkciók összes előnyét élvezheti. Optimalizálja a belső és külső
+kommunikációját a jobb szolgáltatásminőség érdekében – rugalmasan igazítható
+a működési forgatókönyvéhez.
+    </para>
+    <para>
+        Az OTRS 4 ügyes és gyors keretrendszere az alapja az <ulink
+url="https://www.otrs.com/otrs-business-solution-improving-customer-service/"><emphasis
+role="bold">OTRS Business Solution</emphasis>™</ulink> megoldásnak. Ezen
+felül érhető el a szolgáltatások kizárólagos halmaza. Ezek tartalmazzák az
+<emphasis role="bold">OTRS Business Solution</emphasis>™ <ulink
+url="https://www.otrs.com/otrs-business-solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services">integrált
+felhőszolgáltatásait</ulink>, amelyet rugalmasan bekapcsolhat vagy
+kikapcsolhat a telepítési forgatókönyvek szerint. Továbbá választhat 3, 7
+vagy korlátlan számú különféle <ulink
+url="https://www.otrs.com/otrs-business-solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services">szabadon
+választható <emphasis role="bold">OTRS Business Solution</emphasis>™
+szolgáltatás</ulink> közül - a szerződési szintjétől függően. Profitáljon a
+rendszeres, ingyenes frissítésekből, a legjobb OTRS biztonságból és
+támogatásból, valamint a tanácsadóink által elvégzett telepítésből és
+beállításból.
+    </para>
+</chapter>

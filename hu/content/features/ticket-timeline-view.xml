@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="ticket-timeline-view">
+    <title>A jegy idővonal nézete</title>
+
+    <section>
+        <title>Leírás</title>
+        <para>
+            A jegy idővonal nézete biztosítja az összes olyan művelet időrendi nézetét,
+amely egy jegyen történt (amely bejegyzéseket, tulajdonosváltásokat, bejövő
+leveleket, stb. tartalmaz). A jegy idővonal nézetével az ügyintézők kevesebb
+idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
+        </para>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <section>
+            <title><literal>ChronicalViewEnabled</literal></title>
+            <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent</para>
+            <para>
+                Azt szabályozza, hogy a jegy idővonal nézete engedélyezve legyen-e vagy sem.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <section>
+            <title>A jegy idővonal nézetének elérése</title>
+            <para>
+                <figure>
+                    <title>Átváltás a jegy idővonal nézetére</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/timeline-view/TimelineViewSwitch.png"></graphic></screenshot></figure>
+            </para>
+            <para>
+                A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem
+jobb felső sarkában lévő óra ikont az AgentTicketZoom nézeten. Át lesz
+irányítva az idővonal nézetre, és ez a nézet lesz megtartva elsőbbségiként,
+amíg vissza nem vált egy másik nézetre.
+            </para>
+            <para>
+                A jegy idővonal nézetén úgy dolgozhat a jeggyel, ahogy azt
+megszokta. Megvizsgálhatja az egyes események idejét az idővonalon, ha az
+egérkurzorral rámutat az egyes események mellett lévő kis
+négyzetre. Megtekintheti a bejegyzések teljes tartalmát a nagyítás ikon
+használatával az egyes bejegyzésdobozok tetején, ahol meg fogja találni az
+összes gyakori bejegyzésműveletet, mint például válasz, felosztás,
+továbbítás, stb.
+            </para>
+            <para>
+                <figure>
+                    <title>A jegy idővonal nézetének használata</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/timeline-view/TimelineViewZoom.png"></graphic></screenshot></figure>
+            </para>
+        </section>
+    </section>
+
+</section>
