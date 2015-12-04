@@ -178,26 +178,35 @@
             <para>
                 In the admin area in OTRS, you'll find a new entry "Chat Channel" (AdminChatChannel). Use this screen to add new channels. You'll need to assign an existing agent group to each channel you'll create. You can use the screens "Agents &lt;-&gt; Groups" or "Agents &lt;-&gt; Roles" to assign permissions. There are new chat-specific permissions which are described below.
             </para>
-            <itemizedlist>
-                <para>
-                    You can assign these chat permissions:
-                </para>
-                <listitem>
-                    <para>
-                        CHAT_OBSERVER: Users with this permission type will only be able to observe chats in this channel after they have been invited to them. They will not be able to accept or observe chats in this channel on their own and if they are the only agent currently available in this channel, customers/public users will not be able to create a new chat in this channel. Observers can still invite other agents to a chat they currently observe.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        CHAT_PARTICIPANT: Users with this permission type will be able to take part in a chat, but only after they get invited to it. After they're in a chat, they can change the chat channel, discard the chat etc. They will not be able to accept a customer/public chat request on their own.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        CHAT_OWNER: Users with this permission type will be able to accept chat customer/public requests and do all kinds of observer and participant actions on a chat.
-                    </para>
-                </listitem>
-            </itemizedlist>
+
+            <variablelist>
+                <title>Available chat permissions</title>
+                <varlistentry>
+                    <term>CHAT_OBSERVER</term>
+                    <listitem>
+                        <para>
+                            Users with this permission type will only be able to observe chats in this channel after they have been invited to them. They will not be able to accept or observe chats in this channel on their own and if they are the only agent currently available in this channel, customers/public users will not be able to create a new chat in this channel. Observers can still invite other agents to a chat they currently observe.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>CHAT_PARTICIPANT</term>
+                    <listitem>
+                        <para>
+                            Users with this permission type will be able to take part in a chat, but only after they get invited to it. After they're in a chat, they can change the chat channel, discard the chat etc. They will not be able to accept a customer/public chat request on their own.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>CHAT_OWNER</term>
+                    <listitem>
+                        <para>
+                            Users with this permission type will be able to accept chat customer/public requests and do all kinds of observer and participant actions on a chat.
+                        </para>
+                    </listitem>
+                </varlistentry>
+            </variablelist>
+
             <note>
                 <para>
                     To use the chat in general, agents still need to have at least ro permissions to the groups set up in ChatEngine::PermissionGroup::ChatReceivingAgents and ChatEngine::PermissionGroup::ChatStartingAgents.
