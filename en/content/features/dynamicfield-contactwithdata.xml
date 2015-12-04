@@ -84,23 +84,29 @@
 
     <section>
         <title>Configuration</title>
-        <para>
-            The following list of configuration options can be changed for this feature.
-        </para>
-        <section>
-            <title><literal>AdminContactWithData::RunInitialWildcardSearch</literal></title>
-            <para>Group: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData</para>
-            <para>
-                Defines if a search with placeholder should be executed when initially calling the contact management.
-            </para>
-        </section>
-        <section>
-            <title><literal>Frontend::Module###AdminContactWithData</literal></title>
-            <para> Group: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration</para>
-            <para>
-                Allows to distribute contact and contact detail management permissions via group definition.
-            </para>
-        </section>
+
+        <variablelist>
+            <title>SysConfig</title>
+            <varlistentry>
+                <term>AdminContactWithData::RunInitialWildcardSearch</term>
+                <listitem>
+                    <para>Group: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData</para>
+                    <para>
+                        Defines if a search with placeholder should be executed when initially calling the contact management.
+                    </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Frontend::Module###AdminContactWithData</term>
+                <listitem>
+                    <para>Group: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration</para>
+                    <para>
+                        Allows to distribute contact and contact detail management permissions via group definition.
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
     </section>
 
     <section>

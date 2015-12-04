@@ -13,6 +13,13 @@
     </section>
 
     <section>
+        <title>Configuration</title>
+        <para>
+            No further configuration needed.
+        </para>
+    </section>
+
+    <section>
         <title>Usage</title>
         <section>
             <title>Creating reports</title>

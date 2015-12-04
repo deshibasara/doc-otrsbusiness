@@ -226,48 +226,63 @@
 
         <section>
             <title>Sysconfig settings</title>
-            <section>
-                <title><literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal></title>
-                <para>Group: Framework, Subgroup: Frontend::Agent</para>
-                <para>
-                    Defines the config options for the autocompletion feature.
-                </para>
-            </section>
-            <section>
-                <title><literal>Ticket::EventModulePost###950-StoreHistoricalData</literal></title>
-                <para>Group: Ticket, Subgroup: Core::Ticket</para>
-                <para>
-                    Updates dynamic fields, if configured ones will be updated.
-                </para>
-            </section>
-            <section>
-                <title><literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</literal></title>
-                <para>Group: OTRSBusiness, Subgroup: Core</para>
-                <para>
-                    Defines the source dynamic field for storing historical data.
-                </para>
-            </section>
-            <section>
-                <title><literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</literal></title>
-                <para>Group: OTRSBusiness, Subgroup: Core</para>
-                <para>
-                    Defines the target dynamic fields for storing historical data.
-                </para>
-            </section>
-            <section>
-                <title><literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</literal></title>
-                <para>Group: OTRSBusiness, Subgroup: Core</para>
-                <para>
-                    Defines the source dynamic field for storing historical data.
-                </para>
-            </section>
-            <section>
-                <title><literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</literal></title>
-                <para>Group: OTRSBusiness, Subgroup: Core</para>
-                <para>
-                    Defines the target dynamic fields for storing historical data.
-                </para>
-            </section>
+
+            <variablelist>
+                <varlistentry>
+                    <term>AutoComplete::Agent###DynamicFieldDatabaseSearch</term>
+                    <listitem>
+                        <para>Group: Framework, Subgroup: Frontend::Agent</para>
+                        <para>
+                            Defines the config options for the autocompletion feature.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>Ticket::EventModulePost###950-StoreHistoricalData</term>
+                    <listitem>
+                        <para>Group: Ticket, Subgroup: Core::Ticket</para>
+                        <para>
+                            Updates dynamic fields, if configured ones will be updated.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</term>
+                    <listitem>
+                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>
+                            Defines the source dynamic field for storing historical data.
+                        </para>
+                        </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</term>
+                    <listitem>
+                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>
+                            Defines the target dynamic fields for storing historical data.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</term>
+                    <listitem>
+                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>
+                            Defines the source dynamic field for storing historical data.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</term>
+                    <listitem>
+                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>
+                            Defines the target dynamic fields for storing historical data.
+                        </para>
+                    </listitem>
+                </varlistentry>
+            </variablelist>
         </section>
     </section>
 
