@@ -33,10 +33,10 @@
     <section>
         <title>Usage</title>
         <section>
-            <title>Accessing the ticket timeline view</title>
+            <title>Accessing the Ticket Timeline View</title>
             <para>
                 <figure>
-                    <title>Switching to the ticket timeline view</title>
+                    <title>Switching to the Ticket Timeline View</title>
                     <screenshot>
                          <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -50,7 +50,7 @@
             </para>
             <para>
                 <figure>
-                    <title>Using the ticket timeline view</title>
+                    <title>Using the Ticket Timeline View</title>
                     <screenshot>
                          <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>

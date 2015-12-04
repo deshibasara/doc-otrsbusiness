@@ -180,7 +180,7 @@
             </para>
 
             <variablelist>
-                <title>Available chat permissions</title>
+                <title>Available Chat Permissions</title>
                 <varlistentry>
                     <term>CHAT_OBSERVER</term>
                     <listitem>
@@ -214,7 +214,7 @@
             </note>
         </section>
         <section>
-            <title>Agents: Select active chat channels</title>
+            <title>Agents: Select Active Chat Channels</title>
             <para>
                 <figure>
                     <title>Setting up preferred chat channels</title>
@@ -228,10 +228,10 @@
             </para>
         </section>
         <section id="chat-setup-availability">
-            <title>Agents: Set up availability</title>
+            <title>Agents: Set up Availability</title>
             <para>
                 <figure>
-                    <title>Setting up chat availability</title>
+                    <title>Setting up Chat Availability</title>
                     <screenshot>
                          <graphic fileref="screenshots/chat/ChatAgentToggleAvailability.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -249,12 +249,12 @@
     </section>
 
     <section>
-        <title>General usage</title>
+        <title>General Usage</title>
         <section>
-            <title>The chat manager</title>
+            <title>The Chat Manager</title>
             <para>
                 <figure>
-                    <title>The chat managing screen</title>
+                    <title>The Chat Managing Screen</title>
                     <screenshot>
                          <graphic fileref="screenshots/chat/ChatManager.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -266,7 +266,7 @@
         </section>
 
         <section>
-            <title>Starting new chats</title>
+            <title>Starting New Chats</title>
             <itemizedlist>
                 <listitem>
                     <para><emphasis>Agent to agent</emphasis></para>
@@ -315,13 +315,13 @@
         </section>
 
         <section>
-            <title>Handling chat requests</title>
+            <title>Handling Chat Requests</title>
             <para>
                 If there is a new chat request in one of the channels you (as an agent) have permissions for, you'll receive a browser notification which allows you to go directly to the chat manager. After you've opened the chat manager, you can see a list of open requests of all types (see figure below).
             </para>
             <para>
                 <figure>
-                    <title>An open chat request</title>
+                    <title>An Open Chat Request</title>
                     <screenshot>
                          <graphic fileref="screenshots/chat/ChatNewRequest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -335,7 +335,7 @@
             </para>
             <para>
                 <figure>
-                    <title>Open chat request details</title>
+                    <title>Open Chat Request Details</title>
                     <screenshot>
                          <graphic fileref="screenshots/chat/ChatNewRequestDetail.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -347,7 +347,7 @@
         </section>
 
         <section>
-            <title>The chat widget</title>
+            <title>The Chat Widget</title>
             <para>
                 <figure>
                     <title>The chat widget</title>

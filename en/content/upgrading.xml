@@ -23,7 +23,7 @@
     </para>
     <para>
         <figure>
-            <title>Upgrade successful</title>
+            <title>Upgrade Successful</title>
             <screenshot>
                  <graphic fileref="screenshots/upgrading/CorrectlyDeployed.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>

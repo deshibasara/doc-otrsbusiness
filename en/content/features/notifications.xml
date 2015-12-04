@@ -13,13 +13,13 @@
     </section>
 
     <section>
-        <title>Setting up SMS notifications</title>
+        <title>Setting up SMS Notifications</title>
         <para>
             In order to use SMS as a way of notification for admins and customers, you have to buy a SMS unit package. Please get in touch with sales@otrs.com on this matter. Once you've bought a package, you will be able too look up your current contingent of remaining SMS units on the admin screen for the SMS cloud service (AdminCloudServiceSMS).
         </para>
         <para>
             <figure>
-                <title>Admin cloud service SMS screen</title>
+                <title>Admin Cloud Service SMS Screen</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/CloudServiceSMS.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -41,7 +41,7 @@
         </para>
         <para>
             <figure>
-                <title>Enabling SMS notifications</title>
+                <title>Enabling SMS Notifications</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/EnablingSMS.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -52,7 +52,7 @@
         </para>
         <para>
             <figure>
-                <title>Agent preferences SMS notification settings</title>
+                <title>Agent Preferences SMS Notification Settings</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/AgentPreferences.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -61,13 +61,13 @@
     </section>
 
     <section>
-        <title>Setting up and using the notification web view</title>
+        <title>Setting up and Using the Notification Web View</title>
         <para>
             Setting up the notification web view for agents is similar to the setup for SMS notifications as described above.
         </para>
         <para>
             <figure>
-                <title>Enabling the notification web view</title>
+                <title>Enabling the Notification Web View</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/NotificationWebView.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -78,7 +78,7 @@
         </para>
         <para>
             <figure>
-                <title>Notification web view icon on the toolbar</title>
+                <title>Notification Web View Icon on the Toolbar</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/NotificationWebViewNew.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -89,7 +89,7 @@
         </para>
         <para>
             <figure>
-                <title>Notification web view overview</title>
+                <title>Notification Web View Overview</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/NotificationWebViewOverview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -97,7 +97,7 @@
         </para>
         <para>
             <figure>
-                <title>Notification web view detail</title>
+                <title>Notification Web View Detail</title>
                 <screenshot>
                      <graphic fileref="screenshots/notifications/NotificationWebViewDetail.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
