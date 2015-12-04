@@ -233,7 +233,7 @@
                 <figure>
                     <title>Setting up chat availability</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatAgentToggleAvailability.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatAgentToggleAvailability.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -256,7 +256,7 @@
                 <figure>
                     <title>The chat managing screen</title>
                     <screenshot>
-                         <graphic scale="50" fileref="screenshots/chat/ChatManager.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatManager.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
