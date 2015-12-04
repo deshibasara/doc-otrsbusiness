@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="sla-selection-dialog">
-    <title>Mezőkiválasztó párbeszédablak</title>
+    <title>The SLA Field Selection Dialog</title>
 
     <section>
         <title>Leírás</title>
@@ -32,8 +32,9 @@ lehetőséget a döntése átgondolásához.
                 <figure>
                     <title>SLA beállítás</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Minden egyes SLA-nál beállíthatja az üzenetet az SLA adminisztrációs
@@ -46,8 +47,9 @@ képernyő használatával.
                 <figure>
                     <title>SLA üzenet</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Ez az, amit az ügyfél látni fog, miután kiválasztja az SLA-t, amelyhez az

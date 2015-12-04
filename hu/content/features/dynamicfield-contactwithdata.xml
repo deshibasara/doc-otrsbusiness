@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-contact-with-data">
-    <title>Partner adatokkal</title>
+    <title>The Dynamic Field "Contact with Data"</title>
 
     <para>
         Ez a funkció lehetővé teszi partnerek hozzáadását adatokkal a jegyekhez.
@@ -89,26 +89,31 @@ keresésben és a statisztikákban.
 
     <section>
         <title>Beállítás</title>
-        <para>
-            A beállítási lehetőségek következő listája változtatható meg ennél a
-funkciónál.
-        </para>
-        <section>
-            <title><literal>AdminContactWithData::RunInitialWildcardSearch</literal></title>
-            <para>Csoport: OTRSBusiness, alcsoport: Frontend::Admin::AdminContactWithData</para>
-            <para>
-                Meghatározza, hogy egy helykitöltővel rendelkező keresést végre kell-e
+
+        <variablelist>
+            <title>SysConfig</title>
+            <varlistentry>
+                <term>AdminContactWithData::RunInitialWildcardSearch</term>
+                <listitem>
+                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Admin::AdminContactWithData</para>
+                    <para>
+                        Meghatározza, hogy egy helykitöltővel rendelkező keresést végre kell-e
 hajtani a partnerkezelés kezdeti meghívásakor.
-            </para>
-        </section>
-        <section>
-            <title><literal>Frontend::Module###AdminContactWithData</literal></title>
-            <para> Csoport: OTRSBusiness, alcsoport: Frontend::Agent::ModuleRegistration</para>
-            <para>
-                Lehetővé tesz a partner és a partnerrészlet kezelési jogosultságok
+                    </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Frontend::Module###AdminContactWithData</term>
+                <listitem>
+                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent::ModuleRegistration</para>
+                    <para>
+                        Lehetővé tesz a partner és a partnerrészlet kezelési jogosultságok
 felosztását csoportmeghatározáson keresztül.
-            </para>
-        </section>
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
     </section>
 
     <section>

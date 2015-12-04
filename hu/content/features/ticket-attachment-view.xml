@@ -32,8 +32,8 @@ megtekintett jegy több mellékletét vagy az összeset tartalmazza.
                 <figure>
                     <title>Átváltás a bejegyzés melléklet áttekintőre</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Miután egy jegy legalább egy melléklettel rendelkezik, a „Mellékletek”
@@ -45,8 +45,8 @@ tartalmazza.
                 <figure>
                     <title>A bejegyzés melléklet áttekintő használata</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/attachment-view/AttachmentsScreen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
     </section>

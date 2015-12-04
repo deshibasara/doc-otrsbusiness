@@ -17,13 +17,20 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
 
     <section>
         <title>Beállítás</title>
-        <section>
-            <title><literal>ChronicalViewEnabled</literal></title>
-            <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent</para>
-            <para>
-                Azt szabályozza, hogy a jegy idővonal nézete engedélyezve legyen-e vagy sem.
-            </para>
-        </section>
+
+        <variablelist>
+            <title>SysConfig</title>
+            <varlistentry>
+                <term>ChronicalViewEnabled</term>
+                <listitem>
+                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent</para>
+                    <para>
+                        Azt szabályozza, hogy a jegy idővonal nézete engedélyezve legyen-e vagy sem.
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
     </section>
 
     <section>
@@ -34,8 +41,8 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
                 <figure>
                     <title>Átváltás a jegy idővonal nézetére</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/timeline-view/TimelineViewSwitch.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem
@@ -56,8 +63,8 @@ továbbítás, stb.
                 <figure>
                     <title>A jegy idővonal nézetének használata</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/timeline-view/TimelineViewZoom.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/timeline-view/TimelineViewZoom.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
     </section>
