@@ -9,9 +9,6 @@
         This feature implements a dynamic field of the type "Database".
     </para>
 
-    <!-- ************** -->
-    <!-- 1. Description -->
-    <!-- ************** -->
     <section>
         <title>Description</title>
         <para>
@@ -26,9 +23,6 @@
         </para>
     </section>
 
-    <!-- **************** -->
-    <!-- 2. Configuration -->
-    <!-- **************** -->
     <section>
         <title>Configuration</title>
         <para>
@@ -43,22 +37,40 @@
                 'Database' dynamic fields can be created the same way, as the default dynamic fields are created. For this switch to the
                 Admin -&gt; Ticket Settings -&gt; Dynamic Fields view. In this mask you can select the 'Database' field from the ticket drop down box on the left side. Currently it's not possible to use the 'Database' dynamic field in the article context.
             </para>
-            <para>
-                Configuration "General - Name":
-                Dynamic fields of the type 'Database' need a unique name just like other dynamic fields, too. This name has to contain only alphanumeric values. This name will be used for internal handling of the field but will not be displayed.
-            </para>
-            <para>
-                Configuration "General - Label":
-                The label can be individually set and can contain white spaces etc. It will be used as the field label in the different views.
-            </para>
-            <para>
-                Configuration "General - Field order":
-                The field order allows a administrator to change the order of created dynamic fields. If this configuration get changed the general field order will be adjusted and other dynamic fields will be moved one position back.
-            </para>
-            <para>
-                Configuration "General - Valid":
-                To use the dynamic field in the configured OTRS 'views' it has to be set as valid. If the field is set to 'invalid' it will disappear from all the configured views but no data will be lost.
-            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Configuration "General - Name":
+                    </para>
+                    <para>
+                        Dynamic fields of the type 'Database' need a unique name just like other dynamic fields, too. This name has to contain only alphanumeric values. This name will be used for internal handling of the field but will not be displayed.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Configuration "General - Label":
+                    </para>
+                    <para>
+                        The label can be individually set and can contain white spaces etc. It will be used as the field label in the different views.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Configuration "General - Field order":
+                    </para>
+                    <para>
+                        The field order allows a administrator to change the order of created dynamic fields. If this configuration get changed the general field order will be adjusted and other dynamic fields will be moved one position back.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Configuration "General - Valid":
+                    </para>
+                    <para>
+                        To use the dynamic field in the configured OTRS 'views' it has to be set as valid. If the field is set to 'invalid' it will disappear from all the configured views but no data will be lost.
+                    </para>
+                </listitem>
+            </itemizedlist>
         </section>
 
         <section>
@@ -78,92 +90,139 @@
                 Type: The type of the desired database can be selected here. The field supports the default OTRS database
                 types: MySQL, Oracle, PostgreSQL or MSSQL.
             </para>
-            <para>
-                SID: This option is only available for Oracle connections and will be shown or hidden automatically.
-                Within this option you have to enter the SID of your Oracle connection.
-            </para>
-            <para>
-                Driver: This option is only available for ODBC connections and will be shown or hidden automatically.
-                Within this option you have to enter in the hostsystem previously configured ODBC driver to connect to the desired
-                MSSQL database.
-            </para>
-            <para>
-                Server: The database host (hostname or IP-Address).
-            </para>
-            <para>
-                Port: The port of the database server.
-            </para>
-            <para>
-                Database: Defines the desired target database of the DBMS. This database will be used for queries.
-            </para>
-            <para>
-                Table / View: This table or view will be used for the queries.
-            </para>
-            <para>
-                User: The username for the database connection.
-            </para>
-            <para>
-                Password: The user password for the database connection.
-            </para>
-            <para>
-                Identifier: This select box will be automatically filled through "Possible Values (description below)". This
-                field represents the value which will be stored in the dynamic field.
-            </para>
-            <para>
-                Multiselect: If this field is selected, it will be possible to store more than one value to the dynamic field.
-                Those values will be stored comma separated.
-            </para>
-            <para>
-                CacheTTL: This value defines the period of validity of the database cache in seconds. Equal queries to the database
-                will be answered through the cache (local filesystem) within this period instead of asking the database again.
-            </para>
-            <para>
-                Searchprefix: This value will be put in the front of every search term while using the autocompletion to search the
-                database. Wildcard characters are supported as well. The searchprefix will be ignored during the detailed search, but
-                it is still possible to use wildcard characters in those masks.
-            </para>
-            <para>
-                Searchsuffix: This value will be put in the end of every search term while using the autocompletion to search the
-                database. Wildcard characters are supported as well. The searchsuffix will be ignored during the detailed search, but
-                it is still possible to use wildcard characters in those masks.
-            </para>
-            <para>
-                Result-Limit: The entered integer value defines the maximum amount of allowed results during a database search. This includes
-                the autocompletion search as well as the detailed search.
-            </para>
-            <para>
-                Case Sensitive: If this field is selected, case-sensitivity will take effect on searches.
-            </para>
-            <para>
-                Possible values: As already explained the possible values will fill up the identifier field automatically, which
-                defines the value that will be stored in the dynamic field. Possible values can be created as much as needed (or at
-                least as many table columns as the database table has). The possible values defines the database columns to search
-                in. It is possible to set the column name, a description (label) the field should have, the needed data type and if
-                the field should be a search- or listfield.
-            </para>
-            <para>
-                Name: The exact name of the database column which will be requested through the database queries.
-            </para>
-            <para>
-                Description: The label of the field which will be displayed in the detailed search.
-            </para>
-            <para>
-                Datatype: The data type which will be stored in the dynamic field. Possible values: TEXT, INTEGER or DATE.
-            </para>
-            <para>
-                Filter: With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related
-                column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise
-                the filters will be ignored.
 
-                If filter will be configured to a table column, only search results matching to the search term and the related ticket attribute
-                on exactly the configured column will be displayed.
-            </para>
-            <para>
-                Searchfield: Indicates if a field should be included in the search requests.
-            </para>
-            <para>
-                Listfield: Indicates if a field should be displayed in the results.
-            </para>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        SID: This option is only available for Oracle connections and will be shown or hidden automatically.
+                        Within this option you have to enter the SID of your Oracle connection.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Driver: This option is only available for ODBC connections and will be shown or hidden automatically.
+                        Within this option you have to enter in the hostsystem previously configured ODBC driver to connect to the desired
+                        MSSQL database.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Server: The database host (hostname or IP-Address).
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Port: The port of the database server.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Database: Defines the desired target database of the DBMS. This database will be used for queries.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Table / View: This table or view will be used for the queries.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        User: The username for the database connection.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Password: The user password for the database connection.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Identifier: This select box will be automatically filled through "Possible Values (description below)". This
+                        field represents the value which will be stored in the dynamic field.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Multiselect: If this field is selected, it will be possible to store more than one value to the dynamic field.
+                        Those values will be stored comma separated.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        CacheTTL: This value defines the period of validity of the database cache in seconds. Equal queries to the database
+                        will be answered through the cache (local filesystem) within this period instead of asking the database again.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Searchprefix: This value will be put in the front of every search term while using the autocompletion to search the
+                        database. Wildcard characters are supported as well. The searchprefix will be ignored during the detailed search, but
+                        it is still possible to use wildcard characters in those masks.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Searchsuffix: This value will be put in the end of every search term while using the autocompletion to search the
+                        database. Wildcard characters are supported as well. The searchsuffix will be ignored during the detailed search, but
+                        it is still possible to use wildcard characters in those masks.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Result-Limit: The entered integer value defines the maximum amount of allowed results during a database search. This includes
+                        the autocompletion search as well as the detailed search.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Case Sensitive: If this field is selected, case-sensitivity will take effect on searches.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Possible values: As already explained the possible values will fill up the identifier field automatically, which
+                        defines the value that will be stored in the dynamic field. Possible values can be created as much as needed (or at
+                        least as many table columns as the database table has). The possible values defines the database columns to search
+                        in. It is possible to set the column name, a description (label) the field should have, the needed data type and if
+                        the field should be a search- or listfield.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Name: The exact name of the database column which will be requested through the database queries.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Description: The label of the field which will be displayed in the detailed search.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Datatype: The data type which will be stored in the dynamic field. Possible values: TEXT, INTEGER or DATE.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Filter: With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related
+                        column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise
+                        the filters will be ignored.
+
+                        If filter will be configured to a table column, only search results matching to the search term and the related ticket attribute
+                        on exactly the configured column will be displayed.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Searchfield: Indicates if a field should be included in the search requests.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Listfield: Indicates if a field should be displayed in the results.
+                    </para>
+                </listitem>
+            </itemizedlist>
         </section>
 
         <section>
@@ -179,21 +238,31 @@
             <para>
                 For every interface area (Frontend), in which the dynamic field of type 'Database' should be displayed, the admin
                 has to configure it to fit his needs. Examples:
-            </para>
-            <para>
-                Frontend::Agent::Ticket::ViewZoom for the ticket zoom view.
-            </para>
-            <para>
-                Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets.
-            </para>
-            <para>
-                Frontend::Agent::Ticket::ViewEmailNew for new email tickets.
-            </para>
-            <para>
-                In each of these view configurations is an entry called "Ticket::Frontend::AgentTicket*###DynamicField".
-                This configuration defines which dynamic field(s) should get displayed in this view. To add a dynamic field,
-                the internal name of the field has to be filled in the 'Key' field. The field 'Value' can take the values 0
-                (deactivated), 1 (active) and 2 (active and mandatory).
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            Frontend::Agent::Ticket::ViewZoom for the ticket zoom view.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Frontend::Agent::Ticket::ViewEmailNew for new email tickets.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            In each of these view configurations is an entry called "Ticket::Frontend::AgentTicket*###DynamicField".
+                            This configuration defines which dynamic field(s) should get displayed in this view. To add a dynamic field,
+                            the internal name of the field has to be filled in the 'Key' field. The field 'Value' can take the values 0
+                            (deactivated), 1 (active) and 2 (active and mandatory).
+                        </para>
+                    </listitem>
+                </itemizedlist>
             </para>
         </section>
 
