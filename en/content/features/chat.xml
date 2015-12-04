@@ -219,7 +219,7 @@
                 <figure>
                     <title>Setting up preferred chat channels</title>
                     <screenshot>
-                         <graphic scale="30" fileref="screenshots/chat/ChatAgentPrefChatChannels.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatAgentPrefChatChannels.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -286,7 +286,7 @@
                         <figure>
                             <title>Starting a A2C chat from ticket zoom.</title>
                             <screenshot>
-                                 <graphic scale="20" fileref="screenshots/chat/ChatTicketZoomStart.png"></graphic>
+                                 <graphic fileref="screenshots/chat/ChatTicketZoomStart.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -300,7 +300,7 @@
                         <figure>
                             <title>Starting a C2A chat.</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/chat/ChatCustomerNewRequest.png"></graphic>
+                                 <graphic fileref="screenshots/chat/ChatCustomerNewRequest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -323,7 +323,7 @@
                 <figure>
                     <title>An open chat request</title>
                     <screenshot>
-                         <graphic scale="60" fileref="screenshots/chat/ChatNewRequest.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatNewRequest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -337,7 +337,7 @@
                 <figure>
                     <title>Open chat request details</title>
                     <screenshot>
-                         <graphic scale="30" fileref="screenshots/chat/ChatNewRequestDetail.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatNewRequestDetail.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -352,7 +352,7 @@
                 <figure>
                     <title>The chat widget</title>
                     <screenshot>
-                         <graphic scale="30" fileref="screenshots/chat/ChatWidget.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatWidget.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -378,7 +378,7 @@
                         <figure>
                             <title>Monitor a chat.</title>
                             <screenshot>
-                                 <graphic scale="20" fileref="screenshots/chat/ChatMonitorAndClose.png"></graphic>
+                                 <graphic fileref="screenshots/chat/ChatMonitorAndClose.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -386,7 +386,7 @@
                         <figure>
                             <title>Advanced chat actions.</title>
                             <screenshot>
-                                 <graphic scale="30" fileref="screenshots/chat/ChatAdvancedActions.png"></graphic>
+                                 <graphic fileref="screenshots/chat/ChatAdvancedActions.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
                         </figure>
                     </para>

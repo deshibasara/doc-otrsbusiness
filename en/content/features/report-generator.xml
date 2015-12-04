@@ -35,7 +35,7 @@
                     <figure>
                         <title>Automatic generation settings</title>
                         <screenshot>
-                             <graphic scale="80" fileref="screenshots/report-generator/ReportGeneral.png"></graphic>
+                             <graphic fileref="screenshots/report-generator/ReportGeneral.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -49,7 +49,7 @@
                     <figure>
                         <title>Automatic generation settings</title>
                         <screenshot>
-                             <graphic scale="80" fileref="screenshots/report-generator/ReportAutomaticGeneration.png"></graphic>
+                             <graphic fileref="screenshots/report-generator/ReportAutomaticGeneration.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -63,7 +63,7 @@
                     <figure>
                         <title>Output settings</title>
                         <screenshot>
-                             <graphic scale="80" fileref="screenshots/report-generator/ReportOutput.png"></graphic>
+                             <graphic fileref="screenshots/report-generator/ReportOutput.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -78,7 +78,7 @@
                 <figure>
                     <title>Report: Front page</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultFrontpage.png"></graphic>
+                         <graphic fileref="screenshots/report-generator/ReportResultFrontpage.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -86,7 +86,7 @@
                 <figure>
                     <title>Report: Table of contents</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultToC.png"></graphic>
+                         <graphic fileref="screenshots/report-generator/ReportResultToC.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -94,7 +94,7 @@
                 <figure>
                     <title>Report: Preamble</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultPreamble.png"></graphic>
+                         <graphic fileref="screenshots/report-generator/ReportResultPreamble.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -102,7 +102,7 @@
                 <figure>
                     <title>Report: Statistics</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/report-generator/ReportResultStats.png"></graphic>
+                         <graphic fileref="screenshots/report-generator/ReportResultStats.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
