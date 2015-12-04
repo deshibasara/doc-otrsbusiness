@@ -43,24 +43,16 @@
     </bookinfo>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/introduction.xml" />
-    <chapter id="upgrade-to-otrs-business-solution">
-        <title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
-        <para>
-            In order to upgrade to <emphasis role="bold">OTRS Business Solution</emphasis>™, you need a valid contract with the OTRS group. If you already have a contract, you can upgrade to  <emphasis role="bold">OTRS Business Solution</emphasis>™ by visiting the AdminOTRSBusiness screen in your OTRS instance. If you're entitled to upgrade, you will (as an admin user) also see a notification bar which guides you to the upgrade screen. The upgrade itself is done automatically by just pressing the upgrade button.
-        </para>
-        <para>
-            If you have any questions regarding your entitlement for the <emphasis role="bold">OTRS Business Solution</emphasis>™ or technical questions, please contact sales@otrs.com.
-        </para>
-    </chapter>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/upgrading.xml" />
     <chapter id="otrs-business-solution-features">
         <title>Features of <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-timeline-view.xml" />
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-timeline-view.xml" />
     </chapter>
 
 

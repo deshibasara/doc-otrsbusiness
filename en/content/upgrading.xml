@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<chapter id="upgrade-to-otrs-business-solution">
+    <title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
+    <para>
+        In order to upgrade to <emphasis role="bold">OTRS Business Solution</emphasis>™, you need a valid contract with the OTRS group. If you already have a contract, you can upgrade to  <emphasis role="bold">OTRS Business Solution</emphasis>™ by visiting the AdminOTRSBusiness screen in your OTRS instance. If you're entitled to upgrade, you will (as an admin user) also see a notification bar which guides you to the upgrade screen. The upgrade itself is done automatically by just pressing the upgrade button.
+    </para>
+    <para>
+        If you have any questions regarding your entitlement for the <emphasis role="bold">OTRS Business Solution</emphasis>™ or technical questions, please contact sales@otrs.com.
+    </para>
+</chapter>
