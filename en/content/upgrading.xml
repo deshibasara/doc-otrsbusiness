@@ -3,9 +3,31 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="upgrade-to-otrs-business-solution">
-    <title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
+	<title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
     <para>
-        In order to upgrade to <emphasis role="bold">OTRS Business Solution</emphasis>™, you need a valid contract with the OTRS group. If you already have a contract, you can upgrade to  <emphasis role="bold">OTRS Business Solution</emphasis>™ by visiting the AdminOTRSBusiness screen in your OTRS instance. If you're entitled to upgrade, you will (as an admin user) also see a notification bar which guides you to the upgrade screen. The upgrade itself is done automatically by just pressing the upgrade button.
+        In order to upgrade to <emphasis role="bold">OTRS Business Solution</emphasis>™, you need a valid contract with the OTRS group. If you already have a contract, you can upgrade to  <emphasis role="bold">OTRS Business Solution</emphasis>™ by visiting the <emphasis role="bold">OTRS Business Solution</emphasis>™ administration screen in your OTRS instance. You can find the link to this screen in the "System Administration" section of the admin area of your OTRS Free instance. Please note that you first have to register your system using the system registration mechanism.
+    </para>
+    <para>
+        <figure>
+            <title>Upgrading Screen</title>
+            <screenshot>
+                 <graphic scale="60" fileref="screenshots/upgrading/UpgradingScreen.png"></graphic>
+            </screenshot>
+        </figure>
+    </para>
+    <para>
+        If you're entitled to upgrade, you will (as an admin user) also see a notification bar which guides you to the upgrade screen. The upgrade itself is done automatically by just pressing the upgrade button. Please note that you don't need to confirm the upgrade again. Pressing the upgrade button immediately starts the upgrading process.
+    </para>
+    <para>
+        If the upgrade was successful, you will see a confirmation on the <emphasis role="bold">OTRS Business Solution</emphasis>™ administration screen.
+    </para>
+    <para>
+        <figure>
+            <title>Upgrade successful</title>
+            <screenshot>
+                 <graphic scale="60" fileref="screenshots/upgrading/CorrectlyDeployed.png"></graphic>
+            </screenshot>
+        </figure>
     </para>
     <para>
         If you have any questions regarding your entitlement for the <emphasis role="bold">OTRS Business Solution</emphasis>™ or technical questions, please contact sales@otrs.com.
