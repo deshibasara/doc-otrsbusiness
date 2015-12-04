@@ -18,116 +18,154 @@
     <section>
         <title>Configuration</title>
         <para>
-            The following configuration options are relevant for this feature. Please note that you can also define a list of fixed texts which are being displayed to public users and customers in the chat module. For more information on which texts can be changed, please have a look at the module configuration (OTRSBusiness &gt; Core::Chat).
+            The following SysConfig configuration options are relevant for this feature. Please note that you can also define a list of fixed texts which are being displayed to public users and customers in the chat module. For more information on which texts can be changed, please have a look at the module configuration (OTRSBusiness → Core::Chat).
         </para>
-        <section>
-            <title><literal>ChatEngine::Active</literal></title>
-            <para>
-                Controls whether or not the chat feature is enabled.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatDirection::PublicToAgent</literal></title>
-            <para>
-                Controls whether or not public users should be able to start chats (please note that the frontend module configuration for the public chat frontend in <literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, too).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatDirection::CustomerToAgent</literal></title>
-            <para>
-                Controls whether or not customers should be able to start chats (please note that the frontend module configuration for the customer chat frontend in <literal>CustomerFrontend::Module###CustomerChat</literal> has to be enabled, too).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatDirection::AgentToCustomer</literal></title>
-            <para>
-                Controls whether or not agents should be able to start chats with customers directly.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatDirection::AgentToAgent</literal></title>
-            <para>
-                Controls whether or not agents should be able chat with each other.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents</literal></title>
-            <para>
-                Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which can receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::DefaultAgentName</literal></title>
-            <para>
-                A default name which should be displayed to customers and public users instead of the real name of the chatting agents. If empty or disabled, the real agent name will be shown.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::DefaultAgentNameNumbers</literal></title>
-            <para>
-                Controls whether or not numbers should be added to the agents default name in case more than one agent is in a chat to allow customers/public users to distinguish between the different agents (e.g. "Support Agent 1", "Support Agent 2" etc.).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::PublicInterface::AllowChatChannels</literal></title>
-            <para>
-                If chat channel selection should be enabled for public users. If set to "no", chats from public users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::PublicInterface::AvailabilityCheck</literal></title>
-            <para>
-                If chat channels should only be selectable in the public interface if at least one agent with sufficient permissions is available in this channel.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::CustomerInterface::AllowChatChannels</literal></title>
-            <para>
-                If chat channel selection should be enabled for customer users. If set to "no", chats from customer users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal></title>
-            <para>
-                If chat channels should only be selectable in the customer interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::CustomerThreshold</literal></title>
-            <para>
-                Amount of minutes which need to pass before a "no agent is available" message is being displayed to the customer/public user who started the chat request. The message can be configured using ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket or  ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting (customer interface) and ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (public interface).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::AgentOnlineThreshold</literal></title>
-            <para>
-                If an agent is not active in OTRS within this treshold, they will be automatically set to "unavailable for chat" (see <link linkend="chat-setup-availability">"Agents: Set up availability"</link>).
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::DefaultChatChannel</literal></title>
-            <para>
-                Name of the default chat channel. This channel must not be created manually and can't be deleted. This channel is taken as target chat channel in case chat channel selection is disabled for any interface.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatTTL</literal></title>
-            <para>
-                After how many hours a closed chat should be deleted from the database. Closed chats can still be viewed and downloaded by customers. After a chat has been deleted from the database, it will no longer be possible for customers to view or download it.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatDecayTime</literal></title>
-            <para>
-                After how many days chats which are not closed should be deleted from the database automatically in order to keep the database clean. Please note that this setting can possibly delete chats which are still in use if they are older than the configured amount of days.
-            </para>
-        </section>
-        <section>
-            <title><literal>ChatEngine::ChatOrder</literal></title>
-            <para>
-                If new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
-            </para>
-        </section>
+        <variablelist>
+            <varlistentry>
+                <term>ChatEngine::Active</term>
+                <listitem>
+                <para>
+                    Controls whether or not the chat feature is enabled.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::PublicToAgent</term>
+                <listitem>
+                <para>
+                    Controls whether or not public users should be able to start chats (please note that the frontend module configuration for the public chat frontend in <literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, too).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::CustomerToAgent</term>
+                <listitem>
+                <para>
+                    Controls whether or not customers should be able to start chats (please note that the frontend module configuration for the customer chat frontend in <literal>CustomerFrontend::Module###CustomerChat</literal> has to be enabled, too).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::AgentToCustomer</term>
+                <listitem>
+                <para>
+                    Controls whether or not agents should be able to start chats with customers directly.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::AgentToAgent</term>
+                <listitem>
+                <para>
+                    Controls whether or not agents should be able chat with each other.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents</term>
+                <listitem>
+                <para>
+                    Defines groups for the certain features. Receiving: Groups which can receive and accept chat requests. Notification: Groups which can receive notifications about new/pending chat requests. Starting: Groups which are allowed to start new chats at all.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultAgentName</term>
+                <listitem>
+                <para>
+                    A default name which should be displayed to customers and public users instead of the real name of the chatting agents. If empty or disabled, the real agent name will be shown.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultAgentNameNumbers</term>
+                <listitem>
+                <para>
+                    Controls whether or not numbers should be added to the agents default name in case more than one agent is in a chat to allow customers/public users to distinguish between the different agents (e.g. "Support Agent 1", "Support Agent 2" etc.).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PublicInterface::AllowChatChannels</term>
+                <listitem>
+                <para>
+                    If chat channel selection should be enabled for public users. If set to "no", chats from public users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PublicInterface::AvailabilityCheck</term>
+                <listitem>
+                <para>
+                    If chat channels should only be selectable in the public interface if at least one agent with sufficient permissions is available in this channel.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerInterface::AllowChatChannels</term>
+                <listitem>
+                <para>
+                    If chat channel selection should be enabled for customer users. If set to "no", chats from customer users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerInterface::AvailabilityCheck</term>
+                <listitem>
+                <para>
+                    If chat channels should only be selectable in the customer interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerThreshold</term>
+                <listitem>
+                <para>
+                    Amount of minutes which need to pass before a "no agent is available" message is being displayed to the customer/public user who started the chat request. The message can be configured using ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket or  ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting (customer interface) and ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (public interface).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::AgentOnlineThreshold</term>
+                <listitem>
+                <para>
+                    If an agent is not active in OTRS within this treshold, they will be automatically set to "unavailable for chat" (see <link linkend="chat-setup-availability">"Agents: Set up availability"</link>).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultChatChannel</term>
+                <listitem>
+                <para>
+                    Name of the default chat channel. This channel must not be created manually and can't be deleted. This channel is taken as target chat channel in case chat channel selection is disabled for any interface.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatTTL</term>
+                <listitem>
+                <para>
+                    After how many hours a closed chat should be deleted from the database. Closed chats can still be viewed and downloaded by customers. After a chat has been deleted from the database, it will no longer be possible for customers to view or download it.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDecayTime</term>
+                <listitem>
+                <para>
+                    After how many days chats which are not closed should be deleted from the database automatically in order to keep the database clean. Please note that this setting can possibly delete chats which are still in use if they are older than the configured amount of days.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatOrder</term>
+                <listitem>
+                <para>
+                    If new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
+                </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
     </section>
 
     <section>
