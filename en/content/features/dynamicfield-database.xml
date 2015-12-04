@@ -3,10 +3,10 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-database">
-    <title>Dynamic Field Database</title>
+    <title>The Dynamic Field "Database"</title>
 
     <para>
-        This feature implements a dynamic field of the type 'Database'.
+        This feature implements a dynamic field of the type "Database".
     </para>
 
     <!-- ************** -->
