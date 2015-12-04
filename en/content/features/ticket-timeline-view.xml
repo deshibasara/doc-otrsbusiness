@@ -14,13 +14,19 @@
 
     <section>
         <title>Configuration</title>
-        <section>
-            <title><literal>ChronicalViewEnabled</literal></title>
-            <para>Group: OTRSBusiness, Subgroup: Frontend::Agent</para>
-            <para>
-                Controls whether or not the ticket timeline view is enabled.
-            </para>
-        </section>
+
+        <variablelist>
+            <title>SysConfig</title>
+            <varlistentry>
+                <term>OTRSBusiness → Frontend::Agent → ChronicalViewEnabled</term>
+                <listitem>
+                    <para>
+                        Controls whether or not the ticket timeline view is enabled.
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
     </section>
 
     <section>
