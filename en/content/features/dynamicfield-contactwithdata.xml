@@ -85,7 +85,7 @@
     <section>
         <title>Configuration</title>
 
-        <variablelist>
+        <variablelist termlength="100">
             <title>SysConfig</title>
             <varlistentry>
                 <term>AdminContactWithData::RunInitialWildcardSearch</term>
