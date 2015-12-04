@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="upgrade-to-otrs-business-solution">
-	<title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
+    <title>Upgrading to <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
     <para>
         In order to upgrade to <emphasis role="bold">OTRS Business Solution</emphasis>™, you need a valid contract with the OTRS group. If you already have a contract, you can upgrade to  <emphasis role="bold">OTRS Business Solution</emphasis>™ by visiting the <emphasis role="bold">OTRS Business Solution</emphasis>™ administration screen in your OTRS instance. You can find the link to this screen in the "System Administration" section of the admin area of your OTRS Free instance. Please note that you first have to register your system using the system registration mechanism.
     </para>
@@ -11,7 +11,7 @@
         <figure>
             <title>Upgrading Screen</title>
             <screenshot>
-                 <graphic scale="60" fileref="screenshots/upgrading/UpgradingScreen.png"></graphic>
+                 <graphic fileref="screenshots/upgrading/UpgradingScreen.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -25,7 +25,7 @@
         <figure>
             <title>Upgrade successful</title>
             <screenshot>
-                 <graphic scale="60" fileref="screenshots/upgrading/CorrectlyDeployed.png"></graphic>
+                 <graphic fileref="screenshots/upgrading/CorrectlyDeployed.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>
