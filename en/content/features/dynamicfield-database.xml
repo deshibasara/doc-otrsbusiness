@@ -29,7 +29,7 @@
             The following list of configuration options can be used for this feature.
         </para>
         <section>
-            <title>Add a dynamic field 'Database'</title>
+            <title>Adding a 'Database' Dynamic Field</title>
             <para>
                 This feature implements a configuration interface to create dynamic fields of the type 'Database'.
             </para>
@@ -74,7 +74,7 @@
         </section>
 
         <section>
-            <title>Configuration of the external source (Database)</title>
+            <title>Configuration of the External Data Source</title>
             <para>
                 Before an external database can be searched and the results be saved at the ticket through the dynamic field,
                 the credentials have to be stored in the configuration of the dynamic field.
@@ -226,10 +226,9 @@
         </section>
 
         <section>
-            <title>Configure dynamic fields of type 'Database' to be displayed in the agent interface</title>
+            <title>Screen Configuration</title>
             <para>
-                Dynamic fields of type 'Database' have to be activated for the several masks in which they should be displayed
-                like the other types of dynamic fields.
+                Dynamic fields of type 'Database' have to be activated for the several masks in which they should be displayed like the other types of dynamic fields.
             </para>
             <para>
                 This can be done through Admin -&gt; System Administration -&gt; SysConfig, in which "Ticket" must be selected
@@ -267,7 +266,7 @@
         </section>
 
         <section>
-            <title>Storage of historical data</title>
+            <title>Storage of Historical Data</title>
             <para>
                 This feature offers a functionality to store historical data. For this to work it´s necessary to activate and set SysConfig options,
                 as visibly in the following screenshot:
@@ -294,7 +293,7 @@
         </section>
 
         <section>
-            <title>Sysconfig settings</title>
+            <title>Sysconfig Settings</title>
 
             <variablelist>
                 <varlistentry>
@@ -365,7 +364,7 @@
         </para>
 
         <section>
-            <title>Searching and saving datasets - Autocompletion</title>
+            <title>Searching and Saving Datasets - Autocompletion</title>
             <para>
                 After the created dynamic fields are activated in the well known masks (like ViewPhoneNew, ViewEmailNew) a new text field
                 appears with the name, the dynamic field got in the configuration.
@@ -413,7 +412,7 @@
             </para>
         </section>
         <section>
-            <title>Searching and saving datasets - Detailed search</title>
+            <title>Searching and Saving Datasets - Detailed Search</title>
             <para>
                 The link 'Detailed search' opens a new modal dialog to start a new database search. In this mask it is possible
                 to select the fields to search on explicitly.

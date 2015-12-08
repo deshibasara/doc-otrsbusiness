@@ -32,31 +32,28 @@
 
     <section>
         <title>Usage</title>
-        <section>
-            <title>Accessing the Ticket Timeline View</title>
-            <para>
-                <figure>
-                    <title>Switching to the Ticket Timeline View</title>
-                    <screenshot>
-                         <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
-                    </screenshot>
-                </figure>
-            </para>
-            <para>
-                To access the ticket timeline view, use the clock icon on the top right corner of the article widget in AgentTicketZoom. You will be redirected to the timeline view and this view will be kept as preference until you change back to another view.
-            </para>
-            <para>
-                In the ticket timeline view, you can work on the ticket as you're used to. You can inspect the time of each event in the timeline by hovering the little square next to each event with your mouse cursor. You can view the full content of articles by using the zoom icon on top of the certain articles box, where you will find all common article actions such as reply, split, forward, etc.
-            </para>
-            <para>
-                <figure>
-                    <title>Using the Ticket Timeline View</title>
-                    <screenshot>
-                         <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
-                    </screenshot>
-                </figure>
-            </para>
-        </section>
+        <para>
+            <figure>
+                <title>Switching to the Ticket Timeline View</title>
+                <screenshot>
+                     <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                </screenshot>
+            </figure>
+        </para>
+        <para>
+            To access the ticket timeline view, use the clock icon on the top right corner of the article widget in AgentTicketZoom. You will be redirected to the timeline view and this view will be kept as preference until you change back to another view.
+        </para>
+        <para>
+            In the ticket timeline view, you can work on the ticket as you're used to. You can inspect the time of each event in the timeline by hovering the little square next to each event with your mouse cursor. You can view the full content of articles by using the zoom icon on top of the certain articles box, where you will find all common article actions such as reply, split, forward, etc.
+        </para>
+        <para>
+            <figure>
+                <title>Using the Ticket Timeline View</title>
+                <screenshot>
+                     <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                </screenshot>
+            </figure>
+        </para>
     </section>
 
 </section>

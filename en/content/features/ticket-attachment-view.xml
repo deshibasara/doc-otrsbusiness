@@ -21,28 +21,25 @@
 
     <section>
         <title>Usage</title>
-        <section>
-            <title>Accessing the article attachment overview</title>
-            <para>
-                <figure>
-                    <title>Switching to the article attachment overview</title>
-                    <screenshot>
-                         <graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
-                    </screenshot>
-                </figure>
-            </para>
-            <para>
-                Once a ticket has at least one attachment, the "Attachments" menu item will be displayed in AgentTicketZoom. Clicking it will open a popup which contains a list of all attachments.
-            </para>
-            <para>
-                <figure>
-                    <title>Using the article attachment overview</title>
-                    <screenshot>
-                         <graphic fileref="screenshots/attachment-view/AttachmentsScreen.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
-                    </screenshot>
-                </figure>
-            </para>
-        </section>
+        <para>
+            <figure>
+                <title>Switching to the article attachment overview</title>
+                <screenshot>
+                     <graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                </screenshot>
+            </figure>
+        </para>
+        <para>
+            Once a ticket has at least one attachment, the "Attachments" menu item will be displayed in AgentTicketZoom. Clicking it will open a popup which contains a list of all attachments.
+        </para>
+        <para>
+            <figure>
+                <title>Using the article attachment overview</title>
+                <screenshot>
+                     <graphic fileref="screenshots/attachment-view/AttachmentsScreen.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                </screenshot>
+            </figure>
+        </para>
     </section>
 
 </section>

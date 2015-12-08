@@ -12,7 +12,7 @@
     <section>
         <title>Description</title>
         <section>
-            <title>Definition of data sources</title>
+            <title>Definition of Data Sources</title>
             <para>
                 The data sources for this feature reside on the Dynamic Fields of the new 'Contact
                 with data' type, this mean that each Dynamic Field of this type is a new data
@@ -44,7 +44,7 @@
             </note>
         </section>
         <section>
-            <title>Contact management</title>
+            <title>Contact Management</title>
             <para>
                 After having at least one data source (Contact with data Dynamic Field) defined,
                 contacts information can be added to the source to populate it.
@@ -61,7 +61,7 @@
             </para>
         </section>
         <section>
-            <title>Adding contacts to tickets</title>
+            <title>Adding Contacts to Tickets</title>
             <para>
                 For each configured contact with data dynamic field, a contact created specifically
                 for this dynamic  field (or data source) can be chosen from any ticket create or
@@ -72,7 +72,7 @@
             </para>
         </section>
         <section>
-            <title>Usage of contacts in search and statistics</title>
+            <title>Usage of Contacts in Search and Statistics</title>
             <para>
                 Tickets can be found in search and statistics via the required attribute 'Name'.
             </para>
