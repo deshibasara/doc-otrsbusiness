@@ -8,7 +8,7 @@
     <section>
         <title>Description</title>
         <para>
-            The chat feature of <emphasis role="bold">OTRS Business Solution</emphasis>™ allows for chats between agents and customers using the OTRS frontend. Once enabled, customers (or public users) can start chats with agents and vice versa. Finished chats can be archived and attached to tickets. Chats can be attached to tickets or downloaded as PDF by agents, customers and public users.
+            The chat feature of <emphasis role="bold">OTRS Business Solution</emphasis>™ allows for chats between agents and customers using the OTRS frontend. Once enabled, customers (or public users) can start chats with agents and vice versa. Finished chats can be archived and attached to tickets, or can be downloaded as PDF by agents, customers and public users.
         </para>
         <para>
             Each chat is assigned to a chat channel. Chat channels are like chat rooms. Each chat channel is assigned to a certain group which controls the permissions for this channel. If no chat channel is selected when a chat is created, this chat will be created in a default channel (which is automatically created if it doesn't exist).
@@ -89,7 +89,7 @@
                 <term>ChatEngine::PublicInterface::AllowChatChannels</term>
                 <listitem>
                 <para>
-                    If chat channel selection should be enabled for public users. If set to "no", chats from public users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
+                    Defines, if chat channel selection should be enabled for public users. If set to "no", chats from public users will go to the default channel automatically (ChatEngine::DefaultChatChannel).
                 </para>
                 </listitem>
             </varlistentry>
@@ -97,7 +97,7 @@
                 <term>ChatEngine::PublicInterface::AvailabilityCheck</term>
                 <listitem>
                 <para>
-                    If chat channels should only be selectable in the public interface if at least one agent with sufficient permissions is available in this channel.
+                    Defines, if chat channels should only be selectable in the public interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
                 </para>
                 </listitem>
             </varlistentry>
@@ -113,7 +113,7 @@
                 <term>ChatEngine::CustomerInterface::AvailabilityCheck</term>
                 <listitem>
                 <para>
-                    If chat channels should only be selectable in the customer interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
+                    Defines, if chat channels should only be selectable in the customer interface if at least one agent with <link linkend="chat-permissions">sufficient permissions</link> is available in this channel.
                 </para>
                 </listitem>
             </varlistentry>
@@ -129,7 +129,7 @@
                 <term>ChatEngine::AgentOnlineThreshold</term>
                 <listitem>
                 <para>
-                    If an agent is not active in OTRS within this treshold, they will be automatically set to "unavailable for chat" (see <link linkend="chat-setup-availability">"Agents: Set up availability"</link>).
+                    If an agent is not active in OTRS within this threshold, they will be automatically set to "unavailable for chat" (see <link linkend="chat-setup-availability">"Agents: Set up availability"</link>).
                 </para>
                 </listitem>
             </varlistentry>
@@ -161,7 +161,7 @@
                 <term>ChatEngine::ChatOrder</term>
                 <listitem>
                 <para>
-                    If new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
+                    Defines, if new chats should be prepended or appended to the list of active chats in the active chats widget in the chat manager.
                 </para>
                 </listitem>
             </varlistentry>
@@ -185,7 +185,7 @@
                     <term>CHAT_OBSERVER</term>
                     <listitem>
                         <para>
-                            Users with this permission type will only be able to observe chats in this channel after they have been invited to them. They will not be able to accept or observe chats in this channel on their own and if they are the only agent currently available in this channel, customers/public users will not be able to create a new chat in this channel. Observers can still invite other agents to a chat they currently observe.
+                            Users with this permission type will only be able to observe chats in this channel after they have been invited to them. They will not be able to accept or observe chats in this channel on their own and if they are the only agents currently available in this channel, customers/public users will not be able to create a new chat in this channel. Observers can still invite other agents to a chat they currently observe.
                         </para>
                     </listitem>
                 </varlistentry>
@@ -193,7 +193,7 @@
                     <term>CHAT_PARTICIPANT</term>
                     <listitem>
                         <para>
-                            Users with this permission type will be able to take part in a chat, but only after they get invited to it. After they're in a chat, they can change the chat channel, discard the chat etc. They will not be able to accept a customer/public chat request on their own.
+                            Users with this permission type will be able to take part in a chat, but only after they get invited to it. After they're in a chat, they can change the chat channel, discard the chat etc. They will not be able to accept a customer/public user chat request on their own.
                         </para>
                     </listitem>
                 </varlistentry>
@@ -238,11 +238,11 @@
                 </figure>
             </para>
             <para>
-                To be available for any chats, you'll need to use the chat toolbar switch. It's a three-way switch with these states: Unavailable for chats (empty circle), available for internal (agent-to-agent) chats (empty circle with tick sign), available for internal and external (customer-to-agent, public-to-agent) chats (filled circle with tick sign). Just click the toggle in order to change your availability.
+                To be available for any chats, you'll need to use the chat toolbar switch. It's a three-way switch with these states: unavailable for chats (empty circle), available for internal (agent-to-agent) chats (empty circle with tick sign), available for internal and external (customer-to-agent, public-to-agent) chats (filled circle with tick sign). Just click the toggle in order to change your availability.
             </para>
             <note>
                 <para>
-                    Your availablity will be reset to "internal chats only" each time you log in to OTRS again.
+                    Your availability will be reset to "internal chats only" each time you log in to OTRS again.
                 </para>
             </note>
         </section>
@@ -284,7 +284,7 @@
                     </para>
                     <para>
                         <figure>
-                            <title>Starting a A2C chat from ticket zoom.</title>
+                            <title>Starting an A2C chat from ticket zoom</title>
                             <screenshot>
                                  <graphic fileref="screenshots/chat/ChatTicketZoomStart.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
@@ -298,7 +298,7 @@
                     </para>
                     <para>
                         <figure>
-                            <title>Starting a C2A chat.</title>
+                            <title>Starting a C2A chat</title>
                             <screenshot>
                                  <graphic fileref="screenshots/chat/ChatCustomerNewRequest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
@@ -328,7 +328,7 @@
                 </figure>
             </para>
             <para>
-                Use the "open chat" button from the list to see the details of the request. Clicking the button will open an overlay which provides several actions on this request. Given that you've got sufficient permissions, you can accept the request or change the channel for this request. Changing the channel will follow the same rules as creating new request: You can only move the request to a channel which has active agents in it.
+                Use the "open chat" button from the list to see the details of the request. Clicking the button will open an overlay which provides several actions on this request. Given that you've got sufficient permissions, you can accept the request or change the channel for this request. Changing the channel will follow the same rules as creating new request: you can only move the request to a channel which has active agents in it.
             </para>
             <para>
                 Changing the chat channel without accepting the request could be used to dispatch chats to the right department for example.
@@ -376,7 +376,7 @@
                     </para>
                     <para>
                         <figure>
-                            <title>Monitor a chat.</title>
+                            <title>Monitor a chat</title>
                             <screenshot>
                                  <graphic fileref="screenshots/chat/ChatMonitorAndClose.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
@@ -384,7 +384,7 @@
                     </para>
                     <para>
                         <figure>
-                            <title>Advanced chat actions.</title>
+                            <title>Advanced chat actions</title>
                             <screenshot>
                                  <graphic fileref="screenshots/chat/ChatAdvancedActions.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
@@ -406,7 +406,7 @@
                 <listitem>
                     <para><emphasis>Action: Invite</emphasis></para>
                     <para>
-                        Allows you to invite another agent to this chat. You can select from a list of available agents who you want to invite. Once you've invited the agent, a new agent-to-agent chat request will be sent to this agent. After they have accepted the request, a new internal chat will be established between you and the invited agent. In this internal chat, the invited agent has two more actions available in the advanced actions toolbar: <link linkend="chat-action-observer">"Observer"</link> and <link linkend="chat-action-participant">"Participant"</link>.
+                        Allows you to invite another agent to this chat. You can select from a list of available agents who you want to invite. Once you've invited the agent, a new agent-to-agent chat request will be sent to this agent. After the request has accepted, a new internal chat will be established between you and the invited agent. In this internal chat, the invited agent has two more actions available in the advanced actions toolbar: <link linkend="chat-action-observer">"Observer"</link> and <link linkend="chat-action-participant">"Participant"</link>.
                     </para>
                 </listitem>
                 <listitem>

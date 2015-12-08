@@ -43,7 +43,7 @@
             <section>
                 <title>Automatic Generation Settings</title>
                 <para>
-                    If the report should be generated automatically (e.g. once per day), you can set up subject, text and recipients for the email which is going to be sent and which will contain the report as an attachment. You'll also need to add information on how often the report should be sent. The data format is taken from the cron mechanism vom unix-based operating systems. For more information on which settings are possible, please refer to official cron documentation sources or <ulink url="https://en.wikipedia.org/wiki/Cron">wikipedia</ulink>.
+                    If the report should be generated automatically (e.g. once per day), you can set up subject, text and recipients for the email which is going to be sent and which will contain the report as an attachment. You'll also need to add information on how often the report should be sent. The data format is taken from the cron mechanism of unix-based operating systems. For more information on which settings are possible, please refer to official cron documentation sources or <ulink url="https://en.wikipedia.org/wiki/Cron">wikipedia</ulink>.
                 </para>
                 <para>
                     <figure>
