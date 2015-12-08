@@ -35,38 +35,35 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
 
     <section>
         <title>Használat</title>
-        <section>
-            <title>A jegy idővonal nézetének elérése</title>
-            <para>
-                <figure>
-                    <title>Átváltás a jegy idővonal nézetére</title>
+        <para>
+            <figure>
+                <title>Switching to the Ticket Timeline View</title>
 <screenshot>
 <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
-            </para>
-            <para>
-                A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem
+        </para>
+        <para>
+            A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem
 jobb felső sarkában lévő óra ikont az AgentTicketZoom nézeten. Át lesz
 irányítva az idővonal nézetre, és ez a nézet lesz megtartva elsőbbségiként,
 amíg vissza nem vált egy másik nézetre.
-            </para>
-            <para>
-                A jegy idővonal nézetén úgy dolgozhat a jeggyel, ahogy azt
+        </para>
+        <para>
+            A jegy idővonal nézetén úgy dolgozhat a jeggyel, ahogy azt
 megszokta. Megvizsgálhatja az egyes események idejét az idővonalon, ha az
 egérkurzorral rámutat az egyes események mellett lévő kis
 négyzetre. Megtekintheti a bejegyzések teljes tartalmát a nagyítás ikon
 használatával az egyes bejegyzésdobozok tetején, ahol meg fogja találni az
 összes gyakori bejegyzésműveletet, mint például válasz, felosztás,
 továbbítás, stb.
-            </para>
-            <para>
-                <figure>
-                    <title>A jegy idővonal nézetének használata</title>
+        </para>
+        <para>
+            <figure>
+                <title>Using the Ticket Timeline View</title>
 <screenshot>
 <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
-            </para>
-        </section>
+        </para>
     </section>
 
 </section>

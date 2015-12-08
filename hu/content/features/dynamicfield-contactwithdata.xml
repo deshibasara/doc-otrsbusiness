@@ -12,7 +12,7 @@
     <section>
         <title>Leírás</title>
         <section>
-            <title>Adatforrások meghatározása</title>
+            <title>Definition of Data Sources</title>
             <para>
                 Az adatforrások ennél a funkciónál az új „Partner adatokkal” típus dinamikus
 mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a típusnak minden
@@ -45,7 +45,7 @@ ezeket a „Name” és „ValidID” kulcsokkal kell feltüntetni, míg az ért
             </note>
         </section>
         <section>
-            <title>Partnerkezelés</title>
+            <title>Contact Management</title>
             <para>
                 Miután rendelkezik legalább egy meghatározott adatforrással (partner
 adatokkal dinamikus mező), a partnerek információi hozzáadhatók a forráshoz
@@ -64,7 +64,7 @@ speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni
             </para>
         </section>
         <section>
-            <title>Partnerek hozzáadása a jegyekhez</title>
+            <title>Adding Contacts to Tickets</title>
             <para>
                 Minden egyes beállított partner adatokkal dinamikus mezőnél a kifejezetten
 ehhez a dinamikus mezőhöz (vagy adatforráshoz) létrehozott partner bármely
@@ -76,7 +76,7 @@ dinamikus mező előzőleg be lett állítva.
             </para>
         </section>
         <section>
-            <title>Partnerek használata a keresésben és a statisztikákban</title>
+            <title>Usage of Contacts in Search and Statistics</title>
             <para>
                 A jegyek a kötelező „Name” attribútumon keresztül találhatók meg a
 keresésben és a statisztikákban.

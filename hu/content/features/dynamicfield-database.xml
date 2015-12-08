@@ -33,7 +33,7 @@ az alapértelmezett dinamikus mezők létrejönnek.
             A beállítási lehetőségek következő listája használható ennél a funkciónál.
         </para>
         <section>
-            <title>Egy „adatbázis” dinamikus mező hozzáadása</title>
+            <title>Adding a 'Database' Dynamic Field</title>
             <para>
                 Ez a funkció egy beállítási felületet valósít meg az „adatbázis” típusú
 dinamikus mezők létrehozásához.
@@ -91,7 +91,7 @@ configured views but no data will be lost.
         </section>
 
         <section>
-            <title>A külső forrás (adatbázis) beállítása</title>
+            <title>Configuration of the External Data Source</title>
             <para>
                 Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők
 lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el
@@ -265,8 +265,7 @@ kérésekben.
         </section>
 
         <section>
-            <title>Az „adatbázis” típusú dinamikus mezők beállítása az ügyintézői felületen
-való megjelenítéshez</title>
+            <title>Screen Configuration</title>
             <para>
                 Az „adatbázis” típusú dinamikus mezőket az egyéb típusú dinamikus mezőkhöz
 hasonlóan be kell kapcsolni számos olyan maszknál, amelyben azokat meg kell
@@ -312,7 +311,7 @@ kitölteni a „Kulcs” mezőben. Az „Érték” mező a 0 (kikapcsolva), az 
         </section>
 
         <section>
-            <title>Történeti adatok tárolása</title>
+            <title>Storage of Historical Data</title>
             <para>
                 Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek
 működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és
@@ -343,7 +342,7 @@ dinamikus mezőkben lesznek eltárolva.
         </section>
 
         <section>
-            <title>Rendszerbeállítások beállításai</title>
+            <title>Sysconfig Settings</title>
 
             <variablelist>
                 <varlistentry>
@@ -419,7 +418,7 @@ lehet:
         </para>
 
         <section>
-            <title>Adathalmazok keresése és mentése - automatikus kiegészítés</title>
+            <title>Searching and Saving Datasets - Autocompletion</title>
             <para>
                 Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert
 maszkokban (úgymint ViewPhoneNew, ViewEmailNew), egy új szövegmező jelenik
@@ -467,7 +466,7 @@ hogy áttekintést adjanak a többi (nem beállított) oszlopról, vagy adatok
             </para>
         </section>
         <section>
-            <title>Adathalmazok keresése és mentése - részletes keresés</title>
+            <title>Searching and Saving Datasets - Detailed Search</title>
             <para>
                 A „Részletes keresés” hivatkozás egy új kizárólagos párbeszédablakot nyit
 meg egy új adatbázis-keresés indításához. Ezen a maszkon lehetőség van a

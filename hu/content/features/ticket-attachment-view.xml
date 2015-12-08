@@ -26,29 +26,26 @@ megtekintett jegy több mellékletét vagy az összeset tartalmazza.
 
     <section>
         <title>Használat</title>
-        <section>
-            <title>A bejegyzés melléklet áttekintő elérése</title>
-            <para>
-                <figure>
-                    <title>Átváltás a bejegyzés melléklet áttekintőre</title>
+        <para>
+            <figure>
+                <title>Átváltás a bejegyzés melléklet áttekintőre</title>
 <screenshot>
 <graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
-            </para>
-            <para>
-                Miután egy jegy legalább egy melléklettel rendelkezik, a „Mellékletek”
+        </para>
+        <para>
+            Miután egy jegy legalább egy melléklettel rendelkezik, a „Mellékletek”
 menüpont kerül megjelenítésre az AgentTicketZoom képernyőn. Erre kattintva
 egy felugró ablakot fog megnyitni, amely az összes melléklet listáját
 tartalmazza.
-            </para>
-            <para>
-                <figure>
-                    <title>A bejegyzés melléklet áttekintő használata</title>
+        </para>
+        <para>
+            <figure>
+                <title>A bejegyzés melléklet áttekintő használata</title>
 <screenshot>
 <graphic fileref="screenshots/attachment-view/AttachmentsScreen.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
-            </para>
-        </section>
+        </para>
     </section>
 
 </section>

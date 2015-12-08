@@ -4,12 +4,13 @@
 #
 # Translators:
 # Balázs Úr <urbalazs@gmail.com>, 2014-2015
+# Martin Gruner <martin.gruner@otrs.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-12-04 15:15+0100\n"
-"PO-Revision-Date: 2015-11-28 00:00+0000\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"POT-Creation-Date: 2015-12-08 09:59+0100\n"
+"PO-Revision-Date: 2015-12-08 09:03+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -24,23 +25,17 @@ msgstr "hu"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
-#, fuzzy
-#| msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 4 Manual"
 msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Manual"
-msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 4 kézikönyv"
+msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 kézikönyv"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:8
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2014</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2014-12-05</date>"
 msgid ""
 "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2015-10-26</date>"
 msgstr ""
-"<copyright> <year>2014</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2014-12-05</date>"
+"<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2015-10-26</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
@@ -121,24 +116,6 @@ msgstr ""
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:11
-#, fuzzy
-#| msgid ""
-#| "The sleek and fast framework of OTRS 4 is the base for the <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "\"><emphasis role=\"bold\">OTRS Business Solution</emphasis>™</ulink>. On "
-#| "top are available for you additionally an exclusive set of features. "
-#| "These include the <ulink url=\"https://www.otrs.com/otrs-business-"
-#| "solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services"
-#| "\">integrated Cloud Services</ulink> of the <emphasis role=\"bold\">OTRS "
-#| "Business Solution</emphasis>™ that you can flexibly activate or "
-#| "deactivate according to your deployment scenarios. Additionally you have "
-#| "the choice between 3, 7 or an unlimited number of various <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "#OTRS-Business-Solution-Cloud-Services\">freely selectable <emphasis role="
-#| "\"bold\">OTRS Business Solution</emphasis>™ Features</ulink> - depending "
-#| "on you contract level. Profit also from regular, free updates, the best "
-#| "OTRS security and support as well as installation and configuration "
-#| "carried out by our consultants."
 msgid ""
 "The sleek and fast framework of OTRS 5 is the base for the <ulink url="
 "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
@@ -150,43 +127,9 @@ msgid ""
 "Business Solution</emphasis>™ that you can flexibly activate or deactivate "
 "according to your deployment scenarios."
 msgstr ""
-"Az OTRS 4 ügyes és gyors keretrendszere az alapja az <ulink url=\"https://"
-"www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
-"role=\"bold\">OTRS Business Solution</emphasis>™</ulink> megoldásnak. Ezen "
-"felül érhető el a szolgáltatások kizárólagos halmaza. Ezek tartalmazzák az "
-"<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ <ulink url="
-"\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-"#OTRS-Business-Solution-Cloud-Services\">integrált felhőszolgáltatásait</"
-"ulink>, amelyet rugalmasan bekapcsolhat vagy kikapcsolhat a telepítési "
-"forgatókönyvek szerint. Továbbá választhat 3, 7 vagy korlátlan számú "
-"különféle <ulink url=\"https://www.otrs.com/otrs-business-solution-improving-"
-"customer-service/#OTRS-Business-Solution-Cloud-Services\">szabadon "
-"választható <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ "
-"szolgáltatás</ulink> közül - a szerződési szintjétől függően. Profitáljon a "
-"rendszeres, ingyenes frissítésekből, a legjobb OTRS biztonságból és "
-"támogatásból, valamint a tanácsadóink által elvégzett telepítésből és "
-"beállításból."
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:17
-#, fuzzy
-#| msgid ""
-#| "The sleek and fast framework of OTRS 4 is the base for the <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "\"><emphasis role=\"bold\">OTRS Business Solution</emphasis>™</ulink>. On "
-#| "top are available for you additionally an exclusive set of features. "
-#| "These include the <ulink url=\"https://www.otrs.com/otrs-business-"
-#| "solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services"
-#| "\">integrated Cloud Services</ulink> of the <emphasis role=\"bold\">OTRS "
-#| "Business Solution</emphasis>™ that you can flexibly activate or "
-#| "deactivate according to your deployment scenarios. Additionally you have "
-#| "the choice between 3, 7 or an unlimited number of various <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "#OTRS-Business-Solution-Cloud-Services\">freely selectable <emphasis role="
-#| "\"bold\">OTRS Business Solution</emphasis>™ Features</ulink> - depending "
-#| "on you contract level. Profit also from regular, free updates, the best "
-#| "OTRS security and support as well as installation and configuration "
-#| "carried out by our consultants."
 msgid ""
 "Additionally you have the choice between 3, 7 or an unlimited number of "
 "various <ulink url=\"https://www.otrs.com/otrs-business-solution-improving-"
@@ -196,22 +139,6 @@ msgid ""
 "the best OTRS security and support as well as installation and configuration "
 "carried out by our consultants."
 msgstr ""
-"Az OTRS 4 ügyes és gyors keretrendszere az alapja az <ulink url=\"https://"
-"www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
-"role=\"bold\">OTRS Business Solution</emphasis>™</ulink> megoldásnak. Ezen "
-"felül érhető el a szolgáltatások kizárólagos halmaza. Ezek tartalmazzák az "
-"<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ <ulink url="
-"\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-"#OTRS-Business-Solution-Cloud-Services\">integrált felhőszolgáltatásait</"
-"ulink>, amelyet rugalmasan bekapcsolhat vagy kikapcsolhat a telepítési "
-"forgatókönyvek szerint. Továbbá választhat 3, 7 vagy korlátlan számú "
-"különféle <ulink url=\"https://www.otrs.com/otrs-business-solution-improving-"
-"customer-service/#OTRS-Business-Solution-Cloud-Services\">szabadon "
-"választható <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ "
-"szolgáltatás</ulink> közül - a szerződési szintjétől függően. Profitáljon a "
-"rendszeres, ingyenes frissítésekből, a legjobb OTRS biztonságból és "
-"támogatásból, valamint a tanácsadóink által elvégzett telepítésből és "
-"beállításból."
 
 #. type: Content of: <chapter><title>
 #: en/content/upgrading.xml:6
@@ -222,15 +149,6 @@ msgstr ""
 
 #. type: Content of: <chapter><para>
 #: en/content/upgrading.xml:8
-#, fuzzy
-#| msgid ""
-#| "In order to upgrade to <emphasis role=\"bold\">OTRS Business Solution</"
-#| "emphasis>™, you need a valid contract with the OTRS group. If you already "
-#| "have a contract, you can upgrade to <emphasis role=\"bold\">OTRS Business "
-#| "Solution</emphasis>™ by visiting the AdminOTRSBusiness screen in your "
-#| "OTRS instance. If you're entitled to upgrade, you will (as an admin user) "
-#| "also see a notification bar which guides you to the upgrade screen. The "
-#| "upgrade itself is done automatically by just pressing the upgrade button."
 msgid ""
 "In order to upgrade to <emphasis role=\"bold\">OTRS Business Solution</"
 "emphasis>™, you need a valid contract with the OTRS group. If you already "
@@ -241,14 +159,6 @@ msgid ""
 "admin area of your OTRS Free instance. Please note that you first have to "
 "register your system using the system registration mechanism."
 msgstr ""
-"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ megoldásra "
-"frissítés érdekében szüksége van egy érvényes szerződésre az OTRS "
-"csoporttal. Ha már van szerződése, akkor frissíthet az <emphasis role=\"bold"
-"\">OTRS Business Solution</emphasis>™ megoldásra az AdminOTRSBusiness "
-"képernyő meglátogatásával az OTRS példányában. Ha jogosult a frissítésre, "
-"akkor (adminisztrátori felhasználóként) egy értesítési sávot is fog látni, "
-"amely a frissítés képernyőre vezeti. Maga a frissítés automatikusan "
-"megtörténik a frissítés gomb megnyomásával."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/upgrading.xml:12
@@ -262,7 +172,7 @@ msgid ""
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
-#. type: Content of: <section><section><section><para><figure>
+#. type: Content of: <section><section><para><figure>
 #: en/content/upgrading.xml:13 en/content/upgrading.xml:27
 #: en/content/features/chat.xml:221 en/content/features/chat.xml:235
 #: en/content/features/chat.xml:258 en/content/features/chat.xml:288
@@ -270,12 +180,12 @@ msgstr ""
 #: en/content/features/chat.xml:339 en/content/features/chat.xml:354
 #: en/content/features/chat.xml:380 en/content/features/chat.xml:388
 #: en/content/features/dynamicfield-database.xml:84
-#: en/content/features/dynamicfield-database.xml:277
-#: en/content/features/dynamicfield-database.xml:378
-#: en/content/features/dynamicfield-database.xml:390
-#: en/content/features/dynamicfield-database.xml:401
-#: en/content/features/dynamicfield-database.xml:423
-#: en/content/features/dynamicfield-database.xml:440
+#: en/content/features/dynamicfield-database.xml:276
+#: en/content/features/dynamicfield-database.xml:377
+#: en/content/features/dynamicfield-database.xml:389
+#: en/content/features/dynamicfield-database.xml:400
+#: en/content/features/dynamicfield-database.xml:422
+#: en/content/features/dynamicfield-database.xml:439
 #: en/content/features/notifications.xml:23
 #: en/content/features/notifications.xml:45
 #: en/content/features/notifications.xml:56
@@ -292,14 +202,14 @@ msgstr ""
 #: en/content/features/report-generator.xml:104
 #: en/content/features/sla-selection-dialog.xml:29
 #: en/content/features/sla-selection-dialog.xml:43
-#: en/content/features/ticket-attachment-view.xml:29
-#: en/content/features/ticket-attachment-view.xml:40
-#: en/content/features/ticket-timeline-view.xml:40
-#: en/content/features/ticket-timeline-view.xml:54
+#: en/content/features/ticket-attachment-view.xml:27
+#: en/content/features/ticket-attachment-view.xml:38
+#: en/content/features/ticket-timeline-view.xml:38
+#: en/content/features/ticket-timeline-view.xml:52
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
-#. type: Content of: <section><section><section><para>
+#. type: Content of: <section><section><para>
 #: en/content/upgrading.xml:11 en/content/upgrading.xml:25
 #: en/content/features/chat.xml:219 en/content/features/chat.xml:233
 #: en/content/features/chat.xml:256 en/content/features/chat.xml:286
@@ -322,10 +232,10 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/report-generator.xml:102
 #: en/content/features/sla-selection-dialog.xml:27
 #: en/content/features/sla-selection-dialog.xml:41
-#: en/content/features/ticket-attachment-view.xml:27
-#: en/content/features/ticket-attachment-view.xml:38
-#: en/content/features/ticket-timeline-view.xml:38
-#: en/content/features/ticket-timeline-view.xml:52
+#: en/content/features/ticket-attachment-view.xml:25
+#: en/content/features/ticket-attachment-view.xml:36
+#: en/content/features/ticket-timeline-view.xml:36
+#: en/content/features/ticket-timeline-view.xml:50
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr "<placeholder type=\"figure\" id=\"0\"/>"
 
@@ -341,22 +251,14 @@ msgstr ""
 
 #. type: Content of: <chapter><para>
 #: en/content/upgrading.xml:22
-#, fuzzy
-#| msgid ""
-#| "If you have any questions regarding your entitlement for the <emphasis "
-#| "role=\"bold\">OTRS Business Solution</emphasis>™ or technical questions, "
-#| "please contact sales@otrs.com."
 msgid ""
 "If the upgrade was successful, you will see a confirmation on the <emphasis "
 "role=\"bold\">OTRS Business Solution</emphasis>™ administration screen."
 msgstr ""
-"Ha bármilyen kérdése van az <emphasis role=\"bold\">OTRS Business Solution</"
-"emphasis>™ megoldáshoz való jogosultságra vagy technikai kérdésekre "
-"vonatkozóan, akkor írjon egy levelet a sales@otrs.com címre."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/upgrading.xml:26
-msgid "Upgrade successful"
+msgid "Upgrade Successful"
 msgstr ""
 
 #. type: Content of: <chapter><para><figure><screenshot>
@@ -396,27 +298,13 @@ msgstr "Leírás"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/chat.xml:11
-#, fuzzy
-#| msgid ""
-#| "The chat feature of <emphasis role=\"bold\">OTRS Business Solution</"
-#| "emphasis>™ allows for chats between agents and customers using the OTRS "
-#| "frontend. Once enabled, customers (or public users) can start chats with "
-#| "agents and vice versa. Finished chats can be archived and attached to "
-#| "tickets."
 msgid ""
 "The chat feature of <emphasis role=\"bold\">OTRS Business Solution</"
 "emphasis>™ allows for chats between agents and customers using the OTRS "
 "frontend. Once enabled, customers (or public users) can start chats with "
 "agents and vice versa. Finished chats can be archived and attached to "
-"tickets. Chats can be attached to tickets or downloaded as PDF by agents, "
-"customers and public users."
+"tickets, or can be downloaded as PDF by agents, customers and public users."
 msgstr ""
-"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ csevegés "
-"funkciója csevegéseket tesz lehetővé az ügyintézők és az ügyfelek közt az "
-"OTRS előtétprogram használatával. Miután engedélyezve lett, az ügyfelek "
-"(vagy a nyilvános felhasználók) csevegéseket indíthatnak az ügyintézőkkel, "
-"és fordítva. A befejezett csevegések archiválhatók, és hozzácsatolhatók a "
-"jegyekhez."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/chat.xml:14
@@ -441,13 +329,6 @@ msgstr "Beállítás"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/chat.xml:21
-#, fuzzy
-#| msgid ""
-#| "The following configuration options are relevant for this feature. Please "
-#| "note that you can also define a list of fixed texts which are being "
-#| "displayed to public users and customers in the chat module. For more "
-#| "information on which texts can be changed, please have a look at the "
-#| "module configuration (OTRSBusiness &gt; Core::Chat)."
 msgid ""
 "The following SysConfig configuration options are relevant for this feature. "
 "Please note that you can also define a list of fixed texts which are being "
@@ -455,19 +336,11 @@ msgid ""
 "information on which texts can be changed, please have a look at the module "
 "configuration (OTRSBusiness → Core::Chat)."
 msgstr ""
-"A következő beállítási lehetőségek fontosak ennél a funkciónál. Felhívjuk a "
-"figyelmét, hogy meghatározhatja azon rögzített szövegek listáját is, amelyek "
-"megjelenítésre kerülnek a nyilvános felhasználóknak és az ügyfeleknek a "
-"csevegés modulban. További információkért azzal kapcsolatban, hogy mely "
-"szövegeket lehet megváltoztatni, nézze meg a modul beállításait "
-"(OTRSBusiness &gt; Core::Chat)."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:25
-#, fuzzy
-#| msgid "<literal>ChatEngine::Active</literal>"
 msgid "ChatEngine::Active"
-msgstr "<literal>ChatEngine::Active</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:28
@@ -477,10 +350,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:33
-#, fuzzy
-#| msgid "<literal>ChatEngine::ChatDirection::PublicToAgent</literal>"
 msgid "ChatEngine::ChatDirection::PublicToAgent"
-msgstr "<literal>ChatEngine::ChatDirection::PublicToAgent</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:36
@@ -497,10 +368,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:41
-#, fuzzy
-#| msgid "<literal>ChatEngine::ChatDirection::CustomerToAgent</literal>"
 msgid "ChatEngine::ChatDirection::CustomerToAgent"
-msgstr "<literal>ChatEngine::ChatDirection::CustomerToAgent</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:44
@@ -517,10 +386,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:49
-#, fuzzy
-#| msgid "<literal>ChatEngine::ChatDirection::AgentToCustomer</literal>"
 msgid "ChatEngine::ChatDirection::AgentToCustomer"
-msgstr "<literal>ChatEngine::ChatDirection::AgentToCustomer</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:52
@@ -533,10 +400,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:57
-#, fuzzy
-#| msgid "<literal>ChatEngine::ChatDirection::AgentToAgent</literal>"
 msgid "ChatEngine::ChatDirection::AgentToAgent"
-msgstr "<literal>ChatEngine::ChatDirection::AgentToAgent</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:60
@@ -547,19 +412,11 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:65
-#, fuzzy
-#| msgid ""
-#| "<literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::"
-#| "PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::"
-#| "ChatStartingAgents</literal>"
 msgid ""
 "ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::"
 "PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::"
 "ChatStartingAgents"
 msgstr ""
-"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::"
-"PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::"
-"ChatStartingAgents</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:68
@@ -577,10 +434,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:73
-#, fuzzy
-#| msgid "<literal>ChatEngine::DefaultAgentName</literal>"
 msgid "ChatEngine::DefaultAgentName"
-msgstr "<literal>ChatEngine::DefaultAgentName</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:76
@@ -595,10 +450,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:81
-#, fuzzy
-#| msgid "<literal>ChatEngine::DefaultAgentName</literal>"
 msgid "ChatEngine::DefaultAgentNameNumbers"
-msgstr "<literal>ChatEngine::DefaultAgentName</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:84
@@ -617,9 +470,9 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:92
 msgid ""
-"If chat channel selection should be enabled for public users. If set to \"no"
-"\", chats from public users will go to the default channel automatically "
-"(ChatEngine::DefaultChatChannel)."
+"Defines, if chat channel selection should be enabled for public users. If "
+"set to \"no\", chats from public users will go to the default channel "
+"automatically (ChatEngine::DefaultChatChannel)."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
@@ -630,8 +483,9 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:100
 msgid ""
-"If chat channels should only be selectable in the public interface if at "
-"least one agent with sufficient permissions is available in this channel."
+"Defines, if chat channels should only be selectable in the public interface "
+"if at least one agent with <link linkend=\"chat-permissions\">sufficient "
+"permissions</link> is available in this channel."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
@@ -655,9 +509,9 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:116
 msgid ""
-"If chat channels should only be selectable in the customer interface if at "
-"least one agent with <link linkend=\"chat-permissions\">sufficient "
-"permissions</link> is available in this channel."
+"Defines, if chat channels should only be selectable in the customer "
+"interface if at least one agent with <link linkend=\"chat-permissions"
+"\">sufficient permissions</link> is available in this channel."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
@@ -684,7 +538,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:132
 msgid ""
-"If an agent is not active in OTRS within this treshold, they will be "
+"If an agent is not active in OTRS within this threshold, they will be "
 "automatically set to \"unavailable for chat\" (see <link linkend=\"chat-"
 "setup-availability\">\"Agents: Set up availability\"</link>)."
 msgstr ""
@@ -738,8 +592,8 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:164
 msgid ""
-"If new chats should be prepended or appended to the list of active chats in "
-"the active chats widget in the chat manager."
+"Defines, if new chats should be prepended or appended to the list of active "
+"chats in the active chats widget in the chat manager."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -772,7 +626,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><title>
 #: en/content/features/chat.xml:183
-msgid "Available chat permissions"
+msgid "Available Chat Permissions"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
@@ -786,7 +640,7 @@ msgid ""
 "Users with this permission type will only be able to observe chats in this "
 "channel after they have been invited to them. They will not be able to "
 "accept or observe chats in this channel on their own and if they are the "
-"only agent currently available in this channel, customers/public users will "
+"only agents currently available in this channel, customers/public users will "
 "not be able to create a new chat in this channel. Observers can still invite "
 "other agents to a chat they currently observe."
 msgstr ""
@@ -802,7 +656,7 @@ msgid ""
 "Users with this permission type will be able to take part in a chat, but "
 "only after they get invited to it. After they're in a chat, they can change "
 "the chat channel, discard the chat etc. They will not be able to accept a "
-"customer/public chat request on their own."
+"customer/public user chat request on their own."
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
@@ -819,23 +673,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/chat.xml:212
-#, fuzzy
-#| msgid ""
-#| "<literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::"
-#| "PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::"
-#| "ChatStartingAgents</literal>"
 msgid ""
 "To use the chat in general, agents still need to have at least ro "
 "permissions to the groups set up in ChatEngine::PermissionGroup::"
 "ChatReceivingAgents and ChatEngine::PermissionGroup::ChatStartingAgents."
 msgstr ""
-"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::"
-"PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::"
-"ChatStartingAgents</literal>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:217
-msgid "Agents: Select active chat channels"
+msgid "Agents: Select Active Chat Channels"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -862,12 +708,12 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:231
-msgid "Agents: Set up availability"
+msgid "Agents: Set up Availability"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:234
-msgid "Setting up chat availability"
+msgid "Setting up Chat Availability"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
@@ -881,7 +727,7 @@ msgstr ""
 #: en/content/features/chat.xml:241
 msgid ""
 "To be available for any chats, you'll need to use the chat toolbar switch. "
-"It's a three-way switch with these states: Unavailable for chats (empty "
+"It's a three-way switch with these states: unavailable for chats (empty "
 "circle), available for internal (agent-to-agent) chats (empty circle with "
 "tick sign), available for internal and external (customer-to-agent, public-"
 "to-agent) chats (filled circle with tick sign). Just click the toggle in "
@@ -891,48 +737,34 @@ msgstr ""
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/chat.xml:245
 msgid ""
-"Your availablity will be reset to \"internal chats only\" each time you log "
+"Your availability will be reset to \"internal chats only\" each time you log "
 "in to OTRS again."
 msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/chat.xml:252
-msgid "General usage"
+msgid "General Usage"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:254
-msgid "The chat manager"
-msgstr "A csevegéskezelő"
+msgid "The Chat Manager"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:257
-msgid "The chat managing screen"
-msgstr "A csevegéskezelő képernyő"
+msgid "The Chat Managing Screen"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:259
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatManager.jpeg\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatManager.jpeg\"></"
-"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:264
-#, fuzzy
-#| msgid ""
-#| "The chat manager is the central point of the chat feature. As an agent, "
-#| "here you can manage your chats, see and accept open requests and change "
-#| "your chat availability status. The chat manager provides a list of chat "
-#| "requests from customers, public users and other agents, as well as an "
-#| "overview over all active chats. Open the chat manager by using \"Chat\" "
-#| "in the main navigation of OTRS."
 msgid ""
 "The chat manager is the central point of the chat feature. As an agent, here "
 "you can manage your chats and see and accept open requests. The chat manager "
@@ -940,19 +772,11 @@ msgid ""
 "agents, as well as an overview over all active chats. Open the chat manager "
 "by using \"Chat\" in the main navigation of OTRS."
 msgstr ""
-"A csevegéskezelő a csevegés funkció középpontja. Ügyintézőként itt kezelheti "
-"a csevegéseit, láthatja és elfogadhatja a nyitott kéréseket, és "
-"megváltoztathatja az elérhetőségi állapotát. A csevegéskezelő szolgáltatja a "
-"csevegéskérések listáját az ügyfelektől, a nyilvános felhasználóktól és más "
-"ügyintézőktől, valamint egy áttekintőt az összes aktív csevegésről. Nyissa "
-"meg a csevegéskezelőt az OTRS fő navigációján lévő „Csevegés” használatával."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:269
-#, fuzzy
-#| msgid "Start a chat"
-msgid "Starting new chats"
-msgstr "Csevegés indítása"
+msgid "Starting New Chats"
+msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:272
@@ -996,21 +820,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:287
-msgid "Starting a A2C chat from ticket zoom."
+msgid "Starting an A2C chat from ticket zoom"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/chat.xml:289
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatTicketZoomStart.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-"graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:295
@@ -1027,23 +845,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:301
-#, fuzzy
-#| msgid "Start a chat"
-msgid "Starting a C2A chat."
-msgstr "Csevegés indítása"
+msgid "Starting a C2A chat"
+msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/chat.xml:303
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatCustomerNewRequest.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-"graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:309
@@ -1063,7 +873,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:318
-msgid "Handling chat requests"
+msgid "Handling Chat Requests"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -1077,21 +887,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:324
-msgid "An open chat request"
+msgid "An Open Chat Request"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:326
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequest.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:331
@@ -1100,7 +904,7 @@ msgid ""
 "request. Clicking the button will open an overlay which provides several "
 "actions on this request. Given that you've got sufficient permissions, you "
 "can accept the request or change the channel for this request. Changing the "
-"channel will follow the same rules as creating new request: You can only "
+"channel will follow the same rules as creating new request: you can only "
 "move the request to a channel which has active agents in it."
 msgstr ""
 
@@ -1113,21 +917,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:338
-msgid "Open chat request details"
+msgid "Open Chat Request Details"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:340
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatStartWidget.png\"></"
-"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:345
@@ -1138,22 +936,22 @@ msgid ""
 "receive a message that you've entered the chat."
 msgstr ""
 
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:350
+msgid "The Chat Widget"
+msgstr ""
+
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:350 en/content/features/chat.xml:353
+#: en/content/features/chat.xml:353
 msgid "The chat widget"
 msgstr "A csevegés felületi elem"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:355
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatWidget.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatWidget.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:360
@@ -1211,41 +1009,27 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:379
-#, fuzzy
-#| msgid "Start a chat"
-msgid "Monitor a chat."
-msgstr "Csevegés indítása"
+msgid "Monitor a chat"
+msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/chat.xml:381
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatIcons.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatMonitorAndClose.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatIcons.png\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:387
-#, fuzzy
-#| msgid "The chat actions"
-msgid "Advanced chat actions."
-msgstr "A csevegés műveletek"
+msgid "Advanced chat actions"
+msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/chat.xml:389
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/chat/ChatIcons.png\"></"
-#| "graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatAdvancedActions.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/chat/ChatIcons.png\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:395
@@ -1283,8 +1067,8 @@ msgstr ""
 msgid ""
 "Allows you to invite another agent to this chat. You can select from a list "
 "of available agents who you want to invite. Once you've invited the agent, a "
-"new agent-to-agent chat request will be sent to this agent. After they have "
-"accepted the request, a new internal chat will be established between you "
+"new agent-to-agent chat request will be sent to this agent. After the "
+"request has accepted, a new internal chat will be established between you "
 "and the invited agent. In this internal chat, the invited agent has two more "
 "actions available in the advanced actions toolbar: <link linkend=\"chat-"
 "action-observer\">\"Observer\"</link> and <link linkend=\"chat-action-"
@@ -1364,10 +1148,8 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
-#, fuzzy
-#| msgid "Create a new dynamic field of type 'Contact with data'."
 msgid "The Dynamic Field \"Contact with Data\""
-msgstr "Hozzon létre egy új „Partner adatokkal” típusú dinamikus mezőt."
+msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:9
@@ -1377,8 +1159,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:15
-msgid "Definition of data sources"
-msgstr "Adatforrások meghatározása"
+msgid "Definition of Data Sources"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:17
@@ -1442,8 +1224,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:47
-msgid "Contact management"
-msgstr "Partnerkezelés"
+msgid "Contact Management"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:49
@@ -1481,8 +1263,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:64
-msgid "Adding contacts to tickets"
-msgstr "Partnerek hozzáadása a jegyekhez"
+msgid "Adding Contacts to Tickets"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:66
@@ -1504,8 +1286,8 @@ msgstr "A partner attribútumai láthatóak lesznek a jegynagyítás képernyőn
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:75
-msgid "Usage of contacts in search and statistics"
-msgstr "Partnerek használata a keresésben és a statisztikákban"
+msgid "Usage of Contacts in Search and Statistics"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:77
@@ -1529,10 +1311,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:91
-#, fuzzy
-#| msgid "<literal>AdminContactWithData::RunInitialWildcardSearch</literal>"
 msgid "AdminContactWithData::RunInitialWildcardSearch"
-msgstr "<literal>AdminContactWithData::RunInitialWildcardSearch</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:93
@@ -1551,10 +1331,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:100
-#, fuzzy
-#| msgid "<literal>Frontend::Module###AdminContactWithData</literal>"
 msgid "Frontend::Module###AdminContactWithData"
-msgstr "<literal>Frontend::Module###AdminContactWithData</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:102
@@ -1572,7 +1350,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:113
-#: en/content/features/dynamicfield-database.xml:362
+#: en/content/features/dynamicfield-database.xml:361
 #: en/content/features/report-generator.xml:23
 #: en/content/features/sla-selection-dialog.xml:23
 #: en/content/features/ticket-attachment-view.xml:23
@@ -1723,17 +1501,13 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-database.xml:6
-#, fuzzy
-#| msgid "Dynamic Field Database"
 msgid "The Dynamic Field \"Database\""
-msgstr "Dinamikus mező adatbázis"
+msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-database.xml:9
-#, fuzzy
-#| msgid "This feature implements a dynamic field of the type 'Database'."
 msgid "This feature implements a dynamic field of the type \"Database\"."
-msgstr "Ez a funkció egy „adatbázis” típusú dinamikus mezőt valósít meg."
+msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:15
@@ -1774,8 +1548,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:32
-msgid "Add a dynamic field 'Database'"
-msgstr "Egy „adatbázis” dinamikus mező hozzáadása"
+msgid "Adding a 'Database' Dynamic Field"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:34
@@ -1809,44 +1583,24 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:46
-#, fuzzy
-#| msgid ""
-#| "Configuration \"General - Name\": Dynamic fields of the type 'Database' "
-#| "need a unique name just like other dynamic fields, too. This name has to "
-#| "contain only alphanumeric values. This name will be used for internal "
-#| "handling of the field but will not be displayed."
 msgid ""
 "Dynamic fields of the type 'Database' need a unique name just like other "
 "dynamic fields, too. This name has to contain only alphanumeric values. This "
 "name will be used for internal handling of the field but will not be "
 "displayed."
 msgstr ""
-"Az „Általános - Név” beállítás: az „adatbázis” típusú dinamikus mezők egyedi "
-"nevet igényelnek, mint ahogy a többi dinamikus mező is. Ez a név csak "
-"alfanumerikus értékeket tartalmazhat. Ez a név lesz használva a mező belső "
-"kezelésénél, de nem lesz megjelenítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:51
-#, fuzzy
-#| msgid "Configuration of the external source (Database)"
 msgid "Configuration \"General - Label\":"
-msgstr "A külső forrás (adatbázis) beállítása"
+msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:54
-#, fuzzy
-#| msgid ""
-#| "Configuration \"General - Label\": The label can be individually set and "
-#| "can contain white spaces etc. It will be used as the field label in the "
-#| "different views."
 msgid ""
 "The label can be individually set and can contain white spaces etc. It will "
 "be used as the field label in the different views."
 msgstr ""
-"Az „Általános - Címke” beállítás: a címke egyénileg állítható be, és "
-"tartalmazhat üres karaktereket, szóközöket, stb. A mező címkéjeként lesz "
-"használva a különböző nézetekben."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:59
@@ -1855,22 +1609,11 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:62
-#, fuzzy
-#| msgid ""
-#| "Configuration \"General - Field order\": The field order allows a "
-#| "administrator to change the order of created dynamic fields. If this "
-#| "configuration get changed the general field order will be adjusted and "
-#| "other dynamic fields will be moved one position back."
 msgid ""
 "The field order allows a administrator to change the order of created "
 "dynamic fields. If this configuration get changed the general field order "
 "will be adjusted and other dynamic fields will be moved one position back."
 msgstr ""
-"Az „Általános - Mezősorrend” beállítás: a mezősorrend lehetővé teszi az "
-"adminisztrátoroknak a létrehozott dinamikus mezők sorrendjének "
-"megváltoztatását. Ha ezt a beállítást megváltoztatják, akkor az általános "
-"mezősorrend hozzá lesz igazítva, és az egyéb dinamikus mezők át lesznek "
-"helyezve egy pozícióval vissza."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:67
@@ -1879,26 +1622,16 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:70
-#, fuzzy
-#| msgid ""
-#| "Configuration \"General - Valid\": To use the dynamic field in the "
-#| "configured OTRS 'views' it has to be set as valid. If the field is set to "
-#| "'invalid' it will disappear from all the configured views but no data "
-#| "will be lost."
 msgid ""
 "To use the dynamic field in the configured OTRS 'views' it has to be set as "
 "valid. If the field is set to 'invalid' it will disappear from all the "
 "configured views but no data will be lost."
 msgstr ""
-"Az „Általános - Érvényes” beállítás: a dinamikus mezőnek a beállított OTRS "
-"„nézetekben” való használatához érvényesre kell állítani azt. Ha a mező "
-"„érvénytelen” értékre van állítva, akkor el fog tűnni az összes beállított "
-"nézetből, de nem fog adat elveszni."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:77
-msgid "Configuration of the external source (Database)"
-msgstr "A külső forrás (adatbázis) beállítása"
+msgid "Configuration of the External Data Source"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:83
@@ -1907,16 +1640,10 @@ msgstr "A dinamikus mező adatbázis adminisztrációs képernyője"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:85
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "AdminOverview.png\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"AdminOverview.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:79
@@ -2164,12 +1891,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:229
-msgid ""
-"Configure dynamic fields of type 'Database' to be displayed in the agent "
-"interface"
+msgid "Screen Configuration"
 msgstr ""
-"Az „adatbázis” típusú dinamikus mezők beállítása az ügyintézői felületen "
-"való megjelenítéshez"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:231
@@ -2182,7 +1905,7 @@ msgstr ""
 "jeleníteni."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:235
+#: en/content/features/dynamicfield-database.xml:234
 msgid ""
 "This can be done through Admin -&gt; System Administration -&gt; SysConfig, "
 "in which \"Ticket\" must be selected on the left hand side."
@@ -2192,7 +1915,7 @@ msgstr ""
 "kiválasztani a bal oldalon."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:239
+#: en/content/features/dynamicfield-database.xml:238
 msgid ""
 "For every interface area (Frontend), in which the dynamic field of type "
 "'Database' should be displayed, the admin has to configure it to fit his "
@@ -2203,22 +1926,22 @@ msgstr ""
 "azt az igényei kielégítéséhez. Példák:"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:244
+#: en/content/features/dynamicfield-database.xml:243
 msgid "Frontend::Agent::Ticket::ViewZoom for the ticket zoom view."
 msgstr "A Frontend::Agent::Ticket::ViewZoom a jegynagyítás nézethez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:249
+#: en/content/features/dynamicfield-database.xml:248
 msgid "Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets."
 msgstr "A Frontend::Agent::Ticket::ViewPhoneNew az új telefonos jegyekhez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:254
+#: en/content/features/dynamicfield-database.xml:253
 msgid "Frontend::Agent::Ticket::ViewEmailNew for new email tickets."
 msgstr "A Frontend::Agent::Ticket::ViewEmailNew az új e-mail jegyekhez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:259
+#: en/content/features/dynamicfield-database.xml:258
 msgid ""
 "In each of these view configurations is an entry called \"Ticket::Frontend::"
 "AgentTicket*###DynamicField\".  This configuration defines which dynamic "
@@ -2235,31 +1958,25 @@ msgstr ""
 "(bekapcsolva és kötelező) értékeket veheti fel."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:270
-msgid "Storage of historical data"
-msgstr "Történeti adatok tárolása"
+#: en/content/features/dynamicfield-database.xml:269
+msgid "Storage of Historical Data"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:276
+#: en/content/features/dynamicfield-database.xml:275
 msgid "DynamicField Database - Historical data settings"
 msgstr "Dinamikus mező adatbázis - történeti adatok beállításai"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:278
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "SysConfigStoreHistoricalData.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:277
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/"
 "SysConfigStoreHistoricalData.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"SysConfigStoreHistoricalData.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:272
+#: en/content/features/dynamicfield-database.xml:271
 msgid ""
 "This feature offers a functionality to store historical data. For this to "
 "work it´s necessary to activate and set SysConfig options, as visibly in the "
@@ -2271,7 +1988,7 @@ msgstr ""
 "\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:283
+#: en/content/features/dynamicfield-database.xml:282
 msgid ""
 "In the configuration option for the \"SourceDynamicField\" it´s needed to "
 "fill in the already created dynamic (Database) field name, which will be "
@@ -2291,7 +2008,7 @@ msgstr ""
 "lesznek elmentve."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:290
+#: en/content/features/dynamicfield-database.xml:289
 msgid ""
 "If the configuration is ready and active, the configured fields will be "
 "readout from the external database, since the source field gets a new value "
@@ -2306,141 +2023,107 @@ msgstr ""
 "dinamikus mezőkben lesznek eltárolva."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:297
-msgid "Sysconfig settings"
-msgstr "Rendszerbeállítások beállításai"
+#: en/content/features/dynamicfield-database.xml:296
+msgid "Sysconfig Settings"
+msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:301
-#, fuzzy
-#| msgid "<literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal>"
+#: en/content/features/dynamicfield-database.xml:300
 msgid "AutoComplete::Agent###DynamicFieldDatabaseSearch"
-msgstr "<literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:303
+#: en/content/features/dynamicfield-database.xml:302
 msgid "Group: Framework, Subgroup: Frontend::Agent"
 msgstr "Csoport: Framework, alcsoport: Frontend::Agent"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:305
+#: en/content/features/dynamicfield-database.xml:304
 msgid "Defines the config options for the autocompletion feature."
 msgstr ""
 "Meghatározza a beállítási lehetőségeket az automatikus kiegészítés "
 "funkcióhoz."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:310
-#, fuzzy
-#| msgid "<literal>Ticket::EventModulePost###950-StoreHistoricalData</literal>"
+#: en/content/features/dynamicfield-database.xml:309
 msgid "Ticket::EventModulePost###950-StoreHistoricalData"
-msgstr "<literal>Ticket::EventModulePost###950-StoreHistoricalData</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:312
+#: en/content/features/dynamicfield-database.xml:311
 msgid "Group: Ticket, Subgroup: Core::Ticket"
 msgstr "Csoport: Ticket, alcsoport: Core::Ticket"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:314
+#: en/content/features/dynamicfield-database.xml:313
 msgid "Updates dynamic fields, if configured ones will be updated."
 msgstr "Frissíti a dinamikus mezőket, ha a beállítottak frissítve lesznek."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:319
-#, fuzzy
-#| msgid ""
-#| "<literal>DynamicFieldDatabase::StoreHistoricalData###1-"
-#| "SourceDynamicField1</literal>"
+#: en/content/features/dynamicfield-database.xml:318
 msgid "DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1"
 msgstr ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</"
-"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:321
-#: en/content/features/dynamicfield-database.xml:330
-#: en/content/features/dynamicfield-database.xml:339
-#: en/content/features/dynamicfield-database.xml:348
+#: en/content/features/dynamicfield-database.xml:320
+#: en/content/features/dynamicfield-database.xml:329
+#: en/content/features/dynamicfield-database.xml:338
+#: en/content/features/dynamicfield-database.xml:347
 msgid "Group: OTRSBusiness, Subgroup: Core"
 msgstr "Csoport: OTRSBusiness, alcsoport: Core"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:323
-#: en/content/features/dynamicfield-database.xml:341
+#: en/content/features/dynamicfield-database.xml:322
+#: en/content/features/dynamicfield-database.xml:340
 msgid "Defines the source dynamic field for storing historical data."
 msgstr "Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:328
-#, fuzzy
-#| msgid ""
-#| "<literal>DynamicFieldDatabase::StoreHistoricalData###2-"
-#| "TargetDynamicFields1</literal>"
+#: en/content/features/dynamicfield-database.xml:327
 msgid "DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1"
 msgstr ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</"
-"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:332
-#: en/content/features/dynamicfield-database.xml:350
+#: en/content/features/dynamicfield-database.xml:331
+#: en/content/features/dynamicfield-database.xml:349
 msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:337
-#, fuzzy
-#| msgid ""
-#| "<literal>DynamicFieldDatabase::StoreHistoricalData###3-"
-#| "SourceDynamicField2</literal>"
+#: en/content/features/dynamicfield-database.xml:336
 msgid "DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2"
 msgstr ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</"
-"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:346
-#, fuzzy
-#| msgid ""
-#| "<literal>DynamicFieldDatabase::StoreHistoricalData###4-"
-#| "TargetDynamicFields2</literal>"
+#: en/content/features/dynamicfield-database.xml:345
 msgid "DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2"
 msgstr ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</"
-"literal>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/dynamicfield-database.xml:364
+#: en/content/features/dynamicfield-database.xml:363
 msgid "An exemplary usage of DynamicField Database is as follows:"
 msgstr ""
 "A dinamikus mező adatbázis egy példaszerű használata a következőképpen lehet:"
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:368
-msgid "Searching and saving datasets - Autocompletion"
-msgstr "Adathalmazok keresése és mentése - automatikus kiegészítés"
+#: en/content/features/dynamicfield-database.xml:367
+msgid "Searching and Saving Datasets - Autocompletion"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:377
+#: en/content/features/dynamicfield-database.xml:376
 msgid "DynamicField Database - Test field"
 msgstr "Dinamikus mező adatbázis - tesztmező"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:379
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "SearchFieldEmpty.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:378
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"SearchFieldEmpty.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:370
+#: en/content/features/dynamicfield-database.xml:369
 msgid ""
 "After the created dynamic fields are activated in the well known masks (like "
 "ViewPhoneNew, ViewEmailNew) a new text field appears with the name, the "
@@ -2460,26 +2143,20 @@ msgstr ""
 "keresni kell. <placeholder type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:389
+#: en/content/features/dynamicfield-database.xml:388
 msgid "DynamicField Database - Autocomplete feature"
 msgstr "Dinamikus mező adatbázis - automatikus kiegészítés funkció"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:391
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "SearchFieldAutoCompletion.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:390
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/"
 "SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth="
 "\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"SearchFieldAutoCompletion.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:384
+#: en/content/features/dynamicfield-database.xml:383
 msgid ""
 "Since search terms are typed in into the text field, a database search will "
 "be started over the configured columns and the result will displayed via an "
@@ -2494,25 +2171,19 @@ msgstr ""
 "(kevesebb találati bejegyzés). <placeholder type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:400
+#: en/content/features/dynamicfield-database.xml:399
 msgid "DynamicField Database - Selected items"
 msgstr "Dinamikus mező adatbázis - kiválasztott elemek"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:402
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "SearchFieldSelected.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:401
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"SearchFieldSelected.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:396
+#: en/content/features/dynamicfield-database.xml:395
 msgid ""
 "If the wished value will be displayed in the results, it can be selected via "
 "a mouse click or via the keyboard and therefore be added to the dynamic "
@@ -2524,7 +2195,7 @@ msgstr ""
 "\"0\"/>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:407
+#: en/content/features/dynamicfield-database.xml:406
 msgid ""
 "Via the link 'Details' a popup screen can be accessed, which offers detailed "
 "information about the whole result row.  This information includes the line "
@@ -2538,35 +2209,29 @@ msgstr ""
 "összehasonlításához használhatók."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:412
+#: en/content/features/dynamicfield-database.xml:411
 msgid "The added result entries can be removed via the minus button."
 msgstr "A hozzáadott találati bejegyzések eltávolíthatók a mínusz gombbal."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:416
-msgid "Searching and saving datasets - Detailed search"
-msgstr "Adathalmazok keresése és mentése - részletes keresés"
+#: en/content/features/dynamicfield-database.xml:415
+msgid "Searching and Saving Datasets - Detailed Search"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:422
+#: en/content/features/dynamicfield-database.xml:421
 msgid "DynamicField Database - Detailed search"
 msgstr "Dinamikus mező adatbázis - részletes keresés"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:424
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "DetailedSearchMask.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:423
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchMask.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"DetailedSearchMask.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:418
+#: en/content/features/dynamicfield-database.xml:417
 msgid ""
 "The link 'Detailed search' opens a new modal dialog to start a new database "
 "search. In this mask it is possible to select the fields to search on "
@@ -2578,7 +2243,7 @@ msgstr ""
 "type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:429
+#: en/content/features/dynamicfield-database.xml:428
 msgid ""
 "By default the first available field is activated, but it´s also possible to "
 "remove available fields or add additional ones. Only activated and filled "
@@ -2591,25 +2256,19 @@ msgstr ""
 "helyettesítő karakterek („*”) minden egyedülálló mezőben megengedettek."
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:439
+#: en/content/features/dynamicfield-database.xml:438
 msgid "DynamicField Database - Detailed search result"
 msgstr "Dinamikus mező adatbázis - részletes keresési eredmény"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:441
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-#| "DetailedSearchResult.png\"></graphic>"
+#: en/content/features/dynamicfield-database.xml:440
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/dynamicfield-database/"
-"DetailedSearchResult.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:434
+#: en/content/features/dynamicfield-database.xml:433
 msgid ""
 "The database search will be executed via the button \"Start search\" and the "
 "results will be tabular displayed.  If the search was successful, the "
@@ -2624,7 +2283,7 @@ msgstr ""
 "elmentett értékek listájához. <placeholder type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:446
+#: en/content/features/dynamicfield-database.xml:445
 msgid ""
 "Independent of using the autocompletion or the detailed search, every single "
 "result can just selected ones. If an agent tries to select a value multiple "
@@ -2637,7 +2296,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6
-msgid "SMS notifications and notification web view"
+msgid "SMS Notifications and Notification Web View"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2653,7 +2312,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:16
-msgid "Setting up SMS notifications"
+msgid "Setting up SMS Notifications"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2668,7 +2327,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:22
-msgid "Admin cloud service SMS screen"
+msgid "Admin Cloud Service SMS Screen"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2715,7 +2374,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:44
-msgid "Enabling SMS notifications"
+msgid "Enabling SMS Notifications"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2735,7 +2394,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:55
-msgid "Agent preferences SMS notification settings"
+msgid "Agent Preferences SMS Notification Settings"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2747,7 +2406,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:64
-msgid "Setting up and using the notification web view"
+msgid "Setting up and Using the Notification Web View"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2759,10 +2418,8 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:70
-#, fuzzy
-#| msgid "Using the ticket timeline view"
-msgid "Enabling the notification web view"
-msgstr "A jegy idővonal nézetének használata"
+msgid "Enabling the Notification Web View"
+msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:72
@@ -2781,7 +2438,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:81
-msgid "Notification web view icon on the toolbar"
+msgid "Notification Web View Icon on the Toolbar"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2800,7 +2457,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:92
-msgid "Notification web view overview"
+msgid "Notification Web View Overview"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2812,7 +2469,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:100
-msgid "Notification web view detail"
+msgid "Notification Web View Detail"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2844,7 +2501,7 @@ msgstr "További beállítás nem szükséges."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/report-generator.xml:25
-msgid "Creating reports"
+msgid "Creating Reports"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2856,7 +2513,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/report-generator.xml:30
-msgid "General settings"
+msgid "General Settings"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -2868,7 +2525,6 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:36
-#: en/content/features/report-generator.xml:44
 #: en/content/features/report-generator.xml:50
 msgid "Automatic generation settings"
 msgstr ""
@@ -2880,6 +2536,11 @@ msgid ""
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
+#. type: Content of: <section><section><section><section><title>
+#: en/content/features/report-generator.xml:44
+msgid "Automatic Generation Settings"
+msgstr ""
+
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/report-generator.xml:46
 msgid ""
@@ -2887,7 +2548,7 @@ msgid ""
 "set up subject, text and recipients for the email which is going to be sent "
 "and which will contain the report as an attachment. You'll also need to add "
 "information on how often the report should be sent. The data format is taken "
-"from the cron mechanism vom unix-based operating systems. For more "
+"from the cron mechanism of unix-based operating systems. For more "
 "information on which settings are possible, please refer to official cron "
 "documentation sources or <ulink url=\"https://en.wikipedia.org/wiki/Cron"
 "\">wikipedia</ulink>."
@@ -2900,10 +2561,9 @@ msgid ""
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
-#. type: Content of: <section><section><section><section><para><figure><title>
+#. type: Content of: <section><section><section><section><title>
 #: en/content/features/report-generator.xml:58
-#: en/content/features/report-generator.xml:64
-msgid "Output settings"
+msgid "Output Settings"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -2912,6 +2572,11 @@ msgid ""
 "In this section, you can set up additional information which should be "
 "contained in the report (e.g. a preamble or epilogue). This could e.g. be "
 "used for adding copyright or data protection information."
+msgstr ""
+
+#. type: Content of: <section><section><section><section><para><figure><title>
+#: en/content/features/report-generator.xml:64
+msgid "Output settings"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
@@ -2923,7 +2588,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/report-generator.xml:73
-msgid "Manually generating reports"
+msgid "Manually Generating Reports"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2985,10 +2650,8 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/sla-selection-dialog.xml:6
-#, fuzzy
-#| msgid "Field Selection Dialog"
 msgid "The SLA Field Selection Dialog"
-msgstr "Mezőkiválasztó párbeszédablak"
+msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sla-selection-dialog.xml:11
@@ -3018,17 +2681,11 @@ msgstr "SLA beállítás"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sla-selection-dialog.xml:30
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/fieldselection-dialog/"
-#| "FieldSelectionConfiguration.png\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/fieldselection-dialog/"
 "FieldSelectionConfiguration.png\" scalefit=\"1\" width=\"100%\" contentdepth="
 "\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/fieldselection-dialog/"
-"FieldSelectionConfiguration.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sla-selection-dialog.xml:35
@@ -3051,16 +2708,10 @@ msgstr "SLA üzenet"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sla-selection-dialog.xml:44
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/fieldselection-dialog/"
-#| "FieldSelectionMessage.png\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/fieldselection-dialog/FieldSelectionMessage."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/fieldselection-dialog/"
-"FieldSelectionMessage.png\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sla-selection-dialog.xml:49
@@ -3095,31 +2746,20 @@ msgstr ""
 "mellékleteket, vagy létrehozhat egy olyan archívumfájlt, amely az éppen "
 "megtekintett jegy több mellékletét vagy az összeset tartalmazza."
 
-#. type: Content of: <section><section><section><title>
-#: en/content/features/ticket-attachment-view.xml:25
-msgid "Accessing the article attachment overview"
-msgstr "A bejegyzés melléklet áttekintő elérése"
-
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/ticket-attachment-view.xml:28
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/ticket-attachment-view.xml:26
 msgid "Switching to the article attachment overview"
 msgstr "Átváltás a bejegyzés melléklet áttekintőre"
 
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/ticket-attachment-view.xml:30
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/attachment-view/"
-#| "AttachmentsNavigation.png\"></graphic>"
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/ticket-attachment-view.xml:28
 msgid ""
 "<graphic fileref=\"screenshots/attachment-view/AttachmentsNavigation.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/attachment-view/"
-"AttachmentsNavigation.png\"></graphic>"
 
-#. type: Content of: <section><section><section><para>
-#: en/content/features/ticket-attachment-view.xml:35
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-attachment-view.xml:33
 msgid ""
 "Once a ticket has at least one attachment, the \"Attachments\" menu item "
 "will be displayed in AgentTicketZoom. Clicking it will open a popup which "
@@ -3130,23 +2770,17 @@ msgstr ""
 "egy felugró ablakot fog megnyitni, amely az összes melléklet listáját "
 "tartalmazza."
 
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/ticket-attachment-view.xml:39
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/ticket-attachment-view.xml:37
 msgid "Using the article attachment overview"
 msgstr "A bejegyzés melléklet áttekintő használata"
 
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/ticket-attachment-view.xml:41
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/attachment-view/"
-#| "AttachmentsScreen.png\"></graphic>"
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/ticket-attachment-view.xml:39
 msgid ""
 "<graphic fileref=\"screenshots/attachment-view/AttachmentsScreen.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/attachment-view/"
-"AttachmentsScreen.png\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/ticket-timeline-view.xml:6
@@ -3168,10 +2802,8 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/ticket-timeline-view.xml:21
-#, fuzzy
-#| msgid "<literal>ChronicalViewEnabled</literal>"
 msgid "ChronicalViewEnabled"
-msgstr "<literal>ChronicalViewEnabled</literal>"
+msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/ticket-timeline-view.xml:23
@@ -3184,31 +2816,20 @@ msgid "Controls whether or not the ticket timeline view is enabled."
 msgstr ""
 "Azt szabályozza, hogy a jegy idővonal nézete engedélyezve legyen-e vagy sem."
 
-#. type: Content of: <section><section><section><title>
-#: en/content/features/ticket-timeline-view.xml:36
-msgid "Accessing the ticket timeline view"
-msgstr "A jegy idővonal nézetének elérése"
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/ticket-timeline-view.xml:37
+msgid "Switching to the Ticket Timeline View"
+msgstr ""
 
-#. type: Content of: <section><section><section><para><figure><title>
+#. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/ticket-timeline-view.xml:39
-msgid "Switching to the ticket timeline view"
-msgstr "Átváltás a jegy idővonal nézetére"
-
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/ticket-timeline-view.xml:41
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/timeline-view/"
-#| "TimelineViewSwitch.png\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/timeline-view/TimelineViewSwitch."
-"png\"></graphic>"
 
-#. type: Content of: <section><section><section><para>
-#: en/content/features/ticket-timeline-view.xml:46
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-timeline-view.xml:44
 msgid ""
 "To access the ticket timeline view, use the clock icon on the top right "
 "corner of the article widget in AgentTicketZoom. You will be redirected to "
@@ -3220,8 +2841,8 @@ msgstr ""
 "irányítva az idővonal nézetre, és ez a nézet lesz megtartva elsőbbségiként, "
 "amíg vissza nem vált egy másik nézetre."
 
-#. type: Content of: <section><section><section><para>
-#: en/content/features/ticket-timeline-view.xml:49
+#. type: Content of: <section><section><para>
+#: en/content/features/ticket-timeline-view.xml:47
 msgid ""
 "In the ticket timeline view, you can work on the ticket as you're used to. "
 "You can inspect the time of each event in the timeline by hovering the "
@@ -3237,30 +2858,22 @@ msgstr ""
 "bejegyzésdobozok tetején, ahol meg fogja találni az összes gyakori "
 "bejegyzésműveletet, mint például válasz, felosztás, továbbítás, stb."
 
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/ticket-timeline-view.xml:53
-msgid "Using the ticket timeline view"
-msgstr "A jegy idővonal nézetének használata"
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/ticket-timeline-view.xml:51
+msgid "Using the Ticket Timeline View"
+msgstr ""
 
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/ticket-timeline-view.xml:55
-#, fuzzy
-#| msgid ""
-#| "<graphic scale=\"40\" fileref=\"screenshots/timeline-view/"
-#| "TimelineViewZoom.png\"></graphic>"
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/ticket-timeline-view.xml:53
 msgid ""
 "<graphic fileref=\"screenshots/timeline-view/TimelineViewZoom.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/timeline-view/TimelineViewZoom."
-"png\"></graphic>"
 
 #. type: Content of: <appendix><title>
 #: en/content/additional-resources.xml:7
-#, fuzzy
-#| msgid "Definition of data sources"
 msgid "Additional Resources"
-msgstr "Adatforrások meghatározása"
+msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><term>
 #: en/content/additional-resources.xml:11
@@ -3287,126 +2900,3 @@ msgid ""
 "You can help translate OTRS to your language at <ulink url=\"https://www."
 "transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr ""
-
-#~ msgid "Group: OTRSBusiness, Subgroup: Core::Chat"
-#~ msgstr "Csoport: OTRSBusiness, alcsoport: Core::Chat"
-
-#~ msgid ""
-#~ "You can set your general availability for the chat by using the checkbox "
-#~ "in the left sidebar of the chat manager. Once disabled, you'll no longer "
-#~ "get notified for incoming chat requests."
-#~ msgstr ""
-#~ "Beállíthatja az általános elérhetőségét a csevegésnél a csevegéskezelő "
-#~ "bal oldalsávján lévő jelölőnégyzet használatával. Miután le lett tiltva, "
-#~ "többé nem fog értesülni a bejövő csevegéskérésekről."
-
-#~ msgid "Using the chat widget"
-#~ msgstr "A csevegés felületi elem használata"
-
-#~ msgid "Starting new chats and dealing with chat requests"
-#~ msgstr "Új csevegések indítása és foglalkozás a csevegéskérésekkel"
-
-#~ msgid ""
-#~ "As an agent, there are multiple ways to start a chat. First of all, you "
-#~ "can use the user online widget on the dashboard to chat with agents or "
-#~ "customers who are currently logged in to OTRS. Just click the little chat "
-#~ "icon behind the name of the agent or customer. A small overlay will "
-#~ "appear and allow for entering the first chat message you would like to "
-#~ "send to the other user. Afterwards, the new chat is being added to the "
-#~ "chat manager."
-#~ msgstr ""
-#~ "Ügyintézőként több módja is létezik egy csevegés indításának. Mindenek "
-#~ "előtt használhatja az elérhető felhasználók felületi elemet a "
-#~ "vezérlőpulton az olyan ügyintézőkkel vagy ügyfelekkel történő "
-#~ "csevegéshez, akik jelenleg be vannak jelentkezve az OTRS-be. Egyszerűen "
-#~ "kattintson az ügyintéző vagy ügyfél neve mögötti kicsi csevegés ikonra. "
-#~ "Egy kis rátét ablak fog megjelenni, és lehetővé teszi az első csevegés "
-#~ "üzenet beírását, amelyet a másik felhasználónak szeretne küldeni. Azután "
-#~ "az új csevegés hozzáadásra kerül a csevegéskezelőhöz."
-
-#~ msgid ""
-#~ "You can also use ticket zoom to start a chat with a certain customer. In "
-#~ "the sidebar, you'll find a chat link in the customer information widget."
-#~ msgstr ""
-#~ "Használhatja a jegynagyítást is egy csevegés indításához egy bizonyos "
-#~ "ügyféllel. Az oldalsávon találni fog egy csevegés hivatkozást az ügyfél "
-#~ "információs felületi elemén."
-
-#~ msgid ""
-#~ "If new chat requests arrive and you're logged in to OTRS, you'll get "
-#~ "notified by a chat icon in the toolbar on top of the screen. The icon "
-#~ "also holds information about how many open chat requests are available at "
-#~ "the moment. Just click the icon to open the chat manager. You'll also "
-#~ "receive a browser notification (popup) in case of new chat requests."
-#~ msgstr ""
-#~ "Ha új csevegéskérések érkeznek, és be van jelentkezve az OTRS-be, akkor "
-#~ "egy csevegés ikon fogja értesíteni a képernyő tetején lévő eszköztáron. "
-#~ "Az ikon arról is tartalmaz információkat, hogy pillanatnyilag hány "
-#~ "nyitott csevegéskérés érhető el. Egyszerűen kattintson az ikonra a "
-#~ "csevegéskezelő megnyitásához. Kapni fog egy böngésző értesítést is "
-#~ "(felugró ablak) az új csevegéskérések esetén."
-
-#~ msgid ""
-#~ "All agents with the needed permissions will be able to deal with open "
-#~ "chat requests. A request can only be accepted by one agent at the same "
-#~ "time, which means that the request will disappear from the other agents "
-#~ "lists once if has been accepted by an agent. Once accepted, the newly "
-#~ "created chat will be appended to the list of active chats for the agent "
-#~ "who has accepted it. Other users in the chat will see a notification "
-#~ "about the user who just entered the chat."
-#~ msgstr ""
-#~ "A szükséges jogosultságokkal rendelkező összes ügyintéző képes lesz "
-#~ "foglalkozni a nyitott csevegéskérésekkel. Egy kérést egyszerre csak egy "
-#~ "ügyintéző fogadhat el, amely azt jelenti, hogy a kérés el fog tűnni a "
-#~ "többi ügyintéző listáiból, miután azt egy ügyintéző elfogadta. Miután "
-#~ "elfogadták, az újonnan létrejött csevegés hozzá lesz fűzve az aktív "
-#~ "csevegések listájához annál az ügyintézőnél, aki azt elfogadta. A "
-#~ "csevegésben lévő többi felhasználó egy értesítést fog látni arról a "
-#~ "felhasználóról, aki éppen belépett a csevegésbe."
-
-#~ msgid "Ending and archiving chats"
-#~ msgstr "Csevegések befejezése és archiválása"
-
-#~ msgid ""
-#~ "As an agent, you have several possiblities to end a chat. First of all, "
-#~ "you can just discard a chat by using the \"x\" icon on the right top side "
-#~ "of the chat widget in the chat manager. The chat then just will be closed "
-#~ "without archiving it. Other users in the chat will just see a message "
-#~ "telling them the chat was ended."
-#~ msgstr ""
-#~ "Ügyintézőként számos lehetősége van egy csevegés befejezésére. Mindenek "
-#~ "előtt egyszerűen eldobhatja a csevegést a csevegés felületi elem jobb "
-#~ "felső sarkában lévő „X” ikon használatával a csevegéskezelőben. A "
-#~ "csevegés ezután egyszerűen be lesz zárva archiválás nélkül. A csevegésen "
-#~ "lévő többi felhasználó egy olyan üzenetet fog látni, amely azt mondja, "
-#~ "hogy a csevegés befejeződött."
-
-#~ msgid ""
-#~ "You can also append the chat to an existing ticket. Click the \"+\" icon "
-#~ "on the right top of the chat widget in the chat manager. A new window "
-#~ "will open which allows for selecting a ticket which the chat should be "
-#~ "appended to."
-#~ msgstr ""
-#~ "Hozzáfűzheti a csevegést egy meglévő jegyhez is. Kattintson a csevegés "
-#~ "felületi elem jobb felső sarkában lévő „+” ikonra a csevegéskezelőben. "
-#~ "Egy új ablak fog megnyílni, amely lehetővé teszi egy olyan jegy "
-#~ "kiválasztását, amelyhez a csevegést hozzá kell fűzni."
-
-#~ msgid ""
-#~ "If you don't have any appropriate ticket to append the chat to, you can "
-#~ "also create a new one by using the phone icon on the top right side of "
-#~ "the chat widget in the chat manager."
-#~ msgstr ""
-#~ "Ha nincsen semmilyen alkalmas jegye, amelyhez a csevegést hozzá lehetne "
-#~ "fűzni, akkor létrehozhat egy újat is a csevegés felületi elem jobb felső "
-#~ "sarkában lévő telefon ikon használatával a csevegéskezelőben."
-
-#~ msgid "Contact with Data"
-#~ msgstr "Partner adatokkal"
-
-#~ msgid ""
-#~ "The following list of configuration options can be changed for this "
-#~ "feature."
-#~ msgstr ""
-#~ "A beállítási lehetőségek következő listája változtatható meg ennél a "
-#~ "funkciónál."
