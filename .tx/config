@@ -1,4 +1,4 @@
-[main]
+[mainDISABLED]
 host = https://www.transifex.com
 
 [OTRS.doc-otrsbusiness]
