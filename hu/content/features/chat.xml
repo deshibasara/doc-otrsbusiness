@@ -141,9 +141,9 @@ permissions</link> is available in this channel.
                 <term>ChatEngine::CustomerInterface::AllowChatChannels</term>
                 <listitem>
                 <para>
-                    If chat channel selection should be enabled for customer users. If set to
-"no", chats from customer users will go to the default channel automatically
-(ChatEngine::DefaultChatChannel).
+                    Defines, if chat channel selection should be enabled for customer users. If
+set to "no", chats from customer users will go to the default channel
+automatically (ChatEngine::DefaultChatChannel).
                 </para>
                 </listitem>
             </varlistentry>
@@ -394,7 +394,7 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     <para>
                         Customers are not able to start a chat directly with a certain agent, but
 only to create generic chat requests. To do this, customers can use the item
-Chats -&gt; Create new chat from the customer interface main navigation.
+Chats → Create new chat from the customer interface main navigation.
                     </para>
                     <para>
                         <figure>

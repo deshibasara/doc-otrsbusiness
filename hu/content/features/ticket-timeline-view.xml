@@ -19,7 +19,7 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
         <title>Beállítás</title>
 
         <variablelist>
-            <title>SysConfig</title>
+            <title>Rendszerbeállítások</title>
             <varlistentry>
                 <term>ChronicalViewEnabled</term>
                 <listitem>

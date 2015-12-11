@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-12-08 09:59+0100\n"
+"POT-Creation-Date: 2015-12-11 14:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -376,8 +376,8 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:108
 msgid ""
-"If chat channel selection should be enabled for customer users. If set to "
-"\"no\", chats from customer users will go to the default channel "
+"Defines, if chat channel selection should be enabled for customer users. If "
+"set to \"no\", chats from customer users will go to the default channel "
 "automatically (ChatEngine::DefaultChatChannel)."
 msgstr ""
 
@@ -723,7 +723,7 @@ msgstr ""
 msgid ""
 "Customers are not able to start a chat directly with a certain agent, but "
 "only to create generic chat requests. To do this, customers can use the item "
-"Chats -&gt; Create new chat from the customer interface main navigation."
+"Chats → Create new chat from the customer interface main navigation."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
@@ -1246,8 +1246,8 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:166
 msgid ""
 "Populate the data source by adding at least one contact in the newly created "
-"data source by using 'Tickets' -&gt; 'Edit contacts with data' screen from "
-"the main navigation bar."
+"data source by using 'Tickets' → 'Edit contacts with data' screen from the "
+"main navigation bar."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
@@ -1347,11 +1347,10 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:37
 msgid ""
 "'Database' dynamic fields can be created the same way, as the default "
-"dynamic fields are created. For this switch to the Admin -&gt; Ticket "
-"Settings -&gt; Dynamic Fields view. In this mask you can select the "
-"'Database' field from the ticket drop down box on the left side. Currently "
-"it's not possible to use the 'Database' dynamic field in the article "
-"context."
+"dynamic fields are created. For this switch to the Admin → Ticket Settings → "
+"Dynamic Fields view. In this mask you can select the 'Database' field from "
+"the ticket drop down box on the left side. Currently it's not possible to "
+"use the 'Database' dynamic field in the article context."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -1615,8 +1614,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:234
 msgid ""
-"This can be done through Admin -&gt; System Administration -&gt; SysConfig, "
-"in which \"Ticket\" must be selected on the left hand side."
+"This can be done through Admin → System Administration → SysConfig, in which "
+"\"Ticket\" must be selected on the left hand side."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2004,7 +2003,7 @@ msgstr ""
 msgid ""
 "On this screen, you can also add more generic phone numbers (e.g. for "
 "archiving purposes) which will receive all of the relevant notifications "
-"(besides the adressed agents)."
+"(besides the addressed agents)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -2483,9 +2482,9 @@ msgstr ""
 #: en/content/additional-resources.xml:14
 msgid ""
 "The OTRS website with source code, documentation and news is available at "
-"<ulink url=\"https://www.otrs.com/\">otrs.com/</ulink>.  Here you can also "
-"find information about professional services and OTRS Administrator training "
-"seminars from OTRS Group, the creator of OTRS."
+"<ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  Here you can "
+"also find information about professional services and OTRS Administrator "
+"training seminars from OTRS Group, the creator of OTRS."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><term>

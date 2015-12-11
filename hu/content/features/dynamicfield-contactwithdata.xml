@@ -91,7 +91,7 @@ keresésben és a statisztikákban.
         <title>Beállítás</title>
 
         <variablelist>
-            <title>SysConfig</title>
+            <title>Rendszerbeállítások</title>
             <varlistentry>
                 <term>AdminContactWithData::RunInitialWildcardSearch</term>
                 <listitem>
@@ -172,9 +172,9 @@ attribútum (kulcs: Telephone, érték: „Telefon”).
             </listitem>
             <listitem>
                 <para>
-                    Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan
-létrehozott adatforrásban a „Jegyek” -&gt; „Partnerek adatokkal
-szerkesztése” képernyő használatával a fő navigációs sávról.
+                    Populate the data source by adding at least one contact in the newly created
+data source by using 'Tickets' → 'Edit contacts with data' screen from the
+main navigation bar.
                 </para>
             </listitem>
             <listitem>

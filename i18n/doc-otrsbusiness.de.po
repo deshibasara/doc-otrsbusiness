@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-12-08 09:59+0100\n"
-"PO-Revision-Date: 2015-12-08 09:00+0000\n"
+"POT-Creation-Date: 2015-12-11 14:10+0100\n"
+"PO-Revision-Date: 2015-12-11 13:11+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -459,8 +459,8 @@ msgstr ""
 #. <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:108
 msgid ""
-"If chat channel selection should be enabled for customer users. If set to "
-"\"no\", chats from customer users will go to the default channel "
+"Defines, if chat channel selection should be enabled for customer users. If "
+"set to \"no\", chats from customer users will go to the default channel "
 "automatically (ChatEngine::DefaultChatChannel)."
 msgstr ""
 
@@ -820,7 +820,7 @@ msgstr ""
 msgid ""
 "Customers are not able to start a chat directly with a certain agent, but "
 "only to create generic chat requests. To do this, customers can use the item"
-" Chats -&gt; Create new chat from the customer interface main navigation."
+" Chats → Create new chat from the customer interface main navigation."
 msgstr ""
 
 #. type: Content of:
@@ -1252,7 +1252,7 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:89
 #: en/content/features/ticket-timeline-view.xml:19
 msgid "SysConfig"
-msgstr ""
+msgstr "SysConfig"
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:91
@@ -1363,8 +1363,8 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:166
 msgid ""
 "Populate the data source by adding at least one contact in the newly created"
-" data source by using 'Tickets' -&gt; 'Edit contacts with data' screen from "
-"the main navigation bar."
+" data source by using 'Tickets' → 'Edit contacts with data' screen from the "
+"main navigation bar."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
@@ -1465,11 +1465,10 @@ msgstr "Dieses Feature implementiert ein Konfigurations Interface zur Erstellung
 #: en/content/features/dynamicfield-database.xml:37
 msgid ""
 "'Database' dynamic fields can be created the same way, as the default "
-"dynamic fields are created. For this switch to the Admin -&gt; Ticket "
-"Settings -&gt; Dynamic Fields view. In this mask you can select the "
-"'Database' field from the ticket drop down box on the left side. Currently "
-"it's not possible to use the 'Database' dynamic field in the article "
-"context."
+"dynamic fields are created. For this switch to the Admin → Ticket Settings →"
+" Dynamic Fields view. In this mask you can select the 'Database' field from "
+"the ticket drop down box on the left side. Currently it's not possible to "
+"use the 'Database' dynamic field in the article context."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -1734,8 +1733,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:234
 msgid ""
-"This can be done through Admin -&gt; System Administration -&gt; SysConfig, "
-"in which \"Ticket\" must be selected on the left hand side."
+"This can be done through Admin → System Administration → SysConfig, in which"
+" \"Ticket\" must be selected on the left hand side."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2145,7 +2144,7 @@ msgstr ""
 msgid ""
 "On this screen, you can also add more generic phone numbers (e.g. for "
 "archiving purposes) which will receive all of the relevant notifications "
-"(besides the adressed agents)."
+"(besides the addressed agents)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -2304,7 +2303,7 @@ msgstr ""
 #: en/content/features/report-generator.xml:36
 #: en/content/features/report-generator.xml:50
 msgid "Automatic generation settings"
-msgstr ""
+msgstr "Einstellungen zur automatischen Erzeugung"
 
 #. type: Content of:
 #. <section><section><section><section><para><figure><screenshot>
@@ -2357,7 +2356,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:64
 msgid "Output settings"
-msgstr ""
+msgstr "Ausgabe-Einstellungen"
 
 #. type: Content of:
 #. <section><section><section><section><para><figure><screenshot>
@@ -2621,20 +2620,20 @@ msgstr ""
 #. type: Content of: <appendix><title>
 #: en/content/additional-resources.xml:7
 msgid "Additional Resources"
-msgstr ""
+msgstr "Weitere Quellen"
 
 #. type: Content of: <appendix><variablelist><varlistentry><term>
 #: en/content/additional-resources.xml:11
 msgid "otrs.com"
-msgstr ""
+msgstr "otrs.com/?lang=de"
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
 #: en/content/additional-resources.xml:14
 msgid ""
 "The OTRS website with source code, documentation and news is available at "
-"<ulink url=\"https://www.otrs.com/\">otrs.com/</ulink>.  Here you can also "
-"find information about professional services and OTRS Administrator training"
-" seminars from OTRS Group, the creator of OTRS."
+"<ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  Here you can "
+"also find information about professional services and OTRS Administrator "
+"training seminars from OTRS Group, the creator of OTRS."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><term>
