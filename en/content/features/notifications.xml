@@ -15,7 +15,7 @@
     <section>
         <title>Setting up SMS Notifications</title>
         <para>
-            In order to use SMS as a way of notification for admins and customers, you have to buy a SMS unit package. Please get in touch with sales@otrs.com on this matter. Once you've bought a package, you will be able too look up your current contingent of remaining SMS units on the admin screen for the SMS cloud service (AdminCloudServiceSMS).
+            In order to use SMS as a way of notification for admins and customers, you have to buy a SMS unit package. Please get in touch with sales@otrs.com on this matter. Once you've bought a package, you will be able to look up your current contingent of remaining SMS units on the admin screen for the SMS cloud service (AdminCloudServiceSMS).
         </para>
         <para>
             <figure>
