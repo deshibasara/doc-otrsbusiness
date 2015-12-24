@@ -3,14 +3,14 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="report-generator">
-    <title>The Report Generator</title>
+    <title>A jelentés előállító</title>
 
     <section>
         <title>Leírás</title>
         <para>
-            The report generator allows to combine multiple statistics for
-sending/downloading. Reports can be configured to be sent automatically on
-specified times or run manually.
+            A jelentés előállító lehetővé teszi több statisztika egyesítését elküldéshez
+vagy letöltéshez. A jelentések beállíthatók megadott időpontokban történő
+automatikus elküldéshez, vagy kézzel futtathatók.
         </para>
     </section>
 
@@ -24,40 +24,41 @@ specified times or run manually.
     <section>
         <title>Használat</title>
         <section>
-            <title>Creating Reports</title>
+            <title>Jelentések létrehozása</title>
             <para>
-                After you've entered title and description for your report in the first
-step, you'll be able to set up your report.
+                Miután az első lépésben beírta a címet és a leírást a jelentéshez, képes
+lesz majd a jelentés beállítására.
             </para>
             <section>
-                <title>General Settings</title>
+                <title>Általános beállítások</title>
                 <para>
-                    Set up title, description and validity of the report. This information will
-not be visible in the report.
+                    Állítsa be a jelentés címét, leírását és érvényességét. Ezek az információk
+nem lesznek láthatók a jelentésben.
                 </para>
                 <para>
                     <figure>
-                        <title>Automatic generation settings</title>
+                        <title>Automatikus előállítás beállításai</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportGeneral.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
             <section>
-                <title>Automatic Generation Settings</title>
+                <title>Automatikus előállítás beállításai</title>
                 <para>
-                    If the report should be generated automatically (e.g. once per day), you can
-set up subject, text and recipients for the email which is going to be sent
-and which will contain the report as an attachment. You'll also need to add
-information on how often the report should be sent. The data format is taken
-from the cron mechanism of unix-based operating systems. For more
-information on which settings are possible, please refer to official cron
-documentation sources or <ulink
-url="https://en.wikipedia.org/wiki/Cron">wikipedia</ulink>.
+                    Ha a jelentést automatikusan kell előállítani (például naponta egyszer),
+akkor beállíthatja a tárgyat, a szöveget és a címzetteket annál az
+e-mailnél, amely el lesz küldve, és amely mellékletként tartalmazni fogja a
+jelentést. Hozzá kell majd adnia azokat az információkat is, hogy milyen
+gyakran kell elküldeni a jelentést. Az adatformátumot a unix-alapú operációs
+rendszerek cron mechanizmusából vették át. További információkért arról,
+hogy milyen beállítások lehetségesek, nézze meg a hivatalos cron
+dokumentációs forrásokat vagy a <ulink
+url="https://hu.wikipedia.org/wiki/Cron">Wikipédiát</ulink>.
                 </para>
                 <para>
                     <figure>
-                        <title>Automatic generation settings</title>
+                        <title>Automatikus előállítás beállításai</title>
 <screenshot>
 <graphic
 fileref="screenshots/report-generator/ReportAutomaticGeneration.png"
@@ -65,15 +66,15 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
             <section>
-                <title>Output Settings</title>
+                <title>Kimeneti beállítások</title>
                 <para>
-                    In this section, you can set up additional information which should be
-contained in the report (e.g. a preamble or epilogue). This could e.g. be
-used for adding copyright or data protection information.
+                    Ebben a szakaszban további olyan információkat állíthat be, amelyet a
+jelentésnek tartalmaznia kell (például előszó vagy utószó). Ez például
+szerzői jogi vagy adatvédelmi információk hozzáadásához használható.
                 </para>
                 <para>
                     <figure>
-                        <title>Output settings</title>
+                        <title>Kimeneti beállítások</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportOutput.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -81,37 +82,37 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </section>
         </section>
         <section>
-            <title>Manually Generating Reports</title>
+            <title>Kézzel előállított jelentések</title>
             <para>
-                To generate a report, you can use the "Run now" button from the reports
-overview. You'll be asked for confirmation and afterwards the report will be
-created and sent immediately. Please find screenshots of a generated report
-below.
+                Egy jelentés előállításához használhatja a jelentések áttekintőjéről
+elérhető „Futtatás most” gombot. Meg fogják kérni a megerősítésre, és azután
+a jelentés létre fog jönni és azonnal elküldésre kerül. Keresse meg lent az
+előállított jelentés képernyőképeit.
             </para>
             <para>
                 <figure>
-                    <title>Report: Front page</title>
+                    <title>Jelentés: címlap</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportResultFrontpage.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 <figure>
-                    <title>Report: Table of contents</title>
+                    <title>Jelentés: tartalomjegyzék</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportResultToC.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 <figure>
-                    <title>Report: Preamble</title>
+                    <title>Jelentés: előszó</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportResultPreamble.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 <figure>
-                    <title>Report: Statistics</title>
+                    <title>Jelentés: statisztikák</title>
 <screenshot>
 <graphic fileref="screenshots/report-generator/ReportResultStats.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>

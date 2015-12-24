@@ -3,10 +3,10 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-database">
-    <title>The Dynamic Field "Database"</title>
+    <title>Az „adatbázis” dinamikus mező</title>
 
     <para>
-        This feature implements a dynamic field of the type "Database".
+        Ez a funkció egy „adatbázis” típusú dinamikus mezőt valósít meg.
     </para>
 
     <section>
@@ -33,64 +33,66 @@ az alapértelmezett dinamikus mezők létrejönnek.
             A beállítási lehetőségek következő listája használható ennél a funkciónál.
         </para>
         <section>
-            <title>Adding a 'Database' Dynamic Field</title>
+            <title>Egy „adatbázis” dinamikus mező hozzáadása</title>
             <para>
                 Ez a funkció egy beállítási felületet valósít meg az „adatbázis” típusú
 dinamikus mezők létrehozásához.
             </para>
             <para>
-                'Database' dynamic fields can be created the same way, as the default
-dynamic fields are created. For this switch to the Admin → Ticket Settings →
-Dynamic Fields view. In this mask you can select the 'Database' field from
-the ticket drop down box on the left side. Currently it's not possible to
-use the 'Database' dynamic field in the article context.
+                Az „adatbázis” dinamikus mezők ugyanolyan módon hozhatók létre, mint ahogy
+az alapértelmezett dinamikus mezők létrejönnek. Ehhez váltson át az
+Adminisztráció → Jegybeállítások → Dinamikus mezők nézetre. Ezen a maszkon
+választhatja ki az „adatbázis” mezőt a jegy lenyíló dobozából a bal
+oldalon. Jelenleg nem lehetséges az „adatbázis” dinamikus mező használata a
+bejegyzés környezetben.
             </para>
             <itemizedlist>
                 <listitem>
                     <para>
-                        Configuration "General - Name":
+                        Az „Általános - Név” beállítás:
                     </para>
                     <para>
-                        Dynamic fields of the type 'Database' need a unique name just like other
-dynamic fields, too. This name has to contain only alphanumeric values. This
-name will be used for internal handling of the field but will not be
-displayed.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Configuration "General - Label":
-                    </para>
-                    <para>
-                        The label can be individually set and can contain white spaces etc. It will
-be used as the field label in the different views.
+                        Az „adatbázis” típusú dinamikus mezők egyedi nevet igényelnek, mint ahogy a
+többi dinamikus mező is. Ez a név csak alfanumerikus értékeket
+tartalmazhat. Ez a név lesz használva a mező belső kezelésénél, de nem lesz
+megjelenítve.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Configuration "General - Field order":
+                        Az „Általános - Címke” beállítás:
                     </para>
                     <para>
-                        The field order allows a administrator to change the order of created
-dynamic fields. If this configuration get changed the general field order
-will be adjusted and other dynamic fields will be moved one position back.
+                        A címke egyénileg állítható be, és tartalmazhat üres karaktereket,
+szóközöket, stb. A mező címkéjeként lesz használva a különböző nézetekben.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Configuration "General - Valid":
+                        Az „Általános - Mezősorrend” beállítás:
                     </para>
                     <para>
-                        To use the dynamic field in the configured OTRS 'views' it has to be set as
-valid. If the field is set to 'invalid' it will disappear from all the
-configured views but no data will be lost.
+                        A mezősorrend lehetővé teszi az adminisztrátoroknak a létrehozott dinamikus
+mezők sorrendjének megváltoztatását. Ha ezt a beállítást megváltoztatják,
+akkor az általános mezősorrend hozzá lesz igazítva, és az egyéb dinamikus
+mezők át lesznek helyezve egy pozícióval vissza.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Az „Általános - Érvényes” beállítás:
+                    </para>
+                    <para>
+                        A dinamikus mezőnek a beállított OTRS „nézetekben” való használatához
+érvényesre kell állítani azt. Ha a mező „érvénytelen” értékre van állítva,
+akkor el fog tűnni az összes beállított nézetből, de nem fog adat elveszni.
                     </para>
                 </listitem>
             </itemizedlist>
         </section>
 
         <section>
-            <title>Configuration of the External Data Source</title>
+            <title>A külső adatforrás beállítása</title>
             <para>
                 Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők
 lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el
@@ -264,15 +266,16 @@ kérésekben.
         </section>
 
         <section>
-            <title>Screen Configuration</title>
+            <title>Képernyő beállítások</title>
             <para>
                 Az „adatbázis” típusú dinamikus mezőket az egyéb típusú dinamikus mezőkhöz
 hasonlóan be kell kapcsolni számos olyan maszknál, amelyben azokat meg kell
 jeleníteni.
             </para>
             <para>
-                This can be done through Admin → System Administration → SysConfig, in which
-"Ticket" must be selected on the left hand side.
+                Ez az Adminisztráció → Rendszer adminisztráció → Rendszerbeállítások
+hivatkozáson keresztül végezhető el, amelyben a „Ticket” beállítást kell
+kiválasztani a bal oldalon.
             </para>
             <para>
                 Minden felületi területnél (előtétprogramnál), amelyen az „adatbázis” típusú
@@ -309,7 +312,7 @@ kitölteni a „Kulcs” mezőben. Az „Érték” mező a 0 (kikapcsolva), az 
         </section>
 
         <section>
-            <title>Storage of Historical Data</title>
+            <title>Történeti adatok tárolása</title>
             <para>
                 Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek
 működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és
@@ -340,7 +343,7 @@ dinamikus mezőkben lesznek eltárolva.
         </section>
 
         <section>
-            <title>Sysconfig Settings</title>
+            <title>Rendszerbeállítások beállításai</title>
 
             <variablelist>
                 <varlistentry>
@@ -416,7 +419,7 @@ lehet:
         </para>
 
         <section>
-            <title>Searching and Saving Datasets - Autocompletion</title>
+            <title>Adathalmazok keresése és mentése - automatikus kiegészítés</title>
             <para>
                 Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert
 maszkokban (úgymint ViewPhoneNew, ViewEmailNew), egy új szövegmező jelenik
@@ -464,7 +467,7 @@ hogy áttekintést adjanak a többi (nem beállított) oszlopról, vagy adatok
             </para>
         </section>
         <section>
-            <title>Searching and Saving Datasets - Detailed Search</title>
+            <title>Adathalmazok keresése és mentése - részletes keresés</title>
             <para>
                 A „Részletes keresés” hivatkozás egy új kizárólagos párbeszédablakot nyit
 meg egy új adatbázis-keresés indításához. Ezen a maszkon lehetőség van a

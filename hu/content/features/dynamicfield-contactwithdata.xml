@@ -3,21 +3,22 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-contact-with-data">
-    <title>The Dynamic Field "Contact with Data"</title>
+    <title>Az „adatokkal rendelkező partner” dinamikus mező</title>
 
     <para>
-        Ez a funkció lehetővé teszi partnerek hozzáadását adatokkal a jegyekhez.
+        Ez a funkció lehetővé teszi az adatokkal rendelkező partnerek hozzáadását a
+jegyekhez.
     </para>
 
     <section>
         <title>Leírás</title>
         <section>
-            <title>Definition of Data Sources</title>
+            <title>Adatforrások meghatározása</title>
             <para>
-                Az adatforrások ennél a funkciónál az új „Partner adatokkal” típus dinamikus
-mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a típusnak minden
-dinamikus mezője egy új adatforrás. A dinamikus mező neve lesz az adatforrás
-neve, mivel mindketten ugyanazok.
+                Az adatforrások ennél a funkciónál az új „Adatokkal rendelkező partner”
+típus dinamikus mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a
+típusnak minden dinamikus mezője egy új adatforrás. A dinamikus mező neve
+lesz az adatforrás neve, mivel mindketten ugyanazok.
             </para>
             <para>
                 Minden egyes adatforrásnál (dinamikus mezőnél) meghatározható a partner
@@ -45,11 +46,11 @@ ezeket a „Name” és „ValidID” kulcsokkal kell feltüntetni, míg az ért
             </note>
         </section>
         <section>
-            <title>Contact Management</title>
+            <title>Partnerkezelés</title>
             <para>
-                Miután rendelkezik legalább egy meghatározott adatforrással (partner
-adatokkal dinamikus mező), a partnerek információi hozzáadhatók a forráshoz
-a kitöltésükhöz.
+                Miután rendelkezik legalább egy meghatározott adatforrással (adatokkal
+rendelkező partner dinamikus mező), a partnerek információi hozzáadhatók a
+forráshoz a kitöltésükhöz.
             </para>
             <para>
                 Eltekintve a „Name” és a „ValidID” kulcsoktól, az egyes adatforrások
@@ -64,19 +65,19 @@ speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni
             </para>
         </section>
         <section>
-            <title>Adding Contacts to Tickets</title>
+            <title>Partnerek hozzáadása a jegyekhez</title>
             <para>
-                Minden egyes beállított partner adatokkal dinamikus mezőnél a kifejezetten
-ehhez a dinamikus mezőhöz (vagy adatforráshoz) létrehozott partner bármely
-olyan jegylétrehozás vagy jegyművelet képernyőről kiválasztható, ahol a
-dinamikus mező előzőleg be lett állítva.
+                Minden egyes beállított adatokkal rendelkező partner dinamikus mezőnél a
+kifejezetten ehhez a dinamikus mezőhöz (vagy adatforráshoz) létrehozott
+partner bármely olyan jegylétrehozás vagy jegyművelet képernyőről
+kiválasztható, ahol a dinamikus mező előzőleg be lett állítva.
             </para>
             <para>
                 A partner attribútumai láthatóak lesznek a jegynagyítás képernyőn.
             </para>
         </section>
         <section>
-            <title>Usage of Contacts in Search and Statistics</title>
+            <title>Partnerek használata a keresésben és a statisztikákban</title>
             <para>
                 A jegyek a kötelező „Name” attribútumon keresztül találhatók meg a
 keresésben és a statisztikákban.
@@ -125,13 +126,14 @@ következőképpen lehet:
         <orderedlist>
             <listitem>
                 <para>
-                    Hozzon létre egy új „Partner adatokkal” típusú dinamikus mezőt.
+                    Hozzon létre egy új „Adatokkal rendelkező partner” típusú dinamikus mezőt.
                 </para>
             </listitem>
             <listitem>
                 <para>
                     Állítsa be a lehetséges partner attribútumokat (lehetséges értékeket). A
-„Name” és a „ValidID” kötelezők minden partner adatokkal dinamikus mezőnél.
+„Name” és a „ValidID” kötelezők minden adatokkal rendelkező partner
+dinamikus mezőnél.
                 </para>
                 <itemizedlist mark="round">
                     <listitem>
@@ -172,9 +174,9 @@ attribútum (kulcs: Telephone, érték: „Telefon”).
             </listitem>
             <listitem>
                 <para>
-                    Populate the data source by adding at least one contact in the newly created
-data source by using 'Tickets' → 'Edit contacts with data' screen from the
-main navigation bar.
+                    Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan
+létrehozott adatforrásban a „Jegyek” → „Adatokkal rendelkező partnerek
+szerkesztése” képernyő használatával a fő navigációs sávról.
                 </para>
             </listitem>
             <listitem>

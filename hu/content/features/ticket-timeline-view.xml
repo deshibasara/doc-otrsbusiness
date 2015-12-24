@@ -37,7 +37,7 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
         <title>Használat</title>
         <para>
             <figure>
-                <title>Switching to the Ticket Timeline View</title>
+                <title>Átváltás a jegy idővonal nézetére</title>
 <screenshot>
 <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -59,7 +59,7 @@ továbbítás, stb.
         </para>
         <para>
             <figure>
-                <title>Using the Ticket Timeline View</title>
+                <title>A jegy idővonal nézetének használata</title>
 <screenshot>
 <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>

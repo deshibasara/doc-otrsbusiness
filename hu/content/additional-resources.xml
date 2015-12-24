@@ -11,19 +11,20 @@
             <term>otrs.com</term>
             <listitem>
                 <para>
-                    The OTRS website with source code, documentation and news is available at
-<ulink url="https://www.otrs.com/">www.otrs.com</ulink>.  Here you can also
-find information about professional services and OTRS Administrator training
-seminars from OTRS Group, the creator of OTRS.
+                    Az OTRS weboldala a forráskóddal, dokumentációval és hírekkel a <ulink
+url="https://www.otrs.com/">www.otrs.com</ulink> címen érhető el. Itt a
+hivatalos szakmai szolgáltatásokkal és az OTRS adminisztrátorképzési
+szemináriumokkal kapcsolatos információkat is megtalálja az OTRS csoporttól,
+az OTRS készítőjétől.
                 </para>
             </listitem>
         </varlistentry>
         <varlistentry>
-            <term>Translations</term>
+            <term>Fordítások</term>
             <listitem>
                 <para>
-                    You can help translate OTRS to your language at <ulink
-url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
+                    Segíthet az OTRS lefordításában a saját nyelvére a <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
                 </para>
             </listitem>
         </varlistentry>

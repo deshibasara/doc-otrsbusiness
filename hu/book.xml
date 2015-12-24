@@ -15,12 +15,12 @@ egészben mindaddig, amíg a másolat tartalmazza ezt a szerzői jogi
 nyilatkozatot.
             </para>
             <para>
-                The source code of this document can be found at <ulink
-url="https://otrs.github.io">github</ulink>, in the repository <ulink
-url="https://github.com/OTRS/doc-otrsbusiness">doc-otrsbusiness</ulink>.
-Contributions are more than welcome.  You can also help translating it to
-your language at <ulink
-url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
+                A dokumentum forráskódja megtalálható a <ulink
+url="https://otrs.github.io">githubon</ulink> az <ulink
+url="https://github.com/OTRS/doc-otrsbusiness">doc-otrsbusiness</ulink>
+tárolóban. A hozzájárulásokat mindennél jobban köszönjük. Segíthet a saját
+nyelvére való fordításban is a <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
             </para>
             <para>
                 A UNIX az X/Open Company Limited bejegyzett védjegye. A Linux Linus Torvalds
