@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="chat">
+    <title>O Chat</title>
+
+    <section>
+        <title>Descrição</title>
+        <para>
+            O recurso do chat de  <emphasis role="bold">OTRS Business
+Solution</emphasis>™ permite o chat entre os agentes e os clientes usando o
+OTRS frontend. Uma vez ativados, os clientes (ou usuários) pode iniciar o
+chat com os agentes e vice-versa. Terminando os chats, podem ser arquivados
+e conectando com os tickets, ou pode ser baixado em formato PDF pelos
+agentes, clientes e usuários.
+        </para>
+        <para>
+            Cada chat é atribuído a um canal de chats. Canal de chat é como uma sala de
+chat. Cada canal de chat é atribuído um determinado grupo que controla as
+permissões para este canal. Se o canal de chat não é selecionado quando
+criado, este chat é criado em um canal padrão (Se não existir é criado
+automaticamente).
+        </para>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+        <para>
+            As seguintes configurações da SysConfig são relevantes para esse
+recurso. Por favor note que você também pode definir uma lista de textos que
+estão sendo exibidos para usuários e clientes no modulo de chat. Para obter
+mais informações sobre textos que podem ser alterados, por favor observe o
+módulo de configuração (OTRSBusiness → Core::Chat).
+        </para>
+        <variablelist>
+            <varlistentry>
+                <term>ChatEngine::Active</term>
+                <listitem>
+                <para>
+                    Controla-se ou não o recurso de chat ativado.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::PublicToAgent</term>
+                <listitem>
+                <para>
+                    Controla-se ou não os usuários capazes de iniciar o chat (por favor note que
+a configuração frontend do módulo para usuários do chat frontend
+<literal>PublicFrontend::Module###PublicChat</literal> também apresenta ser
+ativada).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::CustomerToAgent</term>
+                <listitem>
+                <para>
+                    Controla-se ou não os usuários capazes de iniciar o chat (por favor note que
+a configuração frontend do módulo para clientes do chat frontend em
+<literal>CustomerFrontend::Module###CustomerChat</literal> também apresenta
+ser ativada).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::AgentToCustomer</term>
+                <listitem>
+                <para>
+                    Controla-se ou não os agentes capazes de iniciar o chat diretamente com
+clientes.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDirection::AgentToAgent</term>
+                <listitem>
+                <para>
+                    Controla-se ou não os agentes capazes de iniciar o chat, um com os outros.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PermissionGroup::ChatReceivingAgents,
+ChatEngine::PermissionGroup::ChatNotificationAgents,
+ChatEngine::PermissionGroup::ChatStartingAgents</term>
+                <listitem>
+                <para>
+                    Definir os grupos para determinadas funções. Recebimentos: Os grupos podem
+receber e aceitar solicitações no chat. Notificações: Os grupos podem
+receber notificações sobre novas/solicitações de chat pendentes. Iniciando:
+Os grupos estão autorizados para iniciar novos chats com todos .
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultAgentName</term>
+                <listitem>
+                <para>
+                    Um nome padrão que deve ser exibido para os clientes e usuários em lugar do
+nome verdadeiro do agente de chatting. Se estiver vazio ou desativado, o
+verdadeiro nome do agente será mostrado.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultAgentNameNumbers</term>
+                <listitem>
+                <para>
+                    Controla-se os números que não devem ser adicionados aos agentes, nome
+padrão no caso de mais de um agente que está em um chat para permitir que os
+clientes/usuários para distinguir entre os diferentes agentes ( por exemplo
+" Agente de suporte 1 ", Agente de suporte 2", etc).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PublicInterface::AllowChatChannels</term>
+                <listitem>
+                <para>
+                    Define-se canal de chat, uma seleção ativa de usuários. Se definido como
+"não", os usuários do chat vão para o canal padrão automaticamente
+(ChatEngine::DefaultChatChannel).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::PublicInterface::AvailabilityCheck</term>
+                <listitem>
+                <para>
+                    Define-se os canais de chat que devem ser selecionáveis pelo menos na
+interface pública por um agente com<link
+linkend="chat-permissions">permissões suficientes</link> está disponível
+neste canal.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerInterface::AllowChatChannels</term>
+                <listitem>
+                <para>
+                    Define-se canal de chat, uma seleção ativa de clientes. Se definido como
+"não", os clientes do chat vão para o canal padrão automaticamente
+(ChatEngine::DefaultChatChannel).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerInterface::AvailabilityCheck</term>
+                <listitem>
+                <para>
+                    Define-se os canais de chat que devem ser selecionáveis pelo menos na
+interface do cliente por uma agente <link
+linkend="chat-permissions">permissão suficiente</link> está disponível neste
+canal.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::CustomerThreshold</term>
+                <listitem>
+                <para>
+                    Quantidade de minutos que precisam passar antes de um "agente não
+disponível" esta mensagem sendo exibida para o cliente/usuário que começou a
+solicitação do chat. A mensagem pode ser configurada usando
+ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket ou
+ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting
+(interface do cliente) e
+ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (interface pública).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::AgentOnlineThreshold</term>
+                <listitem>
+                <para>
+                    Se um agente não está ativo no OTRS dentro desse limiar, eles serão
+automaticamente definidos para "indisponível para chat" (verificar <link
+linkend="chat-setup-availability">"Agentes: configurar a
+disponibilidade"</link>).
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::DefaultChatChannel</term>
+                <listitem>
+                <para>
+                    Nome do canal de chat padrão. Este canal não deve ser criado manualmente e
+não pode ser excluída. este canal é tomado como alvo no canal de chat, em
+caso de seleção de canal de chat está desativado para qualquer interface.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatTTL</term>
+                <listitem>
+                <para>
+                    Depois de muitas horas o chat deve ser fechado e excluído do banco de
+dados. O chats fechados podem ainda ser visualizados e baixados pelos
+clientes. Depois que o chat for excluído do banco de dados, deixará de ser
+possível a visualização ou  download para o cliente.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatDecayTime</term>
+                <listitem>
+                <para>
+                    Depois de muitos dias os chats não fechados, devem ser excluídos do banco de
+dados automaticamente, a fim de manter o banco de dados limpos. Por favor,
+note que esta definição pode eventualmente excluir um chat que ainda está em
+uso, se forem mais antigos, que a quantidade de dias configurado.
+                </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>ChatEngine::ChatOrder</term>
+                <listitem>
+                <para>
+                    Define-se os novos chats que devem ser anexado ou desanexado a lista ativa
+dos chats dos chats widget ativos no gerenciador de chat.
+                </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </section>
+
+    <section>
+        <title>Setup</title>
+        <para>
+            A fim de ser capaz de criar o seu  primeiro chat, você precisa configurar
+determinados instrumentos em sua instância no OTRS.
+        </para>
+        <section id="chat-permissions">
+            <title>Administrar: Criar canais de chat e atribuir permissões</title>
+            <para>
+                Na área de administrador da OTRS, você encontrará uma nova entrada "Canal de
+chat" (AdminChatChannel). Utilize esta tela para adicionar novos
+canais. Você precisa atribuir um grupo de agentes já existentes, para cada
+canal que você criar. Você pode utilizar as telas "Agentes &lt;-&gt; Grupos"
+ou "Agentes &lt;-&gt; Funções" para atribuir permissões. Existem novas
+permissões específicas de chat que são descritas abaixo.
+            </para>
+
+            <variablelist>
+                <title>Chat com permissões disponíveis</title>
+                <varlistentry>
+                    <term>CHAT_OBSERVER</term>
+                    <listitem>
+                        <para>
+                            Os usuários com este tipo de permissão serão capazes de observar os chats
+neste canal após serem convidados. Eles não serão capazes de aceitar ou
+observar os chats neste canal, cliente/usuário não será capaz de criar um
+novo chat neste canal. Os observadores não podem  convidar ainda outros
+agentes a um chat e observar atualmente.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>CHAT_PARTICIPANT</term>
+                    <listitem>
+                        <para>
+                            Os usuários com este tipo de permissão será capaz de tomar parte de um chat,
+mas só depois de  convidados. Depois estão no chat, eles podem alterar ou
+descartar  o canal de chat etc.. Eles não serão capazes de aceitar um
+cliente/usuário do chat na sua própria solicitação.
+                        </para>
+                    </listitem>
+                </varlistentry>
+                <varlistentry>
+                    <term>CHAT_OWNER</term>
+                    <listitem>
+                        <para>
+                            Os utilizadores com este tipo de permissão serão capazes de aceitar clientes
+de chat/pedidos do público e fazer todos os tipos de observador e
+participante de ações de um chat.
+                        </para>
+                    </listitem>
+                </varlistentry>
+            </variablelist>
+
+            <note>
+                <para>
+                    Para utilizar em geral o chat, os agentes precisam ainda ter pelo menos as
+permissões dos grupos criados no
+ChatEngine::PermissionGroup::ChatReceivingAgents e
+ChatEngine::PermissionGroup::ChatStartingAgents.
+                </para>
+            </note>
+        </section>
+        <section>
+            <title>Agentes: selecionar canais de chat ativos</title>
+            <para>
+                <figure>
+                    <title>Criando canais de chat preferidos</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatAgentPrefChatChannels.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Como um agente, você precisará selecionar os canais de chat que você deseja
+está disponível. Os clientes serão capazes de criar uma solicitação de chat
+em um determinado canal, ao menos que um agente com permissão do
+proprietário escolher este canal em sua preferencias, definido como
+disponível para o chat externo (Visualizar a seção seguinte).
+            </para>
+        </section>
+        <section id="chat-setup-availability">
+            <title>Agentes: configurar a disponibilidade</title>
+            <para>
+                <figure>
+                    <title>Configurando a disponibilidade do chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatAgentToggleAvailability.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Estar disponível para qualquer chat, você precisará utilizar um interruptor
+de uma barra de ferramentas de chat. É um interruptor de três vias com estes
+estados: indisponível para chat (círculo vazio), disponível para interno
+(agente para agente) chats (círculo vazio com sinal), disponível para
+interno e externo (cliente para agente, público para agente) chats(círculo
+preenchido com sinal). Basta clicar o botão do pedido para alterar sua
+disponibilidade.
+            </para>
+            <note>
+                <para>
+                    Sua disponibilidade será redefinida para "somente chat interno" cada vez que
+você efetuar o login do OTRS novamente.
+                </para>
+            </note>
+        </section>
+    </section>
+
+    <section>
+        <title>Uso geral</title>
+        <section>
+            <title>O gerente do chat</title>
+            <para>
+                <figure>
+                    <title>Gerenciando o chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatManager.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                O gerenciador do chat é o ponto central do recurso do chat. Como um agente,
+aqui você pode gerenciar seus chats, visualizar, aceitar solicitações em
+aberto. O gerenciador do chat fornece uma lista de solicitações de clientes
+do chat, usuários e outros agentes, bem como uma visualização geral de todos
+os chats ativos. Abra o gerenciador de chat utilizando o "Chat" na navegação
+principal do OTRS.
+            </para>
+        </section>
+
+        <section>
+            <title>Iniciando novos chats</title>
+            <itemizedlist>
+                <listitem>
+                    <para><emphasis>Agente para agente</emphasis></para>
+                    <para>
+                        Para iniciar um chat com outro agente, você pode usar o widget online do
+painel. Os agentes que são capazes de utilizar o chat, terá um ícone com o
+seu nome  no chat que você pode clicar. Uma vez clicando, o chat será aberto
+de uma forma que você pode utilizar para inserir a sua primeira mensagem no
+chat para este agente. Após o envio da  solicitação do chat para outro
+agente, o mesmo pode visualizar o chat no gerenciador do chat.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Agente para o cliente</emphasis></para>
+                    <para>
+                        Para iniciar um chat com um cliente, você pode utilizar o centro de
+informações de cliente widget, visualizando um determinado cliente. Os
+clientes online terão um ícone no chat com o seu nome que você pode
+clicar. Uma vez clicado, um chat será aberto que você pode utilizar para
+inserir a sua primeira mensagem no chat para este cliente. Após a
+solicitação do chat for enviada para o cliente, você pode assistir o chat,
+do gerenciador de chat.
+                    </para>
+                    <para>
+                        Outra possibilidade é criar uma chat a partir de um ticket de zoom. Se o
+cliente usuário que está selecionado no ticket online atualmente, você será
+capaz de utilizar o link e iniciar o chat (Observe a figura abaixo).
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Inicializando um ticket do chat A2C </title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatTicketZoomStart.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Cliente para o agente</emphasis></para>
+                    <para>
+                        Os clientes não são capazes de iniciar diretamente um chat com um certo
+agente, mas apenas para criar solicitações um chat genérico. Para isso, os
+clientes podem utilizar os itens nos chats → Criar um novo chat a partir da
+interface de cliente da navegação principal.
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Iniciando um chat C2A </title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatCustomerNewRequest.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Público para o agente</emphasis></para>
+                    <para>
+                        Os utilitários da interface pública não são capazes também de iniciar
+diretamente um chat com um certo agente, mas apenas a solicitação para criar
+um chat genérico usando o módulo de chat público
+(public.pl?Action=PublicChat). Se você gostaria de integrar o público no
+módulo de chat no seu site,  você pode usar os parâmetros Islframe. O
+cabeçalho e o rodapé será removida do OTRS
+(public.pl?Action=PublicChat;IsIframe=1).
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>
+
+        <section>
+            <title>Negociar as solicitações no chat</title>
+            <para>
+                Se houver uma nova solicitação de chat em um dos canais que você ( Como um
+agente) tem permissões que você receberá uma notificação do navegador que
+permite que você encaminhe diretamente para o gerenciador de chat. Depois
+que você abrir o gerenciador de chat, você pode visualizar a lista de todas
+as solicitações em aberto (veja a figura abaixo).
+            </para>
+            <para>
+                <figure>
+                    <title>Abrir uma solicitação no chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatNewRequest.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Utilize o botão "Abrir o chat" e visualizar os detalhes a partir da lista do
+pedido. clicando no botão abrirá uma sobreposição que fornece várias ações
+sobre este pedido. Dado que você possui permissão suficiente, você pode
+aceitar a solicitação ou mudar o canal para esta solicitação. mudar de canal
+seguirá as mesmas regras, como a criação de nova solicitação: você só pode
+mover a solicitação para um canal que tem agentes ativos.
+            </para>
+            <para>
+                Mudando o canal de chat utilizado sem aceitar o pedido,  poderia ser enviado
+os chats por exemplo para o departamento correto.
+            </para>
+            <para>
+                <figure>
+                    <title>Abrir e especificar solicitação no chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatNewRequestDetail.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Nós pretendemos introduzir um chat, você pode utilizar o botão "Aceitar" a
+partir da caixa de sobreposição de detalhes do chat. O chat será removido da
+lista de solicitações, adicionando a sua lista ativa de chat e o
+cliente/usuário receberá uma mensagem que você entrou no chat.
+            </para>
+        </section>
+
+        <section>
+            <title>O Chat Widget</title>
+            <para>
+                <figure>
+                    <title>O chat widget</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatWidget.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                O chat widget é o componente principal que utilizará  com outras pessoas no
+chatting. Ele Fornece um histórico de todas as mensagens no chat, bem como
+uma lista  de ações possíveis (dependendo do nível da permissão).
+            </para>
+            <para>
+                Para enviar mensagens, você pode utilizar o campo de texto do chat widget na
+sua lista ativa no chat. Uma vez,  que você terminar de escrever sua
+mensagem e apresentá-lo, clicando no ícone enviar, ao lado do campo de texto
+ou utilizando o espaço e introduzindo (consecutivamente). Quando a mensagem
+foi enviada, o cursor encaminha para o campo do texto, permite que continue
+a  digitar facilmente.
+            </para>
+            <para>
+                Você encontrará seguindo uma lista de possíveis ações no chat widget.
+            </para>
+            <itemizedlist>
+                <listitem>
+                    <para><emphasis>Ação: Monitor &amp; fechado</emphasis></para>
+                    <para>
+                        A partir do chat widget que encabeça o lado superior, você pode fechar o
+chat clicando no ícone "x". Clicando o ícone do círculo à direita, próximo
+ao ícone de fechar, permite que você configure com um acompanhamento pessoal
+ao chat, que é novamente um interruptor de três vias (sem monitorização =
+círculo vazio, apenas o monitor de atividades do cliente = círculo vazio com
+ícone tick, monitorar todas as ações = círculo preenchido com ícone
+tick). Quando o monitoramento de um chat, irá mostrar as notificações do
+navegador a cada uma nova ação neste chat.
+                    </para>
+                    <para>
+                        A partir da plataforma, você também pode expandir a barra de ferramentas
+avançada do chat, utilizando ícone de ação de triangulo. A barra de
+ferramentas mostra também um lugar no canal de chat que tem você neste
+chat. (por exemplo o proprietário).
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Monitorar um chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatMonitorAndClose.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Ações avançadas do chat</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatAdvancedActions.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: Telefone e  ticket</emphasis></para>
+                    <para>
+                        Utilizando o "Telefone do ticket" link da barra de ferramenta avançada,
+permite que você crie um telefone para o qual o ticket atual do chat será
+anexado como um artigo. Depois que você criou com sucesso o ticket, o chat
+será fechado automaticamente, .
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: anexar</emphasis></para>
+                    <para>
+                        Permite anexar esse chat como um artigo para um ticket selecionado. Depois
+que o artigo foi criado, o chat ficará fechado automaticamente.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: convidar</emphasis></para>
+                    <para>
+                        Permite a você convidar outro agente para este chat. Você pode selecionar a
+partir de uma lista de agentes que você deseja convidar. Uma que você
+convidou o agente, um novo agente par agente da a solicitação de chat, que
+será enviado para este  agente. Depois de ter aceitado a solicitação, um
+chat interno é estabelecido entre você e o agente. Neste chat interno, o
+agente convidado tem mais duas ações disponíveis na barra de ferramentas de
+ações avançadas: <link linkend="chat-action-observer">"Observador"</link> e
+<link linkend="chat-action-participant">"Participante"</link>.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: Mudança de canal</emphasis></para>
+                    <para>
+                        Utilizando este link, você pode alterar o canal para este chat. Para a
+seleção do canal alvo se aplicam as mesmas regras para selecionar um canal
+de chat inicialmente.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: Download</emphasis></para>
+                    <para>
+                        Permite o download do histórico completo como PDF desse chat.
+                    </para>
+                </listitem>
+                <listitem>
+                    <para><emphasis>Ação: Nova janela</emphasis></para>
+                    <para>
+                        Este chat abe uma janela popup separada. Você pode usar esta janela da mesma
+forma como no chat widget e tanto o widget e o popup pode ser usado ao mesmo
+tempo.
+                    </para>
+                </listitem>
+                <listitem id="chat-action-observer">
+                    <para><emphasis>Ação: Observador</emphasis></para>
+                    <para>
+                        Quando você foi convidado para um chat com outro agente, você pode decidir
+se deseja participar no chat com um observador ou participante (dependendo o
+seu nível de permissão). Uma vez que você clique na ação a partir de seu
+barra de ferramenta, um novo chat widget será adicionado a lista de seus
+chats ativos que é o chat para as quais você foi convidado. Se você
+participar no chat como observador, você será capaz de ler o que os outros
+estão contribuindo para o chat e você será invisível para os clientes e
+outros usuários. Os agentes receberão ainda uma mensagem que você entrou no
+chat como observador. Como observador, você tem a possibilidade de se tornar
+um participante a qualquer momento, utilizando a ação de ferramenta avançada
+em seu chat widget. (dependendo do nível de sua permissão).
+                    </para>
+                </listitem>
+                <listitem id="chat-action-participant">
+                    <para><emphasis>Ação: Participante</emphasis></para>
+                    <para>
+                        Se você deseja contribuir de alguma forma para o chat, para as quais você
+foi convidado, você pode ingressar como participante. Os clientes/usuários e
+os agentes receberão uma mensagem que você inseriu no chat. Como
+participante, você pode se tornar um observador a qualquer momento
+utilizando a ação de ferramentas avançadas em seu chat widget.
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </section>
+    </section>
+
+</section>

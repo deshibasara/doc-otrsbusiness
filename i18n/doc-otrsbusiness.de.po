@@ -5,13 +5,13 @@
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2015
 # mathiasbraeunling <mathias.braeunling@otrs.com>, 2015
-# ru_otrs <robert.ullrich@otrs.com>, 2015
+# ru_otrs <robert.ullrich@otrs.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2015-12-24 13:57+0100\n"
-"PO-Revision-Date: 2015-12-24 12:57+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"PO-Revision-Date: 2016-01-06 23:14+0000\n"
+"Last-Translator: ru_otrs <robert.ullrich@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,14 +27,14 @@ msgstr "de"
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
 msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Manual"
-msgstr ""
+msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Handbuch"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:8
 msgid ""
 "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2015-10-26</date>"
-msgstr ""
+msgstr "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> <date>2015-10-26</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
@@ -52,7 +52,7 @@ msgid ""
 "Contributions are more than welcome.  You can also help translating it to "
 "your language at <ulink "
 "url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
-msgstr ""
+msgstr "Der Quellcode dieses Dokuments kann bei <ulink url=\"https://otrs.github.io\">github</ulink> gefunden werden, im Repository <ulink url=\"https://github.com/OTRS/doc-otrsbusiness\">doc-admin</ulink>. Beiträge sind mehr als willkommen. Sie können auch bei der Übersetzung in Ihre Sprache helfen, und zwar bei <ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:27
@@ -90,7 +90,7 @@ msgid ""
 "offered by the OTRS Group. Optimize your internal &amp; external "
 "communication for more service quality – flexibly adjustable to your "
 "operating scenario."
-msgstr ""
+msgstr "Mit der <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ können Sie alle Vorteile der professionellen Dienstleistungen und exklusiven Business-Funktionen, die durch die OTRS-Gruppe angeboten werden, genießen. Optimieren Sie Ihre interne &amp; externe Kommunikation für mehr Servicequalität - flexibel auf Ihr Betriebsszenario anpassbar."
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:11
@@ -139,14 +139,14 @@ msgstr ""
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/upgrading.xml:12
 msgid "Upgrading Screen"
-msgstr ""
+msgstr "Upgrade-Oberfläche"
 
 #. type: Content of: <chapter><para><figure><screenshot>
 #: en/content/upgrading.xml:14
 msgid ""
 "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><figure>
 #: en/content/upgrading.xml:13 en/content/upgrading.xml:27
@@ -230,19 +230,19 @@ msgstr ""
 msgid ""
 "If the upgrade was successful, you will see a confirmation on the <emphasis "
 "role=\"bold\">OTRS Business Solution</emphasis>™ administration screen."
-msgstr ""
+msgstr "Wenn das Upgrade erfolgreich war, werden Sie eine Bestätigung in der on the <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ Administrationsoberfläche sehen."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/upgrading.xml:26
 msgid "Upgrade Successful"
-msgstr ""
+msgstr "Upgrade erfolgreich"
 
 #. type: Content of: <chapter><para><figure><screenshot>
 #: en/content/upgrading.xml:28
 msgid ""
 "<graphic fileref=\"screenshots/upgrading/CorrectlyDeployed.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/upgrading/CorrectlyDeployed.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><para>
 #: en/content/upgrading.xml:33
@@ -313,7 +313,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:25
 msgid "ChatEngine::Active"
-msgstr ""
+msgstr "ChatEngine::Active"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -324,7 +324,7 @@ msgstr "Konfiguriert ob der Chat aktiviert oder deaktiviert ist."
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:33
 msgid "ChatEngine::ChatDirection::PublicToAgent"
-msgstr ""
+msgstr "ChatEngine::ChatDirection::PublicToAgent"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -334,12 +334,12 @@ msgid ""
 "note that the frontend module configuration for the public chat frontend in "
 "<literal>PublicFrontend::Module###PublicChat</literal> has to be enabled, "
 "too)."
-msgstr ""
+msgstr "Kontrolliert ob öffentliche Benutzer Chats starten können (bitte beachten Sie, dass das die Modulkonfiguration für das öffentliche Chatmodul in <literal>PublicFrontend::Module###PublicChat</literal> ebenfalls aktiviert sein muss). "
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:41
 msgid "ChatEngine::ChatDirection::CustomerToAgent"
-msgstr ""
+msgstr "ChatEngine::ChatDirection::CustomerToAgent"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -354,7 +354,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:49
 msgid "ChatEngine::ChatDirection::AgentToCustomer"
-msgstr ""
+msgstr "ChatEngine::ChatDirection::AgentToCustomer"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -367,13 +367,13 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:57
 msgid "ChatEngine::ChatDirection::AgentToAgent"
-msgstr ""
+msgstr "ChatEngine::ChatDirection::AgentToAgent"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:60
 msgid "Controls whether or not agents should be able chat with each other."
-msgstr ""
+msgstr "ChatEngine::ChatDirection::AgentToAgent"
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:65
@@ -381,7 +381,7 @@ msgid ""
 "ChatEngine::PermissionGroup::ChatReceivingAgents, "
 "ChatEngine::PermissionGroup::ChatNotificationAgents, "
 "ChatEngine::PermissionGroup::ChatStartingAgents"
-msgstr ""
+msgstr "ChatEngine::PermissionGroup::ChatReceivingAgents, ChatEngine::PermissionGroup::ChatNotificationAgents, ChatEngine::PermissionGroup::ChatStartingAgents"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -396,7 +396,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:73
 msgid "ChatEngine::DefaultAgentName"
-msgstr ""
+msgstr "ChatEngine::DefaultAgentName"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -410,7 +410,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:81
 msgid "ChatEngine::DefaultAgentNameNumbers"
-msgstr ""
+msgstr "ChatEngine::DefaultAgentNameNumbers"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -425,7 +425,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:89
 msgid "ChatEngine::PublicInterface::AllowChatChannels"
-msgstr ""
+msgstr "ChatEngine::PublicInterface::AllowChatChannels"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -439,7 +439,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:97
 msgid "ChatEngine::PublicInterface::AvailabilityCheck"
-msgstr ""
+msgstr "ChatEngine::PublicInterface::AvailabilityCheck"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -453,7 +453,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:105
 msgid "ChatEngine::CustomerInterface::AllowChatChannels"
-msgstr ""
+msgstr "ChatEngine::CustomerInterface::AllowChatChannels"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -467,7 +467,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:113
 msgid "ChatEngine::CustomerInterface::AvailabilityCheck"
-msgstr ""
+msgstr "ChatEngine::CustomerInterface::AvailabilityCheck"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -481,7 +481,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:121
 msgid "ChatEngine::CustomerThreshold"
-msgstr ""
+msgstr "ChatEngine::CustomerThreshold"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -499,7 +499,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:129
 msgid "ChatEngine::AgentOnlineThreshold"
-msgstr ""
+msgstr "ChatEngine::AgentOnlineThreshold"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -513,7 +513,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:137
 msgid "ChatEngine::DefaultChatChannel"
-msgstr ""
+msgstr "ChatEngine::DefaultChatChannel"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -527,7 +527,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:145
 msgid "ChatEngine::ChatTTL"
-msgstr ""
+msgstr "ChatEngine::ChatTTL"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -542,7 +542,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:153
 msgid "ChatEngine::ChatDecayTime"
-msgstr ""
+msgstr "ChatEngine::ChatDecayTime"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -557,7 +557,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:161
 msgid "ChatEngine::ChatOrder"
-msgstr ""
+msgstr "ChatEngine::ChatOrder"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -570,7 +570,7 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/features/chat.xml:172
 msgid "Setup"
-msgstr ""
+msgstr "Konfiguration"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/chat.xml:174
@@ -582,7 +582,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:177
 msgid "Admin: Create chat channels and assign permissions"
-msgstr ""
+msgstr "Admin: Erstellung von Chat-Kanälen und Zuweisen der Berechtigungen"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:179
@@ -598,13 +598,13 @@ msgstr ""
 #. type: Content of: <section><section><section><variablelist><title>
 #: en/content/features/chat.xml:183
 msgid "Available Chat Permissions"
-msgstr ""
+msgstr "Verfügbare Chat-Berechtigungen"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:185
 msgid "CHAT_OBSERVER"
-msgstr ""
+msgstr "CHAT_OBSERVER"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -622,7 +622,7 @@ msgstr ""
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:193
 msgid "CHAT_PARTICIPANT"
-msgstr ""
+msgstr "CHAT_PARTICIPANT"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -638,7 +638,7 @@ msgstr ""
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:201
 msgid "CHAT_OWNER"
-msgstr ""
+msgstr "CHAT_OWNER"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -660,19 +660,19 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:217
 msgid "Agents: Select Active Chat Channels"
-msgstr ""
+msgstr "Agenten: Auswahl der aktiven Chat-Kanäle"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:220
 msgid "Setting up preferred chat channels"
-msgstr ""
+msgstr "Auswahl der bevorzugten Chat-Kanäle"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:222
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatAgentPrefChatChannels.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatAgentPrefChatChannels.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:227
@@ -687,19 +687,19 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:231
 msgid "Agents: Set up Availability"
-msgstr ""
+msgstr "Agenten: Einstellen der Verfügbarkeit"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:234
 msgid "Setting up Chat Availability"
-msgstr ""
+msgstr "Einstellen der Verfügbarkeit für Chatanfragen"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:236
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:241
@@ -722,24 +722,24 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/features/chat.xml:252
 msgid "General Usage"
-msgstr ""
+msgstr "Allgemeine Benutzung"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:254
 msgid "The Chat Manager"
-msgstr ""
+msgstr "Die Chat-Verwaltung"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:257
 msgid "The Chat Managing Screen"
-msgstr ""
+msgstr "Die Chat-Verwaltungsübersicht"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:259
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:264
@@ -754,12 +754,12 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:269
 msgid "Starting New Chats"
-msgstr ""
+msgstr "Neue Chats beginnen"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:272
 msgid "<emphasis>Agent to agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Agent zu Agent</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:274
@@ -775,7 +775,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:278
 msgid "<emphasis>Agent to customer</emphasis>"
-msgstr ""
+msgstr "<emphasis>Agent zu Kunde</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:280
@@ -800,7 +800,7 @@ msgstr ""
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:287
 msgid "Starting an A2C chat from ticket zoom"
-msgstr ""
+msgstr "Starten eines A2C Chat aus dem TicketZoom heraus"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
@@ -808,12 +808,12 @@ msgstr ""
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatTicketZoomStart.png\" scalefit=\"1\""
 " width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatTicketZoomStart.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:295
 msgid "<emphasis>Customer to agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Kunde zu Agent</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:297
@@ -827,7 +827,7 @@ msgstr ""
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:301
 msgid "Starting a C2A chat"
-msgstr ""
+msgstr "Starten eines C2A Chat"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
@@ -835,12 +835,12 @@ msgstr ""
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatCustomerNewRequest.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatCustomerNewRequest.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:309
 msgid "<emphasis>Public to agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Öffentlich zu Agent</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:311
@@ -856,7 +856,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:318
 msgid "Handling Chat Requests"
-msgstr ""
+msgstr "Umgang mit Chat-Anfragen"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:320
@@ -870,14 +870,14 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:324
 msgid "An Open Chat Request"
-msgstr ""
+msgstr "Eine offene Chat-Anfrage"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:326
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequest.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatNewRequest.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:331
@@ -900,14 +900,14 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:338
 msgid "Open Chat Request Details"
-msgstr ""
+msgstr "Details einer offenen Chat-Anfrage"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/chat.xml:340
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:345
@@ -921,7 +921,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:350
 msgid "The Chat Widget"
-msgstr ""
+msgstr "Das Chat-Widget"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/chat.xml:353
@@ -933,7 +933,7 @@ msgstr "Das Chat-Widget"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:360
@@ -987,7 +987,7 @@ msgstr ""
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:379
 msgid "Monitor a chat"
-msgstr ""
+msgstr "Einen Chat beobachten"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
@@ -995,13 +995,13 @@ msgstr ""
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatMonitorAndClose.png\" scalefit=\"1\""
 " width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatMonitorAndClose.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:387
 msgid "Advanced chat actions"
-msgstr ""
+msgstr "Weitere Chat-Aktionen"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
@@ -1009,12 +1009,12 @@ msgstr ""
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatAdvancedActions.png\" scalefit=\"1\""
 " width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/chat/ChatAdvancedActions.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:395
 msgid "<emphasis>Action: Phone ticket</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Telefonticket</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:397
@@ -1028,7 +1028,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:401
 msgid "<emphasis>Action: Append</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Hinzufügen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:403
@@ -1040,7 +1040,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:407
 msgid "<emphasis>Action: Invite</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Einladen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:409
@@ -1058,7 +1058,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:413
 msgid "<emphasis>Action: Channel change</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Channel wechseln</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:415
@@ -1071,17 +1071,17 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:419
 msgid "<emphasis>Action: Download</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Herunterladen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:421
 msgid "Lets you download the complete history of this chat as PDF."
-msgstr ""
+msgstr "Lädt den kompletten Chatverlauf als PDF-Datei herunter"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:425
 msgid "<emphasis>Action: New window</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Neues Fenster</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:427
@@ -1094,7 +1094,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:431
 msgid "<emphasis>Action: Observer</emphasis>"
-msgstr ""
+msgstr "<emphasis>Ation: Beobachten</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:433
@@ -1114,7 +1114,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:437
 msgid "<emphasis>Action: Participant</emphasis>"
-msgstr ""
+msgstr "<emphasis>Aktion: Teilnehmer</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:439
@@ -1139,7 +1139,7 @@ msgstr "Dieses Feature erlaubt es Kontakte mit Daten an Tickets anzuhängen."
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:15
 msgid "Definition of Data Sources"
-msgstr ""
+msgstr "Festlegen der Datenquellen"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:17
@@ -1186,7 +1186,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:47
 msgid "Contact Management"
-msgstr ""
+msgstr "Kontaktverwaltung"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:49
@@ -1215,7 +1215,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:64
 msgid "Adding Contacts to Tickets"
-msgstr ""
+msgstr "Kontakte zu Tickets hinzufügen"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:66
@@ -1257,7 +1257,7 @@ msgstr "SysConfig"
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:91
 msgid "AdminContactWithData::RunInitialWildcardSearch"
-msgstr ""
+msgstr "AdminContactWithData::RunInitialWildcardSearch"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -1276,7 +1276,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:100
 msgid "Frontend::Module###AdminContactWithData"
-msgstr ""
+msgstr "Frontend::Module###AdminContactWithData"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -1305,7 +1305,7 @@ msgstr "Verwendung"
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:115
 msgid "An exemplary usage of contacts with data is as follows:"
-msgstr ""
+msgstr "Eine beispielhafte Anwendung von Contact with data:"
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:120
@@ -1414,12 +1414,12 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-database.xml:6
 msgid "The Dynamic Field \"Database\""
-msgstr ""
+msgstr "Dynamic Field Database"
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-database.xml:9
 msgid "This feature implements a dynamic field of the type \"Database\"."
-msgstr ""
+msgstr "Dieses Feature implementiert ein neues Dynamisches Feld vom Typ 'Datenbank."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:15
@@ -1441,7 +1441,7 @@ msgstr ""
 msgid ""
 "'Database' dynamic fields can be created the same way, as the default "
 "dynamic fields are created."
-msgstr ""
+msgstr "Dynamische Felder vom Typ 'Datenbank' können auf die gleiche Weise erstellt werden wie andere dynamische Felder."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:29
@@ -1452,7 +1452,7 @@ msgstr "Die folgende Liste von Konfigurationsoptionen kann mit diesem Feature ve
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:32
 msgid "Adding a 'Database' Dynamic Field"
-msgstr ""
+msgstr "Hinzufügen eines dynamischen Feldes vom Typ 'Datenbank'"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:34
@@ -1474,7 +1474,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:43
 msgid "Configuration \"General - Name\":"
-msgstr ""
+msgstr "Konfiguration \"Allgemeiner - Name\":"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:46
@@ -1526,7 +1526,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:77
 msgid "Configuration of the External Data Source"
-msgstr ""
+msgstr "Konfiguration der externen Datenquelle"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:83
@@ -1538,7 +1538,7 @@ msgstr "Admin screen dynamisches Feld 'Datenbank'"
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:79
@@ -1721,7 +1721,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:229
 msgid "Screen Configuration"
-msgstr ""
+msgstr "Oberflächenkonfiguratio"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:231
@@ -1749,19 +1749,19 @@ msgstr ""
 #. <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:243
 msgid "Frontend::Agent::Ticket::ViewZoom for the ticket zoom view."
-msgstr ""
+msgstr "Frontend::Agent::Ticket::ViewZoom für die TicketZoom-Ansicht."
 
 #. type: Content of:
 #. <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:248
 msgid "Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets."
-msgstr ""
+msgstr "Frontend::Agent::Ticket::ViewPhoneNew für neue Telefon Tickets"
 
 #. type: Content of:
 #. <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:253
 msgid "Frontend::Agent::Ticket::ViewEmailNew for new email tickets."
-msgstr ""
+msgstr "Frontend::Agent::Ticket::ViewPhoneNew für neue E-Mail Tickets"
 
 #. type: Content of:
 #. <section><section><section><para><itemizedlist><listitem><para>
@@ -1778,7 +1778,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:269
 msgid "Storage of Historical Data"
-msgstr ""
+msgstr "Speicherung von historischen Daten"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:275
@@ -1791,7 +1791,7 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-"
 "database/SysConfigStoreHistoricalData.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:271
@@ -1826,19 +1826,19 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:296
 msgid "Sysconfig Settings"
-msgstr ""
+msgstr "SysConfig-Einstellungen"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:300
 msgid "AutoComplete::Agent###DynamicFieldDatabaseSearch"
-msgstr ""
+msgstr "AutoComplete::Agent###DynamicFieldDatabaseSearch"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:302
 msgid "Group: Framework, Subgroup: Frontend::Agent"
-msgstr ""
+msgstr "Gruppe: Framework, Untergruppe: Frontend::Agent"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -1850,25 +1850,25 @@ msgstr "Definiert die Konfigurationsoptionen für die Autovervollständigung."
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:309
 msgid "Ticket::EventModulePost###950-StoreHistoricalData"
-msgstr ""
+msgstr "Ticket::EventModulePost###950-StoreHistoricalData."
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:311
 msgid "Group: Ticket, Subgroup: Core::Ticket"
-msgstr ""
+msgstr "Gruppe: Ticket, Untergruppe: Core::Ticket"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:313
 msgid "Updates dynamic fields, if configured ones will be updated."
-msgstr ""
+msgstr "Speichert historische Daten, wenn ein Dynamic Field aktualisiert wird."
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:318
 msgid "DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1"
-msgstr ""
+msgstr "DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1."
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -1877,7 +1877,7 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:338
 #: en/content/features/dynamicfield-database.xml:347
 msgid "Group: OTRSBusiness, Subgroup: Core"
-msgstr ""
+msgstr "Gruppe: OTRSBusiness, Untergruppe: Core"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -1890,7 +1890,7 @@ msgstr "Definiert das Quell-DynamicField für die Speicherung historischer Daten
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:327
 msgid "DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1"
-msgstr ""
+msgstr "DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1."
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><listitem><para>
@@ -1903,13 +1903,13 @@ msgstr "Definiert das Ziel-DynamicField für die Speicherung historischer Daten.
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:336
 msgid "DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2"
-msgstr ""
+msgstr "DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2"
 
 #. type: Content of:
 #. <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:345
 msgid "DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2"
-msgstr ""
+msgstr "DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:363
@@ -1919,19 +1919,19 @@ msgstr "Eine beispielhafte Anwendung von Dynamic Field Database:"
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:367
 msgid "Searching and Saving Datasets - Autocompletion"
-msgstr ""
+msgstr "Suchen und Speichern von Daten - Automatische Vervollständigung"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:376
 msgid "DynamicField Database - Test field"
-msgstr ""
+msgstr "Dynamisches Feld vom Typ Datenbank - Testfeld"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:378
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:369
@@ -1948,7 +1948,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:388
 msgid "DynamicField Database - Autocomplete feature"
-msgstr ""
+msgstr "Dynamisches Feld vom Typ Datenbank - Autovervollständigung"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:390
@@ -1956,7 +1956,7 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-"
 "database/SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:383
@@ -1971,7 +1971,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:399
 msgid "DynamicField Database - Selected items"
-msgstr ""
+msgstr "Dynamisches Feld vom Typ Datenbank - Ausgewählte Einträge"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:401
@@ -1979,7 +1979,7 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-"
 "database/SearchFieldSelected.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:395
@@ -2006,12 +2006,12 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:415
 msgid "Searching and Saving Datasets - Detailed Search"
-msgstr ""
+msgstr "Suchen und Speichern von Daten - detaillierte Suche"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:421
 msgid "DynamicField Database - Detailed search"
-msgstr ""
+msgstr "Dynamisches Feld vom Typ Datenbank - detaillierte Suche"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:423
@@ -2019,7 +2019,7 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-"
 "database/DetailedSearchMask.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchMask.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:417
@@ -2041,7 +2041,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:438
 msgid "DynamicField Database - Detailed search result"
-msgstr ""
+msgstr "Dynamisches Feld vom Typ Datenbank - Ergebnis der detaillierten Suche"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-database.xml:440
@@ -2049,7 +2049,7 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-"
 "database/DetailedSearchResult.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:433
@@ -2072,7 +2072,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6
 msgid "SMS Notifications and Notification Web View"
-msgstr ""
+msgstr "SMS Benachrichtigungen und Benachrichtigungs-Webansicht"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:11
@@ -2088,7 +2088,7 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:16
 msgid "Setting up SMS Notifications"
-msgstr ""
+msgstr "Erstellen von SMS Benachrichtigungen"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:18
@@ -2110,7 +2110,7 @@ msgstr ""
 msgid ""
 "<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:29
@@ -2150,14 +2150,14 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:44
 msgid "Enabling SMS Notifications"
-msgstr ""
+msgstr "Aktivieren der SMS Benachrichtigungen"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:46
 msgid ""
 "<graphic fileref=\"screenshots/notifications/EnablingSMS.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/EnablingSMS.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:51
@@ -2170,19 +2170,19 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:55
 msgid "Agent Preferences SMS Notification Settings"
-msgstr ""
+msgstr "Agenteneinstellungen für SMS Benachrichtigungen"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:57
 msgid ""
 "<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:64
 msgid "Setting up and Using the Notification Web View"
-msgstr ""
+msgstr "Aktivierung und Benutzung der Benachrichtigungs-Webansicht"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:66
@@ -2194,14 +2194,14 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:70
 msgid "Enabling the Notification Web View"
-msgstr ""
+msgstr "Aktivierung und Benutzung der Benachrichtigungs-Webansicht"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:72
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebView.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/NotificationWebView.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:77
@@ -2214,14 +2214,14 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:81
 msgid "Notification Web View Icon on the Toolbar"
-msgstr ""
+msgstr "Benachrichtungs-Webansichts-Symbol in der Toolbar"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:83
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebViewNew.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/NotificationWebViewNew.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:88
@@ -2233,7 +2233,7 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:92
 msgid "Notification Web View Overview"
-msgstr ""
+msgstr "Übersichtsseite der Benachrichtigungs-Web-Ansicht"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:94
@@ -2241,24 +2241,24 @@ msgid ""
 "<graphic "
 "fileref=\"screenshots/notifications/NotificationWebViewOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/NotificationWebViewOverview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:100
 msgid "Notification Web View Detail"
-msgstr ""
+msgstr "Detaillierte Benachrichtigungs-Web-Ansicht"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/notifications.xml:102
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebViewDetail.png\""
 " scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/notifications/NotificationWebViewDetail.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/report-generator.xml:6
 msgid "The Report Generator"
-msgstr ""
+msgstr "Der Berichtsgenerator"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/report-generator.xml:11
@@ -2278,7 +2278,7 @@ msgstr "Keine weitere Konfiguration erforderlich."
 #. type: Content of: <section><section><section><title>
 #: en/content/features/report-generator.xml:25
 msgid "Creating Reports"
-msgstr ""
+msgstr "Erstellen von Berichten"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/report-generator.xml:27
@@ -2290,7 +2290,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/report-generator.xml:30
 msgid "General Settings"
-msgstr ""
+msgstr "Generelle Einstellungen"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/report-generator.xml:32
@@ -2311,12 +2311,12 @@ msgstr "Einstellungen zur automatischen Erzeugung"
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/report-generator.xml:44
 msgid "Automatic Generation Settings"
-msgstr ""
+msgstr "Automatische Generierungseinstellungen"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/report-generator.xml:46
@@ -2338,12 +2338,12 @@ msgid ""
 "<graphic fileref=\"screenshots/report-"
 "generator/ReportAutomaticGeneration.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportAutomaticGeneration.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/report-generator.xml:58
 msgid "Output Settings"
-msgstr ""
+msgstr "Ausgabe-Einstellungen"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/report-generator.xml:60
@@ -2364,12 +2364,12 @@ msgstr "Ausgabe-Einstellungen"
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/report-generator.xml:73
 msgid "Manually Generating Reports"
-msgstr ""
+msgstr "Manuelles erstellen von Berichten"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/report-generator.xml:75
@@ -2383,55 +2383,55 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:79
 msgid "Report: Front page"
-msgstr ""
+msgstr "Berichte: Titelseite"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/report-generator.xml:81
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportResultFrontpage.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportResultFrontpage.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:87
 msgid "Report: Table of contents"
-msgstr ""
+msgstr "Berichte: Inhaltsverzeichnis"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/report-generator.xml:89
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:95
 msgid "Report: Preamble"
-msgstr ""
+msgstr "Berichte: Einleitung"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/report-generator.xml:97
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:103
 msgid "Report: Statistics"
-msgstr ""
+msgstr "Berichte: Statistiken"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/report-generator.xml:105
 msgid ""
 "<graphic fileref=\"screenshots/report-generator/ReportResultStats.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/report-generator/ReportResultStats.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/sla-selection-dialog.xml:6
 msgid "The SLA Field Selection Dialog"
-msgstr ""
+msgstr "Der SLA Auswahl Dialog"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sla-selection-dialog.xml:11
@@ -2459,7 +2459,7 @@ msgid ""
 "<graphic fileref=\"screenshots/fieldselection-"
 "dialog/FieldSelectionConfiguration.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/fieldselection-dialog/FieldSelectionConfiguration.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sla-selection-dialog.xml:35
@@ -2484,7 +2484,7 @@ msgid ""
 "<graphic fileref=\"screenshots/fieldselection-"
 "dialog/FieldSelectionMessage.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/fieldselection-dialog/FieldSelectionMessage.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sla-selection-dialog.xml:49
@@ -2520,7 +2520,7 @@ msgstr "Wechseln zur Artikelanhangsübersicht"
 msgid ""
 "<graphic fileref=\"screenshots/attachment-view/AttachmentsNavigation.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/attachment-view/AttachmentsNavigation.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/ticket-attachment-view.xml:33
@@ -2540,7 +2540,7 @@ msgstr "Verwendung der Artikelanhangsübersicht"
 msgid ""
 "<graphic fileref=\"screenshots/attachment-view/AttachmentsScreen.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/attachment-view/AttachmentsScreen.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/ticket-timeline-view.xml:6
@@ -2559,7 +2559,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/ticket-timeline-view.xml:21
 msgid "ChronicalViewEnabled"
-msgstr ""
+msgstr "ChronicalViewEnabled"
 
 #. type: Content of:
 #. <section><section><variablelist><varlistentry><listitem><para>
@@ -2576,14 +2576,14 @@ msgstr "Konfiguriert ob die Ticket Timeline-View aktiviert oder deaktiviert ist.
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/ticket-timeline-view.xml:37
 msgid "Switching to the Ticket Timeline View"
-msgstr ""
+msgstr "Wechseln zur Ticket-Timeline-View"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/ticket-timeline-view.xml:39
 msgid ""
 "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/ticket-timeline-view.xml:44
@@ -2608,14 +2608,14 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/ticket-timeline-view.xml:51
 msgid "Using the Ticket Timeline View"
-msgstr ""
+msgstr "Verwendung der Ticket-Timeline-View"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/ticket-timeline-view.xml:53
 msgid ""
 "<graphic fileref=\"screenshots/timeline-view/TimelineViewZoom.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
+msgstr "<graphic fileref=\"screenshots/timeline-view/TimelineViewZoom.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <appendix><title>
 #: en/content/additional-resources.xml:7
@@ -2639,11 +2639,11 @@ msgstr ""
 #. type: Content of: <appendix><variablelist><varlistentry><term>
 #: en/content/additional-resources.xml:22
 msgid "Translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
 #: en/content/additional-resources.xml:25
 msgid ""
 "You can help translate OTRS to your language at <ulink "
 "url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
-msgstr ""
+msgstr "SIe können unter <ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink> dabei helfen OTRS in Ihre Sprache zu übersetzen."

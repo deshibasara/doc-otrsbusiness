@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="report-generator">
+    <title>O gerador de relatório</title>
+
+    <section>
+        <title>Descrição</title>
+        <para>
+            O relatório gerador permite combinar várias estatísticas para o
+envio/download. Os relatórios podem ser configurados para ser enviado
+automaticamente em horários especificados ou executar manualmente.
+        </para>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+        <para>
+            Nenhuma configuração adicional necessária.
+        </para>
+    </section>
+
+    <section>
+        <title>Aplicação</title>
+        <section>
+            <title>Criando relatórios</title>
+            <para>
+                Depois de ter introduzido o título e a descrição para o relatório na
+primeira etapa, você será capaz de configurar o seu relatório.
+            </para>
+            <section>
+                <title>Configurações gerais</title>
+                <para>
+                    Configurar o título, a descrição e a validade do relatório. Esta informação
+não será visível no relatório.
+                </para>
+                <para>
+                    <figure>
+                        <title>Geração automática de configurações</title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportGeneral.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                </para>
+            </section>
+            <section>
+                <title>Geração automática de configurações</title>
+                <para>
+                    Se o relatório dever ser gerado automaticamente (por exemplo, uma vez por
+dia), você pode configurar os objetos do texto e destinatários para o e-mail
+que será enviado e conterá como anexo o relatório. Você também precisará
+adicionar informações sobre a frequência que o relatório deve ser enviado. O
+formato de dados são retirados do mecanismo de cron baseados em sistemas
+operacionais Unix. Para obter mais informações sobre as configurações
+possíveis, as quais são consultados os documentos cron de fontes oficiais ou
+<ulink url="https://en.wikipedia.org/wiki/Cron">wikipedia</ulink>.
+                </para>
+                <para>
+                    <figure>
+                        <title>Geração automática de configurações</title>
+<screenshot>
+<graphic
+fileref="screenshots/report-generator/ReportAutomaticGeneration.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                </para>
+            </section>
+            <section>
+                <title>Configurações de saída</title>
+                <para>
+                    Nesta seção, você pode configurar as informações adicionais que devem ser
+incluídas no relatório (por exemplo um preâmbulo ou epílogo). Por exemplo
+isso poderia ser utilizado para adicionar informações de direitos autorais
+ou de proteção de dados.
+                </para>
+                <para>
+                    <figure>
+                        <title>Configurações de saída</title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportOutput.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                </para>
+            </section>
+        </section>
+        <section>
+            <title>Gerando relatórios manualmente</title>
+            <para>
+                Para gerar um relatório, você pode usar o botão " Executar agora" a partir
+da contemplação dos relatórios. Você será solicitado para confirmar e
+posteriormente será criado e enviado imediatamente um relatório. Por favor,
+localize e capture o relatório gerado abaixo.
+            </para>
+            <para>
+                <figure>
+                    <title>Relatório: Página frontal</title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportResultFrontpage.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Relatório: Tabela de conteúdo </title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportResultToC.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Relatório: Preâmbulo</title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportResultPreamble.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                <figure>
+                    <title>Relatório: Estatísticas</title>
+<screenshot>
+<graphic fileref="screenshots/report-generator/ReportResultStats.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+        </section>
+    </section>
+
+</section>

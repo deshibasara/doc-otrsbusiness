@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="dynamicfield-contact-with-data">
+    <title>O campo dinâmico"Contado com dados"</title>
+
+    <para>
+        Esse recurso permite adicionar os dados dos tickets com os contados.
+    </para>
+
+    <section>
+        <title>Descrição</title>
+        <section>
+            <title>Definição dos dados e das fontes</title>
+            <para>
+                As fontes de dados para este recurso residem nos campos dinâmicos do novo
+'contato com dado', isso significa que cada tipo de campo dinâmico, deste
+tipo uma nova fonte de dados. O nome do campo dinâmico se tornará, o nome da
+fonte de dados, ambos são os mesmos.
+            </para>
+            <para>
+                Para cada fonte de dados (Campo dinâmico) uma lista de atributos do contato
+pode ser definida (cada atributo pode conter somente um valor de texto). Os
+atributos de contato pode ser definido como pesquisa obrigatória se
+necessário. A ordem de classificação dos atributos podem ser definidos.
+            </para>
+            <para>
+                Os atributos de contato para cada origem de dados podem conter qualquer
+informação sobre o contato, conforme o necessário, tais como endereços
+diferentes, telefone, aniversário, comida favorita, hobbies, etc.
+            </para>
+            <note>
+                <para>
+                    Os atributos 'Nome' e 'ValidID' é sempre obrigatória e eles não são
+adicionados automaticamente, para cada nova fonte de dados, estes atributos
+devem ser adicionados manualmente.
+                </para>
+                <para>
+                    Dentro da definição da fonte de dados ( ou configuração do campo dinâmico)
+devem estar representados pela chave 'Nome' e 'ValidID' respectivamente
+enquanto os valores podem ser 'Nome' e 'Validade' por exemplo.
+                </para>
+            </note>
+        </section>
+        <section>
+            <title>Gerenciamento de contato</title>
+            <para>
+                Depois de ter, pelo menos uma fonte de dados ( Contato com dados do campo
+dinâmico) definindo, informações dos contatos que podem ser adicionados à
+fonte para preenche-la.
+            </para>
+            <para>
+                Além de o 'Nome' e a 'ValidID', cada fonte de dados pode conter informações
+de contato diferentes, conforme definido pela fonte de dados (por exemplo
+uma fonte de dados poderia ter um campo de E-mail enquanto outro pode conter
+telefone e/ou campos móveis).
+            </para>
+            <para>
+                O gerenciamento (adicionando ou atualizando) contatos para as fontes de
+dados que é feito por uma tela especial, que pode ser chamada da forma de
+menu de ticket (Editar contatos  com dados) na barra de navegação principal.
+            </para>
+        </section>
+        <section>
+            <title>Adicionando os contatos dos tickets</title>
+            <para>
+                Para cada contato com os dados configurados no campo dinâmico, um contato é
+criado especialmente para este campo dinâmico (ou fonte de dados) podem ser
+escolhidas a partir de qualquer ticket ou criar ticket de tela de ação onde
+a dinâmica foi arquivada na e configurada anteriormente.
+            </para>
+            <para>
+                Os atributos do contato serão mostrados na tela de zoom do ticket.
+            </para>
+        </section>
+        <section>
+            <title>Uso de pesquisa em contatos e estatísticas</title>
+            <para>
+                Os tickets podem ser encontrados na pesquisa e estatística através do
+atributo 'Nome'.
+            </para>
+            <para>
+                O 'Nome' pode ser retornado como valor de um campo.
+            </para>
+        </section>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+
+        <variablelist>
+            <title>Configuração do Sistema</title>
+            <varlistentry>
+                <term>AdminContactWithData::RunInitialWildcardSearch</term>
+                <listitem>
+                    <para>Grupo: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData</para>
+                    <para>
+                        Define se uma pesquisa deve ser executada quando o marcador inicialmente
+chamar o gerenciamento de contatos.
+                    </para>
+                </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Frontend::Module###AdminContactWithData</term>
+                <listitem>
+                    <para>Grupo: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration</para>
+                    <para>
+                        Permite atribuir contato e as permissões  de gerenciamento de detalhas de
+contato através da definição do grupo.
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
+    </section>
+
+    <section>
+        <title>Aplicação</title>
+        <para>
+            Em uma aplicação exemplar de contatos com os seguintes dados:
+        </para>
+        <orderedlist>
+            <listitem>
+                <para>
+                    Criar um novo tipo de campo dinâmico "Contato com dado".
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Definir os possíveis atributos do contato (valores possiveis). 'Nome' e
+'ValidID' são necessários para qualquer contato com dados do campo dinâmico.
+                </para>
+                <itemizedlist mark="round">
+                    <listitem>
+                        <para>
+                            Adicionar atributo 'Nome'  (Chave: Nome, Valor: 'Nome').
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Adicionar 'ValidID' atributo (Chave: ValidID, Valor: 'Validade').
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            Adicionar qualquer outro atributo, como atributo de 'Telefone' (chave:
+Telefone, valor: 'telefone').
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>
+                <para>
+                    Adicionar a lista de chave atributos obrigatórios separados por vírgula
+('Nome' e 'ValidID' não é necessário).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Definir o atributo da lista da chave de ordem separada  por vírgula:
+Nome,Telefone,ValidID.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Adicionar a lista da chave atributos de dados de pesquisa separado por
+vírgula ('Nome'  não é necessário).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Preencha a fonte de dados adicionando pelo menos um contato na fonte de
+dados recém criado utilizando 'Tickets' → 'Editar contatos com dados' na
+tela principal na barra de navegação..
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Adicionar o novo campo dinâmico para a configuração da tela onde deve ser
+mostrado. Por exemplo no novo telefone na tela do ticket atualizando a
+configuração SyConfig : Ticket::Frontend::AgentTicketPhone###DynamicField e
+fazer o mesmo para Ticket::Frontend::AgentTicketZoom###DynamicField.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Encaminhe para o novo telefone na tela do ticket, e avisar que o novo campo
+está lá. Adicionar todas as informações necessárias do ticket.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Selecione um contato existente usando o preenchimento automático e
+escolhendo um contato.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    O contato e seus atributos serão mostrados no zoom da tela do ticket.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    É possível atualizar os atributos do contato, clicando em 'Editar dados do
+contato'  que aparece no lado direito do título da caixa de dados do contato
+(se o usuário atual é membro do grupos definidos no SysConfig setting
+Frontend::Module###AdminDynamicFieldContactWithData).
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    Se for necessário alterar o contato para este ticket, isso pode ser feito
+através de qualquer outra ação do ticket onde o campo dinâmico estiver
+configurado para exibir.
+                </para>
+            </listitem>
+        </orderedlist>
+    </section>
+
+
+
+<!-- for internal use, don't generate
+    <chapter>
+        <title>Technical Implementation Details</title>
+        <para>
+            Via a new DynamicField admin module the configuration of contacts will be managed and stored in the DynamicField configuration.
+        </para>
+        <para>
+            The configured contact are read from the DynamicField configuration via an admin module and changes are stored there as well.
+        </para>
+        <para>
+            Within the ticket only the internal contact id as well as the content of the field 'Name' will be stored.
+        </para>
+
+        <para>
+            Autocomplete functionality for setting the contact and display of contact attributes is provided by an output filter in order to prevent changes to framework files.
+        </para>
+    </chapter>
+    -->
+</section>

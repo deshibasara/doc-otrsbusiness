@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<chapter id="upgrade-to-otrs-business-solution">
+    <title>Atualizando para <emphasis role= "bold">OTRS Business Solution</emphasis>™</title>
+    <para>
+        Ordem para atualizar para <emphasis role="bold">OTRS Business
+Solution</emphasis>™, você precisa de um contrato válido com o grupo
+OTRS. Se você tem um contrato, cocê pode atualizar para <emphasis
+role="bold">OTRS Business Solution</emphasis>™ by visiting the <emphasis
+role="bold">OTRS Business Solution</emphasis>™ Tela da administração do seu
+exemplo OTRS.  Você pode encontrar o link para esta tela em "Sistema de
+administração" parte da área administrativa é exemplo OTRS gratis. Por
+favor, note que primeiro é necessário registrar o seu sistema usando o
+mecanismo do sistema de registro.
+    </para>
+    <para>
+        <figure>
+            <title>Tela de atualização</title>
+<screenshot>
+<graphic fileref="screenshots/upgrading/UpgradingScreen.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>
+        Se você tem o direito de atualizar, você  (como um administrador) Observe
+também uma barra de notificações que o direciona para a tela de
+atualização. A atualização é feita automaticamente, para isso pressione
+apenas o botão atualizar. Por favor, note que você não precisa confirmar
+novamente a atualização. Pressionando o botão atualizar imediatamente inicia
+o processo de aprimoramento.
+    </para>
+    <para>
+        Se a atualização foi bem sucedida, você verifica uma confirmação sobre a
+<emphasis role="bold">OTRS Business Solution</emphasis>™ tela da
+administração.
+    </para>
+    <para>
+        <figure>
+            <title>Atualização bem sucedida</title>
+<screenshot>
+<graphic fileref="screenshots/upgrading/CorrectlyDeployed.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+    </para>
+    <para>
+        Se você tem questões sobre seu direito à <emphasis role="bold">OTRS Business
+Solution</emphasis>™, ou questões técnicas, por favor escreva a
+sales@otrs.com.
+    </para>
+</chapter>

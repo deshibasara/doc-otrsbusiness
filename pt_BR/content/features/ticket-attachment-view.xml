@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="ticket-attachment-view">
+    <title>Visualização geral do artigo em anexo</title>
+
+    <section>
+        <title>Descrição</title>
+        <para>
+            O artigo em anexo permite que você visualize uma lista de todos os
+tickets. Os anexos serão listados por atributos tais como, nome de arquivo,
+tipo de arquivo, tamanho, data da adição a quem o artigo pertença. A partir
+da tela de descrição geral, você pode fazer o download de certos anexos ou
+criar um arquivo que contém vários ou todos os anexos do ticket que você
+está exibindo.
+        </para>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+        <para>
+            Nenhuma configuração adicional necessária.
+        </para>
+    </section>
+
+    <section>
+        <title>Aplicação</title>
+        <para>
+            <figure>
+                <title>Mudando a visualização geral do artigo em anexo</title>
+<screenshot>
+<graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            Uma vez um ticket tem pelo menos um anexo, o item de menu "Acessórios" será
+exibido no AgentTicketZoom. Clicando sobre ele, será aberto um popup que
+contém uma lista de todos os anexos.
+        </para>
+        <para>
+            <figure>
+                <title>Aproveitando a visualização geral do artigo em anexo</title>
+<screenshot>
+<graphic fileref="screenshots/attachment-view/AttachmentsScreen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </section>
+
+</section>

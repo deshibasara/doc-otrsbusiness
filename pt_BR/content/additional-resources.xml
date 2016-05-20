@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<appendix id="additional-resources">
+
+    <title>Recursos adicionais</title>
+
+    <variablelist>
+        <varlistentry>
+            <term>otrs.com</term>
+            <listitem>
+                <para>
+                    O website OTRS  com código-fonte, está disponível notícia e uma documentação
+<ulink url="https://www.otrs.com/">www.otrs.com</ulink>.  Aqui você também
+pode encontrar informação sobre serviços profissionais e OTRS Administrador
+do seminário de formação em grupo OTRS, o criador de OTRS.
+                </para>
+            </listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Tradução</term>
+            <listitem>
+                <para>
+                    Você pode traduzir o OTRS no seu idioma em  <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
+                </para>
+            </listitem>
+        </varlistentry>
+    </variablelist>
+
+</appendix>

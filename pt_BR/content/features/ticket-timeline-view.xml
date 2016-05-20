@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="ticket-timeline-view">
+    <title>Verificar o cronograma do ticket</title>
+
+    <section>
+        <title>Descrição</title>
+        <para>
+            O cronograma de visualizar o  ticket oferece uma visão cronológica de todas
+as ações que aconteceu no ticket (Que inclui artigos, alteração de
+proprietário, entradas de e-mail, etc.). Com o cronograma de visualizar o
+ticket, os agentes são capazes de obter uma ótima contemplação de um ticket
+em menos tempo.
+        </para>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+
+        <variablelist>
+            <title>Configuração do Sistema</title>
+            <varlistentry>
+                <term>ChronicalViewEnabled</term>
+                <listitem>
+                    <para>Grupo: OTRSBusiness, Subgroup: Frontend::Agent</para>
+                    <para>
+                        Controla-se ou não o ticket verificando se está ativada a cronologia da
+chamada.
+                    </para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+
+    </section>
+
+    <section>
+        <title>Aplicação</title>
+        <para>
+            <figure>
+                <title>Alternar o ticket, verificando a cronologia do chamado</title>
+<screenshot>
+<graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            Para acessar o cronograma do ticket, use o ícone de relógio no canto
+superior direito do artigo widget no AgentTicketZoom. Você será
+redirecionado para uma escala de visualização e esta será mantida como
+preferência até que você volte para outro ponto de vista.
+        </para>
+        <para>
+            No cronograma de exibição do ticket, você pode trabalhar no ticket como você
+está habituado. Você pode monitorar o tempo de cada evento na escala,
+passando o pequeno quadrado ao lado de cada evento com o cursor do
+mouse. Você pode exibir o conteúdo completo de artigos, usando o ícone de
+zoom na parte superior da caixa de certos artigos, onde você vai encontrar
+todos os artigos comuns como ações a frente de resposta, split, etc.
+        </para>
+        <para>
+            <figure>
+                <title>Usando o ticket, verificando a cronologia do chamado</title>
+<screenshot>
+<graphic fileref="screenshots/timeline-view/TimelineViewZoom.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+    </section>
+
+</section>

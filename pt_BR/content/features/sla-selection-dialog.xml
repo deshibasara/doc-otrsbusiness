@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="sla-selection-dialog">
+    <title>A seleção do campo da caixa de diálogo do SLA</title>
+
+    <section>
+        <title>Descrição</title>
+        <para>
+            A caixa de diálogo da seleção de campo permite que você configure as
+mensagens popup, os clientes devem visualizar quando ele selecionam os SLAs
+específicos sobre a criação de ticket no cliente frontend. Essas mensagens
+popup pode conter informações sobre o cliente SLA está prestes a selecionar
+e lhes dar a responsabilidade de repensar a sua decisão.
+        </para>
+    </section>
+
+    <section>
+        <title>Configuração</title>
+        <para>
+            Nenhuma configuração adicional necessária.
+        </para>
+    </section>
+
+    <section>
+        <title>Aplicação</title>
+        <section>
+            <title>Configurando a mensagem do SLA</title>
+            <para>
+                <figure>
+                    <title>Configuração de SLA </title>
+<screenshot>
+<graphic
+fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Você pode configurar a mensagem sobre cada SLA usando a tela de
+administração do SLA.
+            </para>
+        </section>
+        <section>
+            <title>Como observar a mensagem do cliente frontend</title>
+            <para>
+                <figure>
+                    <title>Mensagem do SLA </title>
+<screenshot>
+<graphic
+fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Isso é o que o cliente vai ver, uma vez que, ele seleciona o SLA esta
+mensagem é configurada.  Ele pode confirmar ou negar a sua seleção, o último
+redefinirá mais tarde a seleção SLA.
+            </para>
+        </section>
+    </section>
+
+</section>
