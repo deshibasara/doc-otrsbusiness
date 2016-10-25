@@ -5,13 +5,14 @@
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2015
 # mathiasbraeunling <mathias.braeunling@otrs.com>, 2015
+# nilsleideck <nils.leideck@leidex.net>, 2016
 # ru_otrs <robert.ullrich@otrs.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-12-24 13:57+0100\n"
-"PO-Revision-Date: 2016-01-06 23:14+0000\n"
-"Last-Translator: ru_otrs <robert.ullrich@otrs.com>\n"
+"POT-Creation-Date: 2016-10-25 13:49+0200\n"
+"PO-Revision-Date: 2016-10-25 11:50+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,14 +67,16 @@ msgid ""
 "Mandrake is a registered trademark of MandrakeSoft, SA.  Debian is a "
 "registered trademark of Software in the Public Interest, Inc.  MySQL and the"
 " MySQL Logo are registered trademarks of Oracle Corporation and/or its "
-"affiliates.  All trade names are used without the guarantee for their free "
-"use and are possibly registered trade marks.  OTRS AG essentially follows "
-"the notations of the manufacturers.  Other products mentioned in this manual"
-" may be trademarks of the respective manufacturer."
-msgstr "UNIX ist ein eingetragenes Warenzeichen von X/Open Company Limited. Linux ist ein eingetragenes Warenzeichen von Linus Torvalds. MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows XP, Windows 2003, Windows Vista und Windows 7 sind eingetragene Warenzeichen der Microsoft Corporation. Andere Warenzeichen oder registrierte Warenzeichen: SUSE und YaST von SUSE Linux GmbH, Red Hat und Fedora von Red Hat Inc., Debian von Software in the Public Interest, Inc., Mandrake von MandrakeSoft, SA. MySQL und das MySQL Logo sind eingetragene Warenzeichen Oracle Corporation und/oder verbundener Unternehmen. Alle Warennamen werden ohne Gewährleistung der freien Verwendbarkeit benutzt und sind möglicherweise eingetragene Warenzeichen."
+"affiliates.  Mozilla Firefox is a registered trademark of the Mozilla "
+"Foundation.  Google Chrome is a registered trademark of Google Inc.  All "
+"trade names are used without the guarantee for their free use and are "
+"possibly registered trade marks.  OTRS AG essentially follows the notations "
+"of the manufacturers.  Other products mentioned in this manual may be "
+"trademarks of the respective manufacturer."
+msgstr ""
 
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:48
+#: en/book.xml:50
 msgid "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgstr "Merkmale der <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 
@@ -148,13 +151,15 @@ msgid ""
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
-#. type: Content of: <section><section><para><figure>
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure>
 #: en/content/upgrading.xml:13 en/content/upgrading.xml:27
 #: en/content/features/chat.xml:221 en/content/features/chat.xml:235
 #: en/content/features/chat.xml:258 en/content/features/chat.xml:288
-#: en/content/features/chat.xml:302 en/content/features/chat.xml:325
-#: en/content/features/chat.xml:339 en/content/features/chat.xml:354
-#: en/content/features/chat.xml:380 en/content/features/chat.xml:388
+#: en/content/features/chat.xml:299 en/content/features/chat.xml:313
+#: en/content/features/chat.xml:336 en/content/features/chat.xml:350
+#: en/content/features/chat.xml:365 en/content/features/chat.xml:391
+#: en/content/features/chat.xml:399
 #: en/content/features/dynamicfield-database.xml:84
 #: en/content/features/dynamicfield-database.xml:276
 #: en/content/features/dynamicfield-database.xml:377
@@ -182,17 +187,31 @@ msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=
 #: en/content/features/ticket-attachment-view.xml:38
 #: en/content/features/ticket-timeline-view.xml:38
 #: en/content/features/ticket-timeline-view.xml:52
+#: en/content/features/video-calls.xml:86
+#: en/content/features/video-calls.xml:115
+#: en/content/features/video-calls.xml:126
+#: en/content/features/video-calls.xml:137
+#: en/content/features/video-calls.xml:148
+#: en/content/features/video-calls.xml:159
+#: en/content/features/video-calls.xml:179
+#: en/content/features/video-calls.xml:193
+#: en/content/features/video-calls.xml:204
+#: en/content/features/video-calls.xml:221
+#: en/content/features/video-calls.xml:235
+#: en/content/features/video-calls.xml:249
+#: en/content/features/video-calls.xml:260
+#: en/content/features/video-calls.xml:274
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 
-#. type: Content of: <section><section><para>
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/upgrading.xml:11 en/content/upgrading.xml:25
 #: en/content/features/chat.xml:219 en/content/features/chat.xml:233
 #: en/content/features/chat.xml:256 en/content/features/chat.xml:286
-#: en/content/features/chat.xml:300 en/content/features/chat.xml:323
-#: en/content/features/chat.xml:337 en/content/features/chat.xml:352
-#: en/content/features/chat.xml:378 en/content/features/chat.xml:386
-#: en/content/features/notifications.xml:21
+#: en/content/features/chat.xml:297 en/content/features/chat.xml:311
+#: en/content/features/chat.xml:334 en/content/features/chat.xml:348
+#: en/content/features/chat.xml:363 en/content/features/chat.xml:389
+#: en/content/features/chat.xml:397 en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
 #: en/content/features/notifications.xml:69
@@ -212,6 +231,20 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/ticket-attachment-view.xml:36
 #: en/content/features/ticket-timeline-view.xml:36
 #: en/content/features/ticket-timeline-view.xml:50
+#: en/content/features/video-calls.xml:84
+#: en/content/features/video-calls.xml:113
+#: en/content/features/video-calls.xml:124
+#: en/content/features/video-calls.xml:135
+#: en/content/features/video-calls.xml:146
+#: en/content/features/video-calls.xml:157
+#: en/content/features/video-calls.xml:177
+#: en/content/features/video-calls.xml:191
+#: en/content/features/video-calls.xml:202
+#: en/content/features/video-calls.xml:219
+#: en/content/features/video-calls.xml:233
+#: en/content/features/video-calls.xml:247
+#: en/content/features/video-calls.xml:258
+#: en/content/features/video-calls.xml:272
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr "<placeholder type=\"figure\" id=\"0\"/>"
 
@@ -266,6 +299,7 @@ msgstr "Der Chat"
 #: en/content/features/sla-selection-dialog.xml:9
 #: en/content/features/ticket-attachment-view.xml:9
 #: en/content/features/ticket-timeline-view.xml:9
+#: en/content/features/video-calls.xml:9
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -297,6 +331,7 @@ msgstr ""
 #: en/content/features/sla-selection-dialog.xml:16
 #: en/content/features/ticket-attachment-view.xml:16
 #: en/content/features/ticket-timeline-view.xml:16
+#: en/content/features/video-calls.xml:21
 msgid "Configuration"
 msgstr "Konfiguration"
 
@@ -311,7 +346,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
-#: en/content/features/chat.xml:25
+#: en/content/features/chat.xml:25 en/content/features/video-calls.xml:27
 msgid "ChatEngine::Active"
 msgstr "ChatEngine::Active"
 
@@ -362,7 +397,7 @@ msgstr "ChatEngine::ChatDirection::AgentToCustomer"
 msgid ""
 "Controls whether or not agents should be able to start chats with customers "
 "directly."
-msgstr ""
+msgstr "Definiert ob Agenten einen Chat zu Kunden initieren dürfen."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:57
@@ -568,7 +603,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/features/chat.xml:172
+#: en/content/features/chat.xml:172 en/content/features/video-calls.xml:46
 msgid "Setup"
 msgstr "Konfiguration"
 
@@ -793,7 +828,8 @@ msgstr ""
 msgid ""
 "Another possibility is to create a chat from the ticket zoom. If the "
 "customer user who is selected in this ticket is currently online, you'll be "
-"able to use a chat start link (see figure below)."
+"able to use a chat icon next to their username in the customer information "
+"box in right sidebar (see figure below)."
 msgstr ""
 
 #. type: Content of:
@@ -811,12 +847,34 @@ msgid ""
 msgstr "<graphic fileref=\"screenshots/chat/ChatTicketZoomStart.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:295
+#: en/content/features/chat.xml:294
+msgid ""
+"Additionally, you will be able to start chat with customer users by clicking"
+" on chat icons next to their name in the user online widget on the "
+"dashboard."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/chat.xml:298
+msgid "Starting an A2C chat from dashboard"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/chat.xml:300
+msgid ""
+"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:306
 msgid "<emphasis>Customer to agent</emphasis>"
 msgstr "<emphasis>Kunde zu Agent</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:297
+#: en/content/features/chat.xml:308
 msgid ""
 "Customers are not able to start a chat directly with a certain agent, but "
 "only to create generic chat requests. To do this, customers can use the item"
@@ -825,25 +883,25 @@ msgstr ""
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
-#: en/content/features/chat.xml:301
+#: en/content/features/chat.xml:312
 msgid "Starting a C2A chat"
 msgstr "Starten eines C2A Chat"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
-#: en/content/features/chat.xml:303
+#: en/content/features/chat.xml:314
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatCustomerNewRequest.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/chat/ChatCustomerNewRequest.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:309
+#: en/content/features/chat.xml:320
 msgid "<emphasis>Public to agent</emphasis>"
 msgstr "<emphasis>Öffentlich zu Agent</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:311
+#: en/content/features/chat.xml:322
 msgid ""
 "Users of the public interface are also not able to start a chat directly "
 "with a certain agent, but only to create generic chat requests using the "
@@ -854,12 +912,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/chat.xml:318
+#: en/content/features/chat.xml:329
 msgid "Handling Chat Requests"
 msgstr "Umgang mit Chat-Anfragen"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:320
+#: en/content/features/chat.xml:331
 msgid ""
 "If there is a new chat request in one of the channels you (as an agent) have"
 " permissions for, you'll receive a browser notification which allows you to "
@@ -868,19 +926,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:324
+#: en/content/features/chat.xml:335
 msgid "An Open Chat Request"
 msgstr "Eine offene Chat-Anfrage"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/chat.xml:326
+#: en/content/features/chat.xml:337
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequest.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/chat/ChatNewRequest.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:331
+#: en/content/features/chat.xml:342
 msgid ""
 "Use the \"open chat\" button from the list to see the details of the "
 "request. Clicking the button will open an overlay which provides several "
@@ -891,52 +949,52 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:334
+#: en/content/features/chat.xml:345
 msgid ""
 "Changing the chat channel without accepting the request could be used to "
 "dispatch chats to the right department for example."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:338
+#: en/content/features/chat.xml:349
 msgid "Open Chat Request Details"
 msgstr "Details einer offenen Chat-Anfrage"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/chat.xml:340
+#: en/content/features/chat.xml:351
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:345
+#: en/content/features/chat.xml:356
 msgid ""
-"I you want to enter a chat, you can use the \"Accept\" button from the chat "
-"detail overlay box. The chat will then be removed from the list of requests,"
-" added to the list of your active chats and the customer/public user will "
-"receive a message that you've entered the chat."
+"If you want to enter a chat, you can use the \"Accept\" button from the chat"
+" detail overlay box. The chat will then be removed from the list of "
+"requests, added to the list of your active chats and the customer/public "
+"user will receive a message that you've entered the chat."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/chat.xml:350
+#: en/content/features/chat.xml:361
 msgid "The Chat Widget"
 msgstr "Das Chat-Widget"
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:353
+#: en/content/features/chat.xml:364
 msgid "The chat widget"
 msgstr "Das Chat-Widget"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/chat.xml:355
+#: en/content/features/chat.xml:366
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:360
+#: en/content/features/chat.xml:371
 msgid ""
 "The chat widget is the main component you'll use when chatting with other "
 "people. It provides a history of all messages in the chat as well as list of"
@@ -944,7 +1002,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:363
+#: en/content/features/chat.xml:374
 msgid ""
 "To send messages, you can use the text field in the chat widget in your list"
 " of active chats. Once you are done with typing your message, submit it by "
@@ -954,17 +1012,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/chat.xml:366
+#: en/content/features/chat.xml:377
 msgid "Following you'll find a list of possible actions in the chat widget."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:370
+#: en/content/features/chat.xml:381
 msgid "<emphasis>Action: Monitor &amp; close</emphasis>"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:372
+#: en/content/features/chat.xml:383
 msgid ""
 "From the chat widget head top right hand side, you can close the chat by "
 "clicking the \"x\" icon. Clicking the circle icon right next to the close "
@@ -976,7 +1034,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:375
+#: en/content/features/chat.xml:386
 msgid ""
 "Also from the header, you can expand a toolbar of advanced chat actions for "
 "this chat using the triangle icon. The toolbar also shows you the channel "
@@ -985,13 +1043,13 @@ msgstr ""
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
-#: en/content/features/chat.xml:379
+#: en/content/features/chat.xml:390
 msgid "Monitor a chat"
 msgstr "Einen Chat beobachten"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
-#: en/content/features/chat.xml:381
+#: en/content/features/chat.xml:392
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatMonitorAndClose.png\" scalefit=\"1\""
 " width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -999,25 +1057,25 @@ msgstr "<graphic fileref=\"screenshots/chat/ChatMonitorAndClose.png\" scalefit=\
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><title>
-#: en/content/features/chat.xml:387
+#: en/content/features/chat.xml:398
 msgid "Advanced chat actions"
 msgstr "Weitere Chat-Aktionen"
 
 #. type: Content of:
 #. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
-#: en/content/features/chat.xml:389
+#: en/content/features/chat.xml:400
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatAdvancedActions.png\" scalefit=\"1\""
 " width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr "<graphic fileref=\"screenshots/chat/ChatAdvancedActions.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:395
+#: en/content/features/chat.xml:406
 msgid "<emphasis>Action: Phone ticket</emphasis>"
 msgstr "<emphasis>Aktion: Telefonticket</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:397
+#: en/content/features/chat.xml:408
 msgid ""
 "Using the \"Phone ticket\" link from the advanced toolbar, allows you to "
 "create a phone ticket to which the current chat will be appended to as an "
@@ -1026,24 +1084,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:401
+#: en/content/features/chat.xml:412
 msgid "<emphasis>Action: Append</emphasis>"
 msgstr "<emphasis>Aktion: Hinzufügen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:403
+#: en/content/features/chat.xml:414
 msgid ""
 "Allows you to append this chat as an article to a selected ticket. After the"
 " article has been created, the chat will get closed automatically."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:407
+#: en/content/features/chat.xml:418
 msgid "<emphasis>Action: Invite</emphasis>"
 msgstr "<emphasis>Aktion: Einladen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:409
+#: en/content/features/chat.xml:420
 msgid ""
 "Allows you to invite another agent to this chat. You can select from a list "
 "of available agents who you want to invite. Once you've invited the agent, a"
@@ -1056,12 +1114,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:413
+#: en/content/features/chat.xml:424
 msgid "<emphasis>Action: Channel change</emphasis>"
 msgstr "<emphasis>Aktion: Channel wechseln</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:415
+#: en/content/features/chat.xml:426
 msgid ""
 "Using this link, you can change the channel for this chat. For the selection"
 " of the target channel the same rules apply as for initially selecting a "
@@ -1069,22 +1127,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:419
+#: en/content/features/chat.xml:430
 msgid "<emphasis>Action: Download</emphasis>"
 msgstr "<emphasis>Aktion: Herunterladen</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:421
+#: en/content/features/chat.xml:432
 msgid "Lets you download the complete history of this chat as PDF."
 msgstr "Lädt den kompletten Chatverlauf als PDF-Datei herunter"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:425
+#: en/content/features/chat.xml:436
 msgid "<emphasis>Action: New window</emphasis>"
 msgstr "<emphasis>Aktion: Neues Fenster</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:427
+#: en/content/features/chat.xml:438
 msgid ""
 "Opens this chat in a separate popup window. You can use this window in the "
 "same way as the chat widget and both the widget and the popup can be used at"
@@ -1092,12 +1150,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:431
+#: en/content/features/chat.xml:442
 msgid "<emphasis>Action: Observer</emphasis>"
 msgstr "<emphasis>Ation: Beobachten</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:433
+#: en/content/features/chat.xml:444
 msgid ""
 "When you have been invited to a chat by another agent, you can decide if you"
 " want to join the chat as observer or participant (depending on your "
@@ -1112,12 +1170,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:437
+#: en/content/features/chat.xml:448
 msgid "<emphasis>Action: Participant</emphasis>"
 msgstr "<emphasis>Aktion: Teilnehmer</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/chat.xml:439
+#: en/content/features/chat.xml:450
 msgid ""
 "If you want to contribute something to the chat you have been invited to, "
 "you can join it as a participant. Customers/public users and agents will "
@@ -1299,6 +1357,7 @@ msgstr ""
 #: en/content/features/sla-selection-dialog.xml:23
 #: en/content/features/ticket-attachment-view.xml:23
 #: en/content/features/ticket-timeline-view.xml:34
+#: en/content/features/video-calls.xml:97
 msgid "Usage"
 msgstr "Verwendung"
 
@@ -2647,3 +2706,621 @@ msgid ""
 "You can help translate OTRS to your language at <ulink "
 "url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr "SIe können unter <ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink> dabei helfen OTRS in Ihre Sprache zu übersetzen."
+
+#. type: Content of: <section><title>
+#: en/content/features/video-calls.xml:6
+msgid "Video and Audio Calls"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/video-calls.xml:11
+msgid ""
+"The video and audio calls feature of the <emphasis role=\"bold\">OTRS "
+"Business Solution</emphasis>™ provides real-time calls between two users "
+"right from the comfort of the OTRS front-end. The calls will be provided "
+"over a direct peer-to-peer connection established between two users, where "
+"possible. This feature depends heavily on the chat, which must be active for"
+" video and audio calls to be possible."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/video-calls.xml:15
+msgid ""
+"Video and audio calls are based on a quite young technology called WebRTC. "
+"The implementation of WebRTC APIs in modern browsers is an ongoing effort. "
+"Currently, OTRS video and audio calls are supported only in the latest "
+"versions of Mozilla Firefox and Google Chrome (for Chrome a <link linkend"
+"=\"chrome-ssl-required\">HTTPS Enabled Web Server</link> is required)."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/video-calls.xml:23
+msgid ""
+"The following SysConfig configuration options are relevant for this feature."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><variablelist><varlistentry><listitem><para>
+#: en/content/features/video-calls.xml:30
+msgid ""
+"Controls whether or not the video and audio calling feature is enabled. "
+"Please note that the same switch will control <link linkend=\"chat\">the "
+"chat</link> feature too."
+msgstr ""
+
+#. type: Content of: <section><section><variablelist><varlistentry><term>
+#: en/content/features/video-calls.xml:35
+msgid "ChatEngine::PermissionGroup::VideoChatAgents"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><variablelist><varlistentry><listitem><para>
+#: en/content/features/video-calls.xml:38
+msgid ""
+"Defines the group for the video and audio calling features. Only agents with"
+" permission in this group will be able to make video and audio calls."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/video-calls.xml:48
+msgid ""
+"In order to be able to start video and audio calls, you need to setup "
+"certain things in your OTRS instance."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:51
+msgid "Chat Setup"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:53
+msgid ""
+"You need a working chat setup in your system. Make sure to carefully read "
+"the <link linkend=\"chat-setup-availability\">\"Setup\"</link> section of "
+"the chat feature."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:57
+msgid "HTTPS Enabled Web Server"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:59
+msgid ""
+"Currently, Google Chrome will allow access to a user's media streams only to"
+" web applications served over the HTTPS protocol (SSL) with valid signed "
+"certificates. Make sure you have set the <emphasis "
+"role=\"bold\">HttpType</emphasis> config option to "
+"<emphasis>https</emphasis>, too. Setting up a web server to be accessible "
+"via HTTPS is outside of the scope of this manual."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:63
+msgid "Availability for calls"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:65
+msgid ""
+"To be available for video and audio calls, you have to make sure you are "
+"available for chats too. Please refer to the instructions in <link linkend"
+"=\"chat-setup-availability\">\"Agents: Set up Availability\"</link> for more"
+" information."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:69
+msgid "Online User Dashboard Widget"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:71
+msgid ""
+"For a convenient way to start the calls, please activate the \"Online\" "
+"widget on the Dashboard."
+msgstr ""
+
+#. type: Content of: <section><section><section><orderedlist><listitem><para>
+#: en/content/features/video-calls.xml:76
+msgid "Go to the Dashboard and expand the \"Settings\" widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><orderedlist><listitem><para>
+#: en/content/features/video-calls.xml:81
+msgid ""
+"Check the \"Online\" widget and make sure to click <emphasis>Save "
+"settings</emphasis>."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><orderedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:85
+msgid "Setting up the Online widget on Dashboard"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><orderedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:87
+msgid ""
+"<graphic fileref=\"screenshots/video-"
+"calls/DashboardSettingsOnlineWidget.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:99
+msgid "Chat Requirement"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:101
+msgid ""
+"Video and audio calls are tied to existing chats. As an agent, you will be "
+"able to initiate calls inside and outside of chats. Customer users will be "
+"able to initiate calls only from an active chat."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:104
+msgid ""
+"If a chat does not yet exist, it will be created when the call is initiated."
+" In these \"ad-hoc\" chats, the chat parties are joined automatically. When "
+"a call is terminated, these chats will remain active until they are closed "
+"manually."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:108
+msgid "Making the Video Calls"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:110
+msgid ""
+"To make a call inside of an active chat, simply click on the small video "
+"camera button in the chat header."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:114
+msgid "Making a call inside the chat"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:116
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentChatVideoButtons.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:121
+msgid ""
+"A popup window will open, and depending on your browser, you will be asked "
+"to share your video and audio streams. On systems with several cameras and "
+"microphones, you will be able to choose exactly the one you would like to "
+"use from the drop down list."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:125
+msgid "Media Permission Request"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:127
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/MediaPermissionRequest.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:132
+msgid ""
+"Once you confirm your choice, an invitation will be sent to the other party "
+"asking them to join. You will be notified of the progress via a message in "
+"the center of the screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:136
+msgid "Waiting for the other party"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:138
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoWaitingOtherParty.png\""
+" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:143
+msgid ""
+"Please just wait a little while until the connection is established. Then "
+"you will be able to see and hear the other party."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:147
+msgid "Established Connection"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:149
+msgid ""
+"<graphic fileref=\"screenshots/video-"
+"calls/AgentVideoEstablishedConnection.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:154
+msgid ""
+"To control your streams, simply toggle the mute buttons on the left side."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:158
+msgid "Mute Buttons"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:160
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoMuteButtons.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:165
+msgid ""
+"To leave a call, simply click on the big red \"Close\" button. The other "
+"party will be notified."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:169
+msgid "Audio Calls"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:171
+msgid ""
+"The only difference between video and audio calls is that audio calls will "
+"mute your video stream initially (which you will be able to turn on later in"
+" the call). The video stream will be muted for both parties by default, but "
+"they will be able to control it."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:174
+msgid ""
+"If the other party has muted their video stream, instead of the video you "
+"will see a large microphone icon in the center, along with their name. The "
+"icon will reflect the state of their audio stream, and if they mute it too, "
+"it will be crossed."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:178
+msgid "Audio Only"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:180
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentAudioOnly.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:186
+msgid "Call Invitations"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:188
+msgid ""
+"If you have made yourself available for chats (either internal or external),"
+" video and audio call invitations are received automatically by one of the "
+"active tabs in the same user session. When you receive an invitation, a "
+"modal dialog will be displayed on your screen, allowing you to accept or "
+"decline the invitation."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:192
+msgid "Call Invitation"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:194
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoInvitationDialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/video-calls.xml:199
+msgid ""
+"Your browser may also present you a notification with sound. This heavily "
+"depends on the used browser and operating system settings, and if permission"
+" has been granted to OTRS to trigger such notifications. A permission "
+"request will be displayed the first time you change your chat availability."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/video-calls.xml:203
+msgid "Notification Permission Request"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/video-calls.xml:205
+msgid ""
+"<graphic fileref=\"screenshots/video-"
+"calls/AgentNotificationPermissionRequest.png\" scalefit=\"1\" width=\"100%\""
+" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/video-calls.xml:211
+msgid "Other ways to start Video and Audio Calls"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:214
+msgid "<emphasis>Agent to Agent</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:216
+msgid ""
+"To start a video or audio call with another agent, with whom you do not have"
+" an active chat, you can use the Online widget on the dashboard."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:220
+msgid "Online widget on the Dashboard"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:222
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/DashboardOnlineWidgetAgents.png\""
+" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:227
+msgid ""
+"Agents who are able to receive calls will have a video camera and microphone"
+" icon next to their name which you can click on. Once clicked, a popup "
+"window will open, asking you to share your media streams. The connection "
+"will be established afterwards."
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:230
+msgid ""
+"Calling other agents is possible also via Owner and Responsible fields in "
+"ticket zoom. In this case, check will also be done to make sure the other "
+"agent is available, before allowing the call to be initiated."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:234
+msgid "Calling other agents from Ticket Zoom"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:236
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoTicketZoomOwner.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:242
+msgid "<emphasis>Agent to Customer</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:244
+msgid ""
+"To start a video or audio call with a customer, with whom you do not have an"
+" active chat, you can use the customer user widget in the Customer "
+"Information Center when viewing a certain customer. Available customers will"
+" have call icons next to their name which you can click on. Once clicked, a "
+"popup window will open asking you to share your media streams. The "
+"connection will be established afterwards."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:248
+msgid "Making a call from Customer Information Center"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:250
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoCIC.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:255
+msgid ""
+"Another possibility is to make a call directly from the ticket zoom. If the "
+"customer user who is assigned to this ticket is currently online, you'll be "
+"able to use call buttons next to their username in customer information box "
+"in right sidebar."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:259
+msgid "Making a call from Ticket Zoom"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:261
+msgid ""
+"<graphic fileref=\"screenshots/video-"
+"calls/AgentVideoTicketZoomCustomer.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:267
+msgid "<emphasis>Customer to Agent</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:269
+msgid ""
+"Customer users will be able to initiate calls from an active chat only. To "
+"do this, customers can use the video and audio call links in the header of "
+"an active chat to initiate calls."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><title>
+#: en/content/features/video-calls.xml:273
+msgid "Starting a Video Call from Customer interface"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><itemizedlist><listitem><para><figure><screenshot>
+#: en/content/features/video-calls.xml:275
+msgid ""
+"<graphic fileref=\"screenshots/video-calls/CustomerVideoCall.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:280
+msgid ""
+"When customers click on a link, they will be asked for permission to their "
+"media streams, similar to agents. An invitation will be sent and the "
+"connection will be established if the agent on the other side accepts the "
+"request."
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:283
+msgid ""
+"The difference between video and audio calls in the customer interface "
+"compared to the agent interface is minimal. Customers will see their calls "
+"inside the same window as the chat. Only one additional button is provided: "
+"Fullscreen. It will resize the video to the extent of the browser window. "
+"Other than that, everything as in the agent interface applies."
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:287
+msgid "<emphasis>Public to Agent</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:289
+msgid ""
+"Users of the public interface are not able to make audio and video calls."
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/video-calls.xml:297
+msgid "Connection"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/video-calls.xml:299
+msgid ""
+"In the best case scenario, video and audio calls will be streamed over a "
+"direct peer-to-peer connection between users' browsers. The requirement is "
+"that the user's network allows connection over a high port that WebRTC uses,"
+" and can advertise this to the other party. To this end, there are several "
+"mechanisms in place to aid in connecting."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:303
+msgid "<emphasis>STUN (Session Traversal Utilities for NAT)</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:305
+msgid ""
+"STUN (Session Traversal Utilities for NAT) is a standardized set of methods "
+"and a network protocol to allow an end host to discover its public IP "
+"address if it is located behind a NAT. OTRS provides a cloud service with "
+"STUN to all users of the <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™, and this data is shared with the other party to allow "
+"the connection to be established."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:308
+msgid ""
+"In case of a connection via STUN, only the connection data is stored on the "
+"OTRS servers, the connection itself is still directly between two users."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:312
+msgid "<emphasis>TURN (Traversal Using Relays around NAT) over UDP</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:314
+msgid ""
+"TURN is a protocol that assists in traversal of network address translators "
+"or firewalls for multimedia applications. OTRS also provides TURN cloud "
+"service which can help clients on networks masqueraded by symmetric NAT "
+"devices and it supports the connection of a user behind a NAT."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:317
+msgid ""
+"In case of a connection established via TURN server, media streams will be "
+"routed through the server (like a proxy). In this situation, all packets are"
+" securely transmitted to the other side. The access to the TURN server is "
+"encrypted and secured by often changed credentials, which are provided "
+"automatically."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:321
+msgid "<emphasis>TURN over TCP</emphasis>"
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:323
+msgid ""
+"In case all UDP traffic is blocked between two users, the TURN server over "
+"TCP is a last resort for a successful connection. While TCP is not an ideal "
+"protocol for transmitting media packets, it's a last resort in an effort to "
+"connect two users and share their streams."
+msgstr ""
+
+#. type: Content of: <section><section><itemizedlist><listitem><para>
+#: en/content/features/video-calls.xml:326
+msgid ""
+"Same as with TURN over UDP, media streams will be routed through the server "
+"and sent to the other side. The infrastructure for all STUN and TURN "
+"services is highly scalable based on demand and can even be provided for "
+"different geographic locations, in order to provide the best possible "
+"throughput."
+msgstr ""

@@ -402,16 +402,27 @@ csevegőüzenet beírásához használhat. Miután a csevegéskérés elküldés
 került az ügyfélnek, a csevegést a csevegéskezelőben figyelheti.
                     </para>
                     <para>
-                        A másik lehetőség, hogy a jegynagyításból hoz létre egy csevegést. Ha az
-ebben a jegyben kiválasztott ügyfél-felhasználó jelenleg elérhető, akkor
-képes lesz egy csevegés indítása hivatkozás használatára (lásd a lenti
-ábrát).
+                        Another possibility is to create a chat from the ticket zoom. If the
+customer user who is selected in this ticket is currently online, you'll be
+able to use a chat icon next to their username in the customer information
+box in right sidebar (see figure below).
                     </para>
                     <para>
                         <figure>
                             <title>Ügyintéző-ügyfél csevegés indítása a jegynagyításból</title>
 <screenshot>
 <graphic fileref="screenshots/chat/ChatTicketZoomStart.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                    </para>
+                    <para>
+                        Additionally, you will be able to start chat with customer users by clicking
+on chat icons next to their name in the user online widget on the dashboard.
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Starting an A2C chat from dashboard</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatStartWidget.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </listitem>
@@ -482,11 +493,10 @@ használható, hogy a helyes részleghez kézbesítse a csevegéseket.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Ha be szeretne lépni egy csevegésbe, akkor használhatja az „Elfogadás”
-gombot a csevegés részletének rátét dobozából. Ezután a csevegés el lesz
-távolítva a kérések listájáról, hozzá lesz adva az aktív csevegéseinek
-listájához, és az ügyfél vagy nyilvános felhasználó egy üzenetet fog kapni,
-hogy ön belépett a csevegésbe.
+                If you want to enter a chat, you can use the "Accept" button from the chat
+detail overlay box. The chat will then be removed from the list of requests,
+added to the list of your active chats and the customer/public user will
+receive a message that you've entered the chat.
             </para>
         </section>
 

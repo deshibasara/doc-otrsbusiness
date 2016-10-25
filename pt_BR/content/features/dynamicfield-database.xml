@@ -199,9 +199,9 @@ universais nas máscaras.
                 </listitem>
                 <listitem>
                     <para>
-                        Result-Limit: The entered integer value defines the maximum amount of
-allowed results during a database search. This includes the autocompletion
-search as well as the detailed search.
+                        Resultado-Limite: O valor integral preenchido define a quantidade máxima
+permitida de resultados durante uma busca na base de dados. Isto inclui
+tanto a busca de preenchimento automático quanto a busca detalhada.
                     </para>
                 </listitem>
                 <listitem>
@@ -212,13 +212,14 @@ produzirá efeitos nas pesquisas.
                 </listitem>
                 <listitem>
                     <para>
-                        Possible values: As already explained the possible values will fill up the
-identifier field automatically, which defines the value that will be stored
-in the dynamic field. Possible values can be created as much as needed (or
-at least as many table columns as the database table has). The possible
-values defines the database columns to search in. It is possible to set the
-column name, a description (label) the field should have, the needed data
-type and if the field should be a search- or listfield.
+                        Possíveis valores: Como já explicado os possíveis valores preencherão o
+campo identificador automaticamente que, por seguinte,  define o valor que
+será armazenado no campo dinâmico. Possíveis valores podem ser criados
+tantos quantos necessários (ou ao menos tão quantas colunas de tabela o
+banco de dados possui). Os possíveis valores definem as colunas de banco de
+dados a serem buscados. É possível definir um nome de coluna, uma descrição
+(apelido) que o campo deveria ter,  o tipo de dado necessário e se o campo
+deveria ser uma busca ou lista.
                     </para>
                 </listitem>
                 <listitem>
