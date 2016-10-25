@@ -33,6 +33,8 @@
                 Mandrake is a registered trademark of MandrakeSoft, SA.
                 Debian is a registered trademark of Software in the Public Interest, Inc.
                 MySQL and the MySQL Logo are registered trademarks of Oracle Corporation and/or its affiliates.
+                Mozilla Firefox is a registered trademark of the Mozilla Foundation.
+                Google Chrome is a registered trademark of Google Inc.
                 All trade names are used without the guarantee for their free use and are
                 possibly registered trade marks.
                 OTRS AG essentially follows the notations of the manufacturers.
@@ -47,6 +49,7 @@
     <chapter id="otrs-business-solution-features">
         <title>Features of <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />

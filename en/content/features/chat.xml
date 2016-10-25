@@ -280,13 +280,24 @@
                         To start a chat with a customer, you can use the customer user widget from the customer information center when viewing a certain customer. Online customers will have a chat icon next to their name which you can click on. Once clicked, a chat form will open which you can use to enter your first chat message to this customer user. After the chat request has been sent to the customer, you can watch the chat in the chat manager.
                     </para>
                     <para>
-                        Another possibility is to create a chat from the ticket zoom. If the customer user who is selected in this ticket is currently online, you'll be able to use a chat start link (see figure below).
+                        Another possibility is to create a chat from the ticket zoom. If the customer user who is selected in this ticket is currently online, you'll be able to use a chat icon next to their username in the customer information box in right sidebar (see figure below).
                     </para>
                     <para>
                         <figure>
                             <title>Starting an A2C chat from ticket zoom</title>
                             <screenshot>
                                  <graphic fileref="screenshots/chat/ChatTicketZoomStart.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                            </screenshot>
+                        </figure>
+                    </para>
+                    <para>
+                        Additionally, you will be able to start chat with customer users by clicking on chat icons next to their name in the user online widget on the dashboard.
+                    </para>
+                    <para>
+                        <figure>
+                            <title>Starting an A2C chat from dashboard</title>
+                            <screenshot>
+                                 <graphic fileref="screenshots/chat/ChatStartWidget.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -342,7 +353,7 @@
                 </figure>
             </para>
             <para>
-                I you want to enter a chat, you can use the "Accept" button from the chat detail overlay box. The chat will then be removed from the list of requests, added to the list of your active chats and the customer/public user will receive a message that you've entered the chat.
+                If you want to enter a chat, you can use the "Accept" button from the chat detail overlay box. The chat will then be removed from the list of requests, added to the list of your active chats and the customer/public user will receive a message that you've entered the chat.
             </para>
         </section>
 
