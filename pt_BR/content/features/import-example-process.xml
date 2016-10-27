@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="import-example-process">
+    <title>Import example process</title>
+
+    <section>
+        <title>Import</title>
+        <para>
+            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an
+<emphasis>Example process</emphasis> widget, where you can find best
+practice example processes.
+        </para>
+        <para>
+            Following example processes are available in the <emphasis role="bold">OTRS
+Business Solution™</emphasis>:
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        Conference Room Reservation
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        ITIL Incident Management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Office Materials Procurement
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Order Request Management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Release And Deployment Management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Request For Leave Management
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Start RMA
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        Travel Expense
+                    </para>
+                </listitem>
+            </itemizedlist>
+        </para>
+        <para>
+            <figure>
+                <title>Import example process widget</title>
+<screenshot>
+<graphic fileref="screenshots/process/import-example-process.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+        </para>
+        <para>
+            To install example process, select desired process from drop-down menu in
+the <emphasis>Example process</emphasis> widget and click on the
+<emphasis>Import example process</emphasis> button.
+        </para>
+        <para>
+            During the import process, system creates needed dynamic fields and/or
+updates system configuration in order to work properly.
+        </para>
+    </section>
+</section>

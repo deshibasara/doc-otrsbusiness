@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 13:49+0200\n"
+"POT-Creation-Date: 2016-10-27 14:27+0000\n"
 "PO-Revision-Date: 2016-10-25 11:50+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
@@ -209,6 +209,9 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:400
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
+#: en/content/features/import-example-process.xml:62
+#: en/content/features/import-example-web-service.xml:33
+#: en/content/features/import-example-web-service.xml:41
 #: en/content/features/notifications.xml:23
 #: en/content/features/notifications.xml:45
 #: en/content/features/notifications.xml:56
@@ -253,7 +256,9 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:297 en/content/features/chat.xml:311
 #: en/content/features/chat.xml:334 en/content/features/chat.xml:348
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
-#: en/content/features/chat.xml:397 en/content/features/notifications.xml:21
+#: en/content/features/chat.xml:397
+#: en/content/features/import-example-process.xml:60
+#: en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
 #: en/content/features/notifications.xml:69
@@ -2645,6 +2650,196 @@ msgstr ""
 "függetlenül minden egyes találat csak egyszer választható ki. Ha egy "
 "ügyintéző többször próbál meg kiválasztani egy értéket, akkor egy ezzel "
 "kapcsolatos figyelmeztető üzenet jelenik meg."
+
+#. type: Content of: <section><title>
+#: en/content/features/import-example-process.xml:6
+msgid "Import example process"
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/import-example-process.xml:9
+#: en/content/features/import-example-web-service.xml:9
+msgid "Import"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:11
+msgid ""
+"On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
+"<emphasis>Example process</emphasis> widget, where you can find best "
+"practice example processes."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:15
+#, fuzzy
+#| msgid ""
+#| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
+msgid ""
+"Following example processes are available in the <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis>:"
+msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szolgáltatásai"
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:19
+msgid "Conference Room Reservation"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:24
+#, fuzzy
+#| msgid "Contact Management"
+msgid "ITIL Incident Management"
+msgstr "Partnerkezelés"
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:29
+msgid "Office Materials Procurement"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:34
+msgid "Order Request Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:39
+msgid "Release And Deployment Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:44
+msgid "Request For Leave Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:49
+msgid "Start RMA"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:54
+msgid "Travel Expense"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-process.xml:61
+msgid "Import example process widget"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-process.xml:63
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/process/import-example-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:68
+msgid ""
+"To install example process, select desired process from drop-down menu in "
+"the <emphasis>Example process</emphasis> widget and click on the "
+"<emphasis>Import example process</emphasis> button."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:73
+msgid ""
+"During the import process, system creates needed dynamic fields and/or "
+"updates system configuration in order to work properly."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:6
+#: en/content/features/import-example-web-service.xml:40
+msgid "Import example web service"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:11
+#, fuzzy
+#| msgid ""
+#| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
+msgid ""
+"There are three example web services available in the <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis>:"
+msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szolgáltatásai"
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:15
+msgid "BugzillaConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:20
+msgid "JIRAConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:25
+msgid "OTRSConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:32
+msgid "Add web service"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-web-service.xml:34
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-web-service.xml:42
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/web-services/import-example-web-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:29
+msgid ""
+"To install example web service, go to the <emphasis>GenericInterface Web "
+"Service Management</emphasis> page and click on the <emphasis>Add web "
+"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Find "
+"<emphasis>Example Web Services</emphasis> widget, select example web service "
+"from drop-down menu, and click on the <emphasis>Import example web service</"
+"emphasis> button.  <placeholder type=\"figure\" id=\"1\"/> During the import "
+"process, system creates needed dynamic fields and/or updates system "
+"configuration in order to work properly."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:48
+msgid ""
+"<emphasis role=\"bold\">Note:</emphasis> Example web services requires "
+"additional feature add-ons to be installed (<emphasis role=\"bold"
+"\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis role=\"bold"
+"\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
+msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="import-example-web-service">
+    <title>Import example web service</title>
+
+    <section>
+        <title>Import</title>
+        <para>
+            There are three example web services available in the <emphasis
+role="bold">OTRS Business Solution™</emphasis>:
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        BugzillaConnector
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        JIRAConnector
+                    </para>
+                </listitem>
+                <listitem>
+                    <para>
+                        OTRSConnector
+                    </para>
+                </listitem>
+            </itemizedlist>
+            To install example web service, go to the <emphasis>GenericInterface Web
+Service Management</emphasis> page and click on the <emphasis>Add web
+service</emphasis> button.  <figure>
+                <title>Add web service</title>
+<screenshot>
+<graphic fileref="screenshots/web-services/web-service-management.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> Find
+<emphasis>Example Web Services</emphasis> widget, select example web service
+from drop-down menu, and click on the <emphasis>Import example web
+service</emphasis> button.  <figure>
+                <title>Import example web service</title>
+<screenshot>
+<graphic fileref="screenshots/web-services/import-example-web-service.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> During the
+import process, system creates needed dynamic fields and/or updates system
+configuration in order to work properly.
+        </para>
+        <para>
+            <emphasis role="bold">Note:</emphasis> Example web services requires
+additional feature add-ons to be installed (<emphasis
+role="bold">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis
+role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).
+        </para>
+    </section>
+</section>

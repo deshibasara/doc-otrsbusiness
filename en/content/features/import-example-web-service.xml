@@ -2,13 +2,13 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
-<section id="import-example-web-process">
-    <title>Import example web process</title>
+<section id="import-example-web-service">
+    <title>Import example web service</title>
 
     <section>
         <title>Import</title>
         <para>
-            There are tree example web services available for the <emphasis role="bold">OTRS Business Solution™</emphasis>:
+            There are three example web services available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
             <itemizedlist>
                 <listitem>
                     <para>

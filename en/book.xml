@@ -52,6 +52,8 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-process.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-web-service.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
