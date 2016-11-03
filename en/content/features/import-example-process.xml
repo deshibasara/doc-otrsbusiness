@@ -8,11 +8,10 @@
     <section>
         <title>Import</title>
         <para>
-            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an <emphasis>Example process</emphasis> widget, where you can
-            find best practice example processes.
+            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an <emphasis>example process</emphasis> widget, where you can find some best practice example processes.
         </para>
         <para>
-            Following example processes are available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
+            The following example processes are available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
             <itemizedlist>
                 <listitem>
                     <para>
@@ -65,12 +64,12 @@
             </figure>
         </para>
         <para>
-            To install example process, select desired process from drop-down menu in the
-            <emphasis>Example process</emphasis> widget and click on the
+            To install an example process, just select the desired process from the drop-down menu in the
+            <emphasis>Example process</emphasis> widget and click the
             <emphasis>Import example process</emphasis> button.
         </para>
         <para>
-            During the import process, system creates needed dynamic fields and/or updates system configuration in order to work properly.
+            During the import process, OTRS takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.
         </para>
     </section>
 </section>
