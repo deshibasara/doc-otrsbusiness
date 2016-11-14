@@ -3,12 +3,12 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-web-service">
-    <title>Import example web service</title>
+    <title>Import ready-to-run Web Services</title>
 
     <section>
         <title>Import</title>
         <para>
-            There are three example web services available in the <emphasis
+            There are three ready-to-run Web Services available in the <emphasis
 role="bold">OTRS Business Solution™</emphasis>:
             <itemizedlist>
                 <listitem>
@@ -27,26 +27,26 @@ role="bold">OTRS Business Solution™</emphasis>:
                     </para>
                 </listitem>
             </itemizedlist>
-            To install example web service, go to the <emphasis>GenericInterface Web
-Service Management</emphasis> page and click on the <emphasis>Add web
+            To install one of these web services, go to the <emphasis>GenericInterface
+Web Service Management</emphasis> page and click on the <emphasis>Add web
 service</emphasis> button.  <figure>
                 <title>Add web service</title>
 <screenshot>
 <graphic fileref="screenshots/web-services/web-service-management.png"
-scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> Find
-<emphasis>Example Web Services</emphasis> widget, select example web service
-from drop-down menu, and click on the <emphasis>Import example web
-service</emphasis> button.  <figure>
-                <title>Import example web service</title>
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> Locate the
+<emphasis>Ready-to-run Web Services</emphasis> widget, select one of the
+provided web services from the drop-down menu, and click the
+<emphasis>Import ready-to-run Web Service</emphasis> button.  <figure>
+                <title>Import ready-to-run Web Service</title>
 <screenshot>
 <graphic fileref="screenshots/web-services/import-example-web-service.png"
-scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> During the
-import process, system creates needed dynamic fields and/or updates system
-configuration in order to work properly.
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure> During the import process, OTRS takes care of
+creating the needed dynamic fields and/or any needed updates to the system
+configuration.
         </para>
         <para>
-            <emphasis role="bold">Note:</emphasis> Example web services requires
-additional feature add-ons to be installed (<emphasis
+            <emphasis role="bold">Note:</emphasis> The ready-to-run Web Services may
+require additional feature add-ons to be installed (<emphasis
 role="bold">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis
 role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).
         </para>

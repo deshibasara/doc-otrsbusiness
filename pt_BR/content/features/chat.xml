@@ -616,6 +616,67 @@ utilizando a ação de ferramentas avançadas em seu chat widget.
                 </listitem>
             </itemizedlist>
         </section>
+        <section>
+            <title>User availability</title>
+            <para>
+                <figure>
+                    <title>O chat widget</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatWidget.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Every chat participant has colored icon(circle) before his/her name in the
+<emphasis>Chat widget</emphasis> header, which represents participant
+availability.  Icon color represents participant state as follows:
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            <inlinemediaobject>
+<imageobject > <imagedata fileref="screenshots/chat/ChatOnline.png"
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Active</emphasis> -
+participant is active(available and online).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <inlinemediaobject>
+<imageobject > <imagedata fileref="screenshots/chat/ChatAway.png"
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Away</emphasis> -
+participant is away (available, but there was no request sent to the server
+from this user for some time - default 5 minutes, see
+ChatEngine::AgentOnlineThreshold).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <inlinemediaobject>
+<imageobject > <imagedata fileref="screenshots/chat/ChatInactive.png"
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Inactive</emphasis>
+- participant is inactive (chat request is not accepted yet or participant
+left the chat).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <inlinemediaobject>
+<imageobject > <imagedata fileref="screenshots/chat/ChatUnavailable.png"
+contentdepth="5%"/> </imageobject></inlinemediaobject>
+<emphasis>Unavailable</emphasis> - participant is unavailable (set via
+<emphasis>Availability</emphasis> button).
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            <inlinemediaobject>
+<imageobject > <imagedata fileref="screenshots/chat/ChatOffline.png"
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Offline</emphasis>
+- participant has logout or session has expired.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
     </section>
 
 </section>

@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-27 14:27+0000\n"
+"POT-Creation-Date: 2016-11-14 14:16+0000\n"
 "PO-Revision-Date: 2016-10-25 11:50+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otrs/OTRS/"
@@ -201,7 +201,7 @@ msgstr ""
 #: en/content/features/chat.xml:299 en/content/features/chat.xml:313
 #: en/content/features/chat.xml:336 en/content/features/chat.xml:350
 #: en/content/features/chat.xml:365 en/content/features/chat.xml:391
-#: en/content/features/chat.xml:399
+#: en/content/features/chat.xml:399 en/content/features/chat.xml:460
 #: en/content/features/dynamicfield-database.xml:84
 #: en/content/features/dynamicfield-database.xml:276
 #: en/content/features/dynamicfield-database.xml:377
@@ -209,7 +209,7 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:400
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
-#: en/content/features/import-example-process.xml:62
+#: en/content/features/import-example-process.xml:61
 #: en/content/features/import-example-web-service.xml:33
 #: en/content/features/import-example-web-service.xml:41
 #: en/content/features/notifications.xml:23
@@ -256,8 +256,8 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:297 en/content/features/chat.xml:311
 #: en/content/features/chat.xml:334 en/content/features/chat.xml:348
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
-#: en/content/features/chat.xml:397
-#: en/content/features/import-example-process.xml:60
+#: en/content/features/chat.xml:397 en/content/features/chat.xml:458
+#: en/content/features/import-example-process.xml:59
 #: en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
@@ -1179,12 +1179,12 @@ msgid "The Chat Widget"
 msgstr "O Chat Widget"
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:364
+#: en/content/features/chat.xml:364 en/content/features/chat.xml:459
 msgid "The chat widget"
 msgstr "O chat widget"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/chat.xml:366
+#: en/content/features/chat.xml:366 en/content/features/chat.xml:461
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
@@ -1439,6 +1439,125 @@ msgstr ""
 "os agentes receberão uma mensagem que você inseriu no chat. Como "
 "participante, você pode se tornar um observador a qualquer momento "
 "utilizando a ação de ferramentas avançadas em seu chat widget."
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:456
+#, fuzzy
+#| msgid "Agents: Set up Availability"
+msgid "User availability"
+msgstr "Agentes: configurar a disponibilidade"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:466
+msgid ""
+"Every chat participant has colored icon(circle) before his/her name in the "
+"<emphasis>Chat widget</emphasis> header, which represents participant "
+"availability.  Icon color represents participant state as follows:"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:472
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
+#| "\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOnline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:471
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Active</"
+"emphasis> - participant is active(available and online)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:482
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatAway.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:481
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Away</emphasis> "
+"- participant is away (available, but there was no request sent to the "
+"server from this user for some time - default 5 minutes, see ChatEngine::"
+"AgentOnlineThreshold)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:493
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatInactive.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:492
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Inactive</"
+"emphasis> - participant is inactive (chat request is not accepted yet or "
+"participant left the chat)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:503
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatUnavailable.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:502
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Unavailable</"
+"emphasis> - participant is unavailable (set via <emphasis>Availability</"
+"emphasis> button)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:513
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
+#| "\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOffline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:512
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Offline</"
+"emphasis> - participant has logout or session has expired."
+msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
@@ -2570,70 +2689,70 @@ msgstr ""
 #: en/content/features/import-example-process.xml:11
 msgid ""
 "On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
-"<emphasis>Example process</emphasis> widget, where you can find best "
+"<emphasis>example process</emphasis> widget, where you can find some best "
 "practice example processes."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/features/import-example-process.xml:15
+#: en/content/features/import-example-process.xml:14
 #, fuzzy
 #| msgid ""
 #| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgid ""
-"Following example processes are available in the <emphasis role=\"bold"
+"The following example processes are available in the <emphasis role=\"bold"
 "\">OTRS Business Solution™</emphasis>:"
 msgstr ""
 "Características da <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:19
+#: en/content/features/import-example-process.xml:18
 msgid "Conference Room Reservation"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:24
+#: en/content/features/import-example-process.xml:23
 #, fuzzy
 #| msgid "Contact Management"
 msgid "ITIL Incident Management"
 msgstr "Gerenciamento de contato"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:29
+#: en/content/features/import-example-process.xml:28
 msgid "Office Materials Procurement"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:34
+#: en/content/features/import-example-process.xml:33
 msgid "Order Request Management"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:39
+#: en/content/features/import-example-process.xml:38
 msgid "Release And Deployment Management"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:44
+#: en/content/features/import-example-process.xml:43
 msgid "Request For Leave Management"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:49
+#: en/content/features/import-example-process.xml:48
 msgid "Start RMA"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/features/import-example-process.xml:54
+#: en/content/features/import-example-process.xml:53
 msgid "Travel Expense"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/import-example-process.xml:61
+#: en/content/features/import-example-process.xml:60
 msgid "Import example process widget"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/import-example-process.xml:63
+#: en/content/features/import-example-process.xml:62
 #, fuzzy
 #| msgid ""
 #| "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
@@ -2646,24 +2765,23 @@ msgstr ""
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/import-example-process.xml:68
+#: en/content/features/import-example-process.xml:67
 msgid ""
-"To install example process, select desired process from drop-down menu in "
-"the <emphasis>Example process</emphasis> widget and click on the "
+"To install an example process, just select the desired process from the drop-"
+"down menu in the <emphasis>Example process</emphasis> widget and click the "
 "<emphasis>Import example process</emphasis> button."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/features/import-example-process.xml:73
+#: en/content/features/import-example-process.xml:72
 msgid ""
-"During the import process, system creates needed dynamic fields and/or "
-"updates system configuration in order to work properly."
+"During the import process, OTRS takes care of creating the needed dynamic "
+"fields and/or any needed updates to the system configuration."
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><title>
+#. type: Content of: <section><title>
 #: en/content/features/import-example-web-service.xml:6
-#: en/content/features/import-example-web-service.xml:40
-msgid "Import example web service"
+msgid "Import ready-to-run Web Services"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2672,8 +2790,8 @@ msgstr ""
 #| msgid ""
 #| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgid ""
-"There are three example web services available in the <emphasis role=\"bold"
-"\">OTRS Business Solution™</emphasis>:"
+"There are three ready-to-run Web Services available in the <emphasis role="
+"\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
 "Características da <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 
@@ -2710,6 +2828,11 @@ msgstr ""
 "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
 "\"100%\" contentdepth=\"100%\"></graphic>"
 
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:40
+msgid "Import ready-to-run Web Service"
+msgstr ""
+
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-web-service.xml:42
 #, fuzzy
@@ -2726,21 +2849,22 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:29
 msgid ""
-"To install example web service, go to the <emphasis>GenericInterface Web "
-"Service Management</emphasis> page and click on the <emphasis>Add web "
-"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Find "
-"<emphasis>Example Web Services</emphasis> widget, select example web service "
-"from drop-down menu, and click on the <emphasis>Import example web service</"
-"emphasis> button.  <placeholder type=\"figure\" id=\"1\"/> During the import "
-"process, system creates needed dynamic fields and/or updates system "
-"configuration in order to work properly."
+"To install one of these web services, go to the <emphasis>GenericInterface "
+"Web Service Management</emphasis> page and click on the <emphasis>Add web "
+"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Locate "
+"the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the "
+"provided web services from the drop-down menu, and click the "
+"<emphasis>Import ready-to-run Web Service</emphasis> button.  <placeholder "
+"type=\"figure\" id=\"1\"/> During the import process, OTRS takes care of "
+"creating the needed dynamic fields and/or any needed updates to the system "
+"configuration."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:48
 msgid ""
-"<emphasis role=\"bold\">Note:</emphasis> Example web services requires "
-"additional feature add-ons to be installed (<emphasis role=\"bold"
+"<emphasis role=\"bold\">Note:</emphasis> The ready-to-run Web Services may "
+"require additional feature add-ons to be installed (<emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
