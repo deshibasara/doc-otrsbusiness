@@ -3,15 +3,15 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-process">
-    <title>Import example process</title>
+    <title>Import ready-to-run process</title>
 
     <section>
         <title>Import</title>
         <para>
-            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an <emphasis>example process</emphasis> widget, where you can find some best practice example processes.
+            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an <emphasis>ready-to-run process</emphasis> widget, where you can find some best practice ready-to-run processes.
         </para>
         <para>
-            The following example processes are available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
+            The following ready-to-run processes are available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
             <itemizedlist>
                 <listitem>
                     <para>
@@ -57,16 +57,16 @@
         </para>
         <para>
             <figure>
-                <title>Import example process widget</title>
+                <title>Import ready-to-run process widget</title>
                 <screenshot>
                     <graphic fileref="screenshots/process/import-example-process.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
         <para>
-            To install an example process, just select the desired process from the drop-down menu in the
-            <emphasis>Example process</emphasis> widget and click the
-            <emphasis>Import example process</emphasis> button.
+            To install a ready-to-run process, just select the desired process from the drop-down menu in the
+            <emphasis>Ready-to-run process</emphasis> widget and click the
+            <emphasis>Import ready-to-run process</emphasis> button.
         </para>
         <para>
             During the import process, OTRS takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.
