@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 13:49+0200\n"
-"PO-Revision-Date: 2016-10-25 11:50+0000\n"
+"POT-Creation-Date: 2017-03-22 13:37+0100\n"
+"PO-Revision-Date: 2017-03-22 12:37+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -39,13 +39,26 @@ msgstr "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> <dat
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
-msgid ""
-"This work is copyrighted by OTRS AG. You may copy it in whole or in part as "
-"long as the copies retain this copyright statement."
-msgstr "Dieses Werk ist geistiges Eigentum der OTRS AG. copies retain this copyright statement.\nEs darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt, dieser Copyright-Vermerk befindet sich auf jeder Kopie."
+msgid "This work is copyrighted by OTRS AG."
+msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:19
+#: en/book.xml:20
+msgid ""
+"You may copy it in whole or in part as long as the copies retain this "
+"copyright statement."
+msgstr ""
+
+#. type: Content of: <book><bookinfo><legalnotice><para>
+#: en/book.xml:25
+msgid ""
+"All trade names are used without the guarantee for their free use and are "
+"possibly registered trade marks.  All products mentioned in this manual may "
+"be trade marks of the respective manufacturer."
+msgstr ""
+
+#. type: Content of: <book><bookinfo><legalnotice><para>
+#: en/book.xml:32
 msgid ""
 "The source code of this document can be found at <ulink "
 "url=\"https://otrs.github.io\">github</ulink>, in the repository <ulink "
@@ -55,28 +68,8 @@ msgid ""
 "url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr "Der Quellcode dieses Dokuments kann bei <ulink url=\"https://otrs.github.io\">github</ulink> gefunden werden, im Repository <ulink url=\"https://github.com/OTRS/doc-otrsbusiness\">doc-admin</ulink>. Beiträge sind mehr als willkommen. Sie können auch bei der Übersetzung in Ihre Sprache helfen, und zwar bei <ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:27
-msgid ""
-"UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
-"registered trademark of Linus Torvalds.  MS-DOS, Windows, Windows 95, "
-"Windows 98, Windows NT, Windows 2000, Windows XP, Windows 2003, Windows "
-"Vista and Windows 7 are registered trademarks of Microsoft Corporation.  "
-"Other trademarks and registered trademarks are: SUSE and YaST of SUSE Linux "
-"GmbH, Red Hat and Fedora are registered trademarks of Red Hat, Inc.  "
-"Mandrake is a registered trademark of MandrakeSoft, SA.  Debian is a "
-"registered trademark of Software in the Public Interest, Inc.  MySQL and the"
-" MySQL Logo are registered trademarks of Oracle Corporation and/or its "
-"affiliates.  Mozilla Firefox is a registered trademark of the Mozilla "
-"Foundation.  Google Chrome is a registered trademark of Google Inc.  All "
-"trade names are used without the guarantee for their free use and are "
-"possibly registered trade marks.  OTRS AG essentially follows the notations "
-"of the manufacturers.  Other products mentioned in this manual may be "
-"trademarks of the respective manufacturer."
-msgstr ""
-
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:50
+#: en/book.xml:46
 msgid "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgstr "Merkmale der <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 
@@ -159,7 +152,7 @@ msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=
 #: en/content/features/chat.xml:299 en/content/features/chat.xml:313
 #: en/content/features/chat.xml:336 en/content/features/chat.xml:350
 #: en/content/features/chat.xml:365 en/content/features/chat.xml:391
-#: en/content/features/chat.xml:399
+#: en/content/features/chat.xml:399 en/content/features/chat.xml:460
 #: en/content/features/dynamicfield-database.xml:84
 #: en/content/features/dynamicfield-database.xml:276
 #: en/content/features/dynamicfield-database.xml:377
@@ -167,6 +160,9 @@ msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=
 #: en/content/features/dynamicfield-database.xml:400
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
+#: en/content/features/import-example-process.xml:61
+#: en/content/features/import-example-web-service.xml:33
+#: en/content/features/import-example-web-service.xml:41
 #: en/content/features/notifications.xml:23
 #: en/content/features/notifications.xml:45
 #: en/content/features/notifications.xml:56
@@ -211,7 +207,9 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:297 en/content/features/chat.xml:311
 #: en/content/features/chat.xml:334 en/content/features/chat.xml:348
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
-#: en/content/features/chat.xml:397 en/content/features/notifications.xml:21
+#: en/content/features/chat.xml:397 en/content/features/chat.xml:458
+#: en/content/features/import-example-process.xml:59
+#: en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
 #: en/content/features/notifications.xml:69
@@ -982,12 +980,12 @@ msgid "The Chat Widget"
 msgstr "Das Chat-Widget"
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/chat.xml:364
+#: en/content/features/chat.xml:364 en/content/features/chat.xml:459
 msgid "The chat widget"
 msgstr "Das Chat-Widget"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/chat.xml:366
+#: en/content/features/chat.xml:366 en/content/features/chat.xml:461
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -1182,6 +1180,104 @@ msgid ""
 "receive a message that you have entered the chat. As a participant, you can "
 "become an observer anytime by using the advanced action toolbar in your chat"
 " widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/chat.xml:456
+msgid "User availability"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/chat.xml:466
+msgid ""
+"Every chat participant has colored icon(circle) before his/her name in the "
+"<emphasis>Chat widget</emphasis> header, which represents participant "
+"availability.  Icon color represents participant state as follows:"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:472
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOnline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:471
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> "
+"<emphasis>Active</emphasis> - participant is active(available and online)."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:482
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatAway.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:481
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Away</emphasis>"
+" - participant is away (available, but there was no request sent to the "
+"server from this user for some time - default 5 minutes, see "
+"ChatEngine::AgentOnlineThreshold)."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:493
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatInactive.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:492
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> "
+"<emphasis>Inactive</emphasis> - participant is inactive (chat request is not"
+" accepted yet or participant left the chat)."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:503
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatUnavailable.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:502
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> "
+"<emphasis>Unavailable</emphasis> - participant is unavailable (set via "
+"<emphasis>Availability</emphasis> button)."
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
+#: en/content/features/chat.xml:513
+msgid ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOffline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
+msgstr ""
+
+#. type: Content of:
+#. <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/chat.xml:512
+msgid ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> "
+"<emphasis>Offline</emphasis> - participant has logout or session has "
+"expired."
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -2126,6 +2222,173 @@ msgid ""
 "Independent of using the autocompletion or the detailed search, every single"
 " result can just selected ones. If an agent tries to select a value multiple"
 " times, a related warning message is displayed."
+msgstr ""
+
+#. type: Content of: <section><title>
+#: en/content/features/import-example-process.xml:6
+msgid "Import ready-to-run process"
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/import-example-process.xml:9
+#: en/content/features/import-example-web-service.xml:9
+msgid "Import"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:11
+msgid ""
+"On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
+"<emphasis>ready-to-run process</emphasis> widget, where you can find some "
+"best practice ready-to-run processes."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:14
+msgid ""
+"The following ready-to-run processes are available in the <emphasis "
+"role=\"bold\">OTRS Business Solution™</emphasis>:"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:18
+msgid "Conference Room Reservation"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:23
+msgid "ITIL Incident Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:28
+msgid "Office Materials Procurement"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:33
+msgid "Order Request Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:38
+msgid "Release And Deployment Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:43
+msgid "Request For Leave Management"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:48
+msgid "Start RMA"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-process.xml:53
+msgid "Travel Expense"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-process.xml:60
+msgid "Import ready-to-run process widget"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-process.xml:62
+msgid ""
+"<graphic fileref=\"screenshots/process/import-example-process.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:67
+msgid ""
+"To install a ready-to-run process, just select the desired process from the "
+"drop-down menu in the <emphasis>Ready-to-run process</emphasis> widget and "
+"click the <emphasis>Import ready-to-run process</emphasis> button."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-process.xml:72
+msgid ""
+"During the import process, OTRS takes care of creating the needed dynamic "
+"fields and/or any needed updates to the system configuration."
+msgstr ""
+
+#. type: Content of: <section><title>
+#: en/content/features/import-example-web-service.xml:6
+msgid "Import ready-to-run Web Services"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:11
+msgid ""
+"There are three ready-to-run Web Services available in the <emphasis "
+"role=\"bold\">OTRS Business Solution™</emphasis>:"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:15
+msgid "BugzillaConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:20
+msgid "JIRAConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><itemizedlist><listitem><para>
+#: en/content/features/import-example-web-service.xml:25
+msgid "OTRSConnector"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:32
+msgid "Add web service"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-web-service.xml:34
+msgid ""
+"<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:40
+msgid "Import ready-to-run Web Service"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/import-example-web-service.xml:42
+msgid ""
+"<graphic fileref=\"screenshots/web-services/import-example-web-service.png\""
+" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:29
+msgid ""
+"To install one of these web services, go to the <emphasis>GenericInterface "
+"Web Service Management</emphasis> page and click on the <emphasis>Add web "
+"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Locate "
+"the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the"
+" provided web services from the drop-down menu, and click the "
+"<emphasis>Import ready-to-run Web Service</emphasis> button.  <placeholder "
+"type=\"figure\" id=\"1\"/> During the import process, OTRS takes care of "
+"creating the needed dynamic fields and/or any needed updates to the system "
+"configuration."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:48
+msgid ""
+"<emphasis role=\"bold\">Note:</emphasis> The ready-to-run Web Services may "
+"require additional feature add-ons to be installed (<emphasis "
+"role=\"bold\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis "
+"role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
 
 #. type: Content of: <section><title>

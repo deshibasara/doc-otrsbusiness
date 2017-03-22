@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-11-14 14:16+0000\n"
+"POT-Creation-Date: 2017-03-22 13:37+0100\n"
 "PO-Revision-Date: 2016-10-25 11:50+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otrs/OTRS/"
@@ -42,15 +42,32 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
+msgid "This work is copyrighted by OTRS AG."
+msgstr ""
+
+#. type: Content of: <book><bookinfo><legalnotice><para>
+#: en/book.xml:20
+#, fuzzy
+#| msgid ""
+#| "This work is copyrighted by OTRS AG. You may copy it in whole or in part "
+#| "as long as the copies retain this copyright statement."
 msgid ""
-"This work is copyrighted by OTRS AG. You may copy it in whole or in part as "
-"long as the copies retain this copyright statement."
+"You may copy it in whole or in part as long as the copies retain this "
+"copyright statement."
 msgstr ""
 "Este trabalho é registrado pela OTRS AG.  Você pode copiá-lo em todo ou em "
 "parte desde que mantenha esta declaração de direitos autorais."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:19
+#: en/book.xml:25
+msgid ""
+"All trade names are used without the guarantee for their free use and are "
+"possibly registered trade marks.  All products mentioned in this manual may "
+"be trade marks of the respective manufacturer."
+msgstr ""
+
+#. type: Content of: <book><bookinfo><legalnotice><para>
+#: en/book.xml:32
 msgid ""
 "The source code of this document can be found at <ulink url=\"https://otrs."
 "github.io\">github</ulink>, in the repository <ulink url=\"https://github."
@@ -64,28 +81,8 @@ msgstr ""
 "bem-vindas. Você pode auxiliar traduzindo-a para o seu idioma em  <ulink url="
 "\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
-#. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:27
-msgid ""
-"UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
-"registered trademark of Linus Torvalds.  MS-DOS, Windows, Windows 95, "
-"Windows 98, Windows NT, Windows 2000, Windows XP, Windows 2003, Windows "
-"Vista and Windows 7 are registered trademarks of Microsoft Corporation.  "
-"Other trademarks and registered trademarks are: SUSE and YaST of SUSE Linux "
-"GmbH, Red Hat and Fedora are registered trademarks of Red Hat, Inc.  "
-"Mandrake is a registered trademark of MandrakeSoft, SA.  Debian is a "
-"registered trademark of Software in the Public Interest, Inc.  MySQL and the "
-"MySQL Logo are registered trademarks of Oracle Corporation and/or its "
-"affiliates.  Mozilla Firefox is a registered trademark of the Mozilla "
-"Foundation.  Google Chrome is a registered trademark of Google Inc.  All "
-"trade names are used without the guarantee for their free use and are "
-"possibly registered trade marks.  OTRS AG essentially follows the notations "
-"of the manufacturers.  Other products mentioned in this manual may be "
-"trademarks of the respective manufacturer."
-msgstr ""
-
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:50
+#: en/book.xml:46
 msgid "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgstr ""
 "Características da <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
@@ -2676,7 +2673,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
-msgid "Import example process"
+msgid "Import ready-to-run process"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -2689,8 +2686,8 @@ msgstr ""
 #: en/content/features/import-example-process.xml:11
 msgid ""
 "On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
-"<emphasis>example process</emphasis> widget, where you can find some best "
-"practice example processes."
+"<emphasis>ready-to-run process</emphasis> widget, where you can find some "
+"best practice ready-to-run processes."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2699,8 +2696,8 @@ msgstr ""
 #| msgid ""
 #| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgid ""
-"The following example processes are available in the <emphasis role=\"bold"
-"\">OTRS Business Solution™</emphasis>:"
+"The following ready-to-run processes are available in the <emphasis role="
+"\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
 "Características da <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 
@@ -2748,7 +2745,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:60
-msgid "Import example process widget"
+msgid "Import ready-to-run process widget"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2767,9 +2764,9 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:67
 msgid ""
-"To install an example process, just select the desired process from the drop-"
-"down menu in the <emphasis>Example process</emphasis> widget and click the "
-"<emphasis>Import example process</emphasis> button."
+"To install a ready-to-run process, just select the desired process from the "
+"drop-down menu in the <emphasis>Ready-to-run process</emphasis> widget and "
+"click the <emphasis>Import ready-to-run process</emphasis> button."
 msgstr ""
 
 #. type: Content of: <section><section><para>
