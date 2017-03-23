@@ -3,10 +3,10 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-process">
-    <title>Import ready-to-run process</title>
+    <title>Futtatásra kész folyamat importálása</title>
 
     <section>
-        <title>Import</title>
+        <title>Importálás</title>
         <para>
             On the <emphasis>AdminProcessManagement</emphasis> screen you can find an
 <emphasis>ready-to-run process</emphasis> widget, where you can find some

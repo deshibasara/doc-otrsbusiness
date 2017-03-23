@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-22 13:37+0100\n"
-"PO-Revision-Date: 2017-03-22 12:37+0000\n"
+"POT-Creation-Date: 2017-03-23 08:37+0100\n"
+"PO-Revision-Date: 2017-03-23 07:37+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -40,14 +40,14 @@ msgstr "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> <dat
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
 msgid "This work is copyrighted by OTRS AG."
-msgstr ""
+msgstr "Dieses Werk ist geistiges Eigentum der OTRS AG."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:20
 msgid ""
 "You may copy it in whole or in part as long as the copies retain this "
 "copyright statement."
-msgstr ""
+msgstr "Es darf als Ganzes oder in Auszügen kopiert werden, vorausgesetzt, dieser Copyright-Vermerk befindet sich auf jeder Kopie."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:25
@@ -161,8 +161,8 @@ msgstr "<graphic fileref=\"screenshots/upgrading/UpgradingScreen.png\" scalefit=
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
 #: en/content/features/import-example-process.xml:61
-#: en/content/features/import-example-web-service.xml:33
-#: en/content/features/import-example-web-service.xml:41
+#: en/content/features/import-example-web-service.xml:37
+#: en/content/features/import-example-web-service.xml:49
 #: en/content/features/notifications.xml:23
 #: en/content/features/notifications.xml:45
 #: en/content/features/notifications.xml:56
@@ -209,6 +209,8 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
 #: en/content/features/chat.xml:397 en/content/features/chat.xml:458
 #: en/content/features/import-example-process.xml:59
+#: en/content/features/import-example-web-service.xml:35
+#: en/content/features/import-example-web-service.xml:47
 #: en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
@@ -968,10 +970,10 @@ msgstr "<graphic fileref=\"screenshots/chat/ChatNewRequestDetail.png\" scalefit=
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:356
 msgid ""
-"If you want to enter a chat, you can use the \"Accept\" button from the chat"
-" detail overlay box. The chat will then be removed from the list of "
-"requests, added to the list of your active chats and the customer/public "
-"user will receive a message that you've entered the chat."
+"If you want to enter a chat, you can use the <emphasis>Accept</emphasis> "
+"button from the chat detail overlay box. The chat will then be removed from "
+"the list of requests, added to the list of your active chats and the "
+"customer/public user will receive a message that you've entered the chat."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1190,7 +1192,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:466
 msgid ""
-"Every chat participant has colored icon(circle) before his/her name in the "
+"Every chat participant has colored icon (circle) before his/her name in the "
 "<emphasis>Chat widget</emphasis> header, which represents participant "
 "availability.  Icon color represents participant state as follows:"
 msgstr ""
@@ -1208,7 +1210,7 @@ msgstr ""
 #: en/content/features/chat.xml:471
 msgid ""
 "<placeholder type=\"inlinemediaobject\" id=\"0\"/> "
-"<emphasis>Active</emphasis> - participant is active(available and online)."
+"<emphasis>Active</emphasis> - participant is active (available and online)."
 msgstr ""
 
 #. type: Content of:
@@ -2227,13 +2229,13 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
 msgid "Import ready-to-run process"
-msgstr ""
+msgstr "Prozess zur sofortigen Nutzung importieren"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
 #: en/content/features/import-example-web-service.xml:9
 msgid "Import"
-msgstr ""
+msgstr "Importieren"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:11
@@ -2312,6 +2314,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:72
+#: en/content/features/import-example-web-service.xml:55
 msgid ""
 "During the import process, OTRS takes care of creating the needed dynamic "
 "fields and/or any needed updates to the system configuration."
@@ -2344,49 +2347,51 @@ msgstr ""
 msgid "OTRSConnector"
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><title>
-#: en/content/features/import-example-web-service.xml:32
-msgid "Add web service"
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:31
+msgid ""
+"To install one of these web services, go to the <emphasis>GenericInterface "
+"Web Service Management</emphasis> page and click on the <emphasis>Add web "
+"service</emphasis> button."
 msgstr ""
 
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:36
+msgid "Add web service"
+msgstr "Webservice hinzufügen"
+
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/import-example-web-service.xml:34
+#: en/content/features/import-example-web-service.xml:38
 msgid ""
 "<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:43
+msgid ""
+"Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one"
+" of the provided web services from the drop-down menu, and click the "
+"<emphasis>Import ready-to-run Web Service</emphasis> button."
+msgstr ""
+
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/import-example-web-service.xml:40
+#: en/content/features/import-example-web-service.xml:48
 msgid "Import ready-to-run Web Service"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/import-example-web-service.xml:42
+#: en/content/features/import-example-web-service.xml:50
 msgid ""
 "<graphic fileref=\"screenshots/web-services/import-example-web-service.png\""
 " scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
-#. type: Content of: <section><section><para>
-#: en/content/features/import-example-web-service.xml:29
+#. type: Content of: <section><section><note><para>
+#: en/content/features/import-example-web-service.xml:59
 msgid ""
-"To install one of these web services, go to the <emphasis>GenericInterface "
-"Web Service Management</emphasis> page and click on the <emphasis>Add web "
-"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Locate "
-"the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the"
-" provided web services from the drop-down menu, and click the "
-"<emphasis>Import ready-to-run Web Service</emphasis> button.  <placeholder "
-"type=\"figure\" id=\"1\"/> During the import process, OTRS takes care of "
-"creating the needed dynamic fields and/or any needed updates to the system "
-"configuration."
-msgstr ""
-
-#. type: Content of: <section><section><para>
-#: en/content/features/import-example-web-service.xml:48
-msgid ""
-"<emphasis role=\"bold\">Note:</emphasis> The ready-to-run Web Services may "
-"require additional feature add-ons to be installed (<emphasis "
+"The ready-to-run Web Services may require additional feature add-ons to be "
+"installed (<emphasis "
 "role=\"bold\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis "
 "role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
@@ -2980,8 +2985,8 @@ msgstr ""
 msgid ""
 "The video and audio calls feature of the <emphasis role=\"bold\">OTRS "
 "Business Solution</emphasis>™ provides real-time calls between two users "
-"right from the comfort of the OTRS front-end. The calls will be provided "
-"over a direct peer-to-peer connection established between two users, where "
+"right from the comfort of the OTRS frontend. The calls will be provided over"
+" a direct peer-to-peer connection established between two users, where "
 "possible. This feature depends heavily on the chat, which must be active for"
 " video and audio calls to be possible."
 msgstr ""
@@ -3040,8 +3045,8 @@ msgstr ""
 #: en/content/features/video-calls.xml:53
 msgid ""
 "You need a working chat setup in your system. Make sure to carefully read "
-"the <link linkend=\"chat-setup-availability\">\"Setup\"</link> section of "
-"the chat feature."
+"the <link linkend=\"chat-setup-availability\">Setup</link> section of the "
+"chat feature."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -3070,8 +3075,8 @@ msgstr ""
 msgid ""
 "To be available for video and audio calls, you have to make sure you are "
 "available for chats too. Please refer to the instructions in <link linkend"
-"=\"chat-setup-availability\">\"Agents: Set up Availability\"</link> for more"
-" information."
+"=\"chat-setup-availability\">Agents: Set up Availability</link> for more "
+"information."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -3082,20 +3087,21 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:71
 msgid ""
-"For a convenient way to start the calls, please activate the \"Online\" "
-"widget on the Dashboard."
+"For a convenient way to start the calls, please activate the "
+"<emphasis>Online</emphasis> widget on the Dashboard."
 msgstr ""
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:76
-msgid "Go to the Dashboard and expand the \"Settings\" widget."
+msgid ""
+"Go to the Dashboard and expand the <emphasis>Settings</emphasis> widget."
 msgstr ""
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:81
 msgid ""
-"Check the \"Online\" widget and make sure to click <emphasis>Save "
-"settings</emphasis>."
+"Check the <emphasis>Online</emphasis> widget and make sure to click "
+"<emphasis>Save settings</emphasis>."
 msgstr ""
 
 #. type: Content of:
@@ -3241,8 +3247,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:165
 msgid ""
-"To leave a call, simply click on the big red \"Close\" button. The other "
-"party will be notified."
+"To leave a call, simply click on the big red <emphasis>Close</emphasis> "
+"button. The other party will be notified."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -3343,7 +3349,8 @@ msgstr ""
 #: en/content/features/video-calls.xml:216
 msgid ""
 "To start a video or audio call with another agent, with whom you do not have"
-" an active chat, you can use the Online widget on the dashboard."
+" an active chat, you can use the <emphasis>Online</emphasis> widget on the "
+"dashboard."
 msgstr ""
 
 #. type: Content of:
@@ -3525,12 +3532,11 @@ msgstr ""
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:305
 msgid ""
-"STUN (Session Traversal Utilities for NAT) is a standardized set of methods "
-"and a network protocol to allow an end host to discover its public IP "
-"address if it is located behind a NAT. OTRS provides a cloud service with "
-"STUN to all users of the <emphasis role=\"bold\">OTRS Business "
-"Solution</emphasis>™, and this data is shared with the other party to allow "
-"the connection to be established."
+"STUN is a standardized set of methods and a network protocol to allow an end"
+" host to discover its public IP address if it is located behind a NAT. OTRS "
+"provides a cloud service with STUN to all users of the <emphasis "
+"role=\"bold\">OTRS Business Solution</emphasis>™, and this data is shared "
+"with the other party to allow the connection to be established."
 msgstr ""
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>

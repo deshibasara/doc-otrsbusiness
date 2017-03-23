@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Balázs Úr <urbalazs@gmail.com>, 2014-2015
+# Balázs Meskó <meskobalazs@gmail.com>, 2016
+# Balázs Úr <urbalazs@gmail.com>, 2014-2017
 # Martin Gruner <martin.gruner@otrs.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-22 13:37+0100\n"
-"PO-Revision-Date: 2016-10-25 11:50+0000\n"
+"POT-Creation-Date: 2017-03-23 08:37+0100\n"
+"PO-Revision-Date: 2017-03-23 07:37+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
@@ -40,21 +41,16 @@ msgstr ""
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
 msgid "This work is copyrighted by OTRS AG."
-msgstr ""
+msgstr "Ez a mű az OTRS AG szerzői joga alatt áll."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:20
-#, fuzzy
-#| msgid ""
-#| "This work is copyrighted by OTRS AG. You may copy it in whole or in part "
-#| "as long as the copies retain this copyright statement."
 msgid ""
 "You may copy it in whole or in part as long as the copies retain this "
 "copyright statement."
 msgstr ""
-"Ez a mű az OTRS AG szerzői joga alatt áll. Lemásolhatja részben vagy "
-"egészben mindaddig, amíg a másolat tartalmazza ezt a szerzői jogi "
-"nyilatkozatot."
+"Lemásolhatja részben vagy egészben mindaddig, amíg a másolat tartalmazza ezt "
+"a szerzői jogi nyilatkozatot."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:25
@@ -207,8 +203,8 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
 #: en/content/features/import-example-process.xml:61
-#: en/content/features/import-example-web-service.xml:33
-#: en/content/features/import-example-web-service.xml:41
+#: en/content/features/import-example-web-service.xml:37
+#: en/content/features/import-example-web-service.xml:49
 #: en/content/features/notifications.xml:23
 #: en/content/features/notifications.xml:45
 #: en/content/features/notifications.xml:56
@@ -255,6 +251,8 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
 #: en/content/features/chat.xml:397 en/content/features/chat.xml:458
 #: en/content/features/import-example-process.xml:59
+#: en/content/features/import-example-web-service.xml:35
+#: en/content/features/import-example-web-service.xml:47
 #: en/content/features/notifications.xml:21
 #: en/content/features/notifications.xml:43
 #: en/content/features/notifications.xml:54
@@ -1025,6 +1023,10 @@ msgid ""
 "able to use a chat icon next to their username in the customer information "
 "box in right sidebar (see figure below)."
 msgstr ""
+"A másik lehetőség, hogy a jegynagyításból hoz létre egy csevegést. Ha az "
+"ebben a jegyben kiválasztott ügyfél-felhasználó jelenleg elérhető, akkor "
+"képes lesz a felhasználónevük melletti csevegésikon használatára az "
+"ügyfélinformációs dobozban a jobb oldalsávban (lásd a lenti ábrát)."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:287
@@ -1046,11 +1048,14 @@ msgid ""
 "Additionally, you will be able to start chat with customer users by clicking "
 "on chat icons next to their name in the user online widget on the dashboard."
 msgstr ""
+"Továbbá képes lesz az ügyfél-felhasználókkal történő csevegés indítására a "
+"neveik melletti csevegésikonra kattintva a vezérlőpulton lévő elérhető "
+"felhasználók felületi elemben."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:298
 msgid "Starting an A2C chat from dashboard"
-msgstr ""
+msgstr "Ügyintéző-ügyfél csevegés indítása a vezérlőpultról"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/chat.xml:300
@@ -1058,6 +1063,8 @@ msgid ""
 "<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
 "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:306
@@ -1189,10 +1196,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:356
 msgid ""
-"If you want to enter a chat, you can use the \"Accept\" button from the chat "
-"detail overlay box. The chat will then be removed from the list of requests, "
-"added to the list of your active chats and the customer/public user will "
-"receive a message that you've entered the chat."
+"If you want to enter a chat, you can use the <emphasis>Accept</emphasis> "
+"button from the chat detail overlay box. The chat will then be removed from "
+"the list of requests, added to the list of your active chats and the "
+"customer/public user will receive a message that you've entered the chat."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1470,51 +1477,37 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:456
-#, fuzzy
-#| msgid "Agents: Set up Availability"
 msgid "User availability"
-msgstr "Ügyintézők: elérhetőség beállítása"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:466
 msgid ""
-"Every chat participant has colored icon(circle) before his/her name in the "
+"Every chat participant has colored icon (circle) before his/her name in the "
 "<emphasis>Chat widget</emphasis> header, which represents participant "
 "availability.  Icon color represents participant state as follows:"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:472
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-#| "\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatOnline.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:471
 msgid ""
 "<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Active</"
-"emphasis> - participant is active(available and online)."
+"emphasis> - participant is active (available and online)."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:482
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatAway.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:481
@@ -1527,16 +1520,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:493
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatInactive.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:492
@@ -1548,16 +1535,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:503
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatUnavailable.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatAgentToggleAvailability.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:502
@@ -1569,16 +1550,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:513
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-#| "\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatOffline.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:512
@@ -2770,13 +2745,13 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
 msgid "Import ready-to-run process"
-msgstr ""
+msgstr "Futtatásra kész folyamat importálása"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
 #: en/content/features/import-example-web-service.xml:9
 msgid "Import"
-msgstr ""
+msgstr "Importálás"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:11
@@ -2788,14 +2763,10 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
-#, fuzzy
-#| msgid ""
-#| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgid ""
 "The following ready-to-run processes are available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
-"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szolgáltatásai"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:18
@@ -2804,10 +2775,8 @@ msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:23
-#, fuzzy
-#| msgid "Contact Management"
 msgid "ITIL Incident Management"
-msgstr "Partnerkezelés"
+msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:28
@@ -2846,16 +2815,10 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-process.xml:62
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/process/import-example-process.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:67
@@ -2867,6 +2830,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:72
+#: en/content/features/import-example-web-service.xml:55
 msgid ""
 "During the import process, OTRS takes care of creating the needed dynamic "
 "fields and/or any needed updates to the system configuration."
@@ -2879,14 +2843,10 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
-#, fuzzy
-#| msgid ""
-#| "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
 msgid ""
 "There are three ready-to-run Web Services available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
-"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szolgáltatásai"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:15
@@ -2903,62 +2863,52 @@ msgstr ""
 msgid "OTRSConnector"
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><title>
-#: en/content/features/import-example-web-service.xml:32
-msgid "Add web service"
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:31
+msgid ""
+"To install one of these web services, go to the <emphasis>GenericInterface "
+"Web Service Management</emphasis> page and click on the <emphasis>Add web "
+"service</emphasis> button."
 msgstr ""
 
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/import-example-web-service.xml:36
+msgid "Add web service"
+msgstr "Webszolgáltatás hozzáadása"
+
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/import-example-web-service.xml:34
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+#: en/content/features/import-example-web-service.xml:38
 msgid ""
 "<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><para>
+#: en/content/features/import-example-web-service.xml:43
+msgid ""
+"Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one "
+"of the provided web services from the drop-down menu, and click the "
+"<emphasis>Import ready-to-run Web Service</emphasis> button."
+msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/import-example-web-service.xml:40
+#: en/content/features/import-example-web-service.xml:48
 msgid "Import ready-to-run Web Service"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/import-example-web-service.xml:42
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+#: en/content/features/import-example-web-service.xml:50
 msgid ""
 "<graphic fileref=\"screenshots/web-services/import-example-web-service.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/timeline-view/TimelineViewSwitch.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
-#. type: Content of: <section><section><para>
-#: en/content/features/import-example-web-service.xml:29
+#. type: Content of: <section><section><note><para>
+#: en/content/features/import-example-web-service.xml:59
 msgid ""
-"To install one of these web services, go to the <emphasis>GenericInterface "
-"Web Service Management</emphasis> page and click on the <emphasis>Add web "
-"service</emphasis> button.  <placeholder type=\"figure\" id=\"0\"/> Locate "
-"the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the "
-"provided web services from the drop-down menu, and click the "
-"<emphasis>Import ready-to-run Web Service</emphasis> button.  <placeholder "
-"type=\"figure\" id=\"1\"/> During the import process, OTRS takes care of "
-"creating the needed dynamic fields and/or any needed updates to the system "
-"configuration."
-msgstr ""
-
-#. type: Content of: <section><section><para>
-#: en/content/features/import-example-web-service.xml:48
-msgid ""
-"<emphasis role=\"bold\">Note:</emphasis> The ready-to-run Web Services may "
-"require additional feature add-ons to be installed (<emphasis role=\"bold"
-"\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis role=\"bold"
+"The ready-to-run Web Services may require additional feature add-ons to be "
+"installed (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
+"emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
 
@@ -3682,15 +3632,15 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/video-calls.xml:6
 msgid "Video and Audio Calls"
-msgstr ""
+msgstr "Video- és hanghívások"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/video-calls.xml:11
 msgid ""
 "The video and audio calls feature of the <emphasis role=\"bold\">OTRS "
 "Business Solution</emphasis>™ provides real-time calls between two users "
-"right from the comfort of the OTRS front-end. The calls will be provided "
-"over a direct peer-to-peer connection established between two users, where "
+"right from the comfort of the OTRS frontend. The calls will be provided over "
+"a direct peer-to-peer connection established between two users, where "
 "possible. This feature depends heavily on the chat, which must be active for "
 "video and audio calls to be possible."
 msgstr ""
@@ -3704,12 +3654,20 @@ msgid ""
 "versions of Mozilla Firefox and Google Chrome (for Chrome a <link linkend="
 "\"chrome-ssl-required\">HTTPS Enabled Web Server</link> is required)."
 msgstr ""
+"A video- és hanghívások egy viszonylag fiatal technológián, az úgynevezett "
+"WebRTC protokollkészleten alapulnak. A WebRTC API-k megvalósítása a modern "
+"böngészőkben folyamatos munkát igényel. Jelenleg az OTRS video- és "
+"hanghívásai csak a Mozilla Firefox és a Google Chrome legújabb verzióiban "
+"támogatottak (Chrome esetén <link linkend=\"chrome-ssl-required\">HTTPS-"
+"képes webkiszolgáló</link> szükséges)."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/video-calls.xml:23
 msgid ""
 "The following SysConfig configuration options are relevant for this feature."
 msgstr ""
+"A következő rendszerbeállítási konfigurációs lehetőségek fontosak ennél a "
+"funkciónál."
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/video-calls.xml:30
@@ -3718,11 +3676,14 @@ msgid ""
 "Please note that the same switch will control <link linkend=\"chat\">the "
 "chat</link> feature too."
 msgstr ""
+"Azt szabályozza, hogy a video- és hanghívás funkció engedélyezve legyen-e "
+"vagy sem. Ne feledje, hogy ugyanaz a kapcsoló fogja szabályozni a <link "
+"linkend=\"chat\">csevegés</link> funkciót is."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/video-calls.xml:35
 msgid "ChatEngine::PermissionGroup::VideoChatAgents"
-msgstr ""
+msgstr "ChatEngine::PermissionGroup::VideoChatAgents"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/video-calls.xml:38
@@ -3730,6 +3691,9 @@ msgid ""
 "Defines the group for the video and audio calling features. Only agents with "
 "permission in this group will be able to make video and audio calls."
 msgstr ""
+"Meghatározza a csoportot a video- és hanghívás funkciókhoz. Csak az ebben a "
+"csoportban jogosultsággal rendelkező ügyintézők lesznek képesek video- és "
+"hanghívásokat létesíteni."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/video-calls.xml:48
@@ -3737,24 +3701,26 @@ msgid ""
 "In order to be able to start video and audio calls, you need to setup "
 "certain things in your OTRS instance."
 msgstr ""
+"Annak érdekében, hogy képes legyen video- és hanghívásokat létrehozni, "
+"bizonyos dolgokat be kell állítania az OTRS példányában."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:51
 msgid "Chat Setup"
-msgstr ""
+msgstr "Csevegés beállítása"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:53
 msgid ""
 "You need a working chat setup in your system. Make sure to carefully read "
-"the <link linkend=\"chat-setup-availability\">\"Setup\"</link> section of "
-"the chat feature."
+"the <link linkend=\"chat-setup-availability\">Setup</link> section of the "
+"chat feature."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:57
 msgid "HTTPS Enabled Web Server"
-msgstr ""
+msgstr "HTTPS-képes webkiszolgáló"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:59
@@ -3765,49 +3731,57 @@ msgid ""
 "emphasis> config option to <emphasis>https</emphasis>, too. Setting up a web "
 "server to be accessible via HTTPS is outside of the scope of this manual."
 msgstr ""
+"Jelenleg a Google Chrome csak akkor fogja engedélyezni egy felhasználó "
+"adatfolyamaihoz történő hozzáférést, ha a webalkalmazások érvényes, aláírt "
+"tanúsítványokkal rendelkező HTTPS protokollon (SSL) keresztül vannak "
+"kiszolgálva. Győződjön meg arról, hogy beállította-e a <emphasis role=\"bold"
+"\">HttpType</emphasis> konfigurációs beállítást is <emphasis>https</"
+"emphasis> értékre. Egy webkiszolgáló beállítása úgy, hogy elérhető legyen "
+"HTTPS protokollon keresztül, túlmutat ennek a kézikönyvnek a hatókörén."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:63
 msgid "Availability for calls"
-msgstr ""
+msgstr "Elérhetőség hívásokhoz"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:65
 msgid ""
 "To be available for video and audio calls, you have to make sure you are "
 "available for chats too. Please refer to the instructions in <link linkend="
-"\"chat-setup-availability\">\"Agents: Set up Availability\"</link> for more "
+"\"chat-setup-availability\">Agents: Set up Availability</link> for more "
 "information."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:69
 msgid "Online User Dashboard Widget"
-msgstr ""
+msgstr "Elérhető felhasználó vezérlőpult felületi elem"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:71
 msgid ""
-"For a convenient way to start the calls, please activate the \"Online\" "
-"widget on the Dashboard."
+"For a convenient way to start the calls, please activate the "
+"<emphasis>Online</emphasis> widget on the Dashboard."
 msgstr ""
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:76
-msgid "Go to the Dashboard and expand the \"Settings\" widget."
+msgid ""
+"Go to the Dashboard and expand the <emphasis>Settings</emphasis> widget."
 msgstr ""
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:81
 msgid ""
-"Check the \"Online\" widget and make sure to click <emphasis>Save settings</"
-"emphasis>."
+"Check the <emphasis>Online</emphasis> widget and make sure to click "
+"<emphasis>Save settings</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:85
 msgid "Setting up the Online widget on Dashboard"
-msgstr ""
+msgstr "Az Elérhető felületi elem beállítása a vezérlőpulton"
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:87
@@ -3815,11 +3789,13 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/DashboardSettingsOnlineWidget.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/DashboardSettingsOnlineWidget.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:99
 msgid "Chat Requirement"
-msgstr ""
+msgstr "A csevegés követelményei"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:101
@@ -3828,6 +3804,9 @@ msgid ""
 "able to initiate calls inside and outside of chats. Customer users will be "
 "able to initiate calls only from an active chat."
 msgstr ""
+"A video- és hanghívások a meglévő csevegésekhez vannak kötve. Ügyintézőként "
+"képes lesz hívásokat indítani a csevegéseken belül és kívül. Az ügyfél-"
+"felhasználók csak egy aktív csevegésből lesznek képesek hívásokat indítani."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:104
@@ -3837,11 +3816,15 @@ msgid ""
 "call is terminated, these chats will remain active until they are closed "
 "manually."
 msgstr ""
+"Ha egy csevegés még nem létezik, akkor létre lesz hozva, amikor a hívást "
+"indítják. Ezekben az „eseti” csevegésekben a csevegési felek automatikusan "
+"csatlakozni fognak. Amikor egy hívás befejeződik, akkor ezek a csevegések "
+"továbbra is aktívak maradnak, amíg kézzel be nem zárják azokat."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:108
 msgid "Making the Video Calls"
-msgstr ""
+msgstr "A videohívások indítása"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:110
@@ -3849,11 +3832,13 @@ msgid ""
 "To make a call inside of an active chat, simply click on the small video "
 "camera button in the chat header."
 msgstr ""
+"Egy aktív csevegésen belüli hívás indításához egyszerűen kattintson a kis "
+"videokamera gombra a csevegés fejlécében."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:114
 msgid "Making a call inside the chat"
-msgstr ""
+msgstr "Hívás indítása a csevegésen belül"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:116
@@ -3861,6 +3846,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentChatVideoButtons.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentChatVideoButtons.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:121
@@ -3870,11 +3857,15 @@ msgid ""
 "microphones, you will be able to choose exactly the one you would like to "
 "use from the drop down list."
 msgstr ""
+"Egy felugró ablak fog megnyílni, és a böngészőjétől függően arra fogja "
+"kérni, hogy ossza meg a video és hangadatfolyamokat. A több kamerával és "
+"mikrofonnal rendelkező rendszereken képes lesz kiválasztani pontosan azt az "
+"eszközt, amelyet használni szeretne a legördülő listából."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:125
 msgid "Media Permission Request"
-msgstr ""
+msgstr "Médiajogosultsági kérés"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:127
@@ -3882,6 +3873,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/MediaPermissionRequest.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/MediaPermissionRequest.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:132
@@ -3890,11 +3883,14 @@ msgid ""
 "asking them to join. You will be notified of the progress via a message in "
 "the center of the screen."
 msgstr ""
+"Miután megerősítette a választását, egy meghívás kerül elküldésre a másik "
+"fél részére arra kérve, hogy csatlakozzon. Egy üzeneten keresztül értesítést "
+"fog kapni a folyamatról a képernyő közepén."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:136
 msgid "Waiting for the other party"
-msgstr ""
+msgstr "Várakozás a másik félre"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:138
@@ -3902,6 +3898,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoWaitingOtherParty.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoWaitingOtherParty.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:143
@@ -3909,11 +3907,13 @@ msgid ""
 "Please just wait a little while until the connection is established. Then "
 "you will be able to see and hear the other party."
 msgstr ""
+"Várjon egy kis ideig, amíg a kapcsolat létrejön. Ezután láthatja és "
+"hallhatja a másik felet."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:147
 msgid "Established Connection"
-msgstr ""
+msgstr "Kapcsolat létrehozva"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:149
@@ -3921,17 +3921,21 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoEstablishedConnection."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoEstablishedConnection."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:154
 msgid ""
 "To control your streams, simply toggle the mute buttons on the left side."
 msgstr ""
+"Az adatfolyamok vezérléséhez egyszerűen kapcsolja át a némítás gombokat a "
+"bal oldalon."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:158
 msgid "Mute Buttons"
-msgstr ""
+msgstr "Némítás gombok"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:160
@@ -3939,18 +3943,20 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoMuteButtons.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoMuteButtons.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:165
 msgid ""
-"To leave a call, simply click on the big red \"Close\" button. The other "
-"party will be notified."
+"To leave a call, simply click on the big red <emphasis>Close</emphasis> "
+"button. The other party will be notified."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:169
 msgid "Audio Calls"
-msgstr ""
+msgstr "Hanghívások"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:171
@@ -3960,6 +3966,10 @@ msgid ""
 "the call). The video stream will be muted for both parties by default, but "
 "they will be able to control it."
 msgstr ""
+"Az egyetlen különbség a video- és hanghívások között, hogy a hanghívások "
+"kezdetben el fogják némítani a video-adatfolyamot (amelyet később képes lesz "
+"bekapcsolni a hívás közben). A video-adatfolyamok alapértelmezetten mindkét "
+"fél részére el lesznek némítva, de képesek lesznek vezérelni azt."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:174
@@ -3969,11 +3979,15 @@ msgid ""
 "icon will reflect the state of their audio stream, and if they mute it too, "
 "it will be crossed."
 msgstr ""
+"Ha a másik fél elnémította a video-adatfolyamát, akkor a videó helyett egy "
+"nagy mikrofon ikont fog látni középen a nevükkel együtt. Az ikon a "
+"hangadatfolyamuk állapotát fogja kifejezni, és ha azt is elnémítják, akkor "
+"át lesz húzva."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:178
 msgid "Audio Only"
-msgstr ""
+msgstr "Csak hang"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:180
@@ -3981,11 +3995,13 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentAudioOnly.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentAudioOnly.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:186
 msgid "Call Invitations"
-msgstr ""
+msgstr "Híváskérelmek"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:188
@@ -3996,11 +4012,16 @@ msgid ""
 "modal dialog will be displayed on your screen, allowing you to accept or "
 "decline the invitation."
 msgstr ""
+"Ha elérhetőnek állította be magát a belső vagy külső csevegésekhez, akkor a "
+"video- és hanghívás felkérések automatikusan fogadásra kerülnek az ugyanazon "
+"felhasználói munkamenetben lévő aktív lapok egyikével. Amikor meghívást kap, "
+"akkor egy kizárólagos párbeszédablak fog megjelenni a képernyőn, amely "
+"lehetővé teszi a meghívás elfogadását vagy visszautasítását."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:192
 msgid "Call Invitation"
-msgstr ""
+msgstr "Híváskérelem"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:194
@@ -4008,6 +4029,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoInvitationDialog.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoInvitationDialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/video-calls.xml:199
@@ -4017,11 +4040,16 @@ msgid ""
 "has been granted to OTRS to trigger such notifications. A permission request "
 "will be displayed the first time you change your chat availability."
 msgstr ""
+"A böngészője akár hanggal együtt is megjeleníthet egy értesítést. Ez erősen "
+"függ a használt böngésző és operációs rendszer beállításaitól, illetve hogy "
+"az OTRS kapott-e jogosultságot az ilyen értesítések aktiválásához. Egy "
+"jogosultságkérés fog megjelenni, amikor első alkalommal megváltoztatja a "
+"csevegési elérhetőségét."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/video-calls.xml:203
 msgid "Notification Permission Request"
-msgstr ""
+msgstr "Értesítési jogosultság kérés"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/video-calls.xml:205
@@ -4030,28 +4058,32 @@ msgid ""
 "AgentNotificationPermissionRequest.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/"
+"AgentNotificationPermissionRequest.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:211
 msgid "Other ways to start Video and Audio Calls"
-msgstr ""
+msgstr "Más módok video- és hanghívások indításához"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:214
 msgid "<emphasis>Agent to Agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Ügyintéző - ügyintéző</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:216
 msgid ""
 "To start a video or audio call with another agent, with whom you do not have "
-"an active chat, you can use the Online widget on the dashboard."
+"an active chat, you can use the <emphasis>Online</emphasis> widget on the "
+"dashboard."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:220
 msgid "Online widget on the Dashboard"
-msgstr ""
+msgstr "Az Elérhető felületi elem a vezérlőpulton"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:222
@@ -4059,6 +4091,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/DashboardOnlineWidgetAgents.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/DashboardOnlineWidgetAgents.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:227
@@ -4068,6 +4102,11 @@ msgid ""
 "will open, asking you to share your media streams. The connection will be "
 "established afterwards."
 msgstr ""
+"Azoknak az ügyintézőknek, akik képesek hívásokat fogadni, egy videokamera és "
+"egy mikrofon ikon fog megjelenni a nevük mellett, amelyekre rá lehet "
+"kattintani. Amikor rákattint, akkor egy felugró ablak fog megnyílni azt "
+"kérve, hogy ossza meg a média adatfolyamait. A kapcsolat csak azután lesz "
+"kiépítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:230
@@ -4076,11 +4115,15 @@ msgid ""
 "ticket zoom. In this case, check will also be done to make sure the other "
 "agent is available, before allowing the call to be initiated."
 msgstr ""
+"Más ügyintézők hívása a tulajdonos és felelős mezőkön keresztül is "
+"lehetséges a jegynagyításban. Ebben az esetben is el lesz végezve egy "
+"ellenőrzés, hogy a másik ügyintéző biztosan elérhető-e, mielőtt lehetővé "
+"válna a hívásra történő felkérés."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:234
 msgid "Calling other agents from Ticket Zoom"
-msgstr ""
+msgstr "Más ügyintézők hívása a jegynagyításból"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:236
@@ -4088,11 +4131,13 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoTicketZoomOwner.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoTicketZoomOwner.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:242
 msgid "<emphasis>Agent to Customer</emphasis>"
-msgstr ""
+msgstr "<emphasis>Ügyintéző - ügyfél</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:244
@@ -4104,11 +4149,18 @@ msgid ""
 "popup window will open asking you to share your media streams. The "
 "connection will be established afterwards."
 msgstr ""
+"Egy olyan ügyféllel történő video- vagy hanghíváshoz, akivel nincs aktív "
+"csevegése, használhatja az ügyfél-felhasználó felületi elemet az "
+"ügyfélinformációs központban, amikor egy bizonyos ügyfelet néz. Az elérhető "
+"ügyfeleknek hívás ikonok lesznek a nevük mellett, amelyekre rá lehet "
+"kattintani. Amikor rákattint, akkor egy felugró ablak fog megnyílni azt "
+"kérve, hogy ossza meg a média adatfolyamait. A kapcsolat csak azután lesz "
+"kiépítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:248
 msgid "Making a call from Customer Information Center"
-msgstr ""
+msgstr "Hívás indítása az ügyfél-információs központból"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:250
@@ -4116,6 +4168,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoCIC.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoCIC.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:255
@@ -4125,11 +4179,15 @@ msgid ""
 "able to use call buttons next to their username in customer information box "
 "in right sidebar."
 msgstr ""
+"A másik lehetőség, hogy közvetlenül a jegynagyításból indít csevegést. Ha az "
+"ehhez a jegyhez hozzárendelt ügyfél-felhasználó jelenleg elérhető, akkor "
+"képes lesz a felhasználónevük melletti csevegésgombok használatára az "
+"ügyfélinformációs dobozban a jobb oldalsávban."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:259
 msgid "Making a call from Ticket Zoom"
-msgstr ""
+msgstr "Hívás indítása a jegynagyításból"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:261
@@ -4137,11 +4195,13 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/AgentVideoTicketZoomCustomer.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/AgentVideoTicketZoomCustomer.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:267
 msgid "<emphasis>Customer to Agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Ügyfél - ügyintéző</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:269
@@ -4150,11 +4210,14 @@ msgid ""
 "do this, customers can use the video and audio call links in the header of "
 "an active chat to initiate calls."
 msgstr ""
+"Az ügyfél-felhasználók csak egy aktív csevegésből lesznek képesek hívásokat "
+"kezdeményezni. Az ügyfelek egy aktív csevegés fejlécében lévő video- és "
+"hanghívás hivatkozásokat használhatják a hívások kezdeményezéséhez."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:273
 msgid "Starting a Video Call from Customer interface"
-msgstr ""
+msgstr "Videohívás indítása az ügyfélfelületről"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/features/video-calls.xml:275
@@ -4162,6 +4225,8 @@ msgid ""
 "<graphic fileref=\"screenshots/video-calls/CustomerVideoCall.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/video-calls/CustomerVideoCall.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:280
@@ -4171,6 +4236,10 @@ msgid ""
 "connection will be established if the agent on the other side accepts the "
 "request."
 msgstr ""
+"Amikor az ügyfelek rákattintanak egy hivatkozásra, akkor az ügyintézőkhöz "
+"hasonlóan jogosultságot fognak kérni tőlük a média adatfolyamaikhoz. Egy "
+"meghívás kerül elküldésre, és a kapcsolat akkor lesz kiépítve, ha a másik "
+"oldalon lévő ügyintéző elfogadja a kérést."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:283
@@ -4181,22 +4250,28 @@ msgid ""
 "Fullscreen. It will resize the video to the extent of the browser window. "
 "Other than that, everything as in the agent interface applies."
 msgstr ""
+"A video- és hanghívások közti különbség elenyésző az ügyfélfelület és az "
+"ügyintézői felület között. Az ügyfelek a hívásaikat ugyanazon az ablakon "
+"belül fogják látni mint a csevegéseket. Csak egyetlen további gomb lesz "
+"látható: teljes képernyő. Ez át fogja méretezni a videót a böngészőablak "
+"méretére. Ezen kívül minden ugyanúgy működik mint az ügyintézői felületen."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:287
 msgid "<emphasis>Public to Agent</emphasis>"
-msgstr ""
+msgstr "<emphasis>Nyilvános felhasználó - ügyintéző</emphasis>"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:289
 msgid ""
 "Users of the public interface are not able to make audio and video calls."
 msgstr ""
+"A nyilvános felület felhasználói nem tudnak hang- és videohívásokat indítani."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/video-calls.xml:297
 msgid "Connection"
-msgstr ""
+msgstr "Kapcsolat"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/video-calls.xml:299
@@ -4207,21 +4282,28 @@ msgid ""
 "and can advertise this to the other party. To this end, there are several "
 "mechanisms in place to aid in connecting."
 msgstr ""
+"A legjobb forgatókönyv esetén a video- és hanghívások közvetlenül a "
+"partnerek közti kapcsolaton keresztül lesznek átküldve a felhasználók "
+"böngészői között. A követelmény az, hogy a felhasználó hálózata "
+"engedélyezzen egy magas porton keresztüli kapcsolatot, amelyet a WebRTC "
+"használ, és hirdethesse azt a másik fél számára. Ehhez a végződéshez számos "
+"mechanizmus működik, hogy segítsen a kapcsolódásban."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:303
 msgid "<emphasis>STUN (Session Traversal Utilities for NAT)</emphasis>"
 msgstr ""
+"<emphasis>STUN (Session Traversal Utilities for NAT - munkamenet-bejárási "
+"segédprogramok NAT-hoz)</emphasis>"
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:305
 msgid ""
-"STUN (Session Traversal Utilities for NAT) is a standardized set of methods "
-"and a network protocol to allow an end host to discover its public IP "
-"address if it is located behind a NAT. OTRS provides a cloud service with "
-"STUN to all users of the <emphasis role=\"bold\">OTRS Business Solution</"
-"emphasis>™, and this data is shared with the other party to allow the "
-"connection to be established."
+"STUN is a standardized set of methods and a network protocol to allow an end "
+"host to discover its public IP address if it is located behind a NAT. OTRS "
+"provides a cloud service with STUN to all users of the <emphasis role=\"bold"
+"\">OTRS Business Solution</emphasis>™, and this data is shared with the "
+"other party to allow the connection to be established."
 msgstr ""
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
@@ -4230,11 +4312,16 @@ msgid ""
 "In case of a connection via STUN, only the connection data is stored on the "
 "OTRS servers, the connection itself is still directly between two users."
 msgstr ""
+"Egy STUN-on keresztüli kapcsolat esetén csak a kapcsolódási adatok vannak az "
+"OTRS kiszolgálókon tárolva, maga a kapcsolat továbbra is közvetlenül a két "
+"felhasználó között van."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:312
 msgid "<emphasis>TURN (Traversal Using Relays around NAT) over UDP</emphasis>"
 msgstr ""
+"<emphasis>TURN (Traversal Using Relays around NAT - továbbítókat használó "
+"bejárás NAT körül) UDP fölött</emphasis>"
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:314
@@ -4244,6 +4331,11 @@ msgid ""
 "service which can help clients on networks masqueraded by symmetric NAT "
 "devices and it supports the connection of a user behind a NAT."
 msgstr ""
+"A TURN egy olyan protokoll, amely segít a hálózati címfordítók vagy tűzfalak "
+"bejárásában a multimédiás alkalmazásoknál. Az OTRS biztosít TURN "
+"felhőszolgáltatást is, amely segíthet az ügyfeleknek a szimmetrikus NAT "
+"eszközök által álcázott hálózatoknál, és támogatja a NAT mögötti felhasználó "
+"kapcsolatát."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:317
@@ -4254,11 +4346,17 @@ msgid ""
 "encrypted and secured by often changed credentials, which are provided "
 "automatically."
 msgstr ""
+"Egy TURN-kiszolgálón keresztül kiépített kapcsolat esetén a média "
+"adatfolyamok a kiszolgálón keresztül lesznek átvezetve (mint egy proxy "
+"használatakor). Ebben a helyzetben az összes csomag biztonságosan lesz "
+"továbbítva a másik oldalra. A TURN-kiszolgálóhoz való hozzáférés gyakran "
+"megváltoztatott hitelesítési adatokkal van titkosítva és biztosítva, amelyet "
+"automatikusan szolgáltatnak."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:321
 msgid "<emphasis>TURN over TCP</emphasis>"
-msgstr ""
+msgstr "<emphasis>TURN TCP fölött</emphasis>"
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:323
@@ -4268,6 +4366,11 @@ msgid ""
 "protocol for transmitting media packets, it's a last resort in an effort to "
 "connect two users and share their streams."
 msgstr ""
+"Abban az esetben, ha az összes UDP forgalom blokkolva van a két felhasználó "
+"között, akkor a TCP fölötti TURN-kiszolgáló a legvégső lehetőség egy sikeres "
+"kapcsolat kiépítéséhez. Ugyan a TCP nem ideális protokoll a médiacsomagok "
+"átviteléhez, de ez a legvégső lehetőség annak érdekében, hogy két "
+"felhasználót összekapcsoljon, és megossza az adatfolyamaikat."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:326
@@ -4278,3 +4381,8 @@ msgid ""
 "different geographic locations, in order to provide the best possible "
 "throughput."
 msgstr ""
+"Az UDP fölötti TURN-höz hasonlóan a média adatfolyamok a kiszolgálón "
+"keresztül lesznek átvezetve és a másik oldalra átküldve. Az összes STUN és "
+"TURN szolgáltatás infrastruktúrája igény szerint erősen skálázható, és akár "
+"különböző földrajzi helyeknél is alkalmazható azért, hogy a lehető legjobb "
+"átmenő forgalmat biztosítsa."

@@ -10,7 +10,7 @@
         <para>
             The video and audio calls feature of the <emphasis role="bold">OTRS Business
 Solution</emphasis>™ provides real-time calls between two users right from
-the comfort of the OTRS front-end. The calls will be provided over a direct
+the comfort of the OTRS frontend. The calls will be provided over a direct
 peer-to-peer connection established between two users, where possible. This
 feature depends heavily on the chat, which must be active for video and
 audio calls to be possible.
@@ -64,8 +64,8 @@ certain things in your OTRS instance.
             <title>Chat Setup</title>
             <para>
                 You need a working chat setup in your system. Make sure to carefully read
-the <link linkend="chat-setup-availability">"Setup"</link> section of the
-chat feature.
+the <link linkend="chat-setup-availability">Setup</link> section of the chat
+feature.
             </para>
         </section>
         <section id="chrome-ssl-required">
@@ -84,26 +84,26 @@ scope of this manual.
             <para>
                 To be available for video and audio calls, you have to make sure you are
 available for chats too. Please refer to the instructions in <link
-linkend="chat-setup-availability">"Agents: Set up Availability"</link> for
+linkend="chat-setup-availability">Agents: Set up Availability</link> for
 more information.
             </para>
         </section>
         <section>
             <title>Online User Dashboard Widget</title>
             <para>
-                For a convenient way to start the calls, please activate the "Online" widget
-on the Dashboard.
+                For a convenient way to start the calls, please activate the
+<emphasis>Online</emphasis> widget on the Dashboard.
             </para>
             <orderedlist>
                 <listitem>
                     <para>
-                        Go to the Dashboard and expand the "Settings" widget.
+                        Go to the Dashboard and expand the <emphasis>Settings</emphasis> widget.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Check the "Online" widget and make sure to click <emphasis>Save
-settings</emphasis>.
+                        Check the <emphasis>Online</emphasis> widget and make sure to click
+<emphasis>Save settings</emphasis>.
                     </para>
                     <para>
                         <figure>
@@ -194,8 +194,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                To leave a call, simply click on the big red "Close" button. The other party
-will be notified.
+                To leave a call, simply click on the big red <emphasis>Close</emphasis>
+button. The other party will be notified.
             </para>
         </section>
         <section>
@@ -258,7 +258,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     <para><emphasis>Agent to Agent</emphasis></para>
                     <para>
                         To start a video or audio call with another agent, with whom you do not have
-an active chat, you can use the Online widget on the dashboard.
+an active chat, you can use the <emphasis>Online</emphasis> widget on the
+dashboard.
                     </para>
                     <para>
                         <figure>
@@ -368,12 +369,11 @@ mechanisms in place to aid in connecting.
             <listitem>
                 <para><emphasis>STUN (Session Traversal Utilities for NAT)</emphasis></para>
                 <para>
-                    STUN (Session Traversal Utilities for NAT) is a standardized set of methods
-and a network protocol to allow an end host to discover its public IP
-address if it is located behind a NAT. OTRS provides a cloud service with
-STUN to all users of the <emphasis role="bold">OTRS Business
-Solution</emphasis>™, and this data is shared with the other party to allow
-the connection to be established.
+                    STUN is a standardized set of methods and a network protocol to allow an end
+host to discover its public IP address if it is located behind a NAT. OTRS
+provides a cloud service with STUN to all users of the <emphasis
+role="bold">OTRS Business Solution</emphasis>™, and this data is shared with
+the other party to allow the connection to be established.
                 </para>
                 <para>
                     In case of a connection via STUN, only the connection data is stored on the
