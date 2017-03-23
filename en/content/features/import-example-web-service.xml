@@ -26,28 +26,39 @@
                     </para>
                 </listitem>
             </itemizedlist>
+        </para>
+        <para>
             To install one of these web services, go to the <emphasis>GenericInterface Web Service Management</emphasis> page
             and click on the <emphasis>Add web service</emphasis> button.
+        </para>
+        <para>
             <figure>
                 <title>Add web service</title>
                 <screenshot>
                     <graphic fileref="screenshots/web-services/web-service-management.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
+        </para>
+        <para>
             Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the provided web services from the drop-down menu, and click
             the <emphasis>Import ready-to-run Web Service</emphasis> button.
+        </para>
+        <para>
             <figure>
                 <title>Import ready-to-run Web Service</title>
                 <screenshot>
                     <graphic fileref="screenshots/web-services/import-example-web-service.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
-            During the import process, OTRS takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.
         </para>
         <para>
-            <emphasis role="bold">Note:</emphasis>
-            The ready-to-run Web Services may require additional feature add-ons to be installed (<emphasis role="bold">OTRSGenericInterfaceInvokerTicket</emphasis>
-            and <emphasis role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).
+            During the import process, OTRS takes care of creating the needed dynamic fields and/or any needed updates to the system configuration.
         </para>
+        <note>
+            <para>
+                The ready-to-run Web Services may require additional feature add-ons to be installed (<emphasis role="bold">OTRSGenericInterfaceInvokerTicket</emphasis>
+                and <emphasis role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).
+            </para>
+        </note>
     </section>
 </section>

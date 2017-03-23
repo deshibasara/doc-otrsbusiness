@@ -353,7 +353,7 @@
                 </figure>
             </para>
             <para>
-                If you want to enter a chat, you can use the "Accept" button from the chat detail overlay box. The chat will then be removed from the list of requests, added to the list of your active chats and the customer/public user will receive a message that you've entered the chat.
+                If you want to enter a chat, you can use the <emphasis>Accept</emphasis> button from the chat detail overlay box. The chat will then be removed from the list of requests, added to the list of your active chats and the customer/public user will receive a message that you've entered the chat.
             </para>
         </section>
 
@@ -463,7 +463,7 @@
                 </figure>
             </para>
             <para>
-                Every chat participant has colored icon(circle) before his/her name in the <emphasis>Chat widget</emphasis> header, which represents participant availability.
+                Every chat participant has colored icon (circle) before his/her name in the <emphasis>Chat widget</emphasis> header, which represents participant availability.
                 Icon color represents participant state as follows:
                 <itemizedlist>
                     <listitem>
@@ -473,7 +473,7 @@
                                     <imagedata fileref="screenshots/chat/ChatOnline.png"  contentdepth="5%"/>
                                 </imageobject>
                             </inlinemediaobject>
-                            <emphasis>Active</emphasis> - participant is active(available and online).
+                            <emphasis>Active</emphasis> - participant is active (available and online).
                         </para>
                     </listitem>
                     <listitem>
