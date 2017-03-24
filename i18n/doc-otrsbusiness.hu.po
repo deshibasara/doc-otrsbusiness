@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-23 08:37+0100\n"
-"PO-Revision-Date: 2017-03-23 07:37+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"PO-Revision-Date: 2017-03-23 21:48+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -59,6 +59,9 @@ msgid ""
 "possibly registered trade marks.  All products mentioned in this manual may "
 "be trade marks of the respective manufacturer."
 msgstr ""
+"Minden márkanév a szabad felhasználásra vonatkozó garancia nélkül kerül "
+"felhasználásra, és lehetséges bejegyzett védjegyek lehetnek. Az ebben a "
+"kézikönyvben említett összes termék az illető gyártó védjegyei lehetnek."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:32
@@ -1201,6 +1204,11 @@ msgid ""
 "the list of requests, added to the list of your active chats and the "
 "customer/public user will receive a message that you've entered the chat."
 msgstr ""
+"Ha be szeretne lépni egy csevegésbe, akkor használhatja az "
+"<emphasis>Elfogadás</emphasis> gombot a csevegésrészletek rátét dobozból. "
+"Ezután a csevegés el lesz távolítva a kérések listájából, hozzá lesz adva az "
+"aktív csevegései listájához, és az ügyfél vagy a nyilvános felhasználó egy "
+"üzenetet fog kapni arról, hogy belépett a csevegésbe."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:361
@@ -1478,7 +1486,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:456
 msgid "User availability"
-msgstr ""
+msgstr "Felhasználó elérhetősége"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:466
@@ -1487,6 +1495,10 @@ msgid ""
 "<emphasis>Chat widget</emphasis> header, which represents participant "
 "availability.  Icon color represents participant state as follows:"
 msgstr ""
+"Minden csevegésrésztvevő rendelkezik egy színes ikonnal (körrel) a neve "
+"előtt a <emphasis>Csevegés felületi elem</emphasis> fejlécében, amely a "
+"résztvevő elérhetőségét ábrázolja. Az ikon színe a következőképpen ábrázolja "
+"a résztvevő állapotát:"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:472
@@ -1494,6 +1506,8 @@ msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatOnline.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOnline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:471
@@ -1501,6 +1515,8 @@ msgid ""
 "<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Active</"
 "emphasis> - participant is active (available and online)."
 msgstr ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Aktív</"
+"emphasis> - a résztvevő aktív (elérhető és kapcsolatban van)."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:482
@@ -1508,6 +1524,8 @@ msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatAway.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatAway.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:481
@@ -1517,6 +1535,10 @@ msgid ""
 "server from this user for some time - default 5 minutes, see ChatEngine::"
 "AgentOnlineThreshold)."
 msgstr ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Távol</"
+"emphasis> - a résztvevő távol van (elérhető, de nem történt kérésküldés a "
+"kiszolgálónak ettől a felhasználótól egy ideje - alapértelmezetten 5 perce, "
+"lásd: ChatEngine::AgentOnlineThreshold)."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:493
@@ -1524,6 +1546,8 @@ msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatInactive.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatInactive.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:492
@@ -1532,6 +1556,9 @@ msgid ""
 "emphasis> - participant is inactive (chat request is not accepted yet or "
 "participant left the chat)."
 msgstr ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Inaktív</"
+"emphasis> - a résztvevő inaktív (a csevegéskérés még nem lett elfogadva vagy "
+"a résztvevő elhagyta a csevegést)."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:503
@@ -1539,6 +1566,8 @@ msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatUnavailable.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatUnavailable.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:502
@@ -1547,6 +1576,9 @@ msgid ""
 "emphasis> - participant is unavailable (set via <emphasis>Availability</"
 "emphasis> button)."
 msgstr ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Nem érhető el</"
+"emphasis> - a résztvevő nem érhető el (az <emphasis>Elérhetőség</emphasis> "
+"gombon keresztül beállítva)."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para><inlinemediaobject>
 #: en/content/features/chat.xml:513
@@ -1554,6 +1586,8 @@ msgid ""
 "<imageobject > <imagedata fileref=\"screenshots/chat/ChatOffline.png\" "
 "contentdepth=\"5%\"/> </imageobject>"
 msgstr ""
+"<imageobject > <imagedata fileref=\"screenshots/chat/ChatOffline.png\" "
+"contentdepth=\"5%\"/> </imageobject>"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:512
@@ -1561,18 +1595,18 @@ msgid ""
 "<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Offline</"
 "emphasis> - participant has logout or session has expired."
 msgstr ""
+"<placeholder type=\"inlinemediaobject\" id=\"0\"/> <emphasis>Kilépett</"
+"emphasis> - a résztvevő kijelentkezett vagy a munkamenet lejárt."
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
 msgid "The Dynamic Field \"Contact with Data\""
-msgstr "Az „adatokkal rendelkező partner” dinamikus mező"
+msgstr "A „partneradatok” dinamikus mező"
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:9
 msgid "This feature allows to add contacts with data to tickets."
-msgstr ""
-"Ez a funkció lehetővé teszi az adatokkal rendelkező partnerek hozzáadását a "
-"jegyekhez."
+msgstr "Ez a funkció lehetővé teszi a partneradatok hozzáadását a jegyekhez."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:15
@@ -1587,10 +1621,10 @@ msgid ""
 "a new data source. The name of the dynamic field will become the name of the "
 "data source, as they are both the same."
 msgstr ""
-"Az adatforrások ennél a funkciónál az új „Adatokkal rendelkező partner” "
-"típus dinamikus mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a "
-"típusnak minden dinamikus mezője egy új adatforrás. A dinamikus mező neve "
-"lesz az adatforrás neve, mivel mindketten ugyanazok."
+"Az adatforrások ennél a funkciónál az új „partneradatok” típus dinamikus "
+"mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a típusnak minden "
+"dinamikus mezője egy új adatforrás. A dinamikus mező neve lesz az adatforrás "
+"neve, mivel mindketten ugyanazok."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:23
@@ -1650,9 +1684,9 @@ msgid ""
 "After having at least one data source (Contact with data Dynamic Field) "
 "defined, contacts information can be added to the source to populate it."
 msgstr ""
-"Miután rendelkezik legalább egy meghatározott adatforrással (adatokkal "
-"rendelkező partner dinamikus mező), a partnerek információi hozzáadhatók a "
-"forráshoz a kitöltésükhöz."
+"Miután rendelkezik legalább egy meghatározott adatforrással (partneradatok "
+"dinamikus mező), a partnerek információi hozzáadhatók a forráshoz a "
+"kitöltésükhöz."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:53
@@ -1676,7 +1710,7 @@ msgid ""
 msgstr ""
 "A partner kezelése (hozzáadás vagy frissítés) az adatforrásoknál egy "
 "speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni "
-"(Partnerek adatokkal szerkesztése) a fő navigációs sávon."
+"(Partneradatok szerkesztése) a fő navigációs sávon."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:64
@@ -1691,10 +1725,10 @@ msgid ""
 "ticket create or ticket action screen where the dynamic filed has been "
 "previously configured."
 msgstr ""
-"Minden egyes beállított adatokkal rendelkező partner dinamikus mezőnél a "
-"kifejezetten ehhez a dinamikus mezőhöz (vagy adatforráshoz) létrehozott "
-"partner bármely olyan jegylétrehozás vagy jegyművelet képernyőről "
-"kiválasztható, ahol a dinamikus mező előzőleg be lett állítva."
+"Minden egyes beállított partneradatok dinamikus mezőnél a kifejezetten ehhez "
+"a dinamikus mezőhöz (vagy adatforráshoz) létrehozott partner bármely olyan "
+"jegylétrehozás vagy jegyművelet képernyőről kiválasztható, ahol a dinamikus "
+"mező előzőleg be lett állítva."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:71
@@ -1779,15 +1813,12 @@ msgstr "Használat"
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:115
 msgid "An exemplary usage of contacts with data is as follows:"
-msgstr ""
-"Az adatokkal rendelkező partnerek egy példaszerű használata a "
-"következőképpen lehet:"
+msgstr "A partneradatok egy példaszerű használata a következőképpen lehet:"
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:120
 msgid "Create a new dynamic field of type 'Contact with data'."
-msgstr ""
-"Hozzon létre egy új „Adatokkal rendelkező partner” típusú dinamikus mezőt."
+msgstr "Hozzon létre egy új „partneradatok” típusú dinamikus mezőt."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:125
@@ -1796,8 +1827,7 @@ msgid ""
 "are required for any Contact with data Dynamic Field."
 msgstr ""
 "Állítsa be a lehetséges partner attribútumokat (lehetséges értékeket). A "
-"„Name” és a „ValidID” kötelezők minden adatokkal rendelkező partner "
-"dinamikus mezőnél."
+"„Name” és a „ValidID” kötelezők minden partneradatok dinamikus mezőnél."
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:131
@@ -1853,8 +1883,8 @@ msgid ""
 "main navigation bar."
 msgstr ""
 "Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan "
-"létrehozott adatforrásban a „Jegyek” → „Adatokkal rendelkező partnerek "
-"szerkesztése” képernyő használatával a fő navigációs sávról."
+"létrehozott adatforrásban a „Jegyek” → „Partneradatok szerkesztése” képernyő "
+"használatával a fő navigációs sávról."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:173
@@ -2760,6 +2790,9 @@ msgid ""
 "<emphasis>ready-to-run process</emphasis> widget, where you can find some "
 "best practice ready-to-run processes."
 msgstr ""
+"Az <emphasis>AdminProcessManagement</emphasis> képernyőn található egy "
+"<emphasis>futtatásra kész folyamat</emphasis> felületi elem, ahol "
+"megtalálhat néhány legjobb gyakorlat szerinti futtatásra kész folyamatot."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
@@ -2767,51 +2800,53 @@ msgid ""
 "The following ready-to-run processes are available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
+"A következő futtatásra kész folyamatok érhetők el az <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:18
 msgid "Conference Room Reservation"
-msgstr ""
+msgstr "Konferenciaszoba lefoglalás"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:23
 msgid "ITIL Incident Management"
-msgstr ""
+msgstr "ITIL incidensmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:28
 msgid "Office Materials Procurement"
-msgstr ""
+msgstr "Irodai anyagok beszerzése"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:33
 msgid "Order Request Management"
-msgstr ""
+msgstr "Megrendelésmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:38
 msgid "Release And Deployment Management"
-msgstr ""
+msgstr "Kiadás- és üzembeállítás-menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:43
 msgid "Request For Leave Management"
-msgstr ""
+msgstr "Eltávozási kérelem menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:48
 msgid "Start RMA"
-msgstr ""
+msgstr "RMA indítása"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:53
 msgid "Travel Expense"
-msgstr ""
+msgstr "Útiköltség"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:60
 msgid "Import ready-to-run process widget"
-msgstr ""
+msgstr "Futtatásra kész folyamat importálása felületi elem"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-process.xml:62
@@ -2819,6 +2854,8 @@ msgid ""
 "<graphic fileref=\"screenshots/process/import-example-process.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/process/import-example-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:67
@@ -2827,6 +2864,10 @@ msgid ""
 "drop-down menu in the <emphasis>Ready-to-run process</emphasis> widget and "
 "click the <emphasis>Import ready-to-run process</emphasis> button."
 msgstr ""
+"Egy futtatásra kész folyamat telepítéséhez egyszerűen válassza ki a kívánt "
+"folyamatot a legördülő menüből a <emphasis>Futtatásra kész folyamat</"
+"emphasis> felületi elemben, és kattintson a <emphasis>Futtatásra kész "
+"folyamat importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:72
@@ -2835,11 +2876,13 @@ msgid ""
 "During the import process, OTRS takes care of creating the needed dynamic "
 "fields and/or any needed updates to the system configuration."
 msgstr ""
+"Az importálási folyamat során az OTRS gondoskodik a szükséges dinamikus "
+"mezők létrehozásáról és/vagy a szükséges rendszerbeállítások frissítéséről."
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-web-service.xml:6
 msgid "Import ready-to-run Web Services"
-msgstr ""
+msgstr "Futtatásra kész webszolgáltatások importálása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
@@ -2847,21 +2890,23 @@ msgid ""
 "There are three ready-to-run Web Services available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
+"Három futtatásra kész webszolgáltatás érhető el az <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:15
 msgid "BugzillaConnector"
-msgstr ""
+msgstr "BugzillaConnector"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:20
 msgid "JIRAConnector"
-msgstr ""
+msgstr "JIRAConnector"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:25
 msgid "OTRSConnector"
-msgstr ""
+msgstr "OTRSConnector"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:31
@@ -2870,6 +2915,9 @@ msgid ""
 "Web Service Management</emphasis> page and click on the <emphasis>Add web "
 "service</emphasis> button."
 msgstr ""
+"Ezen webszolgáltatások egyikének telepítéséhez menjen az <emphasis>Általános "
+"felület webszolgáltatás kezelés</emphasis> oldalra, és kattintson a "
+"<emphasis>Webszolgáltatás hozzáadása</emphasis> gombra."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-web-service.xml:36
@@ -2882,6 +2930,8 @@ msgid ""
 "<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/web-services/web-service-management.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:43
@@ -2890,11 +2940,15 @@ msgid ""
 "of the provided web services from the drop-down menu, and click the "
 "<emphasis>Import ready-to-run Web Service</emphasis> button."
 msgstr ""
+"Keresse meg a <emphasis>Futtatásra kész webszolgáltatások</emphasis> "
+"felületi elemet, válassza ki a felajánlott webszolgáltatások egyikét a "
+"legördülő menüből, és kattintson a <emphasis>Futtatásra kész webszolgáltatás "
+"importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-web-service.xml:48
 msgid "Import ready-to-run Web Service"
-msgstr ""
+msgstr "Futtatásra kész webszolgáltatás importálása"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-web-service.xml:50
@@ -2902,6 +2956,8 @@ msgid ""
 "<graphic fileref=\"screenshots/web-services/import-example-web-service.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/web-services/import-example-web-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/import-example-web-service.xml:59
@@ -2911,6 +2967,10 @@ msgid ""
 "emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
+"A futtatásra kész webszolgáltatások további funkció-kiegészítők telepítését "
+"igényelhetik (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
+"emphasis> és <emphasis role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</"
+"emphasis>)."
 
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6
@@ -3644,6 +3704,13 @@ msgid ""
 "possible. This feature depends heavily on the chat, which must be active for "
 "video and audio calls to be possible."
 msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ video- és "
+"hanghívás funkciója valós idejű hívásokat biztosít két felhasználó között "
+"közvetlenül az OTRS előtétprogram megszokott környezetéből. A hívásokat a "
+"két felhasználó között kiépített közvetlen egyenrangú kapcsolattal fogja "
+"biztosítani, ahol ez lehetséges. Ez a funkció erősen függ a csevegéstől, "
+"amelynek aktívnak kell lennie a video- és hanghívásokhoz, hogy lehetséges "
+"legyen."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/video-calls.xml:15
@@ -3716,6 +3783,9 @@ msgid ""
 "the <link linkend=\"chat-setup-availability\">Setup</link> section of the "
 "chat feature."
 msgstr ""
+"Szüksége van egy működő csevegőbeállításra a rendszerén. Győződjön meg "
+"arról, hogy alaposan elolvasta-e a csevegés funkció <link linkend=\"chat-"
+"setup-availability\">beállítás</link> szakaszát."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:57
@@ -3752,6 +3822,10 @@ msgid ""
 "\"chat-setup-availability\">Agents: Set up Availability</link> for more "
 "information."
 msgstr ""
+"Ahhoz, hogy elérhető legyen video- és hanghívásokhoz, meg kell győződnie "
+"arról, hogy elérhető-e a csevegésekhez is. További információkért nézze meg "
+"az utasításokat az <link linkend=\"chat-setup-availability\">Ügyintézők: "
+"elérhetőség beállítása</link> részben."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:69
@@ -3764,12 +3838,16 @@ msgid ""
 "For a convenient way to start the calls, please activate the "
 "<emphasis>Online</emphasis> widget on the Dashboard."
 msgstr ""
+"A hívások indításának kényelmes módjához kapcsolja be az <emphasis>Elérhető</"
+"emphasis> felületi elemet a vezérlőpulton."
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:76
 msgid ""
 "Go to the Dashboard and expand the <emphasis>Settings</emphasis> widget."
 msgstr ""
+"Menjen a vezérlőpultra, és nyissa ki a <emphasis>Beállítások</emphasis> "
+"felületi elemet."
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para>
 #: en/content/features/video-calls.xml:81
@@ -3777,6 +3855,8 @@ msgid ""
 "Check the <emphasis>Online</emphasis> widget and make sure to click "
 "<emphasis>Save settings</emphasis>."
 msgstr ""
+"Jelölje be az <emphasis>Elérhető</emphasis> felületi elemet, és ne felejtsen "
+"el rákattintani a <emphasis>Beállítások mentése</emphasis> gombra."
 
 #. type: Content of: <section><section><section><orderedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:85
@@ -3952,6 +4032,8 @@ msgid ""
 "To leave a call, simply click on the big red <emphasis>Close</emphasis> "
 "button. The other party will be notified."
 msgstr ""
+"Egy hívás elhagyásához egyszerűen kattintson a nagy piros <emphasis>Bezárás</"
+"emphasis> gombra. A másik fél értesítést fog kapni."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/video-calls.xml:169
@@ -4079,6 +4161,9 @@ msgid ""
 "an active chat, you can use the <emphasis>Online</emphasis> widget on the "
 "dashboard."
 msgstr ""
+"Más ügyintézővel történő video- vagy hanghívás indításához, akivel nincs "
+"aktív csevegése, használhatja az <emphasis>Elérhető</emphasis> felületi "
+"elemet a vezérlőpulton."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/video-calls.xml:220
@@ -4305,6 +4390,12 @@ msgid ""
 "\">OTRS Business Solution</emphasis>™, and this data is shared with the "
 "other party to allow the connection to be established."
 msgstr ""
+"A STUN egy szabványosított eljáráskészlet és hálózati protokoll, amely "
+"lehetővé teszi egy végberendezésnek, hogy felfedezze a nyilvános IP-címét, "
+"ha az egy NAT mögött található. Az OTRS biztosít STUN-nal rendelkező "
+"felhőszolgáltatást az <emphasis role=\"bold\">OTRS Business Solution</"
+"emphasis>™ összes felhasználója számára, és ezek az adatok megosztásra "
+"kerülnek a másik féllel, hogy lehetővé tegye a kapcsolat kiépítését."
 
 #. type: Content of: <section><section><itemizedlist><listitem><para>
 #: en/content/features/video-calls.xml:308

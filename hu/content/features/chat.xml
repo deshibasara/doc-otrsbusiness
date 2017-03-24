@@ -494,10 +494,11 @@ használható, hogy a helyes részleghez kézbesítse a csevegéseket.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                If you want to enter a chat, you can use the <emphasis>Accept</emphasis>
-button from the chat detail overlay box. The chat will then be removed from
-the list of requests, added to the list of your active chats and the
-customer/public user will receive a message that you've entered the chat.
+                Ha be szeretne lépni egy csevegésbe, akkor használhatja az
+<emphasis>Elfogadás</emphasis> gombot a csevegésrészletek rátét
+dobozból. Ezután a csevegés el lesz távolítva a kérések listájából, hozzá
+lesz adva az aktív csevegései listájához, és az ügyfél vagy a nyilvános
+felhasználó egy üzenetet fog kapni arról, hogy belépett a csevegésbe.
             </para>
         </section>
 
@@ -645,7 +646,7 @@ csevegés felületi elemen lévő speciális művelet eszköztár használatáva
             </itemizedlist>
         </section>
         <section>
-            <title>User availability</title>
+            <title>Felhasználó elérhetősége</title>
             <para>
                 <figure>
                     <title>A csevegés felületi elem</title>
@@ -654,25 +655,26 @@ csevegés felületi elemen lévő speciális művelet eszköztár használatáva
 contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Every chat participant has colored icon (circle) before his/her name in the
-<emphasis>Chat widget</emphasis> header, which represents participant
-availability.  Icon color represents participant state as follows:
+                Minden csevegésrésztvevő rendelkezik egy színes ikonnal (körrel) a neve
+előtt a <emphasis>Csevegés felületi elem</emphasis> fejlécében, amely a
+résztvevő elérhetőségét ábrázolja. Az ikon színe a következőképpen ábrázolja
+a résztvevő állapotát:
                 <itemizedlist>
                     <listitem>
                         <para>
                             <inlinemediaobject>
 <imageobject > <imagedata fileref="screenshots/chat/ChatOnline.png"
-contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Active</emphasis> -
-participant is active (available and online).
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Aktív</emphasis> -
+a résztvevő aktív (elérhető és kapcsolatban van).
                         </para>
                     </listitem>
                     <listitem>
                         <para>
                             <inlinemediaobject>
 <imageobject > <imagedata fileref="screenshots/chat/ChatAway.png"
-contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Away</emphasis> -
-participant is away (available, but there was no request sent to the server
-from this user for some time - default 5 minutes, see
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Távol</emphasis> -
+a résztvevő távol van (elérhető, de nem történt kérésküldés a kiszolgálónak
+ettől a felhasználótól egy ideje - alapértelmezetten 5 perce, lásd:
 ChatEngine::AgentOnlineThreshold).
                         </para>
                     </listitem>
@@ -680,26 +682,26 @@ ChatEngine::AgentOnlineThreshold).
                         <para>
                             <inlinemediaobject>
 <imageobject > <imagedata fileref="screenshots/chat/ChatInactive.png"
-contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Inactive</emphasis>
-- participant is inactive (chat request is not accepted yet or participant
-left the chat).
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Inaktív</emphasis>
+- a résztvevő inaktív (a csevegéskérés még nem lett elfogadva vagy a
+résztvevő elhagyta a csevegést).
                         </para>
                     </listitem>
                     <listitem>
                         <para>
                             <inlinemediaobject>
 <imageobject > <imagedata fileref="screenshots/chat/ChatUnavailable.png"
-contentdepth="5%"/> </imageobject></inlinemediaobject>
-<emphasis>Unavailable</emphasis> - participant is unavailable (set via
-<emphasis>Availability</emphasis> button).
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Nem érhető
+el</emphasis> - a résztvevő nem érhető el (az
+<emphasis>Elérhetőség</emphasis> gombon keresztül beállítva).
                         </para>
                     </listitem>
                     <listitem>
                         <para>
                             <inlinemediaobject>
 <imageobject > <imagedata fileref="screenshots/chat/ChatOffline.png"
-contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Offline</emphasis>
-- participant has logout or session has expired.
+contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Kilépett</emphasis>
+- a résztvevő kijelentkezett vagy a munkamenet lejárt.
                         </para>
                     </listitem>
                 </itemizedlist>
