@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="sysconfig-user-settings">
+    <title>System Configuration User Specific Settings</title>
+
+    <section>
+        <title>Description</title>
+        <para>
+            This functionality to allow agent users to define their own values for some system configuration settings. This values can be defined in the user preferences section in the new "Advanced" pane.
+        </para>
+        <para>
+            Administrators are enabled to review the user defined values for those settings and reset them if necessary and to forbid or allow user modifications on specific settings.
+        </para>
+
+        <note>
+            <para>
+                Please take a look into the appendix:
+                <link linkend="user-settings-list">User Specific Settings, Possible and Active</link>, to learn more about settings involved on this feature.
+            </para>
+        </note>
+
+    </section>
+
+    <section>
+        <title>Configuration</title>
+        <para>
+            No further configuration needed.
+        </para>
+    </section>
+
+    <section>
+        <title>Usage</title>
+        <section>
+            <title>Set user specific value.</title>
+            <para>
+                Each agent can define a value for settings using the Agent Preferences screen, once you are in this screen, select the "Advanced" option in the preferences panel.
+            </para>
+            <para>
+                <figure>
+                    <title>Accessing to user settings</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/personal-preferences-group.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                Using the navigation widget in the left side bar, select the desired group of settings. Then you can change
+                the value for a specific setting, save it using the "check mark" button in the left side of the setting widget.
+            </para>
+            <para>
+                Once you modified a value, is possible to revert this change using the 'Revert to global' icon button present
+                in the right top corner of the setting widget.
+            </para>
+            <para>
+                <figure>
+                    <title>Reverting setting value</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/revert-user-setting-value.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+        </section>
+        <section>
+            <title>Review user specific settings.</title>
+            <para>
+                When a setting is active for user modification, all users are able to set their own values, depending on the nature of the setting users values could be very different among them, and also compared to the original global value. This package includes an administrative a tool to review and delete user values if needed
+            </para>
+            <para>
+                Click on the 'Show user settings' button from the alternative menu on the settings that are enabled. to show the 'Review users setting values' screen.
+            </para>
+            <para>
+                <figure>
+                    <title>Accessing to user values of a particular setting</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/show-user-settings.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                On this screen all the user specific values for the selected setting will be shown. To delete a single value click in the trash can icon in the right corner of each setting widget, or delete all user values for this setting by clicking in the trash icon in the outer setting widget.
+            </para>
+            <para>
+                <figure>
+                    <title>Using the user specific values screen</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/review-user-setting-value.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+        </section>
+        <section>
+            <title>Reset globally and locally.</title>
+            <para>
+                For the settings that are enabled to hold user values "Reset setting" feature has been enhanced to either reset the setting completely or just the user values.
+            </para>
+            <para>
+                <figure>
+                    <title>Accessing to the setting reset overlay</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/reset-setting-system-configuration.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+            <para>
+                Clicking in the "Reset setting" button an overlay is open showing the possible reset options.
+            </para>
+            <para>
+                <figure>
+                    <title>Choosing the reset scope</title>
+                    <screenshot>
+                        <graphic fileref="screenshots/sysconfig-user-settings/reset-setting-system-configuration-overlay.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
+                    </screenshot>
+                </figure>
+            </para>
+        </section>
+    </section>
+</section>
