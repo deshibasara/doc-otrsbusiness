@@ -19,25 +19,19 @@ AdminNotificationEvent screen.
 
     <section>
         <title>Configurando as notificações do SMS</title>
+        <note>
+            <para>
+                Before taking advantage of SMS notification transport method, you must first
+<link linkend="sms-cloud-service-activate">activate the SMS cloud
+service</link>.
+            </para>
+        </note>
         <para>
             In order to use SMS as a way of notification for admins and customers, you
-have to buy a SMS unit package. Please get in touch with sales@otrs.com on
+have to buy an SMS unit package.  Please get in touch with sales@otrs.com on
 this matter. Once you've bought a package, you will be able to look up your
 current contingent of remaining SMS units on the admin screen for the SMS
 cloud service (AdminCloudServiceSMS).
-        </para>
-        <para>
-            <figure>
-                <title>Administrando o serviço de nuvem da tela do SMS</title>
-<screenshot>
-<graphic fileref="screenshots/notifications/CloudServiceSMS.png"
-scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
-        </para>
-        <para>
-            Nesta tela, você também pode configurar alguns parâmetros a mais do recurso
-SMS, por exemplo  o remetente de caracteres que devem ser utilizadas para o
-serviço de mensagens de texto SMS ou o agente/cliente com campo de
-preferencia que deve ser usado para tirar o número do telefone móvel.
         </para>
         <para>
             To make SMS available for notifications, you have to enable it for the
@@ -54,16 +48,17 @@ field. This could cause a high usage of your available SMS units!
             </para>
         </note>
         <para>
-            Nesta tela, você também pode adicionar mais números de telefone genérico
-(para fins de arquivamento por exemplo) que receberá todas as notificações
-(além dos agentes de destinatários).
+            On this screen, you can also add more generic phone numbers (e.g. for
+archiving purposes) which will receive all of the relevant notifications
+(besides the addressed agents). Please note that all of these recipients
+will be treated as customers (regarding article creation.).
         </para>
         <para>
             <figure>
                 <title>Ativando as notificações do SMS</title>
 <screenshot>
-<graphic fileref="screenshots/notifications/EnablingSMS.png" scalefit="1"
-width="100%" contentdepth="100%"></graphic></screenshot></figure>
+<graphic fileref="screenshots/notifications/sms-notification-transport.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Se você tiver configurado uma notificação para ser visível nas preferencias
@@ -74,9 +69,21 @@ notificações no SMS manualmente no seu próprio para esta notificação.
             <figure>
                 <title>Configurações da notificação das preferências do agente SMS</title>
 <screenshot>
-<graphic fileref="screenshots/notifications/AgentPreferences.png"
+<graphic
+fileref="screenshots/notifications/sms-notification-agent-preferences.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
+        <para>
+            SMS notification text will be constructed on fly by combining both Subject
+and Text fields of the corresponding language. You can of course use
+supported OTRS tags in these fields, and additionally URLs can be shortened
+by activating URL shortening option in cloud service configuration.
+        </para>
+        <figure>
+            <title>SMS Notification Text Fields</title>
+<screenshot>
+<graphic fileref="screenshots/notifications/sms-notification-text.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </section>
 
     <section>

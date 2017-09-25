@@ -44,13 +44,17 @@ url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-webservice.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-process.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-web-service.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sms-communication-channel.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-timeline-view.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sysconfig-user-settings.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sysconfig-history.xml" />
     </chapter>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/additional-resources.xml" />
 

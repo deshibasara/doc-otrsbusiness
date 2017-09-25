@@ -10,9 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-23 08:37+0100\n"
-"PO-Revision-Date: 2017-03-23 07:37+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"POT-Creation-Date: 2017-09-25 09:54-0500\n"
+"PO-Revision-Date: 2017-09-25 14:56+0000\n"
+"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otrs/OTRS/"
 "language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -202,16 +202,19 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:400
 #: en/content/features/dynamicfield-database.xml:422
 #: en/content/features/dynamicfield-database.xml:439
+#: en/content/features/dynamicfield-webservice.xml:93
+#: en/content/features/dynamicfield-webservice.xml:109
+#: en/content/features/dynamicfield-webservice.xml:231
 #: en/content/features/import-example-process.xml:61
 #: en/content/features/import-example-web-service.xml:37
 #: en/content/features/import-example-web-service.xml:49
-#: en/content/features/notifications.xml:23
-#: en/content/features/notifications.xml:45
-#: en/content/features/notifications.xml:56
-#: en/content/features/notifications.xml:71
-#: en/content/features/notifications.xml:82
-#: en/content/features/notifications.xml:93
-#: en/content/features/notifications.xml:101
+#: en/content/features/notifications.xml:52
+#: en/content/features/notifications.xml:64
+#: en/content/features/notifications.xml:76
+#: en/content/features/notifications.xml:91
+#: en/content/features/notifications.xml:103
+#: en/content/features/notifications.xml:115
+#: en/content/features/notifications.xml:123
 #: en/content/features/report-generator.xml:37
 #: en/content/features/report-generator.xml:51
 #: en/content/features/report-generator.xml:65
@@ -221,6 +224,23 @@ msgstr ""
 #: en/content/features/report-generator.xml:104
 #: en/content/features/sla-selection-dialog.xml:29
 #: en/content/features/sla-selection-dialog.xml:43
+#: en/content/features/sms-communication-channel.xml:25
+#: en/content/features/sms-communication-channel.xml:43
+#: en/content/features/sms-communication-channel.xml:101
+#: en/content/features/sms-communication-channel.xml:147
+#: en/content/features/sms-communication-channel.xml:163
+#: en/content/features/sms-communication-channel.xml:213
+#: en/content/features/sms-communication-channel.xml:226
+#: en/content/features/sms-communication-channel.xml:263
+#: en/content/features/sms-communication-channel.xml:276
+#: en/content/features/sysconfig-user-settings.xml:35
+#: en/content/features/sysconfig-user-settings.xml:52
+#: en/content/features/sysconfig-user-settings.xml:73
+#: en/content/features/sysconfig-user-settings.xml:86
+#: en/content/features/sysconfig-user-settings.xml:101
+#: en/content/features/sysconfig-user-settings.xml:112
+#: en/content/features/sysconfig-history.xml:32
+#: en/content/features/sysconfig-history.xml:62
 #: en/content/features/ticket-attachment-view.xml:27
 #: en/content/features/ticket-attachment-view.xml:38
 #: en/content/features/ticket-timeline-view.xml:38
@@ -250,16 +270,18 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:334 en/content/features/chat.xml:348
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
 #: en/content/features/chat.xml:397 en/content/features/chat.xml:458
+#: en/content/features/dynamicfield-webservice.xml:91
+#: en/content/features/dynamicfield-webservice.xml:107
+#: en/content/features/dynamicfield-webservice.xml:229
 #: en/content/features/import-example-process.xml:59
 #: en/content/features/import-example-web-service.xml:35
 #: en/content/features/import-example-web-service.xml:47
-#: en/content/features/notifications.xml:21
-#: en/content/features/notifications.xml:43
-#: en/content/features/notifications.xml:54
-#: en/content/features/notifications.xml:69
-#: en/content/features/notifications.xml:80
-#: en/content/features/notifications.xml:91
-#: en/content/features/notifications.xml:99
+#: en/content/features/notifications.xml:50
+#: en/content/features/notifications.xml:62
+#: en/content/features/notifications.xml:89
+#: en/content/features/notifications.xml:101
+#: en/content/features/notifications.xml:113
+#: en/content/features/notifications.xml:121
 #: en/content/features/report-generator.xml:35
 #: en/content/features/report-generator.xml:49
 #: en/content/features/report-generator.xml:63
@@ -269,6 +291,23 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/report-generator.xml:102
 #: en/content/features/sla-selection-dialog.xml:27
 #: en/content/features/sla-selection-dialog.xml:41
+#: en/content/features/sms-communication-channel.xml:23
+#: en/content/features/sms-communication-channel.xml:41
+#: en/content/features/sms-communication-channel.xml:99
+#: en/content/features/sms-communication-channel.xml:145
+#: en/content/features/sms-communication-channel.xml:161
+#: en/content/features/sms-communication-channel.xml:211
+#: en/content/features/sms-communication-channel.xml:224
+#: en/content/features/sms-communication-channel.xml:261
+#: en/content/features/sms-communication-channel.xml:274
+#: en/content/features/sysconfig-user-settings.xml:33
+#: en/content/features/sysconfig-user-settings.xml:50
+#: en/content/features/sysconfig-user-settings.xml:71
+#: en/content/features/sysconfig-user-settings.xml:84
+#: en/content/features/sysconfig-user-settings.xml:99
+#: en/content/features/sysconfig-user-settings.xml:110
+#: en/content/features/sysconfig-history.xml:30
+#: en/content/features/sysconfig-history.xml:60
 #: en/content/features/ticket-attachment-view.xml:25
 #: en/content/features/ticket-attachment-view.xml:36
 #: en/content/features/ticket-timeline-view.xml:36
@@ -350,9 +389,13 @@ msgstr "O Chat"
 #: en/content/features/chat.xml:9
 #: en/content/features/dynamicfield-contactwithdata.xml:13
 #: en/content/features/dynamicfield-database.xml:13
+#: en/content/features/dynamicfield-webservice.xml:11
 #: en/content/features/notifications.xml:9
 #: en/content/features/report-generator.xml:9
 #: en/content/features/sla-selection-dialog.xml:9
+#: en/content/features/sms-communication-channel.xml:8
+#: en/content/features/sysconfig-user-settings.xml:8
+#: en/content/features/sysconfig-history.xml:8
 #: en/content/features/ticket-attachment-view.xml:9
 #: en/content/features/ticket-timeline-view.xml:9
 #: en/content/features/video-calls.xml:9
@@ -394,8 +437,11 @@ msgstr ""
 #: en/content/features/chat.xml:19
 #: en/content/features/dynamicfield-contactwithdata.xml:86
 #: en/content/features/dynamicfield-database.xml:27
+#: en/content/features/dynamicfield-webservice.xml:30
 #: en/content/features/report-generator.xml:16
 #: en/content/features/sla-selection-dialog.xml:16
+#: en/content/features/sysconfig-user-settings.xml:19
+#: en/content/features/sysconfig-history.xml:15
 #: en/content/features/ticket-attachment-view.xml:16
 #: en/content/features/ticket-timeline-view.xml:16
 #: en/content/features/video-calls.xml:21
@@ -1724,8 +1770,11 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:113
 #: en/content/features/dynamicfield-database.xml:361
+#: en/content/features/dynamicfield-webservice.xml:357
 #: en/content/features/report-generator.xml:23
 #: en/content/features/sla-selection-dialog.xml:23
+#: en/content/features/sysconfig-user-settings.xml:25
+#: en/content/features/sysconfig-history.xml:21
 #: en/content/features/ticket-attachment-view.xml:23
 #: en/content/features/ticket-timeline-view.xml:34
 #: en/content/features/video-calls.xml:97
@@ -2264,6 +2313,7 @@ msgstr "Listfield: Indica-se um campo que deve ser exibido os resultados."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:229
+#: en/content/features/dynamicfield-webservice.xml:311
 msgid "Screen Configuration"
 msgstr "Configuração da tela"
 
@@ -2638,9 +2688,476 @@ msgstr ""
 "valor várias vezes, uma mensagem de aviso será exibida."
 
 #. type: Content of: <section><title>
+#: en/content/features/dynamicfield-webservice.xml:6
+msgid "The Dynamic Field \"Web Service\""
+msgstr ""
+
+#. type: Content of: <section><para>
+#: en/content/features/dynamicfield-webservice.xml:8
+msgid "This feature implements a dynamic field of the type \"Web Service\"."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:13
+msgid ""
+"This feature implements a generic dynamic field type that gathers its "
+"selectable options from an external system using a web service. The response "
+"from the external system defines the possible options to be displayed, and "
+"they could vary depending on the data that is sent in the request."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:18
+msgid ""
+"Normally when a field is changed in a screen (i.e. the ticket priority in "
+"the New phone ticket screen) the values of other fields could be updated. "
+"That is the case with this type of dynamic fields, as they could also "
+"include all screen field values in the request and the remote server could "
+"potentially return completely different values depending on input."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:24
+msgid ""
+"Additionally if the dynamic field source object already exists (i.e. a "
+"ticket, and the field is set in the Free Fields screen), the details of the "
+"already created ticket are also included in the request."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:32
+msgid ""
+"To make this feature work it is necessary to have the following components:"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/dynamicfield-webservice.xml:35
+msgid "A web service (at least configured as requester)"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:37
+msgid ""
+"To create a new web service dynamic field it is necessary to have already a "
+"working web service, it requires to have at least one invoker of the type "
+"<literal>Generic::PassThrough</literal>. This invoker will be called to "
+"fetch the data from the remote server."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:42
+msgid ""
+"The original data that it is sent in a request is similar to the following "
+"example."
+msgstr ""
+
+#. type: CDATA
+#: en/content/features/dynamicfield-webservice.xml:45
+#, no-wrap
+msgid ""
+"{\n"
+"  DynamicFieldID    => 123,\n"
+"  DynamicFieldLabel => 'NameX',\n"
+"  DynamicFieldName  => 'NameX',\n"
+"  DynamicFieldValue => 'Value',\n"
+"  Form => {\n"
+"    # Form fields\n"
+"    # ...\n"
+"  },\n"
+"  Ticket => {\n"
+"    # Ticket attributes\n"
+"    # ...\n"
+"  },\n"
+"  DynamicField => {\n"
+"    NameX => 'Value'\n"
+"    MameY => [  ‘Value’ ],\n"
+"  },\n"
+"  UserID => 123,\n"
+"},\n"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:45
+#: en/content/features/dynamicfield-webservice.xml:120
+msgid "<placeholder type=\"screen\" id=\"0\"/>"
+msgstr "<placeholder type=\"screen\" id=\"0\"/>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:68
+msgid ""
+"The <literal>Form</literal> section contains the fields in the current form "
+"in the web browser. This information changes as the screen is filled in."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:72
+msgid ""
+"<literal>Ticket</literal> section (or another source object, i.e. "
+"CustomerUser), contains the attributes of the object where the dynamic field "
+"belongs. For example in New phone ticket screen the section is empty as the "
+"ticket is not created yet, but in Free Fields screen it contains the "
+"information of the current ticket."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:78
+msgid ""
+"<literal>DynamicField</literal> section contains all non empty values of all "
+"configured dynamic fields for the current object."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:82
+msgid ""
+"In most cases the data that the remote server requires will be very "
+"different from the data provided, so it is highly recommended to use a "
+"mapping module for the outgoing data, to format it specifically for the "
+"remote server call."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:87
+msgid ""
+"The following example shows an XSLT mapping that discards any data and sets "
+"a fixed 'UserLogin', 'Password' and 'TicketID' (as needed for a TicketGet "
+"operation)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-webservice.xml:92
+msgid "Dynamic Field \"Web Service\" - Outgoing mapping example"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/dynamicfield-webservice.xml:94
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-webservice/OutgoingMapping.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:99
+msgid ""
+"The response from the server can also be very different, so in this case is "
+"also very recommended to use a mapping module for the incoming data in order "
+"to be able to process the information. The response must be a list of Key "
+"and Value elements."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:104
+msgid ""
+"The following example shows an XSLT mapping that converts the results from a "
+"TicketGet operation response form the remote server, extracting and "
+"formatting the State and Queue as needed to be used as options for the "
+"dynamic field."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-webservice.xml:108
+msgid "Dynamic Field \"Web Service\" - Incoming mapping example"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/dynamicfield-webservice.xml:110
+#: en/content/features/dynamicfield-webservice.xml:232
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-webservice/IncomingMapping.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:115
+msgid ""
+"The following web service definition (importable YAML file) can be used for "
+"testing the field, but the endpoint must be adapted to match current system. "
+"This web service acts as requester and provider and it always returns the "
+"State and Queue from TicketID 1, as possible values to the field."
+msgstr ""
+
+#. type: CDATA
+#: en/content/features/dynamicfield-webservice.xml:120
+#, no-wrap
+msgid ""
+"---\n"
+"Debugger:\n"
+"  DebugThreshold: debug\n"
+"  TestMode: '0'\n"
+"Description: Dynamic Field Web Service Test\n"
+"FrameworkVersion: 6.0.x git\n"
+"Provider:\n"
+"  ErrorHandling: {}\n"
+"  ErrorHandlingPriority: []\n"
+"  Operation:\n"
+"    TicketGet:\n"
+"      Description: ''\n"
+"      IncludeTicketData: ''\n"
+"      MappingInbound: {}\n"
+"      MappingOutbound: {}\n"
+"      Type: Ticket::TicketGet\n"
+"  Transport:\n"
+"    Config:\n"
+"      AdditionalHeaders: ~\n"
+"      MaxLength: '100000000'\n"
+"      NameSpace: http://www.otrs.org/TicketConnector/\n"
+"      RequestNameFreeText: ''\n"
+"      RequestNameScheme: Plain\n"
+"      ResponseNameFreeText: ''\n"
+"      ResponseNameScheme: Response\n"
+"    Type: HTTP::SOAP\n"
+"RemoteSystem: ''\n"
+"Requester:\n"
+"  ErrorHandling: {}\n"
+"  ErrorHandlingPriority: []\n"
+"  Invoker:\n"
+"    TicketGet:\n"
+"      Description: Get possible values from the other side.\n"
+"      Events: []\n"
+"      MappingInbound:\n"
+"        Config:\n"
+"          Template: \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\r\\n<!--\\r\\nCopyright\n"
+"            (C) 2001-2017 OTRS AG, http://otrs.com/\\r\\nThis software comes with ABSOLUTELY\n"
+"            NO WARRANTY. For details, see\\r\\nthe enclosed file COPYING for license\n"
+"            information (AGPL). If you\\r\\ndid not receive this file, see http://www.gnu.org/licenses/agpl.txt.\\r\\n-->\\r\\n\\r\\n<!--\n"
+"            DOCUMENTATION\\r\\n\\r\\n* Example XML Input *\\r\\n<RootElement>\\r\\n    ...\\r\\n</RootElement>\\r\\n\\r\\n\\r\\n*\n"
+"            Example XML Output *\\r\\n<RootElement>\\r\\n    <PossibleValues>\\r\\n        <Key>???</Key>\\r\\n\n"
+"            \\       <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n    <PossibleValues>\\r\\n\n"
+"            \\       <Key>???</Key>\\r\\n        <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n\n"
+"            \\   ...\\r\\n</RootElement>\\r\\n\\r\\n-->\\r\\n\\r\\n\\r\\n<xsl:transform\\r\\n    xmlns:xsl=\\\"http://www.w3.org/1999/XSL/Transform\\\"\\r\\n\n"
+"            \\   xmlns:date=\\\"http://exslt.org/dates-and-times\\\"\\r\\n    version=\\\"1.0\\\"\\r\\n\n"
+"            \\   extension-element-prefixes=\\\"date\\\">\\r\\n    \\r\\n    <xsl:output method=\\\"xml\\\"\n"
+"            encoding=\\\"utf-8\\\" indent=\\\"yes\\\" />\\r\\n    \\r\\n    <!-- Don't return\n"
+"            unmatched tags -->\\r\\n    <xsl:template match=\\\"text()\\\" />\\r\\n    \\r\\n\n"
+"            \\   <!-- Remove empty elements -->\\r\\n    <xsl:template match=\\\"*[not(node())]\\\"\n"
+"            />\\r\\n    \\r\\n    <!-- Root template -->\\r\\n    <xsl:template match=\\\"/\\\">\\r\\n\n"
+"            \\       <RootElement>\\r\\n            <xsl:apply-templates />\\r\\n        </RootElement>\\r\\n\n"
+"            \\   </xsl:template>\\r\\n\\r\\n    <xsl:template match=\\\"/*/Ticket\\\">\\r\\n\n"
+"            \\       <PossibleValue>\\r\\n            <Key>State</Key>\\r\\n            <Value><xsl:value-of\n"
+"            select=\\\"/*/Ticket/State\\\"/></Value>\\r\\n        </PossibleValue>\\r\\n        <PossibleValue>\\r\\n\n"
+"            \\           <Key>Queue</Key>\\r\\n            <Value><xsl:value-of select=\\\"/*/Ticket/Queue\\\"/></Value>\\r\\n\n"
+"            \\       </PossibleValue>\\r\\n    </xsl:template>\\r\\n    \\r\\n</xsl:transform>\"\n"
+"        Type: XSLT\n"
+"      MappingOutbound:\n"
+"        Config:\n"
+"          Template: \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\r\\n<!--\\r\\nCopyright\n"
+"            (C) 2001-2017 OTRS AG, http://otrs.com/\\r\\n\\r\\nThis software comes with\n"
+"            ABSOLUTELY NO WARRANTY. For details, see\\r\\nthe enclosed file COPYING\n"
+"            for license information (AGPL). If you\\r\\ndid not receive this file, see\n"
+"            http://www.gnu.org/licenses/agpl.txt.\\r\\n-->\\r\\n\\r\\n<!-- DOCUMENTATION\\r\\n\\r\\n*\n"
+"            Example XML Input *\\r\\n<RootElement>\\r\\n    ...\\r\\n</RootElement>\\r\\n\\r\\n\\r\\n*\n"
+"            Example XML Output *\\r\\n<RootElement>\\r\\n    <PossibleValues>\\r\\n        <Key>???</Key>\\r\\n\n"
+"            \\       <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n    <PossibleValues>\\r\\n\n"
+"            \\       <Key>???</Key>\\r\\n        <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n\n"
+"            \\   ...\\r\\n</RootElement>\\r\\n\\r\\n-->\\r\\n\\r\\n<xsl:transform\\r\\n    xmlns:xsl=\\\"http://www.w3.org/1999/XSL/Transform\\\"\\r\\n\n"
+"            \\   xmlns:date=\\\"http://exslt.org/dates-and-times\\\"\\r\\n    version=\\\"1.0\\\"\\r\\n\n"
+"            \\   extension-element-prefixes=\\\"date\\\">\\r\\n    <xsl:output method=\\\"xml\\\"\n"
+"            encoding=\\\"utf-8\\\" indent=\\\"yes\\\" />\\r\\n\\r\\n    <!-- Don't return unmatched\n"
+"            tags -->\\r\\n    <xsl:template match=\\\"text()\\\" />\\r\\n\\r\\n    <!-- Remove\n"
+"            empty elements -->\\r\\n    <xsl:template match=\\\"*[not(node())]\\\" />\\r\\n\\r\\n\n"
+"            \\   <!-- Root template -->\\r\\n    <xsl:template match=\\\"/\\\">\\r\\n        <RootElement>\\r\\n\n"
+"            \\           <UserLogin>someuser</UserLogin>\\r\\n            <Password>somepassword</Password>\\r\\n\n"
+"            \\           <TicketID>1</TicketID>\\r\\n        </RootElement>\\r\\n    </xsl:template>\\r\\n\\r\\n</xsl:transform>\"\n"
+"        Type: XSLT\n"
+"      Type: Generic::PassThrough\n"
+"  Transport:\n"
+"    Config:\n"
+"      Encoding: ''\n"
+"      Endpoint: http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP\n"
+"      NameSpace: http://www.otrs.org/TicketConnector/\n"
+"      RequestNameFreeText: ''\n"
+"      RequestNameScheme: Plain\n"
+"      ResponseNameFreeText: ''\n"
+"      ResponseNameScheme: Response\n"
+"      SOAPAction: Yes\n"
+"      SOAPActionSeparator: '#'\n"
+"      SSL:\n"
+"        SSLProxy: ''\n"
+"        SSLProxyPassword: ''\n"
+"        SSLProxyUser: ''\n"
+"    Type: HTTP::SOAP\n"
+"  UseMappedData: '1'\n"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/dynamicfield-webservice.xml:223
+msgid "A web service dynamic field definition"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:225
+msgid ""
+"After the proper configuration of web services, it is possible to configure "
+"dynamic fields, that use such web services."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-webservice.xml:230
+msgid "Dynamic Field \"Web Service\" - Definition Example"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:237
+msgid "Below is a description of the dynamic field options."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:242
+msgid "Web service"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:245
+msgid ""
+"The configured web service whose invokers will be to triggered when a "
+"dynamic field is displayed."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:251
+msgid "Invoker"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:254
+msgid ""
+"The invoker that is used to send requests to external systems. Within this "
+"field, just invokers of type 'Generic::PassThrough' will be displayed."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:260
+msgid "Multiselect"
+msgstr "Multisseleção"
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:263
+msgid ""
+"A drop-down menu to determine if the displayed dynamic field should act as a "
+"multi-select field, instead of a drop-down field."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:269
+msgid "Cache TTL"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:272
+msgid ""
+"A cache time to live value, that contains a value (in minutes). If the value "
+"is 0 or empty, no caching will be active."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:276
+msgid ""
+"This cache is to prevent unnecessary requests to the remote server using the "
+"same values."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:282
+msgid "Add empty value"
+msgstr "Adicionar Valor Vazio"
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:285
+msgid "Defines if it is possible to save an empty value in the field."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:290
+msgid "Tree view"
+msgstr "Visão de árvore"
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:293
+msgid ""
+"This option activates the tree view of possible values, if they are supplied "
+"in the correct format."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
+#: en/content/features/dynamicfield-webservice.xml:299
+msgid "Translatable values"
+msgstr "Valores Traduzíveis"
+
+#. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:302
+msgid ""
+"Defines if the displayed possible values will be translated to the current "
+"user language."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:240
+#: en/content/features/sms-communication-channel.xml:114
+msgid "<placeholder type=\"variablelist\" id=\"0\"/>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:313
+msgid ""
+"Dynamic fields of type \"Web Service\" have to be activated for the several "
+"masks in which they should be displayed like the other types of dynamic "
+"fields. The following covers the cases for ticket based dynamic fields."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:318
+msgid ""
+"This can be done through Admin → Administration Overview → System "
+"Configuration, then navigate to Frontend → Agent → View."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:322
+msgid ""
+"For every Ticket* option, in which the dynamic field of type \"Web Service\" "
+"should be displayed, the admin has to configure it to fit his needs. "
+"Examples:"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:329
+msgid "TicketZoom for the ticket zoom view."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:334
+msgid "TicketPhoneNew for new phone tickets."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:339
+msgid "TicketEmailNew for new email tickets."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
+#: en/content/features/dynamicfield-webservice.xml:344
+msgid ""
+"The dynamic field can be added if there exists an entry called \"Ticket::"
+"Frontend::AgentTicket*###DynamicField\". This configuration defines which "
+"dynamic fields should be displayed in this view. To add a dynamic field, the "
+"internal name of the field has to be filled in the first field. After "
+"confirmation a second field is filled with the display option. Choose "
+"<literal>1 - Enabled</literal> to just show the field or <literal>2 - "
+"Enabled and required</literal> to make it mandatory."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/dynamicfield-webservice.xml:359
+msgid ""
+"The use of the \"Web Service\" dynamic field is similar to other dynamic "
+"fields like Dropdown or Multiselect, but users could expect to have "
+"different options to choose even without active ACLs due to the change of "
+"parameters in the web request as other fields are changed."
+msgstr ""
+
+#. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
 msgid "Import ready-to-run process"
-msgstr ""
+msgstr "Importar processos prontos para execução"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
@@ -2824,49 +3341,30 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/features/notifications.xml:16
+#: en/content/features/notifications.xml:19
 msgid "Setting up SMS Notifications"
 msgstr "Configurando as notificações do SMS"
 
+#. type: Content of: <section><section><note><para>
+#: en/content/features/notifications.xml:22
+msgid ""
+"Before taking advantage of SMS notification transport method, you must first "
+"<link linkend=\"sms-cloud-service-activate\">activate the SMS cloud service</"
+"link>."
+msgstr ""
+
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:18
+#: en/content/features/notifications.xml:27
 msgid ""
 "In order to use SMS as a way of notification for admins and customers, you "
-"have to buy a SMS unit package. Please get in touch with sales@otrs.com on "
+"have to buy an SMS unit package.  Please get in touch with sales@otrs.com on "
 "this matter. Once you've bought a package, you will be able to look up your "
 "current contingent of remaining SMS units on the admin screen for the SMS "
 "cloud service (AdminCloudServiceSMS)."
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:22
-msgid "Admin Cloud Service SMS Screen"
-msgstr "Administrando o serviço de nuvem da tela do SMS"
-
-#. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:24
-msgid ""
-"<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:29
-msgid ""
-"On this screen, you can also set up some more parameters of the SMS feature, "
-"e.g. the sender string which should be used for the SMS text messages or the "
-"agent/customer preference field which should be used to take the mobile "
-"phone number from."
-msgstr ""
-"Nesta tela, você também pode configurar alguns parâmetros a mais do recurso "
-"SMS, por exemplo  o remetente de caracteres que devem ser utilizadas para o "
-"serviço de mensagens de texto SMS ou o agente/cliente com campo de "
-"preferencia que deve ser usado para tirar o número do telefone móvel."
-
-#. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:32
+#: en/content/features/notifications.xml:33
 msgid ""
 "To make SMS available for notifications, you have to enable it for the "
 "notifications of your choice in AdminNotificationEvent. Besides the existing "
@@ -2875,7 +3373,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
-#: en/content/features/notifications.xml:36
+#: en/content/features/notifications.xml:39
 msgid ""
 "Please be careful using the \"Send by default\" checkbox on SMS "
 "notifications. Enabling this checkbox will cause this notification to be "
@@ -2884,32 +3382,28 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:40
+#: en/content/features/notifications.xml:45
 msgid ""
 "On this screen, you can also add more generic phone numbers (e.g. for "
 "archiving purposes) which will receive all of the relevant notifications "
-"(besides the addressed agents)."
+"(besides the addressed agents). Please note that all of these recipients "
+"will be treated as customers (regarding article creation.)."
 msgstr ""
-"Nesta tela, você também pode adicionar mais números de telefone genérico "
-"(para fins de arquivamento por exemplo) que receberá todas as notificações "
-"(além dos agentes de destinatários)."
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:44
+#: en/content/features/notifications.xml:51
 msgid "Enabling SMS Notifications"
 msgstr "Ativando as notificações do SMS"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:46
+#: en/content/features/notifications.xml:53
 msgid ""
-"<graphic fileref=\"screenshots/notifications/EnablingSMS.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+"<graphic fileref=\"screenshots/notifications/sms-notification-transport.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/notifications/EnablingSMS.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:51
+#: en/content/features/notifications.xml:58
 msgid ""
 "If you configured a notification to be visible in the agent preferences, "
 "agents will now be able to enable/disable SMS notifications manually on "
@@ -2920,26 +3414,46 @@ msgstr ""
 "notificações no SMS manualmente no seu próprio para esta notificação."
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:55
+#: en/content/features/notifications.xml:63
 msgid "Agent Preferences SMS Notification Settings"
 msgstr "Configurações da notificação das preferências do agente SMS"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:57
+#: en/content/features/notifications.xml:65
 msgid ""
-"<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+"<graphic fileref=\"screenshots/notifications/sms-notification-agent-"
+"preferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><para>
+#: en/content/features/notifications.xml:70
+msgid ""
+"SMS notification text will be constructed on fly by combining both Subject "
+"and Text fields of the corresponding language. You can of course use "
+"supported OTRS tags in these fields, and additionally URLs can be shortened "
+"by activating URL shortening option in cloud service configuration."
+msgstr ""
+
+#. type: Content of: <section><section><figure><title>
+#: en/content/features/notifications.xml:75
+msgid "SMS Notification Text Fields"
+msgstr ""
+
+#. type: Content of: <section><section><figure><screenshot>
+#: en/content/features/notifications.xml:77
+msgid ""
+"<graphic fileref=\"screenshots/notifications/sms-notification-text.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/features/notifications.xml:64
+#: en/content/features/notifications.xml:83
 msgid "Setting up and Using the Notification Web View"
 msgstr "Configurando e utilizando a visualização da notificação da web"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:66
+#: en/content/features/notifications.xml:85
 msgid ""
 "Setting up the notification web view for agents is similar to the setup for "
 "SMS notifications as described above."
@@ -2948,12 +3462,12 @@ msgstr ""
 "configuração de notificações SMS conforme descrito acima."
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:70
+#: en/content/features/notifications.xml:90
 msgid "Enabling the Notification Web View"
 msgstr "Visualizando e ativando as notificações da web"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:72
+#: en/content/features/notifications.xml:92
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebView.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -2962,7 +3476,7 @@ msgstr ""
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:77
+#: en/content/features/notifications.xml:97
 msgid ""
 "Once you've enabled the notification web view for a certain notification, "
 "agents will see a new icon on top of their screen in OTRS (within the "
@@ -2973,12 +3487,12 @@ msgstr ""
 "da barra de ferramenta) cada vez que chaga uma nova notificação."
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:81
+#: en/content/features/notifications.xml:102
 msgid "Notification Web View Icon on the Toolbar"
 msgstr "Visualizar as notificação da web no ícone na barra de ferramentas"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:83
+#: en/content/features/notifications.xml:104
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebViewNew.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -2987,7 +3501,7 @@ msgstr ""
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/notifications.xml:88
+#: en/content/features/notifications.xml:109
 msgid ""
 "Clicking this icon, agents will get an overview of all of their "
 "notifications and can read and dismiss them from here."
@@ -2996,12 +3510,12 @@ msgstr ""
 "suas notificações e pode ler e descartá-los aqui."
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:92
+#: en/content/features/notifications.xml:114
 msgid "Notification Web View Overview"
 msgstr "Visualizar as notificação fora  da web"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:94
+#: en/content/features/notifications.xml:116
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebViewOverview.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3010,12 +3524,12 @@ msgstr ""
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/features/notifications.xml:100
+#: en/content/features/notifications.xml:122
 msgid "Notification Web View Detail"
 msgstr "Visualizar os detalhes da notificação da web"
 
 #. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/features/notifications.xml:102
+#: en/content/features/notifications.xml:124
 msgid ""
 "<graphic fileref=\"screenshots/notifications/NotificationWebViewDetail.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -3042,6 +3556,8 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/report-generator.xml:18
 #: en/content/features/sla-selection-dialog.xml:18
+#: en/content/features/sysconfig-user-settings.xml:21
+#: en/content/features/sysconfig-history.xml:17
 #: en/content/features/ticket-attachment-view.xml:18
 msgid "No further configuration needed."
 msgstr "Nenhuma configuração adicional necessária."
@@ -3310,6 +3826,693 @@ msgstr ""
 "redefinirá mais tarde a seleção SLA."
 
 #. type: Content of: <section><title>
+#: en/content/features/sms-communication-channel.xml:6
+msgid "SMS Communication Channel"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:10
+msgid ""
+"The <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ brings "
+"another communication channel to your OTRS instance: SMS (Short Message "
+"Service). It allows you to leverage SMS cloud service to send out messages "
+"and store them as article in tickets."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:17
+#: en/content/features/sms-communication-channel.xml:42
+msgid "Activating SMS Cloud Service"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:19
+msgid ""
+"Before taking advantage of SMS cloud service, you must first activate it. To "
+"do so, please visit the \"Cloud Services\" screen in Admin interface, and "
+"click on SMS entry in table."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:24
+msgid "Cloud Services Screen in Admin Interface"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:26
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:32
+msgid ""
+"In order to use SMS cloud service, you have to buy an SMS unit package. "
+"Please get in touch with sales@otrs.com on this matter. Once you've bought a "
+"package, you will be able to look up your current contingent of remaining "
+"SMS units in the sidebar of the cloud service configuration screen."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:38
+msgid ""
+"To activate SMS cloud service, make sure to accept the Data Protection "
+"agreement by selecting the checkbox."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:44
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service-"
+"config.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:49
+msgid ""
+"On this screen, you can also set up some additional parameters of the SMS "
+"cloud service, i.e. the sender string which should be used for the SMS text "
+"messages or the agent/customer preference field name which should be used to "
+"take the mobile phone number from."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:55
+msgid ""
+"If you change value for the customer preference field, make sure to update "
+"the configuration options of the address book in the SysConfig to reflect "
+"this change:"
+msgstr ""
+
+#. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
+#: en/content/features/sms-communication-channel.xml:61
+msgid ""
+"CustomerUser::Frontend::AgentCustomerUserAddressBook###SearchParameters###SMS"
+msgstr ""
+
+#. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
+#: en/content/features/sms-communication-channel.xml:64
+msgid ""
+"CustomerUser::Frontend::AgentCustomerUserAddressBook###DefaultFields###SMS"
+msgstr ""
+
+#. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
+#: en/content/features/sms-communication-channel.xml:67
+msgid ""
+"CustomerUser::Frontend::AgentCustomerUserAddressBook###ShowColumns###SMS"
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:72
+msgid ""
+"This will make sure your configuration stays in sync and phone numbers can "
+"be found/copied from correct fields."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:77
+msgid ""
+"Allowed role members is an optional white list of agent roles whose members "
+"will be able to receive SMS notifications. If undefined, all agents will "
+"have a possibility of receiving SMS notifications."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:81
+msgid ""
+"Perform URL shortening checkbox controls the feature of shortening links in "
+"SMS texts. If enabled, any link submitted as part of SMS text will be "
+"shortened by using OTRS cloud URL shortening service. Links will be "
+"shortened only if their length is larger than resulting shortened URL, in "
+"order to keep SMS costs down."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:86
+msgid ""
+"By adding specific phone numbers to the Phone black list, you can make sure "
+"these numbers will never receive any SMS text via cloud service (whether "
+"it's a notification or an article). Make sure to input phone numbers in "
+"international format, complete with plus sign (+) and country code, without "
+"any spaces."
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/sms-communication-channel.xml:93
+msgid "Configuring SMS Templates"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:95
+msgid ""
+"In order to benefit from SMS templates, you must first configure them for "
+"specific screens and assign them to correct queues. You can find SMS "
+"template management screen in the Admin interface."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:100
+#: en/content/features/sms-communication-channel.xml:146
+msgid "Manage SMS Templates"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:102
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-template-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:107
+msgid ""
+"SMS templates behave similar to regular email templates. You define them "
+"first, and then assign to queues with which you would like to use them."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:111
+msgid ""
+"Template Type field determines for which screen the template will be visible:"
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><term>
+#: en/content/features/sms-communication-channel.xml:116
+msgid "<literal>Answer</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/sms-communication-channel.xml:118
+msgid "Template will be visible for Reply via SMS article action."
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><term>
+#: en/content/features/sms-communication-channel.xml:122
+msgid "<literal>Create</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/sms-communication-channel.xml:124
+msgid "Template will be visible in New SMS ticket screen."
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><term>
+#: en/content/features/sms-communication-channel.xml:128
+msgid "<literal>SMSOutbound</literal>"
+msgstr ""
+
+#. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
+#: en/content/features/sms-communication-channel.xml:130
+msgid "Template will be visible in SMS Outbound screen."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:137
+msgid ""
+"Create type templates only supports these smart tags: &lt;OTRS_CURRENT_*&gt; "
+"and &lt;OTRS_CONFIG_*&gt;."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:141
+msgid ""
+"When you define an SMS template, don't forget to add them to queues. You can "
+"do this by following link in the sidebar or via SMS Templates &lt;-&gt; "
+"Queues link in the admin interface."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:148
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/sms-communication-channel.xml:155
+msgid "Creating SMS Tickets"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:157
+msgid ""
+"To create a ticket with SMS article as a first one, please go to the New SMS "
+"ticket screen accessible via Tickets menu on the main toolbar."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:162
+#: en/content/features/sms-communication-channel.xml:212
+#: en/content/features/sms-communication-channel.xml:225
+msgid "New SMS Ticket Screen"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:164
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-create."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:169
+msgid ""
+"This screen behaves similar to new email and phone screens, with some "
+"notable exceptions. Instead of email addresses, Recipients field accepts "
+"only phone numbers in international format, complete with plus sign (+)  and "
+"country code. You can also search for customer users via this field, "
+"provided they have a valid phone number stored in preference field which is "
+"configured in cloud service configuration screen."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:175
+msgid ""
+"You may also utilize address book by clicking on small icon next to the "
+"recipients field. Search form will allow you to find customer user you are "
+"looking for, and add their phone number to the list of recipients."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:180
+msgid ""
+"Ticket title field will not be included in SMS and is for internal use only. "
+"Customer will receive message based exclusively on the contents of the Text "
+"field."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:185
+msgid ""
+"If you have configured SMS templates of type Create, and you have them "
+"assigned to currently chosen Queue, you will have the option of populating "
+"the Text field with preconfigured message."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:189
+msgid ""
+"Flash message checkbox controls if message will be showed directly on the "
+"device without user interaction and not stored automatically."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:194
+msgid ""
+"Support for flash messages (also known as \"Class 0\" messages) may vary by "
+"device and provider. OTRS cannot guarantee if this flag will be honored by "
+"service provider or supported by receiving device."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:199
+msgid ""
+"By clicking Send SMS button, ticket will be created with an SMS article, "
+"provided SMS cloud service accepted the message. If any errors were "
+"encountered, you will be notified, and ticket will not be created."
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/sms-communication-channel.xml:205
+msgid "Creating SMS Articles"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:207
+msgid ""
+"To add an SMS to an existing ticket, you can use SMS Outbound action on the "
+"main ticket toolbar (Communication section)."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:214
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-outbound."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:219
+msgid ""
+"If you already have an article, you can also use Reply via SMS action on the "
+"article toolbar. Simply select the article in question, and either click on "
+"the button, or choose name of the template (if you have it configured for "
+"this screen)."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:227
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-reply.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:232
+msgid ""
+"If customer user has defined phone number, it will be automatically inserted "
+"in the recipients list. It doesn't matter if article was created in a "
+"different communication channel (i.e. Email), it should be correctly "
+"recognized and substituted with valid phone number."
+msgstr ""
+
+#. type: Content of: <section><section><note><para>
+#: en/content/features/sms-communication-channel.xml:238
+msgid ""
+"Please note that SMS character counter might not be reflecting the final "
+"message size. This is especially true if message text contains OTRS tags or "
+"links and URL shorting feature is turned on. Since text replacement will "
+"occur during sending of the message, there is no way to guarantee final "
+"size, and counter should be taken only for informative purposes."
+msgstr ""
+
+#. type: Content of: <section><section><title>
+#: en/content/features/sms-communication-channel.xml:247
+msgid "Displaying SMS Articles"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:249
+msgid ""
+"SMS articles can be displayed as they were sent out right in the ticket zoom "
+"screen. Their contents will reflect the final state of the message as queued "
+"by the SMS cloud service for sending (with all tags replaced and links "
+"shortened)."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:254
+msgid ""
+"Recipients of an SMS article are listed inside the Recipients field. They "
+"can be shown in two formats: just phone numbers or phone numbers with name "
+"of corresponding customer users. In addition to this field, Transaction "
+"numbers will contain a reference message ID mapped to the recipients phone "
+"number. These numbers can be used for debugging purposes, since they can be "
+"connected to specific messages handled by the cloud service."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:262
+msgid "SMS Article Display"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:264
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-zoom.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sms-communication-channel.xml:269
+msgid ""
+"In addition to the article header field, transaction numbers can also be "
+"found in ticket history screen.  This screen will contain an entry for every "
+"message sent out via SMS cloud service, with corresponding transaction and "
+"phone number in it."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/features/sms-communication-channel.xml:275
+msgid "SMS Ticket History Entries"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/features/sms-communication-channel.xml:277
+msgid ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-history."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><title>
+#: en/content/features/sysconfig-user-settings.xml:6
+msgid "System Configuration User Specific Settings"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:10
+msgid ""
+"This functionality allows agent users to define their own values for some "
+"system configuration settings.  These values can be defined in the user "
+"preferences section in the new \"Advanced\" pane."
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:14
+msgid ""
+"Administrators are able to review the user defined values for those settings "
+"and reset them if necessary and to forbid or allow user modifications on "
+"specific settings."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sysconfig-user-settings.xml:27
+msgid "Set user specific value"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:29
+msgid ""
+"Every agent can define a value for a setting using the Personal preferences "
+"screen. Once you are in this screen, select the \"Advanced\" option in the "
+"preferences panel."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:34
+msgid "Accessing the user specific settings"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:36
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/personal-preferences-"
+"group.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:41
+msgid ""
+"Using the navigation widget in the left side bar, select the desired group "
+"of settings. Then you can change the value for a specific setting and save "
+"it using the \"check mark\" button in the left side of the setting widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:46
+msgid ""
+"Once you modified a value, it is possible to revert this change using the "
+"'Reset to default' icon button present in the right top corner of the "
+"modified setting widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:51
+msgid "Reverting a setting to default value"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:53
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/revert-user-setting-"
+"value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sysconfig-user-settings.xml:59
+msgid "Review user specific settings"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:61
+msgid ""
+"When a setting is available for user modification, all users are able to set "
+"their own values. Depending on the nature of the setting, values can be very "
+"different among users, and also compared to the original global value. This "
+"package includes an administrative tool to review and delete user set values "
+"if needed."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:67
+msgid ""
+"Click on the 'Show user settings' button from the alternative menu on the "
+"settings that are enabled to show the 'Review users setting values' screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:72
+msgid "Access to user values of a particular setting"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:74
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/show-user-settings.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:79
+msgid ""
+"On this screen all of the user specific values for the selected setting will "
+"be shown. To delete a single value click on the trash can icon in the right "
+"corner of every setting widget, or delete all user values for this setting "
+"by clicking on the trash icon in the outer setting widget."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:85
+msgid "Usage of the user specific values screen"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:87
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/review-user-setting-"
+"value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sysconfig-user-settings.xml:93
+msgid "Reset globally and locally"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:95
+msgid ""
+"For the settings that are enabled to hold user values \"Reset setting\" "
+"feature has been enhanced to either reset the setting completely or just the "
+"user values."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:100
+msgid "Access to the setting reset dialog"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:102
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/reset-setting-system-"
+"configuration.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-user-settings.xml:107
+msgid ""
+"Clicking on the \"Reset setting\" button will display a dialog showing the "
+"possible reset options."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-user-settings.xml:111
+msgid "Choosing the reset scope"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-user-settings.xml:113
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/reset-setting-system-"
+"configuration-overlay.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><title>
+#: en/content/features/sysconfig-history.xml:6
+msgid "System Configuration History"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/sysconfig-history.xml:10
+msgid ""
+"This added functionality provides administrators with screens to go through "
+"system configuration deployment and specific settings history, and make "
+"changes if needed."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sysconfig-history.xml:23
+msgid "Deployment History"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:25
+msgid ""
+"To access deployment history, go to System Configuration > Deployment screen "
+"and click on History button. This screen will display recent deployments in "
+"a descending order, along with their comments and name of the user who "
+"deployed the changes."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-history.xml:31
+msgid "System configuration deployment history"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/sysconfig-history.xml:33
+#: en/content/features/sysconfig-history.xml:63
+msgid ""
+"<graphic fileref=\"screenshots/sysconfig-history/sysconfig-deployment-"
+"history.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:38
+msgid ""
+"Every deployment can be further inspected by clicking on View Details link "
+"next to it. Details screen can be used to compare the setting with its "
+"previous value, before the deployment took place."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:42
+msgid ""
+"Additionally, older deployments (every one before current state) can be "
+"restored with a simple click.  By restoring a deployment, all settings will "
+"be reverted to the value they had at the time of the deployment in question."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:47
+msgid ""
+"Finally, deployments can be exported with click on the export button. User "
+"will be presented with a download of a YML file that contains changed "
+"settings. This YML file can be later restored via Import &amp; Export screen "
+"in the system configuration screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/sysconfig-history.xml:53
+msgid "Setting History"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:55
+msgid ""
+"Specific setting history can be accessed via History button in the setting "
+"widget. This buttons opens a screen of all values setting had over different "
+"deployments. Information like name of the user that made the change and time "
+"of change is displayed, along with a useful comparison tool."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/sysconfig-history.xml:61
+msgid "System configuration setting history"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/sysconfig-history.xml:68
+msgid ""
+"Every historical setting value can be restored by clicking on the Restore "
+"button in upper right corner."
+msgstr ""
+
+#. type: Content of: <section><title>
 #: en/content/features/ticket-attachment-view.xml:6
 msgid "The Article Attachment Overview"
 msgstr "Visualização geral do artigo em anexo"
@@ -3463,43 +4666,6 @@ msgid ""
 msgstr ""
 "<graphic fileref=\"screenshots/timeline-view/TimelineViewZoom.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
-#. type: Content of: <appendix><title>
-#: en/content/additional-resources.xml:7
-msgid "Additional Resources"
-msgstr "Recursos adicionais"
-
-#. type: Content of: <appendix><variablelist><varlistentry><term>
-#: en/content/additional-resources.xml:11
-msgid "otrs.com"
-msgstr "otrs.com"
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:14
-msgid ""
-"The OTRS website with source code, documentation and news is available at "
-"<ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  Here you can "
-"also find information about professional services and OTRS Administrator "
-"training seminars from OTRS Group, the creator of OTRS."
-msgstr ""
-"O website OTRS  com código-fonte, está disponível notícia e uma "
-"documentação  <ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  "
-"Aqui você também  pode encontrar informação sobre serviços profissionais e "
-"OTRS Administrador do seminário de formação em grupo OTRS, o criador de OTRS."
-
-#. type: Content of: <appendix><variablelist><varlistentry><term>
-#: en/content/additional-resources.xml:22
-msgid "Translations"
-msgstr "Tradução"
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:25
-msgid ""
-"You can help translate OTRS to your language at <ulink url=\"https://www."
-"transifex.com/otrs/OTRS/\">Transifex</ulink>."
-msgstr ""
-"Você pode traduzir o OTRS no seu idioma em  <ulink url=\"https://www."
-"transifex.com/otrs/OTRS/\">Transifex</ulink>."
 
 #. type: Content of: <section><title>
 #: en/content/features/video-calls.xml:6
@@ -4101,3 +5267,40 @@ msgid ""
 "different geographic locations, in order to provide the best possible "
 "throughput."
 msgstr ""
+
+#. type: Content of: <appendix><title>
+#: en/content/additional-resources.xml:7
+msgid "Additional Resources"
+msgstr "Recursos adicionais"
+
+#. type: Content of: <appendix><variablelist><varlistentry><term>
+#: en/content/additional-resources.xml:11
+msgid "otrs.com"
+msgstr "otrs.com"
+
+#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
+#: en/content/additional-resources.xml:14
+msgid ""
+"The OTRS website with source code, documentation and news is available at "
+"<ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  Here you can "
+"also find information about professional services and OTRS Administrator "
+"training seminars from OTRS Group, the creator of OTRS."
+msgstr ""
+"O website OTRS  com código-fonte, está disponível notícia e uma "
+"documentação  <ulink url=\"https://www.otrs.com/\">www.otrs.com</ulink>.  "
+"Aqui você também  pode encontrar informação sobre serviços profissionais e "
+"OTRS Administrador do seminário de formação em grupo OTRS, o criador de OTRS."
+
+#. type: Content of: <appendix><variablelist><varlistentry><term>
+#: en/content/additional-resources.xml:22
+msgid "Translations"
+msgstr "Tradução"
+
+#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
+#: en/content/additional-resources.xml:25
+msgid ""
+"You can help translate OTRS to your language at <ulink url=\"https://www."
+"transifex.com/otrs/OTRS/\">Transifex</ulink>."
+msgstr ""
+"Você pode traduzir o OTRS no seu idioma em  <ulink url=\"https://www."
+"transifex.com/otrs/OTRS/\">Transifex</ulink>."
