@@ -4,38 +4,45 @@
 
 <section id="dynamicfield-webservice">
     <title>The Dynamic Field "Web Service"</title>
-
     <para>
         This feature implements a dynamic field of the type "Web Service".
     </para>
-
     <section>
         <title>Description</title>
         <para>
-            This feature implements a generic dynamic field type that gathers its selectable options from an external system using a web service. The response from the external system defines the possible options to be displayed, and they could vary depending on the data that is sent in the request.
+            This feature implements a generic dynamic field type that gathers its selectable options from an external
+            system using a web service. The response from the external system defines the possible options to be
+            displayed, and they could vary depending on the data that is sent in the request.
         </para>
         <para>
-            Normally when a field is changed in a screen (e.g. The ticket priority in the New Phone Ticket Screen) the values of other fields could be updated, that is the case of this type of dynamic fields, as they could also include all screen field values in the request and the remote server could return totally different values depending on its input.
+            Normally when a field is changed in a screen (i.e. the ticket priority in the New phone ticket screen) the
+            values of other fields could be updated. That is the case with this type of dynamic fields, as they could
+            also include all screen field values in the request and the remote server could potentially return
+            completely different values depending on input.
         </para>
         <para>
-             Additionally if the object where they belong is already created (e.g. a Ticket, and the field is set in the Free Fields screen), the details of the already created ticket are also included in the request.
+             Additionally if the dynamic field source object already exists (i.e. a ticket, and the field is set in the
+             Free Fields screen), the details of the already created ticket are also included in the request.
         </para>
     </section>
 
     <section>
         <title>Configuration</title>
         <para>
-            To make this feature work is necessary to have the following components:
+            To make this feature work it is necessary to have the following components:
         </para>
         <section>
             <title>A web service (at least configured as requester)</title>
             <para>
-                To create a new web service dynamic field is necessary to have already a working web service, it requires to have at least one invoker of the type <literal>Generic::PassThrough</literal>. This invoker will be called
-                to fetch the data from the remote server.
+                To create a new web service dynamic field it is necessary to have already a working web service, it
+                requires to have at least one invoker of the type <literal>Generic::PassThrough</literal>. This invoker
+                will be called to fetch the data from the remote server.
             </para>
             <para>
-                The original data that its sent in a request is similar to the following example.
-                    <screen><![CDATA[
+                The original data that it is sent in a request is similar to the following example.
+            </para>
+            <para>
+                <screen><![CDATA[
 {
   DynamicFieldID    => 123,
   DynamicFieldLabel => 'NameX',
@@ -55,47 +62,62 @@
   },
   UserID => 123,
 },
-                    ]]></screen>
+                ]]></screen>
             </para>
             <para>
-                The form section contains the fields in the current from in the web browser. this information changes as the screen is filled.
+                The <literal>Form</literal> section contains the fields in the current form in the web browser. This
+                information changes as the screen is filled in.
             </para>
             <para>
-                Ticket section (could be other object, e.g. CustomerUser), contains the attributes of the object where the dynamic field belongs. for example in New Phone Ticket screen the section is empty as the ticket is not created yet, but in Free Fields screen it contains the information of the current ticket.
+                <literal>Ticket</literal> section (or another source object, i.e. CustomerUser), contains the attributes
+                of the object where the dynamic field belongs. For example in New phone ticket screen the section is
+                empty as the ticket is not created yet, but in Free Fields screen it contains the information of the
+                current ticket.
             </para>
             <para>
-                DynamicField section contains all non empty values of all configured dynamic fields for the current object.
+                <literal>DynamicField</literal> section contains all non empty values of all configured dynamic fields
+                for the current object.
             </para>
             <para>
-                In most cases the data that the remote server requires will be very different from the data provided, so it is highly recommended to use a mapping module for the outgoing data, to format it specifically for the remote server call.
+                In most cases the data that the remote server requires will be very different from the data provided, so
+                it is highly recommended to use a mapping module for the outgoing data, to format it specifically for
+                the remote server call.
             </para>
             <para>
-                The following example shows an XSLT mapping that discards any data and sets a fixed 'UserLogin', 'Password' and 'TicketID' (as needed for a TicketGet operation)
-
+                The following example shows an XSLT mapping that discards any data and sets a fixed 'UserLogin',
+                'Password' and 'TicketID' (as needed for a TicketGet operation).
+            </para>
+            <para>
                 <figure>
-                    <title>Dynamic Field Web Service - Outgoing mapping example</title>
+                    <title>Dynamic Field "Web Service" - Outgoing mapping example</title>
                     <screenshot>
                          <graphic fileref="screenshots/dynamicfield-webservice/OutgoingMapping.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
             <para>
-                The response from the server might also be very different, so in this case is also very recommended to use a mapping module for the incoming data as to be able to process the information the response must be a list of
-                Key and Value elements.
+                The response from the server can also be very different, so in this case is also very recommended to
+                use a mapping module for the incoming data in order to be able to process the information. The response
+                must be a list of Key and Value elements.
             </para>
             <para>
                 The following example shows an XSLT mapping that converts the results from a TicketGet operation response form the remote server, extracting and formatting the State and Queue as needed to be used as options for the dynamic field.
-
+            </para>
+            <para>
                 <figure>
-                    <title>Dynamic Field Web Service - Incoming mapping example</title>
+                    <title>Dynamic Field "Web Service" - Incoming mapping example</title>
                     <screenshot>
                          <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
             <para>
-                The following web service definition (importable YAML file) can be used for testing the field, the endpoint must be adapted to match current system. This web service acts as requester and provider and it always returns the State and Queue from TicketID 1, as possible values to the field.
-                    <screen><![CDATA[
+                The following web service definition (importable YAML file) can be used for testing the field, but the
+                endpoint must be adapted to match current system. This web service acts as requester and provider and it
+                always returns the State and Queue from TicketID 1, as possible values to the field.
+            </para>
+            <para>
+                <screen><![CDATA[
 ---
 Debugger:
   DebugThreshold: debug
@@ -193,80 +215,114 @@ Requester:
         SSLProxyUser: ''
     Type: HTTP::SOAP
   UseMappedData: '1'
-                    ]]></screen>
+                ]]></screen>
             </para>
         </section>
 
         <section>
-            <title>A web service dynamic Field definition</title>
+            <title>A web service dynamic field definition</title>
             <para>
-                After the proper configuration of web services, it is possible to configure dynamic fields, that uses such web services.
-
+                After the proper configuration of web services, it is possible to configure dynamic fields, that use
+                such web services.
+            </para>
+            <para>
                 <figure>
-                    <title>Dynamic Field Web Service - Definition Example</title>
+                    <title>Dynamic Field "Web Service" - Definition Example</title>
                     <screenshot>
                          <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
             <para>
-                Enclosed a description of the dynamic field options:
-
-                <itemizedlist mark="round">
-                    <listitem>
-                        <para>
-                            Web service: The configured web service, to use invokers to trigger, when a dynamic field is displayed.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Invoker: The invoker that is used to send requests to external systems. Within this field, just invokers of type 'Generic::PassThrough' will be displayed.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Multiselect: A drop-down menu to define, if the displayed dynamic field should act as a multiselect field, instead of a drop-down field.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Cache TTL: A cache time to live value, that contains a value (in minutes). If the value is 0 or empty,
-                            no caching will be active.
-                        </para>
-                        <para>
-                            This cache is to prevent unnecessary request to the remote server using the same values.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Add empty value: Defines if it is possible, to save an empty possible value.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Tree view: This option activates the tree view of possible values, if they are available in the correct format.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            Translatable values: Defines if the displayed possible values shall be translated to the current user language.
-                        </para>
-                    </listitem>
-                </itemizedlist>
+                Below is a description of the dynamic field options.
+            </para>
+            <para>
+                <variablelist>
+                    <varlistentry>
+                        <term>Web service</term>
+                        <listitem>
+                            <para>
+                                The configured web service whose invokers will be to triggered when a dynamic field is
+                                displayed.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Invoker</term>
+                        <listitem>
+                            <para>
+                                The invoker that is used to send requests to external systems. Within this field, just
+                                invokers of type 'Generic::PassThrough' will be displayed.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Multiselect</term>
+                        <listitem>
+                            <para>
+                                A drop-down menu to determine if the displayed dynamic field should act as a
+                                multi-select field, instead of a drop-down field.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Cache TTL</term>
+                        <listitem>
+                            <para>
+                                A cache time to live value, that contains a value (in minutes). If the value is 0 or
+                                empty, no caching will be active.
+                            </para>
+                            <para>
+                                This cache is to prevent unnecessary requests to the remote server using the same
+                                values.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Add empty value</term>
+                        <listitem>
+                            <para>
+                                Defines if it is possible to save an empty value in the field.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Tree view</term>
+                        <listitem>
+                            <para>
+                                This option activates the tree view of possible values, if they are supplied in the
+                                correct format.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Translatable values</term>
+                        <listitem>
+                            <para>
+                                Defines if the displayed possible values will be translated to the current user
+                                language.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                </variablelist>
             </para>
         </section>
-
         <section>
             <title>Screen Configuration</title>
             <para>
-                Dynamic fields of type 'Web Service' have to be activated for the several masks in which they should be displayed like the other types of dynamic fields, the following covers the cases for Ticket based Dynamic Fields.
+                Dynamic fields of type "Web Service" have to be activated for the several masks in which they should be
+                displayed like the other types of dynamic fields. The following covers the cases for ticket based
+                dynamic fields.
             </para>
             <para>
-                This can be done through Admin → Administration Overview → System Configuration, then navigate to Frontend → Agent → View
+                This can be done through Admin → Administration Overview → System Configuration, then navigate to
+                Frontend → Agent → View.
             </para>
             <para>
-                For every Ticket* option, in which the dynamic field of type 'Web Service' should be displayed, the admin
-                has to configure it to fit his needs. Examples:
+                For every Ticket* option, in which the dynamic field of type "Web Service" should be displayed, the
+                admin has to configure it to fit his needs. Examples:
+            </para>
+            <para>
                 <itemizedlist>
                     <listitem>
                         <para>
@@ -285,21 +341,24 @@ Requester:
                     </listitem>
                     <listitem>
                         <para>
-                            The dynamic field can be added if exists an entry called
-                            "Ticket::Frontend::AgentTicket*###DynamicField"
-                            This configuration defines which dynamic field(s) should get displayed in this view. To add a dynamic field, the internal name of the field has to be filled in the first field. After confirmation a second filed is show with the display options, choose <literal>1 Enabled</literal>
-                            to just show the field or <literal>1 Enabled and required</literal> to make it mandatory.
+                            The dynamic field can be added if there exists an entry called
+                            "Ticket::Frontend::AgentTicket*###DynamicField". This configuration defines which dynamic
+                            fields should be displayed in this view. To add a dynamic field, the internal name of the
+                            field has to be filled in the first field. After confirmation a second field is filled with
+                            the display option. Choose <literal>1 - Enabled</literal> to just show the field or
+                            <literal>2 - Enabled and required</literal> to make it mandatory.
                         </para>
                     </listitem>
                 </itemizedlist>
             </para>
         </section>
     </section>
-
     <section>
         <title>Usage</title>
         <para>
-            The use of the 'Web Service' dynamic field is similar to other dynamic fields like Dropdown or Multiselect, but users could expect to have different options to choose even without active ACLs due to the change of parameters in the web request as other fields are changed.
+            The use of the "Web Service" dynamic field is similar to other dynamic fields like Dropdown or Multiselect,
+            but users could expect to have different options to choose even without active ACLs due to the change of
+            parameters in the web request as other fields are changed.
         </para>
     </section>
 </section>
