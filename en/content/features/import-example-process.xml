@@ -12,47 +12,33 @@
         </para>
         <para>
             The following ready-to-run processes are available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
+        </para>
+        <para>
             <itemizedlist>
-                <listitem>
-                    <para>
-                        Conference Room Reservation
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        ITIL Incident Management
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Office Materials Procurement
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Order Request Management
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Release And Deployment Management
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Request For Leave Management
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Start RMA
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        Travel Expense
-                    </para>
-                </listitem>
+                <listitem><para>Conference Room Reservation</para></listitem>
+                <listitem><para>Office Materials Procurement</para></listitem>
+                <listitem><para>Order Request Management</para></listitem>
+                <listitem><para>Request For Leave Management</para></listitem>
+                <listitem><para>Service Design::Availability Management (proactive)</para></listitem>
+                <listitem><para>Service Design::Availability Management (reactive)</para></listitem>
+                <listitem><para>Service Design::Catalogue Management</para></listitem>
+                <listitem><para>Service Design::Continuity Management</para></listitem>
+                <listitem><para>Service Design::Service Design Coordination (individual design)</para></listitem>
+                <listitem><para>Service Design::Service Level Management</para></listitem>
+                <listitem><para>Service Design::Supplier Management</para></listitem>
+                <listitem><para>Service Operation::Access Management</para></listitem>
+                <listitem><para>Service Operation::Event Management</para></listitem>
+                <listitem><para>Service Operation::Incident Management</para></listitem>
+                <listitem><para>Service Operation::Problem Management</para></listitem>
+                <listitem><para>Service Operation::Request Fulfillment Management</para></listitem>
+                <listitem><para>Service Operation::Service Validation and Testing</para></listitem>
+                <listitem><para>Service Transition::Change Evaluation</para></listitem>
+                <listitem><para>Service Transition::Knowledge Management</para></listitem>
+                <listitem><para>Service Transition::Release And Deployment Management</para></listitem>
+                <listitem><para>Service Transition::Service Asset and Configuration Management</para></listitem>
+                <listitem><para>Service Transition::Service Transition Planning and Support</para></listitem>
+                <listitem><para>Start RMA</para></listitem>
+                <listitem><para>Travel Expense</para></listitem>
             </itemizedlist>
         </para>
         <para>
