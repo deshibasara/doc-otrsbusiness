@@ -3,12 +3,12 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-web-service">
-    <title>Import ready-to-run Web Services</title>
+    <title>Import Ready2Adopt Web Services</title>
 
     <section>
         <title>Import</title>
         <para>
-            There are three ready-to-run Web Services available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
+            There are three Ready2Adopt Web Services available in the <emphasis role="bold">OTRS Business Solution™</emphasis>:
             <itemizedlist>
                 <listitem>
                     <para>
@@ -40,12 +40,12 @@
             </figure>
         </para>
         <para>
-            Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one of the provided web services from the drop-down menu, and click
-            the <emphasis>Import ready-to-run Web Service</emphasis> button.
+            Locate the <emphasis>Ready2Adopt Web Services</emphasis> widget, select one of the provided web services from the drop-down menu, and click
+            the <emphasis>Import Ready2Adopt Web Service</emphasis> button.
         </para>
         <para>
             <figure>
-                <title>Import ready-to-run Web Service</title>
+                <title>Import Ready2Adopt Web Service</title>
                 <screenshot>
                     <graphic fileref="screenshots/web-services/import-example-web-service.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
@@ -56,7 +56,7 @@
         </para>
         <note>
             <para>
-                The ready-to-run Web Services may require additional feature add-ons to be installed (<emphasis role="bold">OTRSGenericInterfaceInvokerTicket</emphasis>
+                The Ready2Adopt Web Services may require additional feature add-ons to be installed (<emphasis role="bold">OTRSGenericInterfaceInvokerTicket</emphasis>
                 and <emphasis role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).
             </para>
         </note>
