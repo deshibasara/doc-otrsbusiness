@@ -4,9 +4,9 @@
 
 <book lang="hu">
     <bookinfo>
-        <title><emphasis role="bold">OTRS Business Solution</emphasis>™ 5 kézikönyv</title>
-        <copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright>
-<date>2015-10-26</date>
+        <title><emphasis role="bold">OTRS Business Solution</emphasis>™ 6 Manual</title>
+        <copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright>
+<date>2017-09-27</date>
 
         <legalnotice>
             <para>
@@ -49,6 +49,7 @@ url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-web-service.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/resource-planning.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sms-communication-channel.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />

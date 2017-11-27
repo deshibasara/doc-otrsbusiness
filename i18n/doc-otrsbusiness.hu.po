@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-15 13:11+0100\n"
-"PO-Revision-Date: 2017-09-25 14:56+0000\n"
-"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
+"POT-Creation-Date: 2017-11-27 10:31+0100\n"
+"PO-Revision-Date: 2017-11-27 09:32+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -26,23 +26,15 @@ msgstr "hu"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
-#, fuzzy
-#| msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Manual"
 msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 6 Manual"
-msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 kézikönyv"
+msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:8
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2015-10-26</date>"
 msgid ""
 "<copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-27</date>"
 msgstr ""
-"<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-10-26</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
@@ -112,17 +104,6 @@ msgstr ""
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:11
-#, fuzzy
-#| msgid ""
-#| "The sleek and fast framework of OTRS 5 is the base for the <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "\"><emphasis role=\"bold\">OTRS Business Solution</emphasis>™</ulink>.  "
-#| "On top are available for you additionally an exclusive set of features. "
-#| "These include the <ulink url=\"https://www.otrs.com/otrs-business-"
-#| "solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services"
-#| "\">integrated Cloud Services</ulink> of the <emphasis role=\"bold\">OTRS "
-#| "Business Solution</emphasis>™ that you can flexibly activate or "
-#| "deactivate according to your deployment scenarios."
 msgid ""
 "The sleek and fast framework of OTRS 6 is the base for the <ulink url="
 "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
@@ -134,15 +115,6 @@ msgid ""
 "Business Solution</emphasis>™ that you can flexibly activate or deactivate "
 "according to your deployment scenarios."
 msgstr ""
-"Az OTRS 5 ügyes és gyors keretrendszere az alapja az <ulink url=\"https://"
-"www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
-"role=\"bold\">OTRS Business Solution</emphasis>™</ulink> megoldásnak. Ezen "
-"felül érhető el továbbá a szolgáltatások kizárólagos halmaza. Ezek "
-"tartalmazzák az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ "
-"<ulink url=\"https://www.otrs.com/otrs-business-solution-improving-customer-"
-"service/#OTRS-Business-Solution-Cloud-Services\">integrált "
-"felhőszolgáltatásait</ulink>, amelyet rugalmasan bekapcsolhat vagy "
-"kikapcsolhat a telepítési forgatókönyvek szerint."
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:17
@@ -1710,16 +1682,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:535
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationButton.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:541
@@ -1732,7 +1698,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:546
 msgid "Display Chat if no agent is available"
-msgstr ""
+msgstr "Csevegés megjelenítése, ha nincs elérhető ügyintéző"
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:549
@@ -1758,7 +1724,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:566
 msgid "Pre-selected channel"
-msgstr ""
+msgstr "Előre kiválasztott csatorna"
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:569
@@ -1770,23 +1736,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:576
-#, fuzzy
-#| msgid "Configuration"
 msgid "Configuration Tab"
-msgstr "Beállítás"
+msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:578
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationConfiguration.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:582
@@ -1805,7 +1763,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:593
 msgid "Integration Code"
-msgstr ""
+msgstr "Beágyazási kód"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:595
@@ -1823,16 +1781,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:602
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationSnippet.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:606
@@ -1860,10 +1812,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:621
-#, fuzzy
-#| msgid "Tree view"
 msgid "Preview"
-msgstr "Fa nézet"
+msgstr "Előnézet"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:623
@@ -1875,23 +1825,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:627
-#, fuzzy
-#| msgid "Tree view"
 msgid "Preview Tab"
-msgstr "Fa nézet"
+msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:629
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationPreview.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatStartWidget.png\" scalefit=\"1\" "
-"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:633
@@ -3470,7 +3412,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:269
 msgid "Cache TTL"
-msgstr ""
+msgstr "Gyorsítótár élettartam"
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:272
@@ -3587,8 +3529,8 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
-msgid "Import ready-to-run process"
-msgstr "Futtatásra kész folyamat importálása"
+msgid "Import Ready2Adopt process"
+msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
@@ -3600,21 +3542,16 @@ msgstr "Importálás"
 #: en/content/features/import-example-process.xml:11
 msgid ""
 "On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
-"<emphasis>ready-to-run process</emphasis> widget, where you can find some "
-"best practice ready-to-run processes."
+"<emphasis>Ready2Adopt process</emphasis> widget, where you can find some "
+"best practice Ready2Adopt processes."
 msgstr ""
-"Az <emphasis>AdminProcessManagement</emphasis> képernyőn található egy "
-"<emphasis>futtatásra kész folyamat</emphasis> felületi elem, ahol "
-"megtalálhat néhány legjobb gyakorlat szerinti futtatásra kész folyamatot."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
 msgid ""
-"The following ready-to-run processes are available in the <emphasis role="
+"The following Ready2Adopt processes are available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
-"A következő futtatásra kész folyamatok érhetők el az <emphasis role=\"bold"
-"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:18
@@ -3683,10 +3620,8 @@ msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:31
-#, fuzzy
-#| msgid "ITIL Incident Management"
 msgid "Service Operation::Incident Management"
-msgstr "ITIL incidensmenedzsment"
+msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:32
@@ -3715,10 +3650,8 @@ msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:37
-#, fuzzy
-#| msgid "Release And Deployment Management"
 msgid "Service Transition::Release And Deployment Management"
-msgstr "Kiadás- és üzembeállítás-menedzsment"
+msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:38
@@ -3742,8 +3675,8 @@ msgstr "Útiköltség"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:46
-msgid "Import ready-to-run process widget"
-msgstr "Futtatásra kész folyamat importálása felületi elem"
+msgid "Import Ready2Adopt process widget"
+msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-process.xml:48
@@ -3757,14 +3690,10 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:53
 msgid ""
-"To install a ready-to-run process, just select the desired process from the "
-"drop-down menu in the <emphasis>Ready-to-run process</emphasis> widget and "
-"click the <emphasis>Import ready-to-run process</emphasis> button."
+"To install a Ready2Adopt process, just select the desired process from the "
+"drop-down menu in the <emphasis>Ready2Adopt process</emphasis> widget and "
+"click the <emphasis>Import Ready2Adopt process</emphasis> button."
 msgstr ""
-"Egy futtatásra kész folyamat telepítéséhez egyszerűen válassza ki a kívánt "
-"folyamatot a legördülő menüből a <emphasis>Futtatásra kész folyamat</"
-"emphasis> felületi elemben, és kattintson a <emphasis>Futtatásra kész "
-"folyamat importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:58
@@ -3778,17 +3707,15 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-web-service.xml:6
-msgid "Import ready-to-run Web Services"
-msgstr "Futtatásra kész webszolgáltatások importálása"
+msgid "Import Ready2Adopt Web Services"
+msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
 msgid ""
-"There are three ready-to-run Web Services available in the <emphasis role="
+"There are three Ready2Adopt Web Services available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
-"Három futtatásra kész webszolgáltatás érhető el az <emphasis role=\"bold"
-"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:15
@@ -3833,19 +3760,15 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:43
 msgid ""
-"Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one "
+"Locate the <emphasis>Ready2Adopt Web Services</emphasis> widget, select one "
 "of the provided web services from the drop-down menu, and click the "
-"<emphasis>Import ready-to-run Web Service</emphasis> button."
+"<emphasis>Import Ready2Adopt Web Service</emphasis> button."
 msgstr ""
-"Keresse meg a <emphasis>Futtatásra kész webszolgáltatások</emphasis> "
-"felületi elemet, válassza ki a felajánlott webszolgáltatások egyikét a "
-"legördülő menüből, és kattintson a <emphasis>Futtatásra kész webszolgáltatás "
-"importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-web-service.xml:48
-msgid "Import ready-to-run Web Service"
-msgstr "Futtatásra kész webszolgáltatás importálása"
+msgid "Import Ready2Adopt Web Service"
+msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-web-service.xml:50
@@ -3859,15 +3782,11 @@ msgstr ""
 #. type: Content of: <section><section><note><para>
 #: en/content/features/import-example-web-service.xml:59
 msgid ""
-"The ready-to-run Web Services may require additional feature add-ons to be "
+"The Ready2Adopt Web Services may require additional feature add-ons to be "
 "installed (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
 "emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
-"A futtatásra kész webszolgáltatások további funkció-kiegészítők telepítését "
-"igényelhetik (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
-"emphasis> és <emphasis role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</"
-"emphasis>)."
 
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6
@@ -4324,10 +4243,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:27
-#, fuzzy
-#| msgid "Contact Management"
 msgid "Team Management"
-msgstr "Partnerkezelés"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:29
@@ -4344,16 +4261,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:36
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAddImport."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:41
@@ -4373,24 +4284,16 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:54
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementEdit.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:61
 #: en/content/features/resource-planning.xml:75
-#, fuzzy
-#| msgid "ITIL Incident Management"
 msgid "Team Agent Management"
-msgstr "ITIL incidensmenedzsment"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:63
@@ -4409,16 +4312,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:77
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAgents.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:82
@@ -4429,24 +4326,16 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:86
-#, fuzzy
-#| msgid "Translations"
 msgid "Team Agent Relations"
-msgstr "Fordítások"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:88
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "TeamManagementAgentRelations.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:95
@@ -4475,16 +4364,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:108
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/video-calls/AgentVideoCIC.png\" scalefit="
-#| "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/AppointmentEditResource."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/video-calls/AgentVideoCIC.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:113
@@ -4502,17 +4385,11 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:121
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "AppointmentEditResourceMultiple.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:127
@@ -4526,7 +4403,7 @@ msgstr ""
 #: en/content/features/resource-planning.xml:146
 #: en/content/features/resource-planning.xml:163
 msgid "Resource Overview"
-msgstr ""
+msgstr "Erőforrás áttekintő"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:136
@@ -4547,16 +4424,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:148
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:153
@@ -4577,16 +4448,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:165
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:171
@@ -4611,16 +4476,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:184
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewSettings."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:189
@@ -4637,17 +4496,11 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:196
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png"
-#| "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "ResourceOverviewFilterDelete.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:201
@@ -4887,7 +4740,7 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:100
 #: en/content/features/sms-communication-channel.xml:146
 msgid "Manage SMS Templates"
-msgstr ""
+msgstr "SMS sablonok kezelése"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:102
@@ -5349,7 +5202,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-history.xml:23
 msgid "Deployment History"
-msgstr ""
+msgstr "Üzembe állítási előzmények"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:25

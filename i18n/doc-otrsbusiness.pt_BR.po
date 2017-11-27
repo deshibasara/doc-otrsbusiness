@@ -10,9 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-15 13:11+0100\n"
-"PO-Revision-Date: 2017-09-25 14:56+0000\n"
-"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
+"POT-Creation-Date: 2017-11-27 10:31+0100\n"
+"PO-Revision-Date: 2017-11-27 09:32+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otrs/OTRS/"
 "language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -28,23 +28,15 @@ msgstr "en"
 
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
-#, fuzzy
-#| msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Manual"
 msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 6 Manual"
-msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 5 Manual"
+msgstr ""
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:8
-#, fuzzy
-#| msgid ""
-#| "<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
-#| "<date>2015-10-26</date>"
 msgid ""
 "<copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-27</date>"
 msgstr ""
-"<copyright> <year>2015</year> <holder>OTRS AG</holder> </copyright> "
-"<date>2015-10-26</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
@@ -111,17 +103,6 @@ msgstr ""
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:11
-#, fuzzy
-#| msgid ""
-#| "The sleek and fast framework of OTRS 5 is the base for the <ulink url="
-#| "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
-#| "\"><emphasis role=\"bold\">OTRS Business Solution</emphasis>™</ulink>.  "
-#| "On top are available for you additionally an exclusive set of features. "
-#| "These include the <ulink url=\"https://www.otrs.com/otrs-business-"
-#| "solution-improving-customer-service/#OTRS-Business-Solution-Cloud-Services"
-#| "\">integrated Cloud Services</ulink> of the <emphasis role=\"bold\">OTRS "
-#| "Business Solution</emphasis>™ that you can flexibly activate or "
-#| "deactivate according to your deployment scenarios."
 msgid ""
 "The sleek and fast framework of OTRS 6 is the base for the <ulink url="
 "\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
@@ -133,15 +114,6 @@ msgid ""
 "Business Solution</emphasis>™ that you can flexibly activate or deactivate "
 "according to your deployment scenarios."
 msgstr ""
-"O elegante e  rápido sistema da  OTRS 5 é a base para a <ulink url=\"https://"
-"www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
-"role=\"bold\">OTRS Business Solution</emphasis>™</ulink>.  Na parte superior "
-"estão disponíveis para você um exclusivo conjunto de recursos. Estas incluem "
-"além disso o  <ulink url=\"https://www.otrs.com/otrs-business-solution-"
-"improving-customer-service/#OTRS-Business-Solution-Cloud-Services\">os "
-"serviços em nuvem integrada</ulink> do <emphasis role=\"bold\">OTRS Business "
-"Solution</emphasis>™ Você pode ter flexibilidade para ativar ou desativar as "
-"funções e implantação dos seus cenários."
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:17
@@ -1634,16 +1606,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:535
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationButton.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:541
@@ -1694,23 +1660,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:576
-#, fuzzy
-#| msgid "Configuration"
 msgid "Configuration Tab"
-msgstr "Configuração"
+msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:578
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationConfiguration.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:582
@@ -1747,16 +1705,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:602
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-#| "\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationSnippet.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatWidget.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:606
@@ -1784,10 +1736,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:621
-#, fuzzy
-#| msgid "Tree view"
 msgid "Preview"
-msgstr "Visão de árvore"
+msgstr "Pré-visualizar"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:623
@@ -1799,23 +1749,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:627
-#, fuzzy
-#| msgid "Tree view"
 msgid "Preview Tab"
-msgstr "Visão de árvore"
+msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:629
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationPreview.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:633
@@ -3452,8 +3394,8 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
-msgid "Import ready-to-run process"
-msgstr "Importar processos prontos para execução"
+msgid "Import Ready2Adopt process"
+msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
@@ -3465,14 +3407,14 @@ msgstr "Importar"
 #: en/content/features/import-example-process.xml:11
 msgid ""
 "On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
-"<emphasis>ready-to-run process</emphasis> widget, where you can find some "
-"best practice ready-to-run processes."
+"<emphasis>Ready2Adopt process</emphasis> widget, where you can find some "
+"best practice Ready2Adopt processes."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
 msgid ""
-"The following ready-to-run processes are available in the <emphasis role="
+"The following Ready2Adopt processes are available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
 
@@ -3598,7 +3540,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:46
-msgid "Import ready-to-run process widget"
+msgid "Import Ready2Adopt process widget"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -3611,9 +3553,9 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:53
 msgid ""
-"To install a ready-to-run process, just select the desired process from the "
-"drop-down menu in the <emphasis>Ready-to-run process</emphasis> widget and "
-"click the <emphasis>Import ready-to-run process</emphasis> button."
+"To install a Ready2Adopt process, just select the desired process from the "
+"drop-down menu in the <emphasis>Ready2Adopt process</emphasis> widget and "
+"click the <emphasis>Import Ready2Adopt process</emphasis> button."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -3626,13 +3568,13 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-web-service.xml:6
-msgid "Import ready-to-run Web Services"
+msgid "Import Ready2Adopt Web Services"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
 msgid ""
-"There are three ready-to-run Web Services available in the <emphasis role="
+"There are three Ready2Adopt Web Services available in the <emphasis role="
 "\"bold\">OTRS Business Solution™</emphasis>:"
 msgstr ""
 
@@ -3674,14 +3616,14 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:43
 msgid ""
-"Locate the <emphasis>Ready-to-run Web Services</emphasis> widget, select one "
+"Locate the <emphasis>Ready2Adopt Web Services</emphasis> widget, select one "
 "of the provided web services from the drop-down menu, and click the "
-"<emphasis>Import ready-to-run Web Service</emphasis> button."
+"<emphasis>Import Ready2Adopt Web Service</emphasis> button."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-web-service.xml:48
-msgid "Import ready-to-run Web Service"
+msgid "Import Ready2Adopt Web Service"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -3694,7 +3636,7 @@ msgstr ""
 #. type: Content of: <section><section><note><para>
 #: en/content/features/import-example-web-service.xml:59
 msgid ""
-"The ready-to-run Web Services may require additional feature add-ons to be "
+"The Ready2Adopt Web Services may require additional feature add-ons to be "
 "installed (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
 "emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
@@ -4139,10 +4081,8 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:27
-#, fuzzy
-#| msgid "Contact Management"
 msgid "Team Management"
-msgstr "Gerenciamento de contato"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:29
@@ -4159,16 +4099,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:36
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAddImport."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:41
@@ -4188,24 +4122,16 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:54
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementEdit.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:61
 #: en/content/features/resource-planning.xml:75
-#, fuzzy
-#| msgid "Contact Management"
 msgid "Team Agent Management"
-msgstr "Gerenciamento de contato"
+msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:63
@@ -4224,16 +4150,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:77
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAgents.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:82
@@ -4244,24 +4164,16 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:86
-#, fuzzy
-#| msgid "Translations"
 msgid "Team Agent Relations"
-msgstr "Tradução"
+msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:88
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
-#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "TeamManagementAgentRelations.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
-"\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:95
@@ -4290,16 +4202,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:108
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/AppointmentEditResource."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:113
@@ -4317,17 +4223,11 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:121
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "AppointmentEditResourceMultiple.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:127
@@ -4341,7 +4241,7 @@ msgstr ""
 #: en/content/features/resource-planning.xml:146
 #: en/content/features/resource-planning.xml:163
 msgid "Resource Overview"
-msgstr ""
+msgstr "Visão geral de recursos"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:136
@@ -4362,16 +4262,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:148
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:153
@@ -4392,16 +4286,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:165
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:171
@@ -4426,16 +4314,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:184
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
-#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewSettings."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit="
-"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:189
@@ -4452,17 +4334,11 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:196
-#, fuzzy
-#| msgid ""
-#| "<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png"
-#| "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/"
 "ResourceOverviewFilterDelete.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:201

@@ -678,5 +678,159 @@ contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Offline</emphas
             </para>
         </section>
     </section>
-
+    <section>
+        <title>Advanced Usage</title>
+        <section>
+            <title>Chat Integration in Web Pages</title>
+            <para>
+                You can easily integrate the public chat into a website. In the chat
+manager, administrators can access a button to open public chat integration
+configuration and snippet generator.
+            </para>
+            <figure>
+                <title>Configure Chat Integration Button</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatIntegrationButton.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            <section>
+                <title>Configuração</title>
+                <para>
+                    Configuration tab contains several parameters that can be tweaked to suit
+your needs. While most of them are self-explanatory, General Settings
+section contains several important options:
+                </para>
+                <variablelist>
+                    <varlistentry>
+                        <term>Display Chat if no agent is available</term>
+                        <listitem>
+                            <para>
+                                If active, this options controls whether the chat will be displayed
+regardless of agent's presence in the system. If inactive, if there are no
+agents currently online and available for chat, widget will be hidden.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Fall-back URL</term>
+                        <listitem>
+                            <para>
+                                This option is taken into account only if above option is set to "Yes". If
+there are no agents present and after some time, users of the public chat
+will be presented with a message containing this link.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                    <varlistentry>
+                        <term>Pre-selected channel</term>
+                        <listitem>
+                            <para>
+                                Default chat channel selection for public chat requests. This chat channel
+will be pre-selected in the chat widget, but users will be able to change it
+if needed.
+                            </para>
+                        </listitem>
+                    </varlistentry>
+                </variablelist>
+                <figure>
+                    <title>Configuration Tab</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatIntegrationConfiguration.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                <para>
+                    All other options pertains layout, colors and texts used by the chat
+widget. You can tweak them to match your overall website theme.
+                </para>
+                <note>
+                    <para>
+                        Please note that changes made in the configuration tab will not be
+saved. Every time you open this dialog, all fields will be reset to default
+values.
+                    </para>
+                </note>
+            </section>
+            <section>
+                <title>Integration Code</title>
+                <para>
+                    Integration Code tab contains necessary code snippets for insertion in a
+website, so public chat can work. All changes in the Configuration tab are
+applied immediately to the snippets, so you can make your changes and copy
+the code to your clipboard right afterwards.
+                </para>
+                <figure>
+                    <title>Integration Code Tab</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatIntegrationSnippet.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                <para>
+                    Code from the first field should be added to the &lt;HEAD&gt; section of
+your web page.
+                </para>
+                <para>
+                    Code from the second field should be inserted into the bottom of the page:
+before closure of the &lt;BODY&gt; tag, but after the line that loads
+<literal>jQuery</literal> library.
+                </para>
+                <note>
+                    <para>
+                        Please note that your web page must also include jQuery library for the code
+snippets to work.  This can be recognized by reference to the
+<filename>jquery.js</filename> or <filename>jquery.min.js</filename> file
+somewhere in the page.
+                    </para>
+                </note>
+            </section>
+            <section>
+                <title>Pré-visualizar</title>
+                <para>
+                    Using the Preview tab you can see the chat widget in action. In the browser
+simulator below, you can see the chat widget look based on current
+configuration.
+                </para>
+                <figure>
+                    <title>Preview Tab</title>
+<screenshot>
+<graphic fileref="screenshots/chat/ChatIntegrationPreview.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
+                <para>
+                    By clicking on the reload icon, you can refresh the simulation at any time.
+                </para>
+                <note>
+                    <para>
+                        Please note that the preview uses the real chat module. If the chat widget
+doesn't show up after the configured amount of time, there are probably no
+agents available for chatting and you have configured the chat shouldn't
+show up in this case.
+                    </para>
+                </note>
+            </section>
+            <section>
+                <title>Troubleshooting</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>
+                            If you cannot see the chat widget, but everything seems in order, make sure
+you have at least one agent who is externally available for chat. Or switch
+on the "Display Chat if no agent is available" option in the Configuration
+tab, and refresh the code.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            If you get mixed-content warnings in your browser Console, make sure that
+OTRS config option <literal>HttpType</literal> is properly set. For example,
+if you are running OTRS on SSL, this config option must be set to
+'https'. Your website must run on the same protocol for chat widget to work.
+                        </para>
+                    </listitem>
+                    <listitem>
+                        <para>
+                            If you get errors saying that <literal>$</literal> variable is undefined,
+make sure that jQuery library is included in your page, and that chat
+related code is placed below it.
+                        </para>
+                    </listitem>
+                </itemizedlist>
+            </section>
+        </section>
+    </section>
 </section>

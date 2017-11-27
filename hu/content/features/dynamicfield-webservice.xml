@@ -277,7 +277,7 @@ multi-select field, instead of a drop-down field.
                         </listitem>
                     </varlistentry>
                     <varlistentry>
-                        <term>Cache TTL</term>
+                        <term>Gyorsítótár élettartam</term>
                         <listitem>
                             <para>
                                 A cache time to live value, that contains a value (in minutes). If the value

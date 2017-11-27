@@ -110,7 +110,7 @@ template management screen in the Admin interface.
         </para>
         <para>
             <figure>
-                <title>Manage SMS Templates</title>
+                <title>SMS sablonok kezelése</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-template-overview.png"
@@ -159,7 +159,7 @@ Queues link in the admin interface.
         </para>
         <para>
             <figure>
-                <title>Manage SMS Templates</title>
+                <title>SMS sablonok kezelése</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-template-queue-relations.png"

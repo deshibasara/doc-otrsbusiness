@@ -21,7 +21,7 @@ changes if needed.
     <section>
         <title>Használat</title>
         <section id="sysconfig-deployment-history">
-            <title>Deployment History</title>
+            <title>Üzembe állítási előzmények</title>
             <para>
                 To access deployment history, go to System Configuration > Deployment screen
 and click on History button. This screen will display recent deployments in
