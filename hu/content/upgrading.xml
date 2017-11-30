@@ -6,16 +6,15 @@
     <title>Frissítés az <emphasis role="bold">OTRS Business Solution</emphasis>™
 megoldásra</title>
     <para>
-        Az <emphasis role="bold">OTRS Business Solution</emphasis>™ megoldásra
-frissítés érdekében szüksége van egy érvényes szerződésre az OTRS
-csoporttal. Ha már van szerződése, akkor frissíthet az <emphasis
-role="bold">OTRS Business Solution</emphasis>™ megoldásra az <emphasis
-role="bold">OTRS Business Solution</emphasis>™ adminisztrációs képernyő
-meglátogatásával az OTRS példányában. Az erre a képernyőre mutató
-hivatkozást az ingyenes OTRS példánya adminisztrációs területének
-„Rendszeradminisztráció” szakaszában találhatja meg. Ne feledje, hogy
-először regisztrálnia kell a rendszerét a rendszerregisztrációs mechanizmus
-használatával.
+        In order to upgrade to <emphasis role="bold">OTRS Business
+Solution</emphasis>™, you need a valid contract with the OTRS group. If you
+already have a contract, you can upgrade to <emphasis role="bold">OTRS
+Business Solution</emphasis>™ by visiting the <emphasis role="bold">OTRS
+Business Solution</emphasis>™ administration screen in your OTRS
+instance. You can find the link to this screen in the <emphasis>System
+Administration</emphasis> section of the admin area of your OTRS Free
+instance. Please note that you first have to register your system using the
+system registration mechanism.
     </para>
     <para>
         <figure>

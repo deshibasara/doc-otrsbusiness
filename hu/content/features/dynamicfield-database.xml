@@ -3,10 +3,11 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-database">
-    <title>Az „adatbázis” dinamikus mező</title>
+    <title>The Dynamic Field <emphasis>Database</emphasis></title>
 
     <para>
-        Ez a funkció egy „adatbázis” típusú dinamikus mezőt valósít meg.
+        This feature implements a dynamic field of the type
+<emphasis>Database</emphasis>.
     </para>
 
     <section>
@@ -22,8 +23,8 @@ szűrhetők.
 jegyekhez a dinamikus mezőn keresztül.
         </para>
         <para>
-            Az „adatbázis” dinamikus mezők ugyanolyan módon hozhatók létre, mint ahogy
-az alapértelmezett dinamikus mezők létrejönnek.
+            <emphasis>Database</emphasis> dynamic fields can be created the same way, as
+the default dynamic fields are created.
         </para>
     </section>
 
@@ -33,34 +34,34 @@ az alapértelmezett dinamikus mezők létrejönnek.
             A beállítási lehetőségek következő listája használható ennél a funkciónál.
         </para>
         <section>
-            <title>Egy „adatbázis” dinamikus mező hozzáadása</title>
+            <title>Adding a <emphasis>Database</emphasis> Dynamic Field</title>
             <para>
-                Ez a funkció egy beállítási felületet valósít meg az „adatbázis” típusú
-dinamikus mezők létrehozásához.
+                This feature implements a configuration interface to create dynamic fields
+of the type <emphasis>Database</emphasis>.
             </para>
             <para>
-                Az „adatbázis” dinamikus mezők ugyanolyan módon hozhatók létre, mint ahogy
-az alapértelmezett dinamikus mezők létrejönnek. Ehhez váltson át az
-Adminisztráció → Jegybeállítások → Dinamikus mezők nézetre. Ezen a maszkon
-választhatja ki az „adatbázis” mezőt a jegy lenyíló dobozából a bal
-oldalon. Jelenleg nem lehetséges az „adatbázis” dinamikus mező használata a
-bejegyzés környezetben.
+                <emphasis>Database</emphasis> dynamic fields can be created the same way, as
+the default dynamic fields are created. For this switch to the
+<emphasis>Admin → Ticket Settings → Dynamic Fields</emphasis> view. In this
+mask you can select the <emphasis>Database</emphasis> field from the ticket
+drop down box on the left side. Currently it's not possible to use the
+<emphasis>Database</emphasis> dynamic field in the article context.
             </para>
             <itemizedlist>
                 <listitem>
                     <para>
-                        Az „Általános - Név” beállítás:
+                        Configuration <emphasis>General - Name</emphasis>:
                     </para>
                     <para>
-                        Az „adatbázis” típusú dinamikus mezők egyedi nevet igényelnek, mint ahogy a
-többi dinamikus mező is. Ez a név csak alfanumerikus értékeket
-tartalmazhat. Ez a név lesz használva a mező belső kezelésénél, de nem lesz
-megjelenítve.
+                        Dynamic fields of the type <emphasis>Database</emphasis> need a unique name
+just like other dynamic fields, too. This name has to contain only
+alphanumeric values. This name will be used for internal handling of the
+field but will not be displayed.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Az „Általános - Címke” beállítás:
+                        Configuration <emphasis>General - Label</emphasis>:
                     </para>
                     <para>
                         A címke egyénileg állítható be, és tartalmazhat üres karaktereket,
@@ -69,7 +70,7 @@ szóközöket, stb. A mező címkéjeként lesz használva a különböző néze
                 </listitem>
                 <listitem>
                     <para>
-                        Az „Általános - Mezősorrend” beállítás:
+                        Configuration <emphasis>General - Field order</emphasis>:
                     </para>
                     <para>
                         A mezősorrend lehetővé teszi az adminisztrátoroknak a létrehozott dinamikus
@@ -80,12 +81,12 @@ mezők át lesznek helyezve egy pozícióval vissza.
                 </listitem>
                 <listitem>
                     <para>
-                        Az „Általános - Érvényes” beállítás:
+                        Configuration <emphasis>General - Valid</emphasis>:
                     </para>
                     <para>
-                        A dinamikus mezőnek a beállított OTRS „nézetekben” való használatához
-érvényesre kell állítani azt. Ha a mező „érvénytelen” értékre van állítva,
-akkor el fog tűnni az összes beállított nézetből, de nem fog adat elveszni.
+                        To use the dynamic field in the configured OTRS views it has to be set as
+valid. If the field is set to <emphasis>invalid</emphasis> it will disappear
+from all the configured views but no data will be lost.
                     </para>
                 </listitem>
             </itemizedlist>
@@ -97,7 +98,7 @@ akkor el fog tűnni az összes beállított nézetből, de nem fog adat elveszni
                 Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők
 lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el
 kell tárolni a dinamikus mező beállításaiban. <figure>
-                    <title>A dinamikus mező adatbázis adminisztrációs képernyője</title>
+                    <title>Dynamic Field Database Admin screen</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/AdminOverview.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -111,155 +112,157 @@ vagy MSSQL.
             <itemizedlist>
                 <listitem>
                     <para>
-                        SID: ez a beállítás csak Oracle kapcsolatoknál érhető el, és automatikusan
-megjelenik vagy rejtett lesz. Ezen beállításon belül kell megadnia az Oracle
-kapcsolat SID-ját.
+                        <emphasis>SID</emphasis>: This option is only available for Oracle
+connections and will be shown or hidden automatically.  Within this option
+you have to enter the SID of your Oracle connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Illesztőprogram: ez a beállítás csak ODBC kapcsolatoknál érhető el, és
-automatikusan megjelenik vagy rejtett lesz. Ezen beállításon belül kell
-megadnia a gazdarendszeren korábban beállított ODBC-illesztőprogramot a
-kívánt MSSQL adatbázishoz történő csatlakozáshoz.
+                        <emphasis>Driver</emphasis>: This option is only available for ODBC
+connections and will be shown or hidden automatically.  Within this option
+you have to enter in the hostsystem previously configured ODBC driver to
+connect to the desired MSSQL database.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Kiszolgáló: az adatbázis gép (gépnév vagy IP-cím).
+                        <emphasis>Server</emphasis>: The database host (hostname or IP-Address).
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Port: az adatbázis-kiszolgáló portja.
+                        <emphasis>Port</emphasis>: The port of the database server.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Adatbázis: a DBMS kívánt céladatbázisát határozza meg. Ez az adatbázis lesz
-használva a lekérdezésekhez.
+                        <emphasis>Database</emphasis>: Defines the desired target database of the
+DBMS. This database will be used for queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Tábla / nézet: ez a tábla vagy nézet lesz használva a lekérdezésekhez.
+                        <emphasis>Table / View</emphasis>: This table or view will be used for the
+queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Felhasználó: a felhasználónév az adatbázis-kapcsolathoz.
+                        <emphasis>User</emphasis>: The username for the database connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Jelszó: a felhasználó jelszava az adatbázis-kapcsolathoz.
+                        <emphasis>Password</emphasis>: The user password for the database
+connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Azonosító: ez a választódoboz automatikusan ki lesz töltve a „Lehetséges
-értékek (leírás lent)” mezőn keresztül. Ez a mező jeleníti meg azt az
-értéket, amely a dinamikus mezőben lesz eltárolva.
+                        <emphasis>Identifier</emphasis>: This select box will be automatically
+filled through <emphasis>Possible Values (description
+below)</emphasis>. This field represents the value which will be stored in
+the dynamic field.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Többválasztós: ha ez a mező ki van jelölve, akkor lehetséges lesz egynél
-több érték eltárolása a dinamikus mezőhöz. Azok az értékek vesszővel
-elválasztva lesznek eltárolva.
+                        <emphasis>Multiselect</emphasis>: If this field is selected, it will be
+possible to store more than one value to the dynamic field.  Those values
+will be stored comma separated.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Gyorsítótár TTL: ez az érték határozza meg másodpercben az adatbázis
-gyorsítótárának érvényességi időtartamát. Az adatbázishoz intézett azonos
-lekérdezések a gyorsítótárból (helyi fájlrendszerről) lesznek megválaszolva
-ezen időtartamon belül ahelyett, hogy ismét az adatbázist kérdezné.
+                        <emphasis>CacheTTL</emphasis>: This value defines the period of validity of
+the database cache in seconds. Equal queries to the database will be
+answered through the cache (local filesystem) within this period instead of
+asking the database again.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Keresési előtag: ez az érték lesz elhelyezve minden keresési kifejezés elé
-az automatikus kiegészítés használata közben az adatbázisban történő
-kereséshez. A helyettesítő karakterek is támogatva vannak. A keresési előtag
-figyelmen kívül lesz hagyva a részletes keresés közben, de még mindig
-lehetséges a helyettesítő karakterek használata azokban a maszkokban.
+                        <emphasis>Searchprefix</emphasis>: This value will be put in the front of
+every search term while using the autocompletion to search the
+database. Wildcard characters are supported as well. The searchprefix will
+be ignored during the detailed search, but it is still possible to use
+wildcard characters in those masks.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Keresési utótag: ez az érték lesz elhelyezve minden keresési kifejezés
-végére az automatikus kiegészítés használata közben az adatbázisban történő
-kereséshez. A helyettesítő karakterek is támogatva vannak. A keresési utótag
-figyelmen kívül lesz hagyva a részletes keresés közben, de még mindig
-lehetséges a helyettesítő karakterek használata azokban a maszkokban.
+                        <emphasis>Searchsuffix</emphasis>: This value will be put in the end of
+every search term while using the autocompletion to search the
+database. Wildcard characters are supported as well. The searchsuffix will
+be ignored during the detailed search, but it is still possible to use
+wildcard characters in those masks.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Találatkorlát: a beírt egész érték határozza meg a megengedett találatok
-legnagyobb mennyiségét az adatbázisban történő keresés közben. Ez magában
-foglalja az automatikus kiegészítéses keresést, valamint a részletes
-keresést is.
+                        <emphasis>Result Limit</emphasis>: The entered integer value defines the
+maximum amount of allowed results during a database search. This includes
+the autocompletion search as well as the detailed search.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Kis- és nagybetű: ha ez a mező ki van jelölve, akkor a kis- és nagybetűk
-megkülönböztetése hatással lesz a keresésekre.
+                        <emphasis>Case Sensitive</emphasis>: If this field is selected,
+case-sensitivity will take effect on searches.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Lehetséges értékek: mint azt már elmagyaráztuk, a lehetséges értékek
-automatikusan ki fogják tölteni az azonosító mezőt, amely azt az értéket
-határozza meg, amely a dinamikus mezőben eltárolásra kerül. Annyi lehetséges
-érték hozható létre, amennyi csak szükséges (vagy legalább annyi, ahány
-táblaoszloppal az adatbázis rendelkezik). A lehetséges értékek határozzák
-meg azon adatbázis oszlopokat, amelyben keresni kell. Lehetőség van
-beállítani az oszlopnevet, egy leírást (címkét), amellyel a mezőnek
-rendelkeznie kell, a szükséges adattípust, és hogy a mezőnek keresési vagy
-listamezőnek kell-e lennie.
+                        <emphasis>Possible values</emphasis>: As already explained the possible
+values will fill up the identifier field automatically, which defines the
+value that will be stored in the dynamic field. Possible values can be
+created as much as needed (or at least as many table columns as the database
+table has). The possible values defines the database columns to search
+in. It is possible to set the column name, a description (label) the field
+should have, the needed data type and if the field should be a search- or
+listfield.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Név: annak az adatbázisoszlopnak a pontos neve, amelyet kérni fognak az
-adatbázis-lekérdezéseken keresztül.
+                        <emphasis>Name</emphasis>: The exact name of the database column which will
+be requested through the database queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Leírás: annak a mezőnek a címkéje, amely a részletes keresésnél lesz
-megjelenítve.
+                        <emphasis>Description</emphasis>: The label of the field which will be
+displayed in the detailed search.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Adattípus: az adattípus, amely a dinamikus mezőben kerül
-eltárolásra. Lehetséges értékek: TEXT, INTEGER vagy DATE.
+                        <emphasis>Datatype</emphasis>: The data type which will be stored in the
+dynamic field. Possible values: TEXT, INTEGER or DATE.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Szűrő: a szűrő mezővel lehetséges egy jegyattribútum vagy egy dinamikus mező
-kiválasztása szűrőként a kapcsolódó oszlophoz. Ha a dinamikus mező egy vele
-kapcsolatban álló jegyhez vagy kötve, akkor az attribútumok lesznek
-használva a szűrőmechanizmushoz, egyébként a szűrők figyelmen kívül lesznek
-hagyva. Ha szűrő lesz beállítva egy táblaoszlophoz, akkor csak a keresési
-kifejezésre illeszkedő keresési eredmények és pontosan a beállított
-oszlophoz kapcsolódó jegyattribútumok lesznek megjelenítve.
+                        <emphasis>Filter</emphasis>: With the filter field, it is possible to choose
+a ticket attribute or a dynamic field as a filter for the related column. If
+the dynamic field is bound to a related ticket, the attributes will be used
+for the filter mechanism, otherwise the filters will be ignored.  If filter
+will be configured to a table column, only search results matching to the
+search term and the related ticket attribute on exactly the configured
+column will be displayed.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Keresési mező: azt jelzi, hogy egy mezőnek benne kell-e lennie a keresési
-kérésekben.
+                        <emphasis>Searchfield</emphasis>: Indicates if a field should be included in
+the search requests.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Listamező: azt jelzi, hogy egy mezőt meg kell-e jeleníteni a találatokban.
+                        <emphasis>Listfield</emphasis>: Indicates if a field should be displayed in
+the results.
                     </para>
                 </listitem>
             </itemizedlist>
@@ -268,43 +271,47 @@ kérésekben.
         <section>
             <title>Képernyő beállítások</title>
             <para>
-                Az „adatbázis” típusú dinamikus mezőket az egyéb típusú dinamikus mezőkhöz
-hasonlóan be kell kapcsolni számos olyan maszknál, amelyben azokat meg kell
-jeleníteni.
+                Dynamic fields of type <emphasis>Database</emphasis> have to be activated
+for the several masks in which they should be displayed like the other types
+of dynamic fields.
             </para>
             <para>
-                Ez az Adminisztráció → Rendszer adminisztráció → Rendszerbeállítások
-hivatkozáson keresztül végezhető el, amelyben a „Ticket” beállítást kell
-kiválasztani a bal oldalon.
+                This can be done through <emphasis>Admin → System Administration →
+SysConfig</emphasis>, in which <emphasis>Ticket</emphasis> must be selected
+on the left hand side.
             </para>
             <para>
-                Minden felületi területnél (előtétprogramnál), amelyen az „adatbázis” típusú
-dinamikus mezőt meg kell jeleníteni, az adminisztrátornak be kell állítania
-azt az igényei kielégítéséhez. Példák:
+                For every interface area (Frontend), in which the dynamic field of type
+<emphasis>Database</emphasis> should be displayed, the admin has to
+configure it to fit his needs. Examples:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            A Frontend::Agent::Ticket::ViewZoom a jegynagyítás nézethez.
+                            <literal>Frontend::Agent::Ticket::ViewZoom</literal> for the ticket zoom
+view.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            A Frontend::Agent::Ticket::ViewPhoneNew az új telefonos jegyekhez.
+                            <literal>Frontend::Agent::Ticket::ViewPhoneNew</literal> for new phone
+tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            A Frontend::Agent::Ticket::ViewEmailNew az új e-mail jegyekhez.
+                            <literal>Frontend::Agent::Ticket::ViewEmailNew</literal> for new email
+tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Ezen nézetbeállítások mindegyikében van egy
-„Ticket::Frontend::AgentTicket*###DynamicField” elnevezésű bejegyzés. Ez a
-beállítás határozza meg, hogy mely dinamikus mezőket kell megjeleníteni
-ebben a nézetben. Egy dinamikus mező hozzáadásához a mező belső nevét kell
-kitölteni a „Kulcs” mezőben. Az „Érték” mező a 0 (kikapcsolva), az 1
-(bekapcsolva) és a 2 (bekapcsolva és kötelező) értékeket veheti fel.
+                            In each of these view configurations is an entry called
+<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>.  This
+configuration defines which dynamic field(s) should get displayed in this
+view. To add a dynamic field, the internal name of the field has to be
+filled in the <emphasis>Key</emphasis> field. The field
+<emphasis>Value</emphasis> can take the values 0 (deactivated), 1 (active)
+and 2 (active and mandatory).
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -324,14 +331,14 @@ fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A „SourceDynamicField” beállítási lehetőségben annak a már létrehozott
-dinamikus (adatbázis) mezőnévnek a kitöltése szükséges, amely a történeti
-adatok begyűjtéséhez lesz használva. A kapcsolódó „TargetDynamicField”
-beállításban a „Kulcs” mezőket azon csatlakoztatott külső adatbázis
-táblaoszlopaival kell kitölteni, amely ki lesz olvasva. Minden egyes
-oszlopnál a vele kapcsolatban lévő cél dinamikus mezőt be kell állítani a
-„tartalom” mezőben. Az összegyűjtött adatok ezekben a dinamikus mezőkben
-lesznek elmentve.
+                In the configuration option for the <literal>SourceDynamicField</literal>
+it´s needed to fill in the already created dynamic (Database) field name,
+which will be used to gather the historical data. In the related option
+<literal>TargetDynamicField</literal> the field(s) <emphasis>Key</emphasis>
+have to be filled with the table columns of the connected external database,
+which will be readout.  For every column the related target dynamic field
+has to be configured in the field <emphasis>content</emphasis>. The gathered
+data will be saved in these dynamic fields.
             </para>
             <para>
                 Ha a beállítás készen van és aktív, akkor a beállított mezők ki lesznek
@@ -347,9 +354,10 @@ dinamikus mezőkben lesznek eltárolva.
 
             <variablelist>
                 <varlistentry>
-                    <term>AutoComplete::Agent###DynamicFieldDatabaseSearch</term>
+                    <term><literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal></term>
                     <listitem>
-                        <para>Csoport: Framework, alcsoport: Frontend::Agent</para>
+                        <para>Group: <literal>Framework</literal>, Subgroup:
+<literal>Frontend::Agent</literal></para>
                         <para>
                             Meghatározza a beállítási lehetőségeket az automatikus kiegészítés
 funkcióhoz.
@@ -357,45 +365,45 @@ funkcióhoz.
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>Ticket::EventModulePost###950-StoreHistoricalData</term>
+                    <term><literal>Ticket::EventModulePost###950-StoreHistoricalData</literal></term>
                     <listitem>
-                        <para>Csoport: Ticket, alcsoport: Core::Ticket</para>
+                        <para>Group: <literal>Ticket</literal>, Subgroup: <literal>Core::Ticket</literal></para>
                         <para>
                             Frissíti a dinamikus mezőket, ha a beállítottak frissítve lesznek.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</literal></term>
                     <listitem>
-                        <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához.
                         </para>
                         </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</literal></term>
                     <listitem>
-                        <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</literal></term>
                     <listitem>
-                        <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</literal></term>
                     <listitem>
-                        <para>Csoport: OTRSBusiness, alcsoport: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához.
                         </para>
@@ -421,14 +429,13 @@ lehet:
         <section>
             <title>Adathalmazok keresése és mentése - automatikus kiegészítés</title>
             <para>
-                Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert
-maszkokban (úgymint ViewPhoneNew, ViewEmailNew), egy új szövegmező jelenik
-meg azzal a névvel, amelyet a dinamikus mező a beállításokban kapott. Ebben
-a mezőben lehetséges keresési kifejezések bevitele, és ebből adódóan egy
-keresés végrehajtása az összes beállított adatbázismezőn. Egyébként
-kattintson a „Részletes keresés” hivatkozásra, és indítson egy részletes
-keresést, amelyben közvetlenül ki vannak választva azok a mezők, amelyben
-keresni kell. <figure>
+                After the created dynamic fields are activated in the well known masks (like
+<literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</literal>) a new text
+field appears with the name, the dynamic field got in the configuration.  In
+this field it is possible to input searchterms and therefore execute a
+search over all configured database fields.  Otherwise do a click on the
+link <emphasis>Detailed search</emphasis> and start a detailed search in
+which the fields to search in are selected explicitly.  <figure>
                     <title>Dinamikus mező adatbázis - tesztmező</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"
@@ -456,11 +463,11 @@ hozzáadódik a dinamikus mező találataihoz. <figure>
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                A „Részletek” hivatkozáson keresztül egy felugró képernyő érhető el, amely
-részletes információkat nyújt a teljes találati sorról. Ezek az információk
-a sor fejléceit és adatait tartalmazzák. Az információk arra használhatók,
-hogy áttekintést adjanak a többi (nem beállított) oszlopról, vagy adatok
-összehasonlításához használhatók.
+                Via the link <emphasis>Details</emphasis> a popup screen can be accessed,
+which offers detailed information about the whole result row.  This
+information includes the line headers and the data. This information can be
+used to get an overview about the rest (of the not configured) columns or to
+compare data.
             </para>
             <para>
                 A hozzáadott találati bejegyzések eltávolíthatók a mínusz gombbal.
@@ -469,9 +476,9 @@ hogy áttekintést adjanak a többi (nem beállított) oszlopról, vagy adatok
         <section>
             <title>Adathalmazok keresése és mentése - részletes keresés</title>
             <para>
-                A „Részletes keresés” hivatkozás egy új kizárólagos párbeszédablakot nyit
-meg egy új adatbázis-keresés indításához. Ezen a maszkon lehetőség van a
-mezők kiválasztására a kifejezetten azokban való kereséshez. <figure>
+                The link <emphasis>Detailed search</emphasis> opens a new modal dialog to
+start a new database search. In this mask it is possible to select the
+fields to search on explicitly.  <figure>
                     <title>Dinamikus mező adatbázis - részletes keresés</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"
@@ -484,11 +491,11 @@ bekapcsolt és kitöltött mezők vannak figyelembe véve a keresésnél. A
 helyettesítő karakterek („*”) minden egyedülálló mezőben megengedettek.
             </para>
             <para>
-                Az adatbázis-keresés a „Keresés indítása” gombbal kerül végrehajtásra, és az
-eredmények táblázatos megjelenítésűek lesznek. Ha a keresés sikeres volt,
-akkor az eredmények fel lesznek sorolva, és a bejegyzések egyike
-kiválasztható egy egérkattintással. Azután az érték hozzá lesz adva az
-elmentett értékek listájához. <figure>
+                The database search will be executed via the <emphasis>Start
+search</emphasis> button and the results will be tabular displayed.  If the
+search was successful, the results will be listed and one of the entries can
+be selected via a mouse click. The value will be added to the list of saved
+values afterwards.  <figure>
                     <title>Dinamikus mező adatbázis - részletes keresési eredmény</title>
 <screenshot>
 <graphic

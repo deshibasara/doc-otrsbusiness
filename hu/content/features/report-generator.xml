@@ -84,10 +84,10 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         <section>
             <title>Kézzel előállított jelentések</title>
             <para>
-                Egy jelentés előállításához használhatja a jelentések áttekintőjéről
-elérhető „Futtatás most” gombot. Meg fogják kérni a megerősítésre, és azután
-a jelentés létre fog jönni és azonnal elküldésre kerül. Keresse meg lent az
-előállított jelentés képernyőképeit.
+                To generate a report, you can use the <emphasis>Run now</emphasis> button
+from the reports overview. You'll be asked for confirmation and afterwards
+the report will be created and sent immediately. Please find screenshots of
+a generated report below.
             </para>
             <para>
                 <figure>

@@ -5,15 +5,15 @@
 <chapter id="upgrade-to-otrs-business-solution">
     <title>Atualizando para <emphasis role= "bold">OTRS Business Solution</emphasis>™</title>
     <para>
-        Ordem para atualizar para <emphasis role="bold">OTRS Business
-Solution</emphasis>™, você precisa de um contrato válido com o grupo
-OTRS. Se você tem um contrato, cocê pode atualizar para <emphasis
-role="bold">OTRS Business Solution</emphasis>™ by visiting the <emphasis
-role="bold">OTRS Business Solution</emphasis>™ Tela da administração do seu
-exemplo OTRS.  Você pode encontrar o link para esta tela em "Sistema de
-administração" parte da área administrativa é exemplo OTRS gratis. Por
-favor, note que primeiro é necessário registrar o seu sistema usando o
-mecanismo do sistema de registro.
+        In order to upgrade to <emphasis role="bold">OTRS Business
+Solution</emphasis>™, you need a valid contract with the OTRS group. If you
+already have a contract, you can upgrade to <emphasis role="bold">OTRS
+Business Solution</emphasis>™ by visiting the <emphasis role="bold">OTRS
+Business Solution</emphasis>™ administration screen in your OTRS
+instance. You can find the link to this screen in the <emphasis>System
+Administration</emphasis> section of the admin area of your OTRS Free
+instance. Please note that you first have to register your system using the
+system registration mechanism.
     </para>
     <para>
         <figure>

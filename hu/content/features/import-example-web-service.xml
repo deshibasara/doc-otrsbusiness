@@ -8,8 +8,8 @@
     <section>
         <title>Importálás</title>
         <para>
-            There are three Ready2Adopt Web Services available in the <emphasis
-role="bold">OTRS Business Solution™</emphasis>:
+            There are three Ready2Adopt web services available in the <emphasis
+role="bold">OTRS Business Solution</emphasis>™:
             <itemizedlist>
                 <listitem>
                     <para>
@@ -43,7 +43,7 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         <para>
             Locate the <emphasis>Ready2Adopt Web Services</emphasis> widget, select one
 of the provided web services from the drop-down menu, and click the
-<emphasis>Import Ready2Adopt Web Service</emphasis> button.
+<emphasis>Import Ready2Adopt web service</emphasis> button.
         </para>
         <para>
             <figure>
@@ -58,7 +58,7 @@ mezők létrehozásáról és/vagy a szükséges rendszerbeállítások frissít
         </para>
         <note>
             <para>
-                The Ready2Adopt Web Services may require additional feature add-ons to be
+                The Ready2Adopt web services may require additional feature add-ons to be
 installed (<emphasis
 role="bold">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis
 role="bold">OTRSGenericInterfaceInvokerEventFilter</emphasis>).

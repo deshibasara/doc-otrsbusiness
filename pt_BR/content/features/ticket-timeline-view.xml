@@ -22,9 +22,10 @@ em menos tempo.
         <variablelist>
             <title>Configuração do Sistema</title>
             <varlistentry>
-                <term>ChronicalViewEnabled</term>
+                <term><literal>ChronicalViewEnabled</literal></term>
                 <listitem>
-                    <para>Grupo: OTRSBusiness, Subgroup: Frontend::Agent</para>
+                    <para>Group: <literal>OTRSBusiness</literal>, Subgroup:
+<literal>Frontend::Agent</literal></para>
                     <para>
                         Controla-se ou não o ticket verificando se está ativada a cronologia da
 chamada.
@@ -45,10 +46,10 @@ chamada.
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            Para acessar o cronograma do ticket, use o ícone de relógio no canto
-superior direito do artigo widget no AgentTicketZoom. Você será
-redirecionado para uma escala de visualização e esta será mantida como
-preferência até que você volte para outro ponto de vista.
+            To access the ticket timeline view, use the clock icon on the top right
+corner of the article widget in the ticket zoom screen. You will be
+redirected to the timeline view and this view will be kept as preference
+until you change back to another view.
         </para>
         <para>
             No cronograma de exibição do ticket, você pode trabalhar no ticket como você

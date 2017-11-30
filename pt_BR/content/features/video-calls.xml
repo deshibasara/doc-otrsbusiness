@@ -29,11 +29,11 @@ linkend="chrome-ssl-required">HTTPS Enabled Web Server</link> is required).
     <section>
         <title>Configuração</title>
         <para>
-            The following SysConfig configuration options are relevant for this feature.
+            The following system configuration options are relevant for this feature.
         </para>
         <variablelist>
             <varlistentry>
-                <term>ChatEngine::Active</term>
+                <term><literal>ChatEngine::Active</literal></term>
                 <listitem>
                 <para>
                     Controls whether or not the video and audio calling feature is
@@ -43,7 +43,7 @@ linkend="chat">the chat</link> feature too.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PermissionGroup::VideoChatAgents</term>
+                <term><literal>ChatEngine::PermissionGroup::VideoChatAgents</literal></term>
                 <listitem>
                 <para>
                     Defines the group for the video and audio calling features. Only agents with

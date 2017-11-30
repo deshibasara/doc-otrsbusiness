@@ -3,18 +3,18 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-process">
-    <title>Import Ready2Adopt process</title>
+    <title>Import Ready2Adopt Process</title>
 
     <section>
         <title>Importar</title>
         <para>
-            On the <emphasis>AdminProcessManagement</emphasis> screen you can find an
-<emphasis>Ready2Adopt process</emphasis> widget, where you can find some
-best practice Ready2Adopt processes.
+            On the <emphasis>Process Management</emphasis> screen in the Admin interface
+you can find an <emphasis>Ready2Adopt Processes</emphasis> widget, where you
+can find some best practice Ready2Adopt processes.
         </para>
         <para>
             The following Ready2Adopt processes are available in the <emphasis
-role="bold">OTRS Business Solution™</emphasis>:
+role="bold">OTRS Business Solution</emphasis>™:
         </para>
         <para>
             <itemizedlist>
@@ -46,14 +46,14 @@ role="bold">OTRS Business Solution™</emphasis>:
         </para>
         <para>
             <figure>
-                <title>Import Ready2Adopt process widget</title>
+                <title>Import Ready2Adopt Process Widget</title>
 <screenshot>
 <graphic fileref="screenshots/process/import-example-process.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             To install a Ready2Adopt process, just select the desired process from the
-drop-down menu in the <emphasis>Ready2Adopt process</emphasis> widget and
+drop-down menu in the <emphasis>Ready2Adopt Processes</emphasis> widget and
 click the <emphasis>Import Ready2Adopt process</emphasis> button.
         </para>
         <para>

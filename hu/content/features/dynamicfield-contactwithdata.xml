@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-contact-with-data">
-    <title>A „partneradatok” dinamikus mező</title>
+    <title>The Dynamic Field <emphasis>Contact with Data</emphasis></title>
 
     <para>
         Ez a funkció lehetővé teszi a partneradatok hozzáadását a jegyekhez.
@@ -14,17 +14,16 @@
         <section>
             <title>Adatforrások meghatározása</title>
             <para>
-                Az adatforrások ennél a funkciónál az új „partneradatok” típus dinamikus
-mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a típusnak minden
-dinamikus mezője egy új adatforrás. A dinamikus mező neve lesz az adatforrás
-neve, mivel mindketten ugyanazok.
+                The data sources for this feature reside on the Dynamic Fields of the new
+<emphasis>Contact with data</emphasis> type, this mean that each dynamic
+field of this type is a new data source. The name of the dynamic field will
+become the name of the data source, as they are both the same.
             </para>
             <para>
-                Minden egyes adatforrásnál (dinamikus mezőnél) meghatározható a partner
-attribútumainak listája (az egyes attribútumok csak egy szövegalapú értéket
-tartalmazhatnak). A partner attribútumai beállíthatók kötelezőként és
-kereshetőként, ha szükséges. Az attribútumok rendezési sorrendje is
-meghatározható.
+                For each data source (dynamic field) a list of contact attributes can be
+defined (each attribute can contain only one text based value). The contact
+attributes can be set as mandatory and searchable if needed. The sort order
+of the attributes can be also defined.
             </para>
             <para>
                 A partner attribútumai az egyes adatforrásoknál szükség szerint bármilyen
@@ -33,14 +32,15 @@ telefon, születésnap, évfordulók, kedvenc étel, szabadidős tevékenység, 
             </para>
             <note>
                 <para>
-                    A „Name” és „ValidID” attribútumok mindig kötelezők, és nincsenek
-automatikusan hozzáadva, így minden egyes új adatforrásnál ezeket az
-attribútumokat kézzel kell hozzáadni.
+                    The attributes <literal>Name</literal> and <literal>ValidID</literal> are
+always mandatory and they are not automatically added, so for each new data
+source these attributes must be added manually.
                 </para>
                 <para>
-                    Az adatforrás meghatározásán belül (vagy a dinamikus mező beállításaiban)
-ezeket a „Name” és „ValidID” kulcsokkal kell feltüntetni, míg az értékek
-„Név” és „Érvényesség” lehetnek például.
+                    Within the data source definition (or dynamic field configuration) they must
+be represented by the keys <literal>Name</literal> and
+<literal>ValidID</literal> respectively while the values could be
+<emphasis>Name</emphasis> and <emphasis>Validity</emphasis> for example.
                 </para>
             </note>
         </section>
@@ -52,15 +52,15 @@ dinamikus mező), a partnerek információi hozzáadhatók a forráshoz a
 kitöltésükhöz.
             </para>
             <para>
-                Eltekintve a „Name” és a „ValidID” kulcsoktól, az egyes adatforrások
-különböző partnerinformációkat tartalmazhatnak, ahogy az adatforrás
-meghatározza (például egy adatforrásnak lehet e-mail mezője, míg egy egy
-másik tartalmazhat telefon és/vagy mobiltelefon mezőket).
+                Apart from the <literal>Name</literal> and <literal>ValidID</literal>, each
+data source could contain different contact information as defined by the
+data source (e.g. a data source could have an E-mail field while another
+could contain Telephone and/or Mobile fields).
             </para>
             <para>
-                A partner kezelése (hozzáadás vagy frissítés) az adatforrásoknál egy
-speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni
-(Partneradatok szerkesztése) a fő navigációs sávon.
+                The management (adding or updating) contact for the data sources is done by
+an special screen that can be called from the Ticket menu (<emphasis>Edit
+contacts with data</emphasis>) in the main navigation bar.
             </para>
         </section>
         <section>
@@ -78,11 +78,11 @@ mező előzőleg be lett állítva.
         <section>
             <title>Partnerek használata a keresésben és a statisztikákban</title>
             <para>
-                A jegyek a kötelező „Name” attribútumon keresztül találhatók meg a
-keresésben és a statisztikákban.
+                Tickets can be found in search and statistics via the required attribute
+<literal>Name</literal>.
             </para>
             <para>
-                A „Name” visszaadható egy mezőértékként is.
+                The <literal>Name</literal> can also be returned as a field value.
             </para>
         </section>
     </section>
@@ -93,9 +93,10 @@ keresésben és a statisztikákban.
         <variablelist>
             <title>Rendszerbeállítások</title>
             <varlistentry>
-                <term>AdminContactWithData::RunInitialWildcardSearch</term>
+                <term><literal>AdminContactWithData::RunInitialWildcardSearch</literal></term>
                 <listitem>
-                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Admin::AdminContactWithData</para>
+                    <para>Group: <literal>OTRSBusiness</literal>, Subgroup:
+<literal>Frontend::Admin::AdminContactWithData</literal></para>
                     <para>
                         Meghatározza, hogy egy helykitöltővel rendelkező keresést végre kell-e
 hajtani a partnerkezelés kezdeti meghívásakor.
@@ -103,9 +104,10 @@ hajtani a partnerkezelés kezdeti meghívásakor.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>Frontend::Module###AdminContactWithData</term>
+                <term><literal>Frontend::Module###AdminContactWithData</literal></term>
                 <listitem>
-                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent::ModuleRegistration</para>
+                    <para>Group: <literal>OTRSBusiness</literal>, Subgroup:
+<literal>Frontend::Agent::ModuleRegistration</literal></para>
                     <para>
                         Lehetővé tesz a partner és a partnerrészlet kezelési jogosultságok
 felosztását csoportmeghatározáson keresztül.
@@ -124,71 +126,75 @@ felosztását csoportmeghatározáson keresztül.
         <orderedlist>
             <listitem>
                 <para>
-                    Hozzon létre egy új „partneradatok” típusú dinamikus mezőt.
+                    Create a new dynamic field of type <emphasis>Contact with data</emphasis>.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Állítsa be a lehetséges partner attribútumokat (lehetséges értékeket). A
-„Name” és a „ValidID” kötelezők minden partneradatok dinamikus mezőnél.
+                    Set the possible contact attributes (possible
+values). <literal>Name</literal> and <literal>ValidID</literal> are required
+for any Contact with data Dynamic Field.
                 </para>
                 <itemizedlist mark="round">
                     <listitem>
                         <para>
-                            Adja hozzá a „Name” attribútumot (kulcs: Name, érték: „Név”).
+                            Add <literal>Name</literal> attribute (Key: <literal>Name</literal>, Value:
+<emphasis>Name</emphasis>).
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Adja hozzá a „ValidID” attribútumot (kulcs: ValidID, érték: „Érvényesség”).
+                            Add <literal>ValidID</literal> attribute (Key: <literal>ValidID</literal>,
+Value: <emphasis>Validity</emphasis>).
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Adjon hozzá bármilyen egyéb attribútumot, mint például a „Telephone”
-attribútum (kulcs: Telephone, érték: „Telefon”).
+                            Add any other attribute such as <literal>Telephone</literal> attribute (Key:
+<literal>Telephone</literal>, Value: <emphasis>Phone</emphasis>).
                         </para>
                     </listitem>
                 </itemizedlist>
             </listitem>
             <listitem>
                 <para>
-                    Adja hozzá a kötelező attribútumkulcsok listáját vesszővel elválasztva (a
-„Name” és a „ValidID” nem szükséges).
+                    Add the list of mandatory attribute keys comma separated
+(<literal>Name</literal> and <literal>ValidID</literal> are not needed).
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Állítsa be az attribútumkulcsok sorrendjének listáját vesszővel elválasztva,
-úgymint: Name,Telephone,ValidID.
+                    Set the attribute key order list comma separated as:
+<literal>Name,Telephone,ValidID</literal>.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Adja hozzá a kereshető attribútumkulcsok listáját vesszővel elválasztva (a
-„Name” nem szükséges).
+                    Add the list of searchable attribute keys comma separated
+(<literal>Name</literal> is not needed).
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan
-létrehozott adatforrásban a „Jegyek” → „Partneradatok szerkesztése” képernyő
-használatával a fő navigációs sávról.
+                    Populate the data source by adding at least one contact in the newly created
+data source by using <emphasis>Tickets → Edit contacts with data</emphasis>
+screen from the main navigation bar.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Adja hozzá az új dinamikus mezőt azon képernyők beállításaihoz, ahol azt meg
-kell jeleníteni. Például az új telefonos jegy képernyőn a
-Ticket::Frontend::AgentTicketPhone###DynamicField rendszerbeállítás
-frissítésével, és ugyanezt elvégezve a
-Ticket::Frontend::AgentTicketZoom###DynamicField rendszerbeállításnál.
+                    Add the new dynamic field to the screen's configuration where it should be
+shown. For example in <emphasis>New Phone Ticket</emphasis> screen by
+updating the system configuration setting:
+<literal>Ticket::Frontend::AgentTicketPhone###DynamicField</literal> and do
+the same for
+<literal>Ticket::Frontend::AgentTicketZoom###DynamicField</literal>.
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    Menjen az új telefonos jegy képernyőre, és figyelje meg, hogy az új mező ott
-van-e. Adja hozzá a jegyhez szükséges összes információt.
+                    Go to <emphasis>New phone ticket</emphasis> screen, and notice that the new
+field is there.  Add all ticket needed information.
                 </para>
             </listitem>
             <listitem>
@@ -205,11 +211,11 @@ jegynagyítás képernyőn.
             </listitem>
             <listitem>
                 <para>
-                    Lehetőség van a partner attribútumainak frissítésére a „Partneradatok
-szerkesztése” gombra kattintva, amely a partneradat doboz címének jobb
-oldalán jelenik meg (ha a jelenlegi felhasználó a
-Frontend::Module###AdminDynamicFieldContactWithData rendszerbeállításban
-meghatározott csoportok tagja).
+                    It is possible to update the attributes of the contact by clicking the
+<emphasis>Edit contact data</emphasis> button that appears in the right side
+of the title of the contact data box (if the current user is a member of the
+groups defined in system configuration setting
+<literal>Frontend::Module###AdminDynamicFieldContactWithData</literal>).
                 </para>
             </listitem>
             <listitem>

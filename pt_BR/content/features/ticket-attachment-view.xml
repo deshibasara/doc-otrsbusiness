@@ -34,9 +34,10 @@ está exibindo.
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            Uma vez um ticket tem pelo menos um anexo, o item de menu "Acessórios" será
-exibido no AgentTicketZoom. Clicando sobre ele, será aberto um popup que
-contém uma lista de todos os anexos.
+            Once a ticket has at least one attachment, the
+<emphasis>Attachments</emphasis> menu item will be displayed in the ticket
+zoom screen. Clicking it will open a popup which contains a list of all
+attachments.
         </para>
         <para>
             <figure>

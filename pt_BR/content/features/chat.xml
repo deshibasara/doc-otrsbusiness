@@ -27,15 +27,15 @@ automaticamente).
     <section>
         <title>Configuração</title>
         <para>
-            As seguintes configurações da SysConfig são relevantes para esse
-recurso. Por favor note que você também pode definir uma lista de textos que
-estão sendo exibidos para usuários e clientes no modulo de chat. Para obter
-mais informações sobre textos que podem ser alterados, por favor observe o
-módulo de configuração (OTRSBusiness → Core::Chat).
+            The following system configuration options are relevant for this
+feature. Please note that you can also define a list of fixed texts which
+are being displayed to public users and customers in the chat module. For
+more information on which texts can be changed, please have a look at the
+module configuration (<literal>OTRSBusiness → Core::Chat</literal>).
         </para>
         <variablelist>
             <varlistentry>
-                <term>ChatEngine::Active</term>
+                <term><literal>ChatEngine::Active</literal></term>
                 <listitem>
                 <para>
                     Controla-se ou não o recurso de chat ativado.
@@ -43,7 +43,7 @@ módulo de configuração (OTRSBusiness → Core::Chat).
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatDirection::PublicToAgent</term>
+                <term><literal>ChatEngine::ChatDirection::PublicToAgent</literal></term>
                 <listitem>
                 <para>
                     Controla-se ou não os usuários capazes de iniciar o chat (por favor note que
@@ -54,7 +54,7 @@ ativada).
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatDirection::CustomerToAgent</term>
+                <term><literal>ChatEngine::ChatDirection::CustomerToAgent</literal></term>
                 <listitem>
                 <para>
                     Controla-se ou não os usuários capazes de iniciar o chat (por favor note que
@@ -65,7 +65,7 @@ ser ativada).
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatDirection::AgentToCustomer</term>
+                <term><literal>ChatEngine::ChatDirection::AgentToCustomer</literal></term>
                 <listitem>
                 <para>
                     Controla-se ou não os agentes capazes de iniciar o chat diretamente com
@@ -74,7 +74,7 @@ clientes.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatDirection::AgentToAgent</term>
+                <term><literal>ChatEngine::ChatDirection::AgentToAgent</literal></term>
                 <listitem>
                 <para>
                     Controla-se ou não os agentes capazes de iniciar o chat, um com os outros.
@@ -82,9 +82,9 @@ clientes.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PermissionGroup::ChatReceivingAgents,
-ChatEngine::PermissionGroup::ChatNotificationAgents,
-ChatEngine::PermissionGroup::ChatStartingAgents</term>
+                <term><literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal>,
+<literal>ChatEngine::PermissionGroup::ChatNotificationAgents</literal>,
+<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal></term>
                 <listitem>
                 <para>
                     Definir os grupos para determinadas funções. Recebimentos: Os grupos podem
@@ -95,7 +95,7 @@ Os grupos estão autorizados para iniciar novos chats com todos .
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::DefaultAgentName</term>
+                <term><literal>ChatEngine::DefaultAgentName</literal></term>
                 <listitem>
                 <para>
                     Um nome padrão que deve ser exibido para os clientes e usuários em lugar do
@@ -105,7 +105,7 @@ verdadeiro nome do agente será mostrado.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::DefaultAgentNameNumbers</term>
+                <term><literal>ChatEngine::DefaultAgentNameNumbers</literal></term>
                 <listitem>
                 <para>
                     Controla-se os números que não devem ser adicionados aos agentes, nome
@@ -116,7 +116,7 @@ clientes/usuários para distinguir entre os diferentes agentes ( por exemplo
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PublicInterface::AllowChatChannels</term>
+                <term><literal>ChatEngine::PublicInterface::AllowChatChannels</literal></term>
                 <listitem>
                 <para>
                     Define-se canal de chat, uma seleção ativa de usuários. Se definido como
@@ -126,7 +126,7 @@ clientes/usuários para distinguir entre os diferentes agentes ( por exemplo
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PublicInterface::AvailabilityCheck</term>
+                <term><literal>ChatEngine::PublicInterface::AvailabilityCheck</literal></term>
                 <listitem>
                 <para>
                     Define-se os canais de chat que devem ser selecionáveis pelo menos na
@@ -137,17 +137,17 @@ neste canal.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::CustomerInterface::AllowChatChannels</term>
+                <term><literal>ChatEngine::CustomerInterface::AllowChatChannels</literal></term>
                 <listitem>
                 <para>
-                    Define-se canal de chat, uma seleção ativa de clientes. Se definido como
-"não", os clientes do chat vão para o canal padrão automaticamente
-(ChatEngine::DefaultChatChannel).
+                    Defines, if chat channel selection should be enabled for customer users. If
+set to "no", chats from customer users will go to the default channel
+automatically (<literal>ChatEngine::DefaultChatChannel</literal>).
                 </para>
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::CustomerInterface::AvailabilityCheck</term>
+                <term><literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal></term>
                 <listitem>
                 <para>
                     Define-se os canais de chat que devem ser selecionáveis pelo menos na
@@ -158,32 +158,33 @@ canal.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::CustomerThreshold</term>
+                <term><literal>ChatEngine::CustomerThreshold</literal></term>
                 <listitem>
                 <para>
-                    Quantidade de minutos que precisam passar antes de um "agente não
-disponível" esta mensagem sendo exibida para o cliente/usuário que começou a
-solicitação do chat. A mensagem pode ser configurada usando
-ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket ou
-ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting
-(interface do cliente) e
-ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (interface pública).
+                    Amount of minutes which need to pass before a <emphasis>no agent is
+available</emphasis> message is being displayed to the customer/public user
+who started the chat request. The message can be configured using
+<literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket</literal>
+or
+<literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting</literal>
+(customer interface) and
+<literal>ChatEngine::Texts::PublicFrontend::NoAgentsAvailable</literal>
+(public interface).
                 </para>
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::AgentOnlineThreshold</term>
+                <term><literal>ChatEngine::AgentOnlineThreshold</literal></term>
                 <listitem>
                 <para>
-                    Se um agente não está ativo no OTRS dentro desse limiar, eles serão
-automaticamente definidos para "indisponível para chat" (verificar <link
-linkend="chat-setup-availability">"Agentes: configurar a
-disponibilidade"</link>).
+                    If an agent is not active in OTRS within this threshold, they will be
+automatically set to <emphasis>unavailable for chat</emphasis> (see <link
+linkend="chat-setup-availability">Agents: Set up availability</link>).
                 </para>
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::DefaultChatChannel</term>
+                <term><literal>ChatEngine::DefaultChatChannel</literal></term>
                 <listitem>
                 <para>
                     Nome do canal de chat padrão. Este canal não deve ser criado manualmente e
@@ -193,7 +194,7 @@ caso de seleção de canal de chat está desativado para qualquer interface.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatTTL</term>
+                <term><literal>ChatEngine::ChatTTL</literal></term>
                 <listitem>
                 <para>
                     Depois de muitas horas o chat deve ser fechado e excluído do banco de
@@ -204,7 +205,7 @@ possível a visualização ou  download para o cliente.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatDecayTime</term>
+                <term><literal>ChatEngine::ChatDecayTime</literal></term>
                 <listitem>
                 <para>
                     Depois de muitos dias os chats não fechados, devem ser excluídos do banco de
@@ -215,7 +216,7 @@ uso, se forem mais antigos, que a quantidade de dias configurado.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::ChatOrder</term>
+                <term><literal>ChatEngine::ChatOrder</literal></term>
                 <listitem>
                 <para>
                     Define-se os novos chats que devem ser anexado ou desanexado a lista ativa
@@ -235,18 +236,19 @@ determinados instrumentos em sua instância no OTRS.
         <section id="chat-permissions">
             <title>Administrar: Criar canais de chat e atribuir permissões</title>
             <para>
-                Na área de administrador da OTRS, você encontrará uma nova entrada "Canal de
-chat" (AdminChatChannel). Utilize esta tela para adicionar novos
-canais. Você precisa atribuir um grupo de agentes já existentes, para cada
-canal que você criar. Você pode utilizar as telas "Agentes &lt;-&gt; Grupos"
-ou "Agentes &lt;-&gt; Funções" para atribuir permissões. Existem novas
-permissões específicas de chat que são descritas abaixo.
+                In the admin area in OTRS, you'll find a new entry <emphasis>Chat
+Channel</emphasis> (<literal>AdminChatChannel</literal>). Use this screen to
+add new channels. You'll need to assign an existing agent group to each
+channel you'll create. You can use the screens <emphasis>Agents ↔
+Groups</emphasis> or <emphasis>Agents ↔ Roles</emphasis> to assign
+permissions. There are new chat-specific permissions which are described
+below.
             </para>
 
             <variablelist>
                 <title>Chat com permissões disponíveis</title>
                 <varlistentry>
-                    <term>CHAT_OBSERVER</term>
+                    <term><literal>CHAT_OBSERVER</literal></term>
                     <listitem>
                         <para>
                             Os usuários com este tipo de permissão serão capazes de observar os chats
@@ -258,7 +260,7 @@ agentes a um chat e observar atualmente.
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>CHAT_PARTICIPANT</term>
+                    <term><literal>CHAT_PARTICIPANT</literal></term>
                     <listitem>
                         <para>
                             Os usuários com este tipo de permissão será capaz de tomar parte de um chat,
@@ -269,7 +271,7 @@ cliente/usuário do chat na sua própria solicitação.
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>CHAT_OWNER</term>
+                    <term><literal>CHAT_OWNER</literal></term>
                     <listitem>
                         <para>
                             Os utilizadores com este tipo de permissão serão capazes de aceitar clientes
@@ -282,10 +284,10 @@ participante de ações de um chat.
 
             <note>
                 <para>
-                    Para utilizar em geral o chat, os agentes precisam ainda ter pelo menos as
-permissões dos grupos criados no
-ChatEngine::PermissionGroup::ChatReceivingAgents e
-ChatEngine::PermissionGroup::ChatStartingAgents.
+                    To use the chat in general, agents still need to have at least ro
+permissions to the groups set up in
+<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal> and
+<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>.
                 </para>
             </note>
         </section>
@@ -326,8 +328,8 @@ disponibilidade.
             </para>
             <note>
                 <para>
-                    Sua disponibilidade será redefinida para "somente chat interno" cada vez que
-você efetuar o login do OTRS novamente.
+                    Your availability will be reset to <emphasis>internal chats only</emphasis>
+each time you log in to OTRS again.
                 </para>
             </note>
         </section>
@@ -345,12 +347,11 @@ você efetuar o login do OTRS novamente.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                O gerenciador do chat é o ponto central do recurso do chat. Como um agente,
-aqui você pode gerenciar seus chats, visualizar, aceitar solicitações em
-aberto. O gerenciador do chat fornece uma lista de solicitações de clientes
-do chat, usuários e outros agentes, bem como uma visualização geral de todos
-os chats ativos. Abra o gerenciador de chat utilizando o "Chat" na navegação
-principal do OTRS.
+                The chat manager is the central point of the chat feature. As an agent, here
+you can manage your chats and see and accept open requests. The chat manager
+provides a list of chat requests from customers, public users and other
+agents, as well as an overview over all active chats. Open the chat manager
+by using <emphasis>Chat</emphasis> in the main navigation of OTRS.
             </para>
         </section>
 
@@ -407,10 +408,10 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Cliente para o agente</emphasis></para>
                     <para>
-                        Os clientes não são capazes de iniciar diretamente um chat com um certo
-agente, mas apenas para criar solicitações um chat genérico. Para isso, os
-clientes podem utilizar os itens nos chats → Criar um novo chat a partir da
-interface de cliente da navegação principal.
+                        Customers are not able to start a chat directly with a certain agent, but
+only to create generic chat requests. To do this, customers can use the item
+<emphasis>Chats → Create new chat</emphasis> from the customer interface
+main navigation.
                     </para>
                     <para>
                         <figure>
@@ -423,13 +424,12 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Público para o agente</emphasis></para>
                     <para>
-                        Os utilitários da interface pública não são capazes também de iniciar
-diretamente um chat com um certo agente, mas apenas a solicitação para criar
-um chat genérico usando o módulo de chat público
-(public.pl?Action=PublicChat). Se você gostaria de integrar o público no
-módulo de chat no seu site,  você pode usar os parâmetros Islframe. O
-cabeçalho e o rodapé será removida do OTRS
-(public.pl?Action=PublicChat;IsIframe=1).
+                        Users of the public interface are also not able to start a chat directly
+with a certain agent, but only to create generic chat requests using the
+public chat module (<literal>public.pl?Action=PublicChat</literal>). If you
+would like to integrate the public chat module into your website, you can
+use the IsIframe parameter. The OTRS header and footer will then be removed
+from the view (<literal>public.pl?Action=PublicChat;IsIframe=1</literal>).
                     </para>
                 </listitem>
             </itemizedlist>
@@ -452,12 +452,13 @@ as solicitações em aberto (veja a figura abaixo).
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Utilize o botão "Abrir o chat" e visualizar os detalhes a partir da lista do
-pedido. clicando no botão abrirá uma sobreposição que fornece várias ações
-sobre este pedido. Dado que você possui permissão suficiente, você pode
-aceitar a solicitação ou mudar o canal para esta solicitação. mudar de canal
-seguirá as mesmas regras, como a criação de nova solicitação: você só pode
-mover a solicitação para um canal que tem agentes ativos.
+                Use the <emphasis>Open chat</emphasis> button from the list to see the
+details of the request. Clicking the button will open an overlay which
+provides several actions on this request. Given that you've got sufficient
+permissions, you can accept the request or change the channel for this
+request. Changing the channel will follow the same rules as creating new
+request: you can only move the request to a channel which has active agents
+in it.
             </para>
             <para>
                 Mudando o canal de chat utilizado sem aceitar o pedido,  poderia ser enviado
@@ -540,10 +541,10 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Ação: Telefone e  ticket</emphasis></para>
                     <para>
-                        Utilizando o "Telefone do ticket" link da barra de ferramenta avançada,
-permite que você crie um telefone para o qual o ticket atual do chat será
-anexado como um artigo. Depois que você criou com sucesso o ticket, o chat
-será fechado automaticamente, .
+                        Using the <emphasis>Phone ticket</emphasis> link from the advanced toolbar,
+allows you to create a phone ticket to which the current chat will be
+appended to as an article. After you've successfully created the ticket, the
+chat will get closed automatically.
                     </para>
                 </listitem>
                 <listitem>
@@ -556,14 +557,14 @@ que o artigo foi criado, o chat ficará fechado automaticamente.
                 <listitem>
                     <para><emphasis>Ação: convidar</emphasis></para>
                     <para>
-                        Permite a você convidar outro agente para este chat. Você pode selecionar a
-partir de uma lista de agentes que você deseja convidar. Uma que você
-convidou o agente, um novo agente par agente da a solicitação de chat, que
-será enviado para este  agente. Depois de ter aceitado a solicitação, um
-chat interno é estabelecido entre você e o agente. Neste chat interno, o
-agente convidado tem mais duas ações disponíveis na barra de ferramentas de
-ações avançadas: <link linkend="chat-action-observer">"Observador"</link> e
-<link linkend="chat-action-participant">"Participante"</link>.
+                        Allows you to invite another agent to this chat. You can select from a list
+of available agents who you want to invite. Once you've invited the agent, a
+new agent-to-agent chat request will be sent to this agent. After the
+request has accepted, a new internal chat will be established between you
+and the invited agent. In this internal chat, the invited agent has two more
+actions available in the advanced actions toolbar: <link
+linkend="chat-action-observer">Observer</link> and <link
+linkend="chat-action-participant">Participant</link>.
                     </para>
                 </listitem>
                 <listitem>
@@ -696,17 +697,17 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <title>Configuração</title>
                 <para>
                     Configuration tab contains several parameters that can be tweaked to suit
-your needs. While most of them are self-explanatory, General Settings
-section contains several important options:
+your needs. While most of them are self-explanatory, <emphasis>General
+Settings</emphasis> section contains several important options:
                 </para>
                 <variablelist>
                     <varlistentry>
                         <term>Display Chat if no agent is available</term>
                         <listitem>
                             <para>
-                                If active, this options controls whether the chat will be displayed
-regardless of agent's presence in the system. If inactive, if there are no
-agents currently online and available for chat, widget will be hidden.
+                                If enabled, this option controls whether the chat will be displayed
+regardless of agent's presence in the system. If not enabled, if there are
+no agents currently online and available for chat, widget will be hidden.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -714,9 +715,9 @@ agents currently online and available for chat, widget will be hidden.
                         <term>Fall-back URL</term>
                         <listitem>
                             <para>
-                                This option is taken into account only if above option is set to "Yes". If
-there are no agents present and after some time, users of the public chat
-will be presented with a message containing this link.
+                                This option is taken into account only if above option is enabled. If there
+are no agents present and after some time, users of the public chat will be
+presented with a message containing this link.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -751,10 +752,11 @@ values.
             <section>
                 <title>Integration Code</title>
                 <para>
-                    Integration Code tab contains necessary code snippets for insertion in a
-website, so public chat can work. All changes in the Configuration tab are
-applied immediately to the snippets, so you can make your changes and copy
-the code to your clipboard right afterwards.
+                    <emphasis>Integration Code</emphasis> tab contains necessary code snippets
+for insertion in a website, so public chat can work. All changes in the
+<emphasis>Configuration</emphasis> tab are applied immediately to the
+snippets, so you can make your changes and copy the code to your clipboard
+right afterwards.
                 </para>
                 <figure>
                     <title>Integration Code Tab</title>
@@ -762,29 +764,29 @@ the code to your clipboard right afterwards.
 <graphic fileref="screenshots/chat/ChatIntegrationSnippet.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <para>
-                    Code from the first field should be added to the &lt;HEAD&gt; section of
-your web page.
+                    Code from the first field should be added to the
+<literal>&lt;HEAD&gt;</literal> section of your web page.
                 </para>
                 <para>
                     Code from the second field should be inserted into the bottom of the page:
-before closure of the &lt;BODY&gt; tag, but after the line that loads
-<literal>jQuery</literal> library.
+before closure of the <literal>&lt;BODY&gt;</literal> tag, but after the
+line that loads <emphasis>jQuery</emphasis> library.
                 </para>
                 <note>
                     <para>
-                        Please note that your web page must also include jQuery library for the code
-snippets to work.  This can be recognized by reference to the
-<filename>jquery.js</filename> or <filename>jquery.min.js</filename> file
-somewhere in the page.
+                        Please note that your web page must also include <emphasis>jQuery</emphasis>
+library for the code snippets to work.  This can be recognized by reference
+to the <filename>jquery.js</filename> or <filename>jquery.min.js</filename>
+file somewhere in the page.
                     </para>
                 </note>
             </section>
             <section>
                 <title>Pré-visualizar</title>
                 <para>
-                    Using the Preview tab you can see the chat widget in action. In the browser
-simulator below, you can see the chat widget look based on current
-configuration.
+                    Using the <emphasis>Preview</emphasis> tab you can see the chat widget in
+action. In the browser simulator below, you can see the chat widget look
+based on current configuration.
                 </para>
                 <figure>
                     <title>Preview Tab</title>
@@ -810,23 +812,24 @@ show up in this case.
                         <para>
                             If you cannot see the chat widget, but everything seems in order, make sure
 you have at least one agent who is externally available for chat. Or switch
-on the "Display Chat if no agent is available" option in the Configuration
-tab, and refresh the code.
+on the <emphasis>Display Chat if no agent is available</emphasis> option in
+the <emphasis>Configuration</emphasis> tab, and refresh the code.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            If you get mixed-content warnings in your browser Console, make sure that
-OTRS config option <literal>HttpType</literal> is properly set. For example,
-if you are running OTRS on SSL, this config option must be set to
-'https'. Your website must run on the same protocol for chat widget to work.
+                            If you get mixed-content warnings in your browser console, make sure that
+OTRS configuration option <literal>HttpType</literal> is properly set. For
+example, if you are running OTRS on SSL, this configuration option must be
+set to <literal>https</literal>. Your website must run on the same protocol
+for chat widget to work.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
                             If you get errors saying that <literal>$</literal> variable is undefined,
-make sure that jQuery library is included in your page, and that chat
-related code is placed below it.
+make sure that <emphasis>jQuery</emphasis> library is included in your web
+page, and that chat related code is placed below it.
                         </para>
                     </listitem>
                 </itemizedlist>

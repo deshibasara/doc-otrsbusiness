@@ -21,9 +21,10 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
         <variablelist>
             <title>Rendszerbeállítások</title>
             <varlistentry>
-                <term>ChronicalViewEnabled</term>
+                <term><literal>ChronicalViewEnabled</literal></term>
                 <listitem>
-                    <para>Csoport: OTRSBusiness, alcsoport: Frontend::Agent</para>
+                    <para>Group: <literal>OTRSBusiness</literal>, Subgroup:
+<literal>Frontend::Agent</literal></para>
                     <para>
                         Azt szabályozza, hogy a jegy idővonal nézete engedélyezve legyen-e vagy sem.
                     </para>
@@ -43,10 +44,10 @@ idő alatt kaphatnak egy jó áttekintőt a jeggyel kapcsolatban.
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem
-jobb felső sarkában lévő óra ikont az AgentTicketZoom nézeten. Át lesz
-irányítva az idővonal nézetre, és ez a nézet lesz megtartva elsőbbségiként,
-amíg vissza nem vált egy másik nézetre.
+            To access the ticket timeline view, use the clock icon on the top right
+corner of the article widget in the ticket zoom screen. You will be
+redirected to the timeline view and this view will be kept as preference
+until you change back to another view.
         </para>
         <para>
             A jegy idővonal nézetén úgy dolgozhat a jeggyel, ahogy azt

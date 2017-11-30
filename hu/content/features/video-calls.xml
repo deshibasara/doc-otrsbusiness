@@ -31,12 +31,11 @@ webkiszolgáló</link> szükséges).
     <section>
         <title>Beállítás</title>
         <para>
-            A következő rendszerbeállítási konfigurációs lehetőségek fontosak ennél a
-funkciónál.
+            The following system configuration options are relevant for this feature.
         </para>
         <variablelist>
             <varlistentry>
-                <term>ChatEngine::Active</term>
+                <term><literal>ChatEngine::Active</literal></term>
                 <listitem>
                 <para>
                     Azt szabályozza, hogy a video- és hanghívás funkció engedélyezve legyen-e
@@ -46,7 +45,7 @@ linkend="chat">csevegés</link> funkciót is.
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PermissionGroup::VideoChatAgents</term>
+                <term><literal>ChatEngine::PermissionGroup::VideoChatAgents</literal></term>
                 <listitem>
                 <para>
                     Meghatározza a csoportot a video- és hanghívás funkciókhoz. Csak az ebben a

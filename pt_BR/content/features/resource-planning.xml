@@ -7,11 +7,11 @@
     <section>
         <title>Descrição</title>
         <para>
-            Resource planning feature in OTRS Business Solution™ complements built-in
-calendar feature of OTRS. It enhances original calendar implementation by
-introducing resource allocation for appointments. Furthermore, resources can
-be assigned to separate teams, which in turn can be used to filter resource
-overview and availability.
+            Resource planning feature in <emphasis role="bold">OTRS Business
+Solution</emphasis>™ complements built-in calendar feature of OTRS. It
+enhances original calendar implementation by introducing resource allocation
+for appointments. Furthermore, resources can be assigned to separate teams,
+which in turn can be used to filter resource overview and availability.
         </para>
     </section>
 
@@ -39,9 +39,10 @@ fileref="screenshots/resource-allocation/TeamManagementAddImport.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Teams can be added or imported from Manage Teams screen accessible via top
-navigation menu. In order to import a team, you must have an exported YML
-configuration file of the team from an existing OTRS installation.
+                Teams can be added or imported from <emphasis>Manage Teams</emphasis> screen
+accessible via top navigation menu. In order to import a team, you must have
+an exported YML configuration file of the team from an existing OTRS
+installation.
             </para>
             <para>
                 Adding new team is easy: just define a team name and permission group. Full
@@ -67,7 +68,7 @@ agents and teams very much like you can do it for agents and groups.
             <note>
                 <para>
                     Please note that in order to see agents in this screen, you must define them
-first via Admin &gt; Agents screen.
+first via <emphasis>Admin → Agents</emphasis> screen.
                 </para>
             </note>
             <para>

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-11-27 10:31+0100\n"
+"POT-Creation-Date: 2017-11-30 13:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,8 +123,8 @@ msgid ""
 "already have a contract, you can upgrade to <emphasis role=\"bold\">OTRS "
 "Business Solution</emphasis>™ by visiting the <emphasis role=\"bold\">OTRS "
 "Business Solution</emphasis>™ administration screen in your OTRS "
-"instance. You can find the link to this screen in the \"System "
-"Administration\" section of the admin area of your OTRS Free "
+"instance. You can find the link to this screen in the <emphasis>System "
+"Administration</emphasis> section of the admin area of your OTRS Free "
 "instance. Please note that you first have to register your system using the "
 "system registration mechanism."
 msgstr ""
@@ -142,12 +142,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure>
-#: en/content/upgrading.xml:13 en/content/upgrading.xml:27 en/content/features/chat.xml:221 en/content/features/chat.xml:235 en/content/features/chat.xml:258 en/content/features/chat.xml:288 en/content/features/chat.xml:299 en/content/features/chat.xml:313 en/content/features/chat.xml:336 en/content/features/chat.xml:350 en/content/features/chat.xml:365 en/content/features/chat.xml:391 en/content/features/chat.xml:399 en/content/features/chat.xml:460 en/content/features/chat.xml:534 en/content/features/chat.xml:577 en/content/features/chat.xml:601 en/content/features/chat.xml:628 en/content/features/dynamicfield-database.xml:84 en/content/features/dynamicfield-database.xml:276 en/content/features/dynamicfield-database.xml:377 en/content/features/dynamicfield-database.xml:389 en/content/features/dynamicfield-database.xml:400 en/content/features/dynamicfield-database.xml:422 en/content/features/dynamicfield-database.xml:439 en/content/features/dynamicfield-webservice.xml:93 en/content/features/dynamicfield-webservice.xml:109 en/content/features/dynamicfield-webservice.xml:231 en/content/features/import-example-process.xml:47 en/content/features/import-example-web-service.xml:37 en/content/features/import-example-web-service.xml:49 en/content/features/notifications.xml:52 en/content/features/notifications.xml:64 en/content/features/notifications.xml:76 en/content/features/notifications.xml:91 en/content/features/notifications.xml:103 en/content/features/notifications.xml:115 en/content/features/notifications.xml:123 en/content/features/report-generator.xml:37 en/content/features/report-generator.xml:51 en/content/features/report-generator.xml:65 en/content/features/report-generator.xml:80 en/content/features/report-generator.xml:88 en/content/features/report-generator.xml:96 en/content/features/report-generator.xml:104 en/content/features/resource-planning.xml:35 en/content/features/resource-planning.xml:53 en/content/features/resource-planning.xml:76 en/content/features/resource-planning.xml:87 en/content/features/resource-planning.xml:107 en/content/features/resource-planning.xml:120 en/content/features/resource-planning.xml:147 en/content/features/resource-planning.xml:164 en/content/features/resource-planning.xml:183 en/content/features/resource-planning.xml:195 en/content/features/sla-selection-dialog.xml:29 en/content/features/sla-selection-dialog.xml:43 en/content/features/sms-communication-channel.xml:25 en/content/features/sms-communication-channel.xml:43 en/content/features/sms-communication-channel.xml:101 en/content/features/sms-communication-channel.xml:147 en/content/features/sms-communication-channel.xml:163 en/content/features/sms-communication-channel.xml:213 en/content/features/sms-communication-channel.xml:226 en/content/features/sms-communication-channel.xml:263 en/content/features/sms-communication-channel.xml:276 en/content/features/sysconfig-user-settings.xml:35 en/content/features/sysconfig-user-settings.xml:52 en/content/features/sysconfig-user-settings.xml:73 en/content/features/sysconfig-user-settings.xml:86 en/content/features/sysconfig-user-settings.xml:101 en/content/features/sysconfig-user-settings.xml:112 en/content/features/sysconfig-history.xml:32 en/content/features/sysconfig-history.xml:62 en/content/features/ticket-attachment-view.xml:27 en/content/features/ticket-attachment-view.xml:38 en/content/features/ticket-timeline-view.xml:38 en/content/features/ticket-timeline-view.xml:52 en/content/features/video-calls.xml:86 en/content/features/video-calls.xml:115 en/content/features/video-calls.xml:126 en/content/features/video-calls.xml:137 en/content/features/video-calls.xml:148 en/content/features/video-calls.xml:159 en/content/features/video-calls.xml:179 en/content/features/video-calls.xml:193 en/content/features/video-calls.xml:204 en/content/features/video-calls.xml:221 en/content/features/video-calls.xml:235 en/content/features/video-calls.xml:249 en/content/features/video-calls.xml:260 en/content/features/video-calls.xml:274
+#: en/content/upgrading.xml:13 en/content/upgrading.xml:27 en/content/features/chat.xml:221 en/content/features/chat.xml:235 en/content/features/chat.xml:258 en/content/features/chat.xml:288 en/content/features/chat.xml:299 en/content/features/chat.xml:313 en/content/features/chat.xml:336 en/content/features/chat.xml:350 en/content/features/chat.xml:365 en/content/features/chat.xml:391 en/content/features/chat.xml:399 en/content/features/chat.xml:460 en/content/features/chat.xml:534 en/content/features/chat.xml:577 en/content/features/chat.xml:601 en/content/features/chat.xml:628 en/content/features/dynamicfield-database.xml:84 en/content/features/dynamicfield-database.xml:276 en/content/features/dynamicfield-database.xml:377 en/content/features/dynamicfield-database.xml:389 en/content/features/dynamicfield-database.xml:400 en/content/features/dynamicfield-database.xml:422 en/content/features/dynamicfield-database.xml:439 en/content/features/dynamicfield-webservice.xml:93 en/content/features/dynamicfield-webservice.xml:109 en/content/features/dynamicfield-webservice.xml:231 en/content/features/import-example-process.xml:47 en/content/features/import-example-web-service.xml:37 en/content/features/import-example-web-service.xml:49 en/content/features/notifications.xml:52 en/content/features/notifications.xml:64 en/content/features/notifications.xml:76 en/content/features/notifications.xml:91 en/content/features/notifications.xml:103 en/content/features/notifications.xml:115 en/content/features/notifications.xml:123 en/content/features/report-generator.xml:37 en/content/features/report-generator.xml:51 en/content/features/report-generator.xml:65 en/content/features/report-generator.xml:80 en/content/features/report-generator.xml:88 en/content/features/report-generator.xml:96 en/content/features/report-generator.xml:104 en/content/features/resource-planning.xml:35 en/content/features/resource-planning.xml:53 en/content/features/resource-planning.xml:75 en/content/features/resource-planning.xml:86 en/content/features/resource-planning.xml:106 en/content/features/resource-planning.xml:119 en/content/features/resource-planning.xml:146 en/content/features/resource-planning.xml:163 en/content/features/resource-planning.xml:182 en/content/features/resource-planning.xml:194 en/content/features/sla-selection-dialog.xml:29 en/content/features/sla-selection-dialog.xml:43 en/content/features/sms-communication-channel.xml:25 en/content/features/sms-communication-channel.xml:43 en/content/features/sms-communication-channel.xml:101 en/content/features/sms-communication-channel.xml:147 en/content/features/sms-communication-channel.xml:163 en/content/features/sms-communication-channel.xml:213 en/content/features/sms-communication-channel.xml:226 en/content/features/sms-communication-channel.xml:263 en/content/features/sms-communication-channel.xml:276 en/content/features/sysconfig-user-settings.xml:35 en/content/features/sysconfig-user-settings.xml:52 en/content/features/sysconfig-user-settings.xml:73 en/content/features/sysconfig-user-settings.xml:86 en/content/features/sysconfig-user-settings.xml:101 en/content/features/sysconfig-user-settings.xml:112 en/content/features/sysconfig-history.xml:32 en/content/features/sysconfig-history.xml:62 en/content/features/ticket-attachment-view.xml:27 en/content/features/ticket-attachment-view.xml:38 en/content/features/ticket-timeline-view.xml:38 en/content/features/ticket-timeline-view.xml:52 en/content/features/video-calls.xml:86 en/content/features/video-calls.xml:115 en/content/features/video-calls.xml:126 en/content/features/video-calls.xml:137 en/content/features/video-calls.xml:148 en/content/features/video-calls.xml:159 en/content/features/video-calls.xml:179 en/content/features/video-calls.xml:193 en/content/features/video-calls.xml:204 en/content/features/video-calls.xml:221 en/content/features/video-calls.xml:235 en/content/features/video-calls.xml:249 en/content/features/video-calls.xml:260 en/content/features/video-calls.xml:274
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/upgrading.xml:11 en/content/upgrading.xml:25 en/content/features/chat.xml:219 en/content/features/chat.xml:233 en/content/features/chat.xml:256 en/content/features/chat.xml:286 en/content/features/chat.xml:297 en/content/features/chat.xml:311 en/content/features/chat.xml:334 en/content/features/chat.xml:348 en/content/features/chat.xml:363 en/content/features/chat.xml:389 en/content/features/chat.xml:397 en/content/features/chat.xml:458 en/content/features/dynamicfield-webservice.xml:91 en/content/features/dynamicfield-webservice.xml:107 en/content/features/dynamicfield-webservice.xml:229 en/content/features/import-example-process.xml:45 en/content/features/import-example-web-service.xml:35 en/content/features/import-example-web-service.xml:47 en/content/features/notifications.xml:50 en/content/features/notifications.xml:62 en/content/features/notifications.xml:89 en/content/features/notifications.xml:101 en/content/features/notifications.xml:113 en/content/features/notifications.xml:121 en/content/features/report-generator.xml:35 en/content/features/report-generator.xml:49 en/content/features/report-generator.xml:63 en/content/features/report-generator.xml:78 en/content/features/report-generator.xml:86 en/content/features/report-generator.xml:94 en/content/features/report-generator.xml:102 en/content/features/resource-planning.xml:33 en/content/features/resource-planning.xml:51 en/content/features/resource-planning.xml:74 en/content/features/resource-planning.xml:85 en/content/features/resource-planning.xml:105 en/content/features/resource-planning.xml:118 en/content/features/resource-planning.xml:145 en/content/features/resource-planning.xml:162 en/content/features/resource-planning.xml:181 en/content/features/resource-planning.xml:193 en/content/features/sla-selection-dialog.xml:27 en/content/features/sla-selection-dialog.xml:41 en/content/features/sms-communication-channel.xml:23 en/content/features/sms-communication-channel.xml:41 en/content/features/sms-communication-channel.xml:99 en/content/features/sms-communication-channel.xml:145 en/content/features/sms-communication-channel.xml:161 en/content/features/sms-communication-channel.xml:211 en/content/features/sms-communication-channel.xml:224 en/content/features/sms-communication-channel.xml:261 en/content/features/sms-communication-channel.xml:274 en/content/features/sysconfig-user-settings.xml:33 en/content/features/sysconfig-user-settings.xml:50 en/content/features/sysconfig-user-settings.xml:71 en/content/features/sysconfig-user-settings.xml:84 en/content/features/sysconfig-user-settings.xml:99 en/content/features/sysconfig-user-settings.xml:110 en/content/features/sysconfig-history.xml:30 en/content/features/sysconfig-history.xml:60 en/content/features/ticket-attachment-view.xml:25 en/content/features/ticket-attachment-view.xml:36 en/content/features/ticket-timeline-view.xml:36 en/content/features/ticket-timeline-view.xml:50 en/content/features/video-calls.xml:84 en/content/features/video-calls.xml:113 en/content/features/video-calls.xml:124 en/content/features/video-calls.xml:135 en/content/features/video-calls.xml:146 en/content/features/video-calls.xml:157 en/content/features/video-calls.xml:177 en/content/features/video-calls.xml:191 en/content/features/video-calls.xml:202 en/content/features/video-calls.xml:219 en/content/features/video-calls.xml:233 en/content/features/video-calls.xml:247 en/content/features/video-calls.xml:258 en/content/features/video-calls.xml:272
+#: en/content/upgrading.xml:11 en/content/upgrading.xml:25 en/content/features/chat.xml:219 en/content/features/chat.xml:233 en/content/features/chat.xml:256 en/content/features/chat.xml:286 en/content/features/chat.xml:297 en/content/features/chat.xml:311 en/content/features/chat.xml:334 en/content/features/chat.xml:348 en/content/features/chat.xml:363 en/content/features/chat.xml:389 en/content/features/chat.xml:397 en/content/features/chat.xml:458 en/content/features/dynamicfield-webservice.xml:91 en/content/features/dynamicfield-webservice.xml:107 en/content/features/dynamicfield-webservice.xml:229 en/content/features/import-example-process.xml:45 en/content/features/import-example-web-service.xml:35 en/content/features/import-example-web-service.xml:47 en/content/features/notifications.xml:50 en/content/features/notifications.xml:62 en/content/features/notifications.xml:89 en/content/features/notifications.xml:101 en/content/features/notifications.xml:113 en/content/features/notifications.xml:121 en/content/features/report-generator.xml:35 en/content/features/report-generator.xml:49 en/content/features/report-generator.xml:63 en/content/features/report-generator.xml:78 en/content/features/report-generator.xml:86 en/content/features/report-generator.xml:94 en/content/features/report-generator.xml:102 en/content/features/resource-planning.xml:33 en/content/features/resource-planning.xml:51 en/content/features/resource-planning.xml:73 en/content/features/resource-planning.xml:84 en/content/features/resource-planning.xml:104 en/content/features/resource-planning.xml:117 en/content/features/resource-planning.xml:144 en/content/features/resource-planning.xml:161 en/content/features/resource-planning.xml:180 en/content/features/resource-planning.xml:192 en/content/features/sla-selection-dialog.xml:27 en/content/features/sla-selection-dialog.xml:41 en/content/features/sms-communication-channel.xml:23 en/content/features/sms-communication-channel.xml:41 en/content/features/sms-communication-channel.xml:99 en/content/features/sms-communication-channel.xml:145 en/content/features/sms-communication-channel.xml:161 en/content/features/sms-communication-channel.xml:211 en/content/features/sms-communication-channel.xml:224 en/content/features/sms-communication-channel.xml:261 en/content/features/sms-communication-channel.xml:274 en/content/features/sysconfig-user-settings.xml:33 en/content/features/sysconfig-user-settings.xml:50 en/content/features/sysconfig-user-settings.xml:71 en/content/features/sysconfig-user-settings.xml:84 en/content/features/sysconfig-user-settings.xml:99 en/content/features/sysconfig-user-settings.xml:110 en/content/features/sysconfig-history.xml:30 en/content/features/sysconfig-history.xml:60 en/content/features/ticket-attachment-view.xml:25 en/content/features/ticket-attachment-view.xml:36 en/content/features/ticket-timeline-view.xml:36 en/content/features/ticket-timeline-view.xml:50 en/content/features/video-calls.xml:84 en/content/features/video-calls.xml:113 en/content/features/video-calls.xml:124 en/content/features/video-calls.xml:135 en/content/features/video-calls.xml:146 en/content/features/video-calls.xml:157 en/content/features/video-calls.xml:177 en/content/features/video-calls.xml:191 en/content/features/video-calls.xml:202 en/content/features/video-calls.xml:219 en/content/features/video-calls.xml:233 en/content/features/video-calls.xml:247 en/content/features/video-calls.xml:258 en/content/features/video-calls.xml:272
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr ""
 
@@ -226,16 +226,16 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/chat.xml:21
 msgid ""
-"The following SysConfig configuration options are relevant for this "
+"The following system configuration options are relevant for this "
 "feature. Please note that you can also define a list of fixed texts which "
 "are being displayed to public users and customers in the chat module. For "
 "more information on which texts can be changed, please have a look at the "
-"module configuration (OTRSBusiness → Core::Chat)."
+"module configuration (<literal>OTRSBusiness → Core::Chat</literal>)."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:25 en/content/features/video-calls.xml:27
-msgid "ChatEngine::Active"
+msgid "<literal>ChatEngine::Active</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -245,7 +245,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:33
-msgid "ChatEngine::ChatDirection::PublicToAgent"
+msgid "<literal>ChatEngine::ChatDirection::PublicToAgent</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -259,7 +259,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:41
-msgid "ChatEngine::ChatDirection::CustomerToAgent"
+msgid "<literal>ChatEngine::ChatDirection::CustomerToAgent</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -273,7 +273,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:49
-msgid "ChatEngine::ChatDirection::AgentToCustomer"
+msgid "<literal>ChatEngine::ChatDirection::AgentToCustomer</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -285,7 +285,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:57
-msgid "ChatEngine::ChatDirection::AgentToAgent"
+msgid "<literal>ChatEngine::ChatDirection::AgentToAgent</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -296,9 +296,9 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:65
 msgid ""
-"ChatEngine::PermissionGroup::ChatReceivingAgents, "
-"ChatEngine::PermissionGroup::ChatNotificationAgents, "
-"ChatEngine::PermissionGroup::ChatStartingAgents"
+"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal>, "
+"<literal>ChatEngine::PermissionGroup::ChatNotificationAgents</literal>, "
+"<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -312,7 +312,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:73
-msgid "ChatEngine::DefaultAgentName"
+msgid "<literal>ChatEngine::DefaultAgentName</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -325,7 +325,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:81
-msgid "ChatEngine::DefaultAgentNameNumbers"
+msgid "<literal>ChatEngine::DefaultAgentNameNumbers</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -339,7 +339,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:89
-msgid "ChatEngine::PublicInterface::AllowChatChannels"
+msgid "<literal>ChatEngine::PublicInterface::AllowChatChannels</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -352,7 +352,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:97
-msgid "ChatEngine::PublicInterface::AvailabilityCheck"
+msgid "<literal>ChatEngine::PublicInterface::AvailabilityCheck</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -365,7 +365,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:105
-msgid "ChatEngine::CustomerInterface::AllowChatChannels"
+msgid "<literal>ChatEngine::CustomerInterface::AllowChatChannels</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -373,12 +373,12 @@ msgstr ""
 msgid ""
 "Defines, if chat channel selection should be enabled for customer users. If "
 "set to \"no\", chats from customer users will go to the default channel "
-"automatically (ChatEngine::DefaultChatChannel)."
+"automatically (<literal>ChatEngine::DefaultChatChannel</literal>)."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:113
-msgid "ChatEngine::CustomerInterface::AvailabilityCheck"
+msgid "<literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -392,37 +392,39 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:121
-msgid "ChatEngine::CustomerThreshold"
+msgid "<literal>ChatEngine::CustomerThreshold</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:124
 msgid ""
-"Amount of minutes which need to pass before a \"no agent is available\" "
-"message is being displayed to the customer/public user who started the chat "
-"request. The message can be configured using "
-"ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket or "
-"ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting "
+"Amount of minutes which need to pass before a <emphasis>no agent is "
+"available</emphasis> message is being displayed to the customer/public user "
+"who started the chat request. The message can be configured using "
+"<literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket</literal> "
+"or "
+"<literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting</literal> "
 "(customer interface) and "
-"ChatEngine::Texts::PublicFrontend::NoAgentsAvailable (public interface)."
+"<literal>ChatEngine::Texts::PublicFrontend::NoAgentsAvailable</literal> "
+"(public interface)."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:129
-msgid "ChatEngine::AgentOnlineThreshold"
+msgid "<literal>ChatEngine::AgentOnlineThreshold</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:132
 msgid ""
 "If an agent is not active in OTRS within this threshold, they will be "
-"automatically set to \"unavailable for chat\" (see <link "
-"linkend=\"chat-setup-availability\">\"Agents: Set up availability\"</link>)."
+"automatically set to <emphasis>unavailable for chat</emphasis> (see <link "
+"linkend=\"chat-setup-availability\">Agents: Set up availability</link>)."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:137
-msgid "ChatEngine::DefaultChatChannel"
+msgid "<literal>ChatEngine::DefaultChatChannel</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -435,7 +437,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:145
-msgid "ChatEngine::ChatTTL"
+msgid "<literal>ChatEngine::ChatTTL</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -449,7 +451,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:153
-msgid "ChatEngine::ChatDecayTime"
+msgid "<literal>ChatEngine::ChatDecayTime</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -463,7 +465,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:161
-msgid "ChatEngine::ChatOrder"
+msgid "<literal>ChatEngine::ChatOrder</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -493,12 +495,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:179
 msgid ""
-"In the admin area in OTRS, you'll find a new entry \"Chat Channel\" "
-"(AdminChatChannel). Use this screen to add new channels. You'll need to "
-"assign an existing agent group to each channel you'll create. You can use "
-"the screens \"Agents &lt;-&gt; Groups\" or \"Agents &lt;-&gt; Roles\" to "
-"assign permissions. There are new chat-specific permissions which are "
-"described below."
+"In the admin area in OTRS, you'll find a new entry <emphasis>Chat "
+"Channel</emphasis> (<literal>AdminChatChannel</literal>). Use this screen to "
+"add new channels. You'll need to assign an existing agent group to each "
+"channel you'll create. You can use the screens <emphasis>Agents ↔ "
+"Groups</emphasis> or <emphasis>Agents ↔ Roles</emphasis> to assign "
+"permissions. There are new chat-specific permissions which are described "
+"below."
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><title>
@@ -508,7 +511,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:185
-msgid "CHAT_OBSERVER"
+msgid "<literal>CHAT_OBSERVER</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -524,7 +527,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:193
-msgid "CHAT_PARTICIPANT"
+msgid "<literal>CHAT_PARTICIPANT</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -538,7 +541,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:201
-msgid "CHAT_OWNER"
+msgid "<literal>CHAT_OWNER</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -553,8 +556,8 @@ msgstr ""
 msgid ""
 "To use the chat in general, agents still need to have at least ro "
 "permissions to the groups set up in "
-"ChatEngine::PermissionGroup::ChatReceivingAgents and "
-"ChatEngine::PermissionGroup::ChatStartingAgents."
+"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal> and "
+"<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -615,8 +618,8 @@ msgstr ""
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/chat.xml:245
 msgid ""
-"Your availability will be reset to \"internal chats only\" each time you log "
-"in to OTRS again."
+"Your availability will be reset to <emphasis>internal chats only</emphasis> "
+"each time you log in to OTRS again."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -648,7 +651,7 @@ msgid ""
 "you can manage your chats and see and accept open requests. The chat manager "
 "provides a list of chat requests from customers, public users and other "
 "agents, as well as an overview over all active chats. Open the chat manager "
-"by using \"Chat\" in the main navigation of OTRS."
+"by using <emphasis>Chat</emphasis> in the main navigation of OTRS."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -738,7 +741,8 @@ msgstr ""
 msgid ""
 "Customers are not able to start a chat directly with a certain agent, but "
 "only to create generic chat requests. To do this, customers can use the item "
-"Chats → Create new chat from the customer interface main navigation."
+"<emphasis>Chats → Create new chat</emphasis> from the customer interface "
+"main navigation."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
@@ -763,10 +767,10 @@ msgstr ""
 msgid ""
 "Users of the public interface are also not able to start a chat directly "
 "with a certain agent, but only to create generic chat requests using the "
-"public chat module (public.pl?Action=PublicChat). If you would like to "
-"integrate the public chat module into your website, you can use the IsIframe "
-"parameter. The OTRS header and footer will then be removed from the view "
-"(public.pl?Action=PublicChat;IsIframe=1)."
+"public chat module (<literal>public.pl?Action=PublicChat</literal>). If you "
+"would like to integrate the public chat module into your website, you can "
+"use the IsIframe parameter. The OTRS header and footer will then be removed "
+"from the view (<literal>public.pl?Action=PublicChat;IsIframe=1</literal>)."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -798,12 +802,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:342
 msgid ""
-"Use the \"open chat\" button from the list to see the details of the "
-"request. Clicking the button will open an overlay which provides several "
-"actions on this request. Given that you've got sufficient permissions, you "
-"can accept the request or change the channel for this request. Changing the "
-"channel will follow the same rules as creating new request: you can only "
-"move the request to a channel which has active agents in it."
+"Use the <emphasis>Open chat</emphasis> button from the list to see the "
+"details of the request. Clicking the button will open an overlay which "
+"provides several actions on this request. Given that you've got sufficient "
+"permissions, you can accept the request or change the channel for this "
+"request. Changing the channel will follow the same rules as creating new "
+"request: you can only move the request to a channel which has active agents "
+"in it."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -931,10 +936,10 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:408
 msgid ""
-"Using the \"Phone ticket\" link from the advanced toolbar, allows you to "
-"create a phone ticket to which the current chat will be appended to as an "
-"article. After you've successfully created the ticket, the chat will get "
-"closed automatically."
+"Using the <emphasis>Phone ticket</emphasis> link from the advanced toolbar, "
+"allows you to create a phone ticket to which the current chat will be "
+"appended to as an article. After you've successfully created the ticket, the "
+"chat will get closed automatically."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -963,8 +968,8 @@ msgid ""
 "request has accepted, a new internal chat will be established between you "
 "and the invited agent. In this internal chat, the invited agent has two more "
 "actions available in the advanced actions toolbar: <link "
-"linkend=\"chat-action-observer\">\"Observer\"</link> and <link "
-"linkend=\"chat-action-participant\">\"Participant\"</link>."
+"linkend=\"chat-action-observer\">Observer</link> and <link "
+"linkend=\"chat-action-participant\">Participant</link>."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -1160,8 +1165,8 @@ msgstr ""
 #: en/content/features/chat.xml:541
 msgid ""
 "Configuration tab contains several parameters that can be tweaked to suit "
-"your needs. While most of them are self-explanatory, General Settings "
-"section contains several important options:"
+"your needs. While most of them are self-explanatory, <emphasis>General "
+"Settings</emphasis> section contains several important options:"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
@@ -1172,9 +1177,9 @@ msgstr ""
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:549
 msgid ""
-"If active, this options controls whether the chat will be displayed "
-"regardless of agent's presence in the system. If inactive, if there are no "
-"agents currently online and available for chat, widget will be hidden."
+"If enabled, this option controls whether the chat will be displayed "
+"regardless of agent's presence in the system. If not enabled, if there are "
+"no agents currently online and available for chat, widget will be hidden."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
@@ -1185,9 +1190,9 @@ msgstr ""
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:559
 msgid ""
-"This option is taken into account only if above option is set to \"Yes\". If "
-"there are no agents present and after some time, users of the public chat "
-"will be presented with a message containing this link."
+"This option is taken into account only if above option is enabled. If there "
+"are no agents present and after some time, users of the public chat will be "
+"presented with a message containing this link."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
@@ -1238,10 +1243,11 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:595
 msgid ""
-"Integration Code tab contains necessary code snippets for insertion in a "
-"website, so public chat can work. All changes in the Configuration tab are "
-"applied immediately to the snippets, so you can make your changes and copy "
-"the code to your clipboard right afterwards."
+"<emphasis>Integration Code</emphasis> tab contains necessary code snippets "
+"for insertion in a website, so public chat can work. All changes in the "
+"<emphasis>Configuration</emphasis> tab are applied immediately to the "
+"snippets, so you can make your changes and copy the code to your clipboard "
+"right afterwards."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
@@ -1259,25 +1265,25 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:606
 msgid ""
-"Code from the first field should be added to the &lt;HEAD&gt; section of "
-"your web page."
+"Code from the first field should be added to the "
+"<literal>&lt;HEAD&gt;</literal> section of your web page."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:609
 msgid ""
 "Code from the second field should be inserted into the bottom of the page: "
-"before closure of the &lt;BODY&gt; tag, but after the line that loads "
-"<literal>jQuery</literal> library."
+"before closure of the <literal>&lt;BODY&gt;</literal> tag, but after the "
+"line that loads <emphasis>jQuery</emphasis> library."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><note><para>
 #: en/content/features/chat.xml:614
 msgid ""
-"Please note that your web page must also include jQuery library for the code "
-"snippets to work.  This can be recognized by reference to the "
-"<filename>jquery.js</filename> or <filename>jquery.min.js</filename> file "
-"somewhere in the page."
+"Please note that your web page must also include <emphasis>jQuery</emphasis> "
+"library for the code snippets to work.  This can be recognized by reference "
+"to the <filename>jquery.js</filename> or <filename>jquery.min.js</filename> "
+"file somewhere in the page."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -1288,9 +1294,9 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:623
 msgid ""
-"Using the Preview tab you can see the chat widget in action. In the browser "
-"simulator below, you can see the chat widget look based on current "
-"configuration."
+"Using the <emphasis>Preview</emphasis> tab you can see the chat widget in "
+"action. In the browser simulator below, you can see the chat widget look "
+"based on current configuration."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><figure><title>
@@ -1329,30 +1335,31 @@ msgstr ""
 msgid ""
 "If you cannot see the chat widget, but everything seems in order, make sure "
 "you have at least one agent who is externally available for chat. Or switch "
-"on the \"Display Chat if no agent is available\" option in the Configuration "
-"tab, and refresh the code."
+"on the <emphasis>Display Chat if no agent is available</emphasis> option in "
+"the <emphasis>Configuration</emphasis> tab, and refresh the code."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:655
 msgid ""
-"If you get mixed-content warnings in your browser Console, make sure that "
-"OTRS config option <literal>HttpType</literal> is properly set. For example, "
-"if you are running OTRS on SSL, this config option must be set to "
-"'https'. Your website must run on the same protocol for chat widget to work."
+"If you get mixed-content warnings in your browser console, make sure that "
+"OTRS configuration option <literal>HttpType</literal> is properly set. For "
+"example, if you are running OTRS on SSL, this configuration option must be "
+"set to <literal>https</literal>. Your website must run on the same protocol "
+"for chat widget to work."
 msgstr ""
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:663
 msgid ""
 "If you get errors saying that <literal>$</literal> variable is undefined, "
-"make sure that jQuery library is included in your page, and that chat "
-"related code is placed below it."
+"make sure that <emphasis>jQuery</emphasis> library is included in your web "
+"page, and that chat related code is placed below it."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
-msgid "The Dynamic Field \"Contact with Data\""
+msgid "The Dynamic Field <emphasis>Contact with Data</emphasis>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -1369,15 +1376,15 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:17
 msgid ""
 "The data sources for this feature reside on the Dynamic Fields of the new "
-"'Contact with data' type, this mean that each Dynamic Field of this type is "
-"a new data source. The name of the dynamic field will become the name of the "
-"data source, as they are both the same."
+"<emphasis>Contact with data</emphasis> type, this mean that each dynamic "
+"field of this type is a new data source. The name of the dynamic field will "
+"become the name of the data source, as they are both the same."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:23
 msgid ""
-"For each data source (Dynamic Field) a list of contact attributes can be "
+"For each data source (dynamic field) a list of contact attributes can be "
 "defined (each attribute can contain only one text based value). The contact "
 "attributes can be set as mandatory and searchable if needed. The sort order "
 "of the attributes can be also defined."
@@ -1394,17 +1401,18 @@ msgstr ""
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:35
 msgid ""
-"The attributes 'Name' and 'ValidID' are always mandatory and they are not "
-"automatically added, so for each new data source these attributes must be "
-"added manually."
+"The attributes <literal>Name</literal> and <literal>ValidID</literal> are "
+"always mandatory and they are not automatically added, so for each new data "
+"source these attributes must be added manually."
 msgstr ""
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:40
 msgid ""
-"Within the data source definition (or Dynamic Field configuration) they must "
-"be represented by the keys 'Name' and 'ValidID' respectively while the "
-"values could be 'Name' and 'Validity' for example."
+"Within the data source definition (or dynamic field configuration) they must "
+"be represented by the keys <literal>Name</literal> and "
+"<literal>ValidID</literal> respectively while the values could be "
+"<emphasis>Name</emphasis> and <emphasis>Validity</emphasis> for example."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1422,18 +1430,18 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:53
 msgid ""
-"Apart from the 'Name' and the 'ValidID', each data source could contain "
-"different contact information as defined by the data source (e.g. a data "
-"source could have an E-mail field while another could contain Telephone "
-"and/or Mobile fields)."
+"Apart from the <literal>Name</literal> and <literal>ValidID</literal>, each "
+"data source could contain different contact information as defined by the "
+"data source (e.g. a data source could have an E-mail field while another "
+"could contain Telephone and/or Mobile fields)."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:58
 msgid ""
 "The management (adding or updating) contact for the data sources is done by "
-"an special screen that can be called form the Ticket menu (Edit contacts "
-"with data) in the main navigation bar."
+"an special screen that can be called from the Ticket menu (<emphasis>Edit "
+"contacts with data</emphasis>) in the main navigation bar."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1464,27 +1472,29 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:77
 msgid ""
 "Tickets can be found in search and statistics via the required attribute "
-"'Name'."
+"<literal>Name</literal>."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:80
-msgid "The 'Name' can also be returned as a field value."
+msgid "The <literal>Name</literal> can also be returned as a field value."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:89 en/content/features/ticket-timeline-view.xml:19
-msgid "SysConfig"
+msgid "System Configuration"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:91
-msgid "AdminContactWithData::RunInitialWildcardSearch"
+msgid "<literal>AdminContactWithData::RunInitialWildcardSearch</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:93
-msgid "Group: OTRSBusiness, Subgroup: Frontend::Admin::AdminContactWithData"
+msgid ""
+"Group: <literal>OTRSBusiness</literal>, Subgroup: "
+"<literal>Frontend::Admin::AdminContactWithData</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -1496,12 +1506,14 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-contactwithdata.xml:100
-msgid "Frontend::Module###AdminContactWithData"
+msgid "<literal>Frontend::Module###AdminContactWithData</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:102
-msgid "Group: OTRSBusiness, Subgroup: Frontend::Agent::ModuleRegistration"
+msgid ""
+"Group: <literal>OTRSBusiness</literal>, Subgroup: "
+"<literal>Frontend::Agent::ModuleRegistration</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -1523,74 +1535,83 @@ msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:120
-msgid "Create a new dynamic field of type 'Contact with data'."
+msgid "Create a new dynamic field of type <emphasis>Contact with data</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:125
 msgid ""
-"Set the possible contact attributes (possible values). 'Name' and 'ValidID' "
-"are required for any Contact with data Dynamic Field."
+"Set the possible contact attributes (possible "
+"values). <literal>Name</literal> and <literal>ValidID</literal> are required "
+"for any Contact with data Dynamic Field."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:131
-msgid "Add 'Name' attribute (Key: Name, Value: 'Name')."
+msgid ""
+"Add <literal>Name</literal> attribute (Key: <literal>Name</literal>, Value: "
+"<emphasis>Name</emphasis>)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:136
-msgid "Add 'ValidID' attribute (Key: ValidID, Value: 'Validity')."
+msgid ""
+"Add <literal>ValidID</literal> attribute (Key: <literal>ValidID</literal>, "
+"Value: <emphasis>Validity</emphasis>)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:141
 msgid ""
-"Add any other attribute such as 'Telephone' attribute (Key: Telephone, "
-"Value: 'Phone')."
+"Add any other attribute such as <literal>Telephone</literal> attribute (Key: "
+"<literal>Telephone</literal>, Value: <emphasis>Phone</emphasis>)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:149
 msgid ""
-"Add the list of mandatory attribute keys comma separated ('Name' and "
-"'ValidID' are not needed)."
+"Add the list of mandatory attribute keys comma separated "
+"(<literal>Name</literal> and <literal>ValidID</literal> are not needed)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:155
-msgid "Set the attribute key order list comma separated as: Name,Telephone,ValidID."
+msgid ""
+"Set the attribute key order list comma separated as: "
+"<literal>Name,Telephone,ValidID</literal>."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:160
 msgid ""
-"Add the list of searchable attribute keys comma separated ('Name' is not "
-"needed)."
+"Add the list of searchable attribute keys comma separated "
+"(<literal>Name</literal> is not needed)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:166
 msgid ""
 "Populate the data source by adding at least one contact in the newly created "
-"data source by using 'Tickets' → 'Edit contacts with data' screen from the "
-"main navigation bar."
+"data source by using <emphasis>Tickets → Edit contacts with data</emphasis> "
+"screen from the main navigation bar."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:173
 msgid ""
 "Add the new dynamic field to the screen's configuration where it should be "
-"shown. For example in New Phone Ticket screen by updating the SysConfig "
-"setting: Ticket::Frontend::AgentTicketPhone###DynamicField and do the same "
-"for Ticket::Frontend::AgentTicketZoom###DynamicField."
+"shown. For example in <emphasis>New Phone Ticket</emphasis> screen by "
+"updating the system configuration setting: "
+"<literal>Ticket::Frontend::AgentTicketPhone###DynamicField</literal> and do "
+"the same for "
+"<literal>Ticket::Frontend::AgentTicketZoom###DynamicField</literal>."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:181
 msgid ""
-"Go to New phone ticket screen, and notice that the new field is there.  Add "
-"all ticket needed information."
+"Go to <emphasis>New phone ticket</emphasis> screen, and notice that the new "
+"field is there.  Add all ticket needed information."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
@@ -1608,10 +1629,11 @@ msgstr ""
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:198
 msgid ""
-"It is possible to update the attributes of the contact by clicking the 'Edit "
-"contact data' button that appears in the right side of the title of the "
-"contact data box (if the current user is a member of the groups defined in "
-"SysConfig setting Frontend::Module###AdminDynamicFieldContactWithData)."
+"It is possible to update the attributes of the contact by clicking the "
+"<emphasis>Edit contact data</emphasis> button that appears in the right side "
+"of the title of the contact data box (if the current user is a member of the "
+"groups defined in system configuration setting "
+"<literal>Frontend::Module###AdminDynamicFieldContactWithData</literal>)."
 msgstr ""
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
@@ -1623,12 +1645,14 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-database.xml:6
-msgid "The Dynamic Field \"Database\""
+msgid "The Dynamic Field <emphasis>Database</emphasis>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-database.xml:9
-msgid "This feature implements a dynamic field of the type \"Database\"."
+msgid ""
+"This feature implements a dynamic field of the type "
+"<emphasis>Database</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -1649,8 +1673,8 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:22
 msgid ""
-"'Database' dynamic fields can be created the same way, as the default "
-"dynamic fields are created."
+"<emphasis>Database</emphasis> dynamic fields can be created the same way, as "
+"the default dynamic fields are created."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -1660,43 +1684,44 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:32
-msgid "Adding a 'Database' Dynamic Field"
+msgid "Adding a <emphasis>Database</emphasis> Dynamic Field"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:34
 msgid ""
 "This feature implements a configuration interface to create dynamic fields "
-"of the type 'Database'."
+"of the type <emphasis>Database</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:37
 msgid ""
-"'Database' dynamic fields can be created the same way, as the default "
-"dynamic fields are created. For this switch to the Admin → Ticket Settings → "
-"Dynamic Fields view. In this mask you can select the 'Database' field from "
-"the ticket drop down box on the left side. Currently it's not possible to "
-"use the 'Database' dynamic field in the article context."
+"<emphasis>Database</emphasis> dynamic fields can be created the same way, as "
+"the default dynamic fields are created. For this switch to the "
+"<emphasis>Admin → Ticket Settings → Dynamic Fields</emphasis> view. In this "
+"mask you can select the <emphasis>Database</emphasis> field from the ticket "
+"drop down box on the left side. Currently it's not possible to use the "
+"<emphasis>Database</emphasis> dynamic field in the article context."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:43
-msgid "Configuration \"General - Name\":"
+msgid "Configuration <emphasis>General - Name</emphasis>:"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:46
 msgid ""
-"Dynamic fields of the type 'Database' need a unique name just like other "
-"dynamic fields, too. This name has to contain only alphanumeric values. This "
-"name will be used for internal handling of the field but will not be "
-"displayed."
+"Dynamic fields of the type <emphasis>Database</emphasis> need a unique name "
+"just like other dynamic fields, too. This name has to contain only "
+"alphanumeric values. This name will be used for internal handling of the "
+"field but will not be displayed."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:51
-msgid "Configuration \"General - Label\":"
+msgid "Configuration <emphasis>General - Label</emphasis>:"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -1708,7 +1733,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:59
-msgid "Configuration \"General - Field order\":"
+msgid "Configuration <emphasis>General - Field order</emphasis>:"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -1721,15 +1746,15 @@ msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:67
-msgid "Configuration \"General - Valid\":"
+msgid "Configuration <emphasis>General - Valid</emphasis>:"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:70
 msgid ""
-"To use the dynamic field in the configured OTRS 'views' it has to be set as "
-"valid. If the field is set to 'invalid' it will disappear from all the "
-"configured views but no data will be lost."
+"To use the dynamic field in the configured OTRS views it has to be set as "
+"valid. If the field is set to <emphasis>invalid</emphasis> it will disappear "
+"from all the configured views but no data will be lost."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1739,7 +1764,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:83
-msgid "DynamicField Database Admin screen"
+msgid "Dynamic Field Database Admin screen"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
@@ -1768,162 +1793,175 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:97
 msgid ""
-"SID: This option is only available for Oracle connections and will be shown "
-"or hidden automatically.  Within this option you have to enter the SID of "
-"your Oracle connection."
+"<emphasis>SID</emphasis>: This option is only available for Oracle "
+"connections and will be shown or hidden automatically.  Within this option "
+"you have to enter the SID of your Oracle connection."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:103
 msgid ""
-"Driver: This option is only available for ODBC connections and will be shown "
-"or hidden automatically.  Within this option you have to enter in the "
-"hostsystem previously configured ODBC driver to connect to the desired MSSQL "
-"database."
+"<emphasis>Driver</emphasis>: This option is only available for ODBC "
+"connections and will be shown or hidden automatically.  Within this option "
+"you have to enter in the hostsystem previously configured ODBC driver to "
+"connect to the desired MSSQL database."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:110
-msgid "Server: The database host (hostname or IP-Address)."
+msgid "<emphasis>Server</emphasis>: The database host (hostname or IP-Address)."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:115
-msgid "Port: The port of the database server."
+msgid "<emphasis>Port</emphasis>: The port of the database server."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:120
 msgid ""
-"Database: Defines the desired target database of the DBMS. This database "
-"will be used for queries."
+"<emphasis>Database</emphasis>: Defines the desired target database of the "
+"DBMS. This database will be used for queries."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:125
-msgid "Table / View: This table or view will be used for the queries."
+msgid ""
+"<emphasis>Table / View</emphasis>: This table or view will be used for the "
+"queries."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:130
-msgid "User: The username for the database connection."
+msgid "<emphasis>User</emphasis>: The username for the database connection."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:135
-msgid "Password: The user password for the database connection."
+msgid ""
+"<emphasis>Password</emphasis>: The user password for the database "
+"connection."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:140
 msgid ""
-"Identifier: This select box will be automatically filled through \"Possible "
-"Values (description below)\". This field represents the value which will be "
-"stored in the dynamic field."
+"<emphasis>Identifier</emphasis>: This select box will be automatically "
+"filled through <emphasis>Possible Values (description "
+"below)</emphasis>. This field represents the value which will be stored in "
+"the dynamic field."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:146
 msgid ""
-"Multiselect: If this field is selected, it will be possible to store more "
-"than one value to the dynamic field.  Those values will be stored comma "
-"separated."
+"<emphasis>Multiselect</emphasis>: If this field is selected, it will be "
+"possible to store more than one value to the dynamic field.  Those values "
+"will be stored comma separated."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:152
 msgid ""
-"CacheTTL: This value defines the period of validity of the database cache in "
-"seconds. Equal queries to the database will be answered through the cache "
-"(local filesystem) within this period instead of asking the database again."
+"<emphasis>CacheTTL</emphasis>: This value defines the period of validity of "
+"the database cache in seconds. Equal queries to the database will be "
+"answered through the cache (local filesystem) within this period instead of "
+"asking the database again."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:158
 msgid ""
-"Searchprefix: This value will be put in the front of every search term while "
-"using the autocompletion to search the database. Wildcard characters are "
-"supported as well. The searchprefix will be ignored during the detailed "
-"search, but it is still possible to use wildcard characters in those masks."
+"<emphasis>Searchprefix</emphasis>: This value will be put in the front of "
+"every search term while using the autocompletion to search the "
+"database. Wildcard characters are supported as well. The searchprefix will "
+"be ignored during the detailed search, but it is still possible to use "
+"wildcard characters in those masks."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:165
 msgid ""
-"Searchsuffix: This value will be put in the end of every search term while "
-"using the autocompletion to search the database. Wildcard characters are "
-"supported as well. The searchsuffix will be ignored during the detailed "
-"search, but it is still possible to use wildcard characters in those masks."
+"<emphasis>Searchsuffix</emphasis>: This value will be put in the end of "
+"every search term while using the autocompletion to search the "
+"database. Wildcard characters are supported as well. The searchsuffix will "
+"be ignored during the detailed search, but it is still possible to use "
+"wildcard characters in those masks."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:172
 msgid ""
-"Result-Limit: The entered integer value defines the maximum amount of "
-"allowed results during a database search. This includes the autocompletion "
-"search as well as the detailed search."
+"<emphasis>Result Limit</emphasis>: The entered integer value defines the "
+"maximum amount of allowed results during a database search. This includes "
+"the autocompletion search as well as the detailed search."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:178
 msgid ""
-"Case Sensitive: If this field is selected, case-sensitivity will take effect "
-"on searches."
+"<emphasis>Case Sensitive</emphasis>: If this field is selected, "
+"case-sensitivity will take effect on searches."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:183
 msgid ""
-"Possible values: As already explained the possible values will fill up the "
-"identifier field automatically, which defines the value that will be stored "
-"in the dynamic field. Possible values can be created as much as needed (or "
-"at least as many table columns as the database table has). The possible "
-"values defines the database columns to search in. It is possible to set the "
-"column name, a description (label) the field should have, the needed data "
-"type and if the field should be a search- or listfield."
+"<emphasis>Possible values</emphasis>: As already explained the possible "
+"values will fill up the identifier field automatically, which defines the "
+"value that will be stored in the dynamic field. Possible values can be "
+"created as much as needed (or at least as many table columns as the database "
+"table has). The possible values defines the database columns to search "
+"in. It is possible to set the column name, a description (label) the field "
+"should have, the needed data type and if the field should be a search- or "
+"listfield."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:192
 msgid ""
-"Name: The exact name of the database column which will be requested through "
-"the database queries."
+"<emphasis>Name</emphasis>: The exact name of the database column which will "
+"be requested through the database queries."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:197
 msgid ""
-"Description: The label of the field which will be displayed in the detailed "
-"search."
+"<emphasis>Description</emphasis>: The label of the field which will be "
+"displayed in the detailed search."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:202
 msgid ""
-"Datatype: The data type which will be stored in the dynamic field. Possible "
-"values: TEXT, INTEGER or DATE."
+"<emphasis>Datatype</emphasis>: The data type which will be stored in the "
+"dynamic field. Possible values: TEXT, INTEGER or DATE."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:207
 msgid ""
-"Filter: With the filter field, it is possible to choose a ticket attribute "
-"or a dynamic field as a filter for the related column. If the dynamic field "
-"is bound to a related ticket, the attributes will be used for the filter "
-"mechanism, otherwise the filters will be ignored.  If filter will be "
-"configured to a table column, only search results matching to the search "
-"term and the related ticket attribute on exactly the configured column will "
-"be displayed."
+"<emphasis>Filter</emphasis>: With the filter field, it is possible to choose "
+"a ticket attribute or a dynamic field as a filter for the related column. If "
+"the dynamic field is bound to a related ticket, the attributes will be used "
+"for the filter mechanism, otherwise the filters will be ignored.  If filter "
+"will be configured to a table column, only search results matching to the "
+"search term and the related ticket attribute on exactly the configured "
+"column will be displayed."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:217
-msgid "Searchfield: Indicates if a field should be included in the search requests."
+msgid ""
+"<emphasis>Searchfield</emphasis>: Indicates if a field should be included in "
+"the search requests."
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:222
-msgid "Listfield: Indicates if a field should be displayed in the results."
+msgid ""
+"<emphasis>Listfield</emphasis>: Indicates if a field should be displayed in "
+"the results."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1934,49 +1972,58 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:231
 msgid ""
-"Dynamic fields of type 'Database' have to be activated for the several masks "
-"in which they should be displayed like the other types of dynamic fields."
+"Dynamic fields of type <emphasis>Database</emphasis> have to be activated "
+"for the several masks in which they should be displayed like the other types "
+"of dynamic fields."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:234
 msgid ""
-"This can be done through Admin → System Administration → SysConfig, in which "
-"\"Ticket\" must be selected on the left hand side."
+"This can be done through <emphasis>Admin → System Administration → "
+"SysConfig</emphasis>, in which <emphasis>Ticket</emphasis> must be selected "
+"on the left hand side."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:238
 msgid ""
 "For every interface area (Frontend), in which the dynamic field of type "
-"'Database' should be displayed, the admin has to configure it to fit his "
-"needs. Examples:"
+"<emphasis>Database</emphasis> should be displayed, the admin has to "
+"configure it to fit his needs. Examples:"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:243
-msgid "Frontend::Agent::Ticket::ViewZoom for the ticket zoom view."
+msgid ""
+"<literal>Frontend::Agent::Ticket::ViewZoom</literal> for the ticket zoom "
+"view."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:248
-msgid "Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets."
+msgid ""
+"<literal>Frontend::Agent::Ticket::ViewPhoneNew</literal> for new phone "
+"tickets."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:253
-msgid "Frontend::Agent::Ticket::ViewEmailNew for new email tickets."
+msgid ""
+"<literal>Frontend::Agent::Ticket::ViewEmailNew</literal> for new email "
+"tickets."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:258
 msgid ""
 "In each of these view configurations is an entry called "
-"\"Ticket::Frontend::AgentTicket*###DynamicField\".  This configuration "
-"defines which dynamic field(s) should get displayed in this view. To add a "
-"dynamic field, the internal name of the field has to be filled in the 'Key' "
-"field. The field 'Value' can take the values 0 (deactivated), 1 (active) and "
-"2 (active and mandatory)."
+"<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>.  This "
+"configuration defines which dynamic field(s) should get displayed in this "
+"view. To add a dynamic field, the internal name of the field has to be "
+"filled in the <emphasis>Key</emphasis> field. The field "
+"<emphasis>Value</emphasis> can take the values 0 (deactivated), 1 (active) "
+"and 2 (active and mandatory)."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -2008,13 +2055,14 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:282
 msgid ""
-"In the configuration option for the \"SourceDynamicField\" it´s needed to "
-"fill in the already created dynamic (Database) field name, which will be "
-"used to gather the historical data. In the related option "
-"\"TargetDynamicField\" the field(s) \"Key\" have to be filled with the table "
-"columns of the connected external database, which will be readout.  For "
-"every column the related target dynamic field has to be configured in the "
-"field \"content\". The gathered data will be saved in these dynamic fields."
+"In the configuration option for the <literal>SourceDynamicField</literal> "
+"it´s needed to fill in the already created dynamic (Database) field name, "
+"which will be used to gather the historical data. In the related option "
+"<literal>TargetDynamicField</literal> the field(s) <emphasis>Key</emphasis> "
+"have to be filled with the table columns of the connected external database, "
+"which will be readout.  For every column the related target dynamic field "
+"has to be configured in the field <emphasis>content</emphasis>. The gathered "
+"data will be saved in these dynamic fields."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2034,12 +2082,14 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:300
-msgid "AutoComplete::Agent###DynamicFieldDatabaseSearch"
+msgid "<literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:302
-msgid "Group: Framework, Subgroup: Frontend::Agent"
+msgid ""
+"Group: <literal>Framework</literal>, Subgroup: "
+"<literal>Frontend::Agent</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -2049,12 +2099,12 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:309
-msgid "Ticket::EventModulePost###950-StoreHistoricalData"
+msgid "<literal>Ticket::EventModulePost###950-StoreHistoricalData</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:311
-msgid "Group: Ticket, Subgroup: Core::Ticket"
+msgid "Group: <literal>Ticket</literal>, Subgroup: <literal>Core::Ticket</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -2064,12 +2114,12 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:318
-msgid "DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1"
+msgid "<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:320 en/content/features/dynamicfield-database.xml:329 en/content/features/dynamicfield-database.xml:338 en/content/features/dynamicfield-database.xml:347
-msgid "Group: OTRSBusiness, Subgroup: Core"
+msgid "Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -2079,7 +2129,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:327
-msgid "DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1"
+msgid "<literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
@@ -2089,12 +2139,12 @@ msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:336
-msgid "DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2"
+msgid "<literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-database.xml:345
-msgid "DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2"
+msgid "<literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2123,12 +2173,13 @@ msgstr ""
 #: en/content/features/dynamicfield-database.xml:369
 msgid ""
 "After the created dynamic fields are activated in the well known masks (like "
-"ViewPhoneNew, ViewEmailNew) a new text field appears with the name, the "
-"dynamic field got in the configuration.  In this field it is possible to "
-"input searchterms and therefore execute a search over all configured "
-"database fields.  Otherwise do a click on the link 'Detailed search' and "
-"start a detailed search in which the fields to search in are selected "
-"explicitly.  <placeholder type=\"figure\" id=\"0\"/>"
+"<literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</literal>) a new text "
+"field appears with the name, the dynamic field got in the configuration.  In "
+"this field it is possible to input searchterms and therefore execute a "
+"search over all configured database fields.  Otherwise do a click on the "
+"link <emphasis>Detailed search</emphasis> and start a detailed search in "
+"which the fields to search in are selected explicitly.  <placeholder "
+"type=\"figure\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -2178,10 +2229,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:406
 msgid ""
-"Via the link 'Details' a popup screen can be accessed, which offers detailed "
-"information about the whole result row.  This information includes the line "
-"headers and the data. This information can be used to get an overview about "
-"the rest (of the not configured) columns or to compare data."
+"Via the link <emphasis>Details</emphasis> a popup screen can be accessed, "
+"which offers detailed information about the whole result row.  This "
+"information includes the line headers and the data. This information can be "
+"used to get an overview about the rest (of the not configured) columns or to "
+"compare data."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2210,9 +2262,9 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:417
 msgid ""
-"The link 'Detailed search' opens a new modal dialog to start a new database "
-"search. In this mask it is possible to select the fields to search on "
-"explicitly.  <placeholder type=\"figure\" id=\"0\"/>"
+"The link <emphasis>Detailed search</emphasis> opens a new modal dialog to "
+"start a new database search. In this mask it is possible to select the "
+"fields to search on explicitly.  <placeholder type=\"figure\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2240,11 +2292,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:433
 msgid ""
-"The database search will be executed via the button \"Start search\" and the "
-"results will be tabular displayed.  If the search was successful, the "
-"results will be listed and one of the entries can be selected via a mouse "
-"click. The value will be added to the list of saved values afterwards.  "
-"<placeholder type=\"figure\" id=\"0\"/>"
+"The database search will be executed via the <emphasis>Start "
+"search</emphasis> button and the results will be tabular displayed.  If the "
+"search was successful, the results will be listed and one of the entries can "
+"be selected via a mouse click. The value will be added to the list of saved "
+"values afterwards.  <placeholder type=\"figure\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2257,12 +2309,14 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-webservice.xml:6
-msgid "The Dynamic Field \"Web Service\""
+msgid "The Dynamic Field <emphasis>Web Service</emphasis>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-webservice.xml:8
-msgid "This feature implements a dynamic field of the type \"Web Service\"."
+msgid ""
+"This feature implements a dynamic field of the type <emphasis>Web "
+"Service</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2277,19 +2331,21 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:18
 msgid ""
-"Normally when a field is changed in a screen (i.e. the ticket priority in "
-"the New phone ticket screen) the values of other fields could be "
-"updated. That is the case with this type of dynamic fields, as they could "
-"also include all screen field values in the request and the remote server "
-"could potentially return completely different values depending on input."
+"Normally when a field is changed in a screen (e.g. the ticket priority in "
+"the <emphasis>New phone ticket</emphasis> screen) the values of other fields "
+"could be updated. That is the case with this type of dynamic fields, as they "
+"could also include all screen field values in the request and the remote "
+"server could potentially return completely different values depending on "
+"input."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:24
 msgid ""
-"Additionally if the dynamic field source object already exists (i.e. a "
-"ticket, and the field is set in the Free Fields screen), the details of the "
-"already created ticket are also included in the request."
+"Additionally if the dynamic field source object already exists (e.g. a "
+"ticket, and the field is set in the <emphasis>Free Fields</emphasis> "
+"screen), the details of the already created ticket are also included in the "
+"request."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -2305,10 +2361,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:37
 msgid ""
-"To create a new web service dynamic field it is necessary to have already a "
-"working web service, it requires to have at least one invoker of the type "
-"<literal>Generic::PassThrough</literal>. This invoker will be called to "
-"fetch the data from the remote server."
+"To create a new <emphasis>web service dynamic</emphasis> field it is "
+"necessary to have already a working web service, it requires to have at "
+"least one invoker of the type <literal>Generic::PassThrough</literal>. This "
+"invoker will be called to fetch the data from the remote server."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2359,9 +2415,10 @@ msgstr ""
 #: en/content/features/dynamicfield-webservice.xml:72
 msgid ""
 "<literal>Ticket</literal> section (or another source object, "
-"i.e. CustomerUser), contains the attributes of the object where the dynamic "
-"field belongs. For example in New phone ticket screen the section is empty "
-"as the ticket is not created yet, but in Free Fields screen it contains the "
+"e.g. <literal>CustomerUser</literal>), contains the attributes of the object "
+"where the dynamic field belongs. For example in <emphasis>New phone "
+"ticket</emphasis> screen the section is empty as the ticket is not created "
+"yet, but in <emphasis>Free Fields</emphasis> screen it contains the "
 "information of the current ticket."
 msgstr ""
 
@@ -2385,13 +2442,14 @@ msgstr ""
 #: en/content/features/dynamicfield-webservice.xml:87
 msgid ""
 "The following example shows an XSLT mapping that discards any data and sets "
-"a fixed 'UserLogin', 'Password' and 'TicketID' (as needed for a TicketGet "
+"a fixed <literal>UserLogin</literal>, <literal>Password</literal> and "
+"<literal>TicketID</literal> (as needed for a <literal>TicketGet</literal> "
 "operation)."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:92
-msgid "Dynamic Field \"Web Service\" - Outgoing mapping example"
+msgid "Dynamic Field <emphasis>Web Service</emphasis> - Outgoing mapping example"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
@@ -2414,14 +2472,14 @@ msgstr ""
 #: en/content/features/dynamicfield-webservice.xml:104
 msgid ""
 "The following example shows an XSLT mapping that converts the results from a "
-"TicketGet operation response form the remote server, extracting and "
-"formatting the State and Queue as needed to be used as options for the "
-"dynamic field."
+"<literal>TicketGet</literal> operation response form the remote server, "
+"extracting and formatting the state and queue as needed to be used as "
+"options for the dynamic field."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:108
-msgid "Dynamic Field \"Web Service\" - Incoming mapping example"
+msgid "Dynamic Field <emphasis>Web Service</emphasis> - Incoming mapping example"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
@@ -2600,7 +2658,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:230
-msgid "Dynamic Field \"Web Service\" - Definition Example"
+msgid "Dynamic Field <emphasis>Web Service</emphasis> - Definition Example"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2629,7 +2687,8 @@ msgstr ""
 #: en/content/features/dynamicfield-webservice.xml:254
 msgid ""
 "The invoker that is used to send requests to external systems. Within this "
-"field, just invokers of type 'Generic::PassThrough' will be displayed."
+"field, just invokers of type <literal>Generic::PassThrough</literal> will be "
+"displayed."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
@@ -2705,65 +2764,68 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:313
 msgid ""
-"Dynamic fields of type \"Web Service\" have to be activated for the several "
-"masks in which they should be displayed like the other types of dynamic "
-"fields. The following covers the cases for ticket based dynamic fields."
+"Dynamic fields of type <emphasis>Web Service</emphasis> have to be activated "
+"for the several masks in which they should be displayed like the other types "
+"of dynamic fields. The following covers the cases for ticket based dynamic "
+"fields."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:318
 msgid ""
-"This can be done through Admin → Administration Overview → System "
-"Configuration, then navigate to Frontend → Agent → View."
+"This can be done through <emphasis>Admin → Administration Overview → System "
+"Configuration</emphasis>, then navigate to <emphasis>Frontend → Agent → "
+"View</emphasis>."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:322
 msgid ""
-"For every Ticket* option, in which the dynamic field of type \"Web Service\" "
-"should be displayed, the admin has to configure it to fit his "
-"needs. Examples:"
+"For every <literal>Ticket*</literal> option, in which the dynamic field of "
+"type <emphasis>Web Service</emphasis> should be displayed, the admin has to "
+"configure it to fit his needs. Examples:"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:329
-msgid "TicketZoom for the ticket zoom view."
+msgid "<literal>TicketZoom</literal> for the ticket zoom view."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:334
-msgid "TicketPhoneNew for new phone tickets."
+msgid "<literal>TicketPhoneNew</literal> for new phone tickets."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:339
-msgid "TicketEmailNew for new email tickets."
+msgid "<literal>TicketEmailNew</literal> for new email tickets."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:344
 msgid ""
 "The dynamic field can be added if there exists an entry called "
-"\"Ticket::Frontend::AgentTicket*###DynamicField\". This configuration "
-"defines which dynamic fields should be displayed in this view. To add a "
-"dynamic field, the internal name of the field has to be filled in the first "
-"field. After confirmation a second field is filled with the display "
-"option. Choose <literal>1 - Enabled</literal> to just show the field or "
-"<literal>2 - Enabled and required</literal> to make it mandatory."
+"<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>. This "
+"configuration defines which dynamic fields should be displayed in this "
+"view. To add a dynamic field, the internal name of the field has to be "
+"filled in the first field. After confirmation a second field is filled with "
+"the display option. Choose <emphasis>1 - Enabled</emphasis> to just show the "
+"field or <emphasis>2 - Enabled and required</emphasis> to make it mandatory."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:359
 msgid ""
-"The use of the \"Web Service\" dynamic field is similar to other dynamic "
-"fields like Dropdown or Multiselect, but users could expect to have "
-"different options to choose even without active ACLs due to the change of "
-"parameters in the web request as other fields are changed."
+"The use of the <emphasis>Web Service</emphasis> dynamic field is similar to "
+"other dynamic fields like <emphasis>Dropdown</emphasis> or "
+"<emphasis>Multiselect</emphasis>, but users could expect to have different "
+"options to choose even without active ACLs due to the change of parameters "
+"in the web request as other fields are changed."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
-msgid "Import Ready2Adopt process"
+msgid "Import Ready2Adopt Process"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -2774,16 +2836,16 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:11
 msgid ""
-"On the <emphasis>AdminProcessManagement</emphasis> screen you can find an "
-"<emphasis>Ready2Adopt process</emphasis> widget, where you can find some "
-"best practice Ready2Adopt processes."
+"On the <emphasis>Process Management</emphasis> screen in the Admin interface "
+"you can find an <emphasis>Ready2Adopt Processes</emphasis> widget, where you "
+"can find some best practice Ready2Adopt processes."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
 msgid ""
 "The following Ready2Adopt processes are available in the <emphasis "
-"role=\"bold\">OTRS Business Solution™</emphasis>:"
+"role=\"bold\">OTRS Business Solution</emphasis>™:"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
@@ -2908,7 +2970,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:46
-msgid "Import Ready2Adopt process widget"
+msgid "Import Ready2Adopt Process Widget"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -2922,7 +2984,7 @@ msgstr ""
 #: en/content/features/import-example-process.xml:53
 msgid ""
 "To install a Ready2Adopt process, just select the desired process from the "
-"drop-down menu in the <emphasis>Ready2Adopt process</emphasis> widget and "
+"drop-down menu in the <emphasis>Ready2Adopt Processes</emphasis> widget and "
 "click the <emphasis>Import Ready2Adopt process</emphasis> button."
 msgstr ""
 
@@ -2941,8 +3003,8 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
 msgid ""
-"There are three Ready2Adopt Web Services available in the <emphasis "
-"role=\"bold\">OTRS Business Solution™</emphasis>:"
+"There are three Ready2Adopt web services available in the <emphasis "
+"role=\"bold\">OTRS Business Solution</emphasis>™:"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
@@ -2985,7 +3047,7 @@ msgstr ""
 msgid ""
 "Locate the <emphasis>Ready2Adopt Web Services</emphasis> widget, select one "
 "of the provided web services from the drop-down menu, and click the "
-"<emphasis>Import Ready2Adopt Web Service</emphasis> button."
+"<emphasis>Import Ready2Adopt web service</emphasis> button."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -3003,7 +3065,7 @@ msgstr ""
 #. type: Content of: <section><section><note><para>
 #: en/content/features/import-example-web-service.xml:59
 msgid ""
-"The Ready2Adopt Web Services may require additional feature add-ons to be "
+"The Ready2Adopt web services may require additional feature add-ons to be "
 "installed (<emphasis "
 "role=\"bold\">OTRSGenericInterfaceInvokerTicket</emphasis> and <emphasis "
 "role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
@@ -3020,9 +3082,10 @@ msgid ""
 "The <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ comes with "
 "two new notification features: SMS notifications and the notification web "
 "view. Both of them are technically notification methods besides the existing "
-"email method and can be activated for each notification (e.g. \"Ticket new "
-"note notification\" or \"Ticket create notification\") on the "
-"AdminNotificationEvent screen."
+"email method and can be activated for each notification "
+"(e.g. <emphasis>Ticket new note notification</emphasis> or <emphasis>Ticket "
+"create notification</emphasis>) on the <emphasis>Notification "
+"Event</emphasis> screen in the Admin interface."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -3045,23 +3108,25 @@ msgid ""
 "have to buy an SMS unit package.  Please get in touch with sales@otrs.com on "
 "this matter. Once you've bought a package, you will be able to look up your "
 "current contingent of remaining SMS units on the admin screen for the SMS "
-"cloud service (AdminCloudServiceSMS)."
+"cloud service (<literal>AdminCloudServiceSMS</literal>)."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:33
 msgid ""
 "To make SMS available for notifications, you have to enable it for the "
-"notifications of your choice in AdminNotificationEvent. Besides the existing "
-"\"Email\" notification method, you can enable SMS notifications by enabling "
-"the checkbox as to be seen in the screenshot below."
+"notifications of your choice in <emphasis>Notification Event</emphasis> "
+"screen in the Admin interface. Besides the existing "
+"<emphasis>Email</emphasis> notification method, you can enable SMS "
+"notifications by enabling the checkbox as to be seen in the screenshot "
+"below."
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/notifications.xml:39
 msgid ""
-"Please be careful using the \"Send by default\" checkbox on SMS "
-"notifications. Enabling this checkbox will cause this notification to be "
+"Please be careful using the <emphasis>Send by default</emphasis> checkbox on "
+"SMS notifications. Enabling this checkbox will cause this notification to be "
 "sent by SMS to all agents with a phone number stored in the configured "
 "field. This could cause a high usage of your available SMS units!"
 msgstr ""
@@ -3072,7 +3137,7 @@ msgid ""
 "On this screen, you can also add more generic phone numbers (e.g. for "
 "archiving purposes) which will receive all of the relevant notifications "
 "(besides the addressed agents). Please note that all of these recipients "
-"will be treated as customers (regarding article creation.)."
+"will be treated as customers (regarding article creation)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -3112,10 +3177,11 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:70
 msgid ""
-"SMS notification text will be constructed on fly by combining both Subject "
-"and Text fields of the corresponding language. You can of course use "
-"supported OTRS tags in these fields, and additionally URLs can be shortened "
-"by activating URL shortening option in cloud service configuration."
+"SMS notification text will be constructed on fly by combining both "
+"<emphasis>Subject</emphasis> and <emphasis>Text</emphasis> fields of the "
+"corresponding language. You can of course use supported OTRS tags in these "
+"fields, and additionally URLs can be shortened by activating URL shortening "
+"option in cloud service configuration."
 msgstr ""
 
 #. type: Content of: <section><section><figure><title>
@@ -3319,10 +3385,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/report-generator.xml:75
 msgid ""
-"To generate a report, you can use the \"Run now\" button from the reports "
-"overview. You'll be asked for confirmation and afterwards the report will be "
-"created and sent immediately. Please find screenshots of a generated report "
-"below."
+"To generate a report, you can use the <emphasis>Run now</emphasis> button "
+"from the reports overview. You'll be asked for confirmation and afterwards "
+"the report will be created and sent immediately. Please find screenshots of "
+"a generated report below."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -3381,11 +3447,11 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/resource-planning.xml:10
 msgid ""
-"Resource planning feature in OTRS Business Solution™ complements built-in "
-"calendar feature of OTRS. It enhances original calendar implementation by "
-"introducing resource allocation for appointments. Furthermore, resources can "
-"be assigned to separate teams, which in turn can be used to filter resource "
-"overview and availability."
+"Resource planning feature in <emphasis role=\"bold\">OTRS Business "
+"Solution</emphasis>™ complements built-in calendar feature of OTRS. It "
+"enhances original calendar implementation by introducing resource allocation "
+"for appointments. Furthermore, resources can be assigned to separate teams, "
+"which in turn can be used to filter resource overview and availability."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -3416,9 +3482,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:41
 msgid ""
-"Teams can be added or imported from Manage Teams screen accessible via top "
-"navigation menu. In order to import a team, you must have an exported YML "
-"configuration file of the team from an existing OTRS installation."
+"Teams can be added or imported from <emphasis>Manage Teams</emphasis> screen "
+"accessible via top navigation menu. In order to import a team, you must have "
+"an exported YML configuration file of the team from an existing OTRS "
+"installation."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -3437,7 +3504,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:61 en/content/features/resource-planning.xml:75
+#: en/content/features/resource-planning.xml:61 en/content/features/resource-planning.xml:74
 msgid "Team Agent Management"
 msgstr ""
 
@@ -3453,11 +3520,11 @@ msgstr ""
 #: en/content/features/resource-planning.xml:69
 msgid ""
 "Please note that in order to see agents in this screen, you must define them "
-"first via Admin &gt; Agents screen."
+"first via <emphasis>Admin → Agents</emphasis> screen."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:77
+#: en/content/features/resource-planning.xml:76
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/TeamManagementAgents.png\" "
@@ -3465,19 +3532,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:82
+#: en/content/features/resource-planning.xml:81
 msgid ""
 "By choosing a team from this screen, you can assign agents to it, and "
 "vice-versa."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:86
+#: en/content/features/resource-planning.xml:85
 msgid "Team Agent Relations"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:88
+#: en/content/features/resource-planning.xml:87
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/TeamManagementAgentRelations.png\" "
@@ -3485,19 +3552,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/resource-planning.xml:95
+#: en/content/features/resource-planning.xml:94
 msgid "Assigning Appointments to Resources"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:97
+#: en/content/features/resource-planning.xml:96
 msgid ""
 "Finally, once you have both teams and their agents set up, you can proceed "
 "to a calendar overview and start assigning appointments to teams and agents."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:101
+#: en/content/features/resource-planning.xml:100
 msgid ""
 "Simply add or edit an appointment, and choose both team and agent from the "
 "lists under resource. You can do this via any calendar overview, as "
@@ -3505,12 +3572,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:106
+#: en/content/features/resource-planning.xml:105
 msgid "Assigning team and agent to an appointment"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:108
+#: en/content/features/resource-planning.xml:107
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/AppointmentEditResource.png\" "
@@ -3518,7 +3585,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:113
+#: en/content/features/resource-planning.xml:112
 msgid ""
 "You can assign multiple teams and agents to a single appointment, but you "
 "must always choose a team first. Resulting list of agents is an aggregate of "
@@ -3527,12 +3594,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:119
+#: en/content/features/resource-planning.xml:118
 msgid "Assigning multiple teams and agents to an appointment"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:121
+#: en/content/features/resource-planning.xml:120
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/AppointmentEditResourceMultiple.png\" "
@@ -3540,19 +3607,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><note><para>
-#: en/content/features/resource-planning.xml:127
+#: en/content/features/resource-planning.xml:126
 msgid ""
 "Once you assign an appointment to a team and/or agent, make sure to save it "
 "so your changes are applied."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:134 en/content/features/resource-planning.xml:146 en/content/features/resource-planning.xml:163
+#: en/content/features/resource-planning.xml:133 en/content/features/resource-planning.xml:145 en/content/features/resource-planning.xml:162
 msgid "Resource Overview"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:136
+#: en/content/features/resource-planning.xml:135
 msgid ""
 "While it's possible to assign resources to an appointment in any calendar "
 "overview, one screen is designed exclusively for allocating resources to "
@@ -3562,21 +3629,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:142
+#: en/content/features/resource-planning.xml:141
 msgid ""
 "By choosing a team from the top filter, you will be presented with all "
 "appointments assigned to it."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:148
+#: en/content/features/resource-planning.xml:147
 msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:153
+#: en/content/features/resource-planning.xml:152
 msgid ""
 "By simply dragging an appointment to a row line with an agent's name in "
 "timeline view, it's possible to assign an appointment to this resource. If "
@@ -3585,7 +3652,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:158
+#: en/content/features/resource-planning.xml:157
 msgid ""
 "Appointment with multiple agents will be displayed as duplicated, but it "
 "most certainly is not. Dragging one instance of this appointment will move "
@@ -3593,7 +3660,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:165
+#: en/content/features/resource-planning.xml:164
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple.png\" "
@@ -3601,7 +3668,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><note><para>
-#: en/content/features/resource-planning.xml:171
+#: en/content/features/resource-planning.xml:170
 msgid ""
 "Please note that appointments with unassigned teams or assigned different "
 "team than currently selected, will not show up in the resource overview. You "
@@ -3610,19 +3677,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:177
+#: en/content/features/resource-planning.xml:176
 msgid ""
 "By editing settings of the resource overview (via gear icon in top right "
 "corner), you can choose which team agents are displayed within the overview."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:182
+#: en/content/features/resource-planning.xml:181
 msgid "Resource Overview Settings"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:184
+#: en/content/features/resource-planning.xml:183
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/ResourceOverviewSettings.png\" "
@@ -3630,7 +3697,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:189
+#: en/content/features/resource-planning.xml:188
 msgid ""
 "This setting is user and team specific, and if you have defined an agent "
 "filter in this way, a trash icon will be displayed on top of the list of "
@@ -3638,12 +3705,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/resource-planning.xml:194
+#: en/content/features/resource-planning.xml:193
 msgid "Resource Overview Filter Delete"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/resource-planning.xml:196
+#: en/content/features/resource-planning.xml:195
 msgid ""
 "<graphic "
 "fileref=\"screenshots/resource-allocation/ResourceOverviewFilterDelete.png\" "
@@ -3651,7 +3718,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/resource-planning.xml:201
+#: en/content/features/resource-planning.xml:200
 msgid ""
 "In all other aspects, resource overview screen behaves in the same way as a "
 "regular calendar overview."
@@ -3746,8 +3813,8 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:19
 msgid ""
 "Before taking advantage of SMS cloud service, you must first activate it. To "
-"do so, please visit the \"Cloud Services\" screen in Admin interface, and "
-"click on SMS entry in table."
+"do so, please visit the <emphasis>Cloud Services</emphasis> screen in Admin "
+"interface, and click on SMS entry in table."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -3792,7 +3859,7 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:49
 msgid ""
 "On this screen, you can also set up some additional parameters of the SMS "
-"cloud service, i.e. the sender string which should be used for the SMS text "
+"cloud service, e.g. the sender string which should be used for the SMS text "
 "messages or the agent/customer preference field name which should be used to "
 "take the mobile phone number from."
 msgstr ""
@@ -3801,23 +3868,23 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:55
 msgid ""
 "If you change value for the customer preference field, make sure to update "
-"the configuration options of the address book in the SysConfig to reflect "
-"this change:"
+"the configuration options of the address book in the system configuration to "
+"reflect this change:"
 msgstr ""
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:61
-msgid "CustomerUser::Frontend::AgentCustomerUserAddressBook###SearchParameters###SMS"
+msgid "<literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###SearchParameters###SMS</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:64
-msgid "CustomerUser::Frontend::AgentCustomerUserAddressBook###DefaultFields###SMS"
+msgid "<literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###DefaultFields###SMS</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:67
-msgid "CustomerUser::Frontend::AgentCustomerUserAddressBook###ShowColumns###SMS"
+msgid "<literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###ShowColumns###SMS</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
@@ -3830,29 +3897,29 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:77
 msgid ""
-"Allowed role members is an optional white list of agent roles whose members "
-"will be able to receive SMS notifications. If undefined, all agents will "
-"have a possibility of receiving SMS notifications."
+"<emphasis>Allowed role members</emphasis> is an optional white list of agent "
+"roles whose members will be able to receive SMS notifications. If undefined, "
+"all agents will have a possibility of receiving SMS notifications."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:81
 msgid ""
-"Perform URL shortening checkbox controls the feature of shortening links in "
-"SMS texts. If enabled, any link submitted as part of SMS text will be "
-"shortened by using OTRS cloud URL shortening service. Links will be "
-"shortened only if their length is larger than resulting shortened URL, in "
-"order to keep SMS costs down."
+"<emphasis>Perform URL shortening</emphasis> checkbox controls the feature of "
+"shortening links in SMS texts. If enabled, any link submitted as part of SMS "
+"text will be shortened by using OTRS cloud URL shortening service. Links "
+"will be shortened only if their length is larger than resulting shortened "
+"URL, in order to keep SMS costs down."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:86
 msgid ""
-"By adding specific phone numbers to the Phone black list, you can make sure "
-"these numbers will never receive any SMS text via cloud service (whether "
-"it's a notification or an article). Make sure to input phone numbers in "
-"international format, complete with plus sign (+) and country code, without "
-"any spaces."
+"By adding specific phone numbers to the <emphasis>Phone black "
+"list</emphasis>, you can make sure these numbers will never receive any SMS "
+"text via cloud service (whether it's a notification or an article). Make "
+"sure to input phone numbers in international format, complete with plus sign "
+"(+) and country code, without any spaces."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -3864,8 +3931,8 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:95
 msgid ""
 "In order to benefit from SMS templates, you must first configure them for "
-"specific screens and assign them to correct queues. You can find SMS "
-"template management screen in the Admin interface."
+"specific screens and assign them to correct queues. You can find "
+"<emphasis>SMS template management</emphasis> screen in the Admin interface."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -3891,8 +3958,8 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:111
 msgid ""
-"Template Type field determines for which screen the template will be "
-"visible:"
+"<emphasis>Template Type</emphasis> field determines for which screen the "
+"template will be visible:"
 msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
@@ -3902,7 +3969,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:118
-msgid "Template will be visible for Reply via SMS article action."
+msgid ""
+"Template will be visible for <emphasis>Reply via SMS article</emphasis> "
+"action."
 msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
@@ -3912,7 +3981,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:124
-msgid "Template will be visible in New SMS ticket screen."
+msgid "Template will be visible in <emphasis>New SMS ticket</emphasis> screen."
 msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
@@ -3922,22 +3991,23 @@ msgstr ""
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:130
-msgid "Template will be visible in SMS Outbound screen."
+msgid "Template will be visible in <emphasis>SMS Outbound</emphasis> screen."
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:137
 msgid ""
-"Create type templates only supports these smart tags: &lt;OTRS_CURRENT_*&gt; "
-"and &lt;OTRS_CONFIG_*&gt;."
+"<literal>Create</literal> type templates only supports these smart tags: "
+"<literal>&lt;OTRS_CURRENT_*&gt;</literal> and "
+"<literal>&lt;OTRS_CONFIG_*&gt;</literal>."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:141
 msgid ""
 "When you define an SMS template, don't forget to add them to queues. You can "
-"do this by following link in the sidebar or via SMS Templates &lt;-&gt; "
-"Queues link in the admin interface."
+"do this by following link in the sidebar or via <emphasis>SMS Templates ↔ "
+"Queues</emphasis> link in the admin interface."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -3956,8 +4026,9 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:157
 msgid ""
-"To create a ticket with SMS article as a first one, please go to the New SMS "
-"ticket screen accessible via Tickets menu on the main toolbar."
+"To create a ticket with SMS article as a first one, please go to the "
+"<emphasis>New SMS ticket</emphasis> screen accessible via "
+"<emphasis>Tickets</emphasis> menu on the main toolbar."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -3977,11 +4048,12 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:169
 msgid ""
 "This screen behaves similar to new email and phone screens, with some "
-"notable exceptions. Instead of email addresses, Recipients field accepts "
-"only phone numbers in international format, complete with plus sign (+)  and "
-"country code. You can also search for customer users via this field, "
-"provided they have a valid phone number stored in preference field which is "
-"configured in cloud service configuration screen."
+"notable exceptions. Instead of email addresses, "
+"<emphasis>Recipients</emphasis> field accepts only phone numbers in "
+"international format, complete with plus sign (+)  and country code. You can "
+"also search for customer users via this field, provided they have a valid "
+"phone number stored in preference field which is configured in cloud service "
+"configuration screen."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -3995,40 +4067,43 @@ msgstr ""
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:180
 msgid ""
-"Ticket title field will not be included in SMS and is for internal use "
-"only. Customer will receive message based exclusively on the contents of the "
-"Text field."
+"<emphasis>Ticket Title</emphasis> field will not be included in SMS and is "
+"for internal use only. Customer will receive message based exclusively on "
+"the contents of the <emphasis>Text</emphasis> field."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:185
 msgid ""
-"If you have configured SMS templates of type Create, and you have them "
-"assigned to currently chosen Queue, you will have the option of populating "
-"the Text field with preconfigured message."
+"If you have configured SMS templates of type <literal>Create</literal>, and "
+"you have them assigned to currently chosen <emphasis>Queue</emphasis>, you "
+"will have the option of populating the <emphasis>Text</emphasis> field with "
+"preconfigured message."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:189
 msgid ""
-"Flash message checkbox controls if message will be showed directly on the "
-"device without user interaction and not stored automatically."
+"<emphasis>Flash message</emphasis> checkbox controls if message will be "
+"showed directly on the device without user interaction and not stored "
+"automatically."
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:194
 msgid ""
-"Support for flash messages (also known as \"Class 0\" messages) may vary by "
-"device and provider. OTRS cannot guarantee if this flag will be honored by "
-"service provider or supported by receiving device."
+"Support for flash messages (also known as <emphasis>Class 0</emphasis> "
+"messages) may vary by device and provider. OTRS cannot guarantee if this "
+"flag will be honored by service provider or supported by receiving device."
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:199
 msgid ""
-"By clicking Send SMS button, ticket will be created with an SMS article, "
-"provided SMS cloud service accepted the message. If any errors were "
-"encountered, you will be notified, and ticket will not be created."
+"By clicking <emphasis>Send SMS</emphasis> button, ticket will be created "
+"with an SMS article, provided SMS cloud service accepted the message. If any "
+"errors were encountered, you will be notified, and ticket will not be "
+"created."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -4039,8 +4114,9 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:207
 msgid ""
-"To add an SMS to an existing ticket, you can use SMS Outbound action on the "
-"main ticket toolbar (Communication section)."
+"To add an SMS to an existing ticket, you can use <emphasis>SMS "
+"Outbound</emphasis> action on the main ticket toolbar "
+"(<emphasis>Communication</emphasis> section)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -4054,10 +4130,10 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:219
 msgid ""
-"If you already have an article, you can also use Reply via SMS action on the "
-"article toolbar. Simply select the article in question, and either click on "
-"the button, or choose name of the template (if you have it configured for "
-"this screen)."
+"If you already have an article, you can also use <emphasis>Reply via "
+"SMS</emphasis> action on the article toolbar. Simply select the article in "
+"question, and either click on the button, or choose name of the template (if "
+"you have it configured for this screen)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
@@ -4072,7 +4148,7 @@ msgstr ""
 msgid ""
 "If customer user has defined phone number, it will be automatically inserted "
 "in the recipients list. It doesn't matter if article was created in a "
-"different communication channel (i.e. Email), it should be correctly "
+"different communication channel (e.g. Email), it should be correctly "
 "recognized and substituted with valid phone number."
 msgstr ""
 
@@ -4103,10 +4179,11 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:254
 msgid ""
-"Recipients of an SMS article are listed inside the Recipients field. They "
-"can be shown in two formats: just phone numbers or phone numbers with name "
-"of corresponding customer users. In addition to this field, Transaction "
-"numbers will contain a reference message ID mapped to the recipients phone "
+"Recipients of an SMS article are listed inside the "
+"<emphasis>Recipients</emphasis> field. They can be shown in two formats: "
+"just phone numbers or phone numbers with name of corresponding customer "
+"users. In addition to this field, <emphasis>Transaction Numbers</emphasis> "
+"will contain a reference message ID mapped to the recipients phone "
 "number. These numbers can be used for debugging purposes, since they can be "
 "connected to specific messages handled by the cloud service."
 msgstr ""
@@ -4128,9 +4205,9 @@ msgstr ""
 #: en/content/features/sms-communication-channel.xml:269
 msgid ""
 "In addition to the article header field, transaction numbers can also be "
-"found in ticket history screen.  This screen will contain an entry for every "
-"message sent out via SMS cloud service, with corresponding transaction and "
-"phone number in it."
+"found in <emphasis>Ticket History</emphasis> screen.  This screen will "
+"contain an entry for every message sent out via SMS cloud service, with "
+"corresponding transaction and phone number in it."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -4156,7 +4233,7 @@ msgstr ""
 msgid ""
 "This functionality allows agent users to define their own values for some "
 "system configuration settings.  These values can be defined in the user "
-"preferences section in the new \"Advanced\" pane."
+"preferences section in the new <emphasis>Advanced</emphasis> pane."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -4175,9 +4252,9 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:29
 msgid ""
-"Every agent can define a value for a setting using the Personal preferences "
-"screen. Once you are in this screen, select the \"Advanced\" option in the "
-"preferences panel."
+"Every agent can define a value for a setting using the <emphasis>Personal "
+"preferences</emphasis> screen. Once you are in this screen, select the "
+"<emphasis>Advanced</emphasis> option in the preferences panel."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4198,15 +4275,16 @@ msgstr ""
 msgid ""
 "Using the navigation widget in the left side bar, select the desired group "
 "of settings. Then you can change the value for a specific setting and save "
-"it using the \"check mark\" button in the left side of the setting widget."
+"it using the <emphasis>check mark</emphasis> button in the right side of the "
+"setting widget."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:46
 msgid ""
 "Once you modified a value, it is possible to revert this change using the "
-"'Reset to default' icon button present in the right top corner of the "
-"modified setting widget."
+"<emphasis>Reset to default</emphasis> icon button present in the right top "
+"corner of the modified setting widget."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4240,8 +4318,9 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:67
 msgid ""
-"Click on the 'Show user settings' button from the alternative menu on the "
-"settings that are enabled to show the 'Review users setting values' screen."
+"Click on the <emphasis>Show user settings</emphasis> button from the "
+"alternative menu on the settings that are enabled to show the "
+"<emphasis>Review users setting values</emphasis> screen."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4287,9 +4366,9 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:95
 msgid ""
-"For the settings that are enabled to hold user values \"Reset setting\" "
-"feature has been enhanced to either reset the setting completely or just the "
-"user values."
+"For the settings that are enabled to hold user values <emphasis>Reset "
+"setting</emphasis> feature has been enhanced to either reset the setting "
+"completely or just the user values."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4308,8 +4387,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:107
 msgid ""
-"Clicking on the \"Reset setting\" button will display a dialog showing the "
-"possible reset options."
+"Clicking on the <emphasis>Reset setting</emphasis> button will display a "
+"dialog showing the possible reset options."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4346,10 +4425,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:25
 msgid ""
-"To access deployment history, go to System Configuration > Deployment screen "
-"and click on History button. This screen will display recent deployments in "
-"a descending order, along with their comments and name of the user who "
-"deployed the changes."
+"To access deployment history, go to <emphasis>System Configuration → "
+"Deployment</emphasis> screen and click on <emphasis>History</emphasis> "
+"button. This screen will display recent deployments in a descending order, "
+"along with their comments and name of the user who deployed the changes."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4368,9 +4447,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:38
 msgid ""
-"Every deployment can be further inspected by clicking on View Details link "
-"next to it. Details screen can be used to compare the setting with its "
-"previous value, before the deployment took place."
+"Every deployment can be further inspected by clicking on <emphasis>View "
+"Details</emphasis> link next to it. <emphasis>Details</emphasis> screen can "
+"be used to compare the setting with its previous value, before the "
+"deployment took place."
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -4386,8 +4466,8 @@ msgstr ""
 msgid ""
 "Finally, deployments can be exported with click on the export button. User "
 "will be presented with a download of a YML file that contains changed "
-"settings. This YML file can be later restored via Import &amp; Export screen "
-"in the system configuration screen."
+"settings. This YML file can be later restored via <emphasis>Import &amp; "
+"Export</emphasis> screen in the system configuration screen."
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -4398,10 +4478,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:55
 msgid ""
-"Specific setting history can be accessed via History button in the setting "
-"widget. This buttons opens a screen of all values setting had over different "
-"deployments. Information like name of the user that made the change and time "
-"of change is displayed, along with a useful comparison tool."
+"Specific setting history can be accessed via <emphasis>History</emphasis> "
+"button in the setting widget. This button opens a screen of all values "
+"setting had over different deployments. Information like name of the user "
+"that made the change and time of change is displayed, along with a useful "
+"comparison tool."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
@@ -4412,8 +4493,8 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:68
 msgid ""
-"Every historical setting value can be restored by clicking on the Restore "
-"button in upper right corner."
+"Every historical setting value can be restored by clicking on the "
+"<emphasis>Restore</emphasis> button in upper right corner."
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -4447,9 +4528,10 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/features/ticket-attachment-view.xml:33
 msgid ""
-"Once a ticket has at least one attachment, the \"Attachments\" menu item "
-"will be displayed in AgentTicketZoom. Clicking it will open a popup which "
-"contains a list of all attachments."
+"Once a ticket has at least one attachment, the "
+"<emphasis>Attachments</emphasis> menu item will be displayed in the ticket "
+"zoom screen. Clicking it will open a popup which contains a list of all "
+"attachments."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -4480,12 +4562,14 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/ticket-timeline-view.xml:21
-msgid "ChronicalViewEnabled"
+msgid "<literal>ChronicalViewEnabled</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/ticket-timeline-view.xml:23
-msgid "Group: OTRSBusiness, Subgroup: Frontend::Agent"
+msgid ""
+"Group: <literal>OTRSBusiness</literal>, Subgroup: "
+"<literal>Frontend::Agent</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -4509,9 +4593,9 @@ msgstr ""
 #: en/content/features/ticket-timeline-view.xml:44
 msgid ""
 "To access the ticket timeline view, use the clock icon on the top right "
-"corner of the article widget in AgentTicketZoom. You will be redirected to "
-"the timeline view and this view will be kept as preference until you change "
-"back to another view."
+"corner of the article widget in the ticket zoom screen. You will be "
+"redirected to the timeline view and this view will be kept as preference "
+"until you change back to another view."
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -4566,7 +4650,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/video-calls.xml:23
-msgid "The following SysConfig configuration options are relevant for this feature."
+msgid "The following system configuration options are relevant for this feature."
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
@@ -4579,7 +4663,7 @@ msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/video-calls.xml:35
-msgid "ChatEngine::PermissionGroup::VideoChatAgents"
+msgid "<literal>ChatEngine::PermissionGroup::VideoChatAgents</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>

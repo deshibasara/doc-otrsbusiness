@@ -3,9 +3,10 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-webservice">
-    <title>The Dynamic Field "Web Service"</title>
+    <title>The Dynamic Field <emphasis>Web Service</emphasis></title>
     <para>
-        This feature implements a dynamic field of the type "Web Service".
+        This feature implements a dynamic field of the type <emphasis>Web
+Service</emphasis>.
     </para>
     <section>
         <title>Descrição</title>
@@ -16,16 +17,18 @@ from the external system defines the possible options to be displayed, and
 they could vary depending on the data that is sent in the request.
         </para>
         <para>
-            Normally when a field is changed in a screen (i.e. the ticket priority in
-the New phone ticket screen) the values of other fields could be
-updated. That is the case with this type of dynamic fields, as they could
-also include all screen field values in the request and the remote server
-could potentially return completely different values depending on input.
+            Normally when a field is changed in a screen (e.g. the ticket priority in
+the <emphasis>New phone ticket</emphasis> screen) the values of other fields
+could be updated. That is the case with this type of dynamic fields, as they
+could also include all screen field values in the request and the remote
+server could potentially return completely different values depending on
+input.
         </para>
         <para>
-             Additionally if the dynamic field source object already exists (i.e. a
-ticket, and the field is set in the Free Fields screen), the details of the
-already created ticket are also included in the request.
+             Additionally if the dynamic field source object already exists (e.g. a
+ticket, and the field is set in the <emphasis>Free Fields</emphasis>
+screen), the details of the already created ticket are also included in the
+request.
         </para>
     </section>
 
@@ -37,10 +40,10 @@ already created ticket are also included in the request.
         <section>
             <title>A web service (at least configured as requester)</title>
             <para>
-                To create a new web service dynamic field it is necessary to have already a
-working web service, it requires to have at least one invoker of the type
-<literal>Generic::PassThrough</literal>. This invoker will be called to
-fetch the data from the remote server.
+                To create a new <emphasis>web service dynamic</emphasis> field it is
+necessary to have already a working web service, it requires to have at
+least one invoker of the type <literal>Generic::PassThrough</literal>. This
+invoker will be called to fetch the data from the remote server.
             </para>
             <para>
                 The original data that it is sent in a request is similar to the following
@@ -75,9 +78,10 @@ in the web browser. This information changes as the screen is filled in.
             </para>
             <para>
                 <literal>Ticket</literal> section (or another source object,
-i.e. CustomerUser), contains the attributes of the object where the dynamic
-field belongs. For example in New phone ticket screen the section is empty
-as the ticket is not created yet, but in Free Fields screen it contains the
+e.g. <literal>CustomerUser</literal>), contains the attributes of the object
+where the dynamic field belongs. For example in <emphasis>New phone
+ticket</emphasis> screen the section is empty as the ticket is not created
+yet, but in <emphasis>Free Fields</emphasis> screen it contains the
 information of the current ticket.
             </para>
             <para>
@@ -92,12 +96,13 @@ remote server call.
             </para>
             <para>
                 The following example shows an XSLT mapping that discards any data and sets
-a fixed 'UserLogin', 'Password' and 'TicketID' (as needed for a TicketGet
+a fixed <literal>UserLogin</literal>, <literal>Password</literal> and
+<literal>TicketID</literal> (as needed for a <literal>TicketGet</literal>
 operation).
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field "Web Service" - Outgoing mapping example</title>
+                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Outgoing mapping example</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/OutgoingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -110,13 +115,13 @@ and Value elements.
             </para>
             <para>
                 The following example shows an XSLT mapping that converts the results from a
-TicketGet operation response form the remote server, extracting and
-formatting the State and Queue as needed to be used as options for the
-dynamic field.
+<literal>TicketGet</literal> operation response form the remote server,
+extracting and formatting the state and queue as needed to be used as
+options for the dynamic field.
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field "Web Service" - Incoming mapping example</title>
+                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Incoming mapping example</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -239,7 +244,7 @@ dynamic fields, that use such web services.
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field "Web Service" - Definition Example</title>
+                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Definition Example</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -263,7 +268,8 @@ dynamic field is displayed.
                         <listitem>
                             <para>
                                 The invoker that is used to send requests to external systems. Within this
-field, just invokers of type 'Generic::PassThrough' will be displayed.
+field, just invokers of type <literal>Generic::PassThrough</literal> will be
+displayed.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -321,45 +327,47 @@ user language.
         <section>
             <title>Configuração da tela</title>
             <para>
-                Dynamic fields of type "Web Service" have to be activated for the several
-masks in which they should be displayed like the other types of dynamic
-fields. The following covers the cases for ticket based dynamic fields.
+                Dynamic fields of type <emphasis>Web Service</emphasis> have to be activated
+for the several masks in which they should be displayed like the other types
+of dynamic fields. The following covers the cases for ticket based dynamic
+fields.
             </para>
             <para>
-                This can be done through Admin → Administration Overview → System
-Configuration, then navigate to Frontend → Agent → View.
+                This can be done through <emphasis>Admin → Administration Overview → System
+Configuration</emphasis>, then navigate to <emphasis>Frontend → Agent →
+View</emphasis>.
             </para>
             <para>
-                For every Ticket* option, in which the dynamic field of type "Web Service"
-should be displayed, the admin has to configure it to fit his
-needs. Examples:
+                For every <literal>Ticket*</literal> option, in which the dynamic field of
+type <emphasis>Web Service</emphasis> should be displayed, the admin has to
+configure it to fit his needs. Examples:
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            TicketZoom for the ticket zoom view.
+                            <literal>TicketZoom</literal> for the ticket zoom view.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            TicketPhoneNew for new phone tickets.
+                            <literal>TicketPhoneNew</literal> for new phone tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            TicketEmailNew for new email tickets.
+                            <literal>TicketEmailNew</literal> for new email tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
                             The dynamic field can be added if there exists an entry called
-"Ticket::Frontend::AgentTicket*###DynamicField". This configuration defines
-which dynamic fields should be displayed in this view. To add a dynamic
-field, the internal name of the field has to be filled in the first
-field. After confirmation a second field is filled with the display
-option. Choose <literal>1 - Enabled</literal> to just show the field or
-<literal>2 - Enabled and required</literal> to make it mandatory.
+<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>. This
+configuration defines which dynamic fields should be displayed in this
+view. To add a dynamic field, the internal name of the field has to be
+filled in the first field. After confirmation a second field is filled with
+the display option. Choose <emphasis>1 - Enabled</emphasis> to just show the
+field or <emphasis>2 - Enabled and required</emphasis> to make it mandatory.
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -369,10 +377,11 @@ option. Choose <literal>1 - Enabled</literal> to just show the field or
     <section>
         <title>Aplicação</title>
         <para>
-            The use of the "Web Service" dynamic field is similar to other dynamic
-fields like Dropdown or Multiselect, but users could expect to have
-different options to choose even without active ACLs due to the change of
-parameters in the web request as other fields are changed.
+            The use of the <emphasis>Web Service</emphasis> dynamic field is similar to
+other dynamic fields like <emphasis>Dropdown</emphasis> or
+<emphasis>Multiselect</emphasis>, but users could expect to have different
+options to choose even without active ACLs due to the change of parameters
+in the web request as other fields are changed.
         </para>
     </section>
 </section>

@@ -34,10 +34,10 @@ megtekintett jegy több mellékletét vagy az összeset tartalmazza.
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            Miután egy jegy legalább egy melléklettel rendelkezik, a „Mellékletek”
-menüpont kerül megjelenítésre az AgentTicketZoom képernyőn. Erre kattintva
-egy felugró ablakot fog megnyitni, amely az összes melléklet listáját
-tartalmazza.
+            Once a ticket has at least one attachment, the
+<emphasis>Attachments</emphasis> menu item will be displayed in the ticket
+zoom screen. Clicking it will open a popup which contains a list of all
+attachments.
         </para>
         <para>
             <figure>
