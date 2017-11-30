@@ -8,7 +8,7 @@
         <title>Description</title>
         <para>
             This functionality allows agent users to define their own values for some system configuration settings.
-            These values can be defined in the user preferences section in the new "Advanced" pane.
+            These values can be defined in the user preferences section in the new <emphasis>Advanced</emphasis> pane.
         </para>
         <para>
             Administrators are able to review the user defined values for those settings and reset them if necessary
@@ -26,8 +26,8 @@
         <section>
             <title>Set user specific value</title>
             <para>
-                Every agent can define a value for a setting using the Personal preferences screen. Once you are in this
-                screen, select the "Advanced" option in the preferences panel.
+                Every agent can define a value for a setting using the <emphasis>Personal preferences</emphasis> screen. Once you are in this
+                screen, select the <emphasis>Advanced</emphasis> option in the preferences panel.
             </para>
             <para>
                 <figure>
@@ -39,11 +39,11 @@
             </para>
             <para>
                 Using the navigation widget in the left side bar, select the desired group of settings. Then you can
-                change the value for a specific setting and save it using the "check mark" button in the left side of
+                change the value for a specific setting and save it using the <emphasis>check mark</emphasis> button in the right side of
                 the setting widget.
             </para>
             <para>
-                Once you modified a value, it is possible to revert this change using the 'Reset to default' icon button
+                Once you modified a value, it is possible to revert this change using the <emphasis>Reset to default</emphasis> icon button
                 present in the right top corner of the modified setting widget.
             </para>
             <para>
@@ -64,8 +64,8 @@
                 if needed.
             </para>
             <para>
-                Click on the 'Show user settings' button from the alternative menu on the settings that are enabled to
-                show the 'Review users setting values' screen.
+                Click on the <emphasis>Show user settings</emphasis> button from the alternative menu on the settings that are enabled to
+                show the <emphasis>Review users setting values</emphasis> screen.
             </para>
             <para>
                 <figure>
@@ -92,7 +92,7 @@
         <section>
             <title>Reset globally and locally</title>
             <para>
-                For the settings that are enabled to hold user values "Reset setting" feature has been enhanced to
+                For the settings that are enabled to hold user values <emphasis>Reset setting</emphasis> feature has been enhanced to
                 either reset the setting completely or just the user values.
             </para>
             <para>
@@ -104,7 +104,7 @@
                 </figure>
             </para>
             <para>
-                Clicking on the "Reset setting" button will display a dialog showing the possible reset options.
+                Clicking on the <emphasis>Reset setting</emphasis> button will display a dialog showing the possible reset options.
             </para>
             <para>
                 <figure>

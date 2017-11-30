@@ -30,7 +30,7 @@
             </figure>
         </para>
         <para>
-            Once a ticket has at least one attachment, the "Attachments" menu item will be displayed in AgentTicketZoom. Clicking it will open a popup which contains a list of all attachments.
+            Once a ticket has at least one attachment, the <emphasis>Attachments</emphasis> menu item will be displayed in the ticket zoom screen. Clicking it will open a popup which contains a list of all attachments.
         </para>
         <para>
             <figure>

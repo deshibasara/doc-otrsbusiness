@@ -7,7 +7,7 @@
     <section>
         <title>Description</title>
         <para>
-            Resource planning feature in OTRS Business Solution™ complements built-in calendar feature of OTRS. It
+            Resource planning feature in <emphasis role="bold">OTRS Business Solution</emphasis>™ complements built-in calendar feature of OTRS. It
             enhances original calendar implementation by introducing resource allocation for appointments. Furthermore,
             resources can be assigned to separate teams, which in turn can be used to filter resource overview and
             availability.
@@ -38,7 +38,7 @@
                 </figure>
             </para>
             <para>
-                Teams can be added or imported from Manage Teams screen accessible via top navigation menu. In order to
+                Teams can be added or imported from <emphasis>Manage Teams</emphasis> screen accessible via top navigation menu. In order to
                 import a team, you must have an exported YML configuration file of the team from an existing OTRS
                 installation.
             </para>
@@ -66,8 +66,7 @@
             </para>
             <note>
                 <para>
-                    Please note that in order to see agents in this screen, you must define them first via Admin &gt;
-                    Agents screen.
+                    Please note that in order to see agents in this screen, you must define them first via <emphasis>Admin → Agents</emphasis> screen.
                 </para>
             </note>
             <para>

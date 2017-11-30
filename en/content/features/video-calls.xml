@@ -20,11 +20,11 @@
     <section>
         <title>Configuration</title>
         <para>
-            The following SysConfig configuration options are relevant for this feature.
+            The following system configuration options are relevant for this feature.
         </para>
         <variablelist>
             <varlistentry>
-                <term>ChatEngine::Active</term>
+                <term><literal>ChatEngine::Active</literal></term>
                 <listitem>
                 <para>
                     Controls whether or not the video and audio calling feature is enabled. Please note that the same switch will control <link linkend="chat">the chat</link> feature too.
@@ -32,7 +32,7 @@
                 </listitem>
             </varlistentry>
             <varlistentry>
-                <term>ChatEngine::PermissionGroup::VideoChatAgents</term>
+                <term><literal>ChatEngine::PermissionGroup::VideoChatAgents</literal></term>
                 <listitem>
                 <para>
                     Defines the group for the video and audio calling features. Only agents with permission in this group will be able to make video and audio calls.

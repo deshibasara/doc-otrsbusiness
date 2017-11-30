@@ -3,10 +3,10 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-database">
-    <title>The Dynamic Field "Database"</title>
+    <title>The Dynamic Field <emphasis>Database</emphasis></title>
 
     <para>
-        This feature implements a dynamic field of the type "Database".
+        This feature implements a dynamic field of the type <emphasis>Database</emphasis>.
     </para>
 
     <section>
@@ -19,7 +19,7 @@
             Related found and marked datasets can be saved to the particular tickets through the dynamic field.
         </para>
         <para>
-            'Database' dynamic fields can be created the same way, as the default dynamic fields are created.
+            <emphasis>Database</emphasis> dynamic fields can be created the same way, as the default dynamic fields are created.
         </para>
     </section>
 
@@ -29,26 +29,26 @@
             The following list of configuration options can be used for this feature.
         </para>
         <section>
-            <title>Adding a 'Database' Dynamic Field</title>
+            <title>Adding a <emphasis>Database</emphasis> Dynamic Field</title>
             <para>
-                This feature implements a configuration interface to create dynamic fields of the type 'Database'.
+                This feature implements a configuration interface to create dynamic fields of the type <emphasis>Database</emphasis>.
             </para>
             <para>
-                'Database' dynamic fields can be created the same way, as the default dynamic fields are created. For this switch to the
-                Admin → Ticket Settings → Dynamic Fields view. In this mask you can select the 'Database' field from the ticket drop down box on the left side. Currently it's not possible to use the 'Database' dynamic field in the article context.
+                <emphasis>Database</emphasis> dynamic fields can be created the same way, as the default dynamic fields are created. For this switch to the
+                <emphasis>Admin → Ticket Settings → Dynamic Fields</emphasis> view. In this mask you can select the <emphasis>Database</emphasis> field from the ticket drop down box on the left side. Currently it's not possible to use the <emphasis>Database</emphasis> dynamic field in the article context.
             </para>
             <itemizedlist>
                 <listitem>
                     <para>
-                        Configuration "General - Name":
+                        Configuration <emphasis>General - Name</emphasis>:
                     </para>
                     <para>
-                        Dynamic fields of the type 'Database' need a unique name just like other dynamic fields, too. This name has to contain only alphanumeric values. This name will be used for internal handling of the field but will not be displayed.
+                        Dynamic fields of the type <emphasis>Database</emphasis> need a unique name just like other dynamic fields, too. This name has to contain only alphanumeric values. This name will be used for internal handling of the field but will not be displayed.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Configuration "General - Label":
+                        Configuration <emphasis>General - Label</emphasis>:
                     </para>
                     <para>
                         The label can be individually set and can contain white spaces etc. It will be used as the field label in the different views.
@@ -56,7 +56,7 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Configuration "General - Field order":
+                        Configuration <emphasis>General - Field order</emphasis>:
                     </para>
                     <para>
                         The field order allows a administrator to change the order of created dynamic fields. If this configuration get changed the general field order will be adjusted and other dynamic fields will be moved one position back.
@@ -64,10 +64,10 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Configuration "General - Valid":
+                        Configuration <emphasis>General - Valid</emphasis>:
                     </para>
                     <para>
-                        To use the dynamic field in the configured OTRS 'views' it has to be set as valid. If the field is set to 'invalid' it will disappear from all the configured views but no data will be lost.
+                        To use the dynamic field in the configured OTRS views it has to be set as valid. If the field is set to <emphasis>invalid</emphasis> it will disappear from all the configured views but no data will be lost.
                     </para>
                 </listitem>
             </itemizedlist>
@@ -80,7 +80,7 @@
                 the credentials have to be stored in the configuration of the dynamic field.
 
                 <figure>
-                    <title>DynamicField Database Admin screen</title>
+                    <title>Dynamic Field Database Admin screen</title>
                     <screenshot>
                          <graphic fileref="screenshots/dynamicfield-database/AdminOverview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
@@ -94,93 +94,93 @@
             <itemizedlist>
                 <listitem>
                     <para>
-                        SID: This option is only available for Oracle connections and will be shown or hidden automatically.
+                        <emphasis>SID</emphasis>: This option is only available for Oracle connections and will be shown or hidden automatically.
                         Within this option you have to enter the SID of your Oracle connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Driver: This option is only available for ODBC connections and will be shown or hidden automatically.
+                        <emphasis>Driver</emphasis>: This option is only available for ODBC connections and will be shown or hidden automatically.
                         Within this option you have to enter in the hostsystem previously configured ODBC driver to connect to the desired
                         MSSQL database.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Server: The database host (hostname or IP-Address).
+                        <emphasis>Server</emphasis>: The database host (hostname or IP-Address).
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Port: The port of the database server.
+                        <emphasis>Port</emphasis>: The port of the database server.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Database: Defines the desired target database of the DBMS. This database will be used for queries.
+                        <emphasis>Database</emphasis>: Defines the desired target database of the DBMS. This database will be used for queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Table / View: This table or view will be used for the queries.
+                        <emphasis>Table / View</emphasis>: This table or view will be used for the queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        User: The username for the database connection.
+                        <emphasis>User</emphasis>: The username for the database connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Password: The user password for the database connection.
+                        <emphasis>Password</emphasis>: The user password for the database connection.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Identifier: This select box will be automatically filled through "Possible Values (description below)". This
+                        <emphasis>Identifier</emphasis>: This select box will be automatically filled through <emphasis>Possible Values (description below)</emphasis>. This
                         field represents the value which will be stored in the dynamic field.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Multiselect: If this field is selected, it will be possible to store more than one value to the dynamic field.
+                        <emphasis>Multiselect</emphasis>: If this field is selected, it will be possible to store more than one value to the dynamic field.
                         Those values will be stored comma separated.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        CacheTTL: This value defines the period of validity of the database cache in seconds. Equal queries to the database
+                        <emphasis>CacheTTL</emphasis>: This value defines the period of validity of the database cache in seconds. Equal queries to the database
                         will be answered through the cache (local filesystem) within this period instead of asking the database again.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Searchprefix: This value will be put in the front of every search term while using the autocompletion to search the
+                        <emphasis>Searchprefix</emphasis>: This value will be put in the front of every search term while using the autocompletion to search the
                         database. Wildcard characters are supported as well. The searchprefix will be ignored during the detailed search, but
                         it is still possible to use wildcard characters in those masks.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Searchsuffix: This value will be put in the end of every search term while using the autocompletion to search the
+                        <emphasis>Searchsuffix</emphasis>: This value will be put in the end of every search term while using the autocompletion to search the
                         database. Wildcard characters are supported as well. The searchsuffix will be ignored during the detailed search, but
                         it is still possible to use wildcard characters in those masks.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Result-Limit: The entered integer value defines the maximum amount of allowed results during a database search. This includes
+                        <emphasis>Result Limit</emphasis>: The entered integer value defines the maximum amount of allowed results during a database search. This includes
                         the autocompletion search as well as the detailed search.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Case Sensitive: If this field is selected, case-sensitivity will take effect on searches.
+                        <emphasis>Case Sensitive</emphasis>: If this field is selected, case-sensitivity will take effect on searches.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Possible values: As already explained the possible values will fill up the identifier field automatically, which
+                        <emphasis>Possible values</emphasis>: As already explained the possible values will fill up the identifier field automatically, which
                         defines the value that will be stored in the dynamic field. Possible values can be created as much as needed (or at
                         least as many table columns as the database table has). The possible values defines the database columns to search
                         in. It is possible to set the column name, a description (label) the field should have, the needed data type and if
@@ -189,22 +189,22 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Name: The exact name of the database column which will be requested through the database queries.
+                        <emphasis>Name</emphasis>: The exact name of the database column which will be requested through the database queries.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Description: The label of the field which will be displayed in the detailed search.
+                        <emphasis>Description</emphasis>: The label of the field which will be displayed in the detailed search.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Datatype: The data type which will be stored in the dynamic field. Possible values: TEXT, INTEGER or DATE.
+                        <emphasis>Datatype</emphasis>: The data type which will be stored in the dynamic field. Possible values: TEXT, INTEGER or DATE.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Filter: With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related
+                        <emphasis>Filter</emphasis>: With the filter field, it is possible to choose a ticket attribute or a dynamic field as a filter for the related
                         column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise
                         the filters will be ignored.
 
@@ -214,12 +214,12 @@
                 </listitem>
                 <listitem>
                     <para>
-                        Searchfield: Indicates if a field should be included in the search requests.
+                        <emphasis>Searchfield</emphasis>: Indicates if a field should be included in the search requests.
                     </para>
                 </listitem>
                 <listitem>
                     <para>
-                        Listfield: Indicates if a field should be displayed in the results.
+                        <emphasis>Listfield</emphasis>: Indicates if a field should be displayed in the results.
                     </para>
                 </listitem>
             </itemizedlist>
@@ -228,36 +228,36 @@
         <section>
             <title>Screen Configuration</title>
             <para>
-                Dynamic fields of type 'Database' have to be activated for the several masks in which they should be displayed like the other types of dynamic fields.
+                Dynamic fields of type <emphasis>Database</emphasis> have to be activated for the several masks in which they should be displayed like the other types of dynamic fields.
             </para>
             <para>
-                This can be done through Admin → System Administration → SysConfig, in which "Ticket" must be selected
+                This can be done through <emphasis>Admin → System Administration → SysConfig</emphasis>, in which <emphasis>Ticket</emphasis> must be selected
                 on the left hand side.
             </para>
             <para>
-                For every interface area (Frontend), in which the dynamic field of type 'Database' should be displayed, the admin
+                For every interface area (Frontend), in which the dynamic field of type <emphasis>Database</emphasis> should be displayed, the admin
                 has to configure it to fit his needs. Examples:
                 <itemizedlist>
                     <listitem>
                         <para>
-                            Frontend::Agent::Ticket::ViewZoom for the ticket zoom view.
+                            <literal>Frontend::Agent::Ticket::ViewZoom</literal> for the ticket zoom view.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Frontend::Agent::Ticket::ViewPhoneNew for new phone tickets.
+                            <literal>Frontend::Agent::Ticket::ViewPhoneNew</literal> for new phone tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            Frontend::Agent::Ticket::ViewEmailNew for new email tickets.
+                            <literal>Frontend::Agent::Ticket::ViewEmailNew</literal> for new email tickets.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            In each of these view configurations is an entry called "Ticket::Frontend::AgentTicket*###DynamicField".
+                            In each of these view configurations is an entry called <literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>.
                             This configuration defines which dynamic field(s) should get displayed in this view. To add a dynamic field,
-                            the internal name of the field has to be filled in the 'Key' field. The field 'Value' can take the values 0
+                            the internal name of the field has to be filled in the <emphasis>Key</emphasis> field. The field <emphasis>Value</emphasis> can take the values 0
                             (deactivated), 1 (active) and 2 (active and mandatory).
                         </para>
                     </listitem>
@@ -279,10 +279,10 @@
                 </figure>
             </para>
             <para>
-                In the configuration option for the "SourceDynamicField" it´s needed to fill in the already created dynamic (Database) field name, which will
-                be used to gather the historical data. In the related option "TargetDynamicField" the field(s) "Key" have to be filled with the table columns
+                In the configuration option for the <literal>SourceDynamicField</literal> it´s needed to fill in the already created dynamic (Database) field name, which will
+                be used to gather the historical data. In the related option <literal>TargetDynamicField</literal> the field(s) <emphasis>Key</emphasis> have to be filled with the table columns
                 of the connected external database, which will be readout.
-                For every column the related target dynamic field has to be configured in the field "content". The gathered data will be saved in these
+                For every column the related target dynamic field has to be configured in the field <emphasis>content</emphasis>. The gathered data will be saved in these
                 dynamic fields.
             </para>
             <para>
@@ -297,54 +297,54 @@
 
             <variablelist>
                 <varlistentry>
-                    <term>AutoComplete::Agent###DynamicFieldDatabaseSearch</term>
+                    <term><literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal></term>
                     <listitem>
-                        <para>Group: Framework, Subgroup: Frontend::Agent</para>
+                        <para>Group: <literal>Framework</literal>, Subgroup: <literal>Frontend::Agent</literal></para>
                         <para>
                             Defines the config options for the autocompletion feature.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>Ticket::EventModulePost###950-StoreHistoricalData</term>
+                    <term><literal>Ticket::EventModulePost###950-StoreHistoricalData</literal></term>
                     <listitem>
-                        <para>Group: Ticket, Subgroup: Core::Ticket</para>
+                        <para>Group: <literal>Ticket</literal>, Subgroup: <literal>Core::Ticket</literal></para>
                         <para>
                             Updates dynamic fields, if configured ones will be updated.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</literal></term>
                     <listitem>
-                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Defines the source dynamic field for storing historical data.
                         </para>
                         </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</literal></term>
                     <listitem>
-                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Defines the target dynamic fields for storing historical data.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</literal></term>
                     <listitem>
-                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Defines the source dynamic field for storing historical data.
                         </para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
-                    <term>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</term>
+                    <term><literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</literal></term>
                     <listitem>
-                        <para>Group: OTRSBusiness, Subgroup: Core</para>
+                        <para>Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal></para>
                         <para>
                             Defines the target dynamic fields for storing historical data.
                         </para>
@@ -366,10 +366,10 @@
         <section>
             <title>Searching and Saving Datasets - Autocompletion</title>
             <para>
-                After the created dynamic fields are activated in the well known masks (like ViewPhoneNew, ViewEmailNew) a new text field
+                After the created dynamic fields are activated in the well known masks (like <literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</literal>) a new text field
                 appears with the name, the dynamic field got in the configuration.
                 In this field it is possible to input searchterms and therefore execute a search over all configured database fields.
-                Otherwise do a click on the link 'Detailed search' and start a detailed search in which the fields to search in are selected
+                Otherwise do a click on the link <emphasis>Detailed search</emphasis> and start a detailed search in which the fields to search in are selected
                 explicitly.
 
                 <figure>
@@ -403,7 +403,7 @@
                 </figure>
             </para>
             <para>
-                Via the link 'Details' a popup screen can be accessed, which offers detailed information about the whole result row.
+                Via the link <emphasis>Details</emphasis> a popup screen can be accessed, which offers detailed information about the whole result row.
                 This information includes the line headers and the data. This information can be used to get an overview about the
                 rest (of the not configured) columns or to compare data.
             </para>
@@ -414,7 +414,7 @@
         <section>
             <title>Searching and Saving Datasets - Detailed Search</title>
             <para>
-                The link 'Detailed search' opens a new modal dialog to start a new database search. In this mask it is possible
+                The link <emphasis>Detailed search</emphasis> opens a new modal dialog to start a new database search. In this mask it is possible
                 to select the fields to search on explicitly.
 
                 <figure>
@@ -430,7 +430,7 @@
                 in every single field.
             </para>
             <para>
-                The database search will be executed via the button "Start search" and the results will be tabular displayed.
+                The database search will be executed via the <emphasis>Start search</emphasis> button and the results will be tabular displayed.
                 If the search was successful, the results will be listed and one of the entries can be selected via a mouse click. The
                 value will be added to the list of saved values afterwards.
 

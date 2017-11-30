@@ -17,7 +17,7 @@
         <title>Activating SMS Cloud Service</title>
         <para>
             Before taking advantage of SMS cloud service, you must first activate it. To do so, please visit the
-            "Cloud Services" screen in Admin interface, and click on SMS entry in table.
+            <emphasis>Cloud Services</emphasis> screen in Admin interface, and click on SMS entry in table.
         </para>
         <para>
             <figure>
@@ -46,25 +46,25 @@
             </figure>
         </para>
         <para>
-            On this screen, you can also set up some additional parameters of the SMS cloud service, i.e. the sender
+            On this screen, you can also set up some additional parameters of the SMS cloud service, e.g. the sender
             string which should be used for the SMS text messages or the agent/customer preference field name which
             should be used to take the mobile phone number from.
         </para>
         <note>
             <para>
                 If you change value for the customer preference field, make sure to update the configuration options of
-                the address book in the SysConfig to reflect this change:
+                the address book in the system configuration to reflect this change:
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>CustomerUser::Frontend::AgentCustomerUserAddressBook###SearchParameters###SMS</para>
+                        <para><literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###SearchParameters###SMS</literal></para>
                     </listitem>
                     <listitem>
-                        <para>CustomerUser::Frontend::AgentCustomerUserAddressBook###DefaultFields###SMS</para>
+                        <para><literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###DefaultFields###SMS</literal></para>
                     </listitem>
                     <listitem>
-                        <para>CustomerUser::Frontend::AgentCustomerUserAddressBook###ShowColumns###SMS</para>
+                        <para><literal>CustomerUser::Frontend::AgentCustomerUserAddressBook###ShowColumns###SMS</literal></para>
                     </listitem>
                 </itemizedlist>
             </para>
@@ -74,16 +74,16 @@
             </para>
         </note>
         <para>
-            Allowed role members is an optional white list of agent roles whose members will be able to receive SMS
+            <emphasis>Allowed role members</emphasis> is an optional white list of agent roles whose members will be able to receive SMS
             notifications. If undefined, all agents will have a possibility of receiving SMS notifications.
         </para>
         <para>
-            Perform URL shortening checkbox controls the feature of shortening links in SMS texts. If enabled, any link
+            <emphasis>Perform URL shortening</emphasis> checkbox controls the feature of shortening links in SMS texts. If enabled, any link
             submitted as part of SMS text will be shortened by using OTRS cloud URL shortening service. Links will be
             shortened only if their length is larger than resulting shortened URL, in order to keep SMS costs down.
         </para>
         <para>
-            By adding specific phone numbers to the Phone black list, you can make sure these numbers will never receive
+            By adding specific phone numbers to the <emphasis>Phone black list</emphasis>, you can make sure these numbers will never receive
             any SMS text via cloud service (whether it's a notification or an article). Make sure to input phone numbers
             in international format, complete with plus sign (+) and country code, without any spaces.
         </para>
@@ -93,7 +93,7 @@
         <title>Configuring SMS Templates</title>
         <para>
             In order to benefit from SMS templates, you must first configure them for specific screens and assign them
-            to correct queues. You can find SMS template management screen in the Admin interface.
+            to correct queues. You can find <emphasis>SMS template management</emphasis> screen in the Admin interface.
         </para>
         <para>
             <figure>
@@ -108,38 +108,38 @@
             with which you would like to use them.
         </para>
         <para>
-            Template Type field determines for which screen the template will be visible:
+            <emphasis>Template Type</emphasis> field determines for which screen the template will be visible:
         </para>
         <para>
             <variablelist>
                 <varlistentry>
                     <term><literal>Answer</literal></term>
                     <listitem>
-                        <para>Template will be visible for Reply via SMS article action.</para>
+                        <para>Template will be visible for <emphasis>Reply via SMS article</emphasis> action.</para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
                     <term><literal>Create</literal></term>
                     <listitem>
-                        <para>Template will be visible in New SMS ticket screen.</para>
+                        <para>Template will be visible in <emphasis>New SMS ticket</emphasis> screen.</para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
                     <term><literal>SMSOutbound</literal></term>
                     <listitem>
-                        <para>Template will be visible in SMS Outbound screen.</para>
+                        <para>Template will be visible in <emphasis>SMS Outbound</emphasis> screen.</para>
                     </listitem>
                 </varlistentry>
             </variablelist>
         </para>
         <note>
             <para>
-                Create type templates only supports these smart tags: &lt;OTRS_CURRENT_*&gt; and &lt;OTRS_CONFIG_*&gt;.
+                <literal>Create</literal> type templates only supports these smart tags: <literal>&lt;OTRS_CURRENT_*&gt;</literal> and <literal>&lt;OTRS_CONFIG_*&gt;</literal>.
             </para>
         </note>
         <para>
             When you define an SMS template, don't forget to add them to queues. You can do this by following link in
-            the sidebar or via SMS Templates &lt;-&gt; Queues link in the admin interface.
+            the sidebar or via <emphasis>SMS Templates ↔ Queues</emphasis> link in the admin interface.
         </para>
         <para>
             <figure>
@@ -154,8 +154,8 @@
     <section>
         <title>Creating SMS Tickets</title>
         <para>
-            To create a ticket with SMS article as a first one, please go to the New SMS ticket screen accessible via
-            Tickets menu on the main toolbar.
+            To create a ticket with SMS article as a first one, please go to the <emphasis>New SMS ticket</emphasis> screen accessible via
+            <emphasis>Tickets</emphasis> menu on the main toolbar.
         </para>
         <para>
             <figure>
@@ -167,7 +167,7 @@
         </para>
         <para>
             This screen behaves similar to new email and phone screens, with some notable exceptions. Instead of email
-            addresses, Recipients field accepts only phone numbers in international format, complete with plus sign (+)
+            addresses, <emphasis>Recipients</emphasis> field accepts only phone numbers in international format, complete with plus sign (+)
             and country code. You can also search for customer users via this field, provided they have a valid phone
             number stored in preference field which is configured in cloud service configuration screen.
         </para>
@@ -177,26 +177,26 @@
         </para>
         <note>
             <para>
-                Ticket title field will not be included in SMS and is for internal use only. Customer will receive
-                message based exclusively on the contents of the Text field.
+                <emphasis>Ticket Title</emphasis> field will not be included in SMS and is for internal use only. Customer will receive
+                message based exclusively on the contents of the <emphasis>Text</emphasis> field.
             </para>
         </note>
         <para>
-            If you have configured SMS templates of type Create, and you have them assigned to currently chosen Queue,
-            you will have the option of populating the Text field with preconfigured message.
+            If you have configured SMS templates of type <literal>Create</literal>, and you have them assigned to currently chosen <emphasis>Queue</emphasis>,
+            you will have the option of populating the <emphasis>Text</emphasis> field with preconfigured message.
         </para>
         <para>
-            Flash message checkbox controls if message will be showed directly on the device without user interaction
+            <emphasis>Flash message</emphasis> checkbox controls if message will be showed directly on the device without user interaction
             and not stored automatically.
         </para>
         <note>
             <para>
-                Support for flash messages (also known as "Class 0" messages) may vary by device and provider. OTRS
+                Support for flash messages (also known as <emphasis>Class 0</emphasis> messages) may vary by device and provider. OTRS
                 cannot guarantee if this flag will be honored by service provider or supported by receiving device.
             </para>
         </note>
         <para>
-            By clicking Send SMS button, ticket will be created with an SMS article, provided SMS cloud service accepted
+            By clicking <emphasis>Send SMS</emphasis> button, ticket will be created with an SMS article, provided SMS cloud service accepted
             the message. If any errors were encountered, you will be notified, and ticket will not be created.
         </para>
     </section>
@@ -204,8 +204,8 @@
     <section>
         <title>Creating SMS Articles</title>
         <para>
-            To add an SMS to an existing ticket, you can use SMS Outbound action on the main ticket toolbar
-            (Communication section).
+            To add an SMS to an existing ticket, you can use <emphasis>SMS Outbound</emphasis> action on the main ticket toolbar
+            (<emphasis>Communication</emphasis> section).
         </para>
         <para>
             <figure>
@@ -216,7 +216,7 @@
             </figure>
         </para>
         <para>
-            If you already have an article, you can also use Reply via SMS action on the article toolbar. Simply select
+            If you already have an article, you can also use <emphasis>Reply via SMS</emphasis> action on the article toolbar. Simply select
             the article in question, and either click on the button, or choose name of the template (if you have it
             configured for this screen).
         </para>
@@ -230,7 +230,7 @@
         </para>
         <para>
             If customer user has defined phone number, it will be automatically inserted in the recipients list. It
-            doesn't matter if article was created in a different communication channel (i.e. Email), it should be
+            doesn't matter if article was created in a different communication channel (e.g. Email), it should be
             correctly recognized and substituted with valid phone number.
         </para>
         <note>
@@ -251,9 +251,9 @@
             replaced and links shortened).
         </para>
         <para>
-            Recipients of an SMS article are listed inside the Recipients field. They can be shown in two formats: just
+            Recipients of an SMS article are listed inside the <emphasis>Recipients</emphasis> field. They can be shown in two formats: just
             phone numbers or phone numbers with name of corresponding customer users. In addition to this field,
-            Transaction numbers will contain a reference message ID mapped to the recipients phone number. These numbers
+            <emphasis>Transaction Numbers</emphasis> will contain a reference message ID mapped to the recipients phone number. These numbers
             can be used for debugging purposes, since they can be connected to specific messages handled by the cloud
             service.
         </para>
@@ -266,7 +266,7 @@
             </figure>
         </para>
         <para>
-            In addition to the article header field, transaction numbers can also be found in ticket history screen.
+            In addition to the article header field, transaction numbers can also be found in <emphasis>Ticket History</emphasis> screen.
             This screen will contain an entry for every message sent out via SMS cloud service, with corresponding
             transaction and phone number in it.
         </para>

@@ -10,8 +10,8 @@
         <para>
             The <emphasis role="bold">OTRS Business Solution</emphasis>™ comes with two new notification features: SMS
             notifications and the notification web view. Both of them are technically notification methods besides the
-            existing email method and can be activated for each notification (e.g. "Ticket new note notification" or
-            "Ticket create notification") on the AdminNotificationEvent screen.
+            existing email method and can be activated for each notification (e.g. <emphasis>Ticket new note notification</emphasis> or
+            <emphasis>Ticket create notification</emphasis>) on the <emphasis>Notification Event</emphasis> screen in the Admin interface.
         </para>
     </section>
 
@@ -27,16 +27,16 @@
             In order to use SMS as a way of notification for admins and customers, you have to buy an SMS unit package.
             Please get in touch with sales@otrs.com on this matter. Once you've bought a package, you will be able to
             look up your current contingent of remaining SMS units on the admin screen for the SMS cloud service
-            (AdminCloudServiceSMS).
+            (<literal>AdminCloudServiceSMS</literal>).
         </para>
         <para>
             To make SMS available for notifications, you have to enable it for the notifications of your choice in
-            AdminNotificationEvent. Besides the existing "Email" notification method, you can enable SMS notifications
+            <emphasis>Notification Event</emphasis> screen in the Admin interface. Besides the existing <emphasis>Email</emphasis> notification method, you can enable SMS notifications
             by enabling the checkbox as to be seen in the screenshot below.
         </para>
         <note>
             <para>
-                Please be careful using the "Send by default" checkbox on SMS notifications. Enabling this checkbox will
+                Please be careful using the <emphasis>Send by default</emphasis> checkbox on SMS notifications. Enabling this checkbox will
                 cause this notification to be sent by SMS to all agents with a phone number stored in the configured
                 field. This could cause a high usage of your available SMS units!
             </para>
@@ -44,7 +44,7 @@
         <para>
             On this screen, you can also add more generic phone numbers (e.g. for archiving purposes) which will receive
             all of the relevant notifications (besides the addressed agents). Please note that all of these recipients
-            will be treated as customers (regarding article creation.).
+            will be treated as customers (regarding article creation).
         </para>
         <para>
             <figure>
@@ -67,7 +67,7 @@
             </figure>
         </para>
         <para>
-            SMS notification text will be constructed on fly by combining both Subject and Text fields of the
+            SMS notification text will be constructed on fly by combining both <emphasis>Subject</emphasis> and <emphasis>Text</emphasis> fields of the
             corresponding language. You can of course use supported OTRS tags in these fields, and additionally URLs can
             be shortened by activating URL shortening option in cloud service configuration.
         </para>
