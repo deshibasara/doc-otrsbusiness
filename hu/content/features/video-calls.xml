@@ -31,7 +31,8 @@ webkiszolgáló</link> szükséges).
     <section>
         <title>Beállítás</title>
         <para>
-            The following system configuration options are relevant for this feature.
+            A következő rendszerbeállítási konfigurációs lehetőségek fontosak ennél a
+funkciónál.
         </para>
         <variablelist>
             <varlistentry>

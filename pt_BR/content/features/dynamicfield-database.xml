@@ -96,9 +96,12 @@ from all the configured views but no data will be lost.
         <section>
             <title>Configuração externa da fonte de dados</title>
             <para>
-                Antes um banco de dados externo pode ser pesquisado os resultados que serão
-salvos no ticket, através de um campo dinâmico, as credenciais devem ser
-armazenadas na configuração do campo dinâmico.  <figure>
+                Before an external database can be searched and the results be saved at the
+ticket through the dynamic field, the credentials have to be stored in the
+configuration of the dynamic field.
+            </para>
+            <para>
+                <figure>
                     <title>Dynamic Field Database Admin screen</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/AdminOverview.png"
@@ -324,7 +327,10 @@ and 2 (active and mandatory).
             <para>
                 This feature offers a functionality to store historical data. For this to
 work it´s necessary to activate and set SysConfig options, as visibly in the
-following screenshot: <figure>
+following screenshot:
+            </para>
+            <para>
+                <figure>
                     <title>Banco de dados DynamicField - Configuração de dados históricos</title>
 <screenshot>
 <graphic
@@ -434,18 +440,23 @@ field appears with the name, the dynamic field got in the configuration.  In
 this field it is possible to input searchterms and therefore execute a
 search over all configured database fields.  Otherwise do a click on the
 link <emphasis>Detailed search</emphasis> and start a detailed search in
-which the fields to search in are selected explicitly.  <figure>
+which the fields to search in are selected explicitly.
+            </para>
+            <para>
+                <figure>
                     <title>Banco de dados DynamicField - campo de teste</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Desde os termos de pesquisa são digitados no campo do texto, uma pesquisa no
-banco de dados será iniciada e configurado as colunas  durante o resultado
-será exibido através de um preenchimento automático do campo do texto abaixo
-. O mais exato termo de pesquisa e mais exato será o resultado (menos
-resultado de entradas).  <figure>
+                Since search terms are typed in into the text field, a database search will
+be started over the configured columns and the result will displayed via an
+autocompletion below the text field. The more exact the search term is, the
+more exact will be the result (less result entries).
+            </para>
+            <para>
+                <figure>
                     <title>DynamicField Database - Autocomplete feature</title>
 <screenshot>
 <graphic
@@ -453,9 +464,12 @@ fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Se o desejado valor será exibido nos resultados, pode ser selecionada
-através de um clique com o mouse ou através do teclado e por conseguinte ser
-adicionado os resultados nos campos dinâmicos.  <figure>
+                If the wished value will be displayed in the results, it can be selected via
+a mouse click or via the keyboard and therefore be added to the dynamic
+field results.
+            </para>
+            <para>
+                <figure>
                     <title>Banco de dados DynamicField - Itens selecionados</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/SearchFieldSelected.png"
@@ -478,7 +492,10 @@ entrada menos.
             <para>
                 The link <emphasis>Detailed search</emphasis> opens a new modal dialog to
 start a new database search. In this mask it is possible to select the
-fields to search on explicitly.  <figure>
+fields to search on explicitly.
+            </para>
+            <para>
+                <figure>
                     <title>Banco de dados do DynamicField - Pesquisa detalhada</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"
@@ -495,7 +512,10 @@ every single field.
 search</emphasis> button and the results will be tabular displayed.  If the
 search was successful, the results will be listed and one of the entries can
 be selected via a mouse click. The value will be added to the list of saved
-values afterwards.  <figure>
+values afterwards.
+            </para>
+            <para>
+                <figure>
                     <title>Banco de dados do DynamicField - Resultado da pesquisa detalhada</title>
 <screenshot>
 <graphic

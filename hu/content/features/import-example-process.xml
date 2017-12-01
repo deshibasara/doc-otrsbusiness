@@ -3,18 +3,19 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="import-example-process">
-    <title>Import Ready2Adopt Process</title>
+    <title>Használatra kész folyamat importálása</title>
 
     <section>
         <title>Importálás</title>
         <para>
-            On the <emphasis>Process Management</emphasis> screen in the Admin interface
-you can find an <emphasis>Ready2Adopt Processes</emphasis> widget, where you
-can find some best practice Ready2Adopt processes.
+            Az adminisztrátori területen lévő <emphasis>Folyamatkezelés</emphasis>
+képernyőn található egy <emphasis>Használatra kész folyamatok</emphasis>
+felületi elem, ahol megtalálhat néhány legjobb gyakorlat szerinti
+használatra kész folyamatot.
         </para>
         <para>
-            The following Ready2Adopt processes are available in the <emphasis
-role="bold">OTRS Business Solution</emphasis>™:
+            A következő használatra kész folyamatok érhetők el az <emphasis
+role="bold">OTRS Business Solution™</emphasis> csomagban:
         </para>
         <para>
             <itemizedlist>
@@ -22,39 +23,40 @@ role="bold">OTRS Business Solution</emphasis>™:
                 <listitem><para>Irodai anyagok beszerzése</para></listitem>
                 <listitem><para>Megrendelésmenedzsment</para></listitem>
                 <listitem><para>Eltávozási kérelem menedzsment</para></listitem>
-                <listitem><para>Service Design::Availability Management (proactive)</para></listitem>
-                <listitem><para>Service Design::Availability Management (reactive)</para></listitem>
-                <listitem><para>Service Design::Catalogue Management</para></listitem>
-                <listitem><para>Service Design::Continuity Management</para></listitem>
-                <listitem><para>Service Design::Service Design Coordination (individual design)</para></listitem>
-                <listitem><para>Service Design::Service Level Management</para></listitem>
-                <listitem><para>Service Design::Supplier Management</para></listitem>
-                <listitem><para>Service Operation::Access Management</para></listitem>
-                <listitem><para>Service Operation::Event Management</para></listitem>
-                <listitem><para>Service Operation::Incident Management</para></listitem>
-                <listitem><para>Service Operation::Problem Management</para></listitem>
-                <listitem><para>Service Operation::Request Fulfillment Management</para></listitem>
-                <listitem><para>Service Operation::Service Validation and Testing</para></listitem>
-                <listitem><para>Service Transition::Change Evaluation</para></listitem>
-                <listitem><para>Service Transition::Knowledge Management</para></listitem>
-                <listitem><para>Service Transition::Release And Deployment Management</para></listitem>
-                <listitem><para>Service Transition::Service Asset and Configuration Management</para></listitem>
-                <listitem><para>Service Transition::Service Transition Planning and Support</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Rendelkezésreállás-menedzsment (proaktív)</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Rendelkezésreállás-menedzsment (reaktív)</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Katalógusmenedzsment</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Folytonosságmenedzsment</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Szolgáltatástervezés-koordináció (egyéni tervezés)</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Szolgáltatásszint-menedzsment</para></listitem>
+                <listitem><para>Szolgáltatástervezés::Szállítómenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Hozzáférés-menedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Eseménymenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Incidensmenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Problémamenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Kérésteljesítés-menedzsment</para></listitem>
+                <listitem><para>Szolgáltatásüzemeltetés::Szolgáltatásellenőrzés és -tesztelés</para></listitem>
+                <listitem><para>Szolgáltatásbevezetés::Változásértékelés</para></listitem>
+                <listitem><para>Szolgáltatásbevezetés::Tudásmenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásbevezetés::Kiadás- és üzembeállítás-menedzsment</para></listitem>
+                <listitem><para>Szolgáltatásbevezetés::Szolgáltatásieszköz- és konfigurációmenedzsment</para></listitem>
+                <listitem><para>Szolgáltatásbevezetés::Szolgáltatásbevezetés-tervezés és -támogatás</para></listitem>
                 <listitem><para>RMA indítása</para></listitem>
                 <listitem><para>Útiköltség</para></listitem>
             </itemizedlist>
         </para>
         <para>
             <figure>
-                <title>Import Ready2Adopt Process Widget</title>
+                <title>Használatra kész folyamat importálása felületi elem</title>
 <screenshot>
 <graphic fileref="screenshots/process/import-example-process.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            To install a Ready2Adopt process, just select the desired process from the
-drop-down menu in the <emphasis>Ready2Adopt Processes</emphasis> widget and
-click the <emphasis>Import Ready2Adopt process</emphasis> button.
+            Egy használatra kész folyamat telepítéséhez egyszerűen válassza ki a kívánt
+folyamatot a legördülő menüből a <emphasis>Használatra kész
+folyamat</emphasis> felületi elemben, és kattintson a <emphasis>Használatra
+kész folyamat importálása</emphasis> gombra.
         </para>
         <para>
             Az importálási folyamat során az OTRS gondoskodik a szükséges dinamikus

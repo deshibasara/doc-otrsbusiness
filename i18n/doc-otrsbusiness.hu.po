@@ -5,12 +5,12 @@
 # Translators:
 # Balázs Meskó <meskobalazs@gmail.com>, 2016
 # Balázs Úr <urbalazs@gmail.com>, 2014-2017
-# Martin Gruner <martin.gruner@otrs.com>, 2015
+# Martin Gruner <martin.gruner@otrs.com>, 2015,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-30 13:40+0100\n"
-"PO-Revision-Date: 2017-11-30 12:41+0000\n"
+"POT-Creation-Date: 2017-12-01 10:50+0100\n"
+"PO-Revision-Date: 2017-12-01 09:53+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
@@ -27,7 +27,7 @@ msgstr "hu"
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
 msgid "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 6 Manual"
-msgstr ""
+msgstr "<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ 6 kézikönyv"
 
 #. type: Content of: <book><bookinfo>
 #: en/book.xml:8
@@ -35,6 +35,8 @@ msgid ""
 "<copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright> "
 "<date>2017-09-27</date>"
 msgstr ""
+"<copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright> "
+"<date>2017-09-27</date>"
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:16
@@ -79,8 +81,7 @@ msgstr ""
 #. type: Content of: <book><chapter><title>
 #: en/book.xml:46
 msgid "Features of <emphasis role=\"bold\">OTRS Business Solution</emphasis>™"
-msgstr ""
-"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szolgáltatásai"
+msgstr "Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ funkciói"
 
 #. type: Content of: <chapter><title>
 #: en/content/introduction.xml:6
@@ -115,6 +116,15 @@ msgid ""
 "Business Solution</emphasis>™ that you can flexibly activate or deactivate "
 "according to your deployment scenarios."
 msgstr ""
+"Az OTRS 6 ügyes és gyors keretrendszere az alapja az <ulink url=\"https://"
+"www.otrs.com/otrs-business-solution-improving-customer-service/\"><emphasis "
+"role=\"bold\">OTRS Business Solution</emphasis>™</ulink> megoldásnak. Ezen "
+"felül érhető el továbbá a funkciók kizárólagos halmaza. Ezek tartalmazzák az "
+"<emphasis role=\"bold\">OTRS Business Solution</emphasis>™ <ulink url="
+"\"https://www.otrs.com/otrs-business-solution-improving-customer-service/"
+"#OTRS-Business-Solution-Cloud-Services\">integrált felhőszolgáltatásait</"
+"ulink>, amelyet rugalmasan bekapcsolhat vagy kikapcsolhat a telepítési "
+"forgatókönyvek szerint."
 
 #. type: Content of: <chapter><para>
 #: en/content/introduction.xml:17
@@ -130,10 +140,10 @@ msgstr ""
 "Továbbá választhat 3, 7 vagy korlátlan számú különféle <ulink url=\"https://"
 "www.otrs.com/otrs-business-solution-improving-customer-service/#OTRS-"
 "Business-Solution-Cloud-Services\">szabadon választható <emphasis role=\"bold"
-"\">OTRS Business Solution</emphasis>™ szolgáltatás</ulink> közül - a "
-"szerződési szintjétől függően. Profitáljon a rendszeres, ingyenes "
-"frissítésekből, a legjobb OTRS biztonságból és támogatásból, valamint a "
-"tanácsadóink által elvégzett telepítésből és beállításból."
+"\">OTRS Business Solution</emphasis>™ funkció</ulink> közül - a szerződési "
+"szintjétől függően. Profitáljon a rendszeres, ingyenes frissítésekből, a "
+"legjobb OTRS biztonságból és támogatásból, valamint a tanácsadóink által "
+"elvégzett telepítésből és beállításból."
 
 #. type: Content of: <chapter><title>
 #: en/content/upgrading.xml:6
@@ -155,6 +165,16 @@ msgid ""
 "that you first have to register your system using the system registration "
 "mechanism."
 msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ megoldásra "
+"frissítés érdekében szüksége van egy érvényes szerződésre az OTRS "
+"csoporttal. Ha már van szerződése, akkor frissíthet az <emphasis role=\"bold"
+"\">OTRS Business Solution</emphasis>™ megoldásra az <emphasis role=\"bold"
+"\">OTRS Business Solution</emphasis>™ adminisztrációs képernyő "
+"meglátogatásával az OTRS példányában. Az erre a képernyőre mutató "
+"hivatkozást az ingyenes OTRS példánya adminisztrációs területének "
+"<emphasis>Rendszeradminisztráció</emphasis> szakaszában találhatja meg. Ne "
+"feledje, hogy először regisztrálnia kell a rendszerét a "
+"rendszerregisztrációs mechanizmus használatával."
 
 #. type: Content of: <chapter><para><figure><title>
 #: en/content/upgrading.xml:12
@@ -180,13 +200,13 @@ msgstr ""
 #: en/content/features/chat.xml:399 en/content/features/chat.xml:460
 #: en/content/features/chat.xml:534 en/content/features/chat.xml:577
 #: en/content/features/chat.xml:601 en/content/features/chat.xml:628
-#: en/content/features/dynamicfield-database.xml:84
-#: en/content/features/dynamicfield-database.xml:276
-#: en/content/features/dynamicfield-database.xml:377
-#: en/content/features/dynamicfield-database.xml:389
-#: en/content/features/dynamicfield-database.xml:400
-#: en/content/features/dynamicfield-database.xml:422
-#: en/content/features/dynamicfield-database.xml:439
+#: en/content/features/dynamicfield-database.xml:85
+#: en/content/features/dynamicfield-database.xml:278
+#: en/content/features/dynamicfield-database.xml:380
+#: en/content/features/dynamicfield-database.xml:393
+#: en/content/features/dynamicfield-database.xml:405
+#: en/content/features/dynamicfield-database.xml:428
+#: en/content/features/dynamicfield-database.xml:446
 #: en/content/features/dynamicfield-webservice.xml:93
 #: en/content/features/dynamicfield-webservice.xml:109
 #: en/content/features/dynamicfield-webservice.xml:231
@@ -265,6 +285,13 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/chat.xml:334 en/content/features/chat.xml:348
 #: en/content/features/chat.xml:363 en/content/features/chat.xml:389
 #: en/content/features/chat.xml:397 en/content/features/chat.xml:458
+#: en/content/features/dynamicfield-database.xml:83
+#: en/content/features/dynamicfield-database.xml:276
+#: en/content/features/dynamicfield-database.xml:378
+#: en/content/features/dynamicfield-database.xml:391
+#: en/content/features/dynamicfield-database.xml:403
+#: en/content/features/dynamicfield-database.xml:426
+#: en/content/features/dynamicfield-database.xml:444
 #: en/content/features/dynamicfield-webservice.xml:91
 #: en/content/features/dynamicfield-webservice.xml:107
 #: en/content/features/dynamicfield-webservice.xml:229
@@ -465,6 +492,12 @@ msgid ""
 "information on which texts can be changed, please have a look at the module "
 "configuration (<literal>OTRSBusiness → Core::Chat</literal>)."
 msgstr ""
+"A következő rendszerbeállítási lehetőségek fontosak ennél a funkciónál. "
+"Felhívjuk a figyelmét, hogy meghatározhatja azon rögzített szövegek listáját "
+"is, amelyek megjelenítésre kerülnek a nyilvános felhasználóknak és az "
+"ügyfeleknek a csevegés modulban. További információkért azzal kapcsolatban, "
+"hogy mely szövegeket lehet megváltoztatni, nézze meg a modul beállításait "
+"(<literal>OTRSBusiness → Core::Chat</literal>)."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:25 en/content/features/video-calls.xml:27
@@ -546,6 +579,9 @@ msgid ""
 "<literal>ChatEngine::PermissionGroup::ChatNotificationAgents</literal>, "
 "<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>"
 msgstr ""
+"<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal>, "
+"<literal>ChatEngine::PermissionGroup::ChatNotificationAgents</literal>, "
+"<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:68
@@ -580,7 +616,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:81
 msgid "<literal>ChatEngine::DefaultAgentNameNumbers</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::DefaultAgentNameNumbers</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:84
@@ -599,7 +635,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:89
 msgid "<literal>ChatEngine::PublicInterface::AllowChatChannels</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::PublicInterface::AllowChatChannels</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:92
@@ -616,7 +652,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:97
 msgid "<literal>ChatEngine::PublicInterface::AvailabilityCheck</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::PublicInterface::AvailabilityCheck</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:100
@@ -633,7 +669,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:105
 msgid "<literal>ChatEngine::CustomerInterface::AllowChatChannels</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::CustomerInterface::AllowChatChannels</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:108
@@ -642,11 +678,15 @@ msgid ""
 "set to \"no\", chats from customer users will go to the default channel "
 "automatically (<literal>ChatEngine::DefaultChatChannel</literal>)."
 msgstr ""
+"Meghatározza, hogy a csevegőcsatorna kiválasztását engedélyezni kell-e az "
+"ügyfél-felhasználóknak. Ha „nem” értékre van állítva, akkor az ügyfél-"
+"felhasználóktól érkező csevegések automatikusan az alapértelmezett "
+"csatornába fognak menni (<literal>ChatEngine::DefaultChatChannel</literal>)."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:113
 msgid "<literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::CustomerInterface::AvailabilityCheck</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:116
@@ -663,7 +703,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:121
 msgid "<literal>ChatEngine::CustomerThreshold</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::CustomerThreshold</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:124
@@ -676,11 +716,19 @@ msgid ""
 "AddToExisiting</literal> (customer interface) and <literal>ChatEngine::"
 "Texts::PublicFrontend::NoAgentsAvailable</literal> (public interface)."
 msgstr ""
+"Azon percek száma, amelynek el kell telnie egy <emphasis>nem érhető el "
+"ügyintéző</emphasis> üzenet megjelenítése előtt annak az ügyfél vagy "
+"nyilvános felhasználónak, aki a csevegéskérést elindította. Az üzenet a "
+"következők használatával állítható be: <literal>ChatEngine::Texts::"
+"CustomerFrontend::NoAgentsAvailable::NewTicket</literal> vagy "
+"<literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::"
+"AddToExisiting</literal> (ügyfélfelület) és <literal>ChatEngine::Texts::"
+"PublicFrontend::NoAgentsAvailable</literal> (nyilvános felület)."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:129
 msgid "<literal>ChatEngine::AgentOnlineThreshold</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::AgentOnlineThreshold</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:132
@@ -689,11 +737,15 @@ msgid ""
 "automatically set to <emphasis>unavailable for chat</emphasis> (see <link "
 "linkend=\"chat-setup-availability\">Agents: Set up availability</link>)."
 msgstr ""
+"Ha egy ügyintéző nem aktív az OTRS-ben ezen küszöbértéken belül, akkor "
+"automatikusan <emphasis>nem érhető el csevegéshez</emphasis> állapotúra lesz "
+"állítva (lásd: <link linkend=\"chat-setup-availability\">Ügyintézők: "
+"elérhetőség beállítása</link>)."
 
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:137
 msgid "<literal>ChatEngine::DefaultChatChannel</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::DefaultChatChannel</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:140
@@ -710,7 +762,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:145
 msgid "<literal>ChatEngine::ChatTTL</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::ChatTTL</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:148
@@ -728,7 +780,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:153
 msgid "<literal>ChatEngine::ChatDecayTime</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::ChatDecayTime</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:156
@@ -747,7 +799,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:161
 msgid "<literal>ChatEngine::ChatOrder</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::ChatOrder</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:164
@@ -788,6 +840,15 @@ msgid ""
 "or <emphasis>Agents ↔ Roles</emphasis> to assign permissions. There are new "
 "chat-specific permissions which are described below."
 msgstr ""
+"Az OTRS-ben lévő adminisztrációs területen találni fog egy új "
+"<emphasis>Csevegőcsatorna</emphasis> bejegyzést (<literal>AdminChatChannel</"
+"literal>). Használja ezt a képernyőt az új csatornák hozzáadásához. Hozzá "
+"kell majd rendelnie egy meglévő ügyintézői csoportot minden olyan "
+"csatornához, amelyet létre fog hozni. A jogosultságok hozzárendeléséhez "
+"használhatja az <emphasis>Ügyintézők ↔ Csoportok</emphasis> vagy az "
+"<emphasis>Ügyintézők ↔ Szerepek</emphasis> képernyőket. Olyan új, a "
+"csevegéssel kapcsolatos jogosultságok találhatók, amelyek lent vannak "
+"ismertetve."
 
 #. type: Content of: <section><section><section><variablelist><title>
 #: en/content/features/chat.xml:183
@@ -797,7 +858,7 @@ msgstr "Elérhető csevegési jogosultságok"
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:185
 msgid "<literal>CHAT_OBSERVER</literal>"
-msgstr ""
+msgstr "<literal>CHAT_OBSERVER</literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:188
@@ -821,7 +882,7 @@ msgstr ""
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:193
 msgid "<literal>CHAT_PARTICIPANT</literal>"
-msgstr ""
+msgstr "<literal>CHAT_PARTICIPANT</literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:196
@@ -840,7 +901,7 @@ msgstr ""
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:201
 msgid "<literal>CHAT_OWNER</literal>"
-msgstr ""
+msgstr "<literal>CHAT_OWNER</literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:204
@@ -861,6 +922,11 @@ msgid ""
 "ChatReceivingAgents</literal> and <literal>ChatEngine::PermissionGroup::"
 "ChatStartingAgents</literal>."
 msgstr ""
+"Általánosan a csevegés használatához az ügyintézőknek még mindig legalább "
+"csak olvasható jogosultságokkal kell rendelkezniük azokra a csoportokra, "
+"amelyek a <literal>ChatEngine::PermissionGroup::ChatReceivingAgents</"
+"literal> és a <literal>ChatEngine::PermissionGroup::ChatStartingAgents</"
+"literal> paraméterekben be vannak állítva."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:217
@@ -940,6 +1006,9 @@ msgid ""
 "Your availability will be reset to <emphasis>internal chats only</emphasis> "
 "each time you log in to OTRS again."
 msgstr ""
+"Az elérhetősége vissza lesz állítva <emphasis>csak belső csevegések</"
+"emphasis> értékre minden egyes alkalommal, amikor ismét bejelentkezik az "
+"OTRS-be."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/chat.xml:252
@@ -974,6 +1043,12 @@ msgid ""
 "agents, as well as an overview over all active chats. Open the chat manager "
 "by using <emphasis>Chat</emphasis> in the main navigation of OTRS."
 msgstr ""
+"A csevegéskezelő a csevegés funkció középpontja. Ügyintézőként itt kezelheti "
+"a csevegéseit, valamint láthatja és elfogadhatja a nyitott kéréseket. A "
+"csevegéskezelő szolgáltatja a csevegéskérések listáját az ügyfelektől, a "
+"nyilvános felhasználóktól és más ügyintézőktől, valamint egy áttekintőt az "
+"összes aktív csevegésről. Nyissa meg a csevegéskezelőt az OTRS fő "
+"navigációján lévő <emphasis>Csevegés</emphasis> használatával."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:269
@@ -1090,6 +1165,10 @@ msgid ""
 "<emphasis>Chats → Create new chat</emphasis> from the customer interface "
 "main navigation."
 msgstr ""
+"Az ügyfelek nem képesek csevegést indítani közvetlenül egy bizonyos "
+"ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak létre. Ennek "
+"elvégzéséhez az ügyfelek a <emphasis>Csevegések → Új csevegés létrehozása</"
+"emphasis> elemet használhatják az ügyfélfelület fő navigációjáról."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para><figure><title>
 #: en/content/features/chat.xml:312
@@ -1120,6 +1199,13 @@ msgid ""
 "use the IsIframe parameter. The OTRS header and footer will then be removed "
 "from the view (<literal>public.pl?Action=PublicChat;IsIframe=1</literal>)."
 msgstr ""
+"A nyilvános felület felhasználói sem képesek csevegést indítani egy bizonyos "
+"ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak létre a "
+"nyilvános csevegés modul használatával (<literal>public.pl?"
+"Action=PublicChat</literal>). Ha be szeretné építeni a nyilvános csevegés "
+"modult a saját weboldalába, akkor az IsIframe paramétert használhatja. Az "
+"OTRS fejléc és lábléc ekkor el lesz távolítva a nézetből (<literal>public.pl?"
+"Action=PublicChat;IsIframe=1</literal>)."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:329
@@ -1165,6 +1251,13 @@ msgid ""
 "request: you can only move the request to a channel which has active agents "
 "in it."
 msgstr ""
+"Használja a <emphasis>Csevegés megnyitása</emphasis> gombot a listából a "
+"kérés részleteinek megtekintéséhez. A gombra kattintva meg fog nyílni egy "
+"rátét, amely számos műveletet biztosít ezzel a kéréssel kapcsolatban. Tegyük "
+"fel, hogy elegendő jogosultsága van, elfogadhatja a kérést, vagy "
+"megváltoztathatja a csatornát ennél a kérésnél. A csatorna megváltoztatása "
+"ugyanazokat a szabályokat fogja követni mint az új kérés létrehozása: csak "
+"olyan csatornába helyezheti át a kérést, amelyben aktív ügyintézők vannak."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:345
@@ -1335,6 +1428,10 @@ msgid ""
 "appended to as an article. After you've successfully created the ticket, the "
 "chat will get closed automatically."
 msgstr ""
+"A <emphasis>Telefonos jegy</emphasis> hivatkozás használata a speciális "
+"eszköztárból lehetővé teszi egy olyan telefonos jegy létrehozását, amelyhez "
+"a jelenlegi csevegés hozzá lesz fűzve egy bejegyzésként. Miután sikeresen "
+"létrehozta a jegyet, a csevegés automatikusan be lesz zárva."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:412
@@ -1368,6 +1465,15 @@ msgid ""
 "action-observer\">Observer</link> and <link linkend=\"chat-action-participant"
 "\">Participant</link>."
 msgstr ""
+"Lehetővé teszi egy másik ügyintéző meghívást ebbe a csevegésbe. Az elérhető "
+"ügyintézők listájáról választhatja ki, hogy kit szeretne meghívni. Amikor "
+"meghívta az ügyintézőt, egy új ügyintéző-ügyintéző csevegéskérés lesz "
+"elküldve annak az ügyintézőnek. Miután elfogadta a kérést, egy új belső "
+"csevegés lesz létrehozva ön és a meghívott ügyintéző között. Ebben a belső "
+"csevegésben a meghívott ügyintézőnek további két művelet lesz elérhető a "
+"speciális műveletek eszköztárán: <link linkend=\"chat-action-observer"
+"\">Megfigyelés</link> és <link linkend=\"chat-action-participant"
+"\">Részvétel</link>."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:424
@@ -1581,12 +1687,12 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/features/chat.xml:525
 msgid "Advanced Usage"
-msgstr ""
+msgstr "Speciális használat"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/chat.xml:527
 msgid "Chat Integration in Web Pages"
-msgstr ""
+msgstr "Csevegés beágyazása weboldalakba"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/chat.xml:529
@@ -1595,11 +1701,14 @@ msgid ""
 "manager, administrators can access a button to open public chat integration "
 "configuration and snippet generator."
 msgstr ""
+"Egyszerűen beágyazhatja a nyilvános csevegést egy weboldalba. A "
+"csevegéskezelőben az adminisztrátoroknak elérhető egy gomb a nyilvános "
+"csevegés beágyazásának beállításai és a kódrészlet-előállító megnyitásához."
 
 #. type: Content of: <section><section><section><figure><title>
 #: en/content/features/chat.xml:533
 msgid "Configure Chat Integration Button"
-msgstr ""
+msgstr "Csevegés beágyazásának beállítása gomb"
 
 #. type: Content of: <section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:535
@@ -1607,6 +1716,8 @@ msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationButton.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatIntegrationButton.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:541
@@ -1615,6 +1726,10 @@ msgid ""
 "your needs. While most of them are self-explanatory, <emphasis>General "
 "Settings</emphasis> section contains several important options:"
 msgstr ""
+"A beállítási lap számos paramétert tartalmaz, amelyek finomhangolhatók az "
+"igényeinek megfelelően. Míg a legtöbbjük önmagát magyarázó, az "
+"<emphasis>Általános beállítások</emphasis> szakasz sok fontos lehetőséget "
+"tartalmaz:"
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:546
@@ -1628,11 +1743,15 @@ msgid ""
 "regardless of agent's presence in the system. If not enabled, if there are "
 "no agents currently online and available for chat, widget will be hidden."
 msgstr ""
+"Ha engedélyezve van, akkor ez a beállítás azt szabályozza, hogy a csevegést "
+"meg kell-e jeleníteni a rendszeren az ügyintéző jelenlététől függetlenül. Ha "
+"nincs engedélyezve, akkor a felületei elem el lesz rejtve, ha jelenleg "
+"nincsenek kapcsolatban lévő és csevegéshez elérhető ügyintézők."
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:556
 msgid "Fall-back URL"
-msgstr ""
+msgstr "Tartalék URL"
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/chat.xml:559
@@ -1641,6 +1760,10 @@ msgid ""
 "are no agents present and after some time, users of the public chat will be "
 "presented with a message containing this link."
 msgstr ""
+"Ezt a beállítást csak akkor veszi figyelembe, ha a fenti beállítás "
+"engedélyezve van. Ha nincsenek jelen ügyintézők, akkor egy kis idő múlva a "
+"nyilvános csevegés felhasználói egy üzenetet fognak kapni, amely ezt a "
+"hivatkozást tartalmazza."
 
 #. type: Content of: <section><section><section><section><variablelist><varlistentry><term>
 #: en/content/features/chat.xml:566
@@ -1654,11 +1777,14 @@ msgid ""
 "will be pre-selected in the chat widget, but users will be able to change it "
 "if needed."
 msgstr ""
+"Alapértelmezett csevegőcsatorna kiválasztása a nyilvános csevegéskérésekhez. "
+"Ez a csevegőcsatorna előre kiválasztásra kerül a csevegés felületi elemben, "
+"de a felhasználók képesek lesznek megváltoztatni azt, ha szükséges."
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:576
 msgid "Configuration Tab"
-msgstr ""
+msgstr "Beállítások lap"
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:578
@@ -1666,6 +1792,8 @@ msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationConfiguration.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatIntegrationConfiguration.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:582
@@ -1673,6 +1801,9 @@ msgid ""
 "All other options pertains layout, colors and texts used by the chat widget. "
 "You can tweak them to match your overall website theme."
 msgstr ""
+"Az összes egyéb beállítás a csevegés felületi elem által használt "
+"elrendezésre, színekre és szövegekre vonatkozik. Finomhangolhatja azokat, "
+"hogy összességében illeszkedjenek a weboldal témájához."
 
 #. type: Content of: <section><section><section><section><note><para>
 #: en/content/features/chat.xml:587
@@ -1680,6 +1811,9 @@ msgid ""
 "Please note that changes made in the configuration tab will not be saved. "
 "Every time you open this dialog, all fields will be reset to default values."
 msgstr ""
+"Ne feledje, hogy a beállítások lapon elvégzett változtatások nem lesznek "
+"elmentve. Minden alkalommal, amikor megnyitja ezt a párbeszédablakot, az "
+"összes mező az alapértelmezett értékeire lesz visszaállítva."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:593
@@ -1695,11 +1829,16 @@ msgid ""
 "snippets, so you can make your changes and copy the code to your clipboard "
 "right afterwards."
 msgstr ""
+"A <emphasis>Beágyazási kód</emphasis> lap tartalmazza a szükséges "
+"kódrészleteket a weboldalba történő beszúráshoz, hogy a nyilvános csevegés "
+"működhessen. A <emphasis>Beállítások</emphasis> lapon lévő összes "
+"változtatás azonnal alkalmazva lesz a kódrészleten, így elvégezheti a "
+"változtatásokat, és közvetlenül azután kimásolhatja a kódot a vágólapra."
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:600
 msgid "Integration Code Tab"
-msgstr ""
+msgstr "Beágyazási kód lap"
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:602
@@ -1707,6 +1846,8 @@ msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationSnippet.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatIntegrationSnippet.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:606
@@ -1714,6 +1855,8 @@ msgid ""
 "Code from the first field should be added to the <literal>&lt;HEAD&gt;</"
 "literal> section of your web page."
 msgstr ""
+"Az első mezőben lévő kódot a weboldal <literal>&lt;HEAD&gt;</literal> "
+"szakaszába kell hozzáadni."
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:609
@@ -1722,6 +1865,9 @@ msgid ""
 "before closure of the <literal>&lt;BODY&gt;</literal> tag, but after the "
 "line that loads <emphasis>jQuery</emphasis> library."
 msgstr ""
+"A második mezőben lévő kódot az oldal aljára kell beszúrni: a <literal>&lt;"
+"BODY&gt;</literal> lezárása elé, de azután a sor után, amely a "
+"<emphasis>jQuery</emphasis> programkönyvtárat betölti."
 
 #. type: Content of: <section><section><section><section><note><para>
 #: en/content/features/chat.xml:614
@@ -1731,6 +1877,11 @@ msgid ""
 "to the <filename>jquery.js</filename> or <filename>jquery.min.js</filename> "
 "file somewhere in the page."
 msgstr ""
+"Ne feledje, hogy a weboldalának tartalmaznia kell a <emphasis>jQuery</"
+"emphasis> programkönyvtárat is ahhoz, hogy a kódrészlet működjön. Ez úgy "
+"ismerhető fel, hogy valahol az oldalon található egy hivatkozás a "
+"<filename>jquery.js</filename> vagy a <filename>jquery.min.js</filename> "
+"fájlra."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:621
@@ -1744,11 +1895,14 @@ msgid ""
 "action. In the browser simulator below, you can see the chat widget look "
 "based on current configuration."
 msgstr ""
+"Az <emphasis>Előnézet</emphasis> lap használatával megnézheti a csevegés "
+"felületi elemet működés közben. A lenti böngészőszimulátorban láthatja a "
+"csevegés felületi elem kinézetét a jelenlegi beállítás alapján."
 
 #. type: Content of: <section><section><section><section><figure><title>
 #: en/content/features/chat.xml:627
 msgid "Preview Tab"
-msgstr ""
+msgstr "Előnézet lap"
 
 #. type: Content of: <section><section><section><section><figure><screenshot>
 #: en/content/features/chat.xml:629
@@ -1756,12 +1910,14 @@ msgid ""
 "<graphic fileref=\"screenshots/chat/ChatIntegrationPreview.png\" scalefit="
 "\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatIntegrationPreview.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/features/chat.xml:633
 msgid ""
 "By clicking on the reload icon, you can refresh the simulation at any time."
-msgstr ""
+msgstr "Az újratöltés ikonra kattintva bármikor frissítheti a szimulációt."
 
 #. type: Content of: <section><section><section><section><note><para>
 #: en/content/features/chat.xml:637
@@ -1771,11 +1927,15 @@ msgid ""
 "agents available for chatting and you have configured the chat shouldn't "
 "show up in this case."
 msgstr ""
+"Ne feledje, hogy az előnézet a valódi csevegésmodult használja. Ha a "
+"csevegés felületi elem nem jelenik meg a beállított idő után, akkor "
+"valószínűleg nincsenek elérhető ügyintézők a csevegéshez, és úgy állította "
+"be a csevegést, hogy nem szabad megjelennie ebben az esetben."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/features/chat.xml:644
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Hibaelhárítás"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:648
@@ -1785,6 +1945,11 @@ msgid ""
 "on the <emphasis>Display Chat if no agent is available</emphasis> option in "
 "the <emphasis>Configuration</emphasis> tab, and refresh the code."
 msgstr ""
+"Ha nem látja a csevegés felületi elemet, de úgy tűnik, hogy minden rendben "
+"van, akkor győződjön meg arról, hogy van-e legalább egy ügyintéző, aki "
+"külsőleg elérhető csevegéshez. Vagy váltsa át a <emphasis>Csevegés "
+"megjelenítése, ha nincs elérhető ügyintéző</emphasis> beállítást a "
+"<emphasis>Beállítások</emphasis> lapon, és frissítse a kódot."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:655
@@ -1795,6 +1960,12 @@ msgid ""
 "set to <literal>https</literal>. Your website must run on the same protocol "
 "for chat widget to work."
 msgstr ""
+"Ha kevert tartalom figyelmeztetéseket kap a böngésző konzoljában, akkor "
+"győződjön meg arról, hogy a <literal>HttpType</literal> OTRS beállítási "
+"lehetőség helyesen van-e beállítva. Például ha SSL-en futtatja az OTRS-t, "
+"akkor ezt a beállítási lehetőséget <literal>https</literal> értékre kell "
+"állítani. A weboldalnak ugyanilyen protokollon kell futnia ahhoz, hogy a "
+"csevegés felületi elem működjön."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/features/chat.xml:663
@@ -1803,11 +1974,15 @@ msgid ""
 "make sure that <emphasis>jQuery</emphasis> library is included in your web "
 "page, and that chat related code is placed below it."
 msgstr ""
+"Ha olyan hibákat kap, amely azt mondja, hogy a <literal>$</literal> változó "
+"nincs meghatározva, akkor győződjön meg arról, hogy a <emphasis>jQuery</"
+"emphasis> programkönyvtárat tartalmazza-e a weboldal, és a csevegésre "
+"vonatkozó kód az alá van-e elhelyezve."
 
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:6
 msgid "The Dynamic Field <emphasis>Contact with Data</emphasis>"
-msgstr ""
+msgstr "A <emphasis>partneradatok</emphasis> dinamikus mező"
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:9
@@ -1827,6 +2002,10 @@ msgid ""
 "field of this type is a new data source. The name of the dynamic field will "
 "become the name of the data source, as they are both the same."
 msgstr ""
+"Az adatforrások ennél a funkciónál az új <emphasis>partneradatok</emphasis> "
+"típus dinamikus mezőivel együtt tartózkodik, amely azt jelenti, hogy ennek a "
+"típusnak minden dinamikus mezője egy új adatforrás. A dinamikus mező neve "
+"lesz az adatforrás neve, mivel mindketten ugyanazok."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:23
@@ -1836,6 +2015,11 @@ msgid ""
 "attributes can be set as mandatory and searchable if needed. The sort order "
 "of the attributes can be also defined."
 msgstr ""
+"Minden egyes adatforrásnál (dinamikus mezőnél) meghatározható a partner "
+"attribútumainak listája (az egyes attribútumok csak egy szövegalapú értéket "
+"tartalmazhatnak). A partner attribútumai beállíthatók kötelezőként és "
+"kereshetőként, ha szükséges. Az attribútumok rendezési sorrendje is "
+"meghatározható."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:29
@@ -1855,6 +2039,9 @@ msgid ""
 "always mandatory and they are not automatically added, so for each new data "
 "source these attributes must be added manually."
 msgstr ""
+"A <literal>Name</literal> és <literal>ValidID</literal> attribútumok mindig "
+"kötelezők, és nincsenek automatikusan hozzáadva, így minden egyes új "
+"adatforrásnál ezeket az attribútumokat kézzel kell hozzáadni."
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:40
@@ -1864,6 +2051,10 @@ msgid ""
 "literal> respectively while the values could be <emphasis>Name</emphasis> "
 "and <emphasis>Validity</emphasis> for example."
 msgstr ""
+"Az adatforrás meghatározásán belül (vagy a dinamikus mező beállításaiban) "
+"ezeket a <literal>Name</literal> és <literal>ValidID</literal> kulcsokkal "
+"kell feltüntetni, míg az értékek <emphasis>Név</emphasis> és "
+"<emphasis>Érvényesség</emphasis> lehetnek például."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:47
@@ -1888,6 +2079,11 @@ msgid ""
 "data source (e.g. a data source could have an E-mail field while another "
 "could contain Telephone and/or Mobile fields)."
 msgstr ""
+"Eltekintve a <literal>Name</literal> és a <literal>ValidID</literal> "
+"kulcsoktól, az egyes adatforrások különböző partnerinformációkat "
+"tartalmazhatnak, ahogy az adatforrás meghatározza (például egy adatforrásnak "
+"lehet e-mail mezője, míg egy egy másik tartalmazhat telefon és/vagy "
+"mobiltelefon mezőket)."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:58
@@ -1896,6 +2092,9 @@ msgid ""
 "an special screen that can be called from the Ticket menu (<emphasis>Edit "
 "contacts with data</emphasis>) in the main navigation bar."
 msgstr ""
+"A partner kezelése (hozzáadás vagy frissítés) az adatforrásoknál egy "
+"speciális képernyővel végezhető el, amelyet a jegymenüből lehet meghívni "
+"(<emphasis>Partneradatok szerkesztése</emphasis>) a fő navigációs sávon."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:64
@@ -1931,11 +2130,13 @@ msgid ""
 "Tickets can be found in search and statistics via the required attribute "
 "<literal>Name</literal>."
 msgstr ""
+"A jegyek a kötelező <literal>Name</literal> attribútumon keresztül "
+"találhatók meg a keresésben és a statisztikákban."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:80
 msgid "The <literal>Name</literal> can also be returned as a field value."
-msgstr ""
+msgstr "A <literal>Name</literal> visszaadható egy mezőértékként is."
 
 #. type: Content of: <section><section><variablelist><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:89
@@ -1954,6 +2155,8 @@ msgid ""
 "Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Frontend::Admin::"
 "AdminContactWithData</literal>"
 msgstr ""
+"Csoport: <literal>OTRSBusiness</literal>, alcsoport: <literal>Frontend::"
+"Admin::AdminContactWithData</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:95
@@ -1975,6 +2178,8 @@ msgid ""
 "Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Frontend::Agent::"
 "ModuleRegistration</literal>"
 msgstr ""
+"Csoport: <literal>OTRSBusiness</literal>, alcsoport: <literal>Frontend::"
+"Agent::ModuleRegistration</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:104
@@ -1987,7 +2192,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/features/dynamicfield-contactwithdata.xml:113
-#: en/content/features/dynamicfield-database.xml:361
+#: en/content/features/dynamicfield-database.xml:363
 #: en/content/features/dynamicfield-webservice.xml:357
 #: en/content/features/report-generator.xml:23
 #: en/content/features/resource-planning.xml:25
@@ -2010,6 +2215,8 @@ msgstr "A partneradatok egy példaszerű használata a következőképpen lehet:
 msgid ""
 "Create a new dynamic field of type <emphasis>Contact with data</emphasis>."
 msgstr ""
+"Hozzon létre egy új <emphasis>partneradatok</emphasis> típusú dinamikus "
+"mezőt."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:125
@@ -2018,6 +2225,9 @@ msgid ""
 "literal> and <literal>ValidID</literal> are required for any Contact with "
 "data Dynamic Field."
 msgstr ""
+"Állítsa be a lehetséges partner attribútumokat (lehetséges értékeket). A "
+"<literal>Name</literal> és a <literal>ValidID</literal> kötelezők minden "
+"partneradatok dinamikus mezőnél."
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:131
@@ -2025,6 +2235,8 @@ msgid ""
 "Add <literal>Name</literal> attribute (Key: <literal>Name</literal>, Value: "
 "<emphasis>Name</emphasis>)."
 msgstr ""
+"Adja hozzá a <literal>Name</literal> attribútumot (kulcs: <literal>Name</"
+"literal>, érték: <emphasis>Név</emphasis>)."
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:136
@@ -2032,6 +2244,8 @@ msgid ""
 "Add <literal>ValidID</literal> attribute (Key: <literal>ValidID</literal>, "
 "Value: <emphasis>Validity</emphasis>)."
 msgstr ""
+"Adja hozzá a <literal>ValidID</literal> attribútumot (kulcs: "
+"<literal>ValidID</literal>, érték: <emphasis>Érvényesség</emphasis>)."
 
 #. type: Content of: <section><section><orderedlist><listitem><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:141
@@ -2039,6 +2253,9 @@ msgid ""
 "Add any other attribute such as <literal>Telephone</literal> attribute (Key: "
 "<literal>Telephone</literal>, Value: <emphasis>Phone</emphasis>)."
 msgstr ""
+"Adjon hozzá bármilyen egyéb attribútumot, mint például a <literal>Telephone</"
+"literal> attribútum (kulcs: <literal>Telephone</literal>, érték: "
+"<emphasis>Telefon</emphasis>)."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:149
@@ -2046,6 +2263,8 @@ msgid ""
 "Add the list of mandatory attribute keys comma separated (<literal>Name</"
 "literal> and <literal>ValidID</literal> are not needed)."
 msgstr ""
+"Adja hozzá a kötelező attribútumkulcsok listáját vesszővel elválasztva (a "
+"<literal>Name</literal> és a <literal>ValidID</literal> nem szükséges)."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:155
@@ -2053,6 +2272,8 @@ msgid ""
 "Set the attribute key order list comma separated as: <literal>Name,Telephone,"
 "ValidID</literal>."
 msgstr ""
+"Állítsa be az attribútumkulcsok sorrendjének listáját vesszővel elválasztva, "
+"úgymint: <literal>Name,Telephone,ValidID</literal>."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:160
@@ -2060,6 +2281,8 @@ msgid ""
 "Add the list of searchable attribute keys comma separated (<literal>Name</"
 "literal> is not needed)."
 msgstr ""
+"Adja hozzá a kereshető attribútumkulcsok listáját vesszővel elválasztva (a "
+"<literal>Name</literal> nem szükséges)."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:166
@@ -2068,6 +2291,9 @@ msgid ""
 "data source by using <emphasis>Tickets → Edit contacts with data</emphasis> "
 "screen from the main navigation bar."
 msgstr ""
+"Töltse fel az adatforrást legalább egy partner hozzáadásával az újonnan "
+"létrehozott adatforrásban a <emphasis>Jegyek → Partneradatok szerkesztése</"
+"emphasis> képernyő használatával a fő navigációs sávról."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:173
@@ -2078,6 +2304,11 @@ msgid ""
 "AgentTicketPhone###DynamicField</literal> and do the same for "
 "<literal>Ticket::Frontend::AgentTicketZoom###DynamicField</literal>."
 msgstr ""
+"Adja hozzá az új dinamikus mezőt azon képernyők beállításaihoz, ahol azt meg "
+"kell jeleníteni. Például az <emphasis>Új telefonos jegy</emphasis> képernyőn "
+"a <literal>Ticket::Frontend::AgentTicketPhone###DynamicField</literal> "
+"rendszerbeállítás frissítésével, és ugyanezt elvégezve a <literal>Ticket::"
+"Frontend::AgentTicketZoom###DynamicField</literal> rendszerbeállításnál."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:181
@@ -2085,6 +2316,9 @@ msgid ""
 "Go to <emphasis>New phone ticket</emphasis> screen, and notice that the new "
 "field is there.  Add all ticket needed information."
 msgstr ""
+"Menjen az <emphasis>Új telefonos jegy</emphasis> képernyőre, és figyelje "
+"meg, hogy az új mező ott van-e. Adja hozzá a jegyhez szükséges összes "
+"információt."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:187
@@ -2111,6 +2345,11 @@ msgid ""
 "groups defined in system configuration setting <literal>Frontend::"
 "Module###AdminDynamicFieldContactWithData</literal>)."
 msgstr ""
+"Lehetőség van a partner attribútumainak frissítésére a "
+"<emphasis>Partneradatok szerkesztése</emphasis> gombra kattintva, amely a "
+"partneradat doboz címének jobb oldalán jelenik meg (ha a jelenlegi "
+"felhasználó a <literal>Frontend::Module###AdminDynamicFieldContactWithData</"
+"literal> rendszerbeállításban meghatározott csoportok tagja)."
 
 #. type: Content of: <section><section><orderedlist><listitem><para>
 #: en/content/features/dynamicfield-contactwithdata.xml:206
@@ -2125,7 +2364,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-database.xml:6
 msgid "The Dynamic Field <emphasis>Database</emphasis>"
-msgstr ""
+msgstr "Az <emphasis>adatbázis</emphasis> dinamikus mező"
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-database.xml:9
@@ -2133,6 +2372,8 @@ msgid ""
 "This feature implements a dynamic field of the type <emphasis>Database</"
 "emphasis>."
 msgstr ""
+"Ez a funkció egy <emphasis>adatbázis</emphasis> típusú dinamikus mezőt "
+"valósít meg."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:15
@@ -2161,6 +2402,8 @@ msgid ""
 "<emphasis>Database</emphasis> dynamic fields can be created the same way, as "
 "the default dynamic fields are created."
 msgstr ""
+"Az <emphasis>adatbázis</emphasis> dinamikus mezők ugyanolyan módon hozhatók "
+"létre, mint ahogy az alapértelmezett dinamikus mezők létrejönnek."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-database.xml:29
@@ -2172,7 +2415,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:32
 msgid "Adding a <emphasis>Database</emphasis> Dynamic Field"
-msgstr ""
+msgstr "Egy <emphasis>adatbázis</emphasis> dinamikus mező hozzáadása"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:34
@@ -2180,6 +2423,8 @@ msgid ""
 "This feature implements a configuration interface to create dynamic fields "
 "of the type <emphasis>Database</emphasis>."
 msgstr ""
+"Ez a funkció egy beállítási felületet valósít meg az <emphasis>adatbázis</"
+"emphasis> típusú dinamikus mezők létrehozásához."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:37
@@ -2191,11 +2436,18 @@ msgid ""
 "drop down box on the left side. Currently it's not possible to use the "
 "<emphasis>Database</emphasis> dynamic field in the article context."
 msgstr ""
+"Az <emphasis>adatbázis</emphasis> dinamikus mezők ugyanolyan módon hozhatók "
+"létre, mint ahogy az alapértelmezett dinamikus mezők létrejönnek. Ehhez "
+"váltson át az <emphasis>Adminisztráció → Jegybeállítások → Dinamikus mezők</"
+"emphasis> nézetre. Ezen a maszkon választhatja ki az <emphasis>adatbázis</"
+"emphasis> mezőt a jegy lenyíló dobozából a bal oldalon. Jelenleg nem "
+"lehetséges az <emphasis>adatbázis</emphasis> dinamikus mező használata a "
+"bejegyzés környezetben."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:43
 msgid "Configuration <emphasis>General - Name</emphasis>:"
-msgstr ""
+msgstr "Az <emphasis>Általános - Név</emphasis> beállítás:"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:46
@@ -2205,11 +2457,15 @@ msgid ""
 "alphanumeric values. This name will be used for internal handling of the "
 "field but will not be displayed."
 msgstr ""
+"Az <emphasis>adatbázis</emphasis> típusú dinamikus mezők egyedi nevet "
+"igényelnek, mint ahogy a többi dinamikus mező is. Ez a név csak "
+"alfanumerikus értékeket tartalmazhat. Ez a név lesz használva a mező belső "
+"kezelésénél, de nem lesz megjelenítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:51
 msgid "Configuration <emphasis>General - Label</emphasis>:"
-msgstr ""
+msgstr "Az <emphasis>Általános - Címke</emphasis> beállítás:"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:54
@@ -2223,7 +2479,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:59
 msgid "Configuration <emphasis>General - Field order</emphasis>:"
-msgstr ""
+msgstr "Az <emphasis>Általános - Mezősorrend</emphasis> beállítás:"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:62
@@ -2240,7 +2496,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:67
 msgid "Configuration <emphasis>General - Valid</emphasis>:"
-msgstr ""
+msgstr "Az <emphasis>Általános - Érvényes</emphasis> beállítás:"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-database.xml:70
@@ -2249,40 +2505,40 @@ msgid ""
 "valid. If the field is set to <emphasis>invalid</emphasis> it will disappear "
 "from all the configured views but no data will be lost."
 msgstr ""
+"A dinamikus mezőnek a beállított OTRS nézetekben való használatához "
+"érvényesre kell állítani azt. Ha a mező <emphasis>érvénytelen</emphasis> "
+"értékre van állítva, akkor el fog tűnni az összes beállított nézetből, de "
+"nem fog adat elveszni."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-database.xml:77
 msgid "Configuration of the External Data Source"
 msgstr "A külső adatforrás beállítása"
 
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:83
-msgid "Dynamic Field Database Admin screen"
-msgstr ""
-
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:85
-msgid ""
-"<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:79
 msgid ""
 "Before an external database can be searched and the results be saved at the "
 "ticket through the dynamic field, the credentials have to be stored in the "
-"configuration of the dynamic field.  <placeholder type=\"figure\" id=\"0\"/>"
+"configuration of the dynamic field."
 msgstr ""
-"Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők "
-"lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el "
-"kell tárolni a dinamikus mező beállításaiban. <placeholder type=\"figure\" "
-"id=\"0\"/>"
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-database.xml:84
+msgid "Dynamic Field Database Admin screen"
+msgstr "Adatbázis dinamikus mező adminisztrátori képernyő"
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/dynamicfield-database.xml:86
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-database/AdminOverview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:90
+#: en/content/features/dynamicfield-database.xml:91
 msgid ""
 "Type: The type of the desired database can be selected here. The field "
 "supports the default OTRS database types: MySQL, Oracle, PostgreSQL or MSSQL."
@@ -2292,85 +2548,112 @@ msgstr ""
 "vagy MSSQL."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:97
+#: en/content/features/dynamicfield-database.xml:98
 msgid ""
 "<emphasis>SID</emphasis>: This option is only available for Oracle "
 "connections and will be shown or hidden automatically.  Within this option "
 "you have to enter the SID of your Oracle connection."
 msgstr ""
+"<emphasis>SID</emphasis>: ez a beállítás csak Oracle kapcsolatoknál érhető "
+"el, és automatikusan megjelenik vagy rejtett lesz. Ezen beállításon belül "
+"kell megadnia az Oracle kapcsolat SID-ját."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:103
+#: en/content/features/dynamicfield-database.xml:104
 msgid ""
 "<emphasis>Driver</emphasis>: This option is only available for ODBC "
 "connections and will be shown or hidden automatically.  Within this option "
 "you have to enter in the hostsystem previously configured ODBC driver to "
 "connect to the desired MSSQL database."
 msgstr ""
+"<emphasis>Illesztőprogram</emphasis>: ez a beállítás csak ODBC "
+"kapcsolatoknál érhető el, és automatikusan megjelenik vagy rejtett lesz. "
+"Ezen beállításon belül kell megadnia a gazdarendszeren korábban beállított "
+"ODBC-illesztőprogramot a kívánt MSSQL adatbázishoz történő csatlakozáshoz."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:110
+#: en/content/features/dynamicfield-database.xml:111
 msgid ""
 "<emphasis>Server</emphasis>: The database host (hostname or IP-Address)."
 msgstr ""
+"<emphasis>Kiszolgáló</emphasis>: az adatbázis gép (gépnév vagy IP-cím)."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:115
+#: en/content/features/dynamicfield-database.xml:116
 msgid "<emphasis>Port</emphasis>: The port of the database server."
-msgstr ""
+msgstr "<emphasis>Port</emphasis>: az adatbázis-kiszolgáló portja."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:120
+#: en/content/features/dynamicfield-database.xml:121
 msgid ""
 "<emphasis>Database</emphasis>: Defines the desired target database of the "
 "DBMS. This database will be used for queries."
 msgstr ""
+"<emphasis>Adatbázis</emphasis>: a DBMS kívánt céladatbázisát határozza meg. "
+"Ez az adatbázis lesz használva a lekérdezésekhez."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:125
+#: en/content/features/dynamicfield-database.xml:126
 msgid ""
 "<emphasis>Table / View</emphasis>: This table or view will be used for the "
 "queries."
 msgstr ""
+"<emphasis>Tábla / nézet</emphasis>: ez a tábla vagy nézet lesz használva a "
+"lekérdezésekhez."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:130
+#: en/content/features/dynamicfield-database.xml:131
 msgid "<emphasis>User</emphasis>: The username for the database connection."
 msgstr ""
+"<emphasis>Felhasználó</emphasis>: a felhasználónév az adatbázis-kapcsolathoz."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:135
+#: en/content/features/dynamicfield-database.xml:136
 msgid ""
 "<emphasis>Password</emphasis>: The user password for the database connection."
 msgstr ""
+"<emphasis>Jelszó</emphasis>: a felhasználó jelszava az adatbázis-"
+"kapcsolathoz."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:140
+#: en/content/features/dynamicfield-database.xml:141
 msgid ""
 "<emphasis>Identifier</emphasis>: This select box will be automatically "
 "filled through <emphasis>Possible Values (description below)</emphasis>. "
 "This field represents the value which will be stored in the dynamic field."
 msgstr ""
+"<emphasis>Azonosító</emphasis>: ez a választódoboz automatikusan ki lesz "
+"töltve a <emphasis>Lehetséges értékek (leírás lent)</emphasis> mezőn "
+"keresztül. Ez a mező jeleníti meg azt az értéket, amely a dinamikus mezőben "
+"lesz eltárolva."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:146
+#: en/content/features/dynamicfield-database.xml:147
 msgid ""
 "<emphasis>Multiselect</emphasis>: If this field is selected, it will be "
 "possible to store more than one value to the dynamic field.  Those values "
 "will be stored comma separated."
 msgstr ""
+"<emphasis>Többválasztós</emphasis>: ha ez a mező ki van jelölve, akkor "
+"lehetséges lesz egynél több érték eltárolása a dinamikus mezőhöz. Azok az "
+"értékek vesszővel elválasztva lesznek eltárolva."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:152
+#: en/content/features/dynamicfield-database.xml:153
 msgid ""
 "<emphasis>CacheTTL</emphasis>: This value defines the period of validity of "
 "the database cache in seconds. Equal queries to the database will be "
 "answered through the cache (local filesystem) within this period instead of "
 "asking the database again."
 msgstr ""
+"<emphasis>Gyorsítótár TTL</emphasis>: ez az érték határozza meg másodpercben "
+"az adatbázis gyorsítótárának érvényességi időtartamát. Az adatbázishoz "
+"intézett azonos lekérdezések a gyorsítótárból (helyi fájlrendszerről) "
+"lesznek megválaszolva ezen időtartamon belül ahelyett, hogy ismét az "
+"adatbázist kérdezné."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:158
+#: en/content/features/dynamicfield-database.xml:159
 msgid ""
 "<emphasis>Searchprefix</emphasis>: This value will be put in the front of "
 "every search term while using the autocompletion to search the database. "
@@ -2378,9 +2661,15 @@ msgid ""
 "during the detailed search, but it is still possible to use wildcard "
 "characters in those masks."
 msgstr ""
+"<emphasis>Keresési előtag</emphasis>: ez az érték lesz elhelyezve minden "
+"keresési kifejezés elé az automatikus kiegészítés használata közben az "
+"adatbázisban történő kereséshez. A helyettesítő karakterek is támogatva "
+"vannak. A keresési előtag figyelmen kívül lesz hagyva a részletes keresés "
+"közben, de még mindig lehetséges a helyettesítő karakterek használata "
+"azokban a maszkokban."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:165
+#: en/content/features/dynamicfield-database.xml:166
 msgid ""
 "<emphasis>Searchsuffix</emphasis>: This value will be put in the end of "
 "every search term while using the autocompletion to search the database. "
@@ -2388,24 +2677,36 @@ msgid ""
 "during the detailed search, but it is still possible to use wildcard "
 "characters in those masks."
 msgstr ""
+"<emphasis>Keresési utótag</emphasis>: ez az érték lesz elhelyezve minden "
+"keresési kifejezés végére az automatikus kiegészítés használata közben az "
+"adatbázisban történő kereséshez. A helyettesítő karakterek is támogatva "
+"vannak. A keresési utótag figyelmen kívül lesz hagyva a részletes keresés "
+"közben, de még mindig lehetséges a helyettesítő karakterek használata "
+"azokban a maszkokban."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:172
+#: en/content/features/dynamicfield-database.xml:173
 msgid ""
 "<emphasis>Result Limit</emphasis>: The entered integer value defines the "
 "maximum amount of allowed results during a database search. This includes "
 "the autocompletion search as well as the detailed search."
 msgstr ""
+"<emphasis>Találatkorlát</emphasis>: a beírt egész érték határozza meg a "
+"megengedett találatok legnagyobb mennyiségét az adatbázisban történő keresés "
+"közben. Ez magában foglalja az automatikus kiegészítéses keresést, valamint "
+"a részletes keresést is."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:178
+#: en/content/features/dynamicfield-database.xml:179
 msgid ""
 "<emphasis>Case Sensitive</emphasis>: If this field is selected, case-"
 "sensitivity will take effect on searches."
 msgstr ""
+"<emphasis>Kis- és nagybetű</emphasis>: ha ez a mező ki van jelölve, akkor a "
+"kis- és nagybetűk megkülönböztetése hatással lesz a keresésekre."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:183
+#: en/content/features/dynamicfield-database.xml:184
 msgid ""
 "<emphasis>Possible values</emphasis>: As already explained the possible "
 "values will fill up the identifier field automatically, which defines the "
@@ -2416,30 +2717,45 @@ msgid ""
 "should have, the needed data type and if the field should be a search- or "
 "listfield."
 msgstr ""
+"<emphasis>Lehetséges értékek</emphasis>: mint azt már elmagyaráztuk, a "
+"lehetséges értékek automatikusan ki fogják tölteni az azonosító mezőt, amely "
+"azt az értéket határozza meg, amely a dinamikus mezőben eltárolásra kerül. "
+"Annyi lehetséges érték hozható létre, amennyi csak szükséges (vagy legalább "
+"annyi, ahány táblaoszloppal az adatbázis rendelkezik). A lehetséges értékek "
+"határozzák meg azon adatbázis oszlopokat, amelyben keresni kell. Lehetőség "
+"van beállítani az oszlopnevet, egy leírást (címkét), amellyel a mezőnek "
+"rendelkeznie kell, a szükséges adattípust, és hogy a mezőnek keresési vagy "
+"listamezőnek kell-e lennie."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:192
+#: en/content/features/dynamicfield-database.xml:193
 msgid ""
 "<emphasis>Name</emphasis>: The exact name of the database column which will "
 "be requested through the database queries."
 msgstr ""
+"<emphasis>Név</emphasis>: annak az adatbázisoszlopnak a pontos neve, amelyet "
+"kérni fognak az adatbázis-lekérdezéseken keresztül."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:197
+#: en/content/features/dynamicfield-database.xml:198
 msgid ""
 "<emphasis>Description</emphasis>: The label of the field which will be "
 "displayed in the detailed search."
 msgstr ""
+"<emphasis>Leírás</emphasis>: annak a mezőnek a címkéje, amely a részletes "
+"keresésnél lesz megjelenítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:202
+#: en/content/features/dynamicfield-database.xml:203
 msgid ""
 "<emphasis>Datatype</emphasis>: The data type which will be stored in the "
 "dynamic field. Possible values: TEXT, INTEGER or DATE."
 msgstr ""
+"<emphasis>Adattípus</emphasis>: az adattípus, amely a dinamikus mezőben "
+"kerül eltárolásra. Lehetséges értékek: TEXT, INTEGER vagy DATE."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:207
+#: en/content/features/dynamicfield-database.xml:208
 msgid ""
 "<emphasis>Filter</emphasis>: With the filter field, it is possible to choose "
 "a ticket attribute or a dynamic field as a filter for the related column. If "
@@ -2449,74 +2765,100 @@ msgid ""
 "search term and the related ticket attribute on exactly the configured "
 "column will be displayed."
 msgstr ""
+"<emphasis>Szűrő</emphasis>: a szűrő mezővel lehetséges egy jegyattribútum "
+"vagy egy dinamikus mező kiválasztása szűrőként a kapcsolódó oszlophoz. Ha a "
+"dinamikus mező egy vele kapcsolatban álló jegyhez vagy kötve, akkor az "
+"attribútumok lesznek használva a szűrőmechanizmushoz, egyébként a szűrők "
+"figyelmen kívül lesznek hagyva. Ha szűrő lesz beállítva egy táblaoszlophoz, "
+"akkor csak a keresési kifejezésre illeszkedő keresési eredmények és pontosan "
+"a beállított oszlophoz kapcsolódó jegyattribútumok lesznek megjelenítve."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:217
+#: en/content/features/dynamicfield-database.xml:218
 msgid ""
 "<emphasis>Searchfield</emphasis>: Indicates if a field should be included in "
 "the search requests."
 msgstr ""
+"<emphasis>Keresési mező</emphasis>: azt jelzi, hogy egy mezőnek benne kell-e "
+"lennie a keresési kérésekben."
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:222
+#: en/content/features/dynamicfield-database.xml:223
 msgid ""
 "<emphasis>Listfield</emphasis>: Indicates if a field should be displayed in "
 "the results."
 msgstr ""
+"<emphasis>Listamező</emphasis>: azt jelzi, hogy egy mezőt meg kell-e "
+"jeleníteni a találatokban."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:229
+#: en/content/features/dynamicfield-database.xml:230
 #: en/content/features/dynamicfield-webservice.xml:311
 msgid "Screen Configuration"
 msgstr "Képernyő beállítások"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:231
+#: en/content/features/dynamicfield-database.xml:232
 msgid ""
 "Dynamic fields of type <emphasis>Database</emphasis> have to be activated "
 "for the several masks in which they should be displayed like the other types "
 "of dynamic fields."
 msgstr ""
+"Az <emphasis>adatbázis</emphasis> típusú dinamikus mezőket az egyéb típusú "
+"dinamikus mezőkhöz hasonlóan be kell kapcsolni számos olyan maszknál, "
+"amelyben azokat meg kell jeleníteni."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:234
+#: en/content/features/dynamicfield-database.xml:235
 msgid ""
 "This can be done through <emphasis>Admin → System Administration → "
 "SysConfig</emphasis>, in which <emphasis>Ticket</emphasis> must be selected "
 "on the left hand side."
 msgstr ""
+"Ez az <emphasis>Adminisztráció → Rendszer adminisztráció → "
+"Rendszerbeállítások</emphasis> hivatkozáson keresztül végezhető el, amelyben "
+"a <emphasis>Ticket</emphasis> beállítást kell kiválasztani a bal oldalon."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:238
+#: en/content/features/dynamicfield-database.xml:239
 msgid ""
 "For every interface area (Frontend), in which the dynamic field of type "
 "<emphasis>Database</emphasis> should be displayed, the admin has to "
 "configure it to fit his needs. Examples:"
 msgstr ""
+"Minden felületi területnél (előtétprogramnál), amelyen az "
+"<emphasis>adatbázis</emphasis> típusú dinamikus mezőt meg kell jeleníteni, "
+"az adminisztrátornak be kell állítania azt az igényei kielégítéséhez. Példák:"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:243
+#: en/content/features/dynamicfield-database.xml:244
 msgid ""
 "<literal>Frontend::Agent::Ticket::ViewZoom</literal> for the ticket zoom "
 "view."
 msgstr ""
+"A <literal>Frontend::Agent::Ticket::ViewZoom</literal> a jegynagyítás "
+"nézethez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:248
+#: en/content/features/dynamicfield-database.xml:249
 msgid ""
 "<literal>Frontend::Agent::Ticket::ViewPhoneNew</literal> for new phone "
 "tickets."
 msgstr ""
+"A <literal>Frontend::Agent::Ticket::ViewPhoneNew</literal> az új telefonos "
+"jegyekhez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:253
+#: en/content/features/dynamicfield-database.xml:254
 msgid ""
 "<literal>Frontend::Agent::Ticket::ViewEmailNew</literal> for new email "
 "tickets."
 msgstr ""
+"A <literal>Frontend::Agent::Ticket::ViewEmailNew</literal> az új e-mail "
+"jegyekhez."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
-#: en/content/features/dynamicfield-database.xml:258
+#: en/content/features/dynamicfield-database.xml:259
 msgid ""
 "In each of these view configurations is an entry called <literal>Ticket::"
 "Frontend::AgentTicket*###DynamicField</literal>.  This configuration defines "
@@ -2525,19 +2867,34 @@ msgid ""
 "emphasis> field. The field <emphasis>Value</emphasis> can take the values 0 "
 "(deactivated), 1 (active) and 2 (active and mandatory)."
 msgstr ""
+"Ezen nézetbeállítások mindegyikében van egy <literal>Ticket::Frontend::"
+"AgentTicket*###DynamicField</literal> elnevezésű bejegyzés. Ez a beállítás "
+"határozza meg, hogy mely dinamikus mezőket kell megjeleníteni ebben a "
+"nézetben. Egy dinamikus mező hozzáadásához a mező belső nevét kell kitölteni "
+"a <emphasis>Kulcs</emphasis> mezőben. Az <emphasis>Érték</emphasis> mező a 0 "
+"(kikapcsolva), az 1 (bekapcsolva) és a 2 (bekapcsolva és kötelező) értékeket "
+"veheti fel."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:269
+#: en/content/features/dynamicfield-database.xml:270
 msgid "Storage of Historical Data"
 msgstr "Történeti adatok tárolása"
 
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-database.xml:272
+msgid ""
+"This feature offers a functionality to store historical data. For this to "
+"work it´s necessary to activate and set SysConfig options, as visibly in the "
+"following screenshot:"
+msgstr ""
+
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:275
+#: en/content/features/dynamicfield-database.xml:277
 msgid "DynamicField Database - Historical data settings"
 msgstr "Dinamikus mező adatbázis - történeti adatok beállításai"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:277
+#: en/content/features/dynamicfield-database.xml:279
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/"
 "SysConfigStoreHistoricalData.png\" scalefit=\"1\" width=\"100%\" "
@@ -2548,19 +2905,7 @@ msgstr ""
 "contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:271
-msgid ""
-"This feature offers a functionality to store historical data. For this to "
-"work it´s necessary to activate and set SysConfig options, as visibly in the "
-"following screenshot: <placeholder type=\"figure\" id=\"0\"/>"
-msgstr ""
-"Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek "
-"működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és "
-"beállítása, amint a következő képernyőképen látható: <placeholder type="
-"\"figure\" id=\"0\"/>"
-
-#. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:282
+#: en/content/features/dynamicfield-database.xml:284
 msgid ""
 "In the configuration option for the <literal>SourceDynamicField</literal> it"
 "´s needed to fill in the already created dynamic (Database) field name, "
@@ -2571,9 +2916,18 @@ msgid ""
 "has to be configured in the field <emphasis>content</emphasis>. The gathered "
 "data will be saved in these dynamic fields."
 msgstr ""
+"A <literal>SourceDynamicField</literal> beállítási lehetőségben annak a már "
+"létrehozott dinamikus (adatbázis) mezőnévnek a kitöltése szükséges, amely a "
+"történeti adatok begyűjtéséhez lesz használva. A kapcsolódó "
+"<literal>TargetDynamicField</literal> beállításban a <emphasis>Kulcs</"
+"emphasis> mezőket azon csatlakoztatott külső adatbázis táblaoszlopaival kell "
+"kitölteni, amely ki lesz olvasva. Minden egyes oszlopnál a vele kapcsolatban "
+"lévő cél dinamikus mezőt be kell állítani a <emphasis>tartalom</emphasis> "
+"mezőben. Az összegyűjtött adatok ezekben a dinamikus mezőkben lesznek "
+"elmentve."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:289
+#: en/content/features/dynamicfield-database.xml:291
 msgid ""
 "If the configuration is ready and active, the configured fields will be "
 "readout from the external database, since the source field gets a new value "
@@ -2588,71 +2942,76 @@ msgstr ""
 "dinamikus mezőkben lesznek eltárolva."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:296
+#: en/content/features/dynamicfield-database.xml:298
 msgid "Sysconfig Settings"
 msgstr "Rendszerbeállítások beállításai"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:300
+#: en/content/features/dynamicfield-database.xml:302
 msgid "<literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal>"
 msgstr "<literal>AutoComplete::Agent###DynamicFieldDatabaseSearch</literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:302
+#: en/content/features/dynamicfield-database.xml:304
 msgid ""
 "Group: <literal>Framework</literal>, Subgroup: <literal>Frontend::Agent</"
 "literal>"
 msgstr ""
+"Csoport: <literal>Framework</literal>, alcsoport: <literal>Frontend::Agent</"
+"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:304
+#: en/content/features/dynamicfield-database.xml:306
 msgid "Defines the config options for the autocompletion feature."
 msgstr ""
 "Meghatározza a beállítási lehetőségeket az automatikus kiegészítés "
 "funkcióhoz."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:309
+#: en/content/features/dynamicfield-database.xml:311
 msgid "<literal>Ticket::EventModulePost###950-StoreHistoricalData</literal>"
 msgstr "<literal>Ticket::EventModulePost###950-StoreHistoricalData</literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:311
+#: en/content/features/dynamicfield-database.xml:313
 msgid ""
 "Group: <literal>Ticket</literal>, Subgroup: <literal>Core::Ticket</literal>"
 msgstr ""
+"Csoport: <literal>Ticket</literal>, alcsoport: <literal>Core::Ticket</"
+"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:313
+#: en/content/features/dynamicfield-database.xml:315
 msgid "Updates dynamic fields, if configured ones will be updated."
 msgstr "Frissíti a dinamikus mezőket, ha a beállítottak frissítve lesznek."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:318
-msgid ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</"
-"literal>"
-msgstr ""
-"<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</"
-"literal>"
-
-#. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:320
-#: en/content/features/dynamicfield-database.xml:329
-#: en/content/features/dynamicfield-database.xml:338
-#: en/content/features/dynamicfield-database.xml:347
 msgid ""
-"Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal>"
+"<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</"
+"literal>"
 msgstr ""
+"<literal>DynamicFieldDatabase::StoreHistoricalData###1-SourceDynamicField1</"
+"literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-database.xml:322
+#: en/content/features/dynamicfield-database.xml:331
 #: en/content/features/dynamicfield-database.xml:340
+#: en/content/features/dynamicfield-database.xml:349
+msgid ""
+"Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Core</literal>"
+msgstr ""
+"Csoport: <literal>OTRSBusiness</literal>, alcsoport: <literal>Core</literal>"
+
+#. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
+#: en/content/features/dynamicfield-database.xml:324
+#: en/content/features/dynamicfield-database.xml:342
 msgid "Defines the source dynamic field for storing historical data."
 msgstr "Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:327
+#: en/content/features/dynamicfield-database.xml:329
 msgid ""
 "<literal>DynamicFieldDatabase::StoreHistoricalData###2-TargetDynamicFields1</"
 "literal>"
@@ -2661,13 +3020,13 @@ msgstr ""
 "literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><listitem><para>
-#: en/content/features/dynamicfield-database.xml:331
-#: en/content/features/dynamicfield-database.xml:349
+#: en/content/features/dynamicfield-database.xml:333
+#: en/content/features/dynamicfield-database.xml:351
 msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához."
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:336
+#: en/content/features/dynamicfield-database.xml:338
 msgid ""
 "<literal>DynamicFieldDatabase::StoreHistoricalData###3-SourceDynamicField2</"
 "literal>"
@@ -2676,7 +3035,7 @@ msgstr ""
 "literal>"
 
 #. type: Content of: <section><section><section><variablelist><varlistentry><term>
-#: en/content/features/dynamicfield-database.xml:345
+#: en/content/features/dynamicfield-database.xml:347
 msgid ""
 "<literal>DynamicFieldDatabase::StoreHistoricalData###4-TargetDynamicFields2</"
 "literal>"
@@ -2685,32 +3044,18 @@ msgstr ""
 "literal>"
 
 #. type: Content of: <section><section><para>
-#: en/content/features/dynamicfield-database.xml:363
+#: en/content/features/dynamicfield-database.xml:365
 msgid "An exemplary usage of DynamicField Database is as follows:"
 msgstr ""
 "A dinamikus mező adatbázis egy példaszerű használata a következőképpen lehet:"
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:367
+#: en/content/features/dynamicfield-database.xml:369
 msgid "Searching and Saving Datasets - Autocompletion"
 msgstr "Adathalmazok keresése és mentése - automatikus kiegészítés"
 
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:376
-msgid "DynamicField Database - Test field"
-msgstr "Dinamikus mező adatbázis - tesztmező"
-
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:378
-msgid ""
-"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
-"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:369
+#: en/content/features/dynamicfield-database.xml:371
 msgid ""
 "After the created dynamic fields are activated in the well known masks (like "
 "<literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</literal>) a new text "
@@ -2718,69 +3063,72 @@ msgid ""
 "this field it is possible to input searchterms and therefore execute a "
 "search over all configured database fields.  Otherwise do a click on the "
 "link <emphasis>Detailed search</emphasis> and start a detailed search in "
-"which the fields to search in are selected explicitly.  <placeholder type="
-"\"figure\" id=\"0\"/>"
+"which the fields to search in are selected explicitly."
 msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:388
-msgid "DynamicField Database - Autocomplete feature"
-msgstr "Dinamikus mező adatbázis - automatikus kiegészítés funkció"
+#: en/content/features/dynamicfield-database.xml:379
+msgid "DynamicField Database - Test field"
+msgstr "Dinamikus mező adatbázis - tesztmező"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:390
+#: en/content/features/dynamicfield-database.xml:381
 msgid ""
-"<graphic fileref=\"screenshots/dynamicfield-database/"
-"SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth="
-"\"100%\"></graphic>"
+"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic fileref=\"screenshots/dynamicfield-database/"
-"SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth="
-"\"100%\"></graphic>"
+"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldEmpty.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:383
+#: en/content/features/dynamicfield-database.xml:386
 msgid ""
 "Since search terms are typed in into the text field, a database search will "
 "be started over the configured columns and the result will displayed via an "
 "autocompletion below the text field. The more exact the search term is, the "
-"more exact will be the result (less result entries).  <placeholder type="
-"\"figure\" id=\"0\"/>"
+"more exact will be the result (less result entries)."
 msgstr ""
-"Mivel keresési kifejezések lettek begépelve a szövegmezőbe, egy adatbázis-"
-"keresés lesz elindítva a beállított oszlopokon, és az eredmény egy "
-"automatikus kiegészítésen keresztül lesz megjelenítve a szövegmező alatt. "
-"Minél pontosabb a kereséséi kifejezés, annál pontosabb lesz az eredmény is "
-"(kevesebb találati bejegyzés). <placeholder type=\"figure\" id=\"0\"/>"
 
 #. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-database.xml:392
+msgid "DynamicField Database - Autocomplete feature"
+msgstr "Dinamikus mező adatbázis - automatikus kiegészítés funkció"
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/dynamicfield-database.xml:394
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-database/"
+"SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-database/"
+"SearchFieldAutoCompletion.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:399
+msgid ""
+"If the wished value will be displayed in the results, it can be selected via "
+"a mouse click or via the keyboard and therefore be added to the dynamic "
+"field results."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/dynamicfield-database.xml:404
 msgid "DynamicField Database - Selected items"
 msgstr "Dinamikus mező adatbázis - kiválasztott elemek"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:401
-msgid ""
-"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png"
-"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png"
-"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
-#. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:395
-msgid ""
-"If the wished value will be displayed in the results, it can be selected via "
-"a mouse click or via the keyboard and therefore be added to the dynamic "
-"field results.  <placeholder type=\"figure\" id=\"0\"/>"
-msgstr ""
-"Ha a kívánt érték megjelenik a találatokban, akkor az kiválasztható egy "
-"egérkattintással vagy a billentyűzeten keresztül, és ebből adódóan "
-"hozzáadódik a dinamikus mező találataihoz. <placeholder type=\"figure\" id="
-"\"0\"/>"
-
-#. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-database.xml:406
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-database/SearchFieldSelected.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-database.xml:411
 msgid ""
 "Via the link <emphasis>Details</emphasis> a popup screen can be accessed, "
 "which offers detailed information about the whole result row.  This "
@@ -2788,24 +3136,37 @@ msgid ""
 "used to get an overview about the rest (of the not configured) columns or to "
 "compare data."
 msgstr ""
+"A <emphasis>Részletek</emphasis> hivatkozáson keresztül egy felugró képernyő "
+"érhető el, amely részletes információkat nyújt a teljes találati sorról. "
+"Ezek az információk a sor fejléceit és adatait tartalmazzák. Az információk "
+"arra használhatók, hogy áttekintést adjanak a többi (nem beállított) "
+"oszlopról, vagy adatok összehasonlításához használhatók."
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:411
+#: en/content/features/dynamicfield-database.xml:416
 msgid "The added result entries can be removed via the minus button."
 msgstr "A hozzáadott találati bejegyzések eltávolíthatók a mínusz gombbal."
 
 #. type: Content of: <section><section><section><title>
-#: en/content/features/dynamicfield-database.xml:415
+#: en/content/features/dynamicfield-database.xml:420
 msgid "Searching and Saving Datasets - Detailed Search"
 msgstr "Adathalmazok keresése és mentése - részletes keresés"
 
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-database.xml:422
+msgid ""
+"The link <emphasis>Detailed search</emphasis> opens a new modal dialog to "
+"start a new database search. In this mask it is possible to select the "
+"fields to search on explicitly."
+msgstr ""
+
 #. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:421
+#: en/content/features/dynamicfield-database.xml:427
 msgid "DynamicField Database - Detailed search"
 msgstr "Dinamikus mező adatbázis - részletes keresés"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:423
+#: en/content/features/dynamicfield-database.xml:429
 msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchMask.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
@@ -2814,15 +3175,7 @@ msgstr ""
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:417
-msgid ""
-"The link <emphasis>Detailed search</emphasis> opens a new modal dialog to "
-"start a new database search. In this mask it is possible to select the "
-"fields to search on explicitly.  <placeholder type=\"figure\" id=\"0\"/>"
-msgstr ""
-
-#. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:428
+#: en/content/features/dynamicfield-database.xml:434
 msgid ""
 "By default the first available field is activated, but it´s also possible to "
 "remove available fields or add additional ones. Only activated and filled "
@@ -2834,32 +3187,32 @@ msgstr ""
 "bekapcsolt és kitöltött mezők vannak figyelembe véve a keresésnél. A "
 "helyettesítő karakterek („*”) minden egyedülálló mezőben megengedettek."
 
-#. type: Content of: <section><section><section><para><figure><title>
-#: en/content/features/dynamicfield-database.xml:438
-msgid "DynamicField Database - Detailed search result"
-msgstr "Dinamikus mező adatbázis - részletes keresési eredmény"
-
-#. type: Content of: <section><section><section><para><figure><screenshot>
-#: en/content/features/dynamicfield-database.xml:440
-msgid ""
-"<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png"
-"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-msgstr ""
-"<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png"
-"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
-
 #. type: Content of: <section><section><section><para>
-#: en/content/features/dynamicfield-database.xml:433
+#: en/content/features/dynamicfield-database.xml:439
 msgid ""
 "The database search will be executed via the <emphasis>Start search</"
 "emphasis> button and the results will be tabular displayed.  If the search "
 "was successful, the results will be listed and one of the entries can be "
 "selected via a mouse click. The value will be added to the list of saved "
-"values afterwards.  <placeholder type=\"figure\" id=\"0\"/>"
+"values afterwards."
 msgstr ""
 
-#. type: Content of: <section><section><section><para>
+#. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:445
+msgid "DynamicField Database - Detailed search result"
+msgstr "Dinamikus mező adatbázis - részletes keresési eredmény"
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/dynamicfield-database.xml:447
+msgid ""
+"<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-database/DetailedSearchResult.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/dynamicfield-database.xml:452
 msgid ""
 "Independent of using the autocompletion or the detailed search, every single "
 "result can just selected ones. If an agent tries to select a value multiple "
@@ -2873,7 +3226,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/dynamicfield-webservice.xml:6
 msgid "The Dynamic Field <emphasis>Web Service</emphasis>"
-msgstr ""
+msgstr "A <emphasis>webszolgáltatás</emphasis> dinamikus mező"
 
 #. type: Content of: <section><para>
 #: en/content/features/dynamicfield-webservice.xml:8
@@ -2881,6 +3234,8 @@ msgid ""
 "This feature implements a dynamic field of the type <emphasis>Web Service</"
 "emphasis>."
 msgstr ""
+"Ez a funkció egy <emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőt "
+"valósít meg."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:13
@@ -2890,6 +3245,11 @@ msgid ""
 "from the external system defines the possible options to be displayed, and "
 "they could vary depending on the data that is sent in the request."
 msgstr ""
+"Ez a funkció egy olyan általános dinamikus mező típust valósít meg, amely a "
+"választható lehetőségeit egy webszolgáltatást használó külső rendszerből "
+"gyűjti be. A külső rendszerből érkező válasz határozza meg a lehetséges "
+"megjelenítendő lehetőségeket, és változhatnak azoktól az adatoktól attól "
+"függően, amelyek a kérésben kerülnek elküldésre."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:18
@@ -2901,6 +3261,12 @@ msgid ""
 "server could potentially return completely different values depending on "
 "input."
 msgstr ""
+"Általános esetben, amikor egy mező megváltozik a képernyőn (például a jegy "
+"prioritása az <emphasis>Új telefonos jegy</emphasis> képernyőn), akkor más "
+"mezők értékei frissítve lehetnek. Ez a helyzet az ilyen típusú dinamikus "
+"mezőknél, mivel felvehetik a képernyő összes mezőjének értékét a kérésbe, és "
+"a távoli kiszolgáló lehetőség szerint teljesen eltérő értékeket adhat vissza "
+"a bemenet függvényében."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:24
@@ -2910,17 +3276,20 @@ msgid ""
 "screen), the details of the already created ticket are also included in the "
 "request."
 msgstr ""
+"Továbbá, ha a dinamikus mező forrásobjektuma már létezik (például egy jegy, "
+"és a mező be van állítva a <emphasis>Szabad mezők</emphasis> képernyőn), "
+"akkor a már létrehozott jegy részleteit is tartalmazni fogja a kérés."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:32
 msgid ""
 "To make this feature work it is necessary to have the following components:"
-msgstr ""
+msgstr "A funkció működtetéséhez a következő összetevők megléte szükséges:"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-webservice.xml:35
 msgid "A web service (at least configured as requester)"
-msgstr ""
+msgstr "Egy webszolgáltatás (legalább kérelmezőként beállítva)"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:37
@@ -2930,6 +3299,11 @@ msgid ""
 "least one invoker of the type <literal>Generic::PassThrough</literal>. This "
 "invoker will be called to fetch the data from the remote server."
 msgstr ""
+"Egy új <emphasis>webszolgáltatás</emphasis> dinamikus mező létrehozásához "
+"szükséges, hogy már rendelkezzen egy működő webszolgáltatással, valamint "
+"legyen legalább egy <literal>Generic::PassThrough</literal> típusú "
+"meghívója. Ez a meghívó kerül meghívásra a távoli kiszolgálóról történő "
+"adatlekéréshez."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:42
@@ -2937,6 +3311,8 @@ msgid ""
 "The original data that it is sent in a request is similar to the following "
 "example."
 msgstr ""
+"Az eredeti adatok, amelyek egy kérésben lesznek elküldve, a következő "
+"példához hasonlóak."
 
 #. type: CDATA
 #: en/content/features/dynamicfield-webservice.xml:45
@@ -2962,6 +3338,25 @@ msgid ""
 "  UserID => 123,\n"
 "},\n"
 msgstr ""
+"{\n"
+"  DynamicFieldID    => 123,\n"
+"  DynamicFieldLabel => 'NévX',\n"
+"  DynamicFieldName  => 'NévX',\n"
+"  DynamicFieldValue => 'Érték',\n"
+"  Form => {\n"
+"    # Űrlapmezők\n"
+"    # ...\n"
+"  },\n"
+"  Ticket => {\n"
+"    # Jegyattribútumok\n"
+"    # ...\n"
+"  },\n"
+"  DynamicField => {\n"
+"    NameX => 'Érték'\n"
+"    NameY => [  Érték ],\n"
+"  },\n"
+"  UserID => 123,\n"
+"},\n"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:45
@@ -2975,6 +3370,9 @@ msgid ""
 "The <literal>Form</literal> section contains the fields in the current form "
 "in the web browser. This information changes as the screen is filled in."
 msgstr ""
+"A <literal>Form</literal> szakasz tartalmazza a mezőket a webböngészőben "
+"lévő jelenlegi űrlapon. Ez az információ változik, amikor a képernyőt "
+"kitöltik."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:72
@@ -2986,6 +3384,12 @@ msgid ""
 "in <emphasis>Free Fields</emphasis> screen it contains the information of "
 "the current ticket."
 msgstr ""
+"A <literal>Ticket</literal> szakasz (vagy egy másik forrásobjektum, például "
+"<literal>CustomerUser</literal>) tartalmazza az objektum attribútumait, "
+"ahova a dinamikus mező tartozik. Például az <emphasis>Új telefonos jegy</"
+"emphasis> képernyőn a szakasz üres, mivel a jegyet még nem hozták létre, de "
+"a <emphasis>Szabad mezők</emphasis> képernyőn tartalmazza az aktuális jegy "
+"információit."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:78
@@ -2993,6 +3397,8 @@ msgid ""
 "<literal>DynamicField</literal> section contains all non empty values of all "
 "configured dynamic fields for the current object."
 msgstr ""
+"A <literal>DynamicField</literal> szakasz tartalmazza az összes beállított "
+"dinamikus mező nem üres értékeit az aktuális objektumnál."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:82
@@ -3002,6 +3408,10 @@ msgid ""
 "mapping module for the outgoing data, to format it specifically for the "
 "remote server call."
 msgstr ""
+"A legtöbb esetben azok az adatok, amelyeket a távoli kiszolgáló megkövetel, "
+"nagyban eltérőek lesznek a szolgáltatott adatoktól, ezért erősen ajánlott "
+"egy leképező modul használata a kimenő adatoknál, hogy kifejezetten a távoli "
+"kiszolgáló hívásához formálja azt."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:87
@@ -3011,12 +3421,17 @@ msgid ""
 "<literal>TicketID</literal> (as needed for a <literal>TicketGet</literal> "
 "operation)."
 msgstr ""
+"A következő példa egy XSLT leképezést jelenít meg, amely minden adatot "
+"eldob, és egy rögzített <literal>UserLogin</literal>, <literal>Password</"
+"literal> and <literal>TicketID</literal> értéket állít be (ahogy a "
+"<literal>TicketGet</literal> művelethez szükséges)."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:92
 msgid ""
 "Dynamic Field <emphasis>Web Service</emphasis> - Outgoing mapping example"
 msgstr ""
+"<emphasis>Webszolgáltatás</emphasis> dinamikus mező – kimenő leképezés példa"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-webservice.xml:94
@@ -3024,6 +3439,8 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-webservice/OutgoingMapping.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-webservice/OutgoingMapping.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:99
@@ -3033,6 +3450,10 @@ msgid ""
 "to be able to process the information. The response must be a list of Key "
 "and Value elements."
 msgstr ""
+"A kiszolgálótól érkező válasz is nagyon eltérő lehet, így ebben az esetben "
+"szintén erősen ajánlott egy leképező modul használata a bejövő adatoknál "
+"annak érdekében, hogy képes legyen feldolgozni az információkat. A válasznak "
+"kulcs és értéke elemek listájának kell lennie."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:104
@@ -3042,12 +3463,17 @@ msgid ""
 "extracting and formatting the state and queue as needed to be used as "
 "options for the dynamic field."
 msgstr ""
+"A következő példa egy XSLT leképezést jelenít meg, amely átalakítja a távoli "
+"kiszolgálótól érkező <literal>TicketGet</literal> művelet válaszának "
+"eredményeit, valamint kibontja és megformázza az állapotot és a várólistát "
+"ahogy szükséges, hogy lehetőségekként legyen használható a dinamikus mezőnél."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:108
 msgid ""
 "Dynamic Field <emphasis>Web Service</emphasis> - Incoming mapping example"
 msgstr ""
+"<emphasis>Webszolgáltatás</emphasis> dinamikus mező – bejövő leképezés példa"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/dynamicfield-webservice.xml:110
@@ -3056,6 +3482,8 @@ msgid ""
 "<graphic fileref=\"screenshots/dynamicfield-webservice/IncomingMapping.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/dynamicfield-webservice/IncomingMapping.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:115
@@ -3065,6 +3493,11 @@ msgid ""
 "This web service acts as requester and provider and it always returns the "
 "State and Queue from TicketID 1, as possible values to the field."
 msgstr ""
+"A következő webszolgáltatás meghatározás (importálható YAML-fájl) "
+"használható a mező teszteléséhez, de a végpontot módosítani kell, hogy "
+"illeszkedjen az aktuális rendszerhez. Ez a webszolgáltatás kérelmezőként és "
+"szolgáltatóként viselkedik, és mindig az 1-es jegyazonosítóból adja vissza "
+"az állapotot és a várólistát, mint a mező lehetséges értékeit."
 
 #. type: CDATA
 #: en/content/features/dynamicfield-webservice.xml:120
@@ -3168,11 +3601,108 @@ msgid ""
 "    Type: HTTP::SOAP\n"
 "  UseMappedData: '1'\n"
 msgstr ""
+"---\n"
+"Debugger:\n"
+"  DebugThreshold: debug\n"
+"  TestMode: '0'\n"
+"Description: Webszolgáltatás dinamikus mező teszt\n"
+"FrameworkVersion: 6.0.x git\n"
+"Provider:\n"
+"  ErrorHandling: {}\n"
+"  ErrorHandlingPriority: []\n"
+"  Operation:\n"
+"    TicketGet:\n"
+"      Description: ''\n"
+"      IncludeTicketData: ''\n"
+"      MappingInbound: {}\n"
+"      MappingOutbound: {}\n"
+"      Type: Ticket::TicketGet\n"
+"  Transport:\n"
+"    Config:\n"
+"      AdditionalHeaders: ~\n"
+"      MaxLength: '100000000'\n"
+"      NameSpace: http://www.otrs.org/TicketConnector/\n"
+"      RequestNameFreeText: ''\n"
+"      RequestNameScheme: Plain\n"
+"      ResponseNameFreeText: ''\n"
+"      ResponseNameScheme: Response\n"
+"    Type: HTTP::SOAP\n"
+"RemoteSystem: ''\n"
+"Requester:\n"
+"  ErrorHandling: {}\n"
+"  ErrorHandlingPriority: []\n"
+"  Invoker:\n"
+"    TicketGet:\n"
+"      Description: Lehetséges értékek lekérése a másik oldalról.\n"
+"      Events: []\n"
+"      MappingInbound:\n"
+"        Config:\n"
+"          Template: \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\r\\n<!--\\r\\nCopyright\n"
+"            (C) 2001-2017 OTRS AG, http://otrs.com/\\r\\nThis software comes with ABSOLUTELY\n"
+"            NO WARRANTY. For details, see\\r\\nthe enclosed file COPYING for license\n"
+"            information (AGPL). If you\\r\\ndid not receive this file, see http://www.gnu.org/licenses/agpl.txt.\\r\\n-->\\r\\n\\r\\n<!--\n"
+"            DOKUMENTÁCIÓ\\r\\n\\r\\n* Példa XML bemenet *\\r\\n<RootElement>\\r\\n    ...\\r\\n</RootElement>\\r\\n\\r\\n\\r\\n*\n"
+"            Példa XML kimenet *\\r\\n<RootElement>\\r\\n    <PossibleValues>\\r\\n        <Key>???</Key>\\r\\n\n"
+"            \\       <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n    <PossibleValues>\\r\\n\n"
+"            \\       <Key>???</Key>\\r\\n        <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n\n"
+"            \\   ...\\r\\n</RootElement>\\r\\n\\r\\n-->\\r\\n\\r\\n\\r\\n<xsl:transform\\r\\n    xmlns:xsl=\\\"http://www.w3.org/1999/XSL/Transform\\\"\\r\\n\n"
+"            \\   xmlns:date=\\\"http://exslt.org/dates-and-times\\\"\\r\\n    version=\\\"1.0\\\"\\r\\n\n"
+"            \\   extension-element-prefixes=\\\"date\\\">\\r\\n    \\r\\n    <xsl:output method=\\\"xml\\\"\n"
+"            encoding=\\\"utf-8\\\" indent=\\\"yes\\\" />\\r\\n    \\r\\n    <!-- Don't return\n"
+"            unmatched tags -->\\r\\n    <xsl:template match=\\\"text()\\\" />\\r\\n    \\r\\n\n"
+"            \\   <!-- Üres elemek eltávolítása -->\\r\\n    <xsl:template match=\\\"*[not(node())]\\\"\n"
+"            />\\r\\n    \\r\\n    <!-- Root template -->\\r\\n    <xsl:template match=\\\"/\\\">\\r\\n\n"
+"            \\       <RootElement>\\r\\n            <xsl:apply-templates />\\r\\n        </RootElement>\\r\\n\n"
+"            \\   </xsl:template>\\r\\n\\r\\n    <xsl:template match=\\\"/*/Ticket\\\">\\r\\n\n"
+"            \\       <PossibleValue>\\r\\n            <Key>State</Key>\\r\\n            <Value><xsl:value-of\n"
+"            select=\\\"/*/Ticket/State\\\"/></Value>\\r\\n        </PossibleValue>\\r\\n        <PossibleValue>\\r\\n\n"
+"            \\           <Key>Queue</Key>\\r\\n            <Value><xsl:value-of select=\\\"/*/Ticket/Queue\\\"/></Value>\\r\\n\n"
+"            \\       </PossibleValue>\\r\\n    </xsl:template>\\r\\n    \\r\\n</xsl:transform>\"\n"
+"        Type: XSLT\n"
+"      MappingOutbound:\n"
+"        Config:\n"
+"          Template: \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\r\\n<!--\\r\\nCopyright\n"
+"            (C) 2001-2017 OTRS AG, http://otrs.com/\\r\\n\\r\\nThis software comes with\n"
+"            ABSOLUTELY NO WARRANTY. For details, see\\r\\nthe enclosed file COPYING\n"
+"            for license information (AGPL). If you\\r\\ndid not receive this file, see\n"
+"            http://www.gnu.org/licenses/agpl.txt.\\r\\n-->\\r\\n\\r\\n<!-- DOKUMENTÁCIÓ\\r\\n\\r\\n*\n"
+"            Példa XML bemenet *\\r\\n<RootElement>\\r\\n    ...\\r\\n</RootElement>\\r\\n\\r\\n\\r\\n*\n"
+"            Példa XML kimenet *\\r\\n<RootElement>\\r\\n    <PossibleValues>\\r\\n        <Key>???</Key>\\r\\n\n"
+"            \\       <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n    <PossibleValues>\\r\\n\n"
+"            \\       <Key>???</Key>\\r\\n        <Value>???</Value>\\r\\n    </PossibleValues>\\r\\n\n"
+"            \\   ...\\r\\n</RootElement>\\r\\n\\r\\n-->\\r\\n\\r\\n<xsl:transform\\r\\n    xmlns:xsl=\\\"http://www.w3.org/1999/XSL/Transform\\\"\\r\\n\n"
+"            \\   xmlns:date=\\\"http://exslt.org/dates-and-times\\\"\\r\\n    version=\\\"1.0\\\"\\r\\n\n"
+"            \\   extension-element-prefixes=\\\"date\\\">\\r\\n    <xsl:output method=\\\"xml\\\"\n"
+"            encoding=\\\"utf-8\\\" indent=\\\"yes\\\" />\\r\\n\\r\\n    <!-- Ne adja vissza a páratlan\n"
+"            címkéket -->\\r\\n    <xsl:template match=\\\"text()\\\" />\\r\\n\\r\\n    <!-- Üres\n"
+"            elemek eltávolítása -->\\r\\n    <xsl:template match=\\\"*[not(node())]\\\" />\\r\\n\\r\\n\n"
+"            \\   <!-- Gyökérsablon -->\\r\\n    <xsl:template match=\\\"/\\\">\\r\\n        <RootElement>\\r\\n\n"
+"            \\           <UserLogin>felhasználó</UserLogin>\\r\\n            <Password>jelszó</Password>\\r\\n\n"
+"            \\           <TicketID>1</TicketID>\\r\\n        </RootElement>\\r\\n    </xsl:template>\\r\\n\\r\\n</xsl:transform>\"\n"
+"        Type: XSLT\n"
+"      Type: Generic::PassThrough\n"
+"  Transport:\n"
+"    Config:\n"
+"      Encoding: ''\n"
+"      Endpoint: http://localhost/otrs/nph-genericinterface.pl/Webservice/GenericConfigItemConnectorSOAP\n"
+"      NameSpace: http://www.otrs.org/TicketConnector/\n"
+"      RequestNameFreeText: ''\n"
+"      RequestNameScheme: Plain\n"
+"      ResponseNameFreeText: ''\n"
+"      ResponseNameScheme: Response\n"
+"      SOAPAction: Yes\n"
+"      SOAPActionSeparator: '#'\n"
+"      SSL:\n"
+"        SSLProxy: ''\n"
+"        SSLProxyPassword: ''\n"
+"        SSLProxyUser: ''\n"
+"    Type: HTTP::SOAP\n"
+"  UseMappedData: '1'\n"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/dynamicfield-webservice.xml:223
 msgid "A web service dynamic field definition"
-msgstr ""
+msgstr "Egy webszolgáltatás dinamikus mező meghatározása"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:225
@@ -3180,16 +3710,19 @@ msgid ""
 "After the proper configuration of web services, it is possible to configure "
 "dynamic fields, that use such web services."
 msgstr ""
+"A webszolgáltatások megfelelő beállítása után lehetőség van a dinamikus "
+"mezők beállítására, amelyek az ilyen webszolgáltatásokat használják."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-webservice.xml:230
 msgid "Dynamic Field <emphasis>Web Service</emphasis> - Definition Example"
 msgstr ""
+"<emphasis>Webszolgáltatás</emphasis> dinamikus mező – meghatározás példa"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:237
 msgid "Below is a description of the dynamic field options."
-msgstr ""
+msgstr "Lent látható a dinamikus mező lehetőségeinek leírása."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:242
@@ -3202,6 +3735,8 @@ msgid ""
 "The configured web service whose invokers will be to triggered when a "
 "dynamic field is displayed."
 msgstr ""
+"A beállított webszolgáltatás, amely meghívói aktiválva lesznek, amikor egy "
+"dinamikus megjelenik."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:251
@@ -3215,6 +3750,9 @@ msgid ""
 "field, just invokers of type <literal>Generic::PassThrough</literal> will be "
 "displayed."
 msgstr ""
+"Az a meghívó, amelyet a külső rendszernek történő kérések küldéséhez "
+"használnak. A mezőn belül csak <literal>Generic::PassThrough</literal> "
+"típusú meghívók lesznek megjelenítve."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:260
@@ -3227,6 +3765,8 @@ msgid ""
 "A drop-down menu to determine if the displayed dynamic field should act as a "
 "multi-select field, instead of a drop-down field."
 msgstr ""
+"Egy legördülő menü annak meghatározásához, hogy a megjelenített dinamikus "
+"mezőnek többválasztós mezőként kell szerepelnie egy legördülő mező helyett."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:269
@@ -3239,6 +3779,9 @@ msgid ""
 "A cache time to live value, that contains a value (in minutes). If the value "
 "is 0 or empty, no caching will be active."
 msgstr ""
+"Egy gyorsítótár idő az érték életben tartásához, amely egy értéket tartalmaz "
+"(percben). Ha az érték 0 vagy üres, akkor nem lesz gyorsítótárazás "
+"bekapcsolva."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:276
@@ -3246,6 +3789,8 @@ msgid ""
 "This cache is to prevent unnecessary requests to the remote server using the "
 "same values."
 msgstr ""
+"Ez a gyorsítótár a távoli kiszolgálónak küldendő, ugyanazokat az értékeket "
+"használó, szükségtelen kérések megakadályozásához van."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:282
@@ -3255,12 +3800,12 @@ msgstr "Üres érték hozzáadása"
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:285
 msgid "Defines if it is possible to save an empty value in the field."
-msgstr ""
+msgstr "Meghatározza, hogy lehetséges-e üres értéket elmenteni a mezőben."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:290
 msgid "Tree view"
-msgstr "Fa nézet"
+msgstr "Fanézet"
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:293
@@ -3268,6 +3813,8 @@ msgid ""
 "This option activates the tree view of possible values, if they are supplied "
 "in the correct format."
 msgstr ""
+"Ez a lehetőség bekapcsolja a lehetséges értékek fanézetét, ha azok a helyes "
+"formátumban vannak megadva."
 
 #. type: Content of: <section><section><section><para><variablelist><varlistentry><term>
 #: en/content/features/dynamicfield-webservice.xml:299
@@ -3280,6 +3827,8 @@ msgid ""
 "Defines if the displayed possible values will be translated to the current "
 "user language."
 msgstr ""
+"Meghatározza, hogy a megjelenített lehetséges értékek le legyenek-e fordítva "
+"az aktuális felhasználói nyelvre."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:240
@@ -3295,6 +3844,10 @@ msgid ""
 "of dynamic fields. The following covers the cases for ticket based dynamic "
 "fields."
 msgstr ""
+"A <emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőket az egyéb "
+"típusú dinamikus mezőkhöz hasonlóan be kell kapcsolni számos olyan maszknál, "
+"amelyben azokat meg kell jeleníteni az egyéb típusú dinamikus mezőkhöz "
+"hasonlóan. A következő lista lefedi a jegyalapú dinamikus mezők eseteit."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:318
@@ -3303,6 +3856,9 @@ msgid ""
 "Configuration</emphasis>, then navigate to <emphasis>Frontend → Agent → "
 "View</emphasis>."
 msgstr ""
+"Ez az <emphasis>Adminisztráció → Adminisztrációs áttekintő → "
+"Rendszerbeállítások</emphasis> menüponton keresztül végezhető el, majd "
+"navigáljon a <emphasis>Frontend → Agent → View</emphasis> csoportra."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:322
@@ -3311,21 +3867,25 @@ msgid ""
 "type <emphasis>Web Service</emphasis> should be displayed, the admin has to "
 "configure it to fit his needs. Examples:"
 msgstr ""
+"Minden <literal>Ticket*</literal> beállításnál, amelyen a "
+"<emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőt meg kell "
+"jeleníteni, az adminisztrátornak be kell állítania azt az igényei "
+"kielégítéséhez. Példák:"
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:329
 msgid "<literal>TicketZoom</literal> for the ticket zoom view."
-msgstr ""
+msgstr "<literal>TicketZoom</literal> a jegy nagyított nézeténél."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:334
 msgid "<literal>TicketPhoneNew</literal> for new phone tickets."
-msgstr ""
+msgstr "<literal>TicketPhoneNew</literal> az új telefonos jegyeknél."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:339
 msgid "<literal>TicketEmailNew</literal> for new email tickets."
-msgstr ""
+msgstr "<literal>TicketEmailNew</literal> az új e-mail jegyeknél."
 
 #. type: Content of: <section><section><section><para><itemizedlist><listitem><para>
 #: en/content/features/dynamicfield-webservice.xml:344
@@ -3338,6 +3898,15 @@ msgid ""
 "display option. Choose <emphasis>1 - Enabled</emphasis> to just show the "
 "field or <emphasis>2 - Enabled and required</emphasis> to make it mandatory."
 msgstr ""
+"A dinamikus mező akkor adható hozzá, ha létezik egy <literal>Ticket::"
+"Frontend::AgentTicket*###DynamicField</literal> nevű bejegyzés. Ez a "
+"beállítás határozza meg, hogy mely dinamikus mezőket kell megjeleníteni "
+"ebben a nézetben. Egy dinamikus mező hozzáadásához a mező belső nevét ki "
+"kell tölteni az első mezőben. Megerősítés után egy második mező lesz "
+"kitöltve a megjelenítési lehetőségekkel. Válassza az <emphasis>1 - "
+"engedélyezve</emphasis> lehetőséget, ha csak megjeleníteni szeretné a mezőt, "
+"vagy a <emphasis>2 - engedélyezve és kötelező</emphasis> lehetőséget, ha "
+"kötelezővé szeretné tenni."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/dynamicfield-webservice.xml:359
@@ -3348,11 +3917,17 @@ msgid ""
 "options to choose even without active ACLs due to the change of parameters "
 "in the web request as other fields are changed."
 msgstr ""
+"A <emphasis>webszolgáltatás</emphasis> dinamikus mező használata hasonló a "
+"többi dinamikus mezőhöz (mint például <emphasis>Legördülő</emphasis> vagy "
+"<emphasis>Többválasztós</emphasis>), de a felhasználók elvárhatják, hogy "
+"különböző választási lehetőségeik legyenek még aktív ACL-ek nélkül is a "
+"webkérésben lévő paraméterek megváltozása miatt, amint más mezők "
+"megváltoztak."
 
 #. type: Content of: <section><title>
 #: en/content/features/import-example-process.xml:6
 msgid "Import Ready2Adopt Process"
-msgstr ""
+msgstr "Használatra kész folyamat importálása"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/import-example-process.xml:9
@@ -3367,6 +3942,10 @@ msgid ""
 "you can find an <emphasis>Ready2Adopt Processes</emphasis> widget, where you "
 "can find some best practice Ready2Adopt processes."
 msgstr ""
+"Az adminisztrátori területen lévő <emphasis>Folyamatkezelés</emphasis> "
+"képernyőn található egy <emphasis>Használatra kész folyamatok</emphasis> "
+"felületi elem, ahol megtalálhat néhány legjobb gyakorlat szerinti "
+"használatra kész folyamatot."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:14
@@ -3374,6 +3953,8 @@ msgid ""
 "The following Ready2Adopt processes are available in the <emphasis role="
 "\"bold\">OTRS Business Solution</emphasis>™:"
 msgstr ""
+"A következő használatra kész folyamatok érhetők el az <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:18
@@ -3398,92 +3979,93 @@ msgstr "Eltávozási kérelem menedzsment"
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:22
 msgid "Service Design::Availability Management (proactive)"
-msgstr ""
+msgstr "Szolgáltatástervezés::Rendelkezésreállás-menedzsment (proaktív)"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:23
 msgid "Service Design::Availability Management (reactive)"
-msgstr ""
+msgstr "Szolgáltatástervezés::Rendelkezésreállás-menedzsment (reaktív)"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:24
 msgid "Service Design::Catalogue Management"
-msgstr ""
+msgstr "Szolgáltatástervezés::Katalógusmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:25
 msgid "Service Design::Continuity Management"
-msgstr ""
+msgstr "Szolgáltatástervezés::Folytonosságmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:26
 msgid "Service Design::Service Design Coordination (individual design)"
 msgstr ""
+"Szolgáltatástervezés::Szolgáltatástervezés-koordináció (egyéni tervezés)"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:27
 msgid "Service Design::Service Level Management"
-msgstr ""
+msgstr "Szolgáltatástervezés::Szolgáltatásszint-menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:28
 msgid "Service Design::Supplier Management"
-msgstr ""
+msgstr "Szolgáltatástervezés::Szállítómenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:29
 msgid "Service Operation::Access Management"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Hozzáférés-menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:30
 msgid "Service Operation::Event Management"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Eseménymenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:31
 msgid "Service Operation::Incident Management"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Incidensmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:32
 msgid "Service Operation::Problem Management"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Problémamenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:33
 msgid "Service Operation::Request Fulfillment Management"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Kérésteljesítés-menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:34
 msgid "Service Operation::Service Validation and Testing"
-msgstr ""
+msgstr "Szolgáltatásüzemeltetés::Szolgáltatásellenőrzés és -tesztelés"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:35
 msgid "Service Transition::Change Evaluation"
-msgstr ""
+msgstr "Szolgáltatásbevezetés::Változásértékelés"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:36
 msgid "Service Transition::Knowledge Management"
-msgstr ""
+msgstr "Szolgáltatásbevezetés::Tudásmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:37
 msgid "Service Transition::Release And Deployment Management"
-msgstr ""
+msgstr "Szolgáltatásbevezetés::Kiadás- és üzembeállítás-menedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:38
 msgid "Service Transition::Service Asset and Configuration Management"
-msgstr ""
+msgstr "Szolgáltatásbevezetés::Szolgáltatásieszköz- és konfigurációmenedzsment"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:39
 msgid "Service Transition::Service Transition Planning and Support"
-msgstr ""
+msgstr "Szolgáltatásbevezetés::Szolgáltatásbevezetés-tervezés és -támogatás"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-process.xml:40
@@ -3498,7 +4080,7 @@ msgstr "Útiköltség"
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-process.xml:46
 msgid "Import Ready2Adopt Process Widget"
-msgstr ""
+msgstr "Használatra kész folyamat importálása felületi elem"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-process.xml:48
@@ -3516,6 +4098,10 @@ msgid ""
 "drop-down menu in the <emphasis>Ready2Adopt Processes</emphasis> widget and "
 "click the <emphasis>Import Ready2Adopt process</emphasis> button."
 msgstr ""
+"Egy használatra kész folyamat telepítéséhez egyszerűen válassza ki a kívánt "
+"folyamatot a legördülő menüből a <emphasis>Használatra kész folyamat</"
+"emphasis> felületi elemben, és kattintson a <emphasis>Használatra kész "
+"folyamat importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-process.xml:58
@@ -3530,7 +4116,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/import-example-web-service.xml:6
 msgid "Import Ready2Adopt Web Services"
-msgstr ""
+msgstr "Használatra kész webszolgáltatások importálása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/import-example-web-service.xml:11
@@ -3538,6 +4124,8 @@ msgid ""
 "There are three Ready2Adopt web services available in the <emphasis role="
 "\"bold\">OTRS Business Solution</emphasis>™:"
 msgstr ""
+"Három használatra kész webszolgáltatás érhető el az <emphasis role=\"bold"
+"\">OTRS Business Solution™</emphasis> csomagban:"
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
 #: en/content/features/import-example-web-service.xml:15
@@ -3586,11 +4174,15 @@ msgid ""
 "of the provided web services from the drop-down menu, and click the "
 "<emphasis>Import Ready2Adopt web service</emphasis> button."
 msgstr ""
+"Keresse meg a <emphasis>Használatra kész webszolgáltatások</emphasis> "
+"felületi elemet, válassza ki a felajánlott webszolgáltatások egyikét a "
+"legördülő menüből, és kattintson a <emphasis>Használatra kész "
+"webszolgáltatás importálása</emphasis> gombra."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/import-example-web-service.xml:48
 msgid "Import Ready2Adopt Web Service"
-msgstr ""
+msgstr "Használatra kész webszolgáltatás importálása"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/import-example-web-service.xml:50
@@ -3609,6 +4201,10 @@ msgid ""
 "emphasis> and <emphasis role=\"bold"
 "\">OTRSGenericInterfaceInvokerEventFilter</emphasis>)."
 msgstr ""
+"A használatra kész webszolgáltatások további funkció-kiegészítők telepítését "
+"igényelhetik (<emphasis role=\"bold\">OTRSGenericInterfaceInvokerTicket</"
+"emphasis> és <emphasis role=\"bold\">OTRSGenericInterfaceInvokerEventFilter</"
+"emphasis>)."
 
 #. type: Content of: <section><title>
 #: en/content/features/notifications.xml:6
@@ -3626,6 +4222,13 @@ msgid ""
 "notification</emphasis>) on the <emphasis>Notification Event</emphasis> "
 "screen in the Admin interface."
 msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ két új "
+"értesítési szolgáltatással érkezik: SMS értesítések és az értesítési "
+"webnézet. Technikailag mindkettő a meglévő e-mailes módszeren kívüli "
+"értesítési módszer, és minden értesítéshez bekapcsolhatók (például "
+"<emphasis>Új jegy jegyzet értesítés</emphasis> vagy <emphasis>Jegylétrehozás "
+"értesítés</emphasis>) az <emphasis>Értesítési események</emphasis> képernyőn "
+"az adminisztrátori felületen."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:19
@@ -3639,6 +4242,9 @@ msgid ""
 "<link linkend=\"sms-cloud-service-activate\">activate the SMS cloud service</"
 "link>."
 msgstr ""
+"Mielőtt az SMS értesítésátviteli módszer előnyeit élvezné, először <link "
+"linkend=\"sms-cloud-service-activate\">be kell kapcsolnia az SMS "
+"felhőszolgáltatást</link>."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:27
@@ -3649,6 +4255,12 @@ msgid ""
 "current contingent of remaining SMS units on the admin screen for the SMS "
 "cloud service (<literal>AdminCloudServiceSMS</literal>)."
 msgstr ""
+"Annak érdekében, hogy az adminisztrátoroknál és az ügyfeleknél használni "
+"tudja az SMS szolgáltatást az értesítés módjaként, ahhoz vásárolnia kell egy "
+"SMS egységcsomagot. Vegye fel a kapcsolatot munkatárainkkal a sales@otrs.com "
+"címen ebben az ügyben. Miután megvásárolta a csomagot, képes lesz megkeresni "
+"a hátralévő SMS egységek jelenlegi részlegét az adminisztrációs képernyőn az "
+"SMS felhőszolgáltatásnál (<literal>AdminCloudServiceSMS</literal>)."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:33
@@ -3659,6 +4271,12 @@ msgid ""
 "emphasis> notification method, you can enable SMS notifications by enabling "
 "the checkbox as to be seen in the screenshot below."
 msgstr ""
+"Hogy elérhetővé tegye az SMS-t az értesítésekhez, engedélyeznie kell azt a "
+"választása szerinti értesítésekhez az <emphasis>Értesítései esemény</"
+"emphasis> képernyőn az adminisztrátori felületen. A meglévő <emphasis>E-"
+"mail</emphasis> értesítési módszeren kívül engedélyezheti az SMS "
+"értesítéseket a jelölőnégyzet bejelölésével, amint a lenti képernyőképen "
+"látható."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/notifications.xml:39
@@ -3668,6 +4286,11 @@ msgid ""
 "sent by SMS to all agents with a phone number stored in the configured "
 "field. This could cause a high usage of your available SMS units!"
 msgstr ""
+"Legyen óvatos a <emphasis>Küldés alapértelmezetten</emphasis> jelölőnégyzet "
+"használatával az SMS értesítéseknél. Ennek a jelölőnégyzetnek az "
+"engedélyezése azt fogja okozni, hogy az értesítés ki lesz küldve SMS-ben az "
+"összes olyan ügyintézőnek, akiknél a beállított mezőben egy telefonszám van "
+"eltárolva. Ez az elérhető SMS egységek nagy használatát okozhatja!"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:45
@@ -3677,6 +4300,10 @@ msgid ""
 "(besides the addressed agents). Please note that all of these recipients "
 "will be treated as customers (regarding article creation)."
 msgstr ""
+"Ezen a képernyőn több általános telefonszámot is hozzáadhat (például "
+"archiválási célokkal), amelyek megkapják az összes fontos értesítést (a "
+"címzett ügyintézőkön kívül). Ne feledje, hogy az összes címzett ügyfélként "
+"lesz kezelve (a bejegyzéslétrehozásra vonatkozólag)."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/notifications.xml:51
@@ -3689,6 +4316,8 @@ msgid ""
 "<graphic fileref=\"screenshots/notifications/sms-notification-transport.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/notifications/sms-notification-transport.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:58
@@ -3713,6 +4342,9 @@ msgid ""
 "preferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
 "graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/notifications/sms-notification-agent-"
+"preferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/notifications.xml:70
@@ -3723,11 +4355,16 @@ msgid ""
 "fields, and additionally URLs can be shortened by activating URL shortening "
 "option in cloud service configuration."
 msgstr ""
+"Az SMS értesítési szövegek menet közben lesznek összeállítva a megfelelő "
+"nyelv <emphasis>Tárgy</emphasis> és <emphasis>Szöveg</emphasis> mezőinek "
+"egyesítésével. Természetesen használhatja a támogatott OTRS címkéket ezekben "
+"a mezőkben, és emellett az URL-ek is rövidíthetők az URL rövidítési "
+"lehetőség bekapcsolásával a felhőszolgáltatásban."
 
 #. type: Content of: <section><section><figure><title>
 #: en/content/features/notifications.xml:75
 msgid "SMS Notification Text Fields"
-msgstr ""
+msgstr "SMS értesítési szöveg mezők"
 
 #. type: Content of: <section><section><figure><screenshot>
 #: en/content/features/notifications.xml:77
@@ -3735,6 +4372,8 @@ msgid ""
 "<graphic fileref=\"screenshots/notifications/sms-notification-text.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/notifications/sms-notification-text.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/notifications.xml:83
@@ -3974,6 +4613,10 @@ msgid ""
 "the report will be created and sent immediately. Please find screenshots of "
 "a generated report below."
 msgstr ""
+"Egy jelentés előállításához használhatja a jelentések áttekintőjéről "
+"elérhető <emphasis>Futtatás most</emphasis> gombot. Meg fogják kérni a "
+"megerősítésre, és azután a jelentés létre fog jönni és azonnal elküldésre "
+"kerül. Keresse meg lent az előállított jelentés képernyőképeit."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/report-generator.xml:79
@@ -4034,7 +4677,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/resource-planning.xml:5
 msgid "Resource Planning"
-msgstr ""
+msgstr "Erőforrástervezés"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/resource-planning.xml:10
@@ -4045,11 +4688,17 @@ msgid ""
 "appointments. Furthermore, resources can be assigned to separate teams, "
 "which in turn can be used to filter resource overview and availability."
 msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ szoftverben "
+"lévő erőforrástervezés funkció az OTRS beépített naptárfunkcióját egészíti "
+"ki. Továbbfejleszti az eredeti naptár megvalósítását az időpontoknál történő "
+"erőforráslefoglalás bevezetésével. Ráadásul az erőforrások hozzárendelhetők "
+"a különálló csapatokhoz, amelyek viszont használhatók az erőforrás-"
+"áttekintés és -elérhetőség szűréséhez."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:27
 msgid "Team Management"
-msgstr ""
+msgstr "Csapatkezelés"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:29
@@ -4057,12 +4706,14 @@ msgid ""
 "In order to be able to assign appointments to resources, you must first "
 "define teams for those resources."
 msgstr ""
+"Annak érdekében, hogy képes legyen időpontokat rendelni az erőforrásokhoz, "
+"először csapatokat kell meghatároznia azokhoz az erőforrásokhoz."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:34
 #: en/content/features/resource-planning.xml:52
 msgid "Team Management Add and Import"
-msgstr ""
+msgstr "Csapatkezelés hozzáadás és importálás"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:36
@@ -4070,6 +4721,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAddImport."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementAddImport."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:41
@@ -4079,6 +4732,10 @@ msgid ""
 "an exported YML configuration file of the team from an existing OTRS "
 "installation."
 msgstr ""
+"A csapatok a felső navigációs menün keresztül elérhető <emphasis>Csapatok "
+"kezelése</emphasis> képernyőről adhatók hozzá vagy importálhatók. Egy csapat "
+"importálásához rendelkeznie kell a csapat exportált YML beállítófájljával "
+"egy meglévő OTRS telepítésből."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:46
@@ -4087,6 +4744,11 @@ msgid ""
 "access to this group is required for anyone to be able to manage the team, "
 "its agents and assign them as resources to appointments."
 msgstr ""
+"Új csapat hozzáadása egyszerű: határozzon meg egy csapatnevet és egy "
+"jogosultsági csoportot. Teljes hozzáférés szükséges ehhez a csoporthoz "
+"mindenkinek, akinek képesnek kell lennie kezelnie a csapatot, annak "
+"ügyintézőit, és képesnek kell lennie hozzárendelni őket erőforrásként az "
+"időpontokhoz."
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:54
@@ -4094,12 +4756,14 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementEdit.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementEdit.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:61
 #: en/content/features/resource-planning.xml:74
 msgid "Team Agent Management"
-msgstr ""
+msgstr "Csapat–Ügyintéző kezelés"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:63
@@ -4108,6 +4772,11 @@ msgid ""
 "teams. This is done via dedicated screen where you can adjust relations of "
 "agents and teams very much like you can do it for agents and groups."
 msgstr ""
+"Miután rendelkezik beállított csapatokkal, meg kell határoznia, hogy mely "
+"ügyintézők mely csapatokhoz tartoznak. Ez egy kifejezetten erre a célra "
+"készített képernyőn keresztül végezhető el, ahol beállíthatja az ügyintézők "
+"és a csapatok kapcsolatait nagyon hasonlóan ahhoz, ahogy azt az "
+"ügyintézőknél és csoportoknál teheti."
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:69
@@ -4115,6 +4784,9 @@ msgid ""
 "Please note that in order to see agents in this screen, you must define them "
 "first via <emphasis>Admin → Agents</emphasis> screen."
 msgstr ""
+"Ne feledje, annak érdekében, hogy láthassa az ügyintézőket ezen a képernyőn, "
+"először meg kell határoznia őket az <emphasis>Adminisztráció → Ügyintézők</"
+"emphasis> képernyőn keresztül."
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:76
@@ -4122,6 +4794,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/TeamManagementAgents.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementAgents.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:81
@@ -4129,11 +4803,13 @@ msgid ""
 "By choosing a team from this screen, you can assign agents to it, and vice-"
 "versa."
 msgstr ""
+"Erről a képernyőről egy csapat kiválasztásával ügyintézőket rendelhet hozzá, "
+"és fordítva."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:85
 msgid "Team Agent Relations"
-msgstr ""
+msgstr "Csapat–Ügyintéző kapcsolatok"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:87
@@ -4142,11 +4818,14 @@ msgid ""
 "TeamManagementAgentRelations.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"TeamManagementAgentRelations.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/resource-planning.xml:94
 msgid "Assigning Appointments to Resources"
-msgstr ""
+msgstr "Időpontok hozzárendelése az erőforrásokhoz"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:96
@@ -4154,6 +4833,9 @@ msgid ""
 "Finally, once you have both teams and their agents set up, you can proceed "
 "to a calendar overview and start assigning appointments to teams and agents."
 msgstr ""
+"Végül, amikor a csapatok és az ügyintézőik is be vannak állítva, "
+"továbbléphet a naptár áttekintőjéhez, és elkezdheti az időpontok "
+"hozzárendelését a csapatokhoz és az ügyintézőkhöz."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:100
@@ -4162,11 +4844,15 @@ msgid ""
 "lists under resource. You can do this via any calendar overview, as "
 "appointment edit dialog is the same for all of them."
 msgstr ""
+"Egyszerűen adjon hozzá vagy szerkesszen egy időpontot, és válasszon mind "
+"csapatot, mind ügyintézőt az erőforrás alatti listákból. Ezt bármely "
+"naptáráttekintőn keresztül megteheti, mivel az időpontszerkesztő "
+"párbeszédablak ugyanaz az összes áttekintőnél."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:105
 msgid "Assigning team and agent to an appointment"
-msgstr ""
+msgstr "Csapat és ügyintéző hozzárendelése egy időponthoz"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:107
@@ -4174,6 +4860,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/AppointmentEditResource."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/AppointmentEditResource."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:112
@@ -4183,11 +4871,16 @@ msgid ""
 "all selected teams, without any duplicates. Choosing an agent from the list "
 "is also optional, so you can leave an appointment assigned only to a team."
 msgstr ""
+"Több csapatot és ügyintézőt is hozzárendelhet egyetlen időponthoz, de "
+"először mindig csapatot kell választania. Az eredményül kapott "
+"ügyintézőlista az összes kiválasztott csapatban lévő ügyintézők sokasága, "
+"ismétlődések nélkül. Egy ügyintéző választása a listából nem is kötelező, "
+"így egy időpontot hagyhat csak egy csapathoz rendelten."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:118
 msgid "Assigning multiple teams and agents to an appointment"
-msgstr ""
+msgstr "Több csapat és ügyintéző hozzárendelése egy időponthoz"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:120
@@ -4196,6 +4889,9 @@ msgid ""
 "AppointmentEditResourceMultiple.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"AppointmentEditResourceMultiple.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:126
@@ -4203,13 +4899,15 @@ msgid ""
 "Once you assign an appointment to a team and/or agent, make sure to save it "
 "so your changes are applied."
 msgstr ""
+"Amikor egy időpontot rendel egy csapathoz és/vagy ügyintézőhöz, akkor "
+"győződjön meg arról, hogy elmentette, és a változtatásai alkalmazva lettek."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:133
 #: en/content/features/resource-planning.xml:145
 #: en/content/features/resource-planning.xml:162
 msgid "Resource Overview"
-msgstr "Erőforrás áttekintő"
+msgstr "Erőforrásáttekintés"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:135
@@ -4220,6 +4918,12 @@ msgid ""
 "calendar overview, except it has a filter for teams on top and a list of "
 "agents for that team (available only in timeline views)."
 msgstr ""
+"Míg bármely naptáráttekintőben lehetséges erőforrásokat hozzárendelni egy "
+"időponthoz, az erőforrásoknak az időpontokhoz történő hozzárendeléséhez egy "
+"kizárólagos képernyőt terveztek: az erőforrásáttekintőt. Ez a képernyő "
+"nagyon hasonlóan néz ki, mint egy szokásos naptáráttekintő, kivéve, hogy a "
+"felső részén rendelkezik egy szűrővel a csapatokhoz és a csapat "
+"ügyintézőlistájához (csak idővonal nézetekben érhető el)."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:141
@@ -4227,6 +4931,8 @@ msgid ""
 "By choosing a team from the top filter, you will be presented with all "
 "appointments assigned to it."
 msgstr ""
+"A felső szűrőből egy csapat választásakor megjelenítésre kerül az ahhoz "
+"rendelt összes időpont."
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:147
@@ -4234,6 +4940,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:152
@@ -4243,6 +4951,10 @@ msgid ""
 "an appointment does not have an agent assigned to it, it will appear in the "
 "unassigned area of the screen."
 msgstr ""
+"Ha egy időpontot egyszerűen ráhúz egy ügyintéző nevét tartalmazó sorra az "
+"idővonal nézeten, akkor lehetséges egy időpont hozzárendelése ahhoz az "
+"erőforráshoz. Ha egy időpontnak még nincs hozzárendelt ügyintézője, akkor az "
+"a képernyő hozzárendeletlen területén jelenik meg."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:157
@@ -4251,6 +4963,9 @@ msgid ""
 "most certainly is not. Dragging one instance of this appointment will move "
 "all them in the same fashion."
 msgstr ""
+"A több ügyintézővel rendelkező időpont kettőzöttként fog megjelenni, de ez "
+"minden bizonnyal nem. Az időpont egy példányának húzása az összeset ugyanúgy "
+"áthelyezi."
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:164
@@ -4258,6 +4973,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/features/resource-planning.xml:170
@@ -4267,6 +4984,11 @@ msgid ""
 "will have to switch to a different overview to see these appointments, so "
 "make sure to assign them to a correct team first."
 msgstr ""
+"Ne feledje, hogy a hozzárendeletlen csapatokkal vagy a jelenlegi "
+"kiválasztástól eltérő hozzárendelt csapatokkal rendelkező időpontok nem "
+"fognak megjelenni az erőforrásáttekintőben. Át kell váltania egy másik "
+"áttekintőre, hogy lássa azokat az időpontokat, ezért először arról győződjön "
+"meg, hogy a megfelelő csapathoz rendelte-e azokat."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:176
@@ -4274,11 +4996,14 @@ msgid ""
 "By editing settings of the resource overview (via gear icon in top right "
 "corner), you can choose which team agents are displayed within the overview."
 msgstr ""
+"Az erőforrásáttekintő beállításainak szerkesztésével (a jobb felső sarokban "
+"lévő fogaskerék ikonon keresztül) kiválaszthatja, hogy mely csapatügyintézők "
+"legyenek megjelenítve az áttekintőn belül."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:181
 msgid "Resource Overview Settings"
-msgstr ""
+msgstr "Erőforrásáttekintő beállításai"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:183
@@ -4286,6 +5011,8 @@ msgid ""
 "<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewSettings."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewSettings."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:188
@@ -4294,11 +5021,14 @@ msgid ""
 "filter in this way, a trash icon will be displayed on top of the list of "
 "agents so you can remove it easily."
 msgstr ""
+"Ez a beállítás a felhasználóra és a csapatra jellemző, és ha rendelkezik egy "
+"meghatározott ügyintézőszűrővel ily módon, akkor egy kuka ikon lesz "
+"megjelenítve az ügyintézőlista tetején, így egyszerűen eltávolíthatja azt."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/resource-planning.xml:193
 msgid "Resource Overview Filter Delete"
-msgstr ""
+msgstr "Erőforrásáttekintő szűrőjének törlése"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/resource-planning.xml:195
@@ -4307,6 +5037,9 @@ msgid ""
 "ResourceOverviewFilterDelete.png\" scalefit=\"1\" width=\"100%\" "
 "contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"ResourceOverviewFilterDelete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/resource-planning.xml:200
@@ -4314,6 +5047,8 @@ msgid ""
 "In all other aspects, resource overview screen behaves in the same way as a "
 "regular calendar overview."
 msgstr ""
+"Minden más szempontból az erőforrásáttekintő képernyő ugyanúgy viselkedik, "
+"mint a szokásos naptáráttekintő."
 
 #. type: Content of: <section><title>
 #: en/content/features/sla-selection-dialog.xml:6
@@ -4399,7 +5134,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/features/sms-communication-channel.xml:6
 msgid "SMS Communication Channel"
-msgstr ""
+msgstr "SMS kommunikációs csatorna"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:10
@@ -4409,12 +5144,16 @@ msgid ""
 "Service). It allows you to leverage SMS cloud service to send out messages "
 "and store them as article in tickets."
 msgstr ""
+"Az <emphasis role=\"bold\">OTRS Business Solution</emphasis>™ egy további "
+"kommunikációs csatornát hoz az OTRS példányba: SMS (rövid szöveges üzenet). "
+"Lehetővé teszi az SMS felhőszolgáltatás kihasználását üzenetek kiküldéséhez "
+"és a jegyekben bejegyzésekként való tárolásukhoz."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:17
 #: en/content/features/sms-communication-channel.xml:42
 msgid "Activating SMS Cloud Service"
-msgstr ""
+msgstr "Az SMS felhőszolgáltatás bekapcsolása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:19
@@ -4423,11 +5162,15 @@ msgid ""
 "do so, please visit the <emphasis>Cloud Services</emphasis> screen in Admin "
 "interface, and click on SMS entry in table."
 msgstr ""
+"Mielőtt az SMS felhőszolgáltatás előnyét élvezné, először be kell kapcsolnia "
+"azt. Ehhez látogasson el a <emphasis>Felhőszolgáltatások</emphasis> "
+"képernyőre az adminisztrátori felületen, és kattintson az SMS bejegyzésre a "
+"táblázatban."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:24
 msgid "Cloud Services Screen in Admin Interface"
-msgstr ""
+msgstr "Felhőszolgáltatások képernyő az adminisztrátori felületen"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:26
@@ -4435,6 +5178,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:32
@@ -4444,6 +5189,11 @@ msgid ""
 "package, you will be able to look up your current contingent of remaining "
 "SMS units in the sidebar of the cloud service configuration screen."
 msgstr ""
+"Az SMS felhőszolgáltatás használatának érdekében vásárolnia kell egy SMS "
+"egységcsomagot. Vegye fel a kapcsolatot a sales@otrs.com címen ebben a "
+"kérdésben. Amikor megvásárolt egy csomagot, képes lesz megnézni a hátralévő "
+"SMS egységek aktuális mennyiségét a felhőszolgáltatás beállítási "
+"képernyőjének oldalsávjában."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:38
@@ -4451,6 +5201,8 @@ msgid ""
 "To activate SMS cloud service, make sure to accept the Data Protection "
 "agreement by selecting the checkbox."
 msgstr ""
+"Az SMS felhőszolgáltatás bekapcsolásához győződjön meg arról, hogy elfogadta-"
+"e az adatvédelmi megállapodást a jelölőnégyzet bejelölésével."
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:44
@@ -4458,6 +5210,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service-"
 "config.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-cloud-service-"
+"config.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:49
@@ -4467,6 +5221,10 @@ msgid ""
 "messages or the agent/customer preference field name which should be used to "
 "take the mobile phone number from."
 msgstr ""
+"Ezen a képernyőn az SMS felhőszolgáltatás néhány további paraméterét is "
+"beállíthatja, például a küldő szöveget, amelyet az SMS szöveges üzeneténél "
+"kell használni, vagy az ügyintéző/ügyfél beállítási mezőjének nevét, amelyet "
+"a mobiltelefonszám kivételéhez kell használni."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:55
@@ -4475,6 +5233,9 @@ msgid ""
 "the configuration options of the address book in the system configuration to "
 "reflect this change:"
 msgstr ""
+"Ha megváltoztat egy értéket az ügyfél beállítási mezőjénél, akkor győződjön "
+"meg arról, hogy frissítette-e a címjegyzék beállítási lehetőségeit a "
+"rendszerbeállításokban, hogy ezt a változtatást tükrözze:"
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:61
@@ -4482,6 +5243,8 @@ msgid ""
 "<literal>CustomerUser::Frontend::"
 "AgentCustomerUserAddressBook###SearchParameters###SMS</literal>"
 msgstr ""
+"<literal>CustomerUser::Frontend::"
+"AgentCustomerUserAddressBook###SearchParameters###SMS</literal>"
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:64
@@ -4489,6 +5252,8 @@ msgid ""
 "<literal>CustomerUser::Frontend::"
 "AgentCustomerUserAddressBook###DefaultFields###SMS</literal>"
 msgstr ""
+"<literal>CustomerUser::Frontend::"
+"AgentCustomerUserAddressBook###DefaultFields###SMS</literal>"
 
 #. type: Content of: <section><section><note><para><itemizedlist><listitem><para>
 #: en/content/features/sms-communication-channel.xml:67
@@ -4496,6 +5261,8 @@ msgid ""
 "<literal>CustomerUser::Frontend::"
 "AgentCustomerUserAddressBook###ShowColumns###SMS</literal>"
 msgstr ""
+"<literal>CustomerUser::Frontend::"
+"AgentCustomerUserAddressBook###ShowColumns###SMS</literal>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:72
@@ -4503,6 +5270,8 @@ msgid ""
 "This will make sure your configuration stays in sync and phone numbers can "
 "be found/copied from correct fields."
 msgstr ""
+"Ez azt fogja biztosítani, hogy a beállításai szinkronban maradjanak, és a "
+"telefonszámok megtalálhatók és kimásolhatók legyenek a helyes mezőkből."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:77
@@ -4511,6 +5280,10 @@ msgid ""
 "roles whose members will be able to receive SMS notifications. If undefined, "
 "all agents will have a possibility of receiving SMS notifications."
 msgstr ""
+"Az <emphasis>Engedélyezett szereptagok</emphasis> egy nem kötelező fehér "
+"listája azoknak az ügyintézői szerepeknek, amely tagjai képesek lesznek SMS "
+"értesítéseket fogadni. Ha nincs meghatározva, akkor az összes ügyintézőnek "
+"meglesz a lehetősége SMS értesítéseket fogadni."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:81
@@ -4521,6 +5294,12 @@ msgid ""
 "will be shortened only if their length is larger than resulting shortened "
 "URL, in order to keep SMS costs down."
 msgstr ""
+"Az <emphasis>URL rövidítés végrehajtása</emphasis> jelölőnégyzet vezérli az "
+"SMS szövegekben lévő hivatkozások rövidítésének funkcióját. Ha engedélyezve "
+"van, akkor az SMS szöveg részeként kiküldött összes hivatkozást rövidíteni "
+"fogja az OTRS felhő URL rövidítési szolgáltatása. A hivatkozások csak akkor "
+"lesznek rövidítve, ha a hosszuk nagyobb az eredményül kapott rövidített URL-"
+"nél annak érdekében, hogy az SMS költségeket alacsonyan tartsa."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:86
@@ -4531,11 +5310,17 @@ msgid ""
 "input phone numbers in international format, complete with plus sign (+) and "
 "country code, without any spaces."
 msgstr ""
+"Bizonyos telefonszámoknak a <emphasis>Telefon feketelista</emphasis> mezőbe "
+"történő hozzáadásával meggyőződhet arról, hogy azokra a számokra sosem fog "
+"semmilyen SMS szöveget sem kiküldeni a felhőszolgáltatás (legyen az akár egy "
+"értesítés, akár egy bejegyzés). Győződjön meg arról, hogy a telefonszámokat "
+"nemzetközi formátumban írja be: egészítse ki egy plusz jellel (+) és az "
+"országkóddal, szóközök nélkül."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/sms-communication-channel.xml:93
 msgid "Configuring SMS Templates"
-msgstr ""
+msgstr "SMS sablonok beállítása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:95
@@ -4544,6 +5329,10 @@ msgid ""
 "specific screens and assign them to correct queues. You can find "
 "<emphasis>SMS template management</emphasis> screen in the Admin interface."
 msgstr ""
+"Annak érdekében, hogy használatba vehesse az SMS sablonokat, először be kell "
+"állítania azokat az egyes képernyőkhöz, és hozzá kell rendelnie azokat a "
+"helyes várólistákhoz. Találhat egy <emphasis>SMS sablon kezelés</emphasis> "
+"képernyőt az adminisztrátori felületen."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:100
@@ -4557,6 +5346,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-template-"
 "overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-template-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:107
@@ -4564,6 +5355,9 @@ msgid ""
 "SMS templates behave similar to regular email templates. You define them "
 "first, and then assign to queues with which you would like to use them."
 msgstr ""
+"A SMS sablonok hasonlóan viselkednek mint a szokásos e-mail sablonok. "
+"Először határozza meg a sablonokat, és azután rendelje hozzá azokhoz a "
+"várólistákhoz, amelyeknél használni szeretné azokat."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:111
@@ -4571,11 +5365,13 @@ msgid ""
 "<emphasis>Template Type</emphasis> field determines for which screen the "
 "template will be visible:"
 msgstr ""
+"A <emphasis>Sablontípus</emphasis> mező határozza meg, hogy mely képernyőnél "
+"lesz a sablon látható:"
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
 #: en/content/features/sms-communication-channel.xml:116
 msgid "<literal>Answer</literal>"
-msgstr ""
+msgstr "<literal>Answer</literal>"
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:118
@@ -4583,26 +5379,28 @@ msgid ""
 "Template will be visible for <emphasis>Reply via SMS article</emphasis> "
 "action."
 msgstr ""
+"A sablon a <emphasis>Válasz SMS bejegyzésben</emphasis> műveletnél lesz "
+"látható."
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
 #: en/content/features/sms-communication-channel.xml:122
 msgid "<literal>Create</literal>"
-msgstr ""
+msgstr "<literal>Create</literal>"
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:124
 msgid "Template will be visible in <emphasis>New SMS ticket</emphasis> screen."
-msgstr ""
+msgstr "A sablon az <emphasis>Új SMS jegy</emphasis> képernyőben lesz látható."
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><term>
 #: en/content/features/sms-communication-channel.xml:128
 msgid "<literal>SMSOutbound</literal>"
-msgstr ""
+msgstr "<literal>SMSOutbound</literal>"
 
 #. type: Content of: <section><section><para><variablelist><varlistentry><listitem><para>
 #: en/content/features/sms-communication-channel.xml:130
 msgid "Template will be visible in <emphasis>SMS Outbound</emphasis> screen."
-msgstr ""
+msgstr "A sablon a <emphasis>Kimenő SMS</emphasis> képernyőben lesz látható."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:137
@@ -4611,6 +5409,9 @@ msgid ""
 "<literal>&lt;OTRS_CURRENT_*&gt;</literal> and <literal>&lt;OTRS_CONFIG_*&gt;"
 "</literal>."
 msgstr ""
+"A <literal>Create</literal> típusú sablonok csak ezeket az okos címkéket "
+"támogatják: <literal>&lt;OTRS_CURRENT_*&gt;</literal> és <literal>&lt;"
+"OTRS_CONFIG_*&gt;</literal>."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:141
@@ -4619,6 +5420,10 @@ msgid ""
 "do this by following link in the sidebar or via <emphasis>SMS Templates ↔ "
 "Queues</emphasis> link in the admin interface."
 msgstr ""
+"Amikor meghatároz egy SMS sablont, akkor ne felejtse el hozzáadni azt a "
+"várólistákhoz. Ezt megteheti az oldalsávban lévő hivatkozás követésével, "
+"vagy az <emphasis>SMS sablonok ↔ Várólisták</emphasis> hivatkozáson "
+"keresztül az adminisztrációs felületen."
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:148
@@ -4627,11 +5432,14 @@ msgid ""
 "relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
 "graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/features/sms-communication-channel.xml:155
 msgid "Creating SMS Tickets"
-msgstr ""
+msgstr "SMS jegyek létrehozása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:157
@@ -4640,13 +5448,16 @@ msgid ""
 "<emphasis>New SMS ticket</emphasis> screen accessible via <emphasis>Tickets</"
 "emphasis> menu on the main toolbar."
 msgstr ""
+"Egy első bejegyzésként SMS-en keresztül történő jegy létrehozásához menjen "
+"az <emphasis>Új SMS jegy</emphasis> képernyőre, amely a fő eszköztáron lévő "
+"<emphasis>Jegyek</emphasis> menün keresztül érhető el."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:162
 #: en/content/features/sms-communication-channel.xml:212
 #: en/content/features/sms-communication-channel.xml:225
 msgid "New SMS Ticket Screen"
-msgstr ""
+msgstr "Új SMS jegy képernyő"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:164
@@ -4654,6 +5465,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-create."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-create."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:169
@@ -4665,6 +5478,13 @@ msgid ""
 "via this field, provided they have a valid phone number stored in preference "
 "field which is configured in cloud service configuration screen."
 msgstr ""
+"Ez a képernyő hasonlóan viselkedik mint az új e-mail és telefon képernyők, "
+"de néhány említésre méltó kivétellel. Az e-mail címek helyett a "
+"<emphasis>Címzettek</emphasis> mező csak telefonszámokat fogad el nemzetközi "
+"formátumban, egy plusz jellel (+) és az országkóddal kiegészítve. Rákereshet "
+"ügyfél-felhasználókra is ezen mezőn keresztül, feltéve, hogy rendelkeznek "
+"érvényes telefonszámmal a beállítások mezőben eltárolva, amely a "
+"felhőszolgáltatás beállításai képernyőn van beállítva."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:175
@@ -4673,6 +5493,9 @@ msgid ""
 "recipients field. Search form will allow you to find customer user you are "
 "looking for, and add their phone number to the list of recipients."
 msgstr ""
+"Felhasználhatja a címjegyzéket a címzettek mező mellett lévő kis ikonra "
+"kattintva is. A keresési űrlap lehetővé teszi, hogy megtalálja a keresett "
+"ügyfél-felhasználót, és hozzáadja a telefonszámát a címzettek listájához."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:180
@@ -4681,6 +5504,9 @@ msgid ""
 "for internal use only. Customer will receive message based exclusively on "
 "the contents of the <emphasis>Text</emphasis> field."
 msgstr ""
+"A <emphasis>Jegycím</emphasis> mező nem lesz benne az SMS-ben, és csak belső "
+"használatra van. Az ügyfél kizárólag a <emphasis>Szöveg</emphasis> mező "
+"tartalma alapján kapja meg az üzenetet."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:185
@@ -4690,6 +5516,10 @@ msgid ""
 "will have the option of populating the <emphasis>Text</emphasis> field with "
 "preconfigured message."
 msgstr ""
+"Ha beállított <literal>Create</literal> típusú SMS sablonokat, és "
+"hozzárendelte azokat a jelenleg kiválasztott <emphasis>Várólistához</"
+"emphasis>, akkor lehetősége lesz a <emphasis>Szöveg</emphasis> mezőt "
+"feltölteni előre beállított üzenettel."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:189
@@ -4698,6 +5528,9 @@ msgid ""
 "showed directly on the device without user interaction and not stored "
 "automatically."
 msgstr ""
+"A <emphasis>Felugró üzenet</emphasis> jelölőnégyzet azt vezérli, hogy az "
+"üzenet közvetlenül meg legyen jelenítve az eszközön felhasználói beavatkozás "
+"nélkül, és nem kerül automatikusan eltárolásra."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:194
@@ -4706,6 +5539,10 @@ msgid ""
 "messages) may vary by device and provider. OTRS cannot guarantee if this "
 "flag will be honored by service provider or supported by receiving device."
 msgstr ""
+"A felugró üzenetek (ismert még <emphasis>0. osztályú</emphasis> üzenetként "
+"is) támogatása eszközönként és szolgáltatóként eltérő lehet. Az OTRS nem "
+"tudja garantálni, hogy ezt a jelzőt figyelembe veszik a szolgáltatók vagy "
+"támogatja-e a fogadó eszköz."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:199
@@ -4715,11 +5552,15 @@ msgid ""
 "errors were encountered, you will be notified, and ticket will not be "
 "created."
 msgstr ""
+"Az <emphasis>SMS küldése</emphasis> gombra kattintva a jegy létrejön egy SMS "
+"bejegyzéssel, feltéve, hogy az SMS felhőszolgáltatás elfogadta az üzenetet. "
+"Ha valamilyen hiba történt, akkor értesülni fog róla, és a jegy nem kerül "
+"létrehozásra."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/sms-communication-channel.xml:205
 msgid "Creating SMS Articles"
-msgstr ""
+msgstr "SMS bejegyzések létrehozása"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:207
@@ -4728,6 +5569,9 @@ msgid ""
 "emphasis> action on the main ticket toolbar (<emphasis>Communication</"
 "emphasis> section)."
 msgstr ""
+"Egy meglévő jegyhez való SMS hozzáadásához használhatja a <emphasis>Kimenő "
+"SMS</emphasis> műveletet a fő eszköztáron (<emphasis>Kommunikáció</emphasis> "
+"szakasz)."
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:214
@@ -4735,6 +5579,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-outbound."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-outbound."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:219
@@ -4744,6 +5590,10 @@ msgid ""
 "question, and either click on the button, or choose name of the template (if "
 "you have it configured for this screen)."
 msgstr ""
+"Ha már van bejegyzése, akkor használhatja a bejegyzés eszköztáron lévő "
+"<emphasis>Válasz SMS-ben</emphasis> műveletet. Egyszerűen válassza ki a "
+"kérdéses bejegyzést, és kattintson a gombra, vagy válassza ki a sablon nevét "
+"(ha beállította ehhez a képernyőhöz)."
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:227
@@ -4751,6 +5601,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-reply.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-reply.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:232
@@ -4760,6 +5612,11 @@ msgid ""
 "different communication channel (e.g. Email), it should be correctly "
 "recognized and substituted with valid phone number."
 msgstr ""
+"Ha az ügyfél-felhasználónak van meghatározott telefonszáma, akkor az "
+"automatikusan beszúrásra kerül a címzettek listájába. Nem számít, hogy a "
+"bejegyzés eltérő kommunikációs csatornán lett létrehozva (például e-"
+"mailben), helyesen fel lesz ismerve és helyettesítve lesz az érvényes "
+"telefonszámmal."
 
 #. type: Content of: <section><section><note><para>
 #: en/content/features/sms-communication-channel.xml:238
@@ -4770,11 +5627,17 @@ msgid ""
 "occur during sending of the message, there is no way to guarantee final "
 "size, and counter should be taken only for informative purposes."
 msgstr ""
+"Ne feledje, hogy az SMS karakterszámlálója nem mindig tükrözi a végső "
+"üzenetméretet. Ez különösen akkor igaz, ha az üzenet szövege OTRS címkéket "
+"vagy hivatkozásokat tartalmaz, és az URL rövidítési funkció be van "
+"kapcsolva. Mivel a szöveg behelyettesítése az üzenet küldése során történik "
+"meg, nincs mód a végső méretet garantálni, és a számlálót csak tájékoztató "
+"jelleggel szabad figyelembe venni."
 
 #. type: Content of: <section><section><title>
 #: en/content/features/sms-communication-channel.xml:247
 msgid "Displaying SMS Articles"
-msgstr ""
+msgstr "SMS bejegyzések megjelenítése"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:249
@@ -4784,6 +5647,10 @@ msgid ""
 "by the SMS cloud service for sending (with all tags replaced and links "
 "shortened)."
 msgstr ""
+"Az SMS bejegyzések úgy jeleníthetők meg közvetlenül a jegynagyítás "
+"képernyőn, ahogy ki lettek küldve. A tartalmuk tükrözni fogja az üzenet "
+"végső állapotát, ahogy az SMS felhőszolgáltatás sorba állította azokat a "
+"küldéshez (az összes behelyettesített címkével és rövidített hivatkozással)."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:254
@@ -4796,11 +5663,18 @@ msgid ""
 "for debugging purposes, since they can be connected to specific messages "
 "handled by the cloud service."
 msgstr ""
+"Egy SMS bejegyzés címzettjei a <emphasis>Címzettek</emphasis> mezőn belül "
+"lesznek felsorolva. Két formátumban jeleníthetők meg: csak telefonszámok "
+"vagy telefonszámok a megfelelő ügyfél-felhasználók nevével. A mező melletti "
+"<emphasis>Tranzakciószámok</emphasis> fogja tartalmazni a címzettek "
+"telefonszámaira leképezett hivatkozási üzenetazonosítót. Ezek a számok "
+"hibakeresési célokra használhatók, mivel a felhőszolgáltatás által kezelt, "
+"adott üzenetekhez kapcsolhatók."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:262
 msgid "SMS Article Display"
-msgstr ""
+msgstr "SMS bejegyzés megjelenítése"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:264
@@ -4808,6 +5682,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-zoom.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-zoom.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sms-communication-channel.xml:269
@@ -4817,11 +5693,15 @@ msgid ""
 "contain an entry for every message sent out via SMS cloud service, with "
 "corresponding transaction and phone number in it."
 msgstr ""
+"A bejegyzésfejléc mezőn kívül a tranzakciószámok is megtalálhatók a "
+"<emphasis>Jegyelőzmények</emphasis> képernyőn. Ez a képernyő tartalmazni fog "
+"egy bejegyzést az SMS felhőszolgáltatás által kiküldött minden egyes "
+"üzenethez, bennük a megfelelő tranzakció- és telefonszámokkal."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/sms-communication-channel.xml:275
 msgid "SMS Ticket History Entries"
-msgstr ""
+msgstr "SMS jegyelőzmények bejegyzései"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/features/sms-communication-channel.xml:277
@@ -4829,11 +5709,13 @@ msgid ""
 "<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-history."
 "png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sms-communication-channel/sms-ticket-history."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/sysconfig-user-settings.xml:6
 msgid "System Configuration User Specific Settings"
-msgstr ""
+msgstr "Rendszerbeállítások felhasználóra jellemző beállításai"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:10
@@ -4842,6 +5724,10 @@ msgid ""
 "system configuration settings.  These values can be defined in the user "
 "preferences section in the new <emphasis>Advanced</emphasis> pane."
 msgstr ""
+"Ez a funkcionalitás lehetővé teszi az ügyintéző felhasználóknak, hogy "
+"meghatározzák a saját értékeiket néhány rendszerbeállításnál. Ezek az "
+"értékek a felhasználói beállításokban határozhatók meg az új "
+"<emphasis>Speciális</emphasis> ablaktáblán."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:14
@@ -4850,11 +5736,15 @@ msgid ""
 "and reset them if necessary and to forbid or allow user modifications on "
 "specific settings."
 msgstr ""
+"Az adminisztrátorok képesek felülvizsgálni a felhasználó által meghatározott "
+"értékeket ezeknél a beállításoknál, és szükség esetén visszaállíthatják "
+"azokat, valamint megtilthatják vagy engedélyezhetik a felhasználói "
+"módosításokat bizonyos beállításoknál."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-user-settings.xml:27
 msgid "Set user specific value"
-msgstr ""
+msgstr "Felhasználóra jellemző érték beállítása"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:29
@@ -4863,11 +5753,15 @@ msgid ""
 "preferences</emphasis> screen. Once you are in this screen, select the "
 "<emphasis>Advanced</emphasis> option in the preferences panel."
 msgstr ""
+"Minden ügyintéző meghatározhat egy értéket egy beállításhoz a "
+"<emphasis>Személyes beállítások</emphasis> képernyőn. Amikor ezen a "
+"képernyőn van, válassza a <emphasis>Speciális</emphasis> lehetőséget a "
+"beállítások panelen."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:34
 msgid "Accessing the user specific settings"
-msgstr ""
+msgstr "Hozzáférés a felhasználóra jellemző beállításokhoz"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:36
@@ -4875,6 +5769,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sysconfig-user-settings/personal-preferences-"
 "group.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/personal-preferences-"
+"group.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:41
@@ -4884,6 +5780,10 @@ msgid ""
 "it using the <emphasis>check mark</emphasis> button in the right side of the "
 "setting widget."
 msgstr ""
+"A bal oldalsávban lévő navigációs felületi elem használatával válassza ki a "
+"kívánt beállítási csoportot. Ezután megváltoztathatja egy adott beállítás "
+"értékét, és elmentheti a <emphasis>pipa</emphasis> gomb használatával a "
+"beállítás felületi elemének jobb oldalán."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:46
@@ -4892,11 +5792,15 @@ msgid ""
 "<emphasis>Reset to default</emphasis> icon button present in the right top "
 "corner of the modified setting widget."
 msgstr ""
+"Amikor módosított egy értéket, akkor lehetőség van visszaállítani a "
+"változtatást a <emphasis>Visszaállítás az alapértékre</emphasis> ikongomb "
+"használatával, amely a módosított beállítás felületi elemének jobb felső "
+"sarkában található."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:51
 msgid "Reverting a setting to default value"
-msgstr ""
+msgstr "Egy beállítás visszaállítása az alapértelmezett értékre"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:53
@@ -4904,11 +5808,13 @@ msgid ""
 "<graphic fileref=\"screenshots/sysconfig-user-settings/revert-user-setting-"
 "value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/revert-user-setting-"
+"value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-user-settings.xml:59
 msgid "Review user specific settings"
-msgstr ""
+msgstr "Felhasználóra jellemző beállítások felülvizsgálata"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:61
@@ -4919,6 +5825,12 @@ msgid ""
 "package includes an administrative tool to review and delete user set values "
 "if needed."
 msgstr ""
+"Amikor egy beállítás elérhető felhasználói módosításhoz, akkor az összes "
+"felhasználó képes beállítani a saját értékeit. A beállítás természetétől "
+"függően az értékek nagyban különbözhetnek a felhasználók között, és "
+"összehasonlíthatók az eredeti globális értékükkel is. Ez a csomag tartalmaz "
+"egy adminisztrációs eszközt a felhasználó által beállított értékek "
+"felülvizsgálatához és törléséhez, ha szükséges."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:67
@@ -4927,11 +5839,15 @@ msgid ""
 "alternative menu on the settings that are enabled to show the "
 "<emphasis>Review users setting values</emphasis> screen."
 msgstr ""
+"Kattintson a <emphasis>Felhasználói beállítások megjelenítése</emphasis> "
+"gombra az alternatív menüben azoknál a beállításoknál, amelyeknél "
+"engedélyezve van, hogy megjelenjen a <emphasis>Felhasználók beállítási "
+"értékeinek felülvizsgálata</emphasis> képernyő."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:72
 msgid "Access to user values of a particular setting"
-msgstr ""
+msgstr "Hozzáférés egy adott beállítás felhasználói értékeihez"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:74
@@ -4939,6 +5855,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sysconfig-user-settings/show-user-settings.png"
 "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/show-user-settings.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:79
@@ -4948,11 +5866,16 @@ msgid ""
 "corner of every setting widget, or delete all user values for this setting "
 "by clicking on the trash icon in the outer setting widget."
 msgstr ""
+"Ezen a képernyőn a kiválasztott beállításnak a felhasználóra jellemző összes "
+"értéke látható lesz. Egy önálló érték törléséhez kattintson a kuka ikonra "
+"minden egyes beállítás felületi elemének jobb felső sarkában, vagy törölje a "
+"beállítás összes felhasználói értékét a külső beállítási felületi elem kuka "
+"ikonjára kattintva."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:85
 msgid "Usage of the user specific values screen"
-msgstr ""
+msgstr "A felhasználóra jellemző értékek képernyő használata"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:87
@@ -4960,11 +5883,13 @@ msgid ""
 "<graphic fileref=\"screenshots/sysconfig-user-settings/review-user-setting-"
 "value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/review-user-setting-"
+"value.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-user-settings.xml:93
 msgid "Reset globally and locally"
-msgstr ""
+msgstr "Visszaállítás globálisan vagy helyileg"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:95
@@ -4973,11 +5898,15 @@ msgid ""
 "setting</emphasis> feature has been enhanced to either reset the setting "
 "completely or just the user values."
 msgstr ""
+"Azoknál a beállításoknál, amelyek engedélyezve vannak felhasználói értékek "
+"tárolására, a <emphasis>Beállítások visszaállítása</emphasis> funkció "
+"továbbfejlesztésre került, hogy vagy teljesen visszaállítsa a beállítást, "
+"vagy csak a felhasználói értékeket."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:100
 msgid "Access to the setting reset dialog"
-msgstr ""
+msgstr "Hozzáférés a beállítások visszaállítása párbeszédablakhoz"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:102
@@ -4986,6 +5915,9 @@ msgid ""
 "configuration.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
 "graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/reset-setting-system-"
+"configuration.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-user-settings.xml:107
@@ -4993,11 +5925,14 @@ msgid ""
 "Clicking on the <emphasis>Reset setting</emphasis> button will display a "
 "dialog showing the possible reset options."
 msgstr ""
+"A <emphasis>Beállítások visszaállítása</emphasis> gombra kattintva egy "
+"párbeszédablak jelenik meg a lehetséges visszaállítási lehetőségeket "
+"ismertetve."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-user-settings.xml:111
 msgid "Choosing the reset scope"
-msgstr ""
+msgstr "A visszaállítási hatókör kiválasztása"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-user-settings.xml:113
@@ -5006,11 +5941,14 @@ msgid ""
 "configuration-overlay.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
 "\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-user-settings/reset-setting-system-"
+"configuration-overlay.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/features/sysconfig-history.xml:6
 msgid "System Configuration History"
-msgstr ""
+msgstr "Rendszerbeállítások előzményei"
 
 #. type: Content of: <section><section><para>
 #: en/content/features/sysconfig-history.xml:10
@@ -5019,11 +5957,15 @@ msgid ""
 "system configuration deployment and specific settings history, and make "
 "changes if needed."
 msgstr ""
+"Ez a hozzáadott funkcionalitás olyan képernyőket biztosít az "
+"adminisztrátoroknak, amelyekkel átnézhetik a rendszerbeállítások üzembe "
+"állításait és bizonyos beállítási előzményeket, valamint elvégezhetnek "
+"változtatásokat, ha szükséges."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-history.xml:23
 msgid "Deployment History"
-msgstr "Üzembe állítási előzmények"
+msgstr "Üzembe állítás előzmények"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:25
@@ -5033,11 +5975,17 @@ msgid ""
 "button. This screen will display recent deployments in a descending order, "
 "along with their comments and name of the user who deployed the changes."
 msgstr ""
+"Az üzembe állítás előzményeihez való hozzáféréshez menjen a "
+"<emphasis>Rendszerbeállítások → Üzembe állítás</emphasis> képernyőre, és "
+"kattintson az <emphasis>Előzmények</emphasis> gombra. Ez a képernyő "
+"megjeleníti a legutóbbi üzembe állításokat csökkenő sorrendben, a "
+"megjegyzéseikkel és annak a felhasználónak a nevével együtt, aki a "
+"változtatásokat üzembe állította."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-history.xml:31
 msgid "System configuration deployment history"
-msgstr ""
+msgstr "Rendszerbeállítások üzembe állítás előzményei"
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/features/sysconfig-history.xml:33
@@ -5046,6 +5994,8 @@ msgid ""
 "<graphic fileref=\"screenshots/sysconfig-history/sysconfig-deployment-"
 "history.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
+"<graphic fileref=\"screenshots/sysconfig-history/sysconfig-deployment-"
+"history.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:38
@@ -5055,6 +6005,11 @@ msgid ""
 "be used to compare the setting with its previous value, before the "
 "deployment took place."
 msgstr ""
+"Minden egyes üzembe állítás a későbbiekben megvizsgálható a mellette lévő "
+"<emphasis>Részletek megtekintése</emphasis> hivatkozásra kattintva. A "
+"<emphasis>Részletek</emphasis> képernyő használható a beállítás "
+"összehasonlítására azon korábbi értékével, mielőtt az üzembe állítás "
+"megtörtént."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:42
@@ -5063,6 +6018,10 @@ msgid ""
 "restored with a simple click.  By restoring a deployment, all settings will "
 "be reverted to the value they had at the time of the deployment in question."
 msgstr ""
+"Továbbá a régebbi üzembe állítások (a jelenlegi állapot előtti mindegyik) "
+"visszaállítható egy egyszerű kattintással. Egy üzembe állítás "
+"visszaállításával az összes beállítás vissza lesz állítva arra az értékre, "
+"amellyel a kérdéses üzembe állítás pillanatában rendelkezett."
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:47
@@ -5072,11 +6031,16 @@ msgid ""
 "settings. This YML file can be later restored via <emphasis>Import &amp; "
 "Export</emphasis> screen in the system configuration screen."
 msgstr ""
+"Végül az üzembe állítások exportálhatók az exportálás gombra kattintással. A "
+"felhasználó egy letölthető YML-fájlt kap, amely tartalmazza a "
+"megváltoztatott beállításokat. Ez az YML-fájl később visszatölthető a "
+"rendszerbeállítások képernyőn lévő <emphasis>Importálás és exportálás</"
+"emphasis> képernyőn keresztül."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/features/sysconfig-history.xml:53
 msgid "Setting History"
-msgstr ""
+msgstr "Beállítás előzményei"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:55
@@ -5087,11 +6051,17 @@ msgid ""
 "that made the change and time of change is displayed, along with a useful "
 "comparison tool."
 msgstr ""
+"Adott beállítási előzmények az <emphasis>Előzmények</emphasis> gombon "
+"keresztül érhetők el a beállítás felületi elemében. Ez a gomb megnyitja az "
+"összes, a különböző üzembe állításokkal beállított érték képernyőjét. Egy "
+"hasznos összehasonlító eszközzel együtt olyan információk lesznek "
+"megjelenítve, mint annak a felhasználónak a neve, aki a változtatást "
+"elvégezte, valamint a változtatás ideje."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/sysconfig-history.xml:61
 msgid "System configuration setting history"
-msgstr ""
+msgstr "Rendszerbeállítások beállítási előzményei"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/features/sysconfig-history.xml:68
@@ -5099,6 +6069,8 @@ msgid ""
 "Every historical setting value can be restored by clicking on the "
 "<emphasis>Restore</emphasis> button in upper right corner."
 msgstr ""
+"Minden korábbi beállítási érték visszaállítható a jobb felső sarokban lévő "
+"<emphasis>Visszaállítás</emphasis> gombra kattintva."
 
 #. type: Content of: <section><title>
 #: en/content/features/ticket-attachment-view.xml:6
@@ -5143,6 +6115,10 @@ msgid ""
 "emphasis> menu item will be displayed in the ticket zoom screen. Clicking it "
 "will open a popup which contains a list of all attachments."
 msgstr ""
+"Miután egy jegy legalább egy melléklettel rendelkezik, a "
+"<emphasis>Mellékletek</emphasis> menüpont kerül megjelenítésre a "
+"jegynagyítás képernyőn. Erre kattintva egy felugró ablakot fog megnyitni, "
+"amely az összes melléklet listáját tartalmazza."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/features/ticket-attachment-view.xml:37
@@ -5187,6 +6163,8 @@ msgid ""
 "Group: <literal>OTRSBusiness</literal>, Subgroup: <literal>Frontend::Agent</"
 "literal>"
 msgstr ""
+"Csoport: <literal>OTRSBusiness</literal>, alcsoport: <literal>Frontend::"
+"Agent</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/ticket-timeline-view.xml:25
@@ -5216,6 +6194,10 @@ msgid ""
 "redirected to the timeline view and this view will be kept as preference "
 "until you change back to another view."
 msgstr ""
+"A jegy idővonal nézetének eléréséhez használja a bejegyzés felületi elem "
+"jobb felső sarkában lévő óra ikont a jegynagyítás nézeten. Át lesz irányítva "
+"az idővonal nézetre, és ez a nézet lesz megtartva elsőbbségiként, amíg "
+"vissza nem vált egy másik nézetre."
 
 #. type: Content of: <section><section><para>
 #: en/content/features/ticket-timeline-view.xml:47
@@ -5292,6 +6274,8 @@ msgstr ""
 msgid ""
 "The following system configuration options are relevant for this feature."
 msgstr ""
+"A következő rendszerbeállítási konfigurációs lehetőségek fontosak ennél a "
+"funkciónál."
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/video-calls.xml:30
@@ -5307,7 +6291,7 @@ msgstr ""
 #. type: Content of: <section><section><variablelist><varlistentry><term>
 #: en/content/features/video-calls.xml:35
 msgid "<literal>ChatEngine::PermissionGroup::VideoChatAgents</literal>"
-msgstr ""
+msgstr "<literal>ChatEngine::PermissionGroup::VideoChatAgents</literal>"
 
 #. type: Content of: <section><section><variablelist><varlistentry><listitem><para>
 #: en/content/features/video-calls.xml:38

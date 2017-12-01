@@ -4,7 +4,7 @@
 
 <book lang="hu">
     <bookinfo>
-        <title><emphasis role="bold">OTRS Business Solution</emphasis>™ 6 Manual</title>
+        <title><emphasis role="bold">OTRS Business Solution</emphasis>™ 6 kézikönyv</title>
         <copyright> <year>2017</year> <holder>OTRS AG</holder> </copyright>
 <date>2017-09-27</date>
 
@@ -39,7 +39,7 @@ url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/introduction.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/upgrading.xml" />
     <chapter id="otrs-business-solution-features">
-        <title>Az <emphasis role="bold">OTRS Business Solution</emphasis>™ szolgáltatásai</title>
+        <title>Az <emphasis role="bold">OTRS Business Solution</emphasis>™ funkciói</title>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />

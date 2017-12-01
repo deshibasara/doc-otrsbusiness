@@ -3,135 +3,138 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="dynamicfield-webservice">
-    <title>The Dynamic Field <emphasis>Web Service</emphasis></title>
+    <title>A <emphasis>webszolgáltatás</emphasis> dinamikus mező</title>
     <para>
-        This feature implements a dynamic field of the type <emphasis>Web
-Service</emphasis>.
+        Ez a funkció egy <emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőt
+valósít meg.
     </para>
     <section>
         <title>Leírás</title>
         <para>
-            This feature implements a generic dynamic field type that gathers its
-selectable options from an external system using a web service. The response
-from the external system defines the possible options to be displayed, and
-they could vary depending on the data that is sent in the request.
+            Ez a funkció egy olyan általános dinamikus mező típust valósít meg, amely a
+választható lehetőségeit egy webszolgáltatást használó külső rendszerből
+gyűjti be. A külső rendszerből érkező válasz határozza meg a lehetséges
+megjelenítendő lehetőségeket, és változhatnak azoktól az adatoktól attól
+függően, amelyek a kérésben kerülnek elküldésre.
         </para>
         <para>
-            Normally when a field is changed in a screen (e.g. the ticket priority in
-the <emphasis>New phone ticket</emphasis> screen) the values of other fields
-could be updated. That is the case with this type of dynamic fields, as they
-could also include all screen field values in the request and the remote
-server could potentially return completely different values depending on
-input.
+            Általános esetben, amikor egy mező megváltozik a képernyőn (például a jegy
+prioritása az <emphasis>Új telefonos jegy</emphasis> képernyőn), akkor más
+mezők értékei frissítve lehetnek. Ez a helyzet az ilyen típusú dinamikus
+mezőknél, mivel felvehetik a képernyő összes mezőjének értékét a kérésbe, és
+a távoli kiszolgáló lehetőség szerint teljesen eltérő értékeket adhat vissza
+a bemenet függvényében.
         </para>
         <para>
-             Additionally if the dynamic field source object already exists (e.g. a
-ticket, and the field is set in the <emphasis>Free Fields</emphasis>
-screen), the details of the already created ticket are also included in the
-request.
+             Továbbá, ha a dinamikus mező forrásobjektuma már létezik (például egy jegy,
+és a mező be van állítva a <emphasis>Szabad mezők</emphasis> képernyőn),
+akkor a már létrehozott jegy részleteit is tartalmazni fogja a kérés.
         </para>
     </section>
 
     <section>
         <title>Beállítás</title>
         <para>
-            To make this feature work it is necessary to have the following components:
+            A funkció működtetéséhez a következő összetevők megléte szükséges:
         </para>
         <section>
-            <title>A web service (at least configured as requester)</title>
+            <title>Egy webszolgáltatás (legalább kérelmezőként beállítva)</title>
             <para>
-                To create a new <emphasis>web service dynamic</emphasis> field it is
-necessary to have already a working web service, it requires to have at
-least one invoker of the type <literal>Generic::PassThrough</literal>. This
-invoker will be called to fetch the data from the remote server.
+                Egy új <emphasis>webszolgáltatás</emphasis> dinamikus mező létrehozásához
+szükséges, hogy már rendelkezzen egy működő webszolgáltatással, valamint
+legyen legalább egy <literal>Generic::PassThrough</literal> típusú
+meghívója. Ez a meghívó kerül meghívásra a távoli kiszolgálóról történő
+adatlekéréshez.
             </para>
             <para>
-                The original data that it is sent in a request is similar to the following
-example.
+                Az eredeti adatok, amelyek egy kérésben lesznek elküldve, a következő
+példához hasonlóak.
             </para>
             <para>
                 <screen><![CDATA[
 {
   DynamicFieldID    => 123,
-  DynamicFieldLabel => 'NameX',
-  DynamicFieldName  => 'NameX',
-  DynamicFieldValue => 'Value',
+  DynamicFieldLabel => 'NévX',
+  DynamicFieldName  => 'NévX',
+  DynamicFieldValue => 'Érték',
   Form => {
-    # Form fields
+    # Űrlapmezők
     # ...
   },
   Ticket => {
-    # Ticket attributes
+    # Jegyattribútumok
     # ...
   },
   DynamicField => {
-    NameX => 'Value'
-    MameY => [  ‘Value’ ],
+    NameX => 'Érték'
+    NameY => [  Érték ],
   },
   UserID => 123,
 },
                 ]]></screen>
             </para>
             <para>
-                The <literal>Form</literal> section contains the fields in the current form
-in the web browser. This information changes as the screen is filled in.
+                A <literal>Form</literal> szakasz tartalmazza a mezőket a webböngészőben
+lévő jelenlegi űrlapon. Ez az információ változik, amikor a képernyőt
+kitöltik.
             </para>
             <para>
-                <literal>Ticket</literal> section (or another source object,
-e.g. <literal>CustomerUser</literal>), contains the attributes of the object
-where the dynamic field belongs. For example in <emphasis>New phone
-ticket</emphasis> screen the section is empty as the ticket is not created
-yet, but in <emphasis>Free Fields</emphasis> screen it contains the
-information of the current ticket.
+                A <literal>Ticket</literal> szakasz (vagy egy másik forrásobjektum, például
+<literal>CustomerUser</literal>) tartalmazza az objektum attribútumait,
+ahova a dinamikus mező tartozik. Például az <emphasis>Új telefonos
+jegy</emphasis> képernyőn a szakasz üres, mivel a jegyet még nem hozták
+létre, de a <emphasis>Szabad mezők</emphasis> képernyőn tartalmazza az
+aktuális jegy információit.
             </para>
             <para>
-                <literal>DynamicField</literal> section contains all non empty values of all
-configured dynamic fields for the current object.
+                A <literal>DynamicField</literal> szakasz tartalmazza az összes beállított
+dinamikus mező nem üres értékeit az aktuális objektumnál.
             </para>
             <para>
-                In most cases the data that the remote server requires will be very
-different from the data provided, so it is highly recommended to use a
-mapping module for the outgoing data, to format it specifically for the
-remote server call.
+                A legtöbb esetben azok az adatok, amelyeket a távoli kiszolgáló megkövetel,
+nagyban eltérőek lesznek a szolgáltatott adatoktól, ezért erősen ajánlott
+egy leképező modul használata a kimenő adatoknál, hogy kifejezetten a távoli
+kiszolgáló hívásához formálja azt.
             </para>
             <para>
-                The following example shows an XSLT mapping that discards any data and sets
-a fixed <literal>UserLogin</literal>, <literal>Password</literal> and
-<literal>TicketID</literal> (as needed for a <literal>TicketGet</literal>
-operation).
+                A következő példa egy XSLT leképezést jelenít meg, amely minden adatot
+eldob, és egy rögzített <literal>UserLogin</literal>,
+<literal>Password</literal> and <literal>TicketID</literal> értéket állít be
+(ahogy a <literal>TicketGet</literal> művelethez szükséges).
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Outgoing mapping example</title>
+                    <title><emphasis>Webszolgáltatás</emphasis> dinamikus mező – kimenő leképezés példa</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/OutgoingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The response from the server can also be very different, so in this case is
-also very recommended to use a mapping module for the incoming data in order
-to be able to process the information. The response must be a list of Key
-and Value elements.
+                A kiszolgálótól érkező válasz is nagyon eltérő lehet, így ebben az esetben
+szintén erősen ajánlott egy leképező modul használata a bejövő adatoknál
+annak érdekében, hogy képes legyen feldolgozni az információkat. A válasznak
+kulcs és értéke elemek listájának kell lennie.
             </para>
             <para>
-                The following example shows an XSLT mapping that converts the results from a
-<literal>TicketGet</literal> operation response form the remote server,
-extracting and formatting the state and queue as needed to be used as
-options for the dynamic field.
+                A következő példa egy XSLT leképezést jelenít meg, amely átalakítja a távoli
+kiszolgálótól érkező <literal>TicketGet</literal> művelet válaszának
+eredményeit, valamint kibontja és megformázza az állapotot és a várólistát
+ahogy szükséges, hogy lehetőségekként legyen használható a dinamikus
+mezőnél.
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Incoming mapping example</title>
+                    <title><emphasis>Webszolgáltatás</emphasis> dinamikus mező – bejövő leképezés példa</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The following web service definition (importable YAML file) can be used for
-testing the field, but the endpoint must be adapted to match current
-system. This web service acts as requester and provider and it always
-returns the State and Queue from TicketID 1, as possible values to the
-field.
+                A következő webszolgáltatás meghatározás (importálható YAML-fájl)
+használható a mező teszteléséhez, de a végpontot módosítani kell, hogy
+illeszkedjen az aktuális rendszerhez. Ez a webszolgáltatás kérelmezőként és
+szolgáltatóként viselkedik, és mindig az 1-es jegyazonosítóból adja vissza
+az állapotot és a várólistát, mint a mező lehetséges értékeit.
             </para>
             <para>
                 <screen><![CDATA[
@@ -139,7 +142,7 @@ field.
 Debugger:
   DebugThreshold: debug
   TestMode: '0'
-Description: Dynamic Field Web Service Test
+Description: Webszolgáltatás dinamikus mező teszt
 FrameworkVersion: 6.0.x git
 Provider:
   ErrorHandling: {}
@@ -167,7 +170,7 @@ Requester:
   ErrorHandlingPriority: []
   Invoker:
     TicketGet:
-      Description: Get possible values from the other side.
+      Description: Lehetséges értékek lekérése a másik oldalról.
       Events: []
       MappingInbound:
         Config:
@@ -175,8 +178,8 @@ Requester:
             (C) 2001-2017 OTRS AG, http://otrs.com/\r\nThis software comes with ABSOLUTELY
             NO WARRANTY. For details, see\r\nthe enclosed file COPYING for license
             information (AGPL). If you\r\ndid not receive this file, see http://www.gnu.org/licenses/agpl.txt.\r\n-->\r\n\r\n<!--
-            DOCUMENTATION\r\n\r\n* Example XML Input *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
-            Example XML Output *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
+            DOKUMENTÁCIÓ\r\n\r\n* Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
+            Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
             \       <Key>???</Key>\r\n        <Value>???</Value>\r\n    </PossibleValues>\r\n
             \   ...\r\n</RootElement>\r\n\r\n-->\r\n\r\n\r\n<xsl:transform\r\n    xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\r\n
@@ -184,7 +187,7 @@ Requester:
             \   extension-element-prefixes=\"date\">\r\n    \r\n    <xsl:output method=\"xml\"
             encoding=\"utf-8\" indent=\"yes\" />\r\n    \r\n    <!-- Don't return
             unmatched tags -->\r\n    <xsl:template match=\"text()\" />\r\n    \r\n
-            \   <!-- Remove empty elements -->\r\n    <xsl:template match=\"*[not(node())]\"
+            \   <!-- Üres elemek eltávolítása -->\r\n    <xsl:template match=\"*[not(node())]\"
             />\r\n    \r\n    <!-- Root template -->\r\n    <xsl:template match=\"/\">\r\n
             \       <RootElement>\r\n            <xsl:apply-templates />\r\n        </RootElement>\r\n
             \   </xsl:template>\r\n\r\n    <xsl:template match=\"/*/Ticket\">\r\n
@@ -199,19 +202,19 @@ Requester:
             (C) 2001-2017 OTRS AG, http://otrs.com/\r\n\r\nThis software comes with
             ABSOLUTELY NO WARRANTY. For details, see\r\nthe enclosed file COPYING
             for license information (AGPL). If you\r\ndid not receive this file, see
-            http://www.gnu.org/licenses/agpl.txt.\r\n-->\r\n\r\n<!-- DOCUMENTATION\r\n\r\n*
-            Example XML Input *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
-            Example XML Output *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
+            http://www.gnu.org/licenses/agpl.txt.\r\n-->\r\n\r\n<!-- DOKUMENTÁCIÓ\r\n\r\n*
+            Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
+            Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
             \       <Key>???</Key>\r\n        <Value>???</Value>\r\n    </PossibleValues>\r\n
             \   ...\r\n</RootElement>\r\n\r\n-->\r\n\r\n<xsl:transform\r\n    xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\r\n
             \   xmlns:date=\"http://exslt.org/dates-and-times\"\r\n    version=\"1.0\"\r\n
             \   extension-element-prefixes=\"date\">\r\n    <xsl:output method=\"xml\"
-            encoding=\"utf-8\" indent=\"yes\" />\r\n\r\n    <!-- Don't return unmatched
-            tags -->\r\n    <xsl:template match=\"text()\" />\r\n\r\n    <!-- Remove
-            empty elements -->\r\n    <xsl:template match=\"*[not(node())]\" />\r\n\r\n
-            \   <!-- Root template -->\r\n    <xsl:template match=\"/\">\r\n        <RootElement>\r\n
-            \           <UserLogin>someuser</UserLogin>\r\n            <Password>somepassword</Password>\r\n
+            encoding=\"utf-8\" indent=\"yes\" />\r\n\r\n    <!-- Ne adja vissza a páratlan
+            címkéket -->\r\n    <xsl:template match=\"text()\" />\r\n\r\n    <!-- Üres
+            elemek eltávolítása -->\r\n    <xsl:template match=\"*[not(node())]\" />\r\n\r\n
+            \   <!-- Gyökérsablon -->\r\n    <xsl:template match=\"/\">\r\n        <RootElement>\r\n
+            \           <UserLogin>felhasználó</UserLogin>\r\n            <Password>jelszó</Password>\r\n
             \           <TicketID>1</TicketID>\r\n        </RootElement>\r\n    </xsl:template>\r\n\r\n</xsl:transform>"
         Type: XSLT
       Type: Generic::PassThrough
@@ -237,20 +240,20 @@ Requester:
         </section>
 
         <section>
-            <title>A web service dynamic field definition</title>
+            <title>Egy webszolgáltatás dinamikus mező meghatározása</title>
             <para>
-                After the proper configuration of web services, it is possible to configure
-dynamic fields, that use such web services.
+                A webszolgáltatások megfelelő beállítása után lehetőség van a dinamikus
+mezők beállítására, amelyek az ilyen webszolgáltatásokat használják.
             </para>
             <para>
                 <figure>
-                    <title>Dynamic Field <emphasis>Web Service</emphasis> - Definition Example</title>
+                    <title><emphasis>Webszolgáltatás</emphasis> dinamikus mező – meghatározás példa</title>
 <screenshot>
 <graphic fileref="screenshots/dynamicfield-webservice/IncomingMapping.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Below is a description of the dynamic field options.
+                Lent látható a dinamikus mező lehetőségeinek leírása.
             </para>
             <para>
                 <variablelist>
@@ -258,8 +261,8 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                         <term>Webszolgáltatás</term>
                         <listitem>
                             <para>
-                                The configured web service whose invokers will be to triggered when a
-dynamic field is displayed.
+                                A beállított webszolgáltatás, amely meghívói aktiválva lesznek, amikor egy
+dinamikus megjelenik.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -267,9 +270,9 @@ dynamic field is displayed.
                         <term>Meghívó</term>
                         <listitem>
                             <para>
-                                The invoker that is used to send requests to external systems. Within this
-field, just invokers of type <literal>Generic::PassThrough</literal> will be
-displayed.
+                                Az a meghívó, amelyet a külső rendszernek történő kérések küldéséhez
+használnak. A mezőn belül csak <literal>Generic::PassThrough</literal>
+típusú meghívók lesznek megjelenítve.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -277,8 +280,8 @@ displayed.
                         <term>Többválasztós</term>
                         <listitem>
                             <para>
-                                A drop-down menu to determine if the displayed dynamic field should act as a
-multi-select field, instead of a drop-down field.
+                                Egy legördülő menü annak meghatározásához, hogy a megjelenített dinamikus
+mezőnek többválasztós mezőként kell szerepelnie egy legördülő mező helyett.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -286,12 +289,13 @@ multi-select field, instead of a drop-down field.
                         <term>Gyorsítótár élettartam</term>
                         <listitem>
                             <para>
-                                A cache time to live value, that contains a value (in minutes). If the value
-is 0 or empty, no caching will be active.
+                                Egy gyorsítótár idő az érték életben tartásához, amely egy értéket tartalmaz
+(percben). Ha az érték 0 vagy üres, akkor nem lesz gyorsítótárazás
+bekapcsolva.
                             </para>
                             <para>
-                                This cache is to prevent unnecessary requests to the remote server using the
-same values.
+                                Ez a gyorsítótár a távoli kiszolgálónak küldendő, ugyanazokat az értékeket
+használó, szükségtelen kérések megakadályozásához van.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -299,16 +303,16 @@ same values.
                         <term>Üres érték hozzáadása</term>
                         <listitem>
                             <para>
-                                Defines if it is possible to save an empty value in the field.
+                                Meghatározza, hogy lehetséges-e üres értéket elmenteni a mezőben.
                             </para>
                         </listitem>
                     </varlistentry>
                     <varlistentry>
-                        <term>Fa nézet</term>
+                        <term>Fanézet</term>
                         <listitem>
                             <para>
-                                This option activates the tree view of possible values, if they are supplied
-in the correct format.
+                                Ez a lehetőség bekapcsolja a lehetséges értékek fanézetét, ha azok a helyes
+formátumban vannak megadva.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -316,8 +320,8 @@ in the correct format.
                         <term>Lefordítható értékek</term>
                         <listitem>
                             <para>
-                                Defines if the displayed possible values will be translated to the current
-user language.
+                                Meghatározza, hogy a megjelenített lehetséges értékek le legyenek-e fordítva
+az aktuális felhasználói nyelvre.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -327,47 +331,50 @@ user language.
         <section>
             <title>Képernyő beállítások</title>
             <para>
-                Dynamic fields of type <emphasis>Web Service</emphasis> have to be activated
-for the several masks in which they should be displayed like the other types
-of dynamic fields. The following covers the cases for ticket based dynamic
-fields.
+                A <emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőket az egyéb
+típusú dinamikus mezőkhöz hasonlóan be kell kapcsolni számos olyan maszknál,
+amelyben azokat meg kell jeleníteni az egyéb típusú dinamikus mezőkhöz
+hasonlóan. A következő lista lefedi a jegyalapú dinamikus mezők eseteit.
             </para>
             <para>
-                This can be done through <emphasis>Admin → Administration Overview → System
-Configuration</emphasis>, then navigate to <emphasis>Frontend → Agent →
-View</emphasis>.
+                Ez az <emphasis>Adminisztráció → Adminisztrációs áttekintő →
+Rendszerbeállítások</emphasis> menüponton keresztül végezhető el, majd
+navigáljon a <emphasis>Frontend → Agent → View</emphasis> csoportra.
             </para>
             <para>
-                For every <literal>Ticket*</literal> option, in which the dynamic field of
-type <emphasis>Web Service</emphasis> should be displayed, the admin has to
-configure it to fit his needs. Examples:
+                Minden <literal>Ticket*</literal> beállításnál, amelyen a
+<emphasis>webszolgáltatás</emphasis> típusú dinamikus mezőt meg kell
+jeleníteni, az adminisztrátornak be kell állítania azt az igényei
+kielégítéséhez. Példák:
             </para>
             <para>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            <literal>TicketZoom</literal> for the ticket zoom view.
+                            <literal>TicketZoom</literal> a jegy nagyított nézeténél.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            <literal>TicketPhoneNew</literal> for new phone tickets.
+                            <literal>TicketPhoneNew</literal> az új telefonos jegyeknél.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            <literal>TicketEmailNew</literal> for new email tickets.
+                            <literal>TicketEmailNew</literal> az új e-mail jegyeknél.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            The dynamic field can be added if there exists an entry called
-<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal>. This
-configuration defines which dynamic fields should be displayed in this
-view. To add a dynamic field, the internal name of the field has to be
-filled in the first field. After confirmation a second field is filled with
-the display option. Choose <emphasis>1 - Enabled</emphasis> to just show the
-field or <emphasis>2 - Enabled and required</emphasis> to make it mandatory.
+                            A dinamikus mező akkor adható hozzá, ha létezik egy
+<literal>Ticket::Frontend::AgentTicket*###DynamicField</literal> nevű
+bejegyzés. Ez a beállítás határozza meg, hogy mely dinamikus mezőket kell
+megjeleníteni ebben a nézetben. Egy dinamikus mező hozzáadásához a mező
+belső nevét ki kell tölteni az első mezőben. Megerősítés után egy második
+mező lesz kitöltve a megjelenítési lehetőségekkel. Válassza az <emphasis>1 -
+engedélyezve</emphasis> lehetőséget, ha csak megjeleníteni szeretné a mezőt,
+vagy a <emphasis>2 - engedélyezve és kötelező</emphasis> lehetőséget, ha
+kötelezővé szeretné tenni.
                         </para>
                     </listitem>
                 </itemizedlist>
@@ -377,11 +384,12 @@ field or <emphasis>2 - Enabled and required</emphasis> to make it mandatory.
     <section>
         <title>Használat</title>
         <para>
-            The use of the <emphasis>Web Service</emphasis> dynamic field is similar to
-other dynamic fields like <emphasis>Dropdown</emphasis> or
-<emphasis>Multiselect</emphasis>, but users could expect to have different
-options to choose even without active ACLs due to the change of parameters
-in the web request as other fields are changed.
+            A <emphasis>webszolgáltatás</emphasis> dinamikus mező használata hasonló a
+többi dinamikus mezőhöz (mint például <emphasis>Legördülő</emphasis> vagy
+<emphasis>Többválasztós</emphasis>), de a felhasználók elvárhatják, hogy
+különböző választási lehetőségeik legyenek még aktív ACL-ek nélkül is a
+webkérésben lévő paraméterek megváltozása miatt, amint más mezők
+megváltoztak.
         </para>
     </section>
 </section>

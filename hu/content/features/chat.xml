@@ -29,11 +29,13 @@ létrehozva (amely automatikusan létrejön, ha nem létezik).
     <section>
         <title>Beállítás</title>
         <para>
-            The following system configuration options are relevant for this
-feature. Please note that you can also define a list of fixed texts which
-are being displayed to public users and customers in the chat module. For
-more information on which texts can be changed, please have a look at the
-module configuration (<literal>OTRSBusiness → Core::Chat</literal>).
+            A következő rendszerbeállítási lehetőségek fontosak ennél a
+funkciónál. Felhívjuk a figyelmét, hogy meghatározhatja azon rögzített
+szövegek listáját is, amelyek megjelenítésre kerülnek a nyilvános
+felhasználóknak és az ügyfeleknek a csevegés modulban. További
+információkért azzal kapcsolatban, hogy mely szövegeket lehet
+megváltoztatni, nézze meg a modul beállításait (<literal>OTRSBusiness →
+Core::Chat</literal>).
         </para>
         <variablelist>
             <varlistentry>
@@ -147,9 +149,10 @@ linkend="chat-permissions">elegendő jogosultságokkal</link> rendelkező
                 <term><literal>ChatEngine::CustomerInterface::AllowChatChannels</literal></term>
                 <listitem>
                 <para>
-                    Defines, if chat channel selection should be enabled for customer users. If
-set to "no", chats from customer users will go to the default channel
-automatically (<literal>ChatEngine::DefaultChatChannel</literal>).
+                    Meghatározza, hogy a csevegőcsatorna kiválasztását engedélyezni kell-e az
+ügyfél-felhasználóknak. Ha „nem” értékre van állítva, akkor az
+ügyfél-felhasználóktól érkező csevegések automatikusan az alapértelmezett
+csatornába fognak menni (<literal>ChatEngine::DefaultChatChannel</literal>).
                 </para>
                 </listitem>
             </varlistentry>
@@ -168,15 +171,16 @@ linkend="chat-permissions">elegendő jogosultságokkal</link> rendelkező
                 <term><literal>ChatEngine::CustomerThreshold</literal></term>
                 <listitem>
                 <para>
-                    Amount of minutes which need to pass before a <emphasis>no agent is
-available</emphasis> message is being displayed to the customer/public user
-who started the chat request. The message can be configured using
+                    Azon percek száma, amelynek el kell telnie egy <emphasis>nem érhető el
+ügyintéző</emphasis> üzenet megjelenítése előtt annak az ügyfél vagy
+nyilvános felhasználónak, aki a csevegéskérést elindította. Az üzenet a
+következők használatával állítható be:
 <literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::NewTicket</literal>
-or
+vagy
 <literal>ChatEngine::Texts::CustomerFrontend::NoAgentsAvailable::AddToExisiting</literal>
-(customer interface) and
+(ügyfélfelület) és
 <literal>ChatEngine::Texts::PublicFrontend::NoAgentsAvailable</literal>
-(public interface).
+(nyilvános felület).
                 </para>
                 </listitem>
             </varlistentry>
@@ -184,9 +188,10 @@ or
                 <term><literal>ChatEngine::AgentOnlineThreshold</literal></term>
                 <listitem>
                 <para>
-                    If an agent is not active in OTRS within this threshold, they will be
-automatically set to <emphasis>unavailable for chat</emphasis> (see <link
-linkend="chat-setup-availability">Agents: Set up availability</link>).
+                    Ha egy ügyintéző nem aktív az OTRS-ben ezen küszöbértéken belül, akkor
+automatikusan <emphasis>nem érhető el csevegéshez</emphasis> állapotúra lesz
+állítva (lásd: <link linkend="chat-setup-availability">Ügyintézők:
+elérhetőség beállítása</link>).
                 </para>
                 </listitem>
             </varlistentry>
@@ -245,13 +250,15 @@ dolgokat be kell állítania az OTRS példányában.
         <section id="chat-permissions">
             <title>Adminisztrátor: csevegőcsatornák létrehozása és jogosultságok hozzárendelése</title>
             <para>
-                In the admin area in OTRS, you'll find a new entry <emphasis>Chat
-Channel</emphasis> (<literal>AdminChatChannel</literal>). Use this screen to
-add new channels. You'll need to assign an existing agent group to each
-channel you'll create. You can use the screens <emphasis>Agents ↔
-Groups</emphasis> or <emphasis>Agents ↔ Roles</emphasis> to assign
-permissions. There are new chat-specific permissions which are described
-below.
+                Az OTRS-ben lévő adminisztrációs területen találni fog egy új
+<emphasis>Csevegőcsatorna</emphasis> bejegyzést
+(<literal>AdminChatChannel</literal>). Használja ezt a képernyőt az új
+csatornák hozzáadásához. Hozzá kell majd rendelnie egy meglévő ügyintézői
+csoportot minden olyan csatornához, amelyet létre fog hozni. A jogosultságok
+hozzárendeléséhez használhatja az <emphasis>Ügyintézők ↔
+Csoportok</emphasis> vagy az <emphasis>Ügyintézők ↔ Szerepek</emphasis>
+képernyőket. Olyan új, a csevegéssel kapcsolatos jogosultságok találhatók,
+amelyek lent vannak ismertetve.
             </para>
 
             <variablelist>
@@ -298,10 +305,12 @@ csevegésben.
 
             <note>
                 <para>
-                    To use the chat in general, agents still need to have at least ro
-permissions to the groups set up in
-<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal> and
-<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>.
+                    Általánosan a csevegés használatához az ügyintézőknek még mindig legalább
+csak olvasható jogosultságokkal kell rendelkezniük azokra a csoportokra,
+amelyek a
+<literal>ChatEngine::PermissionGroup::ChatReceivingAgents</literal> és a
+<literal>ChatEngine::PermissionGroup::ChatStartingAgents</literal>
+paraméterekben be vannak állítva.
                 </para>
             </note>
         </section>
@@ -343,8 +352,9 @@ megváltoztassa az elérhetőségét.
             </para>
             <note>
                 <para>
-                    Your availability will be reset to <emphasis>internal chats only</emphasis>
-each time you log in to OTRS again.
+                    Az elérhetősége vissza lesz állítva <emphasis>csak belső
+csevegések</emphasis> értékre minden egyes alkalommal, amikor ismét
+bejelentkezik az OTRS-be.
                 </para>
             </note>
         </section>
@@ -362,11 +372,12 @@ each time you log in to OTRS again.
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                The chat manager is the central point of the chat feature. As an agent, here
-you can manage your chats and see and accept open requests. The chat manager
-provides a list of chat requests from customers, public users and other
-agents, as well as an overview over all active chats. Open the chat manager
-by using <emphasis>Chat</emphasis> in the main navigation of OTRS.
+                A csevegéskezelő a csevegés funkció középpontja. Ügyintézőként itt kezelheti
+a csevegéseit, valamint láthatja és elfogadhatja a nyitott kéréseket. A
+csevegéskezelő szolgáltatja a csevegéskérések listáját az ügyfelektől, a
+nyilvános felhasználóktól és más ügyintézőktől, valamint egy áttekintőt az
+összes aktív csevegésről. Nyissa meg a csevegéskezelőt az OTRS fő
+navigációján lévő <emphasis>Csevegés</emphasis> használatával.
             </para>
         </section>
 
@@ -425,10 +436,11 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Ügyfél - ügyintéző</emphasis></para>
                     <para>
-                        Customers are not able to start a chat directly with a certain agent, but
-only to create generic chat requests. To do this, customers can use the item
-<emphasis>Chats → Create new chat</emphasis> from the customer interface
-main navigation.
+                        Az ügyfelek nem képesek csevegést indítani közvetlenül egy bizonyos
+ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak létre. Ennek
+elvégzéséhez az ügyfelek a <emphasis>Csevegések → Új csevegés
+létrehozása</emphasis> elemet használhatják az ügyfélfelület fő
+navigációjáról.
                     </para>
                     <para>
                         <figure>
@@ -441,12 +453,13 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Nyilvános felhasználó - ügyintéző</emphasis></para>
                     <para>
-                        Users of the public interface are also not able to start a chat directly
-with a certain agent, but only to create generic chat requests using the
-public chat module (<literal>public.pl?Action=PublicChat</literal>). If you
-would like to integrate the public chat module into your website, you can
-use the IsIframe parameter. The OTRS header and footer will then be removed
-from the view (<literal>public.pl?Action=PublicChat;IsIframe=1</literal>).
+                        A nyilvános felület felhasználói sem képesek csevegést indítani egy bizonyos
+ügyintézővel, hanem csak általános csevegéskéréseket hozhatnak létre a
+nyilvános csevegés modul használatával
+(<literal>public.pl?Action=PublicChat</literal>). Ha be szeretné építeni a
+nyilvános csevegés modult a saját weboldalába, akkor az IsIframe paramétert
+használhatja. Az OTRS fejléc és lábléc ekkor el lesz távolítva a nézetből
+(<literal>public.pl?Action=PublicChat;IsIframe=1</literal>).
                     </para>
                 </listitem>
             </itemizedlist>
@@ -469,13 +482,13 @@ listáját (lásd a lenti ábrát).
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Use the <emphasis>Open chat</emphasis> button from the list to see the
-details of the request. Clicking the button will open an overlay which
-provides several actions on this request. Given that you've got sufficient
-permissions, you can accept the request or change the channel for this
-request. Changing the channel will follow the same rules as creating new
-request: you can only move the request to a channel which has active agents
-in it.
+                Használja a <emphasis>Csevegés megnyitása</emphasis> gombot a listából a
+kérés részleteinek megtekintéséhez. A gombra kattintva meg fog nyílni egy
+rátét, amely számos műveletet biztosít ezzel a kéréssel kapcsolatban. Tegyük
+fel, hogy elegendő jogosultsága van, elfogadhatja a kérést, vagy
+megváltoztathatja a csatornát ennél a kérésnél. A csatorna megváltoztatása
+ugyanazokat a szabályokat fogja követni mint az új kérés létrehozása: csak
+olyan csatornába helyezheti át a kérést, amelyben aktív ügyintézők vannak.
             </para>
             <para>
                 A csevegőcsatorna megváltoztatása a kérés elfogadása nélkül például arra
@@ -561,10 +574,10 @@ width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <listitem>
                     <para><emphasis>Művelet: telefonos jegy</emphasis></para>
                     <para>
-                        Using the <emphasis>Phone ticket</emphasis> link from the advanced toolbar,
-allows you to create a phone ticket to which the current chat will be
-appended to as an article. After you've successfully created the ticket, the
-chat will get closed automatically.
+                        A <emphasis>Telefonos jegy</emphasis> hivatkozás használata a speciális
+eszköztárból lehetővé teszi egy olyan telefonos jegy létrehozását, amelyhez
+a jelenlegi csevegés hozzá lesz fűzve egy bejegyzésként. Miután sikeresen
+létrehozta a jegyet, a csevegés automatikusan be lesz zárva.
                     </para>
                 </listitem>
                 <listitem>
@@ -578,14 +591,15 @@ be lesz zárva.
                 <listitem>
                     <para><emphasis>Művelet: meghívás</emphasis></para>
                     <para>
-                        Allows you to invite another agent to this chat. You can select from a list
-of available agents who you want to invite. Once you've invited the agent, a
-new agent-to-agent chat request will be sent to this agent. After the
-request has accepted, a new internal chat will be established between you
-and the invited agent. In this internal chat, the invited agent has two more
-actions available in the advanced actions toolbar: <link
-linkend="chat-action-observer">Observer</link> and <link
-linkend="chat-action-participant">Participant</link>.
+                        Lehetővé teszi egy másik ügyintéző meghívást ebbe a csevegésbe. Az elérhető
+ügyintézők listájáról választhatja ki, hogy kit szeretne meghívni. Amikor
+meghívta az ügyintézőt, egy új ügyintéző-ügyintéző csevegéskérés lesz
+elküldve annak az ügyintézőnek. Miután elfogadta a kérést, egy új belső
+csevegés lesz létrehozva ön és a meghívott ügyintéző között. Ebben a belső
+csevegésben a meghívott ügyintézőnek további két művelet lesz elérhető a
+speciális műveletek eszköztárán: <link
+linkend="chat-action-observer">Megfigyelés</link> és <link
+linkend="chat-action-participant">Részvétel</link>.
                     </para>
                 </listitem>
                 <listitem>
@@ -703,44 +717,47 @@ contentdepth="5%"/> </imageobject></inlinemediaobject> <emphasis>Kilépett</emph
         </section>
     </section>
     <section>
-        <title>Advanced Usage</title>
+        <title>Speciális használat</title>
         <section>
-            <title>Chat Integration in Web Pages</title>
+            <title>Csevegés beágyazása weboldalakba</title>
             <para>
-                You can easily integrate the public chat into a website. In the chat
-manager, administrators can access a button to open public chat integration
-configuration and snippet generator.
+                Egyszerűen beágyazhatja a nyilvános csevegést egy weboldalba. A
+csevegéskezelőben az adminisztrátoroknak elérhető egy gomb a nyilvános
+csevegés beágyazásának beállításai és a kódrészlet-előállító megnyitásához.
             </para>
             <figure>
-                <title>Configure Chat Integration Button</title>
+                <title>Csevegés beágyazásának beállítása gomb</title>
 <screenshot>
 <graphic fileref="screenshots/chat/ChatIntegrationButton.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
             <section>
                 <title>Beállítás</title>
                 <para>
-                    Configuration tab contains several parameters that can be tweaked to suit
-your needs. While most of them are self-explanatory, <emphasis>General
-Settings</emphasis> section contains several important options:
+                    A beállítási lap számos paramétert tartalmaz, amelyek finomhangolhatók az
+igényeinek megfelelően. Míg a legtöbbjük önmagát magyarázó, az
+<emphasis>Általános beállítások</emphasis> szakasz sok fontos lehetőséget
+tartalmaz:
                 </para>
                 <variablelist>
                     <varlistentry>
                         <term>Csevegés megjelenítése, ha nincs elérhető ügyintéző</term>
                         <listitem>
                             <para>
-                                If enabled, this option controls whether the chat will be displayed
-regardless of agent's presence in the system. If not enabled, if there are
-no agents currently online and available for chat, widget will be hidden.
+                                Ha engedélyezve van, akkor ez a beállítás azt szabályozza, hogy a csevegést
+meg kell-e jeleníteni a rendszeren az ügyintéző jelenlététől függetlenül. Ha
+nincs engedélyezve, akkor a felületei elem el lesz rejtve, ha jelenleg
+nincsenek kapcsolatban lévő és csevegéshez elérhető ügyintézők.
                             </para>
                         </listitem>
                     </varlistentry>
                     <varlistentry>
-                        <term>Fall-back URL</term>
+                        <term>Tartalék URL</term>
                         <listitem>
                             <para>
-                                This option is taken into account only if above option is enabled. If there
-are no agents present and after some time, users of the public chat will be
-presented with a message containing this link.
+                                Ezt a beállítást csak akkor veszi figyelembe, ha a fenti beállítás
+engedélyezve van. Ha nincsenek jelen ügyintézők, akkor egy kis idő múlva a
+nyilvános csevegés felhasználói egy üzenetet fognak kapni, amely ezt a
+hivatkozást tartalmazza.
                             </para>
                         </listitem>
                     </varlistentry>
@@ -748,111 +765,117 @@ presented with a message containing this link.
                         <term>Előre kiválasztott csatorna</term>
                         <listitem>
                             <para>
-                                Default chat channel selection for public chat requests. This chat channel
-will be pre-selected in the chat widget, but users will be able to change it
-if needed.
+                                Alapértelmezett csevegőcsatorna kiválasztása a nyilvános
+csevegéskérésekhez. Ez a csevegőcsatorna előre kiválasztásra kerül a
+csevegés felületi elemben, de a felhasználók képesek lesznek megváltoztatni
+azt, ha szükséges.
                             </para>
                         </listitem>
                     </varlistentry>
                 </variablelist>
                 <figure>
-                    <title>Configuration Tab</title>
+                    <title>Beállítások lap</title>
 <screenshot>
 <graphic fileref="screenshots/chat/ChatIntegrationConfiguration.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <para>
-                    All other options pertains layout, colors and texts used by the chat
-widget. You can tweak them to match your overall website theme.
+                    Az összes egyéb beállítás a csevegés felületi elem által használt
+elrendezésre, színekre és szövegekre vonatkozik. Finomhangolhatja azokat,
+hogy összességében illeszkedjenek a weboldal témájához.
                 </para>
                 <note>
                     <para>
-                        Please note that changes made in the configuration tab will not be
-saved. Every time you open this dialog, all fields will be reset to default
-values.
+                        Ne feledje, hogy a beállítások lapon elvégzett változtatások nem lesznek
+elmentve. Minden alkalommal, amikor megnyitja ezt a párbeszédablakot, az
+összes mező az alapértelmezett értékeire lesz visszaállítva.
                     </para>
                 </note>
             </section>
             <section>
                 <title>Beágyazási kód</title>
                 <para>
-                    <emphasis>Integration Code</emphasis> tab contains necessary code snippets
-for insertion in a website, so public chat can work. All changes in the
-<emphasis>Configuration</emphasis> tab are applied immediately to the
-snippets, so you can make your changes and copy the code to your clipboard
-right afterwards.
+                    A <emphasis>Beágyazási kód</emphasis> lap tartalmazza a szükséges
+kódrészleteket a weboldalba történő beszúráshoz, hogy a nyilvános csevegés
+működhessen. A <emphasis>Beállítások</emphasis> lapon lévő összes
+változtatás azonnal alkalmazva lesz a kódrészleten, így elvégezheti a
+változtatásokat, és közvetlenül azután kimásolhatja a kódot a vágólapra.
                 </para>
                 <figure>
-                    <title>Integration Code Tab</title>
+                    <title>Beágyazási kód lap</title>
 <screenshot>
 <graphic fileref="screenshots/chat/ChatIntegrationSnippet.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <para>
-                    Code from the first field should be added to the
-<literal>&lt;HEAD&gt;</literal> section of your web page.
+                    Az első mezőben lévő kódot a weboldal <literal>&lt;HEAD&gt;</literal>
+szakaszába kell hozzáadni.
                 </para>
                 <para>
-                    Code from the second field should be inserted into the bottom of the page:
-before closure of the <literal>&lt;BODY&gt;</literal> tag, but after the
-line that loads <emphasis>jQuery</emphasis> library.
+                    A második mezőben lévő kódot az oldal aljára kell beszúrni: a
+<literal>&lt;BODY&gt;</literal> lezárása elé, de azután a sor után, amely a
+<emphasis>jQuery</emphasis> programkönyvtárat betölti.
                 </para>
                 <note>
                     <para>
-                        Please note that your web page must also include <emphasis>jQuery</emphasis>
-library for the code snippets to work.  This can be recognized by reference
-to the <filename>jquery.js</filename> or <filename>jquery.min.js</filename>
-file somewhere in the page.
+                        Ne feledje, hogy a weboldalának tartalmaznia kell a
+<emphasis>jQuery</emphasis> programkönyvtárat is ahhoz, hogy a kódrészlet
+működjön. Ez úgy ismerhető fel, hogy valahol az oldalon található egy
+hivatkozás a <filename>jquery.js</filename> vagy a
+<filename>jquery.min.js</filename> fájlra.
                     </para>
                 </note>
             </section>
             <section>
                 <title>Előnézet</title>
                 <para>
-                    Using the <emphasis>Preview</emphasis> tab you can see the chat widget in
-action. In the browser simulator below, you can see the chat widget look
-based on current configuration.
+                    Az <emphasis>Előnézet</emphasis> lap használatával megnézheti a csevegés
+felületi elemet működés közben. A lenti böngészőszimulátorban láthatja a
+csevegés felületi elem kinézetét a jelenlegi beállítás alapján.
                 </para>
                 <figure>
-                    <title>Preview Tab</title>
+                    <title>Előnézet lap</title>
 <screenshot>
 <graphic fileref="screenshots/chat/ChatIntegrationPreview.png" scalefit="1"
 width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 <para>
-                    By clicking on the reload icon, you can refresh the simulation at any time.
+                    Az újratöltés ikonra kattintva bármikor frissítheti a szimulációt.
                 </para>
                 <note>
                     <para>
-                        Please note that the preview uses the real chat module. If the chat widget
-doesn't show up after the configured amount of time, there are probably no
-agents available for chatting and you have configured the chat shouldn't
-show up in this case.
+                        Ne feledje, hogy az előnézet a valódi csevegésmodult használja. Ha a
+csevegés felületi elem nem jelenik meg a beállított idő után, akkor
+valószínűleg nincsenek elérhető ügyintézők a csevegéshez, és úgy állította
+be a csevegést, hogy nem szabad megjelennie ebben az esetben.
                     </para>
                 </note>
             </section>
             <section>
-                <title>Troubleshooting</title>
+                <title>Hibaelhárítás</title>
                 <itemizedlist>
                     <listitem>
                         <para>
-                            If you cannot see the chat widget, but everything seems in order, make sure
-you have at least one agent who is externally available for chat. Or switch
-on the <emphasis>Display Chat if no agent is available</emphasis> option in
-the <emphasis>Configuration</emphasis> tab, and refresh the code.
+                            Ha nem látja a csevegés felületi elemet, de úgy tűnik, hogy minden rendben
+van, akkor győződjön meg arról, hogy van-e legalább egy ügyintéző, aki
+külsőleg elérhető csevegéshez. Vagy váltsa át a <emphasis>Csevegés
+megjelenítése, ha nincs elérhető ügyintéző</emphasis> beállítást a
+<emphasis>Beállítások</emphasis> lapon, és frissítse a kódot.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            If you get mixed-content warnings in your browser console, make sure that
-OTRS configuration option <literal>HttpType</literal> is properly set. For
-example, if you are running OTRS on SSL, this configuration option must be
-set to <literal>https</literal>. Your website must run on the same protocol
-for chat widget to work.
+                            Ha kevert tartalom figyelmeztetéseket kap a böngésző konzoljában, akkor
+győződjön meg arról, hogy a <literal>HttpType</literal> OTRS beállítási
+lehetőség helyesen van-e beállítva. Például ha SSL-en futtatja az OTRS-t,
+akkor ezt a beállítási lehetőséget <literal>https</literal> értékre kell
+állítani. A weboldalnak ugyanilyen protokollon kell futnia ahhoz, hogy a
+csevegés felületi elem működjön.
                         </para>
                     </listitem>
                     <listitem>
                         <para>
-                            If you get errors saying that <literal>$</literal> variable is undefined,
-make sure that <emphasis>jQuery</emphasis> library is included in your web
-page, and that chat related code is placed below it.
+                            Ha olyan hibákat kap, amely azt mondja, hogy a <literal>$</literal> változó
+nincs meghatározva, akkor győződjön meg arról, hogy a
+<emphasis>jQuery</emphasis> programkönyvtárat tartalmazza-e a weboldal, és a
+csevegésre vonatkozó kód az alá van-e elhelyezve.
                         </para>
                     </listitem>
                 </itemizedlist>

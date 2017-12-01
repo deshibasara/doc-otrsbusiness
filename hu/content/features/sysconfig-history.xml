@@ -3,13 +3,14 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="sysconfig-history">
-    <title>System Configuration History</title>
+    <title>Rendszerbeállítások előzményei</title>
     <section>
         <title>Leírás</title>
         <para>
-            This added functionality provides administrators with screens to go through
-system configuration deployment and specific settings history, and make
-changes if needed.
+            Ez a hozzáadott funkcionalitás olyan képernyőket biztosít az
+adminisztrátoroknak, amelyekkel átnézhetik a rendszerbeállítások üzembe
+állításait és bizonyos beállítási előzményeket, valamint elvégezhetnek
+változtatásokat, ha szükséges.
         </para>
     </section>
     <section>
@@ -21,59 +22,65 @@ changes if needed.
     <section>
         <title>Használat</title>
         <section id="sysconfig-deployment-history">
-            <title>Üzembe állítási előzmények</title>
+            <title>Üzembe állítás előzmények</title>
             <para>
-                To access deployment history, go to <emphasis>System Configuration →
-Deployment</emphasis> screen and click on <emphasis>History</emphasis>
-button. This screen will display recent deployments in a descending order,
-along with their comments and name of the user who deployed the changes.
+                Az üzembe állítás előzményeihez való hozzáféréshez menjen a
+<emphasis>Rendszerbeállítások → Üzembe állítás</emphasis> képernyőre, és
+kattintson az <emphasis>Előzmények</emphasis> gombra. Ez a képernyő
+megjeleníti a legutóbbi üzembe állításokat csökkenő sorrendben, a
+megjegyzéseikkel és annak a felhasználónak a nevével együtt, aki a
+változtatásokat üzembe állította.
             </para>
             <para>
                 <figure>
-                    <title>System configuration deployment history</title>
+                    <title>Rendszerbeállítások üzembe állítás előzményei</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-history/sysconfig-deployment-history.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Every deployment can be further inspected by clicking on <emphasis>View
-Details</emphasis> link next to it. <emphasis>Details</emphasis> screen can
-be used to compare the setting with its previous value, before the
-deployment took place.
+                Minden egyes üzembe állítás a későbbiekben megvizsgálható a mellette lévő
+<emphasis>Részletek megtekintése</emphasis> hivatkozásra kattintva. A
+<emphasis>Részletek</emphasis> képernyő használható a beállítás
+összehasonlítására azon korábbi értékével, mielőtt az üzembe állítás
+megtörtént.
             </para>
             <para>
-                Additionally, older deployments (every one before current state) can be
-restored with a simple click.  By restoring a deployment, all settings will
-be reverted to the value they had at the time of the deployment in question.
+                Továbbá a régebbi üzembe állítások (a jelenlegi állapot előtti mindegyik)
+visszaállítható egy egyszerű kattintással. Egy üzembe állítás
+visszaállításával az összes beállítás vissza lesz állítva arra az értékre,
+amellyel a kérdéses üzembe állítás pillanatában rendelkezett.
             </para>
             <para>
-                Finally, deployments can be exported with click on the export button. User
-will be presented with a download of a YML file that contains changed
-settings. This YML file can be later restored via <emphasis>Import &amp;
-Export</emphasis> screen in the system configuration screen.
+                Végül az üzembe állítások exportálhatók az exportálás gombra kattintással. A
+felhasználó egy letölthető YML-fájlt kap, amely tartalmazza a
+megváltoztatott beállításokat. Ez az YML-fájl később visszatölthető a
+rendszerbeállítások képernyőn lévő <emphasis>Importálás és
+exportálás</emphasis> képernyőn keresztül.
             </para>
         </section>
         <section id="sysconfig-setting-history">
-            <title>Setting History</title>
+            <title>Beállítás előzményei</title>
             <para>
-                Specific setting history can be accessed via <emphasis>History</emphasis>
-button in the setting widget. This button opens a screen of all values
-setting had over different deployments. Information like name of the user
-that made the change and time of change is displayed, along with a useful
-comparison tool.
+                Adott beállítási előzmények az <emphasis>Előzmények</emphasis> gombon
+keresztül érhetők el a beállítás felületi elemében. Ez a gomb megnyitja az
+összes, a különböző üzembe állításokkal beállított érték képernyőjét. Egy
+hasznos összehasonlító eszközzel együtt olyan információk lesznek
+megjelenítve, mint annak a felhasználónak a neve, aki a változtatást
+elvégezte, valamint a változtatás ideje.
             </para>
             <para>
                 <figure>
-                    <title>System configuration setting history</title>
+                    <title>Rendszerbeállítások beállítási előzményei</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-history/sysconfig-deployment-history.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Every historical setting value can be restored by clicking on the
-<emphasis>Restore</emphasis> button in upper right corner.
+                Minden korábbi beállítási érték visszaállítható a jobb felső sarokban lévő
+<emphasis>Visszaállítás</emphasis> gombra kattintva.
             </para>
         </section>
     </section>

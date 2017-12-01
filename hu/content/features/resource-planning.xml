@@ -2,16 +2,17 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="resource-planning">
-    <title>Resource Planning</title>
+    <title>Erőforrástervezés</title>
 
     <section>
         <title>Leírás</title>
         <para>
-            Resource planning feature in <emphasis role="bold">OTRS Business
-Solution</emphasis>™ complements built-in calendar feature of OTRS. It
-enhances original calendar implementation by introducing resource allocation
-for appointments. Furthermore, resources can be assigned to separate teams,
-which in turn can be used to filter resource overview and availability.
+            Az <emphasis role="bold">OTRS Business Solution</emphasis>™ szoftverben lévő
+erőforrástervezés funkció az OTRS beépített naptárfunkcióját egészíti
+ki. Továbbfejleszti az eredeti naptár megvalósítását az időpontoknál történő
+erőforráslefoglalás bevezetésével. Ráadásul az erőforrások hozzárendelhetők
+a különálló csapatokhoz, amelyek viszont használhatók az
+erőforrás-áttekintés és -elérhetőség szűréséhez.
         </para>
     </section>
 
@@ -25,33 +26,35 @@ which in turn can be used to filter resource overview and availability.
     <section>
         <title>Használat</title>
         <section>
-            <title>Team Management</title>
+            <title>Csapatkezelés</title>
             <para>
-                In order to be able to assign appointments to resources, you must first
-define teams for those resources.
+                Annak érdekében, hogy képes legyen időpontokat rendelni az erőforrásokhoz,
+először csapatokat kell meghatároznia azokhoz az erőforrásokhoz.
             </para>
             <para>
                 <figure>
-                    <title>Team Management Add and Import</title>
+                    <title>Csapatkezelés hozzáadás és importálás</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/TeamManagementAddImport.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Teams can be added or imported from <emphasis>Manage Teams</emphasis> screen
-accessible via top navigation menu. In order to import a team, you must have
-an exported YML configuration file of the team from an existing OTRS
-installation.
+                A csapatok a felső navigációs menün keresztül elérhető <emphasis>Csapatok
+kezelése</emphasis> képernyőről adhatók hozzá vagy importálhatók. Egy csapat
+importálásához rendelkeznie kell a csapat exportált YML beállítófájljával
+egy meglévő OTRS telepítésből.
             </para>
             <para>
-                Adding new team is easy: just define a team name and permission group. Full
-access to this group is required for anyone to be able to manage the team,
-its agents and assign them as resources to appointments.
+                Új csapat hozzáadása egyszerű: határozzon meg egy csapatnevet és egy
+jogosultsági csoportot. Teljes hozzáférés szükséges ehhez a csoporthoz
+mindenkinek, akinek képesnek kell lennie kezelnie a csapatot, annak
+ügyintézőit, és képesnek kell lennie hozzárendelni őket erőforrásként az
+időpontokhoz.
             </para>
             <para>
                 <figure>
-                    <title>Team Management Add and Import</title>
+                    <title>Csapatkezelés hozzáadás és importálás</title>
 <screenshot>
 <graphic fileref="screenshots/resource-allocation/TeamManagementEdit.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
@@ -59,32 +62,35 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </section>
 
         <section>
-            <title>Team Agent Management</title>
+            <title>Csapat–Ügyintéző kezelés</title>
             <para>
-                Once you have teams set up, you must define which agents belong to which
-teams. This is done via dedicated screen where you can adjust relations of
-agents and teams very much like you can do it for agents and groups.
+                Miután rendelkezik beállított csapatokkal, meg kell határoznia, hogy mely
+ügyintézők mely csapatokhoz tartoznak. Ez egy kifejezetten erre a célra
+készített képernyőn keresztül végezhető el, ahol beállíthatja az ügyintézők
+és a csapatok kapcsolatait nagyon hasonlóan ahhoz, ahogy azt az
+ügyintézőknél és csoportoknál teheti.
             </para>
             <note>
                 <para>
-                    Please note that in order to see agents in this screen, you must define them
-first via <emphasis>Admin → Agents</emphasis> screen.
+                    Ne feledje, annak érdekében, hogy láthassa az ügyintézőket ezen a képernyőn,
+először meg kell határoznia őket az <emphasis>Adminisztráció →
+Ügyintézők</emphasis> képernyőn keresztül.
                 </para>
             </note>
             <para>
                 <figure>
-                    <title>Team Agent Management</title>
+                    <title>Csapat–Ügyintéző kezelés</title>
 <screenshot>
 <graphic fileref="screenshots/resource-allocation/TeamManagementAgents.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                By choosing a team from this screen, you can assign agents to it, and
-vice-versa.
+                Erről a képernyőről egy csapat kiválasztásával ügyintézőket rendelhet hozzá,
+és fordítva.
             </para>
             <para>
                 <figure>
-                    <title>Team Agent Relations</title>
+                    <title>Csapat–Ügyintéző kapcsolatok</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/TeamManagementAgentRelations.png"
@@ -93,33 +99,36 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </section>
 
         <section>
-            <title>Assigning Appointments to Resources</title>
+            <title>Időpontok hozzárendelése az erőforrásokhoz</title>
             <para>
-                Finally, once you have both teams and their agents set up, you can proceed
-to a calendar overview and start assigning appointments to teams and agents.
+                Végül, amikor a csapatok és az ügyintézőik is be vannak állítva,
+továbbléphet a naptár áttekintőjéhez, és elkezdheti az időpontok
+hozzárendelését a csapatokhoz és az ügyintézőkhöz.
             </para>
             <para>
-                Simply add or edit an appointment, and choose both team and agent from the
-lists under resource. You can do this via any calendar overview, as
-appointment edit dialog is the same for all of them.
+                Egyszerűen adjon hozzá vagy szerkesszen egy időpontot, és válasszon mind
+csapatot, mind ügyintézőt az erőforrás alatti listákból. Ezt bármely
+naptáráttekintőn keresztül megteheti, mivel az időpontszerkesztő
+párbeszédablak ugyanaz az összes áttekintőnél.
             </para>
             <para>
                 <figure>
-                    <title>Assigning team and agent to an appointment</title>
+                    <title>Csapat és ügyintéző hozzárendelése egy időponthoz</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/AppointmentEditResource.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                You can assign multiple teams and agents to a single appointment, but you
-must always choose a team first. Resulting list of agents is an aggregate of
-all selected teams, without any duplicates. Choosing an agent from the list
-is also optional, so you can leave an appointment assigned only to a team.
+                Több csapatot és ügyintézőt is hozzárendelhet egyetlen időponthoz, de
+először mindig csapatot kell választania. Az eredményül kapott
+ügyintézőlista az összes kiválasztott csapatban lévő ügyintézők sokasága,
+ismétlődések nélkül. Egy ügyintéző választása a listából nem is kötelező,
+így egy időpontot hagyhat csak egy csapathoz rendelten.
             </para>
             <para>
                 <figure>
-                    <title>Assigning multiple teams and agents to an appointment</title>
+                    <title>Több csapat és ügyintéző hozzárendelése egy időponthoz</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/AppointmentEditResourceMultiple.png"
@@ -127,46 +136,47 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
-                    Once you assign an appointment to a team and/or agent, make sure to save it
-so your changes are applied.
+                    Amikor egy időpontot rendel egy csapathoz és/vagy ügyintézőhöz, akkor
+győződjön meg arról, hogy elmentette, és a változtatásai alkalmazva lettek.
                 </para>
             </note>
         </section>
 
         <section>
-            <title>Erőforrás áttekintő</title>
+            <title>Erőforrásáttekintés</title>
             <para>
-                While it's possible to assign resources to an appointment in any calendar
-overview, one screen is designed exclusively for allocating resources to
-appointments: Resource Overview. This screen looks very much like a regular
-calendar overview, except it has a filter for teams on top and a list of
-agents for that team (available only in timeline views).
+                Míg bármely naptáráttekintőben lehetséges erőforrásokat hozzárendelni egy
+időponthoz, az erőforrásoknak az időpontokhoz történő hozzárendeléséhez egy
+kizárólagos képernyőt terveztek: az erőforrásáttekintőt. Ez a képernyő
+nagyon hasonlóan néz ki, mint egy szokásos naptáráttekintő, kivéve, hogy a
+felső részén rendelkezik egy szűrővel a csapatokhoz és a csapat
+ügyintézőlistájához (csak idővonal nézetekben érhető el).
             </para>
             <para>
-                By choosing a team from the top filter, you will be presented with all
-appointments assigned to it.
+                A felső szűrőből egy csapat választásakor megjelenítésre kerül az ahhoz
+rendelt összes időpont.
             </para>
             <para>
                 <figure>
-                    <title>Erőforrás áttekintő</title>
+                    <title>Erőforrásáttekintés</title>
 <screenshot>
 <graphic fileref="screenshots/resource-allocation/ResourceOverview.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                By simply dragging an appointment to a row line with an agent's name in
-timeline view, it's possible to assign an appointment to this resource. If
-an appointment does not have an agent assigned to it, it will appear in the
-unassigned area of the screen.
+                Ha egy időpontot egyszerűen ráhúz egy ügyintéző nevét tartalmazó sorra az
+idővonal nézeten, akkor lehetséges egy időpont hozzárendelése ahhoz az
+erőforráshoz. Ha egy időpontnak még nincs hozzárendelt ügyintézője, akkor az
+a képernyő hozzárendeletlen területén jelenik meg.
             </para>
             <para>
-                Appointment with multiple agents will be displayed as duplicated, but it
-most certainly is not. Dragging one instance of this appointment will move
-all them in the same fashion.
+                A több ügyintézővel rendelkező időpont kettőzöttként fog megjelenni, de ez
+minden bizonnyal nem. Az időpont egy példányának húzása az összeset ugyanúgy
+áthelyezi.
             </para>
             <para>
                 <figure>
-                    <title>Erőforrás áttekintő</title>
+                    <title>Erőforrásáttekintés</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/ResourceOverviewMultiple.png"
@@ -174,40 +184,42 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
-                    Please note that appointments with unassigned teams or assigned different
-team than currently selected, will not show up in the resource overview. You
-will have to switch to a different overview to see these appointments, so
-make sure to assign them to a correct team first.
+                    Ne feledje, hogy a hozzárendeletlen csapatokkal vagy a jelenlegi
+kiválasztástól eltérő hozzárendelt csapatokkal rendelkező időpontok nem
+fognak megjelenni az erőforrásáttekintőben. Át kell váltania egy másik
+áttekintőre, hogy lássa azokat az időpontokat, ezért először arról győződjön
+meg, hogy a megfelelő csapathoz rendelte-e azokat.
                 </para>
             </note>
             <para>
-                By editing settings of the resource overview (via gear icon in top right
-corner), you can choose which team agents are displayed within the overview.
+                Az erőforrásáttekintő beállításainak szerkesztésével (a jobb felső sarokban
+lévő fogaskerék ikonon keresztül) kiválaszthatja, hogy mely csapatügyintézők
+legyenek megjelenítve az áttekintőn belül.
             </para>
             <para>
                 <figure>
-                    <title>Resource Overview Settings</title>
+                    <title>Erőforrásáttekintő beállításai</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/ResourceOverviewSettings.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                This setting is user and team specific, and if you have defined an agent
-filter in this way, a trash icon will be displayed on top of the list of
-agents so you can remove it easily.
+                Ez a beállítás a felhasználóra és a csapatra jellemző, és ha rendelkezik egy
+meghatározott ügyintézőszűrővel ily módon, akkor egy kuka ikon lesz
+megjelenítve az ügyintézőlista tetején, így egyszerűen eltávolíthatja azt.
             </para>
             <para>
                 <figure>
-                    <title>Resource Overview Filter Delete</title>
+                    <title>Erőforrásáttekintő szűrőjének törlése</title>
 <screenshot>
 <graphic
 fileref="screenshots/resource-allocation/ResourceOverviewFilterDelete.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                In all other aspects, resource overview screen behaves in the same way as a
-regular calendar overview.
+                Minden más szempontból az erőforrásáttekintő képernyő ugyanúgy viselkedik,
+mint a szokásos naptáráttekintő.
             </para>
         </section>
 

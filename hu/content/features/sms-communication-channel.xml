@@ -3,27 +3,28 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="sms-communication-channel">
-    <title>SMS Communication Channel</title>
+    <title>SMS kommunikációs csatorna</title>
     <section>
         <title>Leírás</title>
         <para>
-            The <emphasis role="bold">OTRS Business Solution</emphasis>™ brings another
-communication channel to your OTRS instance: SMS (Short Message Service). It
-allows you to leverage SMS cloud service to send out messages and store them
-as article in tickets.
+            Az <emphasis role="bold">OTRS Business Solution</emphasis>™ egy további
+kommunikációs csatornát hoz az OTRS példányba: SMS (rövid szöveges
+üzenet). Lehetővé teszi az SMS felhőszolgáltatás kihasználását üzenetek
+kiküldéséhez és a jegyekben bejegyzésekként való tárolásukhoz.
         </para>
     </section>
 
     <section id="sms-cloud-service-activate">
-        <title>Activating SMS Cloud Service</title>
+        <title>Az SMS felhőszolgáltatás bekapcsolása</title>
         <para>
-            Before taking advantage of SMS cloud service, you must first activate it. To
-do so, please visit the <emphasis>Cloud Services</emphasis> screen in Admin
-interface, and click on SMS entry in table.
+            Mielőtt az SMS felhőszolgáltatás előnyét élvezné, először be kell kapcsolnia
+azt. Ehhez látogasson el a <emphasis>Felhőszolgáltatások</emphasis>
+képernyőre az adminisztrátori felületen, és kattintson az SMS bejegyzésre a
+táblázatban.
         </para>
         <para>
             <figure>
-                <title>Cloud Services Screen in Admin Interface</title>
+                <title>Felhőszolgáltatások képernyő az adminisztrátori felületen</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-cloud-service.png"
@@ -31,36 +32,36 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <note>
             <para>
-                In order to use SMS cloud service, you have to buy an SMS unit
-package. Please get in touch with sales@otrs.com on this matter. Once you've
-bought a package, you will be able to look up your current contingent of
-remaining SMS units in the sidebar of the cloud service configuration
-screen.
+                Az SMS felhőszolgáltatás használatának érdekében vásárolnia kell egy SMS
+egységcsomagot. Vegye fel a kapcsolatot a sales@otrs.com címen ebben a
+kérdésben. Amikor megvásárolt egy csomagot, képes lesz megnézni a hátralévő
+SMS egységek aktuális mennyiségét a felhőszolgáltatás beállítási
+képernyőjének oldalsávjában.
             </para>
         </note>
         <para>
-            To activate SMS cloud service, make sure to accept the Data Protection
-agreement by selecting the checkbox.
+            Az SMS felhőszolgáltatás bekapcsolásához győződjön meg arról, hogy
+elfogadta-e az adatvédelmi megállapodást a jelölőnégyzet bejelölésével.
         </para>
         <para>
             <figure>
-                <title>Activating SMS Cloud Service</title>
+                <title>Az SMS felhőszolgáltatás bekapcsolása</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-cloud-service-config.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            On this screen, you can also set up some additional parameters of the SMS
-cloud service, e.g. the sender string which should be used for the SMS text
-messages or the agent/customer preference field name which should be used to
-take the mobile phone number from.
+            Ezen a képernyőn az SMS felhőszolgáltatás néhány további paraméterét is
+beállíthatja, például a küldő szöveget, amelyet az SMS szöveges üzeneténél
+kell használni, vagy az ügyintéző/ügyfél beállítási mezőjének nevét, amelyet
+a mobiltelefonszám kivételéhez kell használni.
         </para>
         <note>
             <para>
-                If you change value for the customer preference field, make sure to update
-the configuration options of the address book in the system configuration to
-reflect this change:
+                Ha megváltoztat egy értéket az ügyfél beállítási mezőjénél, akkor győződjön
+meg arról, hogy frissítette-e a címjegyzék beállítási lehetőségeit a
+rendszerbeállításokban, hogy ezt a változtatást tükrözze:
             </para>
             <para>
                 <itemizedlist>
@@ -76,37 +77,41 @@ reflect this change:
                 </itemizedlist>
             </para>
             <para>
-                This will make sure your configuration stays in sync and phone numbers can
-be found/copied from correct fields.
+                Ez azt fogja biztosítani, hogy a beállításai szinkronban maradjanak, és a
+telefonszámok megtalálhatók és kimásolhatók legyenek a helyes mezőkből.
             </para>
         </note>
         <para>
-            <emphasis>Allowed role members</emphasis> is an optional white list of agent
-roles whose members will be able to receive SMS notifications. If undefined,
-all agents will have a possibility of receiving SMS notifications.
+            Az <emphasis>Engedélyezett szereptagok</emphasis> egy nem kötelező fehér
+listája azoknak az ügyintézői szerepeknek, amely tagjai képesek lesznek SMS
+értesítéseket fogadni. Ha nincs meghatározva, akkor az összes ügyintézőnek
+meglesz a lehetősége SMS értesítéseket fogadni.
         </para>
         <para>
-            <emphasis>Perform URL shortening</emphasis> checkbox controls the feature of
-shortening links in SMS texts. If enabled, any link submitted as part of SMS
-text will be shortened by using OTRS cloud URL shortening service. Links
-will be shortened only if their length is larger than resulting shortened
-URL, in order to keep SMS costs down.
+            Az <emphasis>URL rövidítés végrehajtása</emphasis> jelölőnégyzet vezérli az
+SMS szövegekben lévő hivatkozások rövidítésének funkcióját. Ha engedélyezve
+van, akkor az SMS szöveg részeként kiküldött összes hivatkozást rövidíteni
+fogja az OTRS felhő URL rövidítési szolgáltatása. A hivatkozások csak akkor
+lesznek rövidítve, ha a hosszuk nagyobb az eredményül kapott rövidített
+URL-nél annak érdekében, hogy az SMS költségeket alacsonyan tartsa.
         </para>
         <para>
-            By adding specific phone numbers to the <emphasis>Phone black
-list</emphasis>, you can make sure these numbers will never receive any SMS
-text via cloud service (whether it's a notification or an article). Make
-sure to input phone numbers in international format, complete with plus sign
-(+) and country code, without any spaces.
+            Bizonyos telefonszámoknak a <emphasis>Telefon feketelista</emphasis> mezőbe
+történő hozzáadásával meggyőződhet arról, hogy azokra a számokra sosem fog
+semmilyen SMS szöveget sem kiküldeni a felhőszolgáltatás (legyen az akár egy
+értesítés, akár egy bejegyzés). Győződjön meg arról, hogy a telefonszámokat
+nemzetközi formátumban írja be: egészítse ki egy plusz jellel (+) és az
+országkóddal, szóközök nélkül.
         </para>
     </section>
 
     <section>
-        <title>Configuring SMS Templates</title>
+        <title>SMS sablonok beállítása</title>
         <para>
-            In order to benefit from SMS templates, you must first configure them for
-specific screens and assign them to correct queues. You can find
-<emphasis>SMS template management</emphasis> screen in the Admin interface.
+            Annak érdekében, hogy használatba vehesse az SMS sablonokat, először be kell
+állítania azokat az egyes képernyőkhöz, és hozzá kell rendelnie azokat a
+helyes várólistákhoz. Találhat egy <emphasis>SMS sablon kezelés</emphasis>
+képernyőt az adminisztrátori felületen.
         </para>
         <para>
             <figure>
@@ -117,47 +122,49 @@ fileref="screenshots/sms-communication-channel/sms-template-overview.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            SMS templates behave similar to regular email templates. You define them
-first, and then assign to queues with which you would like to use them.
+            A SMS sablonok hasonlóan viselkednek mint a szokásos e-mail
+sablonok. Először határozza meg a sablonokat, és azután rendelje hozzá
+azokhoz a várólistákhoz, amelyeknél használni szeretné azokat.
         </para>
         <para>
-            <emphasis>Template Type</emphasis> field determines for which screen the
-template will be visible:
+            A <emphasis>Sablontípus</emphasis> mező határozza meg, hogy mely képernyőnél
+lesz a sablon látható:
         </para>
         <para>
             <variablelist>
                 <varlistentry>
                     <term><literal>Answer</literal></term>
                     <listitem>
-                        <para>Template will be visible for <emphasis>Reply via SMS article</emphasis>
-action.</para>
+                        <para>A sablon a <emphasis>Válasz SMS bejegyzésben</emphasis> műveletnél lesz
+látható.</para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
                     <term><literal>Create</literal></term>
                     <listitem>
-                        <para>Template will be visible in <emphasis>New SMS ticket</emphasis> screen.</para>
+                        <para>A sablon az <emphasis>Új SMS jegy</emphasis> képernyőben lesz látható.</para>
                     </listitem>
                 </varlistentry>
                 <varlistentry>
                     <term><literal>SMSOutbound</literal></term>
                     <listitem>
-                        <para>Template will be visible in <emphasis>SMS Outbound</emphasis> screen.</para>
+                        <para>A sablon a <emphasis>Kimenő SMS</emphasis> képernyőben lesz látható.</para>
                     </listitem>
                 </varlistentry>
             </variablelist>
         </para>
         <note>
             <para>
-                <literal>Create</literal> type templates only supports these smart tags:
-<literal>&lt;OTRS_CURRENT_*&gt;</literal> and
+                A <literal>Create</literal> típusú sablonok csak ezeket az okos címkéket
+támogatják: <literal>&lt;OTRS_CURRENT_*&gt;</literal> és
 <literal>&lt;OTRS_CONFIG_*&gt;</literal>.
             </para>
         </note>
         <para>
-            When you define an SMS template, don't forget to add them to queues. You can
-do this by following link in the sidebar or via <emphasis>SMS Templates ↔
-Queues</emphasis> link in the admin interface.
+            Amikor meghatároz egy SMS sablont, akkor ne felejtse el hozzáadni azt a
+várólistákhoz. Ezt megteheti az oldalsávban lévő hivatkozás követésével,
+vagy az <emphasis>SMS sablonok ↔ Várólisták</emphasis> hivatkozáson
+keresztül az adminisztrációs felületen.
         </para>
         <para>
             <figure>
@@ -170,145 +177,148 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </section>
 
     <section>
-        <title>Creating SMS Tickets</title>
+        <title>SMS jegyek létrehozása</title>
         <para>
-            To create a ticket with SMS article as a first one, please go to the
-<emphasis>New SMS ticket</emphasis> screen accessible via
-<emphasis>Tickets</emphasis> menu on the main toolbar.
+            Egy első bejegyzésként SMS-en keresztül történő jegy létrehozásához menjen
+az <emphasis>Új SMS jegy</emphasis> képernyőre, amely a fő eszköztáron lévő
+<emphasis>Jegyek</emphasis> menün keresztül érhető el.
         </para>
         <para>
             <figure>
-                <title>New SMS Ticket Screen</title>
+                <title>Új SMS jegy képernyő</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-ticket-create.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            This screen behaves similar to new email and phone screens, with some
-notable exceptions. Instead of email addresses,
-<emphasis>Recipients</emphasis> field accepts only phone numbers in
-international format, complete with plus sign (+)  and country code. You can
-also search for customer users via this field, provided they have a valid
-phone number stored in preference field which is configured in cloud service
-configuration screen.
+            Ez a képernyő hasonlóan viselkedik mint az új e-mail és telefon képernyők,
+de néhány említésre méltó kivétellel. Az e-mail címek helyett a
+<emphasis>Címzettek</emphasis> mező csak telefonszámokat fogad el nemzetközi
+formátumban, egy plusz jellel (+) és az országkóddal kiegészítve. Rákereshet
+ügyfél-felhasználókra is ezen mezőn keresztül, feltéve, hogy rendelkeznek
+érvényes telefonszámmal a beállítások mezőben eltárolva, amely a
+felhőszolgáltatás beállításai képernyőn van beállítva.
         </para>
         <para>
-            You may also utilize address book by clicking on small icon next to the
-recipients field. Search form will allow you to find customer user you are
-looking for, and add their phone number to the list of recipients.
-        </para>
-        <note>
-            <para>
-                <emphasis>Ticket Title</emphasis> field will not be included in SMS and is
-for internal use only. Customer will receive message based exclusively on
-the contents of the <emphasis>Text</emphasis> field.
-            </para>
-        </note>
-        <para>
-            If you have configured SMS templates of type <literal>Create</literal>, and
-you have them assigned to currently chosen <emphasis>Queue</emphasis>, you
-will have the option of populating the <emphasis>Text</emphasis> field with
-preconfigured message.
-        </para>
-        <para>
-            <emphasis>Flash message</emphasis> checkbox controls if message will be
-showed directly on the device without user interaction and not stored
-automatically.
+            Felhasználhatja a címjegyzéket a címzettek mező mellett lévő kis ikonra
+kattintva is. A keresési űrlap lehetővé teszi, hogy megtalálja a keresett
+ügyfél-felhasználót, és hozzáadja a telefonszámát a címzettek listájához.
         </para>
         <note>
             <para>
-                Support for flash messages (also known as <emphasis>Class 0</emphasis>
-messages) may vary by device and provider. OTRS cannot guarantee if this
-flag will be honored by service provider or supported by receiving device.
+                A <emphasis>Jegycím</emphasis> mező nem lesz benne az SMS-ben, és csak belső
+használatra van. Az ügyfél kizárólag a <emphasis>Szöveg</emphasis> mező
+tartalma alapján kapja meg az üzenetet.
             </para>
         </note>
         <para>
-            By clicking <emphasis>Send SMS</emphasis> button, ticket will be created
-with an SMS article, provided SMS cloud service accepted the message. If any
-errors were encountered, you will be notified, and ticket will not be
-created.
+            Ha beállított <literal>Create</literal> típusú SMS sablonokat, és
+hozzárendelte azokat a jelenleg kiválasztott
+<emphasis>Várólistához</emphasis>, akkor lehetősége lesz a
+<emphasis>Szöveg</emphasis> mezőt feltölteni előre beállított üzenettel.
+        </para>
+        <para>
+            A <emphasis>Felugró üzenet</emphasis> jelölőnégyzet azt vezérli, hogy az
+üzenet közvetlenül meg legyen jelenítve az eszközön felhasználói beavatkozás
+nélkül, és nem kerül automatikusan eltárolásra.
+        </para>
+        <note>
+            <para>
+                A felugró üzenetek (ismert még <emphasis>0. osztályú</emphasis> üzenetként
+is) támogatása eszközönként és szolgáltatóként eltérő lehet. Az OTRS nem
+tudja garantálni, hogy ezt a jelzőt figyelembe veszik a szolgáltatók vagy
+támogatja-e a fogadó eszköz.
+            </para>
+        </note>
+        <para>
+            Az <emphasis>SMS küldése</emphasis> gombra kattintva a jegy létrejön egy SMS
+bejegyzéssel, feltéve, hogy az SMS felhőszolgáltatás elfogadta az
+üzenetet. Ha valamilyen hiba történt, akkor értesülni fog róla, és a jegy
+nem kerül létrehozásra.
         </para>
     </section>
 
     <section>
-        <title>Creating SMS Articles</title>
+        <title>SMS bejegyzések létrehozása</title>
         <para>
-            To add an SMS to an existing ticket, you can use <emphasis>SMS
-Outbound</emphasis> action on the main ticket toolbar
-(<emphasis>Communication</emphasis> section).
+            Egy meglévő jegyhez való SMS hozzáadásához használhatja a <emphasis>Kimenő
+SMS</emphasis> műveletet a fő eszköztáron (<emphasis>Kommunikáció</emphasis>
+szakasz).
         </para>
         <para>
             <figure>
-                <title>New SMS Ticket Screen</title>
+                <title>Új SMS jegy képernyő</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-ticket-outbound.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            If you already have an article, you can also use <emphasis>Reply via
-SMS</emphasis> action on the article toolbar. Simply select the article in
-question, and either click on the button, or choose name of the template (if
-you have it configured for this screen).
+            Ha már van bejegyzése, akkor használhatja a bejegyzés eszköztáron lévő
+<emphasis>Válasz SMS-ben</emphasis> műveletet. Egyszerűen válassza ki a
+kérdéses bejegyzést, és kattintson a gombra, vagy válassza ki a sablon nevét
+(ha beállította ehhez a képernyőhöz).
         </para>
         <para>
             <figure>
-                <title>New SMS Ticket Screen</title>
+                <title>Új SMS jegy képernyő</title>
 <screenshot>
 <graphic fileref="screenshots/sms-communication-channel/sms-reply.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            If customer user has defined phone number, it will be automatically inserted
-in the recipients list. It doesn't matter if article was created in a
-different communication channel (e.g. Email), it should be correctly
-recognized and substituted with valid phone number.
+            Ha az ügyfél-felhasználónak van meghatározott telefonszáma, akkor az
+automatikusan beszúrásra kerül a címzettek listájába. Nem számít, hogy a
+bejegyzés eltérő kommunikációs csatornán lett létrehozva (például
+e-mailben), helyesen fel lesz ismerve és helyettesítve lesz az érvényes
+telefonszámmal.
         </para>
         <note>
             <para>
-                Please note that SMS character counter might not be reflecting the final
-message size. This is especially true if message text contains OTRS tags or
-links and URL shorting feature is turned on. Since text replacement will
-occur during sending of the message, there is no way to guarantee final
-size, and counter should be taken only for informative purposes.
+                Ne feledje, hogy az SMS karakterszámlálója nem mindig tükrözi a végső
+üzenetméretet. Ez különösen akkor igaz, ha az üzenet szövege OTRS címkéket
+vagy hivatkozásokat tartalmaz, és az URL rövidítési funkció be van
+kapcsolva. Mivel a szöveg behelyettesítése az üzenet küldése során történik
+meg, nincs mód a végső méretet garantálni, és a számlálót csak tájékoztató
+jelleggel szabad figyelembe venni.
             </para>
         </note>
     </section>
 
     <section>
-        <title>Displaying SMS Articles</title>
+        <title>SMS bejegyzések megjelenítése</title>
         <para>
-            SMS articles can be displayed as they were sent out right in the ticket zoom
-screen. Their contents will reflect the final state of the message as queued
-by the SMS cloud service for sending (with all tags replaced and links
-shortened).
+            Az SMS bejegyzések úgy jeleníthetők meg közvetlenül a jegynagyítás
+képernyőn, ahogy ki lettek küldve. A tartalmuk tükrözni fogja az üzenet
+végső állapotát, ahogy az SMS felhőszolgáltatás sorba állította azokat a
+küldéshez (az összes behelyettesített címkével és rövidített hivatkozással).
         </para>
         <para>
-            Recipients of an SMS article are listed inside the
-<emphasis>Recipients</emphasis> field. They can be shown in two formats:
-just phone numbers or phone numbers with name of corresponding customer
-users. In addition to this field, <emphasis>Transaction Numbers</emphasis>
-will contain a reference message ID mapped to the recipients phone
-number. These numbers can be used for debugging purposes, since they can be
-connected to specific messages handled by the cloud service.
+            Egy SMS bejegyzés címzettjei a <emphasis>Címzettek</emphasis> mezőn belül
+lesznek felsorolva. Két formátumban jeleníthetők meg: csak telefonszámok
+vagy telefonszámok a megfelelő ügyfél-felhasználók nevével. A mező melletti
+<emphasis>Tranzakciószámok</emphasis> fogja tartalmazni a címzettek
+telefonszámaira leképezett hivatkozási üzenetazonosítót. Ezek a számok
+hibakeresési célokra használhatók, mivel a felhőszolgáltatás által kezelt,
+adott üzenetekhez kapcsolhatók.
         </para>
         <para>
             <figure>
-                <title>SMS Article Display</title>
+                <title>SMS bejegyzés megjelenítése</title>
 <screenshot>
 <graphic fileref="screenshots/sms-communication-channel/sms-ticket-zoom.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
-            In addition to the article header field, transaction numbers can also be
-found in <emphasis>Ticket History</emphasis> screen.  This screen will
-contain an entry for every message sent out via SMS cloud service, with
-corresponding transaction and phone number in it.
+            A bejegyzésfejléc mezőn kívül a tranzakciószámok is megtalálhatók a
+<emphasis>Jegyelőzmények</emphasis> képernyőn. Ez a képernyő tartalmazni fog
+egy bejegyzést az SMS felhőszolgáltatás által kiküldött minden egyes
+üzenethez, bennük a megfelelő tranzakció- és telefonszámokkal.
         </para>
         <para>
             <figure>
-                <title>SMS Ticket History Entries</title>
+                <title>SMS jegyelőzmények bejegyzései</title>
 <screenshot>
 <graphic
 fileref="screenshots/sms-communication-channel/sms-ticket-history.png"

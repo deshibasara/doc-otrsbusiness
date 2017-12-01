@@ -3,18 +3,20 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="sysconfig-user-settings">
-    <title>System Configuration User Specific Settings</title>
+    <title>Rendszerbeállítások felhasználóra jellemző beállításai</title>
     <section>
         <title>Leírás</title>
         <para>
-            This functionality allows agent users to define their own values for some
-system configuration settings.  These values can be defined in the user
-preferences section in the new <emphasis>Advanced</emphasis> pane.
+            Ez a funkcionalitás lehetővé teszi az ügyintéző felhasználóknak, hogy
+meghatározzák a saját értékeiket néhány rendszerbeállításnál. Ezek az
+értékek a felhasználói beállításokban határozhatók meg az új
+<emphasis>Speciális</emphasis> ablaktáblán.
         </para>
         <para>
-            Administrators are able to review the user defined values for those settings
-and reset them if necessary and to forbid or allow user modifications on
-specific settings.
+            Az adminisztrátorok képesek felülvizsgálni a felhasználó által meghatározott
+értékeket ezeknél a beállításoknál, és szükség esetén visszaállíthatják
+azokat, valamint megtilthatják vagy engedélyezhetik a felhasználói
+módosításokat bizonyos beállításoknál.
         </para>
     </section>
     <section>
@@ -26,34 +28,36 @@ specific settings.
     <section>
         <title>Használat</title>
         <section>
-            <title>Set user specific value</title>
+            <title>Felhasználóra jellemző érték beállítása</title>
             <para>
-                Every agent can define a value for a setting using the <emphasis>Personal
-preferences</emphasis> screen. Once you are in this screen, select the
-<emphasis>Advanced</emphasis> option in the preferences panel.
+                Minden ügyintéző meghatározhat egy értéket egy beállításhoz a
+<emphasis>Személyes beállítások</emphasis> képernyőn. Amikor ezen a
+képernyőn van, válassza a <emphasis>Speciális</emphasis> lehetőséget a
+beállítások panelen.
             </para>
             <para>
                 <figure>
-                    <title>Accessing the user specific settings</title>
+                    <title>Hozzáférés a felhasználóra jellemző beállításokhoz</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/personal-preferences-group.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Using the navigation widget in the left side bar, select the desired group
-of settings. Then you can change the value for a specific setting and save
-it using the <emphasis>check mark</emphasis> button in the right side of the
-setting widget.
+                A bal oldalsávban lévő navigációs felületi elem használatával válassza ki a
+kívánt beállítási csoportot. Ezután megváltoztathatja egy adott beállítás
+értékét, és elmentheti a <emphasis>pipa</emphasis> gomb használatával a
+beállítás felületi elemének jobb oldalán.
             </para>
             <para>
-                Once you modified a value, it is possible to revert this change using the
-<emphasis>Reset to default</emphasis> icon button present in the right top
-corner of the modified setting widget.
+                Amikor módosított egy értéket, akkor lehetőség van visszaállítani a
+változtatást a <emphasis>Visszaállítás az alapértékre</emphasis> ikongomb
+használatával, amely a módosított beállítás felületi elemének jobb felső
+sarkában található.
             </para>
             <para>
                 <figure>
-                    <title>Reverting a setting to default value</title>
+                    <title>Egy beállítás visszaállítása az alapértelmezett értékre</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/revert-user-setting-value.png"
@@ -61,36 +65,39 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
-            <title>Review user specific settings</title>
+            <title>Felhasználóra jellemző beállítások felülvizsgálata</title>
             <para>
-                When a setting is available for user modification, all users are able to set
-their own values. Depending on the nature of the setting, values can be very
-different among users, and also compared to the original global value. This
-package includes an administrative tool to review and delete user set values
-if needed.
+                Amikor egy beállítás elérhető felhasználói módosításhoz, akkor az összes
+felhasználó képes beállítani a saját értékeit. A beállítás természetétől
+függően az értékek nagyban különbözhetnek a felhasználók között, és
+összehasonlíthatók az eredeti globális értékükkel is. Ez a csomag tartalmaz
+egy adminisztrációs eszközt a felhasználó által beállított értékek
+felülvizsgálatához és törléséhez, ha szükséges.
             </para>
             <para>
-                Click on the <emphasis>Show user settings</emphasis> button from the
-alternative menu on the settings that are enabled to show the
-<emphasis>Review users setting values</emphasis> screen.
+                Kattintson a <emphasis>Felhasználói beállítások megjelenítése</emphasis>
+gombra az alternatív menüben azoknál a beállításoknál, amelyeknél
+engedélyezve van, hogy megjelenjen a <emphasis>Felhasználók beállítási
+értékeinek felülvizsgálata</emphasis> képernyő.
             </para>
             <para>
                 <figure>
-                    <title>Access to user values of a particular setting</title>
+                    <title>Hozzáférés egy adott beállítás felhasználói értékeihez</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/show-user-settings.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                On this screen all of the user specific values for the selected setting will
-be shown. To delete a single value click on the trash can icon in the right
-corner of every setting widget, or delete all user values for this setting
-by clicking on the trash icon in the outer setting widget.
+                Ezen a képernyőn a kiválasztott beállításnak a felhasználóra jellemző összes
+értéke látható lesz. Egy önálló érték törléséhez kattintson a kuka ikonra
+minden egyes beállítás felületi elemének jobb felső sarkában, vagy törölje a
+beállítás összes felhasználói értékét a külső beállítási felületi elem kuka
+ikonjára kattintva.
             </para>
             <para>
                 <figure>
-                    <title>Usage of the user specific values screen</title>
+                    <title>A felhasználóra jellemző értékek képernyő használata</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/review-user-setting-value.png"
@@ -98,27 +105,29 @@ scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
-            <title>Reset globally and locally</title>
+            <title>Visszaállítás globálisan vagy helyileg</title>
             <para>
-                For the settings that are enabled to hold user values <emphasis>Reset
-setting</emphasis> feature has been enhanced to either reset the setting
-completely or just the user values.
+                Azoknál a beállításoknál, amelyek engedélyezve vannak felhasználói értékek
+tárolására, a <emphasis>Beállítások visszaállítása</emphasis> funkció
+továbbfejlesztésre került, hogy vagy teljesen visszaállítsa a beállítást,
+vagy csak a felhasználói értékeket.
             </para>
             <para>
                 <figure>
-                    <title>Access to the setting reset dialog</title>
+                    <title>Hozzáférés a beállítások visszaállítása párbeszédablakhoz</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/reset-setting-system-configuration.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Clicking on the <emphasis>Reset setting</emphasis> button will display a
-dialog showing the possible reset options.
+                A <emphasis>Beállítások visszaállítása</emphasis> gombra kattintva egy
+párbeszédablak jelenik meg a lehetséges visszaállítási lehetőségeket
+ismertetve.
             </para>
             <para>
                 <figure>
-                    <title>Choosing the reset scope</title>
+                    <title>A visszaállítási hatókör kiválasztása</title>
 <screenshot>
 <graphic
 fileref="screenshots/sysconfig-user-settings/reset-setting-system-configuration-overlay.png"
