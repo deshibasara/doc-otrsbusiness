@@ -97,9 +97,9 @@ nem fog adat elveszni.
         <section>
             <title>A külső adatforrás beállítása</title>
             <para>
-                Before an external database can be searched and the results be saved at the
-ticket through the dynamic field, the credentials have to be stored in the
-configuration of the dynamic field.
+                Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők
+lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el
+kell tárolni a dinamikus mező beállításaiban.
             </para>
             <para>
                 <figure>
@@ -334,9 +334,9 @@ belső nevét kell kitölteni a <emphasis>Kulcs</emphasis> mezőben. Az
         <section>
             <title>Történeti adatok tárolása</title>
             <para>
-                This feature offers a functionality to store historical data. For this to
-work it´s necessary to activate and set SysConfig options, as visibly in the
-following screenshot:
+                Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek
+működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és
+beállítása, amint a következő képernyőképen látható:
             </para>
             <para>
                 <figure>
@@ -447,13 +447,15 @@ lehet:
         <section>
             <title>Adathalmazok keresése és mentése - automatikus kiegészítés</title>
             <para>
-                After the created dynamic fields are activated in the well known masks (like
-<literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</literal>) a new text
-field appears with the name, the dynamic field got in the configuration.  In
-this field it is possible to input searchterms and therefore execute a
-search over all configured database fields.  Otherwise do a click on the
-link <emphasis>Detailed search</emphasis> and start a detailed search in
-which the fields to search in are selected explicitly.
+                Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert
+maszkokban (úgymint <literal>ViewPhoneNew</literal>,
+<literal>ViewEmailNew</literal>), egy új szövegmező jelenik meg azzal a
+névvel, amelyet a dinamikus mező a beállításokban kapott. Ebben a mezőben
+lehetséges keresési kifejezések bevitele, és ebből adódóan egy keresés
+végrehajtása az összes beállított adatbázismezőn. Egyébként kattintson a
+<emphasis>Részletes keresés</emphasis> hivatkozásra, és indítson egy
+részletes keresést, amelyben közvetlenül ki vannak választva azok a mezők,
+amelyben keresni kell.
             </para>
             <para>
                 <figure>
@@ -463,10 +465,11 @@ which the fields to search in are selected explicitly.
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                Since search terms are typed in into the text field, a database search will
-be started over the configured columns and the result will displayed via an
-autocompletion below the text field. The more exact the search term is, the
-more exact will be the result (less result entries).
+                Mivel keresési kifejezések lettek begépelve a szövegmezőbe, egy
+adatbázis-keresés lesz elindítva a beállított oszlopokon, és az eredmény egy
+automatikus kiegészítésen keresztül lesz megjelenítve a szövegmező
+alatt. Minél pontosabb a kereséséi kifejezés, annál pontosabb lesz az
+eredmény is (kevesebb találati bejegyzés).
             </para>
             <para>
                 <figure>
@@ -477,9 +480,9 @@ fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"
 scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
-                If the wished value will be displayed in the results, it can be selected via
-a mouse click or via the keyboard and therefore be added to the dynamic
-field results.
+                Ha a kívánt érték megjelenik a találatokban, akkor az kiválasztható egy
+egérkattintással vagy a billentyűzeten keresztül, és ebből adódóan
+hozzáadódik a dinamikus mező találataihoz.
             </para>
             <para>
                 <figure>
@@ -502,9 +505,10 @@ beállított) oszlopról, vagy adatok összehasonlításához használhatók.
         <section>
             <title>Adathalmazok keresése és mentése - részletes keresés</title>
             <para>
-                The link <emphasis>Detailed search</emphasis> opens a new modal dialog to
-start a new database search. In this mask it is possible to select the
-fields to search on explicitly.
+                A <emphasis>Részletes keresés</emphasis> hivatkozás egy új kizárólagos
+párbeszédablakot nyit meg egy új adatbázis-keresés indításához. Ezen a
+maszkon lehetőség van a mezők kiválasztására a kifejezetten azokban való
+kereséshez.
             </para>
             <para>
                 <figure>
@@ -520,11 +524,11 @@ bekapcsolt és kitöltött mezők vannak figyelembe véve a keresésnél. A
 helyettesítő karakterek („*”) minden egyedülálló mezőben megengedettek.
             </para>
             <para>
-                The database search will be executed via the <emphasis>Start
-search</emphasis> button and the results will be tabular displayed.  If the
-search was successful, the results will be listed and one of the entries can
-be selected via a mouse click. The value will be added to the list of saved
-values afterwards.
+                Az adatbázis-keresés a <emphasis>Keresés indítása</emphasis> gombbal kerül
+végrehajtásra, és az eredmények táblázatos megjelenítésűek lesznek. Ha a
+keresés sikeres volt, akkor az eredmények fel lesznek sorolva, és a
+bejegyzések egyike kiválasztható egy egérkattintással. Azután az érték hozzá
+lesz adva az elmentett értékek listájához.
             </para>
             <para>
                 <figure>

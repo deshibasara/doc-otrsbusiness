@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-12-01 10:50+0100\n"
-"PO-Revision-Date: 2017-12-01 09:53+0000\n"
+"PO-Revision-Date: 2017-12-01 14:41+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "Language: hu\n"
@@ -2522,6 +2522,9 @@ msgid ""
 "ticket through the dynamic field, the credentials have to be stored in the "
 "configuration of the dynamic field."
 msgstr ""
+"Mielőtt egy külső adatbázis kereshető lenne, és a találatok elmenthetők "
+"lennének a jegyeknél a dinamikus mezőn keresztül, a hitelesítési adatokat el "
+"kell tárolni a dinamikus mező beállításaiban."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:84
@@ -2887,6 +2890,9 @@ msgid ""
 "work it´s necessary to activate and set SysConfig options, as visibly in the "
 "following screenshot:"
 msgstr ""
+"Ez a funkció a történeti adatok tárolásának funkcionalitását nyújtja. Ennek "
+"működéséhez szükséges a rendszerbeállítási lehetőségek bekapcsolása és "
+"beállítása, amint a következő képernyőképen látható:"
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:277
@@ -3065,6 +3071,14 @@ msgid ""
 "link <emphasis>Detailed search</emphasis> and start a detailed search in "
 "which the fields to search in are selected explicitly."
 msgstr ""
+"Miután a létrehozott dinamikus mezők be lettek kapcsolva a jól ismert "
+"maszkokban (úgymint <literal>ViewPhoneNew</literal>, <literal>ViewEmailNew</"
+"literal>), egy új szövegmező jelenik meg azzal a névvel, amelyet a dinamikus "
+"mező a beállításokban kapott. Ebben a mezőben lehetséges keresési "
+"kifejezések bevitele, és ebből adódóan egy keresés végrehajtása az összes "
+"beállított adatbázismezőn. Egyébként kattintson a <emphasis>Részletes "
+"keresés</emphasis> hivatkozásra, és indítson egy részletes keresést, "
+"amelyben közvetlenül ki vannak választva azok a mezők, amelyben keresni kell."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:379
@@ -3088,6 +3102,11 @@ msgid ""
 "autocompletion below the text field. The more exact the search term is, the "
 "more exact will be the result (less result entries)."
 msgstr ""
+"Mivel keresési kifejezések lettek begépelve a szövegmezőbe, egy adatbázis-"
+"keresés lesz elindítva a beállított oszlopokon, és az eredmény egy "
+"automatikus kiegészítésen keresztül lesz megjelenítve a szövegmező alatt. "
+"Minél pontosabb a kereséséi kifejezés, annál pontosabb lesz az eredmény is "
+"(kevesebb találati bejegyzés)."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:392
@@ -3112,6 +3131,9 @@ msgid ""
 "a mouse click or via the keyboard and therefore be added to the dynamic "
 "field results."
 msgstr ""
+"Ha a kívánt érték megjelenik a találatokban, akkor az kiválasztható egy "
+"egérkattintással vagy a billentyűzeten keresztül, és ebből adódóan "
+"hozzáadódik a dinamikus mező találataihoz."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:404
@@ -3159,6 +3181,10 @@ msgid ""
 "start a new database search. In this mask it is possible to select the "
 "fields to search on explicitly."
 msgstr ""
+"A <emphasis>Részletes keresés</emphasis> hivatkozás egy új kizárólagos "
+"párbeszédablakot nyit meg egy új adatbázis-keresés indításához. Ezen a "
+"maszkon lehetőség van a mezők kiválasztására a kifejezetten azokban való "
+"kereséshez."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:427
@@ -3196,6 +3222,11 @@ msgid ""
 "selected via a mouse click. The value will be added to the list of saved "
 "values afterwards."
 msgstr ""
+"Az adatbázis-keresés a <emphasis>Keresés indítása</emphasis> gombbal kerül "
+"végrehajtásra, és az eredmények táblázatos megjelenítésűek lesznek. Ha a "
+"keresés sikeres volt, akkor az eredmények fel lesznek sorolva, és a "
+"bejegyzések egyike kiválasztható egy egérkattintással. Azután az érték hozzá "
+"lesz adva az elmentett értékek listájához."
 
 #. type: Content of: <section><section><section><para><figure><title>
 #: en/content/features/dynamicfield-database.xml:445
