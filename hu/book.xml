@@ -39,7 +39,7 @@ url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/introduction.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/upgrading.xml" />
     <chapter id="otrs-business-solution-features">
-        <title>Az <emphasis role="bold">OTRS Business Solution</emphasis>™ szolgáltatásai</title>
+        <title>Az <emphasis role="bold">OTRS Business Solution</emphasis>™ funkciói</title>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
@@ -48,6 +48,7 @@ url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink> oldalon.
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-web-service.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/resource-planning.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-attachment-view.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/ticket-timeline-view.xml" />

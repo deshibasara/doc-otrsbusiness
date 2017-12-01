@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="resource-planning">
+    <title>Erőforrástervezés</title>
+
+    <section>
+        <title>Leírás</title>
+        <para>
+            Az <emphasis role="bold">OTRS Business Solution</emphasis>™ szoftverben lévő
+erőforrástervezés funkció az OTRS beépített naptárfunkcióját egészíti
+ki. Továbbfejleszti az eredeti naptár megvalósítását az időpontoknál történő
+erőforráslefoglalás bevezetésével. Ráadásul az erőforrások hozzárendelhetők
+a különálló csapatokhoz, amelyek viszont használhatók az
+erőforrás-áttekintés és -elérhetőség szűréséhez.
+        </para>
+    </section>
+
+    <section>
+        <title>Beállítás</title>
+        <para>
+            További beállítás nem szükséges.
+        </para>
+    </section>
+
+    <section>
+        <title>Használat</title>
+        <section>
+            <title>Csapatkezelés</title>
+            <para>
+                Annak érdekében, hogy képes legyen időpontokat rendelni az erőforrásokhoz,
+először csapatokat kell meghatároznia azokhoz az erőforrásokhoz.
+            </para>
+            <para>
+                <figure>
+                    <title>Csapatkezelés hozzáadás és importálás</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/TeamManagementAddImport.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                A csapatok a felső navigációs menün keresztül elérhető <emphasis>Csapatok
+kezelése</emphasis> képernyőről adhatók hozzá vagy importálhatók. Egy csapat
+importálásához rendelkeznie kell a csapat exportált YML beállítófájljával
+egy meglévő OTRS telepítésből.
+            </para>
+            <para>
+                Új csapat hozzáadása egyszerű: határozzon meg egy csapatnevet és egy
+jogosultsági csoportot. Teljes hozzáférés szükséges ehhez a csoporthoz
+mindenkinek, akinek képesnek kell lennie kezelnie a csapatot, annak
+ügyintézőit, és képesnek kell lennie hozzárendelni őket erőforrásként az
+időpontokhoz.
+            </para>
+            <para>
+                <figure>
+                    <title>Csapatkezelés hozzáadás és importálás</title>
+<screenshot>
+<graphic fileref="screenshots/resource-allocation/TeamManagementEdit.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+        </section>
+
+        <section>
+            <title>Csapat–Ügyintéző kezelés</title>
+            <para>
+                Miután rendelkezik beállított csapatokkal, meg kell határoznia, hogy mely
+ügyintézők mely csapatokhoz tartoznak. Ez egy kifejezetten erre a célra
+készített képernyőn keresztül végezhető el, ahol beállíthatja az ügyintézők
+és a csapatok kapcsolatait nagyon hasonlóan ahhoz, ahogy azt az
+ügyintézőknél és csoportoknál teheti.
+            </para>
+            <note>
+                <para>
+                    Ne feledje, annak érdekében, hogy láthassa az ügyintézőket ezen a képernyőn,
+először meg kell határoznia őket az Adminisztráció &gt; Ügyintézők képernyőn
+keresztül.
+                </para>
+            </note>
+            <para>
+                <figure>
+                    <title>Csapat–Ügyintéző kezelés</title>
+<screenshot>
+<graphic fileref="screenshots/resource-allocation/TeamManagementAgents.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Erről a képernyőről egy csapat kiválasztásával ügyintézőket rendelhet hozzá,
+és fordítva.
+            </para>
+            <para>
+                <figure>
+                    <title>Csapat–Ügyintéző kapcsolatok</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/TeamManagementAgentRelations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+        </section>
+
+        <section>
+            <title>Időpontok hozzárendelése az erőforrásokhoz</title>
+            <para>
+                Végül, amikor a csapatok és az ügyintézőik is be vannak állítva,
+továbbléphet a naptár áttekintőjéhez, és elkezdheti az időpontok
+hozzárendelését a csapatokhoz és az ügyintézőkhöz.
+            </para>
+            <para>
+                Egyszerűen adjon hozzá vagy szerkesszen egy időpontot, és válasszon mind
+csapatot, mind ügyintézőt az erőforrás alatti listákból. Ezt bármely
+naptáráttekintőn keresztül megteheti, mivel az időpontszerkesztő
+párbeszédablak ugyanaz az összes áttekintőnél.
+            </para>
+            <para>
+                <figure>
+                    <title>Csapat és ügyintéző hozzárendelése egy időponthoz</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/AppointmentEditResource.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Több csapatot és ügyintézőt is hozzárendelhet egyetlen időponthoz, de
+először mindig csapatot kell választania. Az eredményül kapott
+ügyintézőlista az összes kiválasztott csapatban lévő ügyintézők sokasága,
+ismétlődések nélkül. Egy ügyintéző választása a listából nem is kötelező,
+így egy időpontot hagyhat csak egy csapathoz rendelten.
+            </para>
+            <para>
+                <figure>
+                    <title>Több csapat és ügyintéző hozzárendelése egy időponthoz</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/AppointmentEditResourceMultiple.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <note>
+                <para>
+                    Amikor egy időpontot rendel egy csapathoz és/vagy ügyintézőhöz, akkor
+győződjön meg arról, hogy elmentette, és a változtatásai alkalmazva lettek.
+                </para>
+            </note>
+        </section>
+
+        <section>
+            <title>Erőforrásáttekintés</title>
+            <para>
+                Míg bármely naptáráttekintőben lehetséges erőforrásokat hozzárendelni egy
+időponthoz, az erőforrásoknak az időpontokhoz történő hozzárendeléséhez egy
+kizárólagos képernyőt terveztek: az erőforrásáttekintőt. Ez a képernyő
+nagyon hasonlóan néz ki, mint egy szokásos naptáráttekintő, kivéve, hogy a
+felső részén rendelkezik egy szűrővel a csapatokhoz és a csapat
+ügyintézőlistájához (csak idővonal nézetekben érhető el).
+            </para>
+            <para>
+                A felső szűrőből egy csapat választásakor megjelenítésre kerül az ahhoz
+rendelt összes időpont.
+            </para>
+            <para>
+                <figure>
+                    <title>Erőforrásáttekintés</title>
+<screenshot>
+<graphic fileref="screenshots/resource-allocation/ResourceOverview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ha egy időpontot egyszerűen ráhúz egy ügyintéző nevét tartalmazó sorra az
+idővonal nézeten, akkor lehetséges egy időpont hozzárendelése ahhoz az
+erőforráshoz. Ha egy időpontnak még nincs hozzárendelt ügyintézője, akkor az
+a képernyő hozzárendeletlen területén jelenik meg.
+            </para>
+            <para>
+                A több ügyintézővel rendelkező időpont kettőzöttként fog megjelenni, de ez
+minden bizonnyal nem. Az időpont egy példányának húzása az összeset ugyanúgy
+áthelyezi.
+            </para>
+            <para>
+                <figure>
+                    <title>Erőforrásáttekintés</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/ResourceOverviewMultiple.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <note>
+                <para>
+                    Ne feledje, hogy a hozzárendeletlen csapatokkal vagy a jelenlegi
+kiválasztástól eltérő hozzárendelt csapatokkal rendelkező időpontok nem
+fognak megjelenni az erőforrásáttekintőben. Át kell váltania egy másik
+áttekintőre, hogy lássa azokat az időpontokat, ezért először arról győződjön
+meg, hogy a megfelelő csapathoz rendelte-e azokat.
+                </para>
+            </note>
+            <para>
+                Az erőforrásáttekintő beállításainak szerkesztésével (a jobb felső sarokban
+lévő fogaskerék ikonon keresztül) kiválaszthatja, hogy mely csapatügyintézők
+legyenek megjelenítve az áttekintőn belül.
+            </para>
+            <para>
+                <figure>
+                    <title>Erőforrásáttekintő beállításai</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/ResourceOverviewSettings.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Ez a beállítás a felhasználóra és a csapatra jellemző, és ha rendelkezik egy
+meghatározott ügyintézőszűrővel ily módon, akkor egy kuka ikon lesz
+megjelenítve az ügyintézőlista tetején, így egyszerűen eltávolíthatja azt.
+            </para>
+            <para>
+                <figure>
+                    <title>Erőforrásáttekintő szűrőjének törlése</title>
+<screenshot>
+<graphic
+fileref="screenshots/resource-allocation/ResourceOverviewFilterDelete.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
+            </para>
+            <para>
+                Minden más szempontból az erőforrásáttekintő képernyő ugyanúgy viselkedik,
+mint a szokásos naptáráttekintő.
+            </para>
+        </section>
+
+    </section>
+
+</section>

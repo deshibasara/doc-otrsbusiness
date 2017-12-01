@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-23 08:37+0100\n"
+"POT-Creation-Date: 2017-12-01 13:34+0100\n"
 "PO-Revision-Date: 2017-03-23 07:37+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/otrs/OTRS/"
@@ -219,6 +219,16 @@ msgstr ""
 #: en/content/features/report-generator.xml:88
 #: en/content/features/report-generator.xml:96
 #: en/content/features/report-generator.xml:104
+#: en/content/features/resource-planning.xml:35
+#: en/content/features/resource-planning.xml:53
+#: en/content/features/resource-planning.xml:76
+#: en/content/features/resource-planning.xml:87
+#: en/content/features/resource-planning.xml:107
+#: en/content/features/resource-planning.xml:120
+#: en/content/features/resource-planning.xml:147
+#: en/content/features/resource-planning.xml:164
+#: en/content/features/resource-planning.xml:183
+#: en/content/features/resource-planning.xml:195
 #: en/content/features/sla-selection-dialog.xml:29
 #: en/content/features/sla-selection-dialog.xml:43
 #: en/content/features/ticket-attachment-view.xml:27
@@ -267,6 +277,16 @@ msgstr "<placeholder type=\"screenshot\" id=\"0\"/>"
 #: en/content/features/report-generator.xml:86
 #: en/content/features/report-generator.xml:94
 #: en/content/features/report-generator.xml:102
+#: en/content/features/resource-planning.xml:33
+#: en/content/features/resource-planning.xml:51
+#: en/content/features/resource-planning.xml:74
+#: en/content/features/resource-planning.xml:85
+#: en/content/features/resource-planning.xml:105
+#: en/content/features/resource-planning.xml:118
+#: en/content/features/resource-planning.xml:145
+#: en/content/features/resource-planning.xml:162
+#: en/content/features/resource-planning.xml:181
+#: en/content/features/resource-planning.xml:193
 #: en/content/features/sla-selection-dialog.xml:27
 #: en/content/features/sla-selection-dialog.xml:41
 #: en/content/features/ticket-attachment-view.xml:25
@@ -352,6 +372,7 @@ msgstr "O Chat"
 #: en/content/features/dynamicfield-database.xml:13
 #: en/content/features/notifications.xml:9
 #: en/content/features/report-generator.xml:9
+#: en/content/features/resource-planning.xml:8
 #: en/content/features/sla-selection-dialog.xml:9
 #: en/content/features/ticket-attachment-view.xml:9
 #: en/content/features/ticket-timeline-view.xml:9
@@ -395,6 +416,7 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:86
 #: en/content/features/dynamicfield-database.xml:27
 #: en/content/features/report-generator.xml:16
+#: en/content/features/resource-planning.xml:18
 #: en/content/features/sla-selection-dialog.xml:16
 #: en/content/features/ticket-attachment-view.xml:16
 #: en/content/features/ticket-timeline-view.xml:16
@@ -1725,6 +1747,7 @@ msgstr ""
 #: en/content/features/dynamicfield-contactwithdata.xml:113
 #: en/content/features/dynamicfield-database.xml:361
 #: en/content/features/report-generator.xml:23
+#: en/content/features/resource-planning.xml:25
 #: en/content/features/sla-selection-dialog.xml:23
 #: en/content/features/ticket-attachment-view.xml:23
 #: en/content/features/ticket-timeline-view.xml:34
@@ -3041,6 +3064,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/features/report-generator.xml:18
+#: en/content/features/resource-planning.xml:20
 #: en/content/features/sla-selection-dialog.xml:18
 #: en/content/features/ticket-attachment-view.xml:18
 msgid "No further configuration needed."
@@ -3228,6 +3252,355 @@ msgid ""
 msgstr ""
 "<graphic fileref=\"screenshots/report-generator/ReportResultStats.png\" "
 "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><title>
+#: en/content/features/resource-planning.xml:5
+msgid "Resource Planning"
+msgstr ""
+
+#. type: Content of: <section><section><para>
+#: en/content/features/resource-planning.xml:10
+msgid ""
+"Resource planning feature in OTRS Business Solution™ complements built-in "
+"calendar feature of OTRS. It enhances original calendar implementation by "
+"introducing resource allocation for appointments. Furthermore, resources can "
+"be assigned to separate teams, which in turn can be used to filter resource "
+"overview and availability."
+msgstr ""
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/resource-planning.xml:27
+#, fuzzy
+#| msgid "Contact Management"
+msgid "Team Management"
+msgstr "Gerenciamento de contato"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:29
+msgid ""
+"In order to be able to assign appointments to resources, you must first "
+"define teams for those resources."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:34
+#: en/content/features/resource-planning.xml:52
+msgid "Team Management Add and Import"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:36
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementAddImport."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:41
+msgid ""
+"Teams can be added or imported from Manage Teams screen accessible via top "
+"navigation menu. In order to import a team, you must have an exported YML "
+"configuration file of the team from an existing OTRS installation."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:46
+msgid ""
+"Adding new team is easy: just define a team name and permission group. Full "
+"access to this group is required for anyone to be able to manage the team, "
+"its agents and assign them as resources to appointments."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:54
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementEdit.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:61
+#: en/content/features/resource-planning.xml:75
+#, fuzzy
+#| msgid "Contact Management"
+msgid "Team Agent Management"
+msgstr "Gerenciamento de contato"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:63
+msgid ""
+"Once you have teams set up, you must define which agents belong to which "
+"teams. This is done via dedicated screen where you can adjust relations of "
+"agents and teams very much like you can do it for agents and groups."
+msgstr ""
+
+#. type: Content of: <section><section><section><note><para>
+#: en/content/features/resource-planning.xml:69
+msgid ""
+"Please note that in order to see agents in this screen, you must define them "
+"first via Admin &gt; Agents screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:77
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/TeamManagementAgents.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:82
+msgid ""
+"By choosing a team from this screen, you can assign agents to it, and vice-"
+"versa."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:86
+#, fuzzy
+#| msgid "Translations"
+msgid "Team Agent Relations"
+msgstr "Tradução"
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:88
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" "
+#| "width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"TeamManagementAgentRelations.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/chat/ChatManager.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><title>
+#: en/content/features/resource-planning.xml:95
+msgid "Assigning Appointments to Resources"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:97
+msgid ""
+"Finally, once you have both teams and their agents set up, you can proceed "
+"to a calendar overview and start assigning appointments to teams and agents."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:101
+msgid ""
+"Simply add or edit an appointment, and choose both team and agent from the "
+"lists under resource. You can do this via any calendar overview, as "
+"appointment edit dialog is the same for all of them."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:106
+msgid "Assigning team and agent to an appointment"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:108
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/AppointmentEditResource."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/notifications/AgentPreferences.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:113
+msgid ""
+"You can assign multiple teams and agents to a single appointment, but you "
+"must always choose a team first. Resulting list of agents is an aggregate of "
+"all selected teams, without any duplicates. Choosing an agent from the list "
+"is also optional, so you can leave an appointment assigned only to a team."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:119
+msgid "Assigning multiple teams and agents to an appointment"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:121
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"AppointmentEditResourceMultiple.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/report-generator/ReportResultToC.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><note><para>
+#: en/content/features/resource-planning.xml:127
+msgid ""
+"Once you assign an appointment to a team and/or agent, make sure to save it "
+"so your changes are applied."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:134
+#: en/content/features/resource-planning.xml:146
+#: en/content/features/resource-planning.xml:163
+msgid "Resource Overview"
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:136
+msgid ""
+"While it's possible to assign resources to an appointment in any calendar "
+"overview, one screen is designed exclusively for allocating resources to "
+"appointments: Resource Overview. This screen looks very much like a regular "
+"calendar overview, except it has a filter for teams on top and a list of "
+"agents for that team (available only in timeline views)."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:142
+msgid ""
+"By choosing a team from the top filter, you will be presented with all "
+"appointments assigned to it."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:148
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/report-generator/ReportGeneral.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:153
+msgid ""
+"By simply dragging an appointment to a row line with an agent's name in "
+"timeline view, it's possible to assign an appointment to this resource. If "
+"an appointment does not have an agent assigned to it, it will appear in the "
+"unassigned area of the screen."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:158
+msgid ""
+"Appointment with multiple agents will be displayed as duplicated, but it "
+"most certainly is not. Dragging one instance of this appointment will move "
+"all them in the same fashion."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:165
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewMultiple."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/report-generator/ReportOutput.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><note><para>
+#: en/content/features/resource-planning.xml:171
+msgid ""
+"Please note that appointments with unassigned teams or assigned different "
+"team than currently selected, will not show up in the resource overview. You "
+"will have to switch to a different overview to see these appointments, so "
+"make sure to assign them to a correct team first."
+msgstr ""
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:177
+msgid ""
+"By editing settings of the resource overview (via gear icon in top right "
+"corner), you can choose which team agents are displayed within the overview."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:182
+msgid "Resource Overview Settings"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:184
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" "
+#| "scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/ResourceOverviewSettings."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/notifications/CloudServiceSMS.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:189
+msgid ""
+"This setting is user and team specific, and if you have defined an agent "
+"filter in this way, a trash icon will be displayed on top of the list of "
+"agents so you can remove it easily."
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><title>
+#: en/content/features/resource-planning.xml:194
+msgid "Resource Overview Filter Delete"
+msgstr ""
+
+#. type: Content of: <section><section><section><para><figure><screenshot>
+#: en/content/features/resource-planning.xml:196
+#, fuzzy
+#| msgid ""
+#| "<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png"
+#| "\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+msgid ""
+"<graphic fileref=\"screenshots/resource-allocation/"
+"ResourceOverviewFilterDelete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
+msgstr ""
+"<graphic fileref=\"screenshots/report-generator/ReportResultPreamble.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
+
+#. type: Content of: <section><section><section><para>
+#: en/content/features/resource-planning.xml:201
+msgid ""
+"In all other aspects, resource overview screen behaves in the same way as a "
+"regular calendar overview."
+msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/features/sla-selection-dialog.xml:6
