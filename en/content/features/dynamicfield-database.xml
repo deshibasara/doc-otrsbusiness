@@ -78,7 +78,8 @@
             <para>
                 Before an external database can be searched and the results be saved at the ticket through the dynamic field,
                 the credentials have to be stored in the configuration of the dynamic field.
-
+            </para>
+            <para>
                 <figure>
                     <title>Dynamic Field Database Admin screen</title>
                     <screenshot>
@@ -270,7 +271,8 @@
             <para>
                 This feature offers a functionality to store historical data. For this to work it´s necessary to activate and set SysConfig options,
                 as visibly in the following screenshot:
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Historical data settings</title>
                     <screenshot>
@@ -371,7 +373,8 @@
                 In this field it is possible to input searchterms and therefore execute a search over all configured database fields.
                 Otherwise do a click on the link <emphasis>Detailed search</emphasis> and start a detailed search in which the fields to search in are selected
                 explicitly.
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Test field</title>
                     <screenshot>
@@ -383,7 +386,8 @@
                 Since search terms are typed in into the text field, a database search will be started over the configured columns and the
                 result will displayed via an autocompletion below the text field. The more exact the search term is, the more exact will be
                 the result (less result entries).
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Autocomplete feature</title>
                     <screenshot>
@@ -394,7 +398,8 @@
             <para>
                 If the wished value will be displayed in the results, it can be selected via a mouse click or via the keyboard and
                 therefore be added to the dynamic field results.
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Selected items</title>
                     <screenshot>
@@ -416,7 +421,8 @@
             <para>
                 The link <emphasis>Detailed search</emphasis> opens a new modal dialog to start a new database search. In this mask it is possible
                 to select the fields to search on explicitly.
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Detailed search</title>
                     <screenshot>
@@ -433,7 +439,8 @@
                 The database search will be executed via the <emphasis>Start search</emphasis> button and the results will be tabular displayed.
                 If the search was successful, the results will be listed and one of the entries can be selected via a mouse click. The
                 value will be added to the list of saved values afterwards.
-
+            </para>
+            <para>
                 <figure>
                     <title>DynamicField Database - Detailed search result</title>
                     <screenshot>
