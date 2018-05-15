@@ -46,7 +46,6 @@
         <title>Features of <emphasis role="bold">OTRS Business Solution</emphasis>™</title>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/chat.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/video-calls.xml" />
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-contactwithdata.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-database.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/dynamicfield-webservice.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/import-example-process.xml" />
@@ -54,7 +53,6 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/notifications.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/report-generator.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/resource-planning.xml" />
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sla-selection-dialog.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sms-communication-channel.xml" />
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/features/sysconfig-history.xml" />
     </chapter>
