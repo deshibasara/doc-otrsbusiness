@@ -175,9 +175,9 @@ Requester:
       MappingInbound:
         Config:
           Template: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!--\r\nCopyright
-            (C) 2001-2017 OTRS AG, http://otrs.com/\r\nThis software comes with ABSOLUTELY
+            (C) 2001-2018 OTRS AG, https://otrs.com/\r\nThis software comes with ABSOLUTELY
             NO WARRANTY. For details, see\r\nthe enclosed file COPYING for license
-            information (AGPL). If you\r\ndid not receive this file, see http://www.gnu.org/licenses/agpl.txt.\r\n-->\r\n\r\n<!--
+            information (GPL). If you\r\ndid not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.\r\n-->\r\n\r\n<!--
             DOKUMENTÁCIÓ\r\n\r\n* Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
             Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
@@ -199,10 +199,10 @@ Requester:
       MappingOutbound:
         Config:
           Template: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!--\r\nCopyright
-            (C) 2001-2017 OTRS AG, http://otrs.com/\r\n\r\nThis software comes with
+            (C) 2001-2018 OTRS AG, https://otrs.com/\r\n\r\nThis software comes with
             ABSOLUTELY NO WARRANTY. For details, see\r\nthe enclosed file COPYING
-            for license information (AGPL). If you\r\ndid not receive this file, see
-            http://www.gnu.org/licenses/agpl.txt.\r\n-->\r\n\r\n<!-- DOKUMENTÁCIÓ\r\n\r\n*
+            for license information (GPL). If you\r\ndid not receive this file, see
+            https://www.gnu.org/licenses/gpl-3.0.txt.\r\n-->\r\n\r\n<!-- DOKUMENTÁCIÓ\r\n\r\n*
             Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
             Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
