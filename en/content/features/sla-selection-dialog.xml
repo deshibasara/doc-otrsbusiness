@@ -27,7 +27,7 @@
                 <figure>
                     <title>SLA configuration</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png"></graphic>
+                         <graphic fileref="screenshots/fieldselection-dialog/FieldSelectionConfiguration.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -41,7 +41,7 @@
                 <figure>
                     <title>SLA message</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png"></graphic>
+                         <graphic fileref="screenshots/fieldselection-dialog/FieldSelectionMessage.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

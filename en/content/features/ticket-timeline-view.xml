@@ -31,7 +31,7 @@
                 <figure>
                     <title>Switching to the ticket timeline view</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/timeline-view/TimelineViewSwitch.png"></graphic>
+                         <graphic fileref="screenshots/timeline-view/TimelineViewSwitch.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -45,7 +45,7 @@
                 <figure>
                     <title>Using the ticket timeline view</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/timeline-view/TimelineViewZoom.png"></graphic>
+                         <graphic fileref="screenshots/timeline-view/TimelineViewZoom.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

@@ -76,7 +76,7 @@
                 <figure>
                     <title>The chat managing screen</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatManager.jpeg"></graphic>
+                         <graphic fileref="screenshots/chat/ChatManager.jpeg" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -94,7 +94,7 @@
                 <figure>
                     <title>The chat widget</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatWidget.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatWidget.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -109,7 +109,7 @@
                 <figure>
                     <title>Start a chat</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatStartWidget.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatStartWidget.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -133,7 +133,7 @@
                 <figure>
                     <title>The chat actions</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/chat/ChatIcons.png"></graphic>
+                         <graphic fileref="screenshots/chat/ChatIcons.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

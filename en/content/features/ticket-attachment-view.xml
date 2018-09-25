@@ -27,7 +27,7 @@
                 <figure>
                     <title>Switching to the article attachment overview</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/attachment-view/AttachmentsNavigation.png"></graphic>
+                         <graphic fileref="screenshots/attachment-view/AttachmentsNavigation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -38,7 +38,7 @@
                 <figure>
                     <title>Using the article attachment overview</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/attachment-view/AttachmentsScreen.png"></graphic>
+                         <graphic fileref="screenshots/attachment-view/AttachmentsScreen.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

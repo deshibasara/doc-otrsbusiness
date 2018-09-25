@@ -70,7 +70,7 @@
                 <figure>
                     <title>DynamicField Database Admin screen</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/AdminOverview.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/AdminOverview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -206,7 +206,7 @@
                 <figure>
                     <title>DynamicField Database - Historical data settings</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/SysConfigStoreHistoricalData.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -292,7 +292,7 @@
                 <figure>
                     <title>DynamicField Database - Test field</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/SearchFieldEmpty.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -304,7 +304,7 @@
                 <figure>
                     <title>DynamicField Database - Autocomplete feature</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/SearchFieldAutoCompletion.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -315,7 +315,7 @@
                 <figure>
                     <title>DynamicField Database - Selected items</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/SearchFieldSelected.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/SearchFieldSelected.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -337,7 +337,7 @@
                 <figure>
                     <title>DynamicField Database - Detailed search</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchMask.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/DetailedSearchMask.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -354,7 +354,7 @@
                 <figure>
                     <title>DynamicField Database - Detailed search result</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfield-database/DetailedSearchResult.png"></graphic>
+                         <graphic fileref="screenshots/dynamicfield-database/DetailedSearchResult.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
