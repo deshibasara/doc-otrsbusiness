@@ -142,7 +142,7 @@ az állapotot és a várólistát, mint a mező lehetséges értékeit.
 Debugger:
   DebugThreshold: debug
   TestMode: '0'
-Description: Webszolgáltatás dinamikus mező teszt
+Description: Dynamic Field Web Service Test
 FrameworkVersion: 6.0.x git
 Provider:
   ErrorHandling: {}
@@ -170,7 +170,7 @@ Requester:
   ErrorHandlingPriority: []
   Invoker:
     TicketGet:
-      Description: Lehetséges értékek lekérése a másik oldalról.
+      Description: Get possible values from the other side.
       Events: []
       MappingInbound:
         Config:
@@ -178,8 +178,8 @@ Requester:
             (C) 2001-2018 OTRS AG, https://otrs.com/\r\nThis software comes with ABSOLUTELY
             NO WARRANTY. For details, see\r\nthe enclosed file COPYING for license
             information (GPL). If you\r\ndid not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.\r\n-->\r\n\r\n<!--
-            DOKUMENTÁCIÓ\r\n\r\n* Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
-            Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
+            DOCUMENTATION\r\n\r\n* Example XML Input *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
+            Example XML Output *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
             \       <Key>???</Key>\r\n        <Value>???</Value>\r\n    </PossibleValues>\r\n
             \   ...\r\n</RootElement>\r\n\r\n-->\r\n\r\n\r\n<xsl:transform\r\n    xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\r\n
@@ -187,7 +187,7 @@ Requester:
             \   extension-element-prefixes=\"date\">\r\n    \r\n    <xsl:output method=\"xml\"
             encoding=\"utf-8\" indent=\"yes\" />\r\n    \r\n    <!-- Don't return
             unmatched tags -->\r\n    <xsl:template match=\"text()\" />\r\n    \r\n
-            \   <!-- Üres elemek eltávolítása -->\r\n    <xsl:template match=\"*[not(node())]\"
+            \   <!-- Remove empty elements -->\r\n    <xsl:template match=\"*[not(node())]\"
             />\r\n    \r\n    <!-- Root template -->\r\n    <xsl:template match=\"/\">\r\n
             \       <RootElement>\r\n            <xsl:apply-templates />\r\n        </RootElement>\r\n
             \   </xsl:template>\r\n\r\n    <xsl:template match=\"/*/Ticket\">\r\n
@@ -202,19 +202,19 @@ Requester:
             (C) 2001-2018 OTRS AG, https://otrs.com/\r\n\r\nThis software comes with
             ABSOLUTELY NO WARRANTY. For details, see\r\nthe enclosed file COPYING
             for license information (GPL). If you\r\ndid not receive this file, see
-            https://www.gnu.org/licenses/gpl-3.0.txt.\r\n-->\r\n\r\n<!-- DOKUMENTÁCIÓ\r\n\r\n*
-            Példa XML bemenet *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
-            Példa XML kimenet *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
+            https://www.gnu.org/licenses/gpl-3.0.txt.\r\n-->\r\n\r\n<!-- DOCUMENTATION\r\n\r\n*
+            Example XML Input *\r\n<RootElement>\r\n    ...\r\n</RootElement>\r\n\r\n\r\n*
+            Example XML Output *\r\n<RootElement>\r\n    <PossibleValues>\r\n        <Key>???</Key>\r\n
             \       <Value>???</Value>\r\n    </PossibleValues>\r\n    <PossibleValues>\r\n
             \       <Key>???</Key>\r\n        <Value>???</Value>\r\n    </PossibleValues>\r\n
             \   ...\r\n</RootElement>\r\n\r\n-->\r\n\r\n<xsl:transform\r\n    xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\r\n
             \   xmlns:date=\"http://exslt.org/dates-and-times\"\r\n    version=\"1.0\"\r\n
             \   extension-element-prefixes=\"date\">\r\n    <xsl:output method=\"xml\"
-            encoding=\"utf-8\" indent=\"yes\" />\r\n\r\n    <!-- Ne adja vissza a páratlan
-            címkéket -->\r\n    <xsl:template match=\"text()\" />\r\n\r\n    <!-- Üres
-            elemek eltávolítása -->\r\n    <xsl:template match=\"*[not(node())]\" />\r\n\r\n
-            \   <!-- Gyökérsablon -->\r\n    <xsl:template match=\"/\">\r\n        <RootElement>\r\n
-            \           <UserLogin>felhasználó</UserLogin>\r\n            <Password>jelszó</Password>\r\n
+            encoding=\"utf-8\" indent=\"yes\" />\r\n\r\n    <!-- Don't return unmatched
+            tags -->\r\n    <xsl:template match=\"text()\" />\r\n\r\n    <!-- Remove
+            empty elements -->\r\n    <xsl:template match=\"*[not(node())]\" />\r\n\r\n
+            \   <!-- Root template -->\r\n    <xsl:template match=\"/\">\r\n        <RootElement>\r\n
+            \           <UserLogin>someuser</UserLogin>\r\n            <Password>somepassword</Password>\r\n
             \           <TicketID>1</TicketID>\r\n        </RootElement>\r\n    </xsl:template>\r\n\r\n</xsl:transform>"
         Type: XSLT
       Type: Generic::PassThrough
